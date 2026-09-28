@@ -1,0 +1,17 @@
+{
+ "bg": {
+  "n_works": 259716,
+  "n_w_year_missing_used_design_weight": 0,
+  "low_conf_topic_share_raw": 0.04156463213664156,
+  "low_conf_topic_share_weighted": 0.12108702425457929,
+  "mean_tags_per_work": 5.746034129587703,
+  "weighted_vs_frame_max_abs_rel_dev": 0.0
+ },
+ "tag_share_in_concepts_parquet": 1.0,
+ "tag_share_in_bg_sample": 0.9885276984637157,
+ "n_twin_concepts": 22,
+ "n_twin_ids": 22,
+ "works_vs_table_yearly_count_agreement": 1.0,
+ "n_primary_rows": 92063,
+ "n_primary_unique_works": 89831
+}
