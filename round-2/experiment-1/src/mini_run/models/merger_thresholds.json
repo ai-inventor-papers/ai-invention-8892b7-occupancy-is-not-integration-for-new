@@ -1,0 +1,24 @@
+{
+ "p_merge": 0.8055,
+ "p_merge_strict": 0.8139,
+ "components": {
+  "d3_p90": 0.5415,
+  "mesh_p90": 0.8055,
+  "d3_p97": 0.7442,
+  "mesh_p97": 0.8139
+ },
+ "config": {
+  "C": 0.03,
+  "oof_auc_all": 0.8058198924731182,
+  "oof_auc_mesh": 0.7609669447018844,
+  "oof_auc_d3": 0.9006045519203414,
+  "oof_best_f1_d3": 0.8435374149659863
+ },
+ "model_sha256": "417d3eb73fe4b18f0ceb14fec76a1a6ac85040f41ae3e6bf676b445f9e74902b",
+ "d3only_threshold": 0.5216,
+ "oof_f1_d3_at_threshold": {
+  "primary": 0.5,
+  "d3_only": 0.8296296296296297
+ },
+ "frozen_utc": "2026-09-28T22:41:25Z"
+}

@@ -1,0 +1,80 @@
+{
+ "classifier_test": {
+  "n": 300,
+  "f1": 0.8176795580110497,
+  "f1_ci": [
+   0.7724520699235534,
+   0.8549388685744942
+  ],
+  "auc": 0.8878933861600108,
+  "f1_majority": 0.715203426124197,
+  "f1_llmA": 0.9011627906976745,
+  "dF1_vs_majority_ci": [
+   0.06223226194054897,
+   0.14577380150007135
+  ],
+  "dF1_vs_llmA_ci": [
+   -0.12683231223054228,
+   -0.03873541651069355
+  ]
+ },
+ "classifier_placebo_permuted_labels": {
+  "auc": 0.5279366079870335,
+  "dF1_vs_majority_ci": [
+   -0.14359592951657488,
+   -0.04121253146247755
+  ]
+ },
+ "merger_d3_test": {
+  "n": 115,
+  "f1": 0.35714285714285715,
+  "auc": 0.8269712140175219,
+  "f1_cos_baseline": 0.6758620689655173
+ },
+ "merger_heldout_mesh": {
+  "n": 769,
+  "f1": 0.2222222222222222,
+  "auc": 0.813828334774496,
+  "f1_cos_baseline": 0.6310013717421125
+ },
+ "population": {
+  "MAIN": 156,
+  "MAIN_equals_list": true,
+  "STRICT": 147,
+  "REFERENCE_ACCEPTED": 42,
+  "accepted_primary_all": 388,
+  "accepted_primary_main": 346,
+  "unlinked_main": 312,
+  "sha256_recomputed": "6a887fb44d3a72951abbc647cb08a5be39081601e0e2647922376dcd40075505"
+ },
+ "rejection_vs_sense_fail": {
+  "table": [
+   [
+    4,
+    7
+   ],
+   [
+    17,
+    156
+   ]
+  ],
+  "fisher_p": 0.024615346530325554,
+  "placebo_share_p_lt_0.05": 0.024
+ },
+ "frame_silver": {
+  "n": 426,
+  "f1_vs_adjudicated": 0.9579617834394905,
+  "n_disagree": 43,
+  "f1_placebo_permuted": 0.9222929936305733
+ },
+ "sense_proxy": {
+  "n_overlap": 95,
+  "oa_fail": 6,
+  "proxy_fail": 0
+ },
+ "linker_minilm": {
+  "tau": 0.95,
+  "recall_at_tau": 0.4036666666666667
+ },
+ "llm_spend_usd": 0.0530863
+}
