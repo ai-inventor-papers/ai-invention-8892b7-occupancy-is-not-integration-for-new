@@ -1,0 +1,271 @@
+{
+  "valid": true,
+  "file_errors": [],
+  "schema_errors": [],
+  "content_warnings": [],
+  "files_found": {
+    "research_out.json": {
+      "exists": true,
+      "path": "./research_out.json",
+      "source_count": 81,
+      "size": 55814
+    }
+  },
+  "source_count": 81,
+  "checked_at": "2026-09-28T12:00:37.058960+00:00",
+  "passage_check_scope": "Case/whitespace-normalized text occurrence at the source URL (or archive fallback). Not claim entailment, locator verification, or author/year verification. status=error means unverified, not a misquotation.",
+  "passages": [
+    {
+      "source_index": 1,
+      "source_url": "https://arxiv.org/pdf/2606.03919",
+      "quote": "almost no explanatory power for endogenous citation activity",
+      "locator": "Sec. 5.1",
+      "status": "valid",
+      "context": "...kedly across tasks, revealing asymmetries in the underlying conceptual dynamics. the model exhibits almost no explanatory power for endogenous citation activity (𝑅2 test = 0.0179), suggesting that self-referential reinforcement within a focal concept pair own ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 1,
+      "source_url": "https://arxiv.org/pdf/2606.03919",
+      "quote": "the exogenous count task achieves strong and consistent predictive power",
+      "locator": "Sec. 5.1",
+      "status": "valid",
+      "context": "...ignal reflecting local idiosyncracy rather than systematic self-reinforcing processes. in contrast, the exogenous count task achieves strong and consistent predictive power (𝑅2 test = 0.78). this indicates the exogenous diffusion of concepts – propagating into papers that...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 1,
+      "source_url": "https://arxiv.org/pdf/2606.03919",
+      "quote": "Growth-normalised targets; stratified 80/20 train–test split; Optuna-tuned",
+      "locator": "Table 2 caption",
+      "status": "valid",
+      "context": "...978 pair–years): each row has a complete five-year downstream window in the 2023 openalex snapshot. growth-normalised targets; stratified 80/20 train–test split; optuna-tuned lightgbm. task train r² test r² train mae test mae train rmsle test rmsle endo. count 0.0218 0.0179...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 2,
+      "source_url": "https://arxiv.org/pdf/1404.3757",
+      "quote": "as its sticking factor divided by its sparking factor",
+      "locator": "Results",
+      "status": "valid",
+      "context": "...already contains the meme (“sparking”). formally, we deﬁne the propagation score for a given meme m as its sticking factor divided by its sparking factor. the sticking factor quantiﬁes the degree to which a meme repli- cates in a publication that cites ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 3,
+      "source_url": "https://arxiv.org/abs/physics/0502067",
+      "quote": "We estimate the effectiveness of adoption of the idea in the three communities",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...antage of having been studied historically in great detail, which allows validation of our results. we estimate the effectiveness of adoption of the idea in the three communities and find values for parameters reflecting both intentional social organization and long lifetimes f...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 4,
+      "source_url": "https://arxiv.org/abs/1604.00696",
+      "quote": "mainly act as sources of the diaspora",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...orical and political events. noticeably, only a few areas -- like medicine, physics or chemistry -- mainly act as sources of the diaspora, whereas areas like material science, chemical engineering, neuroscience, immunology and microbiolo...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 5,
+      "source_url": "https://arxiv.org/abs/0905.3585",
+      "quote": "they face difficulties to overcome disciplinary boundaries",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...n the order of 4 to 15.5 years support the view that, whilst research topics may grow very quickly, they face difficulties to overcome disciplinary boundaries. comments: | 15 pages, 4 figures, 1 table ---|--- subjects: | physics and society (physics.soc-ph) ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 8,
+      "source_url": "https://journals.sagepub.com/doi/10.1177/00031224231166955",
+      "quote": "fit with extant research traditions",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...ated authors, achieve consistent intellectual usage, are associated with other prominent ideas, and fit with extant research traditions. these ecological conditions play an increasingly decisive role later in an idea’s career, after th...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 11,
+      "source_url": "https://arxiv.org/pdf/0708.2090",
+      "quote": "take the minimum of the pairwise conditional probabilities",
+      "locator": "p. 3",
+      "status": "valid",
+      "context": "...t (rca<1), given that the country has comparative advantage in good j at time t, and vice versa. we take the minimum of the pairwise conditional probabilities to have a stringent and symmetric measure, 3 ( ) ( ) { } t i t j t j t i t j i rcax rcax p rcax rca...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 12,
+      "source_url": "https://arxiv.org/pdf/1602.08409",
+      "quote": "significantly more accurate predictor of the fields that",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "... probability that an individual has published in both of them. we find that the research space is a significantly more accurate predictor of the fields that individuals and organizations will enter in the future than citation based science maps. at the cou...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 16,
+      "source_url": "https://pdodds.w3.uvm.edu/research/papers/others/2012/ugander2012a.pdf",
+      "quote": "rather than by the actual size of the neighborhood",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...tightly controlled by the number of connected components in an individual’s contact neigh- borhood, rather than by the actual size of the neighborhood. sur- prisingly, once this “structural diversity” is controlled for, the size of the contact neighb...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 17,
+      "source_url": "https://arxiv.org/pdf/1306.0158",
+      "quote": "about seven times as precise as random guess and over three times as precise as prediction",
+      "locator": "Results",
+      "status": "valid",
+      "context": "... memes (fig. 5). for example, when detecting the most viral memes by users (θu = 90), our method is about seven times as precise as random guess and over three times as precise as prediction without community features. we achieve a recall over 350% better than random guess and over 200% be...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 18,
+      "source_url": "https://arxiv.org/pdf/q-bio/0502035",
+      "quote": "connector hubs, i.e., hubs with many links to most of the other modules",
+      "locator": "p. 3-4",
+      "status": "valid",
+      "context": "...rovincial hubs. i.e., hub nodes with the vast majority of links within their module (p ≤0.30); (r6) connector hubs, i.e., hubs with many links to most of the other modules (0.30 < p ≤ 0.75); and (r7) kinless hubs, i.e., hubs with links homogeneously distributed among all...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 21,
+      "source_url": "https://arxiv.org/pdf/2310.01046",
+      "quote": "only 3% contain AI-related keywords",
+      "locator": "Sec. 3.1",
+      "status": "valid",
+      "context": "... the period mentioned as illustrated in fig. 1. therefore, among all this research in neuroscience, only 3% contain ai-related keywords. the inset of this figure exhibits especially a slow growth of the share of ai-related publications...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 22,
+      "source_url": "https://arxiv.org/abs/2507.01651",
+      "quote": "remain confined in the different subfields and are not transferred from one subfield to another",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...is of the underlying citation network of the studied corpus shows that the produced ai technologies remain confined in the different subfields and are not transferred from one subfield to another. this invites us to discuss the genericity capability of ai in the context of an intradisciplinary ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 25,
+      "source_url": "https://arxiv.org/abs/2302.13054",
+      "quote": "interdisciplinary explorers who pioneer new fields",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...ver longer distances. we identify two types of researchers from their individual mobility patterns: interdisciplinary explorers who pioneer new fields, and exploiters who are more likely to stay within their specific areas of expertise. our results s...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 27,
+      "source_url": "https://arxiv.org/pdf/2210.00881",
+      "quote": "outperform methods that attempt to learn features",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "...those that automatically learn features. we found that models using carefully hand-crafted features outperform methods that attempt to learn features autonomously. this (somewhat surprising) ﬁnding indicates a great potential for improvements of mod...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 28,
+      "source_url": "https://arxiv.org/pdf/2402.08640",
+      "quote": "There are 21,165,421 out of 92,764,635 papers",
+      "locator": "Fig. 1 caption",
+      "status": "valid",
+      "context": "...print servers. edges are formed when concepts are investigated jointly in a scientific publication. there are 21,165,421 out of 92,764,635 papers from openalex which form at least one edge. the edges are augmented with citation information, whic...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 29,
+      "source_url": "https://arxiv.org/abs/1912.08928",
+      "quote": "outperformed four alternative approaches in terms of both precision and recall",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...ask. augur was evaluated on a gold standard of 1,408 debutant topics in the 2000-2011 timeframe and outperformed four alternative approaches in terms of both precision and recall. comments: | this dissertation is submitted for the degree of doctor of philosophy ---|--- subjects...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 35,
+      "source_url": "https://arxiv.org/pdf/1412.6683",
+      "quote": "More coherence can be interpreted as an increase in integration",
+      "locator": "Sec. 2",
+      "status": "valid",
+      "context": "... and of diffusion. however, for coherence the interpretation differs for integration and diffusion. more coherence can be interpreted as an increase in integration (because knowledge has become more related). in the case of diffusion, more coherence does not mean...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 37,
+      "source_url": "https://arxiv.org/pdf/1807.04115",
+      "quote": "Using Rao-Stirling (RS) Diversity produces sometimes anomalous results.",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...nition and measurement continue to constrain a consensus on the measurement of interdisciplinarity. using rao-stirling (rs) diversity produces sometimes anomalous results. we argue that these unexpected outcomes can be related to the use of “dual-concept diversity” which...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 39,
+      "source_url": "https://arxiv.org/abs/2101.08293",
+      "quote": "only about 25% of new MeSH descriptors correspond to new emerging concepts",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...nt types of new descriptors introduced in mesh during the last fifteen years. the results show that only about 25% of new mesh descriptors correspond to new emerging concepts, whereas the rest were previously covered by one or more existing descriptors, either implicitly or...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 42,
+      "source_url": "https://arxiv.org/abs/2506.15959",
+      "quote": "Atypicality is characteristic of work that extends established concepts into new topical areas",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...tually distant areas, and disruption. we demonstrate that these metrics capture distinct processes. atypicality is characteristic of work that extends established concepts into new topical areas (a form of cross-topic recombination). disruption, in contrast, signifies the replacement of a domi...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 44,
+      "source_url": "https://help.openalex.org/data/topics/",
+      "quote": "works that cite each other frequently land in the same cluster",
+      "locator": "Topics page",
+      "status": "valid",
+      "context": "...tions and clustered them by [citation relationships](https://en.wikipedia.org/wiki/citation_graph): works that cite each other frequently land in the same cluster, and those clusters correspond to real research communities. a large language model then generated ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 46,
+      "source_url": "https://help.openalex.org/data/concepts/",
+      "quote": "New works are not tagged with them",
+      "locator": "Concepts page",
+      "status": "valid",
+      "context": "...oncepts) field on works still work, but concepts are frozen — no longer recomputed or expanded — so new works are not tagged with them and the concept tree is not maintained. use [topics](/data/topics/) (and the [aboutness](/data/abou...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 47,
+      "source_url": "https://help.openalex.org/api/deprecations/",
+      "quote": "The legacy corpus controls are deprecated in favor of the first-class",
+      "locator": "include_xpac section",
+      "status": "valid",
+      "context": "...ith multiple current affiliations. ### `include_xpac` parameter and `is_xpac` filter > **warning:** the legacy corpus controls are deprecated in favor of the first-class `corpus` parameter (added august 2026). they still work, but new code should use `corpus=` — and a ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 49,
+      "source_url": "https://help.openalex.org/api/filtering/",
+      "quote": "You can combine up to 100 values with",
+      "locator": "OR section",
+      "status": "valid",
+      "context": "...1371/journal.pone.0266781|https://doi.org/10.1371/journal.pone.0267149 > **warning:** **or limit:** you can combine up to 100 values with `|` in a single filter. use `per_page=100` to get all results. > **warning:** **or works within a f...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 55,
+      "source_url": "https://arxiv.org/abs/2401.16359",
+      "quote": "internal coverage rates comparable to both Web of Science and Scopus",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...ecent publications shared by all three databases, openalex has average source reference numbers and internal coverage rates comparable to both web of science and scopus. we further analyse the metadata in openalex, the web of science and scopus by journal, finding a s...",
+      "match_type": "exact"
+    }
+  ]
+}
