@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "artifact": "gen_plan_dataset_4_idx4: labelled concept phrases and survivorship-free phrase pool",
+    "created": "2026-09-28",
+    "sources": "OpenAlex API (sampled works, counts, works), OpenAlex S3 snapshot (keywords, concepts), NLM MeSH 2026, Wikidata API, HF: midas/semeval2017, zj88zj/SCIERC, amirveyseh/acronym_identification",
+    "label_status": "D2/D3 LLM labels are LLM-adjudicated SILVER labels; no human has checked them (human_checked=false).",
+    "sealed_file": "data_out/pool_outcomes_SEALED.json holds the full yearly counts and is deliberately NOT included here.",
+    "part": 5,
+    "n_parts": 7
+  },
+  "datasets": [
+    {
+      "dataset": "openalex_stratified_corpus_2003_2016_with_prescreen_1995_2004",
+      "examples": [
+        {
+          "input": "Impact of Knowledge and Age on Tip-of-the-Tongue Rates Older (50-82), middle age (30-49), and younger (17-29) adults were asked to answer 57 general knowledge questions about words, objects, and peopl...",
+          "output": "Psychology",
+          "metadata_fold": "corpus_prescreen",
+          "metadata_work_id": "W2007495448",
+          "metadata_doi": "https://doi.org/10.1080/036107398244283",
+          "metadata_title": "Impact of Knowledge and Age on Tip-of-the-Tongue Rates",
+          "metadata_publication_year": 1998,
+          "metadata_publication_date": "1998-03-01",
+          "metadata_field_id": 32,
+          "metadata_field": "Psychology",
+          "metadata_subfield_id": "3207",
+          "metadata_subfield": "Social Psychology",
+          "metadata_domain": "Social Sciences",
+          "metadata_topic_id": "T12593",
+          "metadata_topic": "Communication in Education and Healthcare",
+          "metadata_venue_id": "S89525197",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Tip of the tongue",
+            "Psychology",
+            "Age groups"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Tip of the tongue",
+            "Psychology",
+            "Age groups"
+          ],
+          "metadata_referenced_works_count": 23,
+          "metadata_author_ids": [
+            "A5001305228"
+          ],
+          "metadata_institution_ids": [
+            "I4210117780"
+          ],
+          "metadata_stratum": "field32_1998_prescreen",
+          "metadata_N_stratum": 19421,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 129.473,
+          "metadata_sample_seed": 253980
+        },
+        {
+          "input": "[[alternative]]中國文化大學學生英文閱讀習慣之調查研究 [[abstract]]本文針對中國文化大學大一與研一學生之英文閱讀習慣進行一項問卷調查。問卷設計十五個問題，包括對閱讀的基本認知、對生字的處理方式、口、眼、手之行爲，以及閱讀技巧的使用等閱讀有關的習慣。問卷中的十五個問題，均有英文爲外文或第二語文專家學者的理論依據，這些理論視爲閱讀習慣的理想標準，與學生對問卷調查的反應，作一比...",
+          "output": "Psychology",
+          "metadata_fold": "corpus_prescreen",
+          "metadata_work_id": "W7137508295",
+          "metadata_doi": null,
+          "metadata_title": "[[alternative]]中國文化大學學生英文閱讀習慣之調查研究",
+          "metadata_publication_year": 1998,
+          "metadata_publication_date": "1998-07-01",
+          "metadata_field_id": 32,
+          "metadata_field": "Psychology",
+          "metadata_subfield_id": "3204",
+          "metadata_subfield": "Developmental and Educational Psychology",
+          "metadata_domain": "Social Sciences",
+          "metadata_topic_id": "T11587",
+          "metadata_topic": "Second Language Acquisition and Learning",
+          "metadata_venue_id": "S7407064331",
+          "metadata_venue_type": "repository",
+          "metadata_keywords": [
+            "Reading (process)",
+            "Ideal (ethics)",
+            "Habit"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Reading (process)",
+            "Psychology",
+            "Ideal (ethics)"
+          ],
+          "metadata_referenced_works_count": 0,
+          "metadata_author_ids": [
+            "A5129439725"
+          ],
+          "metadata_institution_ids": [],
+          "metadata_stratum": "field32_1998_prescreen",
+          "metadata_N_stratum": 19421,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 129.473,
+          "metadata_sample_seed": 253980
+        },
+        {
+          "input": "Bright, bad, babyfaced boys: Appearance stereotypes do not always yield self-fulfilling prophecy effects. Three studies tested the hypothesis that babyfaced adolescent boys would compensate for the un...",
+          "output": "Psychology",
+          "metadata_fold": "corpus_prescreen",
+          "metadata_work_id": "W2111149218",
+          "metadata_doi": "https://doi.org/10.1037/0022-3514.75.5.1300",
+          "metadata_title": "Bright, bad, babyfaced boys: Appearance stereotypes do not always yield self-fulfilling prophecy effects.",
+          "metadata_publication_year": 1998,
+          "metadata_publication_date": "1998-01-01",
+          "metadata_field_id": 32,
+          "metadata_field": "Psychology",
+          "metadata_subfield_id": "3205",
+          "metadata_subfield": "Experimental and Cognitive Psychology",
+          "metadata_domain": "Social Sciences",
+          "metadata_topic_id": "T11118",
+          "metadata_topic": "Evolutionary Psychology and Human Behavior",
+          "metadata_venue_id": "S29984966",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Psychology",
+            "Stereotype (UML)",
+            "Social psychology"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Psychology",
+            "Stereotype (UML)",
+            "Social psychology"
+          ],
+          "metadata_referenced_works_count": 75,
+          "metadata_author_ids": [
+            "A5056127647",
+            "A5009985544",
+            "A5006809226"
+          ],
+          "metadata_institution_ids": [
+            "I6902469"
+          ],
+          "metadata_stratum": "field32_1998_prescreen",
+          "metadata_N_stratum": 19421,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 129.473,
+          "metadata_sample_seed": 253980
+        }
+      ]
+    }
+  ]
+}
