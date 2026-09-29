@@ -1,0 +1,34 @@
+{
+ "draws": 8,
+ "shuffles": 4,
+ "A_cont_reconstruction_max_abs_diff": 1.1102230246251565e-16,
+ "permutation": "per-node permutation of the subfield labels (same for all blocks), vendored placebo.a_cont",
+ "R2": {
+  "z_obs": 6.841373560909215,
+  "lnirr_sd_obs": 0.22246747450492566,
+  "n_ok": 8,
+  "placebo_z_mean": -0.17737804674241547,
+  "placebo_z_sd": 1.1173741064227658,
+  "perm_p_two_sided_z": 0.1111111111111111,
+  "perm_p_two_sided_per_sd_effect": 0.1111111111111111,
+  "placebo_lnirr_sd_mean": -0.010695988553646837,
+  "placebo_lnirr_sd_sd": 0.0344927941771588
+ },
+ "R1": {
+  "z_obs": 3.472090902161787,
+  "lnirr_sd_obs": 0.42321864665892694,
+  "n_ok": 8,
+  "placebo_z_mean": -0.1602379725435671,
+  "placebo_z_sd": 0.8480827178472788,
+  "perm_p_two_sided_z": 0.1111111111111111,
+  "perm_p_two_sided_per_sd_effect": 0.1111111111111111,
+  "placebo_lnirr_sd_mean": -0.020471329108524415,
+  "placebo_lnirr_sd_sd": 0.08326190939162756
+ },
+ "outcome_shuffle_within_concept_R2": {
+  "n": 4,
+  "z_mean": 0.5692196226370818,
+  "z_sd": 1.529203449370469,
+  "p_two_sided_z": 0.2
+ }
+}

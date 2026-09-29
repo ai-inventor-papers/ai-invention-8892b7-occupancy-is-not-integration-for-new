@@ -1,0 +1,14 @@
+{
+ "n_events": 2249,
+ "n_concepts": 187,
+ "mean_deviance_baseline": 3.9876273551497357,
+ "mean_deviance_method": 3.841735096729712,
+ "deviance_diff_method_minus_baseline": -0.1458922584200235,
+ "deviance_diff_ci95_concept_bootstrap": [
+  -0.30599122150313196,
+  -0.007987409677256498
+ ],
+ "spearman_baseline": 0.2209356408275581,
+ "spearman_method": 0.2856364370241476,
+ "note": "grouped-by-concept 5-fold out-of-fold predictions; descriptive predictive check, not the inferential test"
+}
