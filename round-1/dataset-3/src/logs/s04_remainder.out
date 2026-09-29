@@ -1,0 +1,44 @@
+12:24:33|INFO   |[remainder] 267 concepts to cover; 0 skipped as irrecoverable; spent so far 411 / stop 1800
+12:24:33|INFO   |[remainder] 102 OR batches
+12:24:34|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:24:37|INFO   |[remainder] batch 0: 8 concepts, 1357 works, 7 pages, projected 70 credits; spent 421
+12:24:41|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:24:50|INFO   |[remainder] batch 0 stored 1359 works; spent 481
+12:24:50|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:24:53|INFO   |[remainder] batch 1: 1 concepts, 2115 works, 11 pages, projected 110 credits; spent 491
+12:24:56|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:03|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:05|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:07|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:10|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:14|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:27|INFO   |[remainder] batch 1 stored 2113 works; spent 591
+12:25:29|INFO   |[remainder] batch 2: 3 concepts, 456 works, 3 pages, projected 30 credits; spent 601
+12:25:32|INFO   |[remainder] batch 2 stored 456 works; spent 621
+12:25:34|INFO   |[remainder] batch 3: 2 concepts, 1916 works, 10 pages, projected 100 credits; spent 631
+12:25:34|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:37|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:39|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:41|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:44|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:55|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:25:58|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:00|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:03|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:06|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:10|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:15|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:25|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:31|INFO   |[remainder] batch 3 stored 1919 works; spent 721
+12:26:33|INFO   |[remainder] batch 4: 3 concepts, 1840 works, 10 pages, projected 100 credits; spent 731
+12:26:33|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":8
+12:26:34|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:38|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:39|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:44|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:50|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:52|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:26:59|INFO   |[remainder] batch 4 stored 1839 works; spent 821
+12:26:59|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:27:01|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
+12:27:04|WARNING|OA HTTP 429 /works: {"error":"Rate limit exceeded","message":"Rate limit exceeded: 30 requests per second. Please slow down.","retryAfter":0
