@@ -1,0 +1,38 @@
+{
+  "expected": {
+    "main_host": [
+      0.5518,
+      41861
+    ],
+    "by_year": {
+      "2010": 0.3174,
+      "2011": 0.3613,
+      "2012": 0.3476,
+      "2013": 0.413,
+      "2014": 0.5171
+    },
+    "ref_any": [
+      0.5311,
+      92969
+    ]
+  },
+  "reproduced": {
+    "main_host": [
+      0.5518,
+      41861
+    ],
+    "by_year": {
+      "2010": 0.3174,
+      "2011": 0.3613,
+      "2012": 0.3476,
+      "2013": 0.413,
+      "2014": 0.5171
+    },
+    "ref_any": [
+      0.5311,
+      92969
+    ]
+  },
+  "pass": true,
+  "definition": "assemble.py lines 360-377: no dedup; parents = refs in cset with year < child year; traced_excl_F; host = subfield != origin_subfield"
+}
