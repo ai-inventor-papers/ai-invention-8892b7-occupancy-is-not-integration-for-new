@@ -1,0 +1,12 @@
+20:49:23|INFO   |concepts: 191 rows; F-bands {'2005-07': 83, '2008-11': 78, '2012-16': 30}; rule_parity 172; retrieval_complete 13
+20:49:25|INFO   |background: {'n_works': 259716, 'n_w_year_missing_used_design_weight': 0, 'low_conf_topic_share_raw': 0.04156463213664156, 'low_conf_topic_share_weighted': 0.12108702425457929, 'mean_tags_per_work': 5.746034129587703, 'weighted_vs_frame_max_abs_rel_dev': 0.0}
+20:49:25|INFO   |twins: 22 concepts have >=1 legacy twin (22 twin ids)
+20:49:26|INFO   |prepare: {'bg': {'n_works': 259716, 'n_w_year_missing_used_design_weight': 0, 'low_conf_topic_share_raw': 0.04156463213664156, 'low_conf_topic_share_weighted': 0.12108702425457929, 'mean_tags_per_work': 5.746034129587703, 'weighted_vs_frame_max_abs_rel_dev': 0.0}, 'tag_share_in_concepts_parquet': 1.0, 'tag_share_in_bg_sample': 0.9885276984637157, 'n_twin_concepts': 22, 'n_twin_ids': 22, 'works_vs_table_yearly_count_agreement': 1.0, 'n_primary_rows': 92063, 'n_primary_unique_works': 89831}
+20:49:26|INFO   |rewiring subsample: 4 of 45 focal concept-years
+20:50:50|INFO   |snapshot 2010_nolowconf done: nodes 27916 edges 472267 comm 381 nmi 0.736 focal 9 t 79s (elapsed 84s)
+20:50:51|INFO   |snapshot 2010 done: nodes 27994 edges 473432 comm 374 nmi 0.734 focal 9 t 80s (elapsed 85s)
+20:51:54|INFO   |snapshot 2008 done: nodes 27514 edges 452054 comm 387 nmi 0.723 focal 9 t 62s (elapsed 148s)
+20:51:56|INFO   |snapshot 2009 done: nodes 28449 edges 482485 comm 403 nmi 0.744 focal 9 t 65s (elapsed 150s)
+20:52:40|INFO   |snapshot 2012 done: nodes 27034 edges 452265 comm 347 nmi 0.741 focal 9 t 188s (elapsed 194s)
+20:52:43|INFO   |snapshot 2011 done: nodes 27450 edges 462462 comm 387 nmi 0.742 focal 9 t 191s (elapsed 197s)
+EXIT 0

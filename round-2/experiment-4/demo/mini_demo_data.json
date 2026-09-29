@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "artifact_id": "art_yWUkgWWKyq_h",
+    "artifact_name": "gen_art_experiment_4: precursor replication on the MeSH population (RQ1, iteration 2)",
+    "content_type": "recorded results (not raw data)",
+    "provenance": "Every value below is transcribed verbatim from the run record: 4_gen_paper_repo/_2_gen_paper_draft/run_record/run_report.yaml (Artifact 3, Artifact 10, Artifact 15, Decision-rule evaluation) and iteration_records.yaml (review item listing exp_4 numbers). The experiment's method.py, its snapshot data and its result files (replication_verdict.json, rq1_patterns.csv, rq1_prediction.csv) were not available to the demo workspace, so the demo works from these recorded numbers.",
+    "original_result_files": [
+      "gen_art_experiment_4/replication_verdict.json",
+      "gen_art_experiment_4/rq1_patterns.csv",
+      "gen_art_experiment_4/rq1_prediction.csv"
+    ]
+  },
+  "population": {
+    "source": "run_report.yaml, Artifact 3 (dataset art_HGiVAYhqO-6q), Table 4",
+    "n_concepts": 191,
+    "selection_flow": {
+      "descriptors": 28472,
+      "topical": 5201,
+      "after_provenance_filter": 3430,
+      "passing_pubmed_prescreen": 283,
+      "final": 191
+    },
+    "by_window": {
+      "core_2006_2016": 99,
+      "widening_2004_2005": 14,
+      "widening_2017_2018": 78
+    },
+    "by_branch_group": [
+      {
+        "group": "D (Chemicals and drugs)",
+        "count": 62
+      },
+      {
+        "group": "A+B (Anatomy, Organisms)",
+        "count": 47
+      },
+      {
+        "group": "E (Analytical, diagnostic, therapeutic)",
+        "count": 32
+      },
+      {
+        "group": "C (Diseases)",
+        "count": 22
+      },
+      {
+        "group": "F+H-N (Psychiatry, Health services, misc.)",
+        "count": 17
+      },
+      {
+        "group": "G (Phenomena and processes)",
+        "count": 11
+      }
+    ],
+    "caveats": [
+      "Only about 25% of new MeSH descriptors are genuinely new concepts (the rest are reclassifications or splits).",
+      "Only 13 of 191 concepts have their full non-PubMed works paged; 178 have PubMed-indexed works only."
+    ]
+  },
+  "closure_effects_mesh": {
+    "source": "run_report.yaml, Artifact 10, Table 12",
+    "note": "The E_up row comes from the main-pool-aligned block of replication_verdict.json. The review in iteration_records.yaml notes the aligned block has 9 rows and only the E_up closure row is reported.",
+    "rows": [
+      {
+        "label": "PRIMARY",
+        "n_eff": 15,
+        "D": -0.086,
+        "ci_low": -0.511,
+        "ci_high": 0.402,
+        "holm_p": 0.677
+      },
+      {
+        "label": "SENS1",
+        "n_eff": 29,
+        "D": -0.419,
+        "ci_low": -0.74,
+        "ci_high": -0.115,
+        "holm_p": 0.039
+      },
+      {
+        "label": "E_up",
+        "n_eff": 51,
+        "D": -0.185,
+        "ci_low": -0.498,
+        "ci_high": 0.108,
+        "holm_p": 0.21
+      }
+    ]
+  },
+  "aligned_closure_signs_mesh": {
+    "source": "run_report.yaml, Artifact 10, note under Table 12 (point estimates only; no CIs recorded)",
+    "rows": [
+      {
+        "label": "E",
+        "D": 0.487
+      },
+      {
+        "label": "E_alt",
+        "D": 0.081
+      },
+      {
+        "label": "E_up",
+        "D": -0.185
+      }
+    ]
+  },
+  "main_pool_reference": {
+    "source": "run_report.yaml, Artifact 9 (art_mbFjmo5rbbf8), Table 11",
+    "label": "E_up",
+    "n_matched": 21,
+    "indicator": "Closure (log-ratio), event study",
+    "S": -0.837,
+    "ci_low": -1.26,
+    "ci_high": -0.427,
+    "holm_p": 0.003
+  },
+  "recorded_ivw_pool": {
+    "source": "run_report.yaml, Artifact 10, note under Table 12",
+    "label": "E_up",
+    "estimate": -0.41,
+    "se": 0.125,
+    "Q": 6.16
+  },
+  "patterns": {
+    "source": "run_report.yaml, Artifact 10 and Artifact 15 ('Pattern contrasts between main and MeSH populations')",
+    "early_bridging": {
+      "mesh": 0.59,
+      "main_iter2": 0.76,
+      "main_iter3": 0.7,
+      "recorded_difference": 0.11,
+      "diff_ci_low": 0.02,
+      "diff_ci_high": 0.2
+    },
+    "incubation_then_expansion": {
+      "mesh": 0.17,
+      "main": 0.0
+    }
+  },
+  "prediction_mesh": {
+    "source": "run_report.yaml, Artifact 10; iteration_records.yaml (exp_4 review item)",
+    "rows": [
+      {
+        "spec": "grouped-CV dAUC (precursors over baselines)",
+        "estimate": 0.002,
+        "ci_low": -0.035,
+        "ci_high": 0.035
+      },
+      {
+        "spec": "rolling-origin dAUC",
+        "estimate": 0.041,
+        "ci_low": -0.05,
+        "ci_high": 0.098
+      },
+      {
+        "spec": "E_vol dAUC",
+        "estimate": -0.009,
+        "ci_low": -0.016,
+        "ci_high": -0.003
+      },
+      {
+        "spec": "E_cent dAUC",
+        "estimate": -0.036,
+        "ci_low": -0.061,
+        "ci_high": -0.015
+      }
+    ]
+  },
+  "participation_level": {
+    "source": "iteration_records.yaml (exp_4 review item)",
+    "effect_sd": 0.37,
+    "bh_q": "<0.001"
+  },
+  "verdict": {
+    "source": "run_report.yaml, Artifact 10 and Decision-rule evaluation",
+    "artifact_verdict": "directional, not confirmatory",
+    "decision_rule_c": "NOT MET",
+    "rule_c_text": "RQ1 counts as CONFIRMED only if at least one pre-named precursor has an event-study CI excluding 0 AND a delta-AUC CI excluding 0 on the main screen fold, keeps its sign on MeSH, and holds on the sealed held-out fold",
+    "predicted_sign_closure": "+"
+  }
+}
