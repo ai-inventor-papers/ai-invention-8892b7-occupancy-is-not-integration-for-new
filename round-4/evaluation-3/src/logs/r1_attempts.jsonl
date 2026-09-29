@@ -1,0 +1,2 @@
+{"utc": "2026-09-29T06:43:02Z", "event": "start", "expected_sha256": "535c2dd38bca1ebb023fb28e64a28e8a3812f4183d04c378dc272926bc0509b2", "mode": "import+recorder"}
+{"utc": "2026-09-29T06:43:16Z", "event": "verdict_written", "verdict": "MIXED", "fallback": true, "secs": 13.4, "run_fold_calls": 2}
