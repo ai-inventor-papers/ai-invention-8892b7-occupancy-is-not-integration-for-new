@@ -1,0 +1,75 @@
+{
+ "figure": "F3",
+ "width_mm": 174,
+ "panels": [
+  "a",
+  "b",
+  "c",
+  "d"
+ ],
+ "ci_type": "CRV1 Wald (a,b); concept bootstrap (c,d)",
+ "production": {
+  "min_font_pt": 6.5,
+  "n_text": 128,
+  "n_overlaps": 0,
+  "overlaps": [],
+  "n_clipped": 0,
+  "clipped": [],
+  "width_mm": 174.0,
+  "height_mm": 175.0
+ },
+ "sources": [
+  [
+   "art_FZ2OCJwV6xHs",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json"
+  ],
+  [
+   "art_FZ2OCJwV6xHs",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/frame_summary.json"
+  ],
+  [
+   "art_FZ2OCJwV6xHs",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/interaction.json"
+  ],
+  [
+   "art_FZ2OCJwV6xHs",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/mechanism_results.json"
+  ],
+  [
+   "art_FZ2OCJwV6xHs",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_2/results/g_heldout_rows.csv"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_2/results/g_heldout_summary.json"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_2/results/g_pooled_rows.csv"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_2/results/g_pooled_summary.json"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_2/results/g_screen_rows.csv"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_2/results/g_screen_summary.json"
+  ],
+  [
+   "art_XGdzjWgi-a88",
+   "3_invention_loop/iter_4/gen_art/gen_art_experiment_9/results/g4_models.json"
+  ],
+  [
+   "art_XGdzjWgi-a88",
+   "3_invention_loop/iter_4/gen_art/gen_art_experiment_9/results/power_mesh.json"
+  ]
+ ]
+}
