@@ -80,7 +80,7 @@
    "max_iter": 5000
   },
   "MAINPOOL": {
-   "source": "round-2/experiment-3/src (spec.json, lib_metrics.py, stage_snapshots.py, stage_indicators.py, analysis_event.py)",
+   "source": "iter_2/gen_art/gen_art_experiment_3 (spec.json, lib_metrics.py, stage_snapshots.py, stage_indicators.py, analysis_event.py)",
    "precursors": [
     "accretion_shift_rar",
     "closure",

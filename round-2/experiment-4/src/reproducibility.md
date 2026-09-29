@@ -56,7 +56,7 @@ environment variables locate them; both are optional, and each is given by NAME 
   - `gen_art_dataset_1` = artifact **art_94GEMUsgAmgK**: `context/subfield_year_totals.json`, used for the Kleinberg
     denominators.
 - **`AII_MAINPOOL_DIR`** — the sibling main-pool RQ1 experiment (iteration 2, `gen_art_experiment_3`). Default:
-  `../../experiment-3/src`. Only its `results_summary.json` is read, to build the side-by-side table. Its metric code
+  `../gen_art_experiment_3`. Only its `results_summary.json` is read, to build the side-by-side table. Its metric code
   is vendored here as `vendor/mainpool_lib_metrics.py`; the sha256 is in `results/prereg_spec.json`.
 
 No user-uploaded (private) input is used. The path anchors are in `load.py` (`RUN`, from `Path(__file__)`) and

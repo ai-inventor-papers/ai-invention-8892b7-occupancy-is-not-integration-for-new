@@ -35,7 +35,7 @@ FIG = ROOT / "figures"
 PREREG = RES / "prereg_spec.json"
 FEAT = RES / "features.parquet"
 # sibling main-pool RQ1 artifact (gen_art_experiment_3); override with AII_MAINPOOL_DIR
-MAINPOOL_DIR = Path(os.environ.get("AII_MAINPOOL_DIR", str(ROOT.parent / "experiment-3/src")))
+MAINPOOL_DIR = Path(os.environ.get("AII_MAINPOOL_DIR", str(ROOT.parent / "gen_art_experiment_3")))
 
 logger.remove()
 logger.add(sys.stdout, level="INFO", format="{time:HH:mm:ss}|{level:<7}|{message}")
