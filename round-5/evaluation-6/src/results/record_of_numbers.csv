@@ -1,0 +1,520 @@
+label,name,value,source
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.SCREEN.Y_strict.estimate,1.300076888024347,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.SCREEN.Y_strict.ci_lo,1.1639421314281175,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.SCREEN.Y_strict.ci_hi,1.452133975682496,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.SCREEN.Y_strict.p_crv1,6.4346966624064085e-06,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.SCREEN.Y_strict.N,1544.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.SCREEN.Y_strict.G,140.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.SCREEN.Any.estimate,6.462937149660063,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.SCREEN.Any.ci_lo,3.417053121993152,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.SCREEN.Any.ci_hi,9.508821177326976,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.SCREEN.Any.p_crv1,4.516728941485364e-05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.SCREEN.Any.N,1686.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.SCREEN.Any.G,169.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.SCREEN.Any.base_rate,0.5094899169632265,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.SCREEN.Any.mde80,4.985074626865671,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.SCREEN.Any.estimate,1.897333326078088,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.SCREEN.Any.ci_lo,1.3509439180814946,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.SCREEN.Any.ci_hi,2.6647099868947937,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.SCREEN.Any.p_crv1,0.0002812740268738,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.SCREEN.Any.N,1524.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.SCREEN.Any.G,137.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.SCREEN.Any.estimate,1.1034129736360083,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.SCREEN.Any.ci_lo,1.0398244424637266,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.SCREEN.Any.ci_hi,1.170890143247167,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.SCREEN.Any.p_crv1,0.0013207282622876,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.SCREEN.Any.N,1544.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.SCREEN.Any.G,140.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.SCREEN.Any.base_rate,0.5094899169632265,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.SCREEN.Y_strict | Y>=1.estimate,1.271514719796732,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.SCREEN.Y_strict | Y>=1.ci_lo,1.120767492829777,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.SCREEN.Y_strict | Y>=1.ci_hi,1.442537986694904,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.SCREEN.Y_strict | Y>=1.p_crv1,0.0002653152941987,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.SCREEN.Y_strict | Y>=1.N,795.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.SCREEN.Y_strict | Y>=1.G,107.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.SCREEN.Y_strict | Y>=1.mde80,1.1245098039215686,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Any.estimate,6.462937149660063,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Any.ci_lo,3.417053121993152,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Any.ci_hi,9.508821177326976,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Any.p_crv1,4.516728941485364e-05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Any.N,1686.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Any.G,169.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Any.base_rate,0.5094899169632265,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge3.estimate,5.528208299452211,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge3.ci_lo,2.7370610071205497,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge3.ci_hi,8.319355591783872,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge3.p_crv1,0.0001336460110268,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge3.N,1686.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge3.G,169.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge3.base_rate,0.269276393831554,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge5.estimate,4.551880238262311,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge5.ci_lo,2.219967794803883,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge5.ci_hi,6.883792681720739,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge5.p_crv1,0.0001654064319767,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge5.N,1686.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge5.G,169.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.Y_ge5.base_rate,0.1803084223013048,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.EST_bin.estimate,5.374397331051255,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.EST_bin.ci_lo,2.5992314159020697,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.EST_bin.ci_hi,8.14956324620044,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.EST_bin.p_crv1,0.0001853204098765,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.EST_bin.N,1686.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.EST_bin.G,169.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.SCREEN.EST_bin.base_rate,0.2449584816132858,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Any.estimate,5.221681671298715,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Any.ci_lo,-0.4563416954566742,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Any.ci_hi,10.899705038054105,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Any.p_crv1,0.0710969424674142,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Any.N,729.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Any.G,111.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Any.base_rate,0.5651577503429356,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Y_strict | Y>=1.estimate,1.5064408196105352,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Y_strict | Y>=1.ci_lo,0.9556005008467218,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Y_strict | Y>=1.ci_hi,2.374804053553826,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Y_strict | Y>=1.p_crv1,0.0764832476764954,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Y_strict | Y>=1.N,219.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.SCREEN.Y_strict | Y>=1.G,46.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.HELDOUT.Y_strict.estimate,1.1874711752308762,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.HELDOUT.Y_strict.ci_lo,1.0565957916173876,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.HELDOUT.Y_strict.ci_hi,1.3345574563056906,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.HELDOUT.Y_strict.p_crv1,0.0044878707582673,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.HELDOUT.Y_strict.N,972.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.HELDOUT.Y_strict.G,74.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.HELDOUT.Any.estimate,7.291108618671216,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.HELDOUT.Any.ci_lo,2.9700688683860066,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.HELDOUT.Any.ci_hi,11.612148368956426,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.HELDOUT.Any.p_crv1,0.0011912108693197,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.HELDOUT.Any.N,1046.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.HELDOUT.Any.G,85.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.HELDOUT.Any.base_rate,0.517208413001912,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.HELDOUT.Any.mde80,6.222222222222222,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.HELDOUT.Any.estimate,2.29418910783185,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.HELDOUT.Any.ci_lo,1.2817363410602374,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.HELDOUT.Any.ci_hi,4.106385606684567,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.HELDOUT.Any.p_crv1,0.0058230697021029,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.HELDOUT.Any.N,952.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.HELDOUT.Any.G,71.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.HELDOUT.Any.estimate,1.1197685023233628,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.HELDOUT.Any.ci_lo,1.0358249497434364,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.HELDOUT.Any.ci_hi,1.210514864607269,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.HELDOUT.Any.p_crv1,0.0050232108913305,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.HELDOUT.Any.N,972.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.HELDOUT.Any.G,74.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.HELDOUT.Any.base_rate,0.517208413001912,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.HELDOUT.Y_strict | Y>=1.estimate,1.1633561982030365,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.HELDOUT.Y_strict | Y>=1.ci_lo,1.008489116468645,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.HELDOUT.Y_strict | Y>=1.ci_hi,1.342005205407193,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.HELDOUT.Y_strict | Y>=1.p_crv1,0.0382875536366338,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.HELDOUT.Y_strict | Y>=1.N,489.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.HELDOUT.Y_strict | Y>=1.G,58.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.HELDOUT.Y_strict | Y>=1.mde80,1.171186440677966,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Any.estimate,7.291108618671216,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Any.ci_lo,2.9700688683860066,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Any.ci_hi,11.612148368956426,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Any.p_crv1,0.0011912108693197,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Any.N,1046.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Any.G,85.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Any.base_rate,0.517208413001912,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge3.estimate,3.723098762960362,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge3.ci_lo,0.2303366761581936,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge3.ci_hi,7.215860849762528,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge3.p_crv1,0.0369779607489532,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge3.N,1046.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge3.G,85.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge3.base_rate,0.2896749521988527,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge5.estimate,2.561304417040256,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge5.ci_lo,-1.0665609570297891,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge5.ci_hi,6.1891697911103005,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge5.p_crv1,0.1640125554853887,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge5.N,1046.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge5.G,85.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.Y_ge5.base_rate,0.1959847036328872,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.EST_bin.estimate,2.539243575615049,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.EST_bin.ci_lo,-1.007698502513028,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.EST_bin.ci_hi,6.086185653743126,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.EST_bin.p_crv1,0.1582549873979569,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.EST_bin.N,1046.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.EST_bin.G,85.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.HELDOUT.EST_bin.base_rate,0.2667304015296367,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Any.estimate,5.73089234265413,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Any.ci_lo,-1.877530485200397,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Any.ci_hi,13.339315170508655,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Any.p_crv1,0.1354665755418527,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Any.N,341.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Any.G,38.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Any.base_rate,0.6275659824046921,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Y_strict | Y>=1.estimate,1.021959603609906,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Y_strict | Y>=1.ci_lo,0.7093639472705492,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Y_strict | Y>=1.ci_hi,1.472306896099112,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Y_strict | Y>=1.p_crv1,0.9002778260253951,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Y_strict | Y>=1.N,116.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.HELDOUT.Y_strict | Y>=1.G,15.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.MESH.Y_strict.estimate,1.23298383235262,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.MESH.Y_strict.ci_lo,1.1167392468870914,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.MESH.Y_strict.ci_hi,1.3613286495308954,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.MESH.Y_strict.p_crv1,4.853905790545144e-05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.MESH.Y_strict.N,2171.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1_total.MESH.Y_strict.G,160.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.MESH.Any.estimate,6.167037565287964,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.MESH.Any.ci_lo,3.8714214780413454,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.MESH.Any.ci_hi,8.462653652534582,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.MESH.Any.p_crv1,3.42155481992389e-07,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.MESH.Any.N,2236.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.MESH.Any.G,176.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.MESH.Any.base_rate,0.5322003577817531,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_LPM.MESH.Any.mde80,3.6,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.MESH.Any.estimate,1.4541959969597975,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.MESH.Any.ci_lo,1.2612955283429477,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.MESH.Any.ci_hi,1.676598346742822,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.MESH.Any.p_crv1,6.182717344928375e-07,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.MESH.Any.N,2164.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_logit.MESH.Any.G,159.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.MESH.Any.estimate,1.1235125837813509,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.MESH.Any.ci_lo,1.075125467114893,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.MESH.Any.ci_hi,1.1740774119158257,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.MESH.Any.p_crv1,5.402210711795217e-07,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.MESH.Any.N,2171.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.MESH.Any.G,160.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1a_loglink.MESH.Any.base_rate,0.5322003577817531,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.MESH.Y_strict | Y>=1.estimate,1.136711654378779,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.MESH.Y_strict | Y>=1.ci_lo,1.0257039945870847,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.MESH.Y_strict | Y>=1.ci_hi,1.2597332095998162,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.MESH.Y_strict | Y>=1.p_crv1,0.0148925719079901,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.MESH.Y_strict | Y>=1.N,1169.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.MESH.Y_strict | Y>=1.G,143.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1b.MESH.Y_strict | Y>=1.mde80,1.0802158273381297,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Any.estimate,6.167037565287964,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Any.ci_lo,3.8714214780413454,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Any.ci_hi,8.462653652534582,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Any.p_crv1,3.42155481992389e-07,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Any.N,2236.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Any.G,176.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Any.base_rate,0.5322003577817531,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge3.estimate,5.372726732292152,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge3.ci_lo,3.2454009458576203,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge3.ci_hi,7.500052518726682,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge3.p_crv1,1.485181843253275e-06,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge3.N,2236.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge3.G,176.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge3.base_rate,0.2119856887298747,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge5.estimate,2.763679994330151,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge5.ci_lo,0.961051861948889,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge5.ci_hi,4.566308126711411,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge5.p_crv1,0.0028535977863938,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge5.N,2236.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge5.G,176.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.Y_ge5.base_rate,0.1033094812164579,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.EST_bin.estimate,4.887194480883265,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.EST_bin.ci_lo,2.872280592623056,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.EST_bin.ci_hi,6.902108369143473,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.EST_bin.p_crv1,3.587133331295821e-06,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.EST_bin.N,2236.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.EST_bin.G,176.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1d_ladder.MESH.EST_bin.base_rate,0.1721824686940966,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Any.estimate,6.934825974010757,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Any.ci_lo,1.9104155743041007,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Any.ci_hi,11.959236373717417,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Any.p_crv1,0.0071516295942101,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Any.N,1328.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Any.G,150.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Any.base_rate,0.5715361445783133,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Y_strict | Y>=1.estimate,1.0473151925868327,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Y_strict | Y>=1.ci_lo,0.89232549922365,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Y_strict | Y>=1.ci_hi,1.2292253371415514,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Y_strict | Y>=1.p_crv1,0.5662740991684243,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Y_strict | Y>=1.N,339.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1e_side_primaryFE.MESH.Y_strict | Y>=1.G,66.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_LPM_pp_per_sd.IVW.K1a_LPM_pp_per_sd.estimate,6.431351366344785,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_LPM_pp_per_sd.IVW.K1a_LPM_pp_per_sd.ci_lo,4.757440912475781,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_LPM_pp_per_sd.IVW.K1a_LPM_pp_per_sd.ci_hi,8.105261820213789,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_LPM_pp_per_sd.IVW.K1a_LPM_pp_per_sd.p_crv1,5.053112810407496e-14,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_LPM_pp_per_sd.IVW.K1a_LPM_pp_per_sd.mde80,2.37272142584806,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_loglink_log_per_sd.IVW.K1a_loglink_log_per_sd.estimate,1.116923275380271,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_loglink_log_per_sd.IVW.K1a_loglink_log_per_sd.ci_lo,1.08186171553566,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_loglink_log_per_sd.IVW.K1a_loglink_log_per_sd.ci_hi,1.153121129227234,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_loglink_log_per_sd.IVW.K1a_loglink_log_per_sd.p_crv1,1.080847972722662e-11,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1b_log_irr_per_sd.IVW.K1b_log_irr_per_sd.estimate,1.182634439209845,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1b_log_irr_per_sd.IVW.K1b_log_irr_per_sd.ci_lo,1.1040885593800134,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1b_log_irr_per_sd.IVW.K1b_log_irr_per_sd.ci_hi,1.266768145474276,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1b_log_irr_per_sd.IVW.K1b_log_irr_per_sd.p_crv1,1.718168839738253e-06,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1b_log_irr_per_sd.IVW.K1b_log_irr_per_sd.mde80,1.0501189299899854,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_total_log_irr_per_sd.IVW.total_log_irr_per_sd.estimate,1.2403091322038944,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_total_log_irr_per_sd.IVW.total_log_irr_per_sd.ci_lo,1.1660764459023012,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_total_log_irr_per_sd.IVW.total_log_irr_per_sd.ci_hi,1.319267487851537,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_total_log_irr_per_sd.IVW.total_log_irr_per_sd.p_crv1,7.946748219316513e-12,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_ext_share.IVW.ext_share.estimate,0.3795946185305967,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_ext_share.IVW.ext_share.ci_lo,0.2083407139129065,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_ext_share.IVW.ext_share.ci_hi,0.5508485231482868,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_ext_share.IVW.ext_share.p_crv1,1.3961974238960646e-05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_logit_log_or_per_sd.IVW.K1a_logit_log_or_per_sd.estimate,1.5445958818745638,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_logit_log_or_per_sd.IVW.K1a_logit_log_or_per_sd.ci_lo,1.360402473702968,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_logit_log_or_per_sd.IVW.K1a_logit_log_or_per_sd.ci_hi,1.7537283887832558,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1f_IVW_K1a_logit_log_or_per_sd.IVW.K1a_logit_log_or_per_sd.p_crv1,1.937148018304308e-11,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.SCREEN.ext_share.estimate,0.310480020940419,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.SCREEN.ext_share.ci_lo,0.1382561606634095,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.SCREEN.ext_share.ci_hi,0.5727354822758051,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.HELDOUT.ext_share.estimate,0.4621188619947272,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.HELDOUT.ext_share.ci_lo,0.1953168085942323,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.HELDOUT.ext_share.ci_hi,1.5079865210673138,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.MESH.ext_share.estimate,0.4970407987448577,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.MESH.ext_share.ci_lo,0.3336424106485757,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k1.K1c_decomposition.MESH.ext_share.ci_hi,0.9006585075410901,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.Physics/Astro.estimate,1.1783436976704649,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.Physics/Astro.ci_lo,0.9262334089108484,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.Physics/Astro.ci_hi,1.4990755639795204,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.Physics/Astro.p_crv1,0.1804662555472101,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.Physics/Astro.N,478.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.Physics/Astro.G,77.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.CS.estimate,1.2155259510507008,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.CS.ci_lo,1.066061583631925,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.CS.ci_hi,1.3859455779693894,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.CS.p_crv1,0.0037331074430462,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.CS.N,838.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.CS.G,53.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.other.estimate,1.2811475434717166,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.other.ci_lo,1.166604581350792,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.other.ci_hi,1.4069368956558828,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.other.p_crv1,4.356935519881145e-07,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.other.N,1278.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_group.other.G,84.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_wald_equality.3 groups (origin).estimate,0.8996421100199666,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_wald_equality.3 groups (origin).p_crv1,0.6383466701032023,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_wald_equality.3 groups (origin).p_perm,0.7701149425287356,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_wald_equality.3 groups (origin).N,2594.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_wald_equality.3 groups (origin).G,214.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_phys_contrast.Physics/Astro minus rest.estimate,0.9420926334088116,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_phys_contrast.Physics/Astro minus rest.ci_lo,0.7403052241572398,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_phys_contrast.Physics/Astro minus rest.ci_hi,1.1988818948745357,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_phys_contrast.Physics/Astro minus rest.p_crv1,0.6261832487273494,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_phys_contrast.Physics/Astro minus rest.p_perm,0.704647676161919,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_phys_contrast.Physics/Astro minus rest.N,2594.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_phys_contrast.Physics/Astro minus rest.G,214.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_phys_contrast.Physics/Astro minus rest.mde80,0.7202127659574468,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.Physics/Astro.estimate,1.2008699063176485,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.Physics/Astro.ci_lo,0.995304317658218,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.Physics/Astro.ci_hi,1.4488920688019793,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.Physics/Astro.p_crv1,0.0559718119143197,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.Physics/Astro.N,324.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.Physics/Astro.G,155.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.CS.estimate,1.2843597664698687,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.CS.ci_lo,1.1209573699346866,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.CS.ci_hi,1.4715813945918832,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.CS.p_crv1,0.0003612475903479,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.CS.N,380.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.CS.G,145.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.other.estimate,1.2263337993471712,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.other.ci_lo,1.0862072202768212,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.other.ci_hi,1.384537461496526,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.other.p_crv1,0.0010788357224105,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.other.N,1890.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_host_group.other.G,204.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_wald_equality.3 groups (host).estimate,0.3931791382054025,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_wald_equality.3 groups (host).p_crv1,0.8216766356486617,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_wald_equality.3 groups (host).N,2594.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,k3.K3_SECONDARY_wald_equality.3 groups (host).G,214.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+DESCRIPTIVE,k3.K3_MESH_reference.MeSH biomedicine->biomedicine (R2).estimate,1.23298383235262,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+DESCRIPTIVE,k3.K3_MESH_reference.MeSH biomedicine->biomedicine (R2).ci_lo,1.1167392468870914,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+DESCRIPTIVE,k3.K3_MESH_reference.MeSH biomedicine->biomedicine (R2).ci_hi,1.3613286495308954,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+DESCRIPTIVE,k3.K3_MESH_reference.MeSH biomedicine->biomedicine (R2).p_crv1,4.853905790545144e-05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+DESCRIPTIVE,k3.K3_MESH_reference.MeSH biomedicine->biomedicine (R2).N,2171.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+DESCRIPTIVE,k3.K3_MESH_reference.MeSH biomedicine->biomedicine (R2).G,160.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_crv1.SCREEN.coprimary_A_count,6.4346966624064085e-06,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_rand_t.SCREEN.coprimary_A_count,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_rand_t.SCREEN.coprimary_A_count,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_freedman_lane.SCREEN.coprimary_A_count,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_freedman_lane.SCREEN.coprimary_A_count,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_webb.SCREEN.coprimary_A_count,0.0001,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_rademacher_check.SCREEN.coprimary_A_count,0.001,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection.SCREEN.coprimary_A_count,0.0915,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null.SCREEN.coprimary_A_count,1.1832386929553702,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection_fl.SCREEN.coprimary_A_count,0.0885,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null_fl.SCREEN.coprimary_A_count,1.1488451049724249,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.draws_converged.SCREEN.coprimary_A_count,2000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_crv1.SCREEN.K1a_LPM,4.516728941485364e-05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_rand_t.SCREEN.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_rand_t.SCREEN.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_freedman_lane.SCREEN.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_freedman_lane.SCREEN.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_webb.SCREEN.K1a_LPM,0.0001,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_rademacher_check.SCREEN.K1a_LPM,0.001,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection.SCREEN.K1a_LPM,0.051,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null.SCREEN.K1a_LPM,0.9918235795633968,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection_fl.SCREEN.K1a_LPM,0.0495,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null_fl.SCREEN.K1a_LPM,1.0087529522415828,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.draws_converged.SCREEN.K1a_LPM,2000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_crv1.HELDOUT.coprimary_A_count,0.0044878707582673,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_rand_t.HELDOUT.coprimary_A_count,0.0229885057471264,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_rand_t.HELDOUT.coprimary_A_count,0.0033511217786467,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_freedman_lane.HELDOUT.coprimary_A_count,0.0249875062468765,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_freedman_lane.HELDOUT.coprimary_A_count,0.0034902099348347,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_webb.HELDOUT.coprimary_A_count,0.0118,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_rademacher_check.HELDOUT.coprimary_A_count,0.011,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection.HELDOUT.coprimary_A_count,0.107,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null.HELDOUT.coprimary_A_count,1.2395918513100868,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection_fl.HELDOUT.coprimary_A_count,0.106,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null_fl.HELDOUT.coprimary_A_count,1.2686894938616124,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.draws_converged.HELDOUT.coprimary_A_count,2000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_crv1.HELDOUT.K1a_LPM,0.0011912108693197,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_rand_t.HELDOUT.K1a_LPM,0.0039980009995002,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_rand_t.HELDOUT.K1a_LPM,0.0014110310038245,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_freedman_lane.HELDOUT.K1a_LPM,0.0029985007496251,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_freedman_lane.HELDOUT.K1a_LPM,0.0012226016814317,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_webb.HELDOUT.K1a_LPM,0.0002,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_rademacher_check.HELDOUT.K1a_LPM,0.001,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection.HELDOUT.K1a_LPM,0.0645,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null.HELDOUT.K1a_LPM,1.064283505497066,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection_fl.HELDOUT.K1a_LPM,0.057,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null_fl.HELDOUT.K1a_LPM,1.0232052200185178,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.draws_converged.HELDOUT.K1a_LPM,2000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_crv1.MESH.coprimary_A_count,4.853905790545144e-05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_rand_t.MESH.coprimary_A_count,0.0014992503748125,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_rand_t.MESH.coprimary_A_count,0.0008651597029237,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_freedman_lane.MESH.coprimary_A_count,0.000999500249875,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_freedman_lane.MESH.coprimary_A_count,0.0007065766940416,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_webb.MESH.coprimary_A_count,0.0002,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_rademacher_check.MESH.coprimary_A_count,0.001,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection.MESH.coprimary_A_count,0.1035,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null.MESH.coprimary_A_count,1.2174908268228333,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection_fl.MESH.coprimary_A_count,0.098,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null_fl.MESH.coprimary_A_count,1.1979516860040682,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.draws_converged.MESH.coprimary_A_count,2000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_crv1.MESH.K1a_LPM,3.42155481992389e-07,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_rand_t.MESH.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_rand_t.MESH.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_freedman_lane.MESH.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_freedman_lane.MESH.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_webb.MESH.K1a_LPM,0.0001,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_wcr_rademacher_check.MESH.K1a_LPM,0.001,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection.MESH.K1a_LPM,0.0455,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null.MESH.K1a_LPM,0.983786436386827,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection_fl.MESH.K1a_LPM,0.053,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null_fl.MESH.K1a_LPM,1.0104731818890649,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.draws_converged.MESH.K1a_LPM,2000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_normal.IVW.coprimary_A_count,7.946748219316568e-12,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_rand_t.IVW.coprimary_A_count,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_rand_t.IVW.coprimary_A_count,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_freedman_lane.IVW.coprimary_A_count,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null.IVW.coprimary_A_count,1.2286490089572806,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection.IVW.coprimary_A_count,0.106,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_normal.IVW.K1a_LPM,5.053112810407533e-14,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_rand_t.IVW.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.mc_se_rand_t.IVW.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.p_freedman_lane.IVW.K1a_LPM,0.0004997501249375,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.z_sd_null.IVW.K1a_LPM,1.0045345540855164,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+POST-CONFIRMATION EXPLORATORY,inference.crv1_null_rejection.IVW.K1a_LPM,0.054,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+GATE,R0b.SCREEN.irr_sd,1.300076888024347,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.SCREEN.N,1544.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.SCREEN.G,140.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.SCREEN.p_crv1,6.4346966624064085e-06,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.SCREEN.ci_lo,1.1639421314281175,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.SCREEN.ci_hi,1.452133975682496,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.N_retained_coprimary,1544.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.share_zero,0.44365284974093266,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.P_Y_ge1,0.5563471502590673,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.P_Y_ge3,0.29404145077720206,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.P_Y_ge5,0.19689119170984457,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.EST_bin,0.26748704663212436,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.q50,1.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.q90,10.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.q99,53.569999999999936,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.max,290.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.mean,4.134715025906735,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.N_input,1740.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.SCREEN.share_zero_input,0.49367816091954025,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.HELDOUT.irr_sd,1.1874711752308762,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.HELDOUT.N,972.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.HELDOUT.G,74.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.HELDOUT.p_crv1,0.004487870758267363,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.HELDOUT.ci_lo,1.0565957916173876,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.HELDOUT.ci_hi,1.3345574563056906,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.N_retained_coprimary,972.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.share_zero,0.4444444444444444,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.P_Y_ge1,0.5555555555555556,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.P_Y_ge3,0.3117283950617284,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.P_Y_ge5,0.2109053497942387,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.EST_bin,0.28703703703703703,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.q50,1.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.q90,11.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.q99,64.28999999999996,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.max,808.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.mean,5.459876543209877,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.N_input,1097.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.HELDOUT.share_zero_input,0.49407474931631723,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.MESH.irr_sd,1.2329838323526199,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.MESH.N,2171.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.MESH.G,160.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.MESH.p_crv1,4.8539057905451434e-05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.MESH.ci_lo,1.1167392468870914,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0b.MESH.ci_hi,1.3613286495308954,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.N_retained_coprimary,2171.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.share_zero,0.45186549976969137,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.P_Y_ge1,0.5481345002303086,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.P_Y_ge3,0.21833256563795486,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.P_Y_ge5,0.10640257945647168,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.EST_bin,0.1773376324274528,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.q50,1.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.q90,5.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.q99,17.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.max,87.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.mean,1.8811607554122525,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.N_input,2249.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+DESCRIPTIVE,R0e.MESH.share_zero_input,0.4690973766118275,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0c.heldout_EST_bin_LPM.coef,0.476073593558696,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0c.heldout_EST_bin_LPM.p,0.1651197688453372,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+GATE,R0c.heldout_z,2.9325825384886124,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/gates.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.b_total_sd,0.2624234073526292,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.b_ext_sd,0.09840807965910967,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.b_int_sd,0.21854654872902138,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ext_share,0.31048002094041904,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.gap_sd,-0.05453122103550186,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.draws_converged,1000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ci_ext_share.lo,0.1382561606634095,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ci_ext_share.hi,0.5727354822758051,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ci_b_ext_sd.lo,0.039763186184026335,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ci_b_ext_sd.hi,0.16872562466378316,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ci_b_int_sd.lo,0.08428517931033028,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ci_b_int_sd.hi,0.3701028282545304,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ci_gap_sd.lo,-0.10447021227929977,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.SCREEN.ci_gap_sd.hi,-0.000104528214224208,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.b_total_sd,0.17182598314226488,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.b_ext_sd,0.11312196958864092,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.b_int_sd,0.13166779965027764,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ext_share,0.4621188619947272,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.gap_sd,-0.07296378609665369,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.draws_converged,1000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ci_ext_share.lo,0.19531680859423234,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ci_ext_share.hi,1.5079865210673138,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ci_b_ext_sd.lo,0.04076951845219116,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ci_b_ext_sd.hi,0.21602075674758242,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ci_b_int_sd.lo,-0.049674292563325874,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ci_b_int_sd.hi,0.259358894383994,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ci_gap_sd.lo,-0.14525964337009117,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.HELDOUT.ci_gap_sd.hi,0.010275511244454817,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.b_total_sd,0.2094371116490525,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.b_ext_sd,0.11646001309796776,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.b_int_sd,0.11784673474256377,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ext_share,0.4970407987448577,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.gap_sd,-0.024869636191479045,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.draws_converged,1000.0,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ci_ext_share.lo,0.3336424106485757,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ci_ext_share.hi,0.9006585075410901,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ci_b_ext_sd.lo,0.07518038909862254,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ci_b_ext_sd.hi,0.1628569519198115,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ci_b_int_sd.lo,0.013987734149262918,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ci_b_int_sd.hi,0.20708940779839968,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ci_gap_sd.lo,-0.05325237972799511,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+POST-CONFIRMATION EXPLORATORY,k1.decomposition.MESH.ci_gap_sd.hi,0.017956970493005136,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_decomposition.json
+DESCRIPTIVE,mde.extensive_pp_per_sd.SCREEN.MDE80,4.985074626865671,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+DESCRIPTIVE,mde.extensive_pp_per_sd.HELDOUT.MDE80,6.222222222222222,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+DESCRIPTIVE,mde.extensive_pp_per_sd.MESH.MDE80,3.6,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+DESCRIPTIVE,mde.extensive_pp_per_sd.IVW.MDE80,2.37272142584806,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+DESCRIPTIVE,mde.intensive_irr_per_sd.SCREEN.MDE80,1.1245098039215686,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+DESCRIPTIVE,mde.intensive_irr_per_sd.HELDOUT.MDE80,1.171186440677966,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+DESCRIPTIVE,mde.intensive_irr_per_sd.MESH.MDE80,1.0802158273381295,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+DESCRIPTIVE,mde.intensive_irr_per_sd.IVW.MDE80,1.0501189299899854,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+DESCRIPTIVE,mde.k3_phys_ratio.MDE80,0.7202127659574468,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k13_spec.json
+GATE,audit.K1a_LPM.SCREEN.abs_diff_b,1.9984014443252818e-15,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/audit/audit_k.json
+GATE,audit.K1a_LPM.HELDOUT.abs_diff_b,6.661338147750939e-16,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/audit/audit_k.json
+GATE,audit.K1a_LPM.MESH.abs_diff_b,4.440892098500626e-16,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/audit/audit_k.json
+GATE,audit.K3_wald.abs_diff_p,3.385421076806949e-08,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/audit/audit_k.json
+GATE,audit.heldout_rand_t.p,0.01996007984031936,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/audit/audit_k.json
