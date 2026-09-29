@@ -1,0 +1,29 @@
+{
+ "comparisons": [
+  {
+   "node": 126322002,
+   "block": "2010-2014",
+   "total_known_live": 3600833,
+   "total_known_d5": 3600833,
+   "total_rel_diff": 0.0,
+   "top5_max_rel_diff": 0.0
+  },
+  {
+   "node": 126322002,
+   "block": "2005-2009",
+   "total_known_live": 2631180,
+   "total_known_d5": 2631180,
+   "total_rel_diff": 0.0,
+   "top5_max_rel_diff": 0.0
+  },
+  {
+   "node": 104317684,
+   "block": "2005-2009",
+   "total_known_live": 1369474,
+   "total_known_d5": 1369474,
+   "total_rel_diff": 0.0,
+   "top5_max_rel_diff": 0.0
+  }
+ ],
+ "pass_2pct": true
+}
