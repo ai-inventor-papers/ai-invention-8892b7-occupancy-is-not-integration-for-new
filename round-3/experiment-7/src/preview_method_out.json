@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "method_name": "D2 host-entry anchoring vs co-transfer (PPML, grafting test)",
+    "description": "One example per screen MAIN kw5 host-entry event (concept c enters non-origin subfield d in year e). input = W1 features; output = Y_strict (W2 host papers by author-disjoint newcomers). predict_basel...",
+    "oos": {
+      "n_events": 1740,
+      "n_concepts": 184,
+      "mean_deviance_M0": 7.951665311206984,
+      "mean_deviance_M1": 7.717462531869264,
+      "deviance_diff_M1_minus_M0": -0.23420277933772038,
+      "deviance_diff_ci95_concept_bootstrap": [
+        -0.5373882615198781,
+        0.06295718306293735
+      ],
+      "spearman_M0": 0.41944633334078235,
+      "spearman_M1": 0.4312263414417356,
+      "note": "grouped-by-concept 5-fold out-of-fold predictions; descriptive predictive check, not the inferential test (concept x e FE cannot be used for unseen concepts)"
+    },
+    "prereg_sha256": "f800a0a943ad730ee5c571d557c1fae13a9afb4108eaefea0534642578cd9f74"
+  },
+  "datasets": [
+    {
+      "dataset": "d2_host_entry_events_screen",
+      "examples": [
+        {
+          "input": "{\"concept_id\":\"c_9cceb3c510be\",\"o\":3107,\"d\":1312,\"e\":2019,\"A_cont\":0.006534,\"A\":0.0,\"A_t03\":0.0,\"CT\":0.714286,\"CT_any\":1.0,\"graft_t03\":0.0,\"native_companion_t03\":0.0,\"package_t03\":0.75,\"third_party_t0...",
+          "output": "0",
+          "predict_baseline": "1.8658",
+          "predict_method": "1.2514",
+          "metadata_concept_id": "c_9cceb3c510be",
+          "metadata_fold": "screen",
+          "metadata_oos_fold": 1,
+          "metadata_population": "MAIN+STRICT",
+          "metadata_route": "A_openalex_native",
+          "metadata_label_anchored": false,
+          "metadata_Y_all": 0,
+          "metadata_Y_lenient": 0,
+          "metadata_EST_bin": 0,
+          "metadata_field_group": "Physics/Astro"
+        },
+        {
+          "input": "{\"concept_id\":\"c_9cceb3c510be\",\"o\":3107,\"d\":1702,\"e\":2011,\"A_cont\":0.142039,\"A\":0.043478,\"A_t03\":0.173913,\"CT\":0.0,\"CT_any\":0.0,\"graft_t03\":0.173913,\"native_companion_t03\":0.0,\"package_t03\":0.0,\"third...",
+          "output": "37",
+          "predict_baseline": "18.3446",
+          "predict_method": "21.6233",
+          "metadata_concept_id": "c_9cceb3c510be",
+          "metadata_fold": "screen",
+          "metadata_oos_fold": 1,
+          "metadata_population": "MAIN+STRICT",
+          "metadata_route": "A_openalex_native",
+          "metadata_label_anchored": true,
+          "metadata_Y_all": 46,
+          "metadata_Y_lenient": 45,
+          "metadata_EST_bin": 1,
+          "metadata_field_group": "Physics/Astro"
+        },
+        {
+          "input": "{\"concept_id\":\"c_9cceb3c510be\",\"o\":3107,\"d\":1703,\"e\":2019,\"A_cont\":0.011077,\"A\":0.0,\"A_t03\":0.0,\"CT\":1.0,\"CT_any\":1.0,\"graft_t03\":0.0,\"native_companion_t03\":0.0,\"package_t03\":1.0,\"third_party_t03\":0.0...",
+          "output": "0",
+          "predict_baseline": "0.173",
+          "predict_method": "0.1022",
+          "metadata_concept_id": "c_9cceb3c510be",
+          "metadata_fold": "screen",
+          "metadata_oos_fold": 1,
+          "metadata_population": "MAIN+STRICT",
+          "metadata_route": "A_openalex_native",
+          "metadata_label_anchored": false,
+          "metadata_Y_all": 1,
+          "metadata_Y_lenient": 1,
+          "metadata_EST_bin": 0,
+          "metadata_field_group": "Physics/Astro"
+        }
+      ]
+    }
+  ]
+}

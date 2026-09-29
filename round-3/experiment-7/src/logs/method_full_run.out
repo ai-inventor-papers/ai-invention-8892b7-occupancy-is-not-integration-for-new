@@ -1,0 +1,816 @@
+04:52:10|INFO   |prereg:20|prereg already frozen: f800a0a943ad730ee5c571d557c1fae13a9afb4108eaefea0534642578cd9f74
+04:52:10|INFO   |__main__:139|stage 0 done in 0.0 s
+04:52:10|INFO   |io_load:64|concepts: 426 (366 main, 60 reference); own linked legacy concept: 22
+04:52:11|INFO   |io_load:110|keyword map: 40341/40341 keywords map to a legacy concept
+04:52:11|INFO   |io_load:135|works parquet parts: ['works_part_00.parquet', 'works_part_01.parquet', 'works_part_02.parquet', 'works_part_03.parquet', 'works_part_04.parquet', 'works_part_05.parquet', 'works_part_06.parquet', 'works_part_07.parquet']; schema: ['work_id', 'doi_present', 's2_corpus_id', 'publication_year', 'publication_date', 'type', 'language', 'primary_topic_id', 'topic_score', 'subfield_id', 'field_id', 'domain_id', 'topics_top3', 'source_id', 'source_type', 'n_refs', 'refs', 'refs_in_corpus', 'author_ids', 'author_positions', 'institution_ids', 'keyword_idx', 'keyword_scores', 'concept_ids', 'concept_scores', 'has_abstract', 'abstract_n_tokens', 'cited_by_count', 'dup_group', 'retrieved_at', 'retrieval_batch']
+04:52:11|INFO   |io_load:137|works: 462812 rows
+04:52:17|INFO   |io_load:164|partner tags: 5067077 (level-0 dropped 906937; unknown level kept 0)
+04:52:19|INFO   |io_load:122|dedup: 488078 links -> 474527 kept
+04:52:20|INFO   |io_load:94|profiles: 5488 (node, block) over 1372 nodes
+04:52:20|INFO   |io_load:193|prepared cache: 156.5 MB; concepts with links 426; authors 828829; link-year == pub-year share 1.0000
+04:52:20|INFO   |__main__:139|stage 1 done in 10.3 s
+04:52:20|INFO   |population:65|population: {'MAIN': 302, 'STRICT': 292, 'SENSITIVITY': 366, 'REFERENCE_ACCEPTED': 42}; MAIN by fold {'screen': 202, 'heldout': 100}; sealed ids 119; sense replaced 180
+04:52:20|INFO   |__main__:139|stage 2 done in 0.1 s
+04:52:20|INFO   |events:76|3a reproduction: {'n_concepts_iter1_main': 184, 'n_events_all': 2347, 'n_events_kw5': 2154, 'n_events_kw5_e_ge_F': 2000, 'kw5_by_fold': {'heldout_concept': 869, 'screen': 1285}, 'expected': {'n_events_all': 2347, 'n_events_kw5': 2154, 'n_events_kw5_e_ge_F': 2000, 'kw5_by_fold': {'screen': 1285, 'heldout_concept': 869}}, 'row_level_equal': True, 'rows_only_here': 0, 'rows_only_target': 0, 'pass': True}
+04:52:20|INFO   |__main__:139|stage 3 done in 0.1 s
+04:52:21|INFO   |events:130|events: {'n_events_all': 6543, 'main_arm': 4177, 'main_arm_kw5': 3584, 'reference_arm': 2366, 'excluded_pre_F_entries': 292, 'MAIN_kw5_by_fold': {'heldout': {'events': 1100, 'concepts': 93}, 'screen': {'events': 1746, 'concepts': 184}}, 'SENSITIVITY_kw5_by_fold': {'heldout': 1369, 'screen': 2215}, 'screen_share_main_arm_kw5': 0.6180245535714286}
+04:52:21|INFO   |__main__:139|stage 4 done in 0.7 s
+04:52:36|INFO   |features:244|features: {'n_rows': 6543, 'screen_or_reference_rows': 4966, 'heldout_rows_sealed': 1577, 'native_share_tags_main_kw5_at_0.5': 0.011063690977791068, 'native_share_tags_main_kw5_at_0.3': 0.03316388941745725, 'fallback6_triggered': True, 'mean_A_cont': 0.04260414974683278, 'sd_A_cont': 0.05532402201005127, 'mean_A': 0.00913365220720813, 'median_A': 0.0, 'mean_CT': 0.6139171730758035, 'mean_cov_event': 0.7569592477751297, 'median_cov_event': 0.7928921568627451, 'tag_weighted_cov': 0.7439682892794305, 'share_events_cov_ge_0.6': 0.8208705357142857, 'A0_sd_across_hosts': 0.021318440671549692, 'RD_basis_counts': {'before_e': 3523, 'up_to_e': 61}, 'demic_missing': 11, 'mom_missing': 0, 'prox_missing': 0, 'partition_means_t05': {'graft': 0.006876138063062135, 'native_companion': 0.0022575141441459937, 'package': 0.7033071065867675, 'third_party': 0.28755924120602444, 'unknown_share': 0.2430407522248703}, 'partition_means_t03': {'graft': 0.01770852828522093, 'native_companion': 0.009291371853521293, 'package': 0.6962732488773921, 'third_party': 0.2767268509838656}}
+04:52:36|INFO   |__main__:139|stage 5 done in 15.2 s
+04:52:47|INFO   |outcomes:97|outcomes: 2600 events; Y_strict zero share 0.517
+04:52:47|INFO   |__main__:139|stage 6 done in 11.1 s
+04:55:53|INFO   |models:217|M1: n=452 G=77 bA=5.953 (p 0.0744) bCT=0.163 (p 0.8464); decision {'reading': 'NEITHER', 'holm_p': {'A_cont': 0.14889005997906257, 'CT': 0.8464171358813409}, 'notes': []}
+04:55:53|INFO   |__main__:139|stage 7 done in 186.1 s
+04:56:13|INFO   |outcomes:97|outcomes: 1740 events; Y_strict zero share 0.465
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/models.py:76: RuntimeWarning: overflow encountered in exp
+  out["irr_sd"][v] = float(np.exp(b * sd))
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/models.py:78: RuntimeWarning: overflow encountered in exp
+  out["ci_irr_sd"][v] = [float(np.exp((b - tq * se) * sd)), float(np.exp((b + tq * se) * sd))]
+04:56:13|INFO   |robustness:158|robustness: 54 rows written
+04:56:13|INFO   |__main__:139|stage 8 done in 20.0 s
+04:57:31|INFO   |placebo:145|placebo: {'draws': 500, 'shuffles': 50, 'A_cont_reconstruction_max_abs_diff': 8.326672684688674e-17, 'primary': {'b_A_obs': 5.952633617485952, 'z_A_obs': 1.8087493927870801, 'lnirr_sd_A_obs': 0.3263804062480784, 'placebo_n_ok': 500, 'placebo_z_mean': 0.006672469169794505, 'placebo_z_sd': 1.2596024808841864, 'perm_p_two_sided_z (primary placebo p)': 0.1536926147704591, 'placebo_lnirr_sd_mean': -0.0017637990108506205, 'placebo_lnirr_sd_sd': 0.15184318747053857, 'perm_p_two_sided_per_sd_effect': 0.03792415169660679, 'placebo_b_mean': -0.8735009247598017, 'placebo_b_sd': 22.794073846993854, 'perm_p_two_sided_raw_b': 0.8043912175648703, 'placebo_b_q025_q975': [-47.69050874190768, 42.332528390943615], 'label_shuffle_b_mean': 1.4149638327697378, 'label_shuffle_b_sd': 6.25358055564119, 'label_shuffle_z_mean': 0.2999073306695459, 'label_shuffle_z_sd': 1.256756763166734, 'label_shuffle_p_two_sided_z': 0.1568627450980392}, 'secondary': {'b_A_obs': 4.739105939721475, 'z_A_obs': 4.690842438511342, 'lnirr_sd_A_obs': 0.2624234073526285, 'placebo_n_ok': 500, 'placebo_z_mean': -0.017517504053416552, 'placebo_z_sd': 1.3824461841091311, 'perm_p_two_sided_z (primary placebo p)': 0.001996007984031936, 'placebo_lnirr_sd_mean': -0.005741938556565109, 'placebo_lnirr_sd_sd': 0.07103463182693581, 'perm_p_two_sided_per_sd_effect': 0.001996007984031936, 'placebo_b_mean': -0.8945673604846908, 'placebo_b_sd': 9.571234859671524, 'perm_p_two_sided_raw_b': 0.6027944111776448, 'placebo_b_q025_q975': [-18.45173716897102, 17.81561967282756], 'label_shuffle_b_mean': 0.3047504685249649, 'label_shuffle_b_sd': 2.262145674737898, 'label_shuffle_z_mean': 0.212365254245563, 'label_shuffle_z_sd': 1.208125084258618, 'label_shuffle_p_two_sided_z': 0.0196078431372549}, 'note': "permuted A_cont has a much smaller SD than the observed A_cont (a random label rarely carries a node's mass), so raw b is not scale-comparable; the z statistic is the primary placebo statistic (deviations.md #5); raw-b and per-SD-effect p values are reported too"}
+04:57:31|INFO   |__main__:139|stage 9 done in 77.4 s
+04:58:00|INFO   |labels:160|labels: {"benchmark": {"n_reference_events": 1642, "n_hosts_with_own_benchmark": 149, "n_fields_with_benchmark": 26, "global_median_A_t03": 0.0, "share_host_benchmarks_zero": 0.9865771812080537}, "labels": {"screen": {"n": 2215, "anchored_share": 0.1530474040632054, "basis": {"clopper_pearson": 2114, "bootstrap_papers": 100, "no_profiled_tags": 1}, "benchmark_level": {"host": 2081, "field": 134}}, "heldout": {"n": 1369, "anchored_share": 0.15339663988312638, "basis": {"clopper_pearson": 1291, "bootstrap_papers": 77, "no_profiled_tags": 1}, "benchmark_level": {"host": 1263, "field": 106}}}, "establishment_by_label_screen_MAIN": {"n_anchored": 288, "n_unanchored": 1458, "EST_bin": {"anchored": 0.4375, "unanchored": 0.2030178326474623, "diff": 0.2344821673525377, "ci95": [0.1764617948157275, 0.2989188842554924]}, "Y_strict_per_entry_paper": {"anchored": 6.292369378306878, "unanchored": 2.03907178783722, "diff": 4.253297590469658, "ci95": [2.5737882850058393, 6.140151383094149]}}, "occupancy": {"n_present_e5": 630, "share_anchored_among_present_e5": 0.2571428571428571, "share_anchored_all": 0.16494845360824742}, "integration_entropy": {"n_concepts": 126, "mean_anchored_entropy_share": 0.34009923255956864, "mean_anchored_event_share": 0.219905213693462, "note": "W2 host-subfield entropy (Y_all over the concept's host entry events) and the share carried by anchored host edges"}, "d3_export": {"screen_concepts": 227, "heldout_concepts_sealed": 112}}
+04:58:00|INFO   |__main__:139|stage 10 done in 29.6 s
+04:59:20|INFO   |assemble_out:100|method_out.json: 1740 examples
+04:59:20|INFO   |assemble_out:112|oos: {'n_events': 1740, 'n_concepts': 184, 'mean_deviance_M0': 7.951665311206984, 'mean_deviance_M1': 7.717462531869264, 'deviance_diff_M1_minus_M0': -0.23420277933772038, 'deviance_diff_ci95_concept_bootstrap': [-0.5373882615198781, 0.06295718306293735], 'spearman_M0': 0.41944633334078235, 'spearman_M1': 0.4312263414417356, 'note': 'grouped-by-concept 5-fold out-of-fold predictions; descriptive predictive check, not the inferential test (concept x e FE cannot be used for unseen concepts)'}
+04:59:20|INFO   |__main__:139|stage 12 done in 79.6 s
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+/ai-inventor/aii_data/runs/run_spUCG07dPEEP/3_invention_loop/iter_3/gen_art/gen_art_experiment_7/src/ppml.py:99: RuntimeWarning: invalid value encountered in sqrt
+  return {"coef": beta, "se": np.sqrt(np.diag(V)), "n": int(n), "G": int(G), "mu": mu, "keep": keep,
+05:02:54|INFO   |power:109|power: {'heldout_design': {'n_concepts': 93, 'n_events': 1100, 'source': 'sealed/heldout_features.parquet (W1 only)'}, 'reps_per_cell': 300, 'theta_nb2': 5.595015282524342, 'sd_A_cont': 0.05537403271640128, 'alpha': 0.025, 'power_curve': {'primary': {'1.0': 0.046822742474916385, '1.05': 0.11409395973154363, '1.1': 0.10847457627118644, '1.15': 0.13513513513513514, '1.2': 0.15719063545150502, '1.3': 0.19666666666666666, '1.4': 0.2684563758389262}, 'primary_failed_fits': 15, 'secondary': {'1.0': 0.02666666666666667, '1.05': 0.16, '1.1': 0.47, '1.15': 0.8066666666666666, '1.2': 0.94, '1.3': 0.9966666666666667, '1.4': 1.0}, 'secondary_failed_fits': 0}, 'MDE_irr_per_sd_power80': {'primary': None, 'secondary': 1.15}, 'screen_irr_per_sd': {'primary': 1.385942489788976, 'secondary': 1.300076888024346}, 'adequately_powered': {'primary': False, 'secondary': True}, 'dgp': 'base mu from the screen secondary-FE M0 fit (controls only); NB2 gamma-Poisson; one-sided rejection (b_A > 0 and two-sided p < 0.025)'}
+05:02:54|INFO   |__main__:139|stage 13 done in 214.3 s
+05:02:55|INFO   |freeze:70|held-out spec frozen: d3622f331a5365c0028c8bea30b1bb50cb984e507e5fd4e410f57d95f4f2046b
+05:02:55|INFO   |__main__:139|stage 14 done in 0.9 s
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:kern dropped
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:FFTM dropped
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'MATH': 50 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'C', 'E', 'F', 'I', 'M', 'N', 'T', 'W', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'plus', 'r', 's', 'semicolon', 'seven', 'six', 'slash', 'space', 't', 'two', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 30, 36, 38, 40, 41, 44, 48, 49, 55, 58, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 89, 90, 91, 92]
+INFO:fontTools.subset:Closed glyph list over 'MATH': 56 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'C', 'E', 'F', 'I', 'M', 'N', 'T', 'W', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'plus', 'r', 's', 'semicolon', 'seven', 'six', 'slash', 'space', 't', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 30, 36, 38, 40, 41, 44, 48, 49, 55, 58, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 89, 90, 91, 92, 3506, 3507, 3508, 3509, 3510, 3511]
+INFO:fontTools.subset:Closing glyph list over 'GSUB': 56 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'C', 'E', 'F', 'I', 'M', 'N', 'T', 'W', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'plus', 'r', 's', 'semicolon', 'seven', 'six', 'slash', 'space', 't', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 30, 36, 38, 40, 41, 44, 48, 49, 55, 58, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 89, 90, 91, 92, 3506, 3507, 3508, 3509, 3510, 3511]
+INFO:fontTools.subset:Closed glyph list over 'GSUB': 61 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'C', 'E', 'F', 'I', 'M', 'N', 'T', 'W', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'plus', 'r', 's', 'semicolon', 'seven', 'six', 'slash', 'space', 't', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 30, 36, 38, 40, 41, 44, 48, 49, 55, 58, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 89, 90, 91, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Closing glyph list over 'glyf': 61 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'C', 'E', 'F', 'I', 'M', 'N', 'T', 'W', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'plus', 'r', 's', 'semicolon', 'seven', 'six', 'slash', 'space', 't', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 30, 36, 38, 40, 41, 44, 48, 49, 55, 58, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 89, 90, 91, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 61 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'C', 'E', 'F', 'I', 'M', 'N', 'T', 'W', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'plus', 'r', 's', 'semicolon', 'seven', 'six', 'slash', 'space', 't', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 30, 36, 38, 40, 41, 44, 48, 49, 55, 58, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 89, 90, 91, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Retaining 61 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:MATH subsetted
+INFO:fontTools.subset:GDEF subsetted
+INFO:fontTools.subset:GPOS subsetted
+INFO:fontTools.subset:GSUB subsetted
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:GDEF pruned
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:kern dropped
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:FFTM dropped
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'MATH': 40 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 27, 32, 33, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92]
+INFO:fontTools.subset:Closed glyph list over 'MATH': 46 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 27, 32, 33, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511]
+INFO:fontTools.subset:Closing glyph list over 'GSUB': 46 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 27, 32, 33, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511]
+INFO:fontTools.subset:Closed glyph list over 'GSUB': 51 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'fi', 'fl', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 27, 32, 33, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Closing glyph list over 'glyf': 51 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'fi', 'fl', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 27, 32, 33, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 51 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'a', 'b', 'c', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'fi', 'fl', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 27, 32, 33, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Retaining 51 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:MATH subsetted
+INFO:fontTools.subset:GDEF subsetted
+INFO:fontTools.subset:GPOS subsetted
+INFO:fontTools.subset:GSUB subsetted
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:GDEF pruned
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:kern dropped
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:FFTM dropped
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'MATH': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closed glyph list over 'MATH': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closing glyph list over 'GSUB': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closed glyph list over 'GSUB': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closing glyph list over 'glyf': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Retaining 5 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:MATH subsetted
+INFO:fontTools.subset:GDEF subsetted
+INFO:fontTools.subset:GPOS subsetted
+INFO:fontTools.subset:GSUB subsetted
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [62]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:GDEF pruned
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:kern dropped
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:FFTM dropped
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'MATH': 67 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'I', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'l', 'less', 'm', 'multiply', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'plus', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 38, 39, 40, 41, 44, 48, 49, 51, 53, 54, 55, 57, 58, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 153]
+INFO:fontTools.subset:Closed glyph list over 'MATH': 79 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'I', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'l', 'less', 'm', 'multiply', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'plus', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 38, 39, 40, 41, 44, 48, 49, 51, 53, 54, 55, 57, 58, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 153, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517]
+INFO:fontTools.subset:Closing glyph list over 'GSUB': 79 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'I', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'five', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'l', 'less', 'm', 'multiply', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'plus', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 38, 39, 40, 41, 44, 48, 49, 51, 53, 54, 55, 57, 58, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 153, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517]
+INFO:fontTools.subset:Closed glyph list over 'GSUB': 84 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'I', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'fi', 'five', 'fl', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'l', 'less', 'm', 'multiply', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'plus', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 38, 39, 40, 41, 44, 48, 49, 51, 53, 54, 55, 57, 58, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 153, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Closing glyph list over 'glyf': 84 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'I', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'fi', 'five', 'fl', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'l', 'less', 'm', 'multiply', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'plus', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 38, 39, 40, 41, 44, 48, 49, 51, 53, 54, 55, 57, 58, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 153, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 84 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'I', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'e', 'eight', 'equal', 'f', 'fi', 'five', 'fl', 'four', 'g', 'greater', 'h', 'hyphen', 'i', 'l', 'less', 'm', 'multiply', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'percent', 'period', 'plus', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 8, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 36, 37, 38, 39, 40, 41, 44, 48, 49, 51, 53, 54, 55, 57, 58, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 153, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Retaining 84 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:MATH subsetted
+INFO:fontTools.subset:GDEF subsetted
+INFO:fontTools.subset:GPOS subsetted
+INFO:fontTools.subset:GSUB subsetted
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0, 1]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:GDEF pruned
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:kern dropped
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:FFTM dropped
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'MATH': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closed glyph list over 'MATH': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closing glyph list over 'GSUB': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closed glyph list over 'GSUB': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closing glyph list over 'glyf': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'fi', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5039]
+INFO:fontTools.subset:Retaining 5 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:MATH subsetted
+INFO:fontTools.subset:GDEF subsetted
+INFO:fontTools.subset:GPOS subsetted
+INFO:fontTools.subset:GSUB subsetted
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [62]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:GDEF pruned
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:kern dropped
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:FFTM dropped
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'MATH': 37 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'E', 'F', 'a', 'b', 'c', 'd', 'e', 'equal', 'f', 'five', 'four', 'h', 'i', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'period', 'plus', 'r', 's', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'x', 'y', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 14, 17, 19, 20, 21, 22, 23, 24, 32, 36, 40, 41, 66, 68, 69, 70, 71, 72, 73, 75, 76, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 93]
+INFO:fontTools.subset:Closed glyph list over 'MATH': 37 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'E', 'F', 'a', 'b', 'c', 'd', 'e', 'equal', 'f', 'five', 'four', 'h', 'i', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'period', 'plus', 'r', 's', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'x', 'y', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 14, 17, 19, 20, 21, 22, 23, 24, 32, 36, 40, 41, 66, 68, 69, 70, 71, 72, 73, 75, 76, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 93]
+INFO:fontTools.subset:Closing glyph list over 'GSUB': 37 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'E', 'F', 'a', 'b', 'c', 'd', 'e', 'equal', 'f', 'five', 'four', 'h', 'i', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'period', 'plus', 'r', 's', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'x', 'y', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 14, 17, 19, 20, 21, 22, 23, 24, 32, 36, 40, 41, 66, 68, 69, 70, 71, 72, 73, 75, 76, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 93]
+INFO:fontTools.subset:Closed glyph list over 'GSUB': 40 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'E', 'F', 'a', 'b', 'c', 'd', 'e', 'equal', 'f', 'fi', 'five', 'four', 'h', 'i', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'period', 'plus', 'r', 's', 'space', 't', 'three', 'two', 'u', 'underscore', 'uniFB00', 'uniFB03', 'v', 'x', 'y', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 14, 17, 19, 20, 21, 22, 23, 24, 32, 36, 40, 41, 66, 68, 69, 70, 71, 72, 73, 75, 76, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 93, 5038, 5039, 5041]
+INFO:fontTools.subset:Closing glyph list over 'glyf': 40 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'E', 'F', 'a', 'b', 'c', 'd', 'e', 'equal', 'f', 'fi', 'five', 'four', 'h', 'i', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'period', 'plus', 'r', 's', 'space', 't', 'three', 'two', 'u', 'underscore', 'uniFB00', 'uniFB03', 'v', 'x', 'y', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 14, 17, 19, 20, 21, 22, 23, 24, 32, 36, 40, 41, 66, 68, 69, 70, 71, 72, 73, 75, 76, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 93, 5038, 5039, 5041]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 40 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'E', 'F', 'a', 'b', 'c', 'd', 'e', 'equal', 'f', 'fi', 'five', 'four', 'h', 'i', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'period', 'plus', 'r', 's', 'space', 't', 'three', 'two', 'u', 'underscore', 'uniFB00', 'uniFB03', 'v', 'x', 'y', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 14, 17, 19, 20, 21, 22, 23, 24, 32, 36, 40, 41, 66, 68, 69, 70, 71, 72, 73, 75, 76, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 93, 5038, 5039, 5041]
+INFO:fontTools.subset:Retaining 40 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:MATH subsetted
+INFO:fontTools.subset:GDEF subsetted
+INFO:fontTools.subset:GPOS subsetted
+INFO:fontTools.subset:GSUB subsetted
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:GDEF pruned
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:kern dropped
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:FFTM dropped
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'MATH': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'minus', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 3228]
+INFO:fontTools.subset:Closed glyph list over 'MATH': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'minus', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 3228]
+INFO:fontTools.subset:Closing glyph list over 'GSUB': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'minus', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 3228]
+INFO:fontTools.subset:Closed glyph list over 'GSUB': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'minus', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 3228]
+INFO:fontTools.subset:Closing glyph list over 'glyf': 5 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'minus', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 3228]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 5 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'minus', 'nonmarkingreturn', 'space']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 3228]
+INFO:fontTools.subset:Retaining 5 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:MATH subsetted
+INFO:fontTools.subset:GDEF subsetted
+INFO:fontTools.subset:GPOS subsetted
+INFO:fontTools.subset:GSUB subsetted
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [38]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:GDEF pruned
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:kern dropped
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:FFTM dropped
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'MATH': 40 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'D', 'I', 'R', 'S', 'a', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 27, 36, 39, 44, 53, 54, 68, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92]
+INFO:fontTools.subset:Closed glyph list over 'MATH': 46 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'D', 'I', 'R', 'S', 'a', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 27, 36, 39, 44, 53, 54, 68, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511]
+INFO:fontTools.subset:Closing glyph list over 'GSUB': 46 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'D', 'I', 'R', 'S', 'a', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 27, 36, 39, 44, 53, 54, 68, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511]
+INFO:fontTools.subset:Closed glyph list over 'GSUB': 51 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'D', 'I', 'R', 'S', 'a', 'c', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 27, 36, 39, 44, 53, 54, 68, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Closing glyph list over 'glyf': 51 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'D', 'I', 'R', 'S', 'a', 'c', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 27, 36, 39, 44, 53, 54, 68, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 51 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', '.null', 'A', 'D', 'I', 'R', 'S', 'a', 'c', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'w', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 27, 36, 39, 44, 53, 54, 68, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+INFO:fontTools.subset:Retaining 51 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:MATH subsetted
+INFO:fontTools.subset:GDEF subsetted
+INFO:fontTools.subset:GPOS subsetted
+INFO:fontTools.subset:GSUB subsetted
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:GDEF pruned
+INFO:fontTools.subset:GPOS pruned
+INFO:fontTools.subset:GSUB pruned
+INFO:fontTools.subset:name pruned
+05:03:17|INFO   |__main__:139|stage 15 done in 22.1 s
+05:03:17|INFO   |summary:80|d2_summary.json written
+05:03:17|INFO   |__main__:139|stage 16 done in 0.2 s
