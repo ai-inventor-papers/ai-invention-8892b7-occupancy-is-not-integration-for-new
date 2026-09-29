@@ -1,0 +1,82 @@
+{
+ "tables": {
+  "T_adopter": {
+   "n_cells": 95,
+   "n_checked": 38,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_caveats": {
+   "n_cells": 66,
+   "n_checked": 21,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_coverage": {
+   "n_cells": 24,
+   "n_checked": 3,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_decision": {
+   "n_cells": 91,
+   "n_checked": 12,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_design": {
+   "n_cells": 30,
+   "n_checked": 10,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_flow": {
+   "n_cells": 60,
+   "n_checked": 24,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_mesh": {
+   "n_cells": 36,
+   "n_checked": 22,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_missing": {
+   "n_cells": 2628,
+   "n_checked": 584,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_rooting": {
+   "n_cells": 40,
+   "n_checked": 23,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_rq1": {
+   "n_cells": 184,
+   "n_checked": 75,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  },
+  "T_table18": {
+   "n_cells": 55,
+   "n_checked": 11,
+   "n_fail": 0,
+   "pass_": true,
+   "pass": true
+  }
+ },
+ "failures": []
+}

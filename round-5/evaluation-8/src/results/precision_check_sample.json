@@ -1,0 +1,223 @@
+[
+ {
+  "line": 7,
+  "text": "The study began with a source-sink viability hypothesis adapted from population ecology [1], asking whether a concept's presence in a subfield is self-sustaining or import-dependent. That hypothesis was blocked by insufficient citation-laye",
+  "reasons": [
+   "verdict:R1 dead if the pooled-panel held-out row fails"
+  ]
+ },
+ {
+  "line": 21,
+  "text": "A pre-registered screen was fixed before any data were inspected. The unit of analysis is a concept c in non-origin subfield d at focal year t (2010-2014), with at least 10 d-papers in W1 = [t−5, t]. The primary measure is out-of-sample ROC",
+  "reasons": [
+   "scan:UNTRACED:1,000",
+   "scan:UNTRACED:95%"
+  ]
+ },
+ {
+  "line": 48,
+  "text": "Verified links pairing each concept with the OpenAlex works that use it total 214,798 pairs spanning 208,374 unique works. Among the 121,829 main-arm links, 56,997 matched in the work title, 51,966 in the abstract, 10,177 through Semantic S",
+  "reasons": [
+   "scan:UNTRACED:92,043,",
+   "scan:UNTRACED:98,192,"
+  ]
+ },
+ {
+  "line": 50,
+  "text": "[FIGURE:fig_methodology]",
+  "reasons": [
+   "assert:A.fig_methodology:VERDICT_DRIFT"
+  ]
+ },
+ {
+  "line": 81,
+  "text": "The worker timed out after writing all outputs (no new JSONL records for 2,096 seconds), so its status is \"failed\" while its data are usable.",
+  "reasons": [
+   "scan:UNTRACED:2,096"
+  ]
+ },
+ {
+  "line": 124,
+  "text": "**Survivorship-free phrase pool.** 1,000 text-mined candidate keys (587 labelled CONCEPT by model A), with yearly counts restricted to F through F+2. Only 1 strict-eligible anchored phrase was found, far below the target of 150, due to the ",
+  "reasons": [
+   "scan:UNTRACED:587"
+  ]
+ },
+ {
+  "line": 477,
+  "text": "| Primary (concept × e + host × e FE) | 1.39 | [0.97, 1.99] | 0.15 | 0.48 | NEITHER |",
+  "reasons": [
+   "claim:d2.scr.pri.ct_p:WRONG_ESTIMATOR"
+  ]
+ },
+ {
+  "line": 551,
+  "text": "**Host-entry grafting predicts durable integration.** When a concept enters a new host subfield, the share of its initial co-occurrence partners that are native to that host predicts subsequent uptake by newcomer authors (co-primary IRR 1.3",
+  "reasons": [
+   "assert:A.establishment_551:WRONG_DEFINITION",
+   "claim:d2.scr.robust.count2:DRIFT_VALUE"
+  ]
+ },
+ {
+  "line": 574,
+  "text": "| art_94GEMUsgAmgK (pool) | dataset | succeeded | 2,566 | $0.36 | - |",
+  "reasons": [
+   "scan:NOT_COLOCATED:0.36"
+  ]
+ },
+ {
+  "line": 650,
+  "text": "83% of entry-year events are single-paper entries. The single-paper artefact test checks whether A_cont predicts newcomer uptake only when multiple independent teams publish entry-year papers (multi-team entries), which would argue against ",
+  "reasons": [
+   "claim:d2.scr.single_share:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 656,
+  "text": "| Pooled | 1.26 | 1.14 | 0.91 | 0.11 |",
+  "reasons": [
+   "claim:g1.pooled.multi:NOT_TRACEABLE",
+   "claim:g1.pooled.ratio:DRIFT_VALUE"
+  ]
+ },
+ {
+  "line": 657,
+  "text": "| Held-out | 1.37 | 1.09 | 0.80 | 0.004 |",
+  "reasons": [
+   "claim:g1.ho.multi:NOT_TRACEABLE",
+   "claim:g1.ho.ratio:DRIFT_VALUE"
+  ]
+ },
+ {
+  "line": 676,
+  "text": "Both NATIVE and ADJACENT components are positive and significant on both folds. The reading is \"host-vocabulary (both)\": the grafting effect runs through the full host-vocabulary gradient, not just through the native tail. Wald test for equ",
+  "reasons": [
+   "assert:A.G2a_significant_both_folds:VERDICT_DRIFT"
+  ]
+ },
+ {
+  "line": 690,
+  "text": "Combining the single-paper, vocabulary-decomposition, and topic-score tests: the pooled mechanism label is **host-vocabulary**. The multi-team effect is positive (pooled CI excludes 1); topic-score absorption is < 50% of the log-IRR; the vo",
+  "reasons": [
+   "assert:A.mechanism_scope:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 696,
+  "text": "This artifact replicates the grafting test on the 191 MeSH biomedical concepts, providing a cross-domain test of the grafting finding [ARTIFACT:art_XGdzjWgi-a88]. Spec hash: b7cdabf8...",
+  "reasons": [
+   "assert:A.cross_domain:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 734,
+  "text": "| Burt constraint | +0.064 | +0.105 | [0.021, 0.187] | - | DEAD (wrong direction for brokerage) |",
+  "reasons": [
+   "claim:rq1.constraint.scr:WRONG_ESTIMATOR"
+  ]
+ },
+ {
+  "line": 779,
+  "text": "Among concepts with both transitions observable, expansion precedes diffusion in 25 of 26 pooled main-arm concepts (held-out: 10 of 10; screen: 15 of 16). No main-arm concept shows diffusion first. On MeSH, 9 of 13 dual-onset concepts show ",
+  "reasons": [
+   "assert:A.mesh_leadlag:VERDICT_DRIFT"
+  ]
+ },
+ {
+  "line": 781,
+  "text": "Caveats: 53% of main-arm concepts show neither transition; the evaluability rule for diffusion onset (rarefied Shannon requiring ≥ 10 papers in window) mechanically favours expansion-first ordering; only 8% of main-arm concepts have both on",
+  "reasons": [
+   "claim:ll.share_both:DRIFT_VALUE"
+  ]
+ },
+ {
+  "line": 790,
+  "text": "- **Anchoring × typology interaction.** PARTIAL FAIL: odds ratios flip between screen and held-out; not confirmed.",
+  "reasons": [
+   "assert:A.E4_label:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 805,
+  "text": "This artifact tests whether authors who adopt a concept in a new host subfield had prior corpus exposure to the concept's entry partners, providing an adopter-level mechanism for the host-vocabulary gradient [ARTIFACT:art_FZ2OCJwV6xHs]. We ",
+  "reasons": [
+   "assert:A.matching_description:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 811,
+  "text": "| E_any (any prior partner exposure) | 3.14 | [2.37, 4.29] | 1.4e-13 |",
+  "reasons": [
+   "claim:ad.or.hi:WRONG_ESTIMATOR",
+   "claim:ad.or.lo:WRONG_ESTIMATOR",
+   "claim:ad.or:WRONG_ESTIMATOR"
+  ]
+ },
+ {
+  "line": 813,
+  "text": "| E_plac (placebo-host exposure) | 0.76 | [0.59, 0.95] | 0.013 |",
+  "reasons": [
+   "claim:ad.plac.lo:DRIFT_VALUE",
+   "claim:ad.plac:WRONG_ESTIMATOR"
+  ]
+ },
+ {
+  "line": 814,
+  "text": "| E_swap (exposure swap control) | 1.11 | [0.87, 1.42] | 0.39 |",
+  "reasons": [
+   "claim:ad.swap.hi:DRIFT_VALUE"
+  ]
+ },
+ {
+  "line": 816,
+  "text": "Adopters are 3.1× more likely to have prior corpus exposure to the concept's entry partners than matched non-adopters. Exposure to non-partner concepts in the concept's origin subfield (E_neg) is negatively associated (OR 0.62), suggesting ",
+  "reasons": [
+   "assert:A.neg_description:WRONG_DEFINITION",
+   "assert:A.plac_description:WRONG_DEFINITION",
+   "claim:ad.or.text:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 829,
+  "text": "The gradient runs FOREIGN > ADJACENT > NATIVE. Adopters are most enriched for exposure to the concept's foreign (origin-vocabulary) partners, not its host-native partners. This is consistent with absorptive capacity [30]: adopters who can r",
+  "reasons": [
+   "assert:A.establishment_829:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 837,
+  "text": "**Reading.** The artifact's verdict is SUPPORT for an absorptive capacity mechanism, with the qualification that the vocabulary-class gradient (FOREIGN > NATIVE) contradicts the grafting reading at the adopter level. This is screen-fold evi",
+  "reasons": [
+   "assert:A.absorptive_support:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 863,
+  "text": "The caveats are substantial. The primary fully-saturated specification is underpowered on both held-out and MeSH (IRR/SD 0.98 and 1.32, respectively; the held-out is inconclusive). Single-paper entries (83% of events) drive the effect more ",
+  "reasons": [
+   "claim:d2.scr.single_share2:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 867,
+  "text": "**Emergence question: closure is not confirmed on the primary measure; persistent-neighbour closure survives.** The held-out fold does not confirm the headline closure finding (Holm p = 0.147) or its turnover-residualised form (Holm p = 0.6",
+  "reasons": [
+   "verdict:R1 dead if the pooled-panel held-out row fails"
+  ]
+ },
+ {
+  "line": 871,
+  "text": "**Adopter mechanism.** Authors who adopt a concept in a new host subfield are 3.1× more likely than matched non-adopters to have prior corpus exposure to the concept's entry partners. The enrichment is strongest for FOREIGN (origin-vocabula",
+  "reasons": [
+   "assert:A.establishment_871:WRONG_DEFINITION",
+   "claim:ad.or.text2:WRONG_DEFINITION"
+  ]
+ },
+ {
+  "line": 883,
+  "text": "| 5. Identify recurring trajectories | Done (k = 2 replicates on held-out and MeSH) | art_QKsLguxnGFQT, art_mu0h0npvNX_u | Finer typologies unstable; 3-channel adds nothing beyond entropy |",
+  "reasons": [
+   "assert:A.k2_mesh:WRONG_DEFINITION"
+  ]
+ }
+]

@@ -1,0 +1,952 @@
+[
+ {
+  "table": "T_adopter",
+  "row": 0,
+  "col": "exposure",
+  "display": "E_any, pre-declared primary m2",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 0,
+  "col": "OR",
+  "display": "3.09",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m2/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 0,
+  "col": "lo",
+  "display": "2.32",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m2/terms/E_any/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 0,
+  "col": "hi",
+  "display": "4.28",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m2/terms/E_any/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 0,
+  "col": "note",
+  "display": "prevalence 0.79 vs 0.61; risk ratio ~1.30; NOT '3.1x more likely'",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 1,
+  "col": "exposure",
+  "display": "E_any, m1 (not primary)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 1,
+  "col": "OR",
+  "display": "3.14",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m1/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 1,
+  "col": "lo",
+  "display": "2.37",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m1/terms/E_any/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 1,
+  "col": "hi",
+  "display": "4.29",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m1/terms/E_any/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 1,
+  "col": "note",
+  "display": "value the report printed",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 2,
+  "col": "exposure",
+  "display": "E_neg (frequency-matched negative-control concepts), m2",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 2,
+  "col": "OR",
+  "display": "0.62",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m2/terms/E_neg/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 2,
+  "col": "lo",
+  "display": "0.49",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m2/terms/E_neg/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 2,
+  "col": "hi",
+  "display": "0.77",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m2/terms/E_neg/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 2,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 3,
+  "col": "exposure",
+  "display": "E_plac (partners of another concept's entry into the same host), m_plac",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 3,
+  "col": "OR",
+  "display": "0.72",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m_plac/terms/E_plac/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 3,
+  "col": "lo",
+  "display": "0.57",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m_plac/terms/E_plac/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 3,
+  "col": "hi",
+  "display": "0.90",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m_plac/terms/E_plac/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 3,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 4,
+  "col": "exposure",
+  "display": "E_swap",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 4,
+  "col": "OR",
+  "display": "1.11",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m_swap/terms/E_swap/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 4,
+  "col": "lo",
+  "display": "0.86",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m_swap/terms/E_swap/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 4,
+  "col": "hi",
+  "display": "1.39",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/enrichment.json::m_swap/terms/E_swap/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 4,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 5,
+  "col": "exposure",
+  "display": "E_for (FOREIGN partners)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 5,
+  "col": "OR",
+  "display": "2.88",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_for/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 5,
+  "col": "lo",
+  "display": "2.28",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_for/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 5,
+  "col": "hi",
+  "display": "3.69",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_for/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 5,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 6,
+  "col": "exposure",
+  "display": "E_adj (ADJACENT)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 6,
+  "col": "OR",
+  "display": "1.91",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_adj/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 6,
+  "col": "lo",
+  "display": "1.43",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_adj/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 6,
+  "col": "hi",
+  "display": "2.73",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_adj/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 6,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 7,
+  "col": "exposure",
+  "display": "E_nat (NATIVE)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 7,
+  "col": "OR",
+  "display": "1.47",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_nat/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 7,
+  "col": "lo",
+  "display": "1.02",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_nat/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 7,
+  "col": "hi",
+  "display": "2.33",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/vocab_class.json::m_voc/terms/E_nat/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 7,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 8,
+  "col": "exposure",
+  "display": "E_any x A_cont interaction",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 8,
+  "col": "OR",
+  "display": "0.87",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/interaction.json::m_int/terms/E_any_x_zA/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 8,
+  "col": "lo",
+  "display": "0.70",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/interaction.json::m_int/terms/E_any_x_zA/OR_ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 8,
+  "col": "hi",
+  "display": "1.14",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/interaction.json::m_int/terms/E_any_x_zA/OR_ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 8,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 9,
+  "col": "exposure",
+  "display": "Robustness: 1:3 matched",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 9,
+  "col": "OR",
+  "display": "2.96",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/supplementary.json::one_to_three_matched/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 9,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 9,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 9,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 10,
+  "col": "exposure",
+  "display": "Robustness: expanded frame (no concept cap)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 10,
+  "col": "OR",
+  "display": "2.62",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/supplementary.json::expanded_frame_no_concept_cap/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 10,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 10,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 10,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 11,
+  "col": "exposure",
+  "display": "Robustness: Physics/Astro",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 11,
+  "col": "OR",
+  "display": "3.87",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/supplementary.json::field_Physics_Astro/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 11,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 11,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 11,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 12,
+  "col": "exposure",
+  "display": "Robustness: CS",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 12,
+  "col": "OR",
+  "display": "3.46",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/supplementary.json::field_CS/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 12,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 12,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 12,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 13,
+  "col": "exposure",
+  "display": "Robustness: single-paper entries",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 13,
+  "col": "OR",
+  "display": "3.59",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/supplementary.json::single_paper_entries/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 13,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 13,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 13,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 14,
+  "col": "exposure",
+  "display": "Robustness: multi-paper entries",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 14,
+  "col": "OR",
+  "display": "2.33",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/supplementary.json::multi_paper_entries/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 14,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 14,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 14,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 15,
+  "col": "exposure",
+  "display": "Post-hoc origin-subfield check: partner OR given origin",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 15,
+  "col": "OR",
+  "display": "2.52",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/supplementary.json::origin_subfield_check/primary/partner_given_origin/terms/E_any/OR",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 15,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 15,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 15,
+  "col": "note",
+  "display": "post-hoc",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 16,
+  "col": "exposure",
+  "display": "Native/foreign exposure ratio",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 16,
+  "col": "OR",
+  "display": "0.51",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/ratios.json::native_vs_foreign/ratio",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 16,
+  "col": "lo",
+  "display": "0.33",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/ratios.json::native_vs_foreign/ci95_boot/0",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 16,
+  "col": "hi",
+  "display": "0.89",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/ratios.json::native_vs_foreign/ci95_boot/1",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 16,
+  "col": "note",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 17,
+  "col": "exposure",
+  "display": "Coverage: adopter pairs without prior corpus work (excluded)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 17,
+  "col": "OR",
+  "display": "86.9%",
+  "src": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_5/results/frame_summary.json::primary/adopters/share_adopter_pairs_career_new_corpus",
+  "kind": "pct",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 17,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 17,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 17,
+  "col": "note",
+  "display": "of 21,941 pairs; exposure is corpus-only (0 OpenAlex credits spent: api_results.json)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 18,
+  "col": "exposure",
+  "display": "Reading",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 18,
+  "col": "OR",
+  "display": "consistent with absorptive capacity OR topical proximity",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 18,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 18,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_adopter",
+  "row": 18,
+  "col": "note",
+  "display": "Jia, Wang & Szymanski 2017 local interest drift is the rival",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ }
+]
