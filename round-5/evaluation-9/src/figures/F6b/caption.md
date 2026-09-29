@@ -1,1 +1,0 @@
-F6b (supplementary). Ego networks and alluvial community paths of the four F6 cases, embedded unchanged from exp_8 (raster inside a vector page; the sha256 of every embedded PNG is checked against its source). n = 4 cases; descriptive, no CIs. Source: 3_invention_loop/iter_3/gen_art/gen_art_experiment_8/figures/case_c_*_{ego,alluvial}.png (art_QKsLguxnGFQT).

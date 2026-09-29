@@ -1,6 +1,0 @@
-06:59:16|INFO   |[heldout] window features for 1360 events in 3s
-06:59:43|INFO   |[heldout] shifted outcome in 26s; multi share 0.297
-06:59:47|INFO   |outcomes: 1100 events; Y_strict zero share 0.495
-06:59:53|INFO   |outcomes: 269 events; Y_strict zero share 0.461
-07:00:02|INFO   |[heldout] wrote window (1360) and co-primary (1577) feature tables
-exit 0

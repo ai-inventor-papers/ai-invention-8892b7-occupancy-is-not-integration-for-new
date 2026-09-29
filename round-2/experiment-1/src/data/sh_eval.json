@@ -1,9 +1,0 @@
-{
-  "split": "acronym_identification validation (test labels are hidden in the HF release)",
-  "short_form_precision": 0.9907,
-  "short_form_recall_all_gold_short_forms": 0.4707,
-  "pair_precision": 0.9522,
-  "pair_recall_vs_parenthetical_definitions": 0.931,
-  "n_gold_parenthetical_short_forms": 1435,
-  "note": "Schwartz-Hearst only finds definitions of the form 'long form (SF)'; acronym_identification also labels undefined short forms, so recall over ALL gold short forms is a lower bound by construction."
-}

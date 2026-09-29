@@ -1,7 +1,0 @@
-12:57:44|INFO   |appending 173 widened passers; groups Counter({'D': 72, 'A+B': 51, 'F+H-N': 19, 'E': 15, 'C': 9, 'G': 7})
-12:57:45|INFO   |working list extended; fetching MeSH-indexed sets for the new concepts
-12:59:03|INFO   |indexed sets fetched: 173; calls 173
-12:59:03|INFO   |indexed yearly: 21 chunks x 25 years = 525 calls
-13:00:47|WARNING|esearch HTTP 429: {"error":"API rate limit exceeded","api-key":"213.173.105.102","count":"4","limit":"3"}
-
-13:03:01|INFO   |E-utilities calls total 699, retries 1
