@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "description": "Concept pool 2005-2016 artifact (see README.md). One example per data row, grouped by dataset.",
+    "feature_names": {
+      "concept_work_links": [
+        "concept_id",
+        "work_id",
+        "year"
+      ],
+      "openalex_works": [
+        "work_id",
+        "publication_year",
+        "type"
+      ]
+    },
+    "notes": {
+      "openalex_works": "input is a JSON array in feature_names order; output = primary_topic subfield_id; full refs/institutions/scores in works/works_part_XX.parquet",
+      "concept_work_links": "input = [concept_id, work_id, year]; output = match_evidence; concept details in concept_pool_2005_2016"
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "concept_pool_2005_2016",
+      "examples": [
+        {
+          "input": "{\"concept_id\":\"c_9cceb3c510be\",\"phrase\":\"einstein podolsky rosen steering\",\"surface_forms\":[\"einstein podolsky rosen steering\",\"einstein podolsky rosen steerings\",\"einstein-podolsky-rosen-steering\"],\"...",
+          "output": "{\"oa_counts_by_year\":{\"2000\":0,\"2001\":0,\"2002\":0,\"2003\":0,\"2004\":0,\"2005\":0,\"2006\":0,\"2007\":0,\"2008\":0,\"2009\":0,\"2010\":0,\"2011\":5,\"2012\":5,\"2013\":16,\"2014\":18,\"2015\":36,\"2016\":29,\"2017\":30,\"2018\":38,\"...",
+          "metadata_fold": "screen",
+          "metadata_arm": "main",
+          "metadata_concept_id": "c_9cceb3c510be",
+          "metadata_phrase": "einstein podolsky rosen steering",
+          "metadata_retrieval_route": "A_openalex_native",
+          "metadata_s2_to_oa_mapping_rate": null,
+          "metadata_match_evidence_mix": {
+            "oa_title": 0.7003,
+            "oa_abstract": 0.2795,
+            "oa_index_only": 0.0202
+          },
+          "metadata_hydration_complete": true,
+          "metadata_flags": [
+            "dup_groups_present"
+          ],
+          "metadata_sense_dominant_share": 1.0,
+          "metadata_sample_rank_u": 0.001095740598455186,
+          "metadata_design_selection_prob": 1.0,
+          "metadata_covered_venue_share": 0.5821,
+          "metadata_stratum": "F31:Physics and Astronomy|T1|2008-11",
+          "metadata_F_band": "2008-11",
+          "metadata_volume_tercile": 1,
+          "metadata_realized_inclusion_prob": 0.5536,
+          "metadata_focal_years_screen": [
+            2014
+          ],
+          "metadata_focal_years_heldout": [
+            2016,
+            2017,
+            2018
+          ],
+          "metadata_vocab_arm_tag": "arxiv"
+        },
+        {
+          "input": "{\"concept_id\":\"c_8b7be83fd666\",\"phrase\":\"mirage mediation\",\"surface_forms\":[\"mirage mediation\",\"mirage mediations\",\"mirage-mediation\"],\"acronyms_stored_not_used\":[],\"vocab_arms\":[\"arxiv_mined\"],\"links...",
+          "output": "{\"oa_counts_by_year\":{\"2000\":0,\"2001\":0,\"2002\":0,\"2003\":0,\"2004\":0,\"2005\":2,\"2006\":11,\"2007\":16,\"2008\":12,\"2009\":8,\"2010\":6,\"2011\":5,\"2012\":5,\"2013\":4,\"2014\":6,\"2015\":5,\"2016\":8,\"2017\":4,\"2018\":4,\"201...",
+          "metadata_fold": "screen",
+          "metadata_arm": "main",
+          "metadata_concept_id": "c_8b7be83fd666",
+          "metadata_phrase": "mirage mediation",
+          "metadata_retrieval_route": "A_openalex_native",
+          "metadata_s2_to_oa_mapping_rate": null,
+          "metadata_match_evidence_mix": {
+            "oa_title": 0.4685,
+            "oa_abstract": 0.4414,
+            "oa_index_only": 0.0901
+          },
+          "metadata_hydration_complete": true,
+          "metadata_flags": [
+            "sense_check_fail",
+            "dup_groups_present"
+          ],
+          "metadata_sense_dominant_share": 0.45,
+          "metadata_sample_rank_u": 0.001683039944644027,
+          "metadata_design_selection_prob": 1.0,
+          "metadata_covered_venue_share": 0.6577,
+          "metadata_stratum": "F31:Physics and Astronomy|T2|2005-07",
+          "metadata_F_band": "2005-07",
+          "metadata_volume_tercile": 2,
+          "metadata_realized_inclusion_prob": 0.7727,
+          "metadata_focal_years_screen": [
+            2010,
+            2011,
+            2012
+          ],
+          "metadata_focal_years_heldout": [],
+          "metadata_vocab_arm_tag": "arxiv"
+        },
+        {
+          "input": "{\"concept_id\":\"c_af151bc76848\",\"phrase\":\"full duplex cellular\",\"surface_forms\":[\"full duplex cellular\",\"full duplex cellulars\",\"full-duplex-cellular\"],\"acronyms_stored_not_used\":[],\"vocab_arms\":[\"arxi...",
+          "output": "{\"oa_counts_by_year\":{\"2000\":0,\"2001\":0,\"2002\":0,\"2003\":0,\"2004\":0,\"2005\":0,\"2006\":0,\"2007\":0,\"2008\":0,\"2009\":1,\"2010\":0,\"2011\":0,\"2012\":0,\"2013\":2,\"2014\":2,\"2015\":12,\"2016\":26,\"2017\":31,\"2018\":20,\"20...",
+          "metadata_fold": "screen",
+          "metadata_arm": "main",
+          "metadata_concept_id": "c_af151bc76848",
+          "metadata_phrase": "full duplex cellular",
+          "metadata_retrieval_route": "A_openalex_native",
+          "metadata_s2_to_oa_mapping_rate": null,
+          "metadata_match_evidence_mix": {
+            "oa_title": 0.8377,
+            "oa_abstract": 0.1558,
+            "oa_index_only": 0.0065
+          },
+          "metadata_hydration_complete": true,
+          "metadata_flags": [
+            "dup_groups_present"
+          ],
+          "metadata_sense_dominant_share": 1.0,
+          "metadata_sample_rank_u": 0.0018968334606311865,
+          "metadata_design_selection_prob": 1.0,
+          "metadata_covered_venue_share": 0.3182,
+          "metadata_stratum": "D3:Physical Sciences|T3|2012-16",
+          "metadata_F_band": "2012-16",
+          "metadata_volume_tercile": 3,
+          "metadata_realized_inclusion_prob": 0.3571,
+          "metadata_focal_years_screen": [],
+          "metadata_focal_years_heldout": [
+            2018
+          ],
+          "metadata_vocab_arm_tag": "arxiv"
+        }
+      ]
+    },
+    {
+      "dataset": "concept_work_links",
+      "examples": [
+        {
+          "input": "[\"c_9cceb3c510be\",1000603767,2013]",
+          "output": "oa_title",
+          "metadata_fold": "screen",
+          "metadata_matched_form": "einstein podolsky rosen steering",
+          "metadata_dup_group": null
+        },
+        {
+          "input": "[\"c_9cceb3c510be\",127562803,2013]",
+          "output": "oa_title",
+          "metadata_fold": "screen",
+          "metadata_matched_form": "einstein podolsky rosen steering",
+          "metadata_dup_group": null
+        },
+        {
+          "input": "[\"c_9cceb3c510be\",1458806588,2015]",
+          "output": "oa_abstract",
+          "metadata_fold": "screen",
+          "metadata_matched_form": "einstein podolsky rosen steering",
+          "metadata_dup_group": null
+        }
+      ]
+    },
+    {
+      "dataset": "openalex_works",
+      "examples": [
+        {
+          "input": "[179920,2003,\"conference-paper\",\"en\",false,18414741,10305,1.0,[10305,10454,11941],4306417792,\"conference\",18,[1972420262,1987283240,2096828462,2107205655,2108226092],[5083667585,5101968802,5030216201]...",
+          "output": "2208",
+          "metadata_field_id": 22,
+          "metadata_domain_id": 3
+        },
+        {
+          "input": "[207222,2013,\"article\",\"en\",false,59632395,10215,0.2914,[10215,13650],null,null,0,[],[5037468074,5067417035,5018573642],[1903,5328,14360,5618,30304,4758,14367,13553,1574,21921,15339],[170858558,410081...",
+          "output": "1702",
+          "metadata_field_id": 17,
+          "metadata_domain_id": 3
+        },
+        {
+          "input": "[247569,2009,\"book-chapter\",\"en\",true,59704548,10715,0.9342,[10715],2764461748,\"book series\",0,[],[5100371897,5046882659],[5328,27039,23330,11725,16197,29817,1574,15816,26280,6624,6642,19802,755],[410...",
+          "output": "1705",
+          "metadata_field_id": 17,
+          "metadata_domain_id": 3
+        }
+      ]
+    }
+  ]
+}
