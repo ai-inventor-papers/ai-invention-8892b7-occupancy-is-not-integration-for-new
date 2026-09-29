@@ -1,0 +1,38 @@
+[
+ {
+  "key": "f4.effsize.pp.scr",
+  "error": "csv cell {'row': 'effsize'}/coef_screen empty in r1_panel"
+ },
+ {
+  "key": "f4.effsize.pp.scr_lo",
+  "error": "csv cell {'row': 'effsize'}/coef_screen empty in r1_panel"
+ },
+ {
+  "key": "f4.effsize.pp.scr_hi",
+  "error": "csv cell {'row': 'effsize'}/coef_screen empty in r1_panel"
+ },
+ {
+  "key": "f4.wmz.pp.scr_lo",
+  "error": "csv cell {'row': 'wmz'}/se_screen empty in r1_panel"
+ },
+ {
+  "key": "f4.wmz.pp.scr_hi",
+  "error": "csv cell {'row': 'wmz'}/se_screen empty in r1_panel"
+ },
+ {
+  "key": "dyn:case_entries:{\"csv_row\": {\"column\": \"A_cont\", \"filters\": {\"concept_id\": \"c_af9f1a649198\", \"d\": \"1802\", \"e\": \"2016\"}}}",
+  "error": "csv cell {'concept_id': 'c_af9f1a649198', 'd': '1802', 'e': '2016'}/A_cont empty in case_entries"
+ },
+ {
+  "key": "dyn:case_entries:{\"csv_row\": {\"column\": \"A_cont\", \"filters\": {\"concept_id\": \"c_1055d445e4c2\", \"d\": \"3109\", \"e\": \"2008\"}}}",
+  "error": "csv cell {'concept_id': 'c_1055d445e4c2', 'd': '3109', 'e': '2008'}/A_cont empty in case_entries"
+ },
+ {
+  "key": "f1.def.E_up",
+  "error": "pointer /definitions/E_up: key 'definitions' not found"
+ },
+ {
+  "key": "f1.def.closure_persist",
+  "error": "pointer /definitions/closure_persist: key 'definitions' not found"
+ }
+]

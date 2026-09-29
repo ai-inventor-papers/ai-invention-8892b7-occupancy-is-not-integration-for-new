@@ -1,0 +1,29 @@
+{
+ "figure": "F5",
+ "width_mm": 174,
+ "panels": [
+  "a1",
+  "a2",
+  "b1",
+  "b2",
+  "c",
+  "d"
+ ],
+ "ci_type": "concept bootstrap B=2,000 (descriptives); concept-clustered Wald (gaps)",
+ "production": {
+  "min_font_pt": 6.5,
+  "n_text": 67,
+  "n_overlaps": 0,
+  "overlaps": [],
+  "n_clipped": 0,
+  "clipped": [],
+  "width_mm": 174.0,
+  "height_mm": 118.0
+ },
+ "sources": [
+  [
+   "art_mu0h0npvNX_u",
+   "3_invention_loop/iter_4/gen_art/gen_art_evaluation_4/results/rooting.json"
+  ]
+ ]
+}
