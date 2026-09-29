@@ -1,0 +1,371 @@
+{
+ "metadata": {
+  "artifact": "gen_plan_dataset_4_idx4: labelled concept phrases and survivorship-free phrase pool",
+  "created": "2026-09-28",
+  "sources": "OpenAlex API (sampled works, counts, works), OpenAlex S3 snapshot (keywords, concepts), NLM MeSH 2026, Wikidata API, HF: midas/semeval2017, zj88zj/SCIERC, amirveyseh/acronym_identification",
+  "label_status": "D2/D3 LLM labels are LLM-adjudicated SILVER labels; no human has checked them (human_checked=false).",
+  "sealed_file": "data_out/pool_outcomes_SEALED.json holds the full yearly counts and is deliberately NOT included here."
+ },
+ "datasets": [
+  {
+   "dataset": "openalex_stratified_corpus_2003_2016_with_prescreen_1995_2004",
+   "examples": [
+    {
+     "input": "Four-year development of a centipede (Chilopoda) community after a summer flood Tuf, Ivan H. (2003): Four-year development of a centipede (Chilopoda) community after a summer flood. African Invertebra",
+     "output": "Agricultural and Biological Sciences",
+     "metadata_fold": "corpus_main",
+     "metadata_work_id": "W2101817983",
+     "metadata_doi": "https://doi.org/10.5281/zenodo.7666588",
+     "metadata_title": "Four-year development of a centipede (Chilopoda) community after a summer flood",
+     "metadata_publication_year": 2003,
+     "metadata_publication_date": "2003-08-31",
+     "metadata_field_id": 11,
+     "metadata_field": "Agricultural and Biological Sciences",
+     "metadata_subfield_id": "1105",
+     "metadata_subfield": "Ecology, Evolution, Behavior and Systematics",
+     "metadata_domain": "Life Sciences",
+     "metadata_topic_id": "T10487",
+     "metadata_topic": "Plant and animal studies",
+     "metadata_venue_id": "S4306400562",
+     "metadata_venue_type": "repository",
+     "metadata_keywords": [
+      "Centipede",
+      "Epigeal",
+      "Floodplain",
+      "Ecology",
+      "Flood myth"
+     ],
+     "metadata_legacy_concepts_score_ge_0_3": [
+      "Centipede",
+      "Epigeal",
+      "Floodplain",
+      "Ecology",
+      "Flood myth"
+     ],
+     "metadata_referenced_works_count": 7,
+     "metadata_author_ids": [
+      "A5015644097"
+     ],
+     "metadata_institution_ids": [
+      "I70703428"
+     ],
+     "metadata_stratum": "field11_2003_main",
+     "metadata_N_stratum": 53910,
+     "metadata_n_sampled_stratum": 150,
+     "metadata_design_weight": 359.4,
+     "metadata_sample_seed": 112003
+    },
+    {
+     "input": "Il Fico d'India, una specie dalle innumerevoli potenzialità The increasing consumer request for new \\nfoods, which could satisfy the need for \\nmore nutritive value, convenience and \\nfresh-like prope",
+     "output": "Agricultural and Biological Sciences",
+     "metadata_fold": "corpus_main",
+     "metadata_work_id": "W15703282",
+     "metadata_doi": null,
+     "metadata_title": "Il Fico d'India, una specie dalle innumerevoli potenzialità",
+     "metadata_publication_year": 2003,
+     "metadata_publication_date": "2003-06-01",
+     "metadata_field_id": 11,
+     "metadata_field": "Agricultural and Biological Sciences",
+     "metadata_subfield_id": "1106",
+     "metadata_subfield": "Food Science",
+     "metadata_domain": "Life Sciences",
+     "metadata_topic_id": "T12330",
+     "metadata_topic": "Botanical Research and Applications",
+     "metadata_venue_id": "S4306401147",
+     "metadata_venue_type": "repository",
+     "metadata_keywords": [
+      "Humanities",
+      "Art"
+     ],
+     "metadata_legacy_concepts_score_ge_0_3": [
+      "Humanities",
+      "Art"
+     ],
+     "metadata_referenced_works_count": 40,
+     "metadata_author_ids": [
+      "A5077195402"
+     ],
+     "metadata_institution_ids": [],
+     "metadata_stratum": "field11_2003_main",
+     "metadata_N_stratum": 53910,
+     "metadata_n_sampled_stratum": 150,
+     "metadata_design_weight": 359.4,
+     "metadata_sample_seed": 112003
+    },
+    {
+     "input": "Editors' Report for 2002 In 2003, the date for publication of the annual report for 2002 was postponed and it is therefore printed in this issue of the Journal. 2002 was, however, another very success",
+     "output": "Agricultural and Biological Sciences",
+     "metadata_fold": "corpus_main",
+     "metadata_work_id": "W2935886542",
+     "metadata_doi": "https://doi.org/10.1017/s0952836903009828",
+     "metadata_title": "Editors' Report for 2002",
+     "metadata_publication_year": 2003,
+     "metadata_publication_date": "2003-12-18",
+     "metadata_field_id": 11,
+     "metadata_field": "Agricultural and Biological Sciences",
+     "metadata_subfield_id": "1104",
+     "metadata_subfield": "Aquatic Science",
+     "metadata_domain": "Life Sciences",
+     "metadata_topic_id": "T12319",
+     "metadata_topic": "Fish Biology and Ecology Studies",
+     "metadata_venue_id": "S44571845",
+     "metadata_venue_type": "journal",
+     "metadata_keywords": [
+      "Variety (cybernetics)",
+      "Biology",
+      "Library science",
+      "Range (aeronautics)",
+      "Set (abstract data type)"
+     ],
+     "metadata_legacy_concepts_score_ge_0_3": [
+      "Variety (cybernetics)",
+      "Biology",
+      "Library science",
+      "Range (aeronautics)",
+      "Set (abstract data type)"
+     ],
+     "metadata_referenced_works_count": 0,
+     "metadata_author_ids": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "metadata_institution_ids": [],
+     "metadata_stratum": "field11_2003_main",
+     "metadata_N_stratum": 53910,
+     "metadata_n_sampled_stratum": 150,
+     "metadata_design_weight": 359.4,
+     "metadata_sample_seed": 112003
+    }
+   ]
+  },
+  {
+   "dataset": "llm_labelled_candidate_phrases",
+   "examples": [
+    {
+     "input": "{\"key\": \". an effective adhesion\", \"surface_forms\": [\". an effective adhesion\"], \"acronym_short_forms\": [], \"snippets\": [{\"work_id\": \"W3145634539\", \"year\": 2011, \"text\": \"…resin with adequate and dura",
+     "output": "UNRESOLVED",
+     "metadata_fold": "pool_screen",
+     "metadata_track": "P_pool_screen",
+     "metadata_label_basis": "A/B disagree, not adjudicated",
+     "metadata_silver_gold_200": false,
+     "metadata_label_A": "NOT_CONCEPT",
+     "metadata_label_B": "CONCEPT",
+     "metadata_label_adj": null,
+     "metadata_rationale_A": "Descriptive phrase about a physical property, not a named concept.",
+     "metadata_rationale_B": "Technical term for adhesion in materials science",
+     "metadata_rationale_adj": null,
+     "metadata_confidence_A": 2,
+     "metadata_confidence_B": 3,
+     "metadata_confidence_adj": null,
+     "metadata_model_A": "google/gemini-2.5-flash-lite",
+     "metadata_model_B": "openai/gpt-4.1-nano",
+     "metadata_model_adj": null,
+     "metadata_label_date": "2026-09-28",
+     "metadata_batch_cost_usd_A": 0.0007821,
+     "metadata_batch_cost_usd_B": 0.0006341,
+     "metadata_variant_cluster": null,
+     "metadata_stratum": "1|3+tok|health",
+     "metadata_macro_domain": "health",
+     "metadata_cvalue": 2.3219,
+     "metadata_in_prescreen_or_pre2005": false,
+     "metadata_audit_arm": false,
+     "metadata_key_quality": "malformed_leading_char",
+     "metadata_human_checked": false
+    },
+    {
+     "input": "{\"key\": \".s. bishop\", \"surface_forms\": [\".S. bishops\"], \"acronym_short_forms\": [], \"snippets\": [{\"work_id\": \"W148940500\", \"year\": 2012, \"text\": \"A parallel That Limps: The rhetoric of Slavery in the p",
+     "output": "NOT_CONCEPT",
+     "metadata_fold": "pool_screen",
+     "metadata_track": "P_pool_screen",
+     "metadata_label_basis": "A/B consensus",
+     "metadata_silver_gold_200": false,
+     "metadata_label_A": "NOT_CONCEPT",
+     "metadata_label_B": "NOT_CONCEPT",
+     "metadata_label_adj": null,
+     "metadata_rationale_A": "Phrase refers to a religious group, not a scientific concept.",
+     "metadata_rationale_B": "Person name, not a scientific concept",
+     "metadata_rationale_adj": null,
+     "metadata_confidence_A": 2,
+     "metadata_confidence_B": 3,
+     "metadata_confidence_adj": null,
+     "metadata_model_A": "google/gemini-2.5-flash-lite",
+     "metadata_model_B": "openai/gpt-4.1-nano",
+     "metadata_model_adj": null,
+     "metadata_label_date": "2026-09-28",
+     "metadata_batch_cost_usd_A": 0.000653,
+     "metadata_batch_cost_usd_B": 0.0006422,
+     "metadata_variant_cluster": null,
+     "metadata_stratum": "1|2tok|social",
+     "metadata_macro_domain": "social",
+     "metadata_cvalue": 1.585,
+     "metadata_in_prescreen_or_pre2005": false,
+     "metadata_audit_arm": false,
+     "metadata_key_quality": "malformed_leading_char",
+     "metadata_human_checked": false
+    },
+    {
+     "input": "{\"key\": \".the\", \"surface_forms\": [\".The\"], \"acronym_short_forms\": [], \"snippets\": [{\"work_id\": \"W2386269214\", \"year\": 2006, \"text\": \"…te ion and anti-Hofmeister selectivity sequence in following order",
+     "output": "NOT_CONCEPT",
+     "metadata_fold": "train",
+     "metadata_track": "L_novel",
+     "metadata_label_basis": "A/B consensus",
+     "metadata_silver_gold_200": false,
+     "metadata_label_A": "NOT_CONCEPT",
+     "metadata_label_B": "NOT_CONCEPT",
+     "metadata_label_adj": null,
+     "metadata_rationale_A": "Phrase is a grammatical fragment, not a scientific concept.",
+     "metadata_rationale_B": "Sentence starter, not a scientific concept.",
+     "metadata_rationale_adj": null,
+     "metadata_confidence_A": 3,
+     "metadata_confidence_B": 3,
+     "metadata_confidence_adj": null,
+     "metadata_model_A": "google/gemini-2.5-flash-lite",
+     "metadata_model_B": "openai/gpt-4.1-nano",
+     "metadata_model_adj": null,
+     "metadata_label_date": "2026-09-28",
+     "metadata_batch_cost_usd_A": 0.0007295,
+     "metadata_batch_cost_usd_B": 0.0007231,
+     "metadata_variant_cluster": "c0",
+     "metadata_stratum": "6-20|1tok|physical",
+     "metadata_macro_domain": "physical",
+     "metadata_cvalue": 6.0,
+     "metadata_in_prescreen_or_pre2005": false,
+     "metadata_audit_arm": false,
+     "metadata_key_quality": "malformed_leading_char",
+     "metadata_human_checked": false
+    }
+   ]
+  },
+  {
+   "dataset": "variant_pairs",
+   "examples": [
+    {
+     "input": "{\"phrase_1\": \"FDC\", \"phrase_2\": \"follicular dendritic cells\", \"context_1\": \"A study was conducted to clarify changes in the relationship between the region of immune complex (IC) trapping by follicula",
+     "output": "SAME",
+     "metadata_fold": "train",
+     "metadata_source": "acronym_long_form_schwartz_hearst",
+     "metadata_gold_source": "Schwartz-Hearst(corpus)",
+     "metadata_label_basis": "curated",
+     "metadata_curated_label": "SAME",
+     "metadata_llm_label_A": null,
+     "metadata_llm_label_B": null,
+     "metadata_llm_label_adj": null,
+     "metadata_key_1": "fdc",
+     "metadata_key_2": "follicular dendritic cell",
+     "metadata_cross_split": false,
+     "metadata_cluster_1": null,
+     "metadata_cluster_2": null
+    },
+    {
+     "input": "{\"phrase_1\": \"HS\", \"phrase_2\": \"high-spin\", \"context_1\": \"\", \"context_2\": \"The kinetics of the transition from the metastable high-spin (HS) state to the low-spin state have been determined and used f",
+     "output": "SAME",
+     "metadata_fold": "train",
+     "metadata_source": "acronym_long_form_schwartz_hearst",
+     "metadata_gold_source": "Schwartz-Hearst(corpus)",
+     "metadata_label_basis": "curated",
+     "metadata_curated_label": "SAME",
+     "metadata_llm_label_A": null,
+     "metadata_llm_label_B": null,
+     "metadata_llm_label_adj": null,
+     "metadata_key_1": "hs",
+     "metadata_key_2": "high spin",
+     "metadata_cross_split": false,
+     "metadata_cluster_1": null,
+     "metadata_cluster_2": null
+    },
+    {
+     "input": "{\"phrase_1\": \"Fr\", \"phrase_2\": \"Froude number\", \"context_1\": \"\", \"context_2\": \"As the G.E. shows and it has been reported in the literature, the accuracy of the two approaches depend on two important ",
+     "output": "SAME",
+     "metadata_fold": "test",
+     "metadata_source": "acronym_long_form_schwartz_hearst",
+     "metadata_gold_source": "Schwartz-Hearst(corpus)",
+     "metadata_label_basis": "curated",
+     "metadata_curated_label": "SAME",
+     "metadata_llm_label_A": null,
+     "metadata_llm_label_B": null,
+     "metadata_llm_label_adj": null,
+     "metadata_key_1": "fr",
+     "metadata_key_2": "froude number",
+     "metadata_cross_split": false,
+     "metadata_cluster_1": null,
+     "metadata_cluster_2": null
+    }
+   ]
+  },
+  {
+   "dataset": "external_human_anchors_semeval2017_scierc_phrases",
+   "examples": [
+    {
+     "input": "{\"phrase\": \"understanding the confinement physics from first principles\", \"sentence_context\": \"It is well known that one of the long standing problems in physics is understanding the confinement physi",
+     "output": "CONCEPT",
+     "metadata_fold": "train",
+     "metadata_source": "semeval2017_task10",
+     "metadata_entity_type": "keyphrase(Process|Task|Material)",
+     "metadata_label_origin": "human annotation",
+     "metadata_in_llm_anchor_check": false,
+     "metadata_llm_label_A": null,
+     "metadata_llm_label_B": null
+    },
+    {
+     "input": "{\"phrase\": \"develop analytical approaches\", \"sentence_context\": \"…ell known that one of the long standing problems in physics is understanding the confinement physics from first principles. Hence the ",
+     "output": "CONCEPT",
+     "metadata_fold": "train",
+     "metadata_source": "semeval2017_task10",
+     "metadata_entity_type": "keyphrase(Process|Task|Material)",
+     "metadata_label_origin": "human annotation",
+     "metadata_in_llm_anchor_check": false,
+     "metadata_llm_label_A": null,
+     "metadata_llm_label_B": null
+    },
+    {
+     "input": "{\"phrase\": \"spontaneous symmetry breaking of scale invariance\", \"sentence_context\": \"…ble insight and theoretical guidance. According to this viewpoint, an effective theory in which confining potentia",
+     "output": "CONCEPT",
+     "metadata_fold": "train",
+     "metadata_source": "semeval2017_task10",
+     "metadata_entity_type": "keyphrase(Process|Task|Material)",
+     "metadata_label_origin": "human annotation",
+     "metadata_in_llm_anchor_check": false,
+     "metadata_llm_label_A": null,
+     "metadata_llm_label_B": null
+    }
+   ]
+  },
+  {
+   "dataset": "external_human_anchors_acronym_identification",
+   "examples": [
+    {
+     "input": "What is here called controlled natural language ( CNL ) has traditionally been given many different names .",
+     "output": "{\"short_forms\": [\"CNL\"], \"long_forms\": [\"controlled natural language\"]}",
+     "metadata_fold": "train",
+     "metadata_sentence_id": "TR-0",
+     "metadata_source": "amirveyseh/acronym_identification (SciAD)",
+     "metadata_schwartz_hearst_pred": [
+      {
+       "short_form": "CNL",
+       "long_form": "controlled natural language"
+      }
+     ]
+    },
+    {
+     "input": "In this paper , we introduce CoQA , a Conversational Question Answering dataset for measuring the ability of machines to participate in a question - answering style conversation .",
+     "output": "{\"short_forms\": [\"CoQA\"], \"long_forms\": [\"Conversational Question Answering\"]}",
+     "metadata_fold": "train",
+     "metadata_sentence_id": "TR-1",
+     "metadata_source": "amirveyseh/acronym_identification (SciAD)",
+     "metadata_schwartz_hearst_pred": []
+    },
+    {
+     "input": "in : Proceedings of SODA 98 , Ninth Annual ACM - SIAM Symposium on Discrete Algorithms , San Francisco , CA , USA , 1998 , pp .",
+     "output": "{\"short_forms\": [\"SODA\", \"ACM\", \"SIAM\", \"CA\", \"USA\"], \"long_forms\": []}",
+     "metadata_fold": "train",
+     "metadata_sentence_id": "TR-2",
+     "metadata_source": "amirveyseh/acronym_identification (SciAD)",
+     "metadata_schwartz_hearst_pred": []
+    }
+   ]
+  }
+ ]
+}

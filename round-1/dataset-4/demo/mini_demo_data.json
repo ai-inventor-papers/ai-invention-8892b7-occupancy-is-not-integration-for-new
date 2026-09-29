@@ -1,0 +1,6257 @@
+{
+ "metadata": {
+  "artifact": "art_QpM5SM6a7SH6 / D2 llm_labelled_candidate_phrases",
+  "note": "Raw inputs of data.py::d2_labels() restricted to 100 diverse keys (train/test/pool_screen x label family x adjudicated). Keys mirror labelling/items.json, labels_AB.json, labels_adj.json, split.json.",
+  "n_keys": 100
+ },
+ "items": {
+  "activity dependent neural plasticity": {
+   "track": "P",
+   "key": "activity dependent neural plasticity",
+   "surface_forms": [
+    "activity - dependent neural plasticity"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2166691273",
+     "year": 2013,
+     "text": "Along with alterations in regions putatively representing the origin of tics, deviations in several other regions most likely represent an activity-dependent neural plasticity that help to modulate tic severity, such as the prefrontal cortex, but also in the c…"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2013,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2013,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 2.3219
+   },
+   "audit_arm": false
+  },
+  "armenia": {
+   "track": "L",
+   "key": "armenia",
+   "surface_forms": [
+    "Armenia"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W4212810436",
+     "year": 2005,
+     "text": "Republic of Armenia."
+    },
+    {
+     "work_id": "W2591983226",
+     "year": 2006,
+     "text": "…ia, Cyprus, France, Greece, Hungary, Italy, Macedonia, Moldova, Portugal, Romania, Russia, Southern Russia, Spain, Ukraine, ASIA, Armenia, Azerbaijan, Bangladesh, Republic of Georgia, India, Andhra Pradesh, Delhi, Gujarat, Haryana, Himachal Pradesh, Jammu and …"
+    },
+    {
+     "work_id": "W3123471186",
+     "year": 2008,
+     "text": "Estimating Equilibrium Exchange Rates for Armenia and Georgia."
+    }
+   ],
+   "n_sample_occ": 9,
+   "first_sample_year": 2005,
+   "n_fields": 7,
+   "stats": {
+    "n_occ": 9,
+    "n_occ_main": 9,
+    "first_main_year": 2005,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 7,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 8.0
+   }
+  },
+  "back translation": {
+   "track": "L_nonnovel",
+   "key": "back translation",
+   "surface_forms": [
+    "back - translation",
+    "back - translations",
+    "back translation"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2048317468",
+     "year": 2004,
+     "text": "This task is more than a linguistic translation and back-translation into two languages."
+    },
+    {
+     "work_id": "W2062407234",
+     "year": 2006,
+     "text": "Part 4 provides comparisons between passages from the text of the Treatise , the French translations of these passages in the Bibliothèque raisonnée review, and our back-translations of these same passages."
+    },
+    {
+     "work_id": "W1489647485",
+     "year": 2012,
+     "text": "The translation of the original OQ into Japanese followed Beaton et al. (2000) to include forward translation, synthesis, back translation, and expert committee meetings."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2004,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2004,
+    "last_main_year": 2012,
+    "in_pre": true,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   }
+  },
+  "bifeo3": {
+   "track": "L",
+   "key": "bifeo3",
+   "surface_forms": [
+    "BiFeO3",
+    "BFO"
+   ],
+   "acronym_short_forms": [
+    "BFO"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2072449128",
+     "year": 2007,
+     "text": "Films grown at low oxygen partial pressure show the canted antiferromagnetic phase α‐Fe2O3 embedded in a matrix of BiFeO3."
+    },
+    {
+     "work_id": "W2171780624",
+     "year": 2011,
+     "text": "The power conversion efficiency of the device is comparable to those of hybrid solar cells based on poly(3‐hexylthiophene) and other oxide semiconductors, such as TiO2 or ZnO, indicating that BiFeO3 is a promising material for photovoltaic devices."
+    },
+    {
+     "work_id": "W2166720516",
+     "year": 2014,
+     "text": "Improvements in magnetodielectric and multiferroic properties are essential for visualizing the real application of multiferroics, precisely, BiFeO3 (BFO)."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2007,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2007,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": true,
+    "cvalue": 3.0
+   }
+  },
+  "boolean operation": {
+   "track": "L",
+   "key": "boolean operation",
+   "surface_forms": [
+    "Boolean operation",
+    "Boolean operations"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2107569899",
+     "year": 2008,
+     "text": "A layer of logic: A series of Boolean operations has been demonstrated with redox-active monolayers of osmium and ruthenium complexes on glass substrates."
+    },
+    {
+     "work_id": "W41125298",
+     "year": 2010,
+     "text": "Following enhancement, a Boolean operation was performed creating 2 separate segmentation masks, one for cellular structures and the other for exterior wall of embryo."
+    },
+    {
+     "work_id": "W2275912494",
+     "year": 2016,
+     "text": "This Boolean operation is realized by using a semiconductor optical amplifier (SOA) and a delayed interferometer (DI) based on two-photon absorption (TPA)."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "c h bond activation": {
+   "track": "L",
+   "key": "c h bond activation",
+   "surface_forms": [
+    "C - H bond activation",
+    "C — H bond activation",
+    "C – H bond activation"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2035706107",
+     "year": 2010,
+     "text": "Preliminary experimental results related to this chemistry are reported, and possible consequences for C-H bond activation mediated by gold are discussed."
+    },
+    {
+     "work_id": "W2151845242",
+     "year": 2010,
+     "text": "Abstract The novel protocol allows the direct cyanation of indoles through C—H bond activation to give the C‐3 substituted derivatives regioselectively."
+    },
+    {
+     "work_id": "W2057247970",
+     "year": 2012,
+     "text": "The presence of hydroxyl groups around the active sites provided by epoxides can remarkably enhance the C-H bond activation of propane and the activity enhancement exhibits strong site dependence."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2010,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2010,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 6.9658
+   }
+  },
+  "cancer": {
+   "track": "L_nonnovel",
+   "key": "cancer",
+   "surface_forms": [
+    "cancer",
+    "cancers",
+    "Cancer"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2283312628",
+     "year": 2003,
+     "text": "Breast cancer is the most common cancer among western women."
+    },
+    {
+     "work_id": "W2168044494",
+     "year": 2003,
+     "text": "The accumulation of shed plasma membrane vesicles in the peripheral circulation is unique to cancer."
+    },
+    {
+     "work_id": "W2518540587",
+     "year": 2003,
+     "text": "Smokers need to know early symptoms of cancer."
+    }
+   ],
+   "n_sample_occ": 483,
+   "first_sample_year": 2003,
+   "n_fields": 25,
+   "stats": {
+    "n_occ": 483,
+    "n_occ_main": 306,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 25,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 481.0075
+   }
+  },
+  "clinicaltrials.gov": {
+   "track": "L",
+   "key": "clinicaltrials.gov",
+   "surface_forms": [
+    "ClinicalTrials.gov",
+    "Clinicaltrials.gov"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2160522375",
+     "year": 2010,
+     "text": "TRIAL REGISTRATION: ClinicalTrials.gov, protocol record NL30340.042.09."
+    },
+    {
+     "work_id": "W1994812171",
+     "year": 2013,
+     "text": "Clinicaltrials.gov"
+    },
+    {
+     "work_id": "W2096685405",
+     "year": 2014,
+     "text": "The US National Institutes of Health Trials Registry (ClinicalTrials.gov) and the World Health Organization International Clinical Trials Registry Platform were searched for ongoing trials."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2010,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2010,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "clustering analysis": {
+   "track": "L",
+   "key": "clustering analysis",
+   "surface_forms": [
+    "clustering analysis",
+    "Clustering analysis"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1239054175",
+     "year": 2005,
+     "text": "The three types were divided according to variation coefficient of 12 rice quality traits at different altitude by clustering analysis of rice quality traits."
+    },
+    {
+     "work_id": "W2372163933",
+     "year": 2006,
+     "text": "In order to improve the rapidity and validity of aeroengine fault diagnosis,a novel approach based on clonal selection algorithm and combined with clustering analysis was proposed for aeroengine fault feature extraction."
+    },
+    {
+     "work_id": "W2360062047",
+     "year": 2010,
+     "text": "765 tobacco samples in 2007 from five main regions in the west of Hunan province,i.e.Longshan,Sangzhi,Jishou,Huaihua and Yongshun,were employed for constituents,correlation and clustering analysis of conventional chemical components."
+    }
+   ],
+   "n_sample_occ": 9,
+   "first_sample_year": 2005,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 9,
+    "n_occ_main": 9,
+    "first_main_year": 2005,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 5,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 12.6797
+   }
+  },
+  "community based participatory research": {
+   "track": "L",
+   "key": "community based participatory research",
+   "surface_forms": [
+    "CBPR",
+    "community - based participatory research",
+    "Community - Based Participatory Research"
+   ],
+   "acronym_short_forms": [
+    "CBPR"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2094119338",
+     "year": 2006,
+     "text": "The MNCCRN has successfully established a multisite, multistate collaboration for community-based participatory research that will ultimately inform practice, education, and health policy."
+    },
+    {
+     "work_id": "W2152266649",
+     "year": 2009,
+     "text": "Community-Based Participatory Research From the Margin to the Mainstream."
+    },
+    {
+     "work_id": "W1969471443",
+     "year": 2012,
+     "text": "Ethical principles of community-based participatory research (CBPR)--specifically, community engagement, mutual learning, action-reflection, and commitment to sustainability--stem from the work of Kurt Lewin and Paulo Freire."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2006,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 4,
+    "is_acronym_long_form": true,
+    "cvalue": 3.7151
+   }
+  },
+  "copyright © 2006 john wiley": {
+   "track": "L",
+   "key": "copyright © 2006 john wiley",
+   "surface_forms": [
+    "Copyright © 2006 John Wiley"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2067242729",
+     "year": 2005,
+     "text": "Copyright © 2006 John Wiley & Sons, Ltd."
+    },
+    {
+     "work_id": "W2088879002",
+     "year": 2006,
+     "text": "Copyright © 2006 John Wiley & Sons, Ltd."
+    },
+    {
+     "work_id": "W1971090591",
+     "year": 2006,
+     "text": "Copyright © 2006 John Wiley & Sons, Ltd."
+    }
+   ],
+   "n_sample_occ": 19,
+   "first_sample_year": 2005,
+   "n_fields": 11,
+   "stats": {
+    "n_occ": 19,
+    "n_occ_main": 19,
+    "first_main_year": 2005,
+    "last_main_year": 2007,
+    "in_pre": false,
+    "n_fields": 11,
+    "macro_domain": "physical",
+    "n_tokens": 5,
+    "is_acronym_long_form": false,
+    "cvalue": 49.1143
+   }
+  },
+  "cosolvent": {
+   "track": "L_nonnovel",
+   "key": "cosolvent",
+   "surface_forms": [
+    "cosolvent",
+    "cosolvents"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2056948466",
+     "year": 2004,
+     "text": "Further optimization revealed that additive salts such as LiCl lead primarily to the allenyl product while the use of HMPA as a cosolvent gives the beta,gamma-alkynyl deconjugated alkylation product."
+    },
+    {
+     "work_id": "W2059564138",
+     "year": 2008,
+     "text": "A series of equations are developed for the study of the effects of cosolvents on the solubility of a solute in mixed solutions where the solute displays a finite solubility."
+    },
+    {
+     "work_id": "W1486490082",
+     "year": 2008,
+     "text": "These wood-templated Fe2O3 and its SiO2-based composites with special hierarchical but continuous pore size from 9 nm up to 20 μm, were prepared from scCO2’ hybrid solution with cosolvent and precursor(s)."
+    }
+   ],
+   "n_sample_occ": 12,
+   "first_sample_year": 2004,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 12,
+    "n_occ_main": 6,
+    "first_main_year": 2004,
+    "last_main_year": 2015,
+    "in_pre": true,
+    "n_fields": 4,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 10.9375
+   }
+  },
+  "crystallite siz": {
+   "track": "L",
+   "key": "crystallite siz",
+   "surface_forms": [
+    "crystallite sizes"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2068875090",
+     "year": 2007,
+     "text": "Rietveld refinements of the powder X-ray diffraction pattern were used to track the brookite content systematically and to generally assess the phase composition of the different samples and their crystallite sizes."
+    },
+    {
+     "work_id": "W2013738561",
+     "year": 2011,
+     "text": "… structure (cell parameters and space group) of the films, their orientation distributions (texture strengths and types) and mean crystallite sizes, their residual stresses.…"
+    },
+    {
+     "work_id": "W2106062693",
+     "year": 2012,
+     "text": "The crystallite sizes of Ag and ZnO in composite particles are 24.6 nm, 19.7 nm respectively."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2007,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2007,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 2.6416
+   }
+  },
+  "d structure": {
+   "track": "L",
+   "key": "d structure",
+   "surface_forms": [
+    "D - structure",
+    "D structure"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2365036275",
+     "year": 2009,
+     "text": "Main grammar modules satisfied at the D-structure include the X-bar theory,PP/EPP and the theta criterion;satisfied at S-structure are primarily the case theory,ECP,the binding theory etc."
+    },
+    {
+     "work_id": "W2001619872",
+     "year": 2009,
+     "text": "Zipper-like arrangement of adjacent zigzag chains by hydrogen-bonding interactions leads to a 2-D layer and π–π interactions of 4,4′-bipy ligands from adjacent layers further result in the 3-D structure of 1."
+    },
+    {
+     "work_id": "W2272580889",
+     "year": 2016,
+     "text": "Real-time recovery of the 3-D structure of the vasculature is necessary to visualise the interaction between the catheter and its surrounding environment to facilitate catheter manipulations."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2009,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2009,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "de ce numéro": {
+   "track": "L",
+   "key": "de ce numéro",
+   "surface_forms": [
+    "de ce numéro"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2058909862",
+     "year": 2006,
+     "text": "Découvrir le sommaire de ce numéro, suivre la revue par email, s'abonner..."
+    },
+    {
+     "work_id": "W1625169986",
+     "year": 2010,
+     "text": "Découvrir le sommaire de ce numéro, suivre la revue par email, s'abonner..."
+    },
+    {
+     "work_id": "W4240243891",
+     "year": 2015,
+     "text": "https://shs.cairn.info/revue-psychotropes-2014-4-page-5?lang=fr Découvrir le sommaire de ce numéro, suivre la revue par email, s'abonner..."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2006,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": -2.0
+   }
+  },
+  "diabetic rat model": {
+   "track": "L",
+   "key": "diabetic rat model",
+   "surface_forms": [
+    "diabetic rat model",
+    "diabetic rat models"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W3030539423",
+     "year": 2011,
+     "text": "The diabetic rat models made by the vena caudalis were injected with alloxan (50 mg/kg weight)."
+    },
+    {
+     "work_id": "W2114520189",
+     "year": 2012,
+     "text": "The effects of the microalgae Isochrysis galbana and Nannochloropsis oculata on glucose, body weight, lipids, lipoproteins, nitrogen compounds and intestine histopathology in a diabetic rat model were evaluated."
+    },
+    {
+     "work_id": "W2347308609",
+     "year": 2012,
+     "text": "Methods The diabetic rat model was established by induction of Streptozotocin,then rats were gastric perfused with supplemented Huangqi Guizhi Wuwu decoction for 8 weeks,and the expression of NGF mRNA in sciatic nerve was analyzed by RT-PCR.Results"
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2011,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2011,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 8.0
+   }
+  },
+  "direct compression method": {
+   "track": "L",
+   "key": "direct compression method",
+   "surface_forms": [
+    "direct compression method"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2262761975",
+     "year": 2009,
+     "text": "…caly characterize single unit controlled delivery system of Rosiglitazone maleate and was formulated as floating matrix tablet by direct compression method using gas generating agent (sodium bicarbonate) and various viscosity grades of hydrophilic polymers (HP…"
+    },
+    {
+     "work_id": "W179804622",
+     "year": 2012,
+     "text": "The tablets were prepared by direct compression method."
+    },
+    {
+     "work_id": "W2787623097",
+     "year": 2013,
+     "text": "The mouth dissolving tablets of carvedilol were prepared by direct compression method."
+    }
+   ],
+   "n_sample_occ": 7,
+   "first_sample_year": 2009,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 7,
+    "n_occ_main": 7,
+    "first_main_year": 2009,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 14.0
+   }
+  },
+  "downside": {
+   "track": "L",
+   "key": "downside",
+   "surface_forms": [
+    "downside"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2043733099",
+     "year": 2005,
+     "text": "The downside is absorption, which rapidly increases with temperature and impurity density."
+    },
+    {
+     "work_id": "W2333043592",
+     "year": 2011,
+     "text": "In the second we learn of the downside of insufficient preoperative patient discussions on macular hole surgery, and how it can impact surgical outcome."
+    },
+    {
+     "work_id": "W64037964",
+     "year": 2013,
+     "text": "The only downside to using a site like GitHub is it emphasizes social coding, meaning individuals can not only see, but can clone your code to either start working on a project with you, or take it in a different direction."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2005,
+   "n_fields": 6,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2005,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 6,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 4.4
+   }
+  },
+  "economy": {
+   "track": "L_nonnovel",
+   "key": "economy",
+   "surface_forms": [
+    "economy",
+    "economies",
+    "Economy"
+   ],
+   "acronym_short_forms": [
+    "EMEs"
+   ],
+   "snippets": [
+    {
+     "work_id": "W638252538",
+     "year": 2003,
+     "text": "…werbsleben des SpAtmittelalters Der Mankus - eine spAtmittelalterliche Auferstehung Between impotence and power - the Jews in the economy and polity of medieval Europe Index.…"
+    },
+    {
+     "work_id": "W340939883",
+     "year": 2003,
+     "text": "At the end of the communistic times improperly functioning economy was in a crisis."
+    },
+    {
+     "work_id": "W2366257199",
+     "year": 2003,
+     "text": "Around the Teaching, Serving the Economy and Starting New Situation for the College Science and Research Work."
+    }
+   ],
+   "n_sample_occ": 488,
+   "first_sample_year": 2003,
+   "n_fields": 24,
+   "stats": {
+    "n_occ": 488,
+    "n_occ_main": 312,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 24,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": true,
+    "cvalue": 486.0592
+   }
+  },
+  "engine parameter": {
+   "track": "L",
+   "key": "engine parameter",
+   "surface_forms": [
+    "engine parameters"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2237445835",
+     "year": 2009,
+     "text": "The engine designed virtually in GT-Power software and all engine parameters remain constant."
+    },
+    {
+     "work_id": "W2328682917",
+     "year": 2010,
+     "text": "The tuning of a zero-dimensional multizones phenomenological model is performed separately using experimental data for SI and HCCI operation keeping the same engine parameters, engine speed and air-fuel ratio to maintain simulation similarity."
+    },
+    {
+     "work_id": "W2340835349",
+     "year": 2015,
+     "text": "Heuristic methods have been a successful tool for optimizing engine parameters in both simulation and experimental testing."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2009,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2009,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   }
+  },
+  "enhancement or degraded image": {
+   "track": "P",
+   "key": "enhancement or degraded image",
+   "surface_forms": [
+    "enhancement or degraded image"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2183146000",
+     "year": 2014,
+     "text": "The input to model is an simple image for enhancement or degraded image with blur/noise for restoration, while the output are the corresponding enhanced/restored image, map of variance (fig.3c), local and global standard Gaussian deviation (fig.3b) and a compa…"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2014,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2014,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 2.3219
+   },
+   "audit_arm": false
+  },
+  "excessive range": {
+   "track": "P",
+   "key": "excessive range",
+   "surface_forms": [
+    "excessive range"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2013952276",
+     "year": 2005,
+     "text": "…epancies which limits the potential occlusal contact area, steep guidance factors which can introduce occlusal interferences, and excessive range of motion which can complicate centric relation records.…"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2005,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2005,
+    "last_main_year": 2005,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "expatriate": {
+   "track": "L_nonnovel",
+   "key": "expatriate",
+   "surface_forms": [
+    "expatriates"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1533094095",
+     "year": 2012,
+     "text": "While Bruce Bawer believes Williams failed to join the expatriates “because he didn’t have the nerve to leave home,” Berry considers such an opinion groundless."
+    },
+    {
+     "work_id": "W2118067950",
+     "year": 2013,
+     "text": "In accordance with our theorizing, analyses of longitudinal data collected from 70 expatriates during their first four months of international assignment indicated that cross-cultural motivation and psychological empowerment related positively to initial level…"
+    },
+    {
+     "work_id": "W1892728226",
+     "year": 2016,
+     "text": "…uncil (GCC) countries, which heavily depend on expatriate workforce in private sector, further research on demographic factors of expatriates is imperative as these factors significantly influence expatriate adjustment in a foreign location.…"
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2012,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 3,
+    "first_main_year": 2012,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 2,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.7333
+   }
+  },
+  "extensive characterization": {
+   "track": "P",
+   "key": "extensive characterization",
+   "surface_forms": [
+    "extensive characterization"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2043976435",
+     "year": 2010,
+     "text": "Their laboratory has performed extensive characterization of the nuclear factor erythroid 2-related factor 2-antioxidant response element (Nrf2-ARE) pathway and the Nrf2 knockout mice."
+    },
+    {
+     "work_id": "W2055757213",
+     "year": 2013,
+     "text": "hiPSC derivation and selection remains inefficient; with selection of high quality clones dependent on extensive characterization which is not amenable to high-throughput (HTP) approaches."
+    }
+   ],
+   "n_sample_occ": 2,
+   "first_sample_year": 2010,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 2,
+    "n_occ_main": 2,
+    "first_main_year": 2010,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   },
+   "audit_arm": false
+  },
+  "fe s and p record": {
+   "track": "P",
+   "key": "fe s and p record",
+   "surface_forms": [
+    "Fe , S and P records"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2295500047",
+     "year": 2016,
+     "text": "Our results reveal that methane plays a key role in the diagenetic alterations of Fe, S and P records in Black Sea sediments."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2016,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2016,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 5,
+    "is_acronym_long_form": false,
+    "cvalue": 2.585
+   },
+   "audit_arm": false
+  },
+  "flavour": {
+   "track": "L_nonnovel",
+   "key": "flavour",
+   "surface_forms": [
+    "flavour",
+    "flavours",
+    "Flavour"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2513208179",
+     "year": 2003,
+     "text": "However, curd prepared from blend having 30% soymilk and boiled for 5 min did not differ significantly (p<0.05) with respect to flavour and overall acceptability but differed significantly in remaining sensory parameters, which proved that soymilk up to 20% ca…"
+    },
+    {
+     "work_id": "W2010599050",
+     "year": 2003,
+     "text": "CP violation versus flavour in supersymmetric theories."
+    },
+    {
+     "work_id": "W2045981493",
+     "year": 2005,
+     "text": "Another assessor shows poor performance for attribute mealiness and to some extent also fruity flavour."
+    }
+   ],
+   "n_sample_occ": 25,
+   "first_sample_year": 2003,
+   "n_fields": 8,
+   "stats": {
+    "n_occ": 25,
+    "n_occ_main": 13,
+    "first_main_year": 2003,
+    "last_main_year": 2014,
+    "in_pre": true,
+    "n_fields": 8,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 23.9302
+   }
+  },
+  "genera": {
+   "track": "L_nonnovel",
+   "key": "genera",
+   "surface_forms": [
+    "genera",
+    "Genera"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2101870600",
+     "year": 2003,
+     "text": "Eleven genera of plant-parasitic nematodes were identified."
+    },
+    {
+     "work_id": "W2048315277",
+     "year": 2003,
+     "text": "The treatments did not appear to affect the bacterial numbers within the genera enumerated."
+    },
+    {
+     "work_id": "W2020575023",
+     "year": 2003,
+     "text": "A total of 25 species belonging to 14 genera were recorded--19 species of soil yeasts from 11 genera and 14 species of plant yeasts from 10 genera, including 8 species and 7 genera common to plants and soil."
+    }
+   ],
+   "n_sample_occ": 159,
+   "first_sample_year": 2003,
+   "n_fields": 15,
+   "stats": {
+    "n_occ": 159,
+    "n_occ_main": 96,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 15,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 157.9652
+   }
+  },
+  "genizah ms t s": {
+   "track": "L",
+   "key": "genizah ms t s",
+   "surface_forms": [
+    "Genizah MS T - S"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W7211779093",
+     "year": 2010,
+     "text": "Genizah MS T-S AS 69.130."
+    },
+    {
+     "work_id": "W7210776376",
+     "year": 2011,
+     "text": "Genizah MS T-S AS 161.139."
+    },
+    {
+     "work_id": "W7210898810",
+     "year": 2011,
+     "text": "Genizah MS T-S AS 119.315."
+    }
+   ],
+   "n_sample_occ": 16,
+   "first_sample_year": 2010,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 16,
+    "n_occ_main": 16,
+    "first_main_year": 2010,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "social",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 37.1508
+   }
+  },
+  "gluon polarization": {
+   "track": "P",
+   "key": "gluon polarization",
+   "surface_forms": [
+    "gluon polarizations",
+    "gluon polarization"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2060188899",
+     "year": 2013,
+     "text": "Gauge invariant descriptions of gluon polarizations revisited."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2013,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2013,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "gpus": {
+   "track": "L",
+   "key": "gpus",
+   "surface_forms": [
+    "GPUs"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2182130093",
+     "year": 2013,
+     "text": "…nt vendors[11] which efficiently maps to both heterogeneous and homogeneous, single or multiple device system consisting of CPUs, GPUs and others types of devices.…"
+    },
+    {
+     "work_id": "W2080574925",
+     "year": 2014,
+     "text": "Solving the Examination Timetabling Problem in GPUs."
+    },
+    {
+     "work_id": "W2566776102",
+     "year": 2016,
+     "text": "Our massive data-sets required parallelizing some Chebfun functions on GPUs, allowing about 100 times faster polynomial evaluation and up to 12 times faster on CPUs when parallelizing the whole algorithm."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2013,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2013,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "great role": {
+   "track": "L",
+   "key": "great role",
+   "surface_forms": [
+    "great role"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2015567416",
+     "year": 2005,
+     "text": "…ive hydroxymethylation and RCM reaction and also discovered a new template of human A(3) adenosine receptor agonist, which play a great role in developing new A(3) adenosine receptor agonist as well as in identifying the binding site of the receptor.…"
+    },
+    {
+     "work_id": "W2333867047",
+     "year": 2006,
+     "text": "Diseases play a great role in the loss of wildlife from both forests as well as zoological parks (Acharjyo, 1998).Wild animals harbour numerous parasites in their free-living stage, but seldom lead to harmful infection unless stressed (Gaur et al., 1979).Paras…"
+    },
+    {
+     "work_id": "W4210628800",
+     "year": 2007,
+     "text": "…egories; parasitism, parasitodism, protelean parasitism, predatism, phoresy and fungivorous mites, some of these mites can play a great role in suppressing population of some insect pests.…"
+    }
+   ],
+   "n_sample_occ": 10,
+   "first_sample_year": 2005,
+   "n_fields": 8,
+   "stats": {
+    "n_occ": 10,
+    "n_occ_main": 10,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 8,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 12.6797
+   }
+  },
+  "health information technology": {
+   "track": "L",
+   "key": "health information technology",
+   "surface_forms": [
+    "health information technology",
+    "HIT",
+    "Health Information Technology"
+   ],
+   "acronym_short_forms": [
+    "HIT"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2028993630",
+     "year": 2009,
+     "text": "Stimulating the Adoption of Health Information Technology."
+    },
+    {
+     "work_id": "W2186313874",
+     "year": 2010,
+     "text": "A portion of the bill, the Health Information Technology for Economic and Clinical Health Act, authorized incentive payments through Medicare and Medicaid to providers that use certified electronic health records to achieve specified improvements in care deliv…"
+    },
+    {
+     "work_id": "W2150217040",
+     "year": 2011,
+     "text": "The Benefits Of Health Information Technology: A Review Of The Recent Literature Shows Predominantly Positive Results."
+    }
+   ],
+   "n_sample_occ": 8,
+   "first_sample_year": 2009,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 8,
+    "n_occ_main": 8,
+    "first_main_year": 2009,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": true,
+    "cvalue": 13.6
+   }
+  },
+  "helminthe": {
+   "track": "L",
+   "key": "helminthe",
+   "surface_forms": [
+    "helminthes",
+    "Helminthes"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2114581918",
+     "year": 2009,
+     "text": "Prevalence of helminthes in small ruminants in Tarai region of Uttarakhand."
+    },
+    {
+     "work_id": "W2413201834",
+     "year": 2011,
+     "text": "Other helminthes were Ascaris lumbricoides 179 (16.58%), Ancylostoma duodenal 163 (15.10%), Hymenolepis nana 120 (11.12%), Taenia saginata 119 (11.02%), Strongyloides stercoralis 28 (2.59), Enterobius vermicularis 16 (1.48%), and Schistosoma mansoni 4 (0.37%)."
+    },
+    {
+     "work_id": "W2944394942",
+     "year": 2011,
+     "text": "Pherithema posthuma a helminthes is commonly known as earth-worms."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2009,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2009,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 5.0
+   }
+  },
+  "hexose": {
+   "track": "L",
+   "key": "hexose",
+   "surface_forms": [
+    "hexoses"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2120646543",
+     "year": 2005,
+     "text": "In primed plants, an enhanced acid invertase activity in the apical part of the main stem and the part immediately below it at 100 and 130 days after sowing (DAS) might result in an increased availability of hexoses to these plant parts."
+    },
+    {
+     "work_id": "W2020155057",
+     "year": 2006,
+     "text": "Anthocyanin glycosides were generally cleaved by successive loss of sugar moieties and pentoses were more readily split off than hexoses."
+    },
+    {
+     "work_id": "W2044104647",
+     "year": 2014,
+     "text": "Samples were harvested at nine stages of development, and 36 enzyme activities of central metabolism were measured as well as protein, starch, and major metabolites, such as hexoses, sucrose, organic acids, and amino acids."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "hiv envelope protein": {
+   "track": "L_nonnovel",
+   "key": "hiv envelope protein",
+   "surface_forms": [
+    "HIV envelope protein",
+    "HIV Envelope Proteins"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2083348731",
+     "year": 2003,
+     "text": "Hepatitis C Virus and HIV Envelope Proteins"
+    },
+    {
+     "work_id": "W1964096667",
+     "year": 2009,
+     "text": "The membrane proximal external region (MPER) of the HIV envelope protein gp41 is one of the most highly conserved regions of the HIV genome and is therefore an excellent candidate immunogen for eliciting broadly neutralizing antibodies (BNAbs)."
+    },
+    {
+     "work_id": "W1973449652",
+     "year": 2000,
+     "text": "The MAII was noninfectious or poorly infectious, however, when pseudotyped with an amphotropic murine leukemia virus envelope protein or with the HIV envelope protein."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2003,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 2,
+    "first_main_year": 2003,
+    "last_main_year": 2009,
+    "in_pre": true,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "igneous protolith": {
+   "track": "P",
+   "key": "igneous protolith",
+   "surface_forms": [
+    "igneous protolith"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1994170053",
+     "year": 2006,
+     "text": "The Mauranipur pillow lava underwent greenschist to amphibolite facies metamorphism while retaining a geochemical signature of its igneous protolith."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2006,
+    "last_main_year": 2006,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "imad creidi magnetic performance": {
+   "track": "P",
+   "key": "imad creidi magnetic performance",
+   "surface_forms": [
+    "Imad Creidi 's magnetic performance"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W334776801",
+     "year": 2006,
+     "text": "and Kops, and this year with the sober and piercing Zozo, unforgettable for Imad Creidi's magnetic performance in the title role, loosely autobiographical of the writer-director, and Fares' own flare for a magical-real poetics of war and ethnocentrism."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2006,
+    "last_main_year": 2006,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 2.3219
+   },
+   "audit_arm": false
+  },
+  "improved genetic algorithm": {
+   "track": "L",
+   "key": "improved genetic algorithm",
+   "surface_forms": [
+    "improved genetic algorithm",
+    "Improved Genetic Algorithm"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1988833834",
+     "year": 2005,
+     "text": "An improved genetic algorithm (GA) is described that has been developed to increase the efficiency of finding the global minimum energy isomers for nanoalloy clusters."
+    },
+    {
+     "work_id": "W2377918244",
+     "year": 2007,
+     "text": "Optimization Planning of District Power Network Based on Improved Genetic Algorithm."
+    },
+    {
+     "work_id": "W2374994751",
+     "year": 2015,
+     "text": "715,the results are very approximate to the results solved by the improved genetic algorithm,but with fewer iterations 15."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 4.0
+   }
+  },
+  "interfere": {
+   "track": "L_nonnovel",
+   "key": "interfere",
+   "surface_forms": [
+    "interfere",
+    "interferes"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2560098527",
+     "year": 2015,
+     "text": "No interferes observed in the proposed method."
+    },
+    {
+     "work_id": "W1973754704",
+     "year": 1998,
+     "text": "Anions including bromide, nitrate, perchlorate and dichromate interfere seriously with the detection but other anions such as sulfite, oxalate, thiosulfate, iodide, sulfate, nitrite, acetate, fluoride, chloride and carbonate either do not interfere or interfer…"
+    },
+    {
+     "work_id": "W2367648693",
+     "year": 2000,
+     "text": "2 chlorophenysulfonylamide (CPSA), the main metabolite of chlorsulfuron, didn′t interfere with the bioassay because CPSA didn′t inhibit the growth of maize root or bud until its concentration reached to 5~10 μg/mL."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2015,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 1,
+    "first_main_year": 2015,
+    "last_main_year": 2015,
+    "in_pre": true,
+    "n_fields": 4,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "investment property": {
+   "track": "P",
+   "key": "investment property",
+   "surface_forms": [
+    "Investment property"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2600778213",
+     "year": 2016,
+     "text": "The decision of enclosing a real estate in one of the categories “Lands”, “Buildings” or “Investment property” is grounded in a big measure on the own accounting politics and on the professional reasoning."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2016,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2016,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "iron": {
+   "track": "L_nonnovel",
+   "key": "iron",
+   "surface_forms": [
+    "iron",
+    "Iron",
+    "irons"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1984764939",
+     "year": 2003,
+     "text": "NiFe-hydrogenases have an Ni-Fe site in which the iron has one CO and two CN groups as ligands."
+    },
+    {
+     "work_id": "W1984383030",
+     "year": 2003,
+     "text": "These elements include: aluminum, iron, manganese, zinc, copper, cadmium, magnesium, nickel, calcium, sulfur, and silicon."
+    },
+    {
+     "work_id": "W28326651",
+     "year": 2003,
+     "text": "This mechanism can be exploited not only for silica synthesis but also for the synthesis and nano-patterning of various other systems based on aluminum, germanium, boron, tin, silver, gold, iron, calcium and so on."
+    }
+   ],
+   "n_sample_occ": 215,
+   "first_sample_year": 2003,
+   "n_fields": 20,
+   "stats": {
+    "n_occ": 215,
+    "n_occ_main": 128,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 20,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 213.6903
+   }
+  },
+  "kenyan": {
+   "track": "L",
+   "key": "kenyan",
+   "surface_forms": [
+    "Kenyans",
+    "Kenyan"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2303353944",
+     "year": 2013,
+     "text": "…, Erich Nunn discusses how Jimmie Rodgers' music and musical style traveled to Africa and were appropriated by South Africans and Kenyans in the 1930s and 1940s.…"
+    },
+    {
+     "work_id": "W2104714067",
+     "year": 2013,
+     "text": "A Qualitative Evaluation of Hand Drying Practices among Kenyans."
+    },
+    {
+     "work_id": "W2105481222",
+     "year": 2014,
+     "text": "Putting a MOOC for Human Rights in the Hands of Kenyans."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2013,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2013,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 1.9697
+   }
+  },
+  "kwahu east district": {
+   "track": "P",
+   "key": "kwahu east district",
+   "surface_forms": [
+    "Kwahu East district",
+    "KWAHU EAST DISTRICT"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2176595364",
+     "year": 2015,
+     "text": "REGIONAL WATER USE PRACTICES IN THE KWAHU EAST DISTRICT OF GHANA AND THE POTENTIAL INFLUENCE ON DIARRHEAL DISEASE."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2015,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2015,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "lean implementation": {
+   "track": "L",
+   "key": "lean implementation",
+   "surface_forms": [
+    "lean implementation",
+    "Lean implementation"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1978554966",
+     "year": 2009,
+     "text": "For each company, the case study documented the company's background, the product choice offered, the lean implementation approach used, the results obtained, and the effect of product choice on the lean implementation."
+    },
+    {
+     "work_id": "W264468068",
+     "year": 2014,
+     "text": "The rapid spread of Lean implementation within the health care sector has made it urgent to evaluate the effects of Lean on productivity, working conditions and health."
+    },
+    {
+     "work_id": "W1837801336",
+     "year": 2015,
+     "text": "Lean implementation in the geriatric care sector in Sweden."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2009,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2009,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   }
+  },
+  "logical process": {
+   "track": "L",
+   "key": "logical process",
+   "surface_forms": [
+    "Logical Processes",
+    "LPs",
+    "logical processes"
+   ],
+   "acronym_short_forms": [
+    "LPs"
+   ],
+   "snippets": [
+    {
+     "work_id": "W837858113",
+     "year": 2008,
+     "text": "“The Purloined Letter” explores logical processes of value and exchange, particularly economic exchange, in a manner very similar to what Charles Sanders Peirce will call pragmatism several decades later."
+    },
+    {
+     "work_id": "W2113365332",
+     "year": 2012,
+     "text": "Parallel Discrete Event Simulation (PDES) is based on the partitioning of the simulation model into distinct Logical Processes (LPs), each one modeling a portion of the entire system, which are allowed to execute simulation events concurrently."
+    },
+    {
+     "work_id": "W2170610081",
+     "year": 2014,
+     "text": "If teachers do not put emphasis on the logical process during solving problems, students are at risk to become more proficient at applying the formulas rather than to reason."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": true,
+    "cvalue": 3.1699
+   }
+  },
+  "magnon": {
+   "track": "L",
+   "key": "magnon",
+   "surface_forms": [
+    "magnons"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2147709056",
+     "year": 2008,
+     "text": "Reflecting magnons from D7 and D5 branes."
+    },
+    {
+     "work_id": "W2044933936",
+     "year": 2014,
+     "text": "This phenomenon leads to the low-frequency Stoner excitations and cause strong damping and softening of magnons in magnetoresistive manganites observed experimentally."
+    },
+    {
+     "work_id": "W2139515512",
+     "year": 2015,
+     "text": "Technically, the spin-current dynamics is treated based on the Landau-Lifshitz-Gilbert equation also including magnons back-action on thermal bath, while the formation of the time dependent thermal gradient is described self-consistently via the heat equation …"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "mandatory scheme": {
+   "track": "P",
+   "key": "mandatory scheme",
+   "surface_forms": [
+    "mandatory schemes"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2118104830",
+     "year": 2015,
+     "text": "However, it is often assumed that mandatory schemes will automatically cover their target populations, and consequently little is known about why firms comply or do not comply with enrolment requirements."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2015,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2015,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "materials project": {
+   "track": "L",
+   "key": "materials project",
+   "surface_forms": [
+    "Materials Project"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W4300904068",
+     "year": 2014,
+     "text": "Materials Data on V3CdO7 (SG:62) by Materials Project."
+    },
+    {
+     "work_id": "W4300813865",
+     "year": 2014,
+     "text": "Materials Data on V5O12 (SG:5) by Materials Project."
+    },
+    {
+     "work_id": "W4213182215",
+     "year": 2014,
+     "text": "Materials Data on V2P2O9 (SG:29) by Materials Project."
+    }
+   ],
+   "n_sample_occ": 8,
+   "first_sample_year": 2014,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 8,
+    "n_occ_main": 8,
+    "first_main_year": 2014,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 12.6797
+   }
+  },
+  "matthew cutter": {
+   "track": "P",
+   "key": "matthew cutter",
+   "surface_forms": [
+    "Matthew Cutter"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W350314953",
+     "year": 2011,
+     "text": "Author Notes Matthew Cutter, writer/editor for The ASHA Leader, can be reached at [email protected]."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2011,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2011,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "mc2": {
+   "track": "L",
+   "key": "mc2",
+   "surface_forms": [
+    "mc2",
+    "MC2"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2981591393",
+     "year": 2006,
+     "text": "Ml cotton seeds of mosaic leaves mutants (MC2 and MC3) plants"
+    },
+    {
+     "work_id": "W2046310754",
+     "year": 2013,
+     "text": "Insights from E=mc2 for management research."
+    },
+    {
+     "work_id": "W2099262942",
+     "year": 2014,
+     "text": "…d by mass?”, or ‘What is the nature of the gravitational force?”, or “What is the mechanism of conversion of mass into energy (E =mc2)?”.…"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2006,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2006,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "mental activity": {
+   "track": "L_nonnovel",
+   "key": "mental activity",
+   "surface_forms": [
+    "mental activities",
+    "mental activity"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2578621835",
+     "year": 2005,
+     "text": "The creative process, however, as most mental activities, is not only governed by intellect, but also by emotion."
+    },
+    {
+     "work_id": "W2145217719",
+     "year": 2009,
+     "text": "Conventional statistical analysis methods for functional magnetic resonance imaging (fMRI) data are very successful at detecting brain regions that are activated as a whole during specific mental activities."
+    },
+    {
+     "work_id": "W152002552",
+     "year": 1998,
+     "text": "Electronic circuits substitute mental activities and new Technology invades to all aspects of life."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2005,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 2,
+    "first_main_year": 2005,
+    "last_main_year": 2009,
+    "in_pre": true,
+    "n_fields": 3,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "methods data": {
+   "track": "L",
+   "key": "methods data",
+   "surface_forms": [
+    "Methods Data"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2464850071",
+     "year": 2005,
+     "text": "Methods Data from a long-term field study of marked individuals in a population of Azure-winged Magpie in Spain, were collected from about 60 nests per year over 12 years."
+    },
+    {
+     "work_id": "W2912795091",
+     "year": 2006,
+     "text": "Methods Data were obtained from the 1999 Mexican National Nutrition Survey."
+    },
+    {
+     "work_id": "W2368680669",
+     "year": 2008,
+     "text": "Methods Data of injuries caused by animals from hospital-based injury surveillance system were collected and analyzed."
+    }
+   ],
+   "n_sample_occ": 11,
+   "first_sample_year": 2005,
+   "n_fields": 7,
+   "stats": {
+    "n_occ": 11,
+    "n_occ_main": 11,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 7,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 17.4346
+   }
+  },
+  "microbiome": {
+   "track": "L",
+   "key": "microbiome",
+   "surface_forms": [
+    "microbiome",
+    "microbiomes",
+    "Microbiomes"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W3171129470",
+     "year": 2010,
+     "text": "Our study investigated the microbiome of healthy human milk collected aseptically from 16 women over a 5‐wk period."
+    },
+    {
+     "work_id": "W2088297260",
+     "year": 2013,
+     "text": "In periodontitis, presence of bleeding was not associated with different α-diversity or with a distinct microbiome, however, bleeding sites showed higher total bacterial load."
+    },
+    {
+     "work_id": "W2271910498",
+     "year": 2015,
+     "text": "Here, we assess the impact of three DNA extraction methods (with different levels of extraction harshness) for assessing hindgut microbiomes from pigs fed with different diets (with different physical properties)."
+    }
+   ],
+   "n_sample_occ": 9,
+   "first_sample_year": 2010,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 9,
+    "n_occ_main": 9,
+    "first_main_year": 2010,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 5,
+    "macro_domain": "health",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 7.65
+   }
+  },
+  "micrometer scale": {
+   "track": "L",
+   "key": "micrometer scale",
+   "surface_forms": [
+    "micrometer scale",
+    "micrometer scales"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2083771098",
+     "year": 2007,
+     "text": "At the micrometer scale, the bilayer lamellae nucleated at the interface and grew into a polar phase, thus leading to delicate microcages or mimic diatoms."
+    },
+    {
+     "work_id": "W2038243189",
+     "year": 2013,
+     "text": "The enhanced stability of Co nanocrystals (NCs) when they are highly ordered at both nanometer and micrometer scales is reported."
+    },
+    {
+     "work_id": "W2270694305",
+     "year": 2016,
+     "text": "…rently have the spatial resolution necessary to decode information within the prefrontal cortex, which is likely organized at the micrometer scale.…"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2007,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2007,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   }
+  },
+  "modern engineering applied talent": {
+   "track": "P",
+   "key": "modern engineering applied talent",
+   "surface_forms": [
+    "modern engineering applied talents"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2387633795",
+     "year": 2012,
+     "text": "On the purpose of cultivating modern engineering applied talents,we should emphasize the moral education,cultivating will quality,engineering cultural education,modern educational mode,career planning and integrated construction of team etc,which can help achi…"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2012,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2012,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 2.3219
+   },
+   "audit_arm": false
+  },
+  "network": {
+   "track": "L_nonnovel",
+   "key": "network",
+   "surface_forms": [
+    "network",
+    "networks",
+    "Network"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2078211059",
+     "year": 2003,
+     "text": "Abstract Graft copolymers and networks of gelatin were synthesized with three acrylamides (acrylamide, 2‐acrylamido‐2‐methyl‐1‐propanesulfonic acid, and N‐iso‐propylacrylamide) by using a redox initiator system consisting of ammonium peroxysulfate–ferrous ammo…"
+    },
+    {
+     "work_id": "W2082001219",
+     "year": 2003,
+     "text": "…al media firms (editorial, press, and flow) and Stabell & Fjeldstad's typology of value creation configurations (chain, shop, and network).…"
+    },
+    {
+     "work_id": "W2354220273",
+     "year": 2003,
+     "text": "Regional system of technological innovation is a network constituted of firms, universities, RD institutes, middle agencies and government."
+    }
+   ],
+   "n_sample_occ": 599,
+   "first_sample_year": 2003,
+   "n_fields": 26,
+   "stats": {
+    "n_occ": 599,
+    "n_occ_main": 380,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 26,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 597.5693
+   }
+  },
+  "nonalcoholic fatty liver disease": {
+   "track": "L",
+   "key": "nonalcoholic fatty liver disease",
+   "surface_forms": [
+    "nonalcoholic fatty liver disease",
+    "NAFLD"
+   ],
+   "acronym_short_forms": [
+    "NAFLD"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2525238498",
+     "year": 2005,
+     "text": "In a paper published in the September 2005 issue of HEPATOLOGY,1 Kunde et al. described the spectrum of nonalcoholic fatty liver disease (NAFLD) among morbidly obese women and examined the possible implications of adopting the healthy ranges for alanine aminot…"
+    },
+    {
+     "work_id": "W2004675617",
+     "year": 2012,
+     "text": "Association of nonalcoholic fatty liver disease with a single nucleotide polymorphism on the gene encoding leptin receptor."
+    },
+    {
+     "work_id": "W2340748732",
+     "year": 2014,
+     "text": "HepG2 cells were treated with free fatty acids to generate a cellular model of nonalcoholic fatty liver disease (NAFLD)."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 4,
+    "is_acronym_long_form": true,
+    "cvalue": 6.9658
+   }
+  },
+  "nutrient storage": {
+   "track": "P",
+   "key": "nutrient storage",
+   "surface_forms": [
+    "nutrient storage"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2176904551",
+     "year": 2007,
+     "text": "During the period of oocyte degeneration, follicle cells of this species probably have a lysosomal system for breakdown, and resorb various phagosomes in the cytoplasm for nutrient storage, as seen in other bivalves."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2007,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2007,
+    "last_main_year": 2007,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "omnivore": {
+   "track": "L",
+   "key": "omnivore",
+   "surface_forms": [
+    "omnivores",
+    "Omnivore"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1893686298",
+     "year": 2005,
+     "text": "Establishment was higher for fishes in families with small body size and for omnivores."
+    },
+    {
+     "work_id": "W1994048509",
+     "year": 2009,
+     "text": "Our results revealed that the abundance of nematodes; the proportion of fungivores, omnivores, and predators; maturity index (MI); Shannon index; evenness; and structure index (SI) were affected significantly by the age of stabilised sand dunes, and were corre…"
+    },
+    {
+     "work_id": "W323413447",
+     "year": 2009,
+     "text": "The carnivores were the most abundant at 17.55%, followed by the omnivores (13%) and the herbivores (3.33%)."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2005,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2005,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 5,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 5.0
+   }
+  },
+  "order statistical characteristics": {
+   "track": "P",
+   "key": "order statistical characteristics",
+   "surface_forms": [
+    "order statistical characteristics"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2553945507",
+     "year": 2016,
+     "text": "This Study proposes a new speech BWE method, which uses two Gaussian-Bernoulli Restricted Boltzmann Machines (GBRBMs) to extract the high-order statistical characteristics of spectral envelopes of the LF and HF respectively."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2016,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2016,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "outstanding nz": {
+   "track": "P",
+   "key": "outstanding nz",
+   "surface_forms": [
+    "outstanding NZ"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W3123950884",
+     "year": 2011,
+     "text": "Presents a tribute to an outstanding NZ A Category flight instructor."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2011,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2011,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "p=0.031": {
+   "track": "L",
+   "key": "p=0.031",
+   "surface_forms": [
+    "p=0.031"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W4237665144",
+     "year": 2013,
+     "text": "Positive attitude of friends (p=0.031), of villagers (p=0.047), of students (p=0.004), on consulting traditional healers (p<0.001) and beliefs of students in Traditional Medicine (TM) (p=0.002) were the significant correlates of referral intention."
+    },
+    {
+     "work_id": "W1780905423",
+     "year": 2015,
+     "text": "BMI was statistically significantly lower in the average (23.08 kg/m2 ±2.03, p=0.031) and high academic performance group (22.77 kg/m2 ± 2.16, p= 0.026) compared to the low academic performance group (24.19 kg/m2 ±2.06)."
+    },
+    {
+     "work_id": "W2565545662",
+     "year": 2016,
+     "text": "(2) When measured 2days after treatment, doxycycline treatment resulted in fewer LI-positive pens (p=0.004), lower excretion levels of LI (p=0.013), and fewer pens with a high level of LI (p=0.031) compared to pens treated with tylosine."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2013,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2013,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "panda": {
+   "track": "L",
+   "key": "panda",
+   "surface_forms": [
+    "pandas",
+    "PANDA",
+    "Panda"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1841589733",
+     "year": 2006,
+     "text": "We found that the frequency of estrous behavior and other activities of the female and male giant pandas kept in a large activity space were significantly higher than those of the pandas kept in small pens (P < 0.05)."
+    },
+    {
+     "work_id": "W2154842536",
+     "year": 2008,
+     "text": "PANDA is a$4\\pi$detector planned for the antiproton storage ring at the proposed International Accelerator Facility for Antiproton and Ion Research (FAIR) at GSI."
+    },
+    {
+     "work_id": "W1677767588",
+     "year": 2010,
+     "text": "Panda: A System for Provenance and Data."
+    }
+   ],
+   "n_sample_occ": 5,
+   "first_sample_year": 2006,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 5,
+    "n_occ_main": 5,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 5,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.75
+   }
+  },
+  "perciforme": {
+   "track": "L",
+   "key": "perciforme",
+   "surface_forms": [
+    "Perciformes"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2370057463",
+     "year": 2007,
+     "text": "…d August in 2002,2005 and 2006.75 species of fishes,belonging to 38 families of 13 orders,were captured,among which 40 species of Perciformes,as the main species,53.3% of the total species,were found.…"
+    },
+    {
+     "work_id": "W1134153889",
+     "year": 2007,
+     "text": "Monogeneans of the malabar grouper Epinephelus malabaricus (Perciformes, Serranidae) off New Caledonia, with a description of six new species of Pseudorhabdosynochus (Monogenea: Diplectanidae)."
+    },
+    {
+     "work_id": "W2126223743",
+     "year": 2012,
+     "text": "[Acanthomorpha; Beloniformes; Centrogenyidae; key innovation; Labroidei; Ovalentaria; pharyngeal jaws; Perciformes.]."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2007,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2007,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "photovoltaic device": {
+   "track": "L",
+   "key": "photovoltaic device",
+   "surface_forms": [
+    "photovoltaic devices",
+    "photovoltaic device"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2099149590",
+     "year": 2008,
+     "text": "To achieve these goals we have focussed on the study of the electron transfer processes that take place at the different interfaces of the photovoltaic device using electrochemistry, steady-state and time resolved spectroscopic techniques."
+    },
+    {
+     "work_id": "W2030027411",
+     "year": 2009,
+     "text": "Such a network structure could be useful for applications such as photocatalysis, membrane separation, field emission, and photovoltaic devices."
+    },
+    {
+     "work_id": "W2053565989",
+     "year": 2010,
+     "text": "Aqueous soft matter based photovoltaic devices."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2008,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2008,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.5285
+   }
+  },
+  "post print version": {
+   "track": "L",
+   "key": "post print version",
+   "surface_forms": [
+    "post print version"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1922051206",
+     "year": 2005,
+     "text": "Please help us populate SUNScholar with the post print version of this article."
+    },
+    {
+     "work_id": "W2117868221",
+     "year": 2005,
+     "text": "Please help us populate SUNScholar with the post print version of this article."
+    },
+    {
+     "work_id": "W883841286",
+     "year": 2006,
+     "text": "Please help us populate SUNScholar with the post print version of this article."
+    }
+   ],
+   "n_sample_occ": 7,
+   "first_sample_year": 2005,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 7,
+    "n_occ_main": 7,
+    "first_main_year": 2005,
+    "last_main_year": 2009,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 14.0
+   }
+  },
+  "prompt diagnosis": {
+   "track": "L_nonnovel",
+   "key": "prompt diagnosis",
+   "surface_forms": [
+    "prompt diagnosis"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1677693082",
+     "year": 2015,
+     "text": "In the early stages of bullous dermatoses, especially for isolated lesions of the oral mucosa, prompt diagnosis is not always possible requiring an interdisciplinary approach to the differential diagnosis."
+    },
+    {
+     "work_id": "W2421379906",
+     "year": 2016,
+     "text": "However, there are serious underlying conditions requiring prompt diagnosis and treatment."
+    },
+    {
+     "work_id": "W2329484107",
+     "year": 1999,
+     "text": "More prompt diagnosis and earlier intervention has led to a dramatic decrease in mortality from ectopic pregnancy."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2015,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 2,
+    "first_main_year": 2015,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 6.3399
+   }
+  },
+  "public health strategy": {
+   "track": "L_nonnovel",
+   "key": "public health strategy",
+   "surface_forms": [
+    "public health strategies"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W7128304374",
+     "year": 2006,
+     "text": "This supports the role of such programmes as effective public health strategies within primary schools."
+    },
+    {
+     "work_id": "W2525509919",
+     "year": 2016,
+     "text": "…e women, and with a high proportion of treated individuals.22 None of these studies' results can be generalized to inform current public health strategies for a moderate reduction in sodium consumption in populations or to be considered of good quality to supp…"
+    },
+    {
+     "work_id": "W2419581732",
+     "year": 1997,
+     "text": "This article focuses on public health strategies for community-based prevention."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2006,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 2,
+    "first_main_year": 2006,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 4.0
+   }
+  },
+  "purchase decision": {
+   "track": "L",
+   "key": "purchase decision",
+   "surface_forms": [
+    "purchase decisions",
+    "purchase decision",
+    "Purchase Decision"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2027361580",
+     "year": 2007,
+     "text": "An examination of the ethical drivers within each group suggests that ethical consumers consider each product group on the basis of its bundle of ethical attributes, with differing levels of importance placed on each ethical issue within the purchase decision."
+    },
+    {
+     "work_id": "W1502361118",
+     "year": 2007,
+     "text": "Additionally, the purchase decisions faced are rarely made on price alone; but rather on a bundle of attribute values."
+    },
+    {
+     "work_id": "W311172495",
+     "year": 2009,
+     "text": "Most consumers considered quality to be a prime element in purchase decisions."
+    }
+   ],
+   "n_sample_occ": 7,
+   "first_sample_year": 2007,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 7,
+    "n_occ_main": 7,
+    "first_main_year": 2007,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 9.5098
+   }
+  },
+  "quirk": {
+   "track": "L",
+   "key": "quirk",
+   "surface_forms": [
+    "Quirk",
+    "quirk",
+    "quirks"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1552923890",
+     "year": 2009,
+     "text": "By a quirk of fate, theNagorno-Karabakh Autonomous Region, one of the first projects of Soviet socialist and na-tional politics, became the first step toward the disintegration of the Soviet Union, the begin-ning of the end."
+    },
+    {
+     "work_id": "W1972940642",
+     "year": 2010,
+     "text": "…ooth efficiency in everything, whereas my more mellow view now accepts that systems of management have good and bad aspects, with quirks and idiosyncrasies, and sometimes inevitable inefficiency simply because of the leviathan nature of the animal that we're t…"
+    },
+    {
+     "work_id": "W2213354440",
+     "year": 2014,
+     "text": "Quirk is wary of the separation between historical and contemporary slavery, therefore, grapples with developing an understanding of definitions concerning slavery, legal measures that impact the interpretation and practice of slavery, the limitations and stre…"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2009,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2009,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "received data": {
+   "track": "L",
+   "key": "received data",
+   "surface_forms": [
+    "received data"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2140230120",
+     "year": 2007,
+     "text": "Thus we present the WeeW (workflow-enabled epidemiological wis) system—i.e., a wis that helps epidemiologists, through workflow management, to effectively select remote centers, collect, and process the received data to produce conclusive technical reports."
+    },
+    {
+     "work_id": "W2000171345",
+     "year": 2014,
+     "text": "To substantiate the variables selection for DEA model the received data was processed, using such methods, as correlation analysis, linear regression analysis, analysis of mean values, and two-samples Kolmogorov-Smirnov test."
+    },
+    {
+     "work_id": "W2604687099",
+     "year": 2016,
+     "text": "Analysis of the received data and their explanation through the tables and graph are done."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2007,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2007,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "right heart catheterization": {
+   "track": "P",
+   "key": "right heart catheterization",
+   "surface_forms": [
+    "right heart catheterization"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2140969226",
+     "year": 2010,
+     "text": "SUBJECTS AND METHODS: Thirty-eight patients with suspected PH were evaluated with right heart catheterization and cardiac MRI."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2010,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2010,
+    "last_main_year": 2010,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "roundness": {
+   "track": "L",
+   "key": "roundness",
+   "surface_forms": [
+    "roundness"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2356129077",
+     "year": 2008,
+     "text": "The steel pipe of roundness and straightness can be automation measured."
+    },
+    {
+     "work_id": "W2009704654",
+     "year": 2012,
+     "text": "High degree of perforation and high quality of the drilled hole arrays regarding roundness and diameter variation of holes are the main challenges."
+    },
+    {
+     "work_id": "W2318738430",
+     "year": 2014,
+     "text": "The overall shape of a sand grain can be defined by two morphological properties, namely sphericity and roundness, and it is largely determined by soil-formation and weathering processes."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "salivary marker": {
+   "track": "L",
+   "key": "salivary marker",
+   "surface_forms": [
+    "salivary markers",
+    "Salivary Markers"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2165718338",
+     "year": 2010,
+     "text": "The present study is planned to explore the associations among periodontal disease, psychologic factors, and salivary markers of stress, psychoneuroimmunologic variables, and health behaviors."
+    },
+    {
+     "work_id": "W973176041",
+     "year": 2013,
+     "text": "Objectives: This cross-sectional pilot study explored the associations between periodontal disease, psychologic factors, salivary markers of periodontal disease, psychoneuroimmunologic variables, and behavior."
+    },
+    {
+     "work_id": "W2563202560",
+     "year": 2016,
+     "text": "Effect of smoking on potential salivary markers of periodontal disease: A clinical and biochemical study."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2010,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2010,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 6.3399
+   }
+  },
+  "semantic domain": {
+   "track": "L",
+   "key": "semantic domain",
+   "surface_forms": [
+    "semantic domain",
+    "semantic domains"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2149481500",
+     "year": 2012,
+     "text": "…y De Nicola and Vaandrager by showing that there are additional translations that allow one to use minimization techniques in one semantic domain to obtain minimal representatives in the other semantic domain for these equivalences.…"
+    },
+    {
+     "work_id": "W2025228687",
+     "year": 2013,
+     "text": "The present fMRI data give rise to the assumption that activation of the left inferior frontal gyrus (LIFG) in the semantic domain might be important for semantic processing in general and not only for semantic decision making."
+    },
+    {
+     "work_id": "W2129368860",
+     "year": 2015,
+     "text": "Borrowing from Halliday and Matthiessen’s semantic domains beyond the clause and Halliday’s theorizing of the language of science, the article explores the various forms of transferences made possible by the grammar: from logical to experiential, from sequence…"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2012,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2012,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   }
+  },
+  "sequence evolution": {
+   "track": "L",
+   "key": "sequence evolution",
+   "surface_forms": [
+    "sequence evolution"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2724390930",
+     "year": 2008,
+     "text": "…organisms show complex patterns of similarity to one another and many molecular biologists are convinced that an understanding of sequence evolution is the first step towards understanding the evolution itself.…"
+    },
+    {
+     "work_id": "W1997064329",
+     "year": 2010,
+     "text": "…mum likelihood (ML) phylogenetic algorithm, which calculates the most likely ancestral sequence assuming a probabilistic model of sequence evolution and a specific phylogeny--typically the tree with the ML.…"
+    },
+    {
+     "work_id": "W270845012",
+     "year": 2015,
+     "text": "A coarse-grained biophysical model of sequence evolution and the population size dependence of the speciation rate."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   }
+  },
+  "short postero dorsal extension": {
+   "track": "P",
+   "key": "short postero dorsal extension",
+   "surface_forms": [
+    "short postero - dorsal extension"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2249541464",
+     "year": 2011,
+     "text": "nov. from Kazakhstan is similar to T. (T.) testacea Portschinsky, 1892, differing by the presence of a short postero-dorsal extension of the cell bcu (not longer than the width of cell bcu), and by the presence of a silvery-white microtrichosity on mesonotum, …"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2011,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2011,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 2.3219
+   },
+   "audit_arm": false
+  },
+  "simulated surrounding": {
+   "track": "P",
+   "key": "simulated surrounding",
+   "surface_forms": [
+    "simulated surroundings"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2354388212",
+     "year": 2013,
+     "text": "Clinical examination and histopathological observation were carried out in the diseased juveniles with gas bubble disease in natural environment and simulated surroundings."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2013,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2013,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "smartphone": {
+   "track": "L",
+   "key": "smartphone",
+   "surface_forms": [
+    "smartphones",
+    "smartphone",
+    "Smartphone"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2333043592",
+     "year": 2011,
+     "text": "In an interesting development that would not surprise many readers, we see that the Smartphone of today and of the future can be used to provide superior research data from patients enrolled in clinical trials."
+    },
+    {
+     "work_id": "W2107488271",
+     "year": 2012,
+     "text": "Mobile computing devices (e.g., smartphones and tablets) that have low-friction surfaces require well-directed fingertip forces of sufficient and precise magnitudes for proper use."
+    },
+    {
+     "work_id": "W2086477792",
+     "year": 2013,
+     "text": "As a major component of eHealth systems, mobile healthcare (mHealth) applies mobile devices, such as smartphones and tablets, to enable patient-to-physician and patient-to-patient communications for better healthcare and quality of life (QoL)."
+    }
+   ],
+   "n_sample_occ": 17,
+   "first_sample_year": 2011,
+   "n_fields": 11,
+   "stats": {
+    "n_occ": 17,
+    "n_occ_main": 17,
+    "first_main_year": 2011,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 11,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 15.9474
+   }
+  },
+  "square planar": {
+   "track": "L",
+   "key": "square planar",
+   "surface_forms": [
+    "square planar",
+    "square‐planar",
+    "square - planar"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2015516624",
+     "year": 2008,
+     "text": "The methanol molecule bound to Ni is labile and is readily released under reduced pressure to afford (CO)(3)Fe(S(t)Bu)(mu-S(t)Bu)(2)Ni{O(C(6)H(4))SMe}, 6b, and the coordination geometry of nickel changes from octahedral to square planar."
+    },
+    {
+     "work_id": "W2010882496",
+     "year": 2010,
+     "text": "…e, acac = acetylacetonate) shows to be a sensitive probe as the position of the (3)A(2g)(F) --> (3)T(1g)(F) absorption maximum of square planar to octahedral Ni(2+) shifts distinctly depending on the electron donor ability of the respective ionic liquid anion.…"
+    },
+    {
+     "work_id": "W2035706107",
+     "year": 2010,
+     "text": "A DFT computational investigation predicts that the Au(III) complex (bpy)Au(C(6)H(5))(2+) reacts with benzene to furnish square planar (bpy)Au(C(6)H(5))(eta(1)-C(6)H(6))(2+)."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2008,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2008,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 7.8116
+   }
+  },
+  "statistically significant impact": {
+   "track": "L_nonnovel",
+   "key": "statistically significant impact",
+   "surface_forms": [
+    "statistically significant impact"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2121589774",
+     "year": 2005,
+     "text": "anova with Bonferroni post hoc multiple comparisons tests was used to assess any statistically significant impact of gender and age on tooth and gingival display, and determine differences among gender and age groups (at 5% significance level)."
+    },
+    {
+     "work_id": "W1899152401",
+     "year": 2011,
+     "text": "UID, FD and PDS had a clinically meaningful (a ≥ 5 point) and statistically significant impact (P<0.05) on health-related quality of life in all SF-36 domains except for Role Emotional."
+    },
+    {
+     "work_id": "W2122377817",
+     "year": 2011,
+     "text": "RESULTS: No statistically significant impact of the introduction of HIT on residents was found on any outcomes, with the exception of a significant negative effect on behavioral symptoms."
+    }
+   ],
+   "n_sample_occ": 12,
+   "first_sample_year": 2005,
+   "n_fields": 8,
+   "stats": {
+    "n_occ": 12,
+    "n_occ_main": 8,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 8,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 22.0
+   }
+  },
+  "students ' score": {
+   "track": "L_nonnovel",
+   "key": "students ' score",
+   "surface_forms": [
+    "students ' scores"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2354941231",
+     "year": 2004,
+     "text": "Half year of research has been carried on to find out the relationship between the students' scores and study time in colleges."
+    },
+    {
+     "work_id": "W4251596746",
+     "year": 2016,
+     "text": "After ten weeks of intervention, a paired-samples t-test was conducted to assess the impact of the treatment on students' scores on the Collocation Test."
+    },
+    {
+     "work_id": "W2080122017",
+     "year": 2002,
+     "text": "Collectively, these techniques improved students' scores in a statistics examination by ten percent compared with a matched control group and this improvement was statistically significant."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2004,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 2,
+    "first_main_year": 2004,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "teaching learning process": {
+   "track": "L",
+   "key": "teaching learning process",
+   "surface_forms": [
+    "teaching - learning process",
+    "teaching learning process"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2164336637",
+     "year": 2010,
+     "text": "[Perception of the teaching-learning process and academic achievement in diverse instructional contexts of Higher Education]."
+    },
+    {
+     "work_id": "W2151383761",
+     "year": 2011,
+     "text": "ABSTRACT Background Evaluation of teaching curriculum is extremely logical and is firmly recommended as a part of teaching-learning process."
+    },
+    {
+     "work_id": "W2221502941",
+     "year": 2015,
+     "text": "The study recorded the implementation of task-based language teaching in order to find the improvement in the teaching learning process, including students‟ improvement in speaking skills."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2010,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2010,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "thepotential effect": {
+   "track": "P",
+   "key": "thepotential effect",
+   "surface_forms": [
+    "thepotential effects"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1492389358",
+     "year": 2012,
+     "text": "Although few Purdue students study abroadeach year, those who do typically report having a positiveexperience that provided them with multiple opportunitiesfor growth, encouraging further examination of thepotential effects of studying abroad."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2012,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2012,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "tijekom": {
+   "track": "L",
+   "key": "tijekom",
+   "surface_forms": [
+    "Tijekom",
+    "tijekom"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2751601914",
+     "year": 2007,
+     "text": "Tijekom 1855."
+    },
+    {
+     "work_id": "W2736979021",
+     "year": 2007,
+     "text": "Tijekom 2004."
+    },
+    {
+     "work_id": "W2745883878",
+     "year": 2012,
+     "text": "U sredisnjoj trecini uoceno je da otopina EDTA ucinkovitije uklanja zaostatni sloj u usporedbi s kontrolnom skupinom, djelovanjem tijekom 1 minute (P = 0, 023)"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2007,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2007,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "trauma patient": {
+   "track": "L_nonnovel",
+   "key": "trauma patient",
+   "surface_forms": [
+    "trauma patients",
+    "trauma patient"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2598859473",
+     "year": 2003,
+     "text": "After stabilisation and fracture treatment of the trauma patient, adequate nutritional support becomes very important."
+    },
+    {
+     "work_id": "W2333809173",
+     "year": 2004,
+     "text": "Enteral nutritional management in trauma patients blenderized feeds versus immunosupplemented feeds."
+    },
+    {
+     "work_id": "W1968649148",
+     "year": 2005,
+     "text": "IL-1beta, associated with elevated IL-12, was also detected in the serum of three of 11 trauma patients but none of the nine controls."
+    }
+   ],
+   "n_sample_occ": 10,
+   "first_sample_year": 2003,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 10,
+    "n_occ_main": 7,
+    "first_main_year": 2003,
+    "last_main_year": 2015,
+    "in_pre": true,
+    "n_fields": 5,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 14.2647
+   }
+  },
+  "uf department": {
+   "track": "L",
+   "key": "uf department",
+   "surface_forms": [
+    "UF Department"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W3012676633",
+     "year": 2006,
+     "text": "Published by the UF Department of Environmental Horticulture, May 2006."
+    },
+    {
+     "work_id": "W3206020177",
+     "year": 2006,
+     "text": "Published by the UF Department of Family, Youth and Community Sciences, November 2006."
+    },
+    {
+     "work_id": "W3023946124",
+     "year": 2006,
+     "text": "Published as part of the Elder Nutrition and Food Safety (ENAFS) program by the UF Department of Family Youth and Community Sciences, August 2006."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2006,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2006,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 9.5098
+   }
+  },
+  "unbalance": {
+   "track": "L",
+   "key": "unbalance",
+   "surface_forms": [
+    "unbalance"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W91142378",
+     "year": 2006,
+     "text": "The three processes are progressing slowly and in the case of an inconsiderate sectoral reform lead to an energy crises or the unbalance between the supply and demand for the energy raw materials, particularly for electric energy."
+    },
+    {
+     "work_id": "W2134384386",
+     "year": 2006,
+     "text": "The proposed null statistic is able to accommodate unbalance in the design and is also corrected for the undue correlation between its numerator and denominator."
+    },
+    {
+     "work_id": "W2374690680",
+     "year": 2007,
+     "text": "The development of private higher education alleviates the unbalance between supply and demand of higher education, changes the approach in resources allocation and hence promotes structural adjustment and optimisation."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2006,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2006,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 5.0
+   }
+  },
+  "upward rotation": {
+   "track": "P",
+   "key": "upward rotation",
+   "surface_forms": [
+    "upward rotation"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W4300542637",
+     "year": 2016,
+     "text": "Scapular motions of all the cases included internal rotation, upward rotation and posterior tilt during humeral elevation and external rotation, and downward rotation and anterior tilt during humeral depression."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2016,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2016,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "valuable contribution": {
+   "track": "L",
+   "key": "valuable contribution",
+   "surface_forms": [
+    "valuable contribution",
+    "valuable contributions"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W4403853378",
+     "year": 2005,
+     "text": "The acquired data represent a valuable contribution to the existing documentation and knowledge about this monument."
+    },
+    {
+     "work_id": "W2338408225",
+     "year": 2005,
+     "text": "Therefore, we will argue CSR/CC can make a valuable contribution especially regarding the clarification of such imperfect obligations."
+    },
+    {
+     "work_id": "W2071118037",
+     "year": 2005,
+     "text": "…oth orientation and vertical distribution of fractures as well as their opening and filling material or overburden thickness is a valuable contribution to estimating hydraulic conductivity and to evaluating the vulnerability and protection strategy of karst aq…"
+    }
+   ],
+   "n_sample_occ": 8,
+   "first_sample_year": 2005,
+   "n_fields": 6,
+   "stats": {
+    "n_occ": 8,
+    "n_occ_main": 8,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 6,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 11.0947
+   }
+  },
+  "vocational education": {
+   "track": "L_nonnovel",
+   "key": "vocational education",
+   "surface_forms": [
+    "vocational education",
+    "Vocational Education",
+    "Vocational education"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2394468636",
+     "year": 2003,
+     "text": "Research on and application of the Objective of Higher Vocational Education with a 4-year program —— a case study of the specialty of Building Services and Intelligent Technology."
+    },
+    {
+     "work_id": "W2375992820",
+     "year": 2003,
+     "text": "The realistic necessity of vocational education in the New century."
+    },
+    {
+     "work_id": "W2070518623",
+     "year": 2003,
+     "text": "Vocational education and training reform in the Netherlands: seven years experience."
+    }
+   ],
+   "n_sample_occ": 31,
+   "first_sample_year": 2003,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 31,
+    "n_occ_main": 23,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 4,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 47.2986
+   }
+  },
+  "vor allem": {
+   "track": "L",
+   "key": "vor allem",
+   "surface_forms": [
+    "vor allem"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1492128950",
+     "year": 2009,
+     "text": "Daher müssen Prozessschritte auf ihre Auswirkung auf Lebensmittelsicherheit und vor allem –qualität untersucht werden."
+    },
+    {
+     "work_id": "W2685802312",
+     "year": 2013,
+     "text": "Weiters zeigten die DCM-Extrakte von Asarum europaeum L. und Emblica officinalis Gaertn., die vor allem in der Traditionellen Iranischen Medizin verwendet werden, eine starke Nrf2 Aktivierung."
+    },
+    {
+     "work_id": "W2555623357",
+     "year": 2015,
+     "text": "Den Autoren, die die genetischen Dispositionen des Pferdes als relativ rigide Vorgaben verstehen und mit den Abweichungen von diesen generell Belastungen und Schäden verbinden, stehen vor allem die sogenannten Behavioristen gegenüber."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2009,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2009,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   }
+  },
+  "western civilisation": {
+   "track": "P",
+   "key": "western civilisation",
+   "surface_forms": [
+    "Western civilisation"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2005393575",
+     "year": 2011,
+     "text": "Although the historical crisis of ‘Western civilisation’ in the period preceding and during the First World War is one of the dominant themes of Expressionist poetry, the terms of East‐West discourse itself seldom feature in its diction, a circumstance that ca…"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2011,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2011,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "work engagement": {
+   "track": "L",
+   "key": "work engagement",
+   "surface_forms": [
+    "work engagement",
+    "Work Engagement"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2036438202",
+     "year": 2013,
+     "text": "Work Engagement as Mediator between Perceived Participation, Supervisor Support and Altruistic Behaviors: Empirical Results from the Italian Social Enterprise Sector."
+    },
+    {
+     "work_id": "W2992520148",
+     "year": 2013,
+     "text": "The methods also included a number of well-being indicators relevant to the work context (work engagement, job satisfaction, work-life balance, organizational commitment, emotions at work, and satisfaction with life)."
+    },
+    {
+     "work_id": "W4250073947",
+     "year": 2013,
+     "text": "The Effect of Continuous Learning Activity on Organizational Commitment and Work Engagement: The Mediating Effect of Self-Perceived Employability."
+    }
+   ],
+   "n_sample_occ": 8,
+   "first_sample_year": 2013,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 8,
+    "n_occ_main": 8,
+    "first_main_year": 2013,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 11.0947
+   }
+  },
+  "year old woman": {
+   "track": "L_nonnovel",
+   "key": "year old woman",
+   "surface_forms": [
+    "year - old woman",
+    "year old woman"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2014441535",
+     "year": 2003,
+     "text": "A 52-year-old woman developed fever and a generalized pustular eruption on the neck, trunk and extremities three days after taking iohexol."
+    },
+    {
+     "work_id": "W2373591942",
+     "year": 2003,
+     "text": "A case involving a 24-year-old woman presenting with a large ameloblastic fibro-odontoma of the posterior mandible is reported."
+    },
+    {
+     "work_id": "W1972128037",
+     "year": 2004,
+     "text": "This report describes the case of an 81-year-old woman in whom recurrent episodes of congestive heart failure developed over a relatively short time."
+    }
+   ],
+   "n_sample_occ": 128,
+   "first_sample_year": 2003,
+   "n_fields": 13,
+   "stats": {
+    "n_occ": 128,
+    "n_occ_main": 75,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 13,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 254.0
+   }
+  },
+  "yogyakarta": {
+   "track": "L",
+   "key": "yogyakarta",
+   "surface_forms": [
+    "Yogyakarta",
+    "YOGYAKARTA"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2265102878",
+     "year": 2013,
+     "text": "PLANT LAYOUT DESIGN PLANNING AND ECONOMICS ANALYSIS OF AUTOMATED STAMPED-BATIK MACHINE FACTORY ESTABLISHMENT IN YOGYAKARTA."
+    },
+    {
+     "work_id": "W2340954628",
+     "year": 2016,
+     "text": "Yogyakarta."
+    },
+    {
+     "work_id": "W82588102",
+     "year": 2016,
+     "text": "Evidences of anthelmintic resistance to albendazole in Indonesia has been reported from some government owned farms in West Java, Central Java, and Yogyakarta."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2013,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2013,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "yy1": {
+   "track": "L",
+   "key": "yy1",
+   "surface_forms": [
+    "YY1"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1981134596",
+     "year": 2010,
+     "text": "YY1 as a Therapeutic Target in Cancer."
+    },
+    {
+     "work_id": "W2156817053",
+     "year": 2012,
+     "text": "Previous studies identified miR-29 as a pro-myogenic factor that interacts with components of Polycomb repressive complex, YY1 and Ezh2."
+    },
+    {
+     "work_id": "W2038017537",
+     "year": 2013,
+     "text": "Transcription factors such as YY1 have been shown to facilitate repressive chromatin modifications by the recruitment of histone deacetylases."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2010,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2010,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "© 2013 society": {
+   "track": "L",
+   "key": "© 2013 society",
+   "surface_forms": [
+    "© 2013 Society"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2154878693",
+     "year": 2013,
+     "text": "© 2013 Society of Plastics Engineers"
+    },
+    {
+     "work_id": "W2070643784",
+     "year": 2013,
+     "text": "© 2013 Society of Plastics Engineers"
+    },
+    {
+     "work_id": "W1977496621",
+     "year": 2013,
+     "text": "© 2013 Society of Plastics Engineers"
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2013,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2013,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 8.0
+   }
+  },
+  "∼60 km depth": {
+   "track": "P",
+   "key": "∼60 km depth",
+   "surface_forms": [
+    "∼60 km depth"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2034822468",
+     "year": 2012,
+     "text": "We have found a ∼200‐km‐wide high velocity body, starting at ∼60 km depth and roughly centered beneath the Bangong‐Nijuang Suture, which is most likely a piece of the underthrusting Indian continental lithosphere."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2012,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2012,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "연구가": {
+   "track": "L",
+   "key": "연구가",
+   "surface_forms": [
+    "연구가"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2025282195",
+     "year": 2008,
+     "text": "영재교육에 대한 관심과 대상의 증가로 영재교육 프로그램 개발에 관한 연구가 많이 진행되고 있지만 영재들의 다양한 흥미와 요구에 부합되고 인성측면을 강조할 수 있는 지구과학 영역의 교육활동 자료 개발은 부족한 실정이다."
+    },
+    {
+     "work_id": "W1975342051",
+     "year": 2010,
+     "text": "많은 연구가 필요한 것으로 사료된다."
+    },
+    {
+     "work_id": "W2063066385",
+     "year": 2010,
+     "text": "따라서 본 연구를 통해 폐 환기/관류 신티그라피가 미니돼지에서 정상 폐기능 및 폐질환과 관련된 실험을 할 때 폐기능을 측정하는 좋은 진단법이 될 수 있으며 미니돼지의 정상 폐기능에 관한 연구가 앞으로 폐질환과 관련된 미니돼지의 실험에 대한 정보를 제공할 수 있으리라 생각된다."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2010,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  }
+ },
+ "labels_AB": {
+  "A": {
+   "activity dependent neural plasticity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific neurobiological mechanism involving changes in neural connections.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006665
+   },
+   "armenia": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A country name used as a geographical context.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006754
+   },
+   "back translation": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General linguistic task, not a specific scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006335
+   },
+   "bifeo3": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific multiferroic material with applications in electronics and photovoltaics.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007467
+   },
+   "boolean operation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Fundamental logical operations used in computing and mathematics.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000666
+   },
+   "c h bond activation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific chemical reaction type, a recognized area of study.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0008276
+   },
+   "cancer": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A very broad term for a class of diseases.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006347
+   },
+   "clinicaltrials.gov": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific database for clinical trials, not a scientific concept itself.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006669
+   },
+   "clustering analysis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific, reusable statistical method for grouping data points.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006725
+   },
+   "community based participatory research": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific research methodology involving community participation, a reusable concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006795
+   },
+   "copyright © 2006 john wiley": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Copyright notice with a date and publisher, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006268
+   },
+   "cosolvent": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A substance added to a solvent to modify its properties, used in chemistry.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0008095
+   },
+   "crystallite siz": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A physical property measurement, not a distinct scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006708
+   },
+   "d structure": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific level of linguistic or structural representation.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006456
+   },
+   "de ce numéro": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Boilerplate text related to journal issue content.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006742
+   },
+   "diabetic rat model": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific animal model used in biomedical research.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007172
+   },
+   "direct compression method": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific pharmaceutical manufacturing technique.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006355
+   },
+   "downside": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General term for a disadvantage, not a specific scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006678
+   },
+   "economy": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A very broad term for a system of production and exchange.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006725
+   },
+   "engine parameter": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A general category of measurements for an engine.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006453
+   },
+   "enhancement or degraded image": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic description of images that are either improved or worsened.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006432
+   },
+   "excessive range": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A general descriptor of a measurement range, not a specific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006454
+   },
+   "expatriate": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a group of people, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000688
+   },
+   "extensive characterization": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Evaluative phrase describing the extent of a study's work, not a reusable concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006834
+   },
+   "fe s and p record": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific geochemical records related to iron, sulfur, and phosphorus.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006288
+   },
+   "flavour": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "General sensory attribute, too broad for a specific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006271
+   },
+   "genera": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Taxonomic rank, too broad for an emerging concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006516
+   },
+   "genizah ms t s": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Appears to be an identifier or catalog number, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.00066
+   },
+   "gluon polarization": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific property of subatomic particles studied in physics.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000641
+   },
+   "gpus": {
+    "label": "VARIANT_OF",
+    "variant_of": "gpu",
+    "rationale": "Plural form of GPU, referring to the same concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006286
+   },
+   "great role": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Phrase is a generic descriptor of influence, not a specific scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006842
+   },
+   "health information technology": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific field of study concerning technology for managing health information.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006637
+   },
+   "helminthe": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A broad class of organisms, not a specific emerging concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006924
+   },
+   "hexose": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A basic class of sugar molecule, too general for a concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006187
+   },
+   "hiv envelope protein": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific protein component of a virus.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007385
+   },
+   "igneous protolith": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "The original rock from which a metamorphic rock is formed.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006143
+   },
+   "imad creidi magnetic performance": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes an individual's performance in a specific context, not a general concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006702
+   },
+   "improved genetic algorithm": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific, modified version of a known optimization algorithm.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006273
+   },
+   "interfere": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic verb describing interference, not a specific scientific concept.",
+    "confidence": 1,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006533
+   },
+   "investment property": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A classification term in accounting/real estate, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006594
+   },
+   "iron": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A basic chemical element, too fundamental to be an emerging concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000668
+   },
+   "kenyan": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Adjective describing people from a specific country, used as context.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007253
+   },
+   "kwahu east district": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Proper noun referring to a specific geographical location.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006501
+   },
+   "lean implementation": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a specific implementation, not a general concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006555
+   },
+   "logical process": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General cognitive or computational process, too broad.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006205
+   },
+   "magnon": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of elementary excitation in a magnetic material.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0008252
+   },
+   "mandatory scheme": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic descriptor for a type of system, not a specific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006281
+   },
+   "materials project": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific, named project for materials data.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006535
+   },
+   "matthew cutter": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Name of a person.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006144
+   },
+   "mc2": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Abbreviation for a physics equation, not a scientific concept itself.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006614
+   },
+   "mental activity": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General description of cognitive processes, not a specific scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006794
+   },
+   "methods data": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Methodological descriptor for data, not a specific scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006748
+   },
+   "microbiome": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "General term for microbial communities.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006234
+   },
+   "micrometer scale": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a level of detail, not a specific scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006543
+   },
+   "modern engineering applied talent": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive phrase about educational goals, not a specific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000644
+   },
+   "network": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "General term for interconnected systems, too broad.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000619
+   },
+   "nonalcoholic fatty liver disease": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific disease with a common acronym.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006526
+   },
+   "nutrient storage": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific biological process related to resource management in organisms.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006606
+   },
+   "omnivore": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "General ecological classification for animals that eat both plants and animals.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000666
+   },
+   "order statistical characteristics": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to specific statistical properties extracted from data, a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006741
+   },
+   "outstanding nz": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive phrase, not a specific scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006742
+   },
+   "p=0.031": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Statistical p-value indicating significance, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007656
+   },
+   "panda": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific animal species studied in a particular context.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006453
+   },
+   "perciforme": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A broad taxonomic order of fish, too general for an emerging concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006702
+   },
+   "photovoltaic device": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of electronic device that converts light into electricity.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006611
+   },
+   "post print version": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific publication format, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006619
+   },
+   "prompt diagnosis": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Phrase describes a desirable characteristic of diagnosis, not a specific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006611
+   },
+   "public health strategy": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A reusable strategy for improving public health outcomes.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006456
+   },
+   "purchase decision": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific construct in consumer behavior and marketing studies.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006088
+   },
+   "quirk": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A common English word used in a general or figurative sense.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006454
+   },
+   "received data": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic description of data that has been received.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006748
+   },
+   "right heart catheterization": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific medical procedure, a reusable method.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006532
+   },
+   "roundness": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific geometric property of particles, a measurable characteristic.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006842
+   },
+   "salivary marker": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of biological marker found in saliva.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006187
+   },
+   "semantic domain": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific area of meaning or linguistic analysis.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006525
+   },
+   "sequence evolution": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific area of study in evolutionary biology.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006751
+   },
+   "short postero dorsal extension": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive anatomical feature, not a reusable scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006188
+   },
+   "simulated surrounding": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive phrase for a study condition, not a reusable concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006306
+   },
+   "smartphone": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A common electronic device, too general for an emerging concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006368
+   },
+   "square planar": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a specific geometric arrangement of atoms in chemistry.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006665
+   },
+   "statistically significant impact": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Evaluative phrase, not a reusable scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006555
+   },
+   "students ' score": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic phrase referring to student performance, not a specific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006633
+   },
+   "teaching learning process": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a general educational activity, not a specific scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006474
+   },
+   "thepotential effect": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Phrase is preceded by 'the' and refers to a general potential outcome.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006555
+   },
+   "tijekom": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Word in Croatian meaning 'during', not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006815
+   },
+   "trauma patient": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes patients with a specific type of injury (trauma).",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006825
+   },
+   "uf department": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific department within an institution, not a general concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006721
+   },
+   "unbalance": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General term for lack of balance, used in various contexts.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006824
+   },
+   "upward rotation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific anatomical movement, a measurable phenomenon in biomechanics.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006842
+   },
+   "valuable contribution": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Evaluative phrase describing a contribution, not a reusable concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006505
+   },
+   "vocational education": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of education focused on job skills.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006725
+   },
+   "vor allem": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "German phrase meaning 'above all', used for emphasis, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006273
+   },
+   "western civilisation": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Broad historical and cultural concept, not a specific scientific entity.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007847
+   },
+   "work engagement": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A general organizational psychology construct, too broad for a specific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006926
+   },
+   "year old woman": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A demographic descriptor, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006268
+   },
+   "yogyakarta": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A place name used as a geographical context.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000657
+   },
+   "yy1": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific transcription factor with therapeutic potential.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000657
+   },
+   "© 2013 society": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Copyright notice and year, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006368
+   },
+   "∼60 km depth": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a measurement of depth, not a scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006139
+   },
+   "연구가": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Korean word, likely discourse or study-specific.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000657
+   }
+  },
+  "B": {
+   "activity dependent neural plasticity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A neural plasticity mechanism influenced by activity levels.",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006135
+   },
+   "armenia": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a country, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006377
+   },
+   "back translation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A linguistic translation process, a recognized technical term",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006234
+   },
+   "bifeo3": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific multiferroic material, a scientific material.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007228
+   },
+   "boolean operation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A logical operation used in computer science and digital logic.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000633
+   },
+   "c h bond activation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Chemical process involving C-H bond activation",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006786
+   },
+   "cancer": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Generic term for a disease category, too broad.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006073
+   },
+   "clinicaltrials.gov": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A clinical trial registry, not a scientific concept.",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006173
+   },
+   "clustering analysis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific data analysis technique used in multiple studies",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006424
+   },
+   "community based participatory research": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A research approach involving community participation, a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006304
+   },
+   "copyright © 2006 john wiley": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Copyright statement, not a scientific concept",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005729
+   },
+   "cosolvent": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A chemical used to modify solubility in chemistry.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006651
+   },
+   "crystallite siz": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a measurable physical property of materials, a concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006258
+   },
+   "d structure": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "D-structure as a linguistic or grammatical concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006462
+   },
+   "de ce numéro": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "French phrase meaning 'of this issue', not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006596
+   },
+   "diabetic rat model": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific animal disease model used in research.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005656
+   },
+   "direct compression method": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A common pharmaceutical manufacturing process, a scientific method.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.00064
+   },
+   "downside": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic term for a disadvantage or negative aspect.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006357
+   },
+   "economy": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A broad term for a general economic concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006491
+   },
+   "engine parameter": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to specific engine parameters in mechanical engineering.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006239
+   },
+   "enhancement or degraded image": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Image quality and processing concept, relevant in imaging studies",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006124
+   },
+   "excessive range": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive phrase about occlusal range, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006245
+   },
+   "expatriate": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A term for expatriates, a specific group of individuals.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0004196
+   },
+   "extensive characterization": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific biological pathway and process characterization method.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006289
+   },
+   "fe s and p record": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Named specific geochemical records in sediments.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005702
+   },
+   "flavour": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Common term for sensory attribute, too broad.",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005925
+   },
+   "genera": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Taxonomic groupings, a biological classification concept",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006289
+   },
+   "genizah ms t s": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Likely a manuscript or document code, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006298
+   },
+   "gluon polarization": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A fundamental particle property in physics.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006045
+   },
+   "gpus": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A class of hardware devices used in high-performance computing.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000615
+   },
+   "great role": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic phrase indicating a role, not a specific scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006648
+   },
+   "health information technology": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific term for health IT systems and practices",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006037
+   },
+   "helminthe": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A biological organism group studied in parasitology.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006408
+   },
+   "hexose": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific class of sugars involved in metabolism.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005971
+   },
+   "hiv envelope protein": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific viral envelope protein relevant in virology.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006264
+   },
+   "igneous protolith": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a geological term for a type of rock precursor.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006102
+   },
+   "imad creidi magnetic performance": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific performance event, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006246
+   },
+   "improved genetic algorithm": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Evolutionary algorithm for optimization problems, a known method",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000595
+   },
+   "interfere": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a biological interference process, a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006564
+   },
+   "investment property": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A classification of real estate assets, a specific property type.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006249
+   },
+   "iron": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Chemical element, a specific metal involved in biological systems",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000642
+   },
+   "kenyan": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a demographic group, not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007043
+   },
+   "kwahu east district": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A geographic or administrative region name.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006021
+   },
+   "lean implementation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific methodology in process improvement.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006295
+   },
+   "logical process": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific logical process in computer science and philosophy",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000565
+   },
+   "magnon": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A quasiparticle in condensed matter physics",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006726
+   },
+   "mandatory scheme": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A type of scheme or plan in policy or organizational context.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006064
+   },
+   "materials project": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific materials database or project in materials science.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006178
+   },
+   "matthew cutter": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Personal name, not a scientific concept",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000587
+   },
+   "mc2": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Scientific notation for energy-mass equivalence.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006056
+   },
+   "mental activity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Mental activity as a broad cognitive process, a scientific construct.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006722
+   },
+   "methods data": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to data collection methods in research studies",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006453
+   },
+   "microbiome": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Microbial community in various environments.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006018
+   },
+   "micrometer scale": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Measurement scale at microscopic or nanoscopic level.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006193
+   },
+   "modern engineering applied talent": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A general phrase about education, not a specific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006116
+   },
+   "network": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Generic term for interconnected systems; too broad to be an emerging concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000628
+   },
+   "nonalcoholic fatty liver disease": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A well-defined medical condition with recognized abbreviation, a specific disease entity.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006624
+   },
+   "nutrient storage": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Biological process related to nutrient storage in cells",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005962
+   },
+   "omnivore": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A broad animal dietary classification, not a specific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000633
+   },
+   "order statistical characteristics": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to statistical properties, a scientific characteristic.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006242
+   },
+   "outstanding nz": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a person or award, not a scientific concept.",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006596
+   },
+   "p=0.031": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A p-value notation indicating statistical significance, not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007366
+   },
+   "panda": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific system or detector named 'PANDA'.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006239
+   },
+   "perciforme": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Taxonomic group of fishes, a scientific classification.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006246
+   },
+   "photovoltaic device": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A well-defined class of solar energy conversion devices.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006294
+   },
+   "post print version": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A version of a publication prior to final formatting, relevant in publishing.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006431
+   },
+   "prompt diagnosis": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a clinical process, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006294
+   },
+   "public health strategy": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific public health strategy, a reusable concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006462
+   },
+   "purchase decision": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic term for decision-making process",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005598
+   },
+   "quirk": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Common noun 'quirk', not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006245
+   },
+   "received data": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to data received from data collection systems",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006453
+   },
+   "right heart catheterization": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Medical procedure name, a scientific method.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006192
+   },
+   "roundness": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a morphological property, a scientific measurement.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006648
+   },
+   "salivary marker": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a biological marker in saliva related to disease or stress.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006131
+   },
+   "semantic domain": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a semantic or linguistic concept, a recognized scientific term.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006497
+   },
+   "short postero dorsal extension": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive anatomical feature, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0003973
+   },
+   "simulated surrounding": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive phrase about environment, not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000604
+   },
+   "smartphone": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Mobile device type used in healthcare research, a technical concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006119
+   },
+   "square planar": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A geometric configuration in coordination chemistry.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006135
+   },
+   "statistically significant impact": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific phrase indicating a measurable impact in studies.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006295
+   },
+   "students ' score": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A scoring system for students' academic performance.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006104
+   },
+   "teaching learning process": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A broad educational process, but used as a specific concept here.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006221
+   },
+   "thepotential effect": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a potential effect of studying abroad, a specific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006249
+   },
+   "tijekom": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Place name and date references, not a scientific concept",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006405
+   },
+   "trauma patient": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific trauma patient group",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000608
+   },
+   "uf department": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Department name, not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000635
+   },
+   "unbalance": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A general term for imbalance in various contexts, not a specific concept.",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006552
+   },
+   "upward rotation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific movement in anatomy or biomechanics.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006648
+   },
+   "valuable contribution": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Evaluation phrase about contribution, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006085
+   },
+   "vocational education": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific vocational education concept or program.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006491
+   },
+   "vor allem": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "German phrase meaning 'especially', not a scientific concept",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000595
+   },
+   "western civilisation": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A broad term for a cultural or historical phenomenon.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006492
+   },
+   "work engagement": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Work-related psychological concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0004048
+   },
+   "year old woman": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A demographic category used in clinical studies",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005729
+   },
+   "yogyakarta": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A place name, not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006996
+   },
+   "yy1": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific gene involved in transcription regulation and cancer.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006996
+   },
+   "© 2013 society": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Copyright symbol and year, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006119
+   },
+   "∼60 km depth": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a geological depth, a scientific measurement.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005938
+   },
+   "연구가": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A word in Korean, not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006996
+   }
+  }
+ },
+ "labels_adj": {
+  "silver_gold_200": [
+   "boolean operation",
+   "vocational education",
+   "hiv envelope protein",
+   "public health strategy",
+   "yy1",
+   "bifeo3",
+   "cosolvent",
+   "materials project",
+   "purchase decision",
+   "semantic domain",
+   "students ' score",
+   "trauma patient",
+   "methods data",
+   "uf department",
+   "mc2",
+   "interfere",
+   "unbalance",
+   "micrometer scale",
+   "© 2013 society",
+   "armenia",
+   "flavour",
+   "gpus"
+  ],
+  "labels": {
+   "armenia": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Geographic place name used as study context, not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010898
+   },
+   "back translation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific translation methodology used in instrument validation research.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010225
+   },
+   "bifeo3": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific material compound (bismuth ferrite) with named properties and applications.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010898
+   },
+   "boolean operation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific logical/computational operation used in image segmentation and optical systems.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010558
+   },
+   "cosolvent": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific chemical substance/solvent type used in reactions and solutions.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010285
+   },
+   "crystallite siz": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Measurement descriptor; compositional phrase without independent conceptual status.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010482
+   },
+   "engine parameter": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic methodological term; study-specific variables, not a named reusable concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010558
+   },
+   "expatriate": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Generic demographic category used across social science research.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010472
+   },
+   "flavour": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Generic sensory attribute used across food science; too basic and ubiquitous.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010661
+   },
+   "genera": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Basic taxonomic rank used ubiquitously across all biology; too fundamental.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010661
+   },
+   "gpus": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "GPUs are a ubiquitous hardware component used across all computational science.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010979
+   },
+   "helminthe": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Helminthes (parasitic worms) is a specific organism class studied in parasitology and epidemiology.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010979
+   },
+   "hexose": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Basic biochemical class (six-carbon sugar); ubiquitous in biology.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010485
+   },
+   "hiv envelope protein": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific biological entity (HIV gp41 protein) that is a named object of study.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01044
+   },
+   "interfere": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Generic verb; 'interfere' is a basic action used across all sciences, not a named concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01105
+   },
+   "iron": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Basic chemical element, ubiquitous across all science.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010564
+   },
+   "lean implementation": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific methodology/approach (Lean manufacturing); reusable management concept.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010485
+   },
+   "logical process": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "In simulation context, LPs are a specific technical concept for partitioning discrete event models.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01044
+   },
+   "materials project": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific named database/resource (Materials Project) for materials data; reusable concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01044
+   },
+   "mc2": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Acronym for Einstein's equation or plant mutant designation, not a reusable scientific concept.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.011135
+   },
+   "mental activity": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Generic term for brain function, too broad and ubiquitous across neuroscience.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010691
+   },
+   "methods data": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Boilerplate methods section header, not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010285
+   },
+   "microbiome": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific scientific concept: the community of microorganisms in an environment, widely studied as named entity.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.011435
+   },
+   "micrometer scale": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic spatial scale descriptor, not a specific scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.0104
+   },
+   "perciforme": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Perciformes is a taxonomic order, too broad and basic for emerging concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01069
+   },
+   "post print version": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Publisher/repository boilerplate about document versions, not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01065
+   },
+   "public health strategy": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Broad disciplinary term; 'public health strategy' is too general across all public health research.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.011045
+   },
+   "purchase decision": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Generic behavioral/economic variable used across many disciplines; too broad.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010538
+   },
+   "received data": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic methodological phrase, not a named scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010551
+   },
+   "semantic domain": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific linguistic/cognitive construct used in formal semantics and neuroscience.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010648
+   },
+   "sequence evolution": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific reusable concept in molecular biology: study of how DNA sequences change over time.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010472
+   },
+   "smartphone": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Common technology device; ubiquitous across all applied sciences.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010482
+   },
+   "statistically significant impact": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Methodological/evaluative filler; describes statistical assessment, not a concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010485
+   },
+   "students ' score": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic study-specific measurement, not a reusable named object.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.0104
+   },
+   "teaching learning process": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic educational activity descriptor; too broad and compositional.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010705
+   },
+   "trauma patient": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Trauma patients is a broad clinical category, too generic as emerging concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01069
+   },
+   "uf department": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Publisher/institutional boilerplate; not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010538
+   },
+   "unbalance": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic state descriptor; compositional phrase without specific reusable meaning.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010335
+   },
+   "vocational education": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Broad educational field/category, too general to be emerging concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010648
+   },
+   "work engagement": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific occupational psychology construct measuring worker motivation/satisfaction.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010648
+   },
+   "year old woman": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Study-specific case descriptor (age and gender of a particular patient), not a concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.006784
+   },
+   "yy1": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific transcription factor protein; reusable named entity in molecular biology research.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01065
+   },
+   "© 2013 society": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Publisher boilerplate copyright statement.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010482
+   }
+  },
+  "note": "first 300 disagreements adjudicated in stage 'adjudicate', the remainder in 'adjudicate_extra'"
+ },
+ "split": {
+  "split": {
+   "armenia": "test",
+   "back translation": "train",
+   "bifeo3": "test",
+   "boolean operation": "test",
+   "c h bond activation": "train",
+   "cancer": "train",
+   "clinicaltrials.gov": "train",
+   "clustering analysis": "test",
+   "community based participatory research": "train",
+   "copyright © 2006 john wiley": "test",
+   "cosolvent": "test",
+   "crystallite siz": "train",
+   "d structure": "train",
+   "de ce numéro": "train",
+   "diabetic rat model": "test",
+   "direct compression method": "train",
+   "downside": "train",
+   "economy": "train",
+   "engine parameter": "train",
+   "expatriate": "train",
+   "flavour": "test",
+   "genera": "train",
+   "genizah ms t s": "test",
+   "gpus": "test",
+   "great role": "test",
+   "health information technology": "train",
+   "helminthe": "train",
+   "hexose": "train",
+   "hiv envelope protein": "test",
+   "improved genetic algorithm": "train",
+   "interfere": "test",
+   "iron": "train",
+   "kenyan": "test",
+   "lean implementation": "train",
+   "logical process": "train",
+   "magnon": "test",
+   "materials project": "test",
+   "mc2": "test",
+   "mental activity": "train",
+   "methods data": "test",
+   "microbiome": "train",
+   "micrometer scale": "test",
+   "network": "train",
+   "nonalcoholic fatty liver disease": "test",
+   "omnivore": "train",
+   "p=0.031": "train",
+   "panda": "test",
+   "perciforme": "train",
+   "photovoltaic device": "train",
+   "post print version": "train",
+   "prompt diagnosis": "train",
+   "public health strategy": "test",
+   "purchase decision": "test",
+   "quirk": "test",
+   "received data": "train",
+   "roundness": "test",
+   "salivary marker": "train",
+   "semantic domain": "test",
+   "sequence evolution": "train",
+   "smartphone": "train",
+   "square planar": "test",
+   "statistically significant impact": "train",
+   "students ' score": "test",
+   "teaching learning process": "train",
+   "tijekom": "test",
+   "trauma patient": "test",
+   "uf department": "test",
+   "unbalance": "test",
+   "valuable contribution": "train",
+   "vocational education": "test",
+   "vor allem": "test",
+   "work engagement": "train",
+   "year old woman": "train",
+   "yogyakarta": "train",
+   "yy1": "test",
+   "© 2013 society": "test",
+   "연구가": "train"
+  },
+  "cluster": {
+   "armenia": "c81",
+   "back translation": "c109",
+   "bifeo3": "c127",
+   "boolean operation": "c157",
+   "c h bond activation": "c173",
+   "cancer": "c176",
+   "clinicaltrials.gov": "c232",
+   "clustering analysis": "c236",
+   "community based participatory research": "c255",
+   "copyright © 2006 john wiley": "c282",
+   "cosolvent": "c293",
+   "crystallite siz": "c307",
+   "d structure": "c321",
+   "de ce numéro": "c333",
+   "diabetic rat model": "c356",
+   "direct compression method": "c371",
+   "downside": "c384",
+   "economy": "c404",
+   "engine parameter": "c432",
+   "expatriate": "c457",
+   "flavour": "c490",
+   "genera": "c531",
+   "genizah ms t s": "c535",
+   "gpus": "c551",
+   "great role": "c560",
+   "health information technology": "c585",
+   "helminthe": "c590",
+   "hexose": "c599",
+   "hiv envelope protein": "c606",
+   "improved genetic algorithm": "c640",
+   "interfere": "c680",
+   "iron": "c706",
+   "kenyan": "c720",
+   "lean implementation": "c747",
+   "logical process": "c773",
+   "magnon": "c795",
+   "materials project": "c807",
+   "mc2": "c810",
+   "mental activity": "c821",
+   "methods data": "c833",
+   "microbiome": "c840",
+   "micrometer scale": "c843",
+   "network": "c903",
+   "nonalcoholic fatty liver disease": "c921",
+   "omnivore": "c946",
+   "p=0.031": "c984",
+   "panda": "c989",
+   "perciforme": "c1011",
+   "photovoltaic device": "c1027",
+   "post print version": "c1058",
+   "prompt diagnosis": "c1076",
+   "public health strategy": "c1085",
+   "purchase decision": "c1090",
+   "quirk": "c1105",
+   "received data": "c1122",
+   "roundness": "c1166",
+   "salivary marker": "c1178",
+   "semantic domain": "c1205",
+   "sequence evolution": "c1208",
+   "smartphone": "c1239",
+   "square planar": "c1265",
+   "statistically significant impact": "c1277",
+   "students ' score": "c1292",
+   "teaching learning process": "c1331",
+   "tijekom": "c1362",
+   "trauma patient": "c1379",
+   "uf department": "c1391",
+   "unbalance": "c1394",
+   "valuable contribution": "c1415",
+   "vocational education": "c1438",
+   "vor allem": "c1440",
+   "work engagement": "c1459",
+   "year old woman": "c1467",
+   "yogyakarta": "c1469",
+   "yy1": "c1471",
+   "© 2013 society": "c1482",
+   "연구가": "c1488"
+  }
+ }
+}
