@@ -1,0 +1,161 @@
+{
+ "rule_text_verbatim": "D1_SUPPORTED_SCREEN = exists Y in {Y1r, Y2, Y3}: coef(closure_res) < 0 AND bootstrap CI excludes 0 AND Holm-adjusted p < 0.05 AND grouped-CV delta-R2 CI lower bound > 0 for that same Y. Else D1_NOT_SUPPORTED_SCREEN. If the sibling RQ1 holds and D1 fails -> 'take-off correlate only'. Sign > 0 with CI excluding 0 -> 'closure predicts breadth in the OPPOSITE direction' (reported, rule not met).",
+ "row_count_decision": {
+  "created_before_outcomes": true,
+  "main_screen_eligible_rows": 530,
+  "main_screen_eligible_concepts": 138,
+  "closure_res_complete_rows": 351,
+  "closure_res_complete_concepts": 100,
+  "closure_res_imp_complete_rows": 515,
+  "F3_rule": "if complete-case closure_res leaves < 150 screen MAIN concepts or < 500 rows -> closure_res_imp co-primary",
+  "F3_triggered": true,
+  "coprimary_rule": "D1_SUPPORTED_SCREEN requires the pre-declared rule to hold for closure_res AND for closure_res_imp on the same outcome (conservative conjunction; no forking)",
+  "F4_rule": "if n* < 20 in > 40% of MAIN rows -> Y1r floor 10 and Y1r20 -> Y1r10",
+  "F4_share_nstar_lt20": 0.14528301886792452,
+  "F4_triggered": false,
+  "Y1r_floor": 20
+ },
+ "per_measure": {
+  "closure_res_z": {
+   "Y1r": {
+    "conditions": {
+     "coef_negative": false,
+     "ci_excludes_0": false,
+     "holm_p_lt_005": false,
+     "cv_delta_r2_ci_lo_gt_0": false
+    },
+    "met": false,
+    "opposite_direction": false,
+    "coef": 0.019426206103135495,
+    "ci": [
+     -0.009846981749062192,
+     0.04079337758585265
+    ],
+    "p_boot": 0.19890054972513743,
+    "p_holm": 0.40479760119940034,
+    "delta_r2": 0.006668779815844461,
+    "delta_r2_ci": [
+     -0.015125548402297193,
+     0.030459975032708173
+    ]
+   },
+   "Y2": {
+    "conditions": {
+     "coef_negative": false,
+     "ci_excludes_0": false,
+     "holm_p_lt_005": false,
+     "cv_delta_r2_ci_lo_gt_0": false
+    },
+    "met": false,
+    "opposite_direction": false,
+    "coef": 0.006994838721874459,
+    "ci": [
+     -0.0024393078369600338,
+     0.013349642902353895
+    ],
+    "p_boot": 0.13493253373313344,
+    "p_holm": 0.40479760119940034,
+    "delta_r2": 0.012253716673889303,
+    "delta_r2_ci": [
+     -0.012913644160463315,
+     0.04255422615570603
+    ]
+   },
+   "log1p_Y3": {
+    "conditions": {
+     "coef_negative": true,
+     "ci_excludes_0": false,
+     "holm_p_lt_005": false,
+     "cv_delta_r2_ci_lo_gt_0": false
+    },
+    "met": false,
+    "opposite_direction": false,
+    "coef": -0.06500206390938072,
+    "ci": [
+     -0.15556203897534737,
+     0.029948485452006506
+    ],
+    "p_boot": 0.175912043978011,
+    "p_holm": 0.40479760119940034,
+    "delta_r2": 0.0010633583716802564,
+    "delta_r2_ci": [
+     -0.012277950205480096,
+     0.01461412237149218
+    ]
+   }
+  },
+  "closure_res_imp_z": {
+   "Y1r": {
+    "conditions": {
+     "coef_negative": false,
+     "ci_excludes_0": false,
+     "holm_p_lt_005": false,
+     "cv_delta_r2_ci_lo_gt_0": false
+    },
+    "met": false,
+    "opposite_direction": false,
+    "coef": 0.020877011022488554,
+    "ci": [
+     -0.007858683758070879,
+     0.0409519145574775
+    ],
+    "p_boot": 0.16591704147926037,
+    "p_holm": 0.33183408295852074,
+    "delta_r2": 0.007924098503014232,
+    "delta_r2_ci": [
+     -0.011012623899522966,
+     0.027089207029838924
+    ]
+   },
+   "Y2": {
+    "conditions": {
+     "coef_negative": false,
+     "ci_excludes_0": true,
+     "holm_p_lt_005": false,
+     "cv_delta_r2_ci_lo_gt_0": false
+    },
+    "met": false,
+    "opposite_direction": true,
+    "coef": 0.011964114292489588,
+    "ci": [
+     0.0016755407523857172,
+     0.020744098397255505
+    ],
+    "p_boot": 0.01999000499750125,
+    "p_holm": 0.05997001499250375,
+    "delta_r2": 0.018237616762489584,
+    "delta_r2_ci": [
+     -0.003186766559660786,
+     0.03895733754328488
+    ]
+   },
+   "log1p_Y3": {
+    "conditions": {
+     "coef_negative": true,
+     "ci_excludes_0": false,
+     "holm_p_lt_005": false,
+     "cv_delta_r2_ci_lo_gt_0": false
+    },
+    "met": false,
+    "opposite_direction": false,
+    "coef": -0.026155618363197887,
+    "ci": [
+     -0.10285714253947678,
+     0.06104422951195072
+    ],
+    "p_boot": 0.5537231384307846,
+    "p_holm": 0.5537231384307846,
+    "delta_r2": -0.002154450028878374,
+    "delta_r2_ci": [
+     -0.006136757721353331,
+     0.002072461808404748
+    ]
+   }
+  }
+ },
+ "co_primary_note": "D1_SUPPORTED_SCREEN requires the pre-declared rule to hold for closure_res AND for closure_res_imp on the same outcome (conservative conjunction; no forking)",
+ "outcomes_meeting_rule": [],
+ "verdict": "D1_NOT_SUPPORTED_SCREEN",
+ "opposite_direction_outcomes": [],
+ "interpretation": "no screen support: openness is a take-off correlate only (if RQ1 holds)"
+}
