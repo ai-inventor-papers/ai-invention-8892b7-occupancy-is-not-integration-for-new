@@ -1,0 +1,13 @@
+# T_coverage
+
+| activity | status | artifacts | caveat |
+|---|---|---|---|
+| 1. Prepare and semantically ground dataset | Done | art_94GEMUsgAmgK, art_QpM5SM6a7SH6, art_BdBvbNuNU8E7, art_eR1Z7fMlOcxs | grounding covers focal concepts; co-word nodes are Wikidata-linked legacy OpenAlex concepts |
+| 2. Construct evolving knowledge network | Done | art_mbFjmo5rbbf8, art_eR1Z7fMlOcxs | 25 yearly snapshots; variant merger recall low |
+| 3. RQ1 temporal network analysis | Done; R1_DEAD | art_mbFjmo5rbbf8, art_htO_gJuUn6Pr, art_zw_JJGsUFSnd | R1_DEAD under the frozen kill rule; structural precursors are volume/churn correlates |
+| 4. RQ2 cross-disciplinary diffusion | Done; D2 confirmed on held-out + MeSH (biomed -> biomed) | art_2Cd2JJypeGuA, art_WZ8fbLn79nCq, art_XGdzjWgi-a88, art_FZ2OCJwV6xHs | count outcome only (EST_bin null); within-concept permutation p 0.050; primary FE underpowered |
+| 5. Recurring trajectories | Done; k = 2 replicates on held-out; MeSH outside support | art_QKsLguxnGFQT, art_mu0h0npvNX_u | 4.4e-17 |
+| 6. Representative cases | Done (4 cases; cases.md) | art_mu0h0npvNX_u | results/case_interpretations.md |
+
+Sources (run-root-relative): 3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results_note.md; 3_invention_loop/iter_4/gen_art/gen_art_evaluation_4/results/case_interpretations.md; 3_invention_loop/iter_4/gen_art/gen_art_evaluation_4/results/mesh_results.json
+Assertion: every sourced cell re-read by audit_tables.py (3 cells, 0 failures).
