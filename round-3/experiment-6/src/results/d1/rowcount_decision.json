@@ -1,0 +1,15 @@
+{
+ "created_before_outcomes": true,
+ "main_screen_eligible_rows": 530,
+ "main_screen_eligible_concepts": 138,
+ "closure_res_complete_rows": 351,
+ "closure_res_complete_concepts": 100,
+ "closure_res_imp_complete_rows": 515,
+ "F3_rule": "if complete-case closure_res leaves < 150 screen MAIN concepts or < 500 rows -> closure_res_imp co-primary",
+ "F3_triggered": true,
+ "coprimary_rule": "D1_SUPPORTED_SCREEN requires the pre-declared rule to hold for closure_res AND for closure_res_imp on the same outcome (conservative conjunction; no forking)",
+ "F4_rule": "if n* < 20 in > 40% of MAIN rows -> Y1r floor 10 and Y1r20 -> Y1r10",
+ "F4_share_nstar_lt20": 0.14528301886792452,
+ "F4_triggered": false,
+ "Y1r_floor": 20
+}
