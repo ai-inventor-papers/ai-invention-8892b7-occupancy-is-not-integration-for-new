@@ -1,0 +1,229 @@
+{
+ "title": "Do adopters already speak the partner language? (adopter-level absorptive-capacity test of D2)",
+ "label": "screen-fold mechanism evidence, not confirmation",
+ "sample": "co-primary D2 sample (exp_7 screen MAIN kw5, complete controls, retained by PPML pruning): 1,544 entries, 140 concepts; sealed (held-out) concepts never read (vendored assert_not_sealed).",
+ "exposure_route": "CORPUS-ONLY primary (pre-declared fallback: key-wide OpenAlex remaining < 4,000 at start); every row labelled 'corpus-exposure, coverage-limited'. OpenAlex exposure only on a blind validation subsample (<= 100 strata) under the 2,500 key-wide reserve.",
+ "cases": "authors of the W2=[e+1,e+5] d-papers of c counted in Y_strict (no author in Pset(c,e), vendored CoauthorIndex); adoption year Y = year of the author's first such paper; placeholder author id -1 dropped. Corpus-primary adaptation (declared before exposure): cases restricted to exposure-MEASURABLE adopters (>= 1 corpus work published <= e-1 that is not a c-paper); career-new adopters reported descriptively.",
+ "controls": "incidence-density: in-corpus authors with >= 1 corpus d-paper (topic_score >= 0.05) in year Y (widen to Y+-1 if < 5 candidates); excluded: Pset(c,e), any c-author 2000-2024, any adopter of the same entry; corpus-primary: >= 1 corpus work <= e-1. Exact match on prior-corpus-works bin (1 / 2-3 / 4+; 0 excluded by construction), team size bin of index d-paper (1-2/3-5/6-10/11+), host activity bin (n d-papers [Y-2,Y]: 1/2-3/4+), in-corpus first-year bin (<=e-10 / e-9..e-3 / >=e-2). Relaxation order: first-year, activity, team, prior-bin. 1 control + 2 reserves (reserves used in the 1:3 supplementary). Seed 20260929.",
+ "caps": "<= 6 cases per entry, <= 25 per concept, target 500 per A_cont tercile, hard cap 1,500; shortfall redistributed. Supplementary 'expanded' frame: entry cap only.",
+ "targets": "P = entry's distinct partners (vendored event_tags, own node dropped), top 60 by tag weight; classes by pre-entry host share s (Nativeness.share, block before e): NATIVE s>=0.3, ADJACENT 0.05<=s<0.3, FOREIGN s<0.05, UNPROFILED; ORIGIN-COMPANION flag (partners on c-papers in o(c), [e-5,e-1]). NEG <= 20 profiled legacy nodes matched to random profiled partners on decile of n_p[d,block], decile of total_p [block] and level (relaxed stepwise), excluding P, companions, own node and PLAC. PLAC = top-20 (by tag weight) partners of a random other screen MAIN kw5 entry c'!=c into the same d with |e'-e|<=1, minus P.",
+ "exposure": "member's corpus works published <= e-1, excluding c-papers; tags = vendored partner rule (legacy concept score >= 0.2 U keyword-mapped legacy concepts, level >= 1). E_any, E_w, E_nat/E_adj/E_for/E_unprof, E_comp/E_noncomp, E_neg (+ share), E_plac, E_swap (full partner set of the placebo entry), E_any_incl_c (sensitivity). Covariate lp = log1p(n prior corpus works excl. c-papers).",
+ "models": {
+  "M-i": "conditional logit on matched strata: m1 case~E_any+lp; m2 (PRIMARY) +E_neg; m3 E_w; m_plac E_any+E_neg+E_plac+lp on strata with a placebo; concept-cluster bootstrap B=1000 (percentile CI, two-sided bootstrap p), model-based and concept-CRV SEs; pyfixest LPM cross-check (stratum FE, CRV1 concept); statsmodels ConditionalLogit check.",
+  "M-ii": "m2 + E_any x z(A_cont) (z over the 1,544 entries); OR by A_cont tercile descriptive with tercile MDE.",
+  "M-iii": "case ~ E_nat+E_adj+E_for+E_unprof+E_neg+lp; contrasts logOR(nat)-logOR(for), logOR(adj)-logOR(for); origin-companion: E_comp+E_noncomp+E_neg+lp.",
+  "M-iv": "entry-level PPML co-primary (concept+e+d FE, offset log n_entry_papers, CRV1 concept; exp_7 controls): base, +M2, +M2_native+M2_adjacent (Gelbach), +M1, +M2_share; attenuation (b_base-b_full)/b_base; concept-cluster bootstrap B=1000; reverse attenuation; mediator validation: Spearman M2_share vs control exposure prevalence per entry (entries with >= 3 control-type members), M2 vs M1."
+ },
+ "reading_rules": {
+  "SUPPORT": "primary OR(E_any|E_neg,lp) CI excludes 1 above; OR_partner/OR_neg CI excludes 1 above; and OR_partner/OR_plac > 1 with CI excluding 1 OR OR_plac n.s.",
+  "GENERIC_HOST_VOCABULARY": "primary OR > 1 but OR_partner/OR_plac CI includes 1 while OR_plac significant.",
+  "ACTIVITY_ARTEFACT": "OR_partner/OR_neg CI includes 1 and OR_neg significant.",
+  "NULL": "primary OR CI includes 1 while MDE80 <= 1.30; if MDE80 > 1.30 -> UNDERPOWERED.",
+  "interaction": "positive CI excl 1 = interface matters more when partners are host-native; null = uniform; negative = only boundary-spanning exposed authors adopt in low-A entries.",
+  "mediation": "attenuation >= 30% with CI excluding 0 = A_cont acts partly through pre-exposed host pool size; CI incl 0 = not reducible to pool size (M2), read beside the mediator validation (lower bound).",
+  "vocabulary": "NATIVE > FOREIGN (CI excl 0) = grafting; ADJACENT > FOREIGN with NATIVE n.s. = host-adjacent re-contextualisation.",
+  "MDE_used_for_NULL": "MDE80 at the simulated p0 grid point closest to the observed control prevalence."
+ },
+ "credit_caps": {
+  "own_cap": 400,
+  "keywide_reserve": 2500,
+  "corpus_primary_if_keywide_below": 4000
+ },
+ "seeds": {
+  "frame": 20260929,
+  "api_subsample": 20260936,
+  "bootstrap": 20260940,
+  "permutation": 20260942,
+  "power": 20260946,
+  "mediation_boot": 20260948
+ },
+ "frozen_at_utc": "2026-09-29T06:47:47+00:00",
+ "input_sha256": {
+  "exp7_screen_events_with_outcomes": {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/screen_events_with_outcomes.parquet",
+   "sha256": "2d8b2d854be559cbf5874239987a6f86ed661a6628013302d1c3cf0efd38e280"
+  },
+  "exp7_features_screen": {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/features_screen.parquet",
+   "sha256": "a6ce9b71eae6cd34bac60a47ad9d75b217c915ae1283c5e2190b866dc47241ad"
+  },
+  "exp7_main_population_hydrated": {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/main_population_hydrated.json",
+   "sha256": "630b02f3b8f22052c8daed5ae4ce8996027479628e693c476d8d0c72229dd907"
+  },
+  "exp7_d2_summary": {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/d2_summary.json",
+   "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1"
+  },
+  "d5_concept_work": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/concept_work.parquet",
+   "sha256": "000e6de2a4b57c4fcc083270f8b02c969e418bea9ea1809d5611cd0cc7f4bf2f"
+  },
+  "d5_profiles": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/p2/profiles.jsonl",
+   "sha256": "fc0d0107e3743fcc1493d769a0a42a419198c1c7f401d70d9068d0d3272dc73f"
+  },
+  "d5_subfield_year_totals": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/context/subfield_year_totals.json",
+   "sha256": "0b75c1919a59868f5535909cd518b9ff14199e360d9229a2743df3771f8dfe21"
+  },
+  "d2_concepts": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/deps/gen_art_dataset_2/concepts.parquet",
+   "sha256": "b8232c15ae3c0b0b43893645fcb1787b1d4d5d0d64c64075115ba6f454d6433d"
+  },
+  "d5_works_part_00": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/works/works_part_00.parquet",
+   "sha256": "7a46c39bcc6d4e5f4f73d50accf23e8a7f2f1d5c8227dad2339da42a2a096795"
+  },
+  "d5_works_part_01": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/works/works_part_01.parquet",
+   "sha256": "a605e94d935bcb9ff0e0a4b31edd703dc2e5808c6f1c7ad112f6da92d49a2054"
+  },
+  "d5_works_part_02": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/works/works_part_02.parquet",
+   "sha256": "e560719f7dff0676d1446b2a2835bc75d38c0ae6cad133fa8701f6e67ad2786c"
+  },
+  "d5_works_part_03": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/works/works_part_03.parquet",
+   "sha256": "8a62d2b73fd6e04031deca56f6e8f5610aba53a9990920c8629a2afc2582a71c"
+  },
+  "d5_works_part_04": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/works/works_part_04.parquet",
+   "sha256": "2ebd35dd1095ecf1c6d6ef957b703e47e6bf5c7eb2a9f8157209aa34925cf4ab"
+  },
+  "d5_works_part_05": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/works/works_part_05.parquet",
+   "sha256": "21868ec01f3389ea1a2ef5205019d1a3f1664c40bac25e892902c35138220a63"
+  },
+  "d5_works_part_06": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/works/works_part_06.parquet",
+   "sha256": "b4ae5b020f0220c36343b9ab11174c3d357d7b3c88bf8df3f4bcf99297b75ae6"
+  },
+  "d5_works_part_07": {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_dataset_5/hyd/works/works_part_07.parquet",
+   "sha256": "f05eae45d5cc572dd18ad11aa58fd6d91d1a1c827c48aa12894ee55ef6d92147"
+  }
+ },
+ "frame_sha256": {
+  "api_jobs.parquet": "486a09bc3c676e6a3fd197f74ce20c1c8e2dd7dd9c44321275084635771e3452",
+  "api_jobs_key.parquet": "8d685eaaacf9b46175a576b9d63f694e5f4ff92b5da3aca4773abdfdf56c5146",
+  "cases_all.parquet": "2623baf5ed385c7cfb0ee07a40fb671eafdcf3baf32516ee8037572f8654c1df",
+  "entries.parquet": "ca5fc5b56f9e594f0ec5f8468f92f7203202c37bf785c156aed78970e08ca918",
+  "risk_balance_pre.parquet": "03b987d03ac05ed39b8d8617d711e70a9e28ea3e62e66548b3c665e614535ff5",
+  "risk_balance_pre_expanded.parquet": "571b2e9dcbc010eca17086865ee4d783f3a4b69caf96aa47502f85c612379297",
+  "strata_long.parquet": "19012597d145896f6f9ba1d617edc845bfa221233bc5f1ce49bd327f041c18ae",
+  "strata_long_expanded.parquet": "8d02ce3e98f953c4e43fd4dfd4e57e371b5f19e5c7deff2747ab6f4d78c0794b",
+  "targets.parquet": "6fa6bb9113c40aa8c66cf30b6180d11308332c0b0342863a5eaefbafef971c62"
+ },
+ "vendor_sha256": [
+  "9298a1e1ebf69cdde34bc3af89f502a0a617822457b8ad34be4786859db0f6b8  config.py",
+  "7a4c3efa577f25803e202ae9cd73a154d086cc10c0696ede5cdd5434b509b67d  io_load.py",
+  "42430cda1a6039f67fc807be3da5a5a8fac2649629d182683282f6530e779ff4  features.py",
+  "6d4ad7d50843622ea100e19a8a530228d92c9dcba3fef8d92961301160d9e044  outcomes.py",
+  "369a93a658677c9f875a73b7fb8819727df557a540178d9b39daf6ce1f3aed4c  ppml.py",
+  "4110f18af2ad2512835730bcdeb0380071e7de5d319dcc0c58bd3c1554d7d661  models.py"
+ ],
+ "frame_summary": {
+  "primary": {
+   "adopters": {
+    "n_adopter_pairs_total": 21941,
+    "n_distinct_adopter_authors": 20242,
+    "n_entries": 1544,
+    "n_entries_with_adopter": 857,
+    "share_entries_with_adopter": 0.5550518134715026,
+    "adopters_per_entry_mean_given_ge1": 25.602100350058343,
+    "adopters_per_entry_median_given_ge1": 9.0,
+    "Y_strict_recomputed_match": true,
+    "share_adopter_pairs_career_new_corpus": 0.869422542272458,
+    "n_adopter_pairs_measurable_corpus": 2865,
+    "n_entries_with_measurable_adopter": 495
+   },
+   "caps": {
+    "after_entry_cap": 1541,
+    "after_concept_cap": 1013,
+    "available_by_tercile": {
+     "1": 114,
+     "2": 238,
+     "3": 661
+    },
+    "target_by_tercile": {
+     "1": 114,
+     "2": 238,
+     "3": 661
+    },
+    "redistribution": [
+     {
+      "tercile": 3,
+      "added": 161
+     }
+    ],
+    "n_cases": 1013,
+    "n_entries": 422,
+    "n_concepts": 109
+   },
+   "n_cases_without_control": 0,
+   "n_strata": 1013,
+   "relax_counts": {
+    "0": 909,
+    "1": 58,
+    "2": 18,
+    "3": 25,
+    "4": 3
+   },
+   "widened": 8,
+   "floor_applied": 0,
+   "career_new_cases_corpus": 0,
+   "targets": {
+    "mean_n_P": 12.816062176165802,
+    "mean_n_NEG": 9.347150259067357,
+    "mean_n_PLAC": 10.044041450777202,
+    "entries_without_placebo": 128,
+    "neg_relaxed_total": 746
+   },
+   "mediators": {
+    "M2_count_mean": 1327.4831606217617,
+    "M2_share_mean": 0.49448395666778827,
+    "M1_unprofiled_w_mean": 0.23323825251258465
+   },
+   "A_cont_tercile_cuts": [
+    0.012583417791447905,
+    0.045657834854419835
+   ],
+   "measurable_only": true
+  },
+  "expanded": {
+   "caps": {
+    "after_entry_cap": 1541,
+    "after_concept_cap": 1541,
+    "available_by_tercile": {
+     "1": 272,
+     "2": 428,
+     "3": 841
+    },
+    "target_by_tercile": {
+     "1": 272,
+     "2": 428,
+     "3": 841
+    },
+    "redistribution": [],
+    "n_cases": 1541,
+    "n_entries": 495,
+    "n_concepts": 109
+   },
+   "n_strata": 1541,
+   "relax_counts": {
+    "0": 1343,
+    "1": 118,
+    "2": 30,
+    "3": 46,
+    "4": 4
+   },
+   "widened": 10
+  },
+  "api_jobs": {
+   "n_jobs": 200,
+   "n_strata": 100,
+   "mean_targets": 40.72
+  }
+ }
+}
