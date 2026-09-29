@@ -1,0 +1,6255 @@
+{
+ "description": "Curated 100-key subset of the D2 (llm_labelled_candidate_phrases) raw inputs read by data.py:d2_labels(): labelling/items.json, labels_AB.json, labels_adj.json, split.json",
+ "items": {
+  "adequate bone volume": {
+   "track": "L",
+   "key": "adequate bone volume",
+   "surface_forms": [
+    "adequate bone volume"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2005364965",
+     "year": 2005,
+     "text": "These include adequate bone volume, proper soft tissue thickness as well as esthetic appearing restorations."
+    },
+    {
+     "work_id": "W2058698023",
+     "year": 2005,
+     "text": "Insufficient alveolar contours may require bone grafting procedures to restore an adequate bone volume before implant placement."
+    },
+    {
+     "work_id": "W2052665696",
+     "year": 2008,
+     "text": "The reconstruction of atrophies with adequate bone volume and density has become a viable treatment option with high predictability and success rates."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2008,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "agar well diffusion method": {
+   "track": "L",
+   "key": "agar well diffusion method",
+   "surface_forms": [
+    "agar well diffusion method",
+    "agar - well diffusion method"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W3204314383",
+     "year": 2005,
+     "text": "The antifungal activity was carried out using agar well diffusion method."
+    },
+    {
+     "work_id": "W2364499215",
+     "year": 2008,
+     "text": "Inhibitory activity was measured by agar well diffusion method."
+    },
+    {
+     "work_id": "W2040460377",
+     "year": 2011,
+     "text": "The screening test of antibacterial activity was performed using agar-well diffusion method."
+    }
+   ],
+   "n_sample_occ": 7,
+   "first_sample_year": 2005,
+   "n_fields": 7,
+   "stats": {
+    "n_occ": 7,
+    "n_occ_main": 7,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 7,
+    "macro_domain": "life",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 16.2535
+   }
+  },
+  "alpha fe 2 o": {
+   "track": "L_nonnovel",
+   "key": "alpha fe 2 o",
+   "surface_forms": [
+    "α - Fe 2 O",
+    "alpha‐Fe 2 O",
+    "α Fe 2 O"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2323713368",
+     "year": 2012,
+     "text": "A general strategy for successfully incorporating various impurities (e.g., Ge, Si, Mn, Sn, Ti) inside the regular crystal lattice of hematite (α-Fe 2 O 3 ), a promising candidate for water splitting and environmental protection, is developed."
+    },
+    {
+     "work_id": "W1995106393",
+     "year": 1997,
+     "text": "= 0.98 log γ sat w + −11.39 R 2 = 0.92 on α-Fe 2 O 3 for the PAHs, chlorobenzenes, and biphenyl."
+    },
+    {
+     "work_id": "W2113816021",
+     "year": 1998,
+     "text": "Batch experiments (380°C, 30 MPa) at Ba:Fe = 0.5 in supercritical water at a reaction time of 10 min produced a mixture of alpha‐Fe 2 O 3 and BaO6Fe 2 O 3 ."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2012,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 1,
+    "first_main_year": 2012,
+    "last_main_year": 2012,
+    "in_pre": true,
+    "n_fields": 3,
+    "macro_domain": "physical",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 6.9658
+   }
+  },
+  "analyst ®": {
+   "track": "P",
+   "key": "analyst ®",
+   "surface_forms": [
+    "Analyst ®"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W313217196",
+     "year": 2006,
+     "text": "The poster shows how to connect HPLC systems to MS software like Analyst ® (ABI), Xcalibur ™ (Thermo), and HyStar ™ (Bruker)."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2006,
+    "last_main_year": 2006,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "and commitment therapy": {
+   "track": "L",
+   "key": "and commitment therapy",
+   "surface_forms": [
+    "ACT",
+    "and Commitment Therapy",
+    "and commitment therapy"
+   ],
+   "acronym_short_forms": [
+    "ACT"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2111972505",
+     "year": 2011,
+     "text": "Acceptance and commitment therapy (ACT) is a newer psychotherapy that has generated much clinical and research interest in recent years."
+    },
+    {
+     "work_id": "W1791082980",
+     "year": 2012,
+     "text": "Acceptance and Commitment Therapy (ACT) targets psychological flexibility: acceptance to have difficult feelings and thoughts, while at the same time engaging in vital healthy activities."
+    },
+    {
+     "work_id": "W1966818127",
+     "year": 2015,
+     "text": "One of the primary differences between Cognitive Behavioral Therapy (CBT) and Acceptance and Commitment Therapy (ACT) for anxiety is the approach to managing negative thoughts."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2011,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2011,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": true,
+    "cvalue": 4.0
+   }
+  },
+  "anti hiv drug": {
+   "track": "L",
+   "key": "anti hiv drug",
+   "surface_forms": [
+    "anti - HIV drugs",
+    "anti - HIV drug",
+    "anti‐HIV drug"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2052285203",
+     "year": 2005,
+     "text": "Allosteric modulation of anti‐HIV drug and ferric heme binding to human serum albumin."
+    },
+    {
+     "work_id": "W2160935824",
+     "year": 2008,
+     "text": "This Vif-APOBEC3G axis now forms a very attractive target for development of an entirely new class of anti-HIV drugs."
+    },
+    {
+     "work_id": "W1502175951",
+     "year": 2012,
+     "text": "Inhibition of IN is an important target for the development of anti-HIV therapies, but there is currently only one anti-HIV drug used in the clinic that targets IN."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 4.0
+   }
+  },
+  "authors ' conclusion": {
+   "track": "L",
+   "key": "authors ' conclusion",
+   "surface_forms": [
+    "AUTHORS ' CONCLUSIONS",
+    "Authors ' conclusions"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2047592684",
+     "year": 2007,
+     "text": "Authors' conclusions School‐based secondary prevention programmes to reduce aggressive behaviour appear to produce improvements in behaviour greater than would have been expected by chance."
+    },
+    {
+     "work_id": "W2157507329",
+     "year": 2010,
+     "text": "AUTHORS' CONCLUSIONS: Vitamin K administered to women prior to very preterm birth has not been shown to significantly prevent periventricular haemorrhages in preterm infants or improve neurodevelopmental outcomes in childhood."
+    },
+    {
+     "work_id": "W2017433312",
+     "year": 2011,
+     "text": "Authors' conclusions There is little evidence to recommend that people with asthma supplement or modify their dietary intake of marine n‐3 fatty acids (fish oil) in order to improve their asthma control."
+    }
+   ],
+   "n_sample_occ": 7,
+   "first_sample_year": 2007,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 7,
+    "n_occ_main": 7,
+    "first_main_year": 2007,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 5,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 14.0
+   }
+  },
+  "average queue length": {
+   "track": "L",
+   "key": "average queue length",
+   "surface_forms": [
+    "average queue length"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2107165710",
+     "year": 2005,
+     "text": "The\r\nsteady state queue size distribution is established which is further\r\nemployed to determine average queue length."
+    },
+    {
+     "work_id": "W2385426670",
+     "year": 2013,
+     "text": "In this algorithm,the dropping policy and dropping rate are defined by sampling hit and queue hit,and the average queue length is depicted by cellular genetic."
+    },
+    {
+     "work_id": "W1884496646",
+     "year": 2014,
+     "text": "Moreover, RED uses only the average queue length as a congestion meter to trigger packet dropping as a congestion feedback."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "bed height": {
+   "track": "L",
+   "key": "bed height",
+   "surface_forms": [
+    "bed height"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1974388716",
+     "year": 2005,
+     "text": "…er can substantially reduce the coke rate and improve the sinter quality by producing more uniform thermal profile throughout the bed height.…"
+    },
+    {
+     "work_id": "W2182102195",
+     "year": 2010,
+     "text": "…s ability to degrade MCB initially However the biofilter recovered very quickly Evaluation of the concentration profile along the bed height indicated that the bottom section of TBAB has the best performance for all concentrations.…"
+    },
+    {
+     "work_id": "W2185912140",
+     "year": 2014,
+     "text": "The effects of important parameters, such as flow rate, initial concentration and bed height on the behavior of breakthrough curves were studied."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2005,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 6.3399
+   }
+  },
+  "bee specy": {
+   "track": "L",
+   "key": "bee specy",
+   "surface_forms": [
+    "bee species"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2174174985",
+     "year": 2006,
+     "text": "Bumblebees were the sole pollinators of the studied species and five bee species pollinated seven Pedicularis species with one species pollinating all the Pedicularis species."
+    },
+    {
+     "work_id": "W2094926093",
+     "year": 2008,
+     "text": "Both bee species respond to some scent compounds emitted by L. punctata, and two compounds, which were also found in scent samples collected from a Macropis nest entrance, elicited clear signals in the antennae of both species."
+    },
+    {
+     "work_id": "W2122180940",
+     "year": 2011,
+     "text": "3. Despite their very large pollen diet breadth, the two bee species showed striking differences in their ability to develop on pollen of the same plant species."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2006,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "bioethanol": {
+   "track": "L",
+   "key": "bioethanol",
+   "surface_forms": [
+    "bioethanol",
+    "Bioethanol"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W200597738",
+     "year": 2007,
+     "text": "Two biofuels, bioethanol and biodiesel, are currently used in the transport sector."
+    },
+    {
+     "work_id": "W1996634030",
+     "year": 2010,
+     "text": "While biofuels such as bioethanol and bio-diesel can offer a clean alternative to petroleum-based transport fuels, anxieties on risks to biodiversity or depleted food supplies have tarnished their green image."
+    },
+    {
+     "work_id": "W2020418091",
+     "year": 2011,
+     "text": "We estimated 14.8g of bioethanol and 439 kJ of bioethanol energy could be produced by the prototype microwave pretreatment."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2007,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2007,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "biological pathway": {
+   "track": "L",
+   "key": "biological pathway",
+   "surface_forms": [
+    "biological pathways",
+    "Biological pathway"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1542920800",
+     "year": 2006,
+     "text": "Quinones are involved in many biological pathways."
+    },
+    {
+     "work_id": "W2091947258",
+     "year": 2007,
+     "text": "We found two main biological pathways (cell communication and integrin-mediated cell adhesion) and 5 gene ontology categories (transcription regulator activity, structural molecule activity, intracellular signaling, cytoskeleton and signal transduction) of rel…"
+    },
+    {
+     "work_id": "W2105476170",
+     "year": 2010,
+     "text": "Thus, successful infection depends on the pathogen's ability to manipulate the biological pathways and processes of the organism it infects."
+    }
+   ],
+   "n_sample_occ": 7,
+   "first_sample_year": 2006,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 7,
+    "n_occ_main": 7,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 9.5098
+   }
+  },
+  "blog": {
+   "track": "L",
+   "key": "blog",
+   "surface_forms": [
+    "blogs",
+    "blog",
+    "Blog"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2466879361",
+     "year": 2006,
+     "text": "Respondents were U.S. residents who have their own blogs."
+    },
+    {
+     "work_id": "W2555134300",
+     "year": 2006,
+     "text": "Wiki and blog which enable end users to do their works only with a Web browser, since those tools do not require end users to learn some special skills about HTML."
+    },
+    {
+     "work_id": "W627006625",
+     "year": 2007,
+     "text": "A thorough and integrated introduction to automated testing The book's companion website provides the application source code, a blog with follow-up articles, narrated screencasts, and a working version of the RailSpace social network."
+    }
+   ],
+   "n_sample_occ": 17,
+   "first_sample_year": 2006,
+   "n_fields": 10,
+   "stats": {
+    "n_occ": 17,
+    "n_occ_main": 17,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 10,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 16.0
+   }
+  },
+  "cerebral infarction patient": {
+   "track": "L",
+   "key": "cerebral infarction patient",
+   "surface_forms": [
+    "cerebral infarction patients"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2387366793",
+     "year": 2010,
+     "text": "Objective To investigate the step Buchangnaoxintong capsules in patients with cerebral infarction patients of the treatment period."
+    },
+    {
+     "work_id": "W2355031462",
+     "year": 2012,
+     "text": "Clinical observation on Karzai Shisan Pill to treat 60 cases of cerebral infarction patients."
+    },
+    {
+     "work_id": "W3031006794",
+     "year": 2016,
+     "text": "Correlation analysis of positivity ratio and hardiness in cerebral infarction patients with dysphagia and indwelling gastric tube."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2010,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2010,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 4.0
+   }
+  },
+  "charcot marie tooth disease": {
+   "track": "L",
+   "key": "charcot marie tooth disease",
+   "surface_forms": [
+    "Charcot - Marie - Tooth disease",
+    "CMT",
+    "Charcot-Marie-Tooth disease"
+   ],
+   "acronym_short_forms": [
+    "CMT"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2322195881",
+     "year": 2006,
+     "text": "Objectives: Charcot-Marie-Tooth disease is the second most common form of inherited neuropathy but is rarely recognised in childhood."
+    },
+    {
+     "work_id": "W246669060",
+     "year": 2006,
+     "text": "L. PaduaI. AprileT. CavallaroI. CommodariG. La TorreD. PareysonA. Quattrone N. RizzutoG. VitaP. TonaliA. Schenone for the Italian CMT QoL Study Group Variables influencing quality of life and disability in Charcot Marie Tooth (CMT) patients: Italian multicentr…"
+    },
+    {
+     "work_id": "W1538799821",
+     "year": 2013,
+     "text": "Charcot-Marie-Tooth (CMT) disease constitutes a clinically and genetically heterogeneous group of hereditary neuropathies characterized by progressive muscular and sensory loss in the distal extremities with chronic distal weakness, deformation of the feet, an…"
+    }
+   ],
+   "n_sample_occ": 5,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 5,
+    "n_occ_main": 5,
+    "first_main_year": 2006,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 4,
+    "is_acronym_long_form": true,
+    "cvalue": 9.2877
+   }
+  },
+  "choreography": {
+   "track": "L",
+   "key": "choreography",
+   "surface_forms": [
+    "Choreography",
+    "choreography"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2058617712",
+     "year": 2009,
+     "text": "Choreography of the Transcriptome, Photophysiology, and Cell Cycle of a Minimal Photoautotroph, Prochlorococcus."
+    },
+    {
+     "work_id": "W2004453412",
+     "year": 2012,
+     "text": "Choreography by Peter Dylan O’Connor."
+    },
+    {
+     "work_id": "W2328724632",
+     "year": 2014,
+     "text": "…relationship in reference to the aesthetic of practice-clothes ballet also discloses plenty about the artistic potentials in such choreography and performance, revealing how the use of leotard as a stage costume has both furthered and challenged some of ballet…"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2009,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2009,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "civic engagement": {
+   "track": "L",
+   "key": "civic engagement",
+   "surface_forms": [
+    "civic engagement",
+    "Civic Engagement"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2044599849",
+     "year": 2006,
+     "text": "Moreover, they are largely apathetic to politics and civic engagement, and naively assume that if they take care of their own business, the rest of the world will take care of itself and continue to provide the environment they need to prosper (316)."
+    },
+    {
+     "work_id": "W1731395270",
+     "year": 2007,
+     "text": "…age in the early 1960s, political scandal similar to the Grant Devine administration of Saskatchewan in the early 1990s, or about civic engagement generally.…"
+    },
+    {
+     "work_id": "W2100277498",
+     "year": 2007,
+     "text": "They offer new evidence (drawn from recent national opinion surveys and Current Population Surveys) that technology use matters for wages and income, and for civic engagement and voting."
+    }
+   ],
+   "n_sample_occ": 8,
+   "first_sample_year": 2006,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 8,
+    "n_occ_main": 8,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 5,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 12.6797
+   }
+  },
+  "clinical and radiographic examination": {
+   "track": "L_nonnovel",
+   "key": "clinical and radiographic examination",
+   "surface_forms": [
+    "Clinical and radiographic examinations",
+    "clinical and radiographic examination",
+    "clinical and radiographic examinations"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2359266820",
+     "year": 2010,
+     "text": "Clinical and radiographic examinations were performed,the crestal level and interface implantbone were observed 3,6,12 months after dental implant prosthetics."
+    },
+    {
+     "work_id": "W2597618231",
+     "year": 2011,
+     "text": "On clinical and radiographic examination, a provisional diagnosis of lateral periodontal cyst was given."
+    },
+    {
+     "work_id": "W2170546311",
+     "year": 2011,
+     "text": "Clinical and radiographic examinations revealed common findings of a periodontal abscess on the left maxillary first and second molars."
+    }
+   ],
+   "n_sample_occ": 5,
+   "first_sample_year": 2010,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 5,
+    "n_occ_main": 3,
+    "first_main_year": 2010,
+    "last_main_year": 2011,
+    "in_pre": true,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 9.2877
+   }
+  },
+  "columnar mesophase": {
+   "track": "L_nonnovel",
+   "key": "columnar mesophase",
+   "surface_forms": [
+    "columnar mesophase",
+    "columnar mesophases",
+    "Colh"
+   ],
+   "acronym_short_forms": [
+    "Colh"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2135243452",
+     "year": 2007,
+     "text": "… SA‐XRD) investigation of the melting process shows minor structural changes occurring between the crystal (Cr) and the hexagonal columnar mesophase (Colh) in the complexes, which allows the assignment of the existence of these unusual first‐order phase transi…"
+    },
+    {
+     "work_id": "W1975252648",
+     "year": 1995,
+     "text": "For all derivatives, two relaxation processes were detected in their columnar mesophases."
+    },
+    {
+     "work_id": "W2026411853",
+     "year": 2001,
+     "text": "The presence of lone pair electrons on the nitrogen atoms and/or nonplanarity in this type of heterocyclic structure might be responsible for the formation of the columnar mesophases and the resulting lower melting and clearing temperatures."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2007,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 1,
+    "first_main_year": 2007,
+    "last_main_year": 2007,
+    "in_pre": true,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": true,
+    "cvalue": 4.7549
+   }
+  },
+  "complete supervision system": {
+   "track": "P",
+   "key": "complete supervision system",
+   "surface_forms": [
+    "complete supervision system"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2372497306",
+     "year": 2010,
+     "text": "We should set up the complete supervision system and administrative procedures system,further the government reform,build up the supervision organization directly led by the State Department,strengthen the authority and independence of these organizations and …"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2010,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2010,
+    "last_main_year": 2010,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "constant rate infusion": {
+   "track": "L",
+   "key": "constant rate infusion",
+   "surface_forms": [
+    "constant rate infusion",
+    "CRI",
+    "CRIs"
+   ],
+   "acronym_short_forms": [
+    "CRIs",
+    "CRI"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2018850688",
+     "year": 2005,
+     "text": "Effect of a constant rate infusion of lidocaine on the quality of recovery from sevoflurane or isoflurane general anaesthesia in horses."
+    },
+    {
+     "work_id": "W2128101747",
+     "year": 2006,
+     "text": "OBJECTIVE: To evaluate the isoflurane-sparing effects of lidocaine and fentanyl administered by constant rate infusion (CRI) during surgery in dogs."
+    },
+    {
+     "work_id": "W2059435864",
+     "year": 2012,
+     "text": "A constant-rate infusion of medetomidine and ketamine allowed for a reduction in the dose of isoflurane required during maintenance of anaesthesia and improved intra-operative blood pressure management."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": true,
+    "cvalue": 4.0
+   }
+  },
+  "copyright © 2006 john wiley": {
+   "track": "L",
+   "key": "copyright © 2006 john wiley",
+   "surface_forms": [
+    "Copyright © 2006 John Wiley"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2067242729",
+     "year": 2005,
+     "text": "Copyright © 2006 John Wiley & Sons, Ltd."
+    },
+    {
+     "work_id": "W2088879002",
+     "year": 2006,
+     "text": "Copyright © 2006 John Wiley & Sons, Ltd."
+    },
+    {
+     "work_id": "W1971090591",
+     "year": 2006,
+     "text": "Copyright © 2006 John Wiley & Sons, Ltd."
+    }
+   ],
+   "n_sample_occ": 19,
+   "first_sample_year": 2005,
+   "n_fields": 11,
+   "stats": {
+    "n_occ": 19,
+    "n_occ_main": 19,
+    "first_main_year": 2005,
+    "last_main_year": 2007,
+    "in_pre": false,
+    "n_fields": 11,
+    "macro_domain": "physical",
+    "n_tokens": 5,
+    "is_acronym_long_form": false,
+    "cvalue": 49.1143
+   }
+  },
+  "critical discourse analysis": {
+   "track": "L_nonnovel",
+   "key": "critical discourse analysis",
+   "surface_forms": [
+    "critical discourse analysis",
+    "Critical Discourse Analysis",
+    "CDA"
+   ],
+   "acronym_short_forms": [
+    "CDA"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2011694422",
+     "year": 2004,
+     "text": "Images of Nature by Tourism and Environmentalist Discourses in Visitors Books: A Critical Discourse Analysis of Ecotourism."
+    },
+    {
+     "work_id": "W2789766384",
+     "year": 2006,
+     "text": "Researchers in Critical Discourse Analysis are aware that ‘common sense’ is problematic as unthematized ideologies are at work in texts."
+    },
+    {
+     "work_id": "W2159386352",
+     "year": 2011,
+     "text": "Force-interactive patterns in immigration discourse: A Cognitive Linguistic approach to CDA."
+    }
+   ],
+   "n_sample_occ": 10,
+   "first_sample_year": 2004,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 10,
+    "n_occ_main": 7,
+    "first_main_year": 2004,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 5,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": true,
+    "cvalue": 20.0
+   }
+  },
+  "ctac haplotype": {
+   "track": "P",
+   "key": "ctac haplotype",
+   "surface_forms": [
+    "CTAC haplotype"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2036689068",
+     "year": 2008,
+     "text": "p14(ARF) promoter methylation also was associated significantly with the CCAT haplotype (odds ratio [OR], 8.31; 95% CI, 2.43-28.41; P= .0007) and the CTAC haplotype (OR, 9.71; 95% CI, 1.09-86.24; P= .04)."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2008,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2008,
+    "last_main_year": 2008,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "de ce numéro": {
+   "track": "L",
+   "key": "de ce numéro",
+   "surface_forms": [
+    "de ce numéro"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2058909862",
+     "year": 2006,
+     "text": "Découvrir le sommaire de ce numéro, suivre la revue par email, s'abonner..."
+    },
+    {
+     "work_id": "W1625169986",
+     "year": 2010,
+     "text": "Découvrir le sommaire de ce numéro, suivre la revue par email, s'abonner..."
+    },
+    {
+     "work_id": "W4240243891",
+     "year": 2015,
+     "text": "https://shs.cairn.info/revue-psychotropes-2014-4-page-5?lang=fr Découvrir le sommaire de ce numéro, suivre la revue par email, s'abonner..."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2006,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": -2.0
+   }
+  },
+  "deception research": {
+   "track": "P",
+   "key": "deception research",
+   "surface_forms": [
+    "Deception research"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2431788333",
+     "year": 2016,
+     "text": "Deception research has therefore shifted to examining interview styles aimed at eliciting and enhancing deception cues."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2016,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2016,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "densitometric detection": {
+   "track": "P",
+   "key": "densitometric detection",
+   "surface_forms": [
+    "densitometric detection",
+    "Densitometric detection"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2148371366",
+     "year": 2010,
+     "text": "A new, simple and rapid thin-layer chromatographic method with densitometric detection has been developed and validated for analysis of oxaprozin and its degradation products."
+    },
+    {
+     "work_id": "W2034382512",
+     "year": 2014,
+     "text": "Densitometric detection was performed in visible light at 585 nm for seven FOS."
+    }
+   ],
+   "n_sample_occ": 2,
+   "first_sample_year": 2010,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 2,
+    "n_occ_main": 2,
+    "first_main_year": 2010,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   },
+   "audit_arm": false
+  },
+  "diffuse reflectance spectroscopy": {
+   "track": "L",
+   "key": "diffuse reflectance spectroscopy",
+   "surface_forms": [
+    "diffuse reflectance spectroscopy",
+    "DRS",
+    "Diffuse reflectance spectroscopy"
+   ],
+   "acronym_short_forms": [
+    "DRS"
+   ],
+   "snippets": [
+    {
+     "work_id": "W1967604582",
+     "year": 2006,
+     "text": "A quantitative method based on UV-vis diffuse reflectance spectroscopy (DRS) was developed that allows determination of the fraction of monomeric and polymeric VO(x) species that are present in vanadate materials."
+    },
+    {
+     "work_id": "W2333810263",
+     "year": 2010,
+     "text": "X-ray photoelectron spectroscopy (XPS), diffuse reflectance spectroscopy (DRS), X-ray powder diffraction (XRD), zeta potentials, nitrogen adsorption-desorption and elemental analysis experiments were employed to characterize the nitrogen-doped nanocrystalline …"
+    },
+    {
+     "work_id": "W2084678795",
+     "year": 2012,
+     "text": "The prepared samples are characterized by X-ray diffraction (XRD), diffuse reflectance spectroscopy (DRS), X-ray photoelectron spectroscopy (XPS), and scanning electron microscope (SEM)."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2006,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "physical",
+    "n_tokens": 3,
+    "is_acronym_long_form": true,
+    "cvalue": 9.0
+   }
+  },
+  "divisional based communication pattern": {
+   "track": "P",
+   "key": "divisional based communication pattern",
+   "surface_forms": [
+    "divisional - based communication patterns"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1592873570",
+     "year": 2013,
+     "text": "The interactions across the hierarchy are modeled to reveal insights into divisional-based communication patterns."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2013,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2013,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 2.3219
+   },
+   "audit_arm": false
+  },
+  "drug synthesis": {
+   "track": "L",
+   "key": "drug synthesis",
+   "surface_forms": [
+    "drug synthesis",
+    "Drug synthesis"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2151845242",
+     "year": 2010,
+     "text": "They represent potential materials in drug synthesis and precursors of natural products."
+    },
+    {
+     "work_id": "W2526154281",
+     "year": 2010,
+     "text": "The fundamentals of the molecular imprinting process (Fig. 1.), and the possibilities of the application of molecularly imprinted polymers in drug synthesis and delivery systems have been presented."
+    },
+    {
+     "work_id": "W1970682455",
+     "year": 2011,
+     "text": "The Drug Development and Therapeutics (DDT) is an open access peer-reviewed journal committed to publishing high-quality articles in the field of Drug synthesis and development and Therapeutics from industry, Clinicians and Academia."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2010,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2010,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "ecc": {
+   "track": "L",
+   "key": "ecc",
+   "surface_forms": [
+    "ECC"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2154176732",
+     "year": 2005,
+     "text": "Early Childhood Caries or ECC (historically also referred to as nursing bottle caries, baby bottle decay and many other terms) is a particular form of dental caries affecting pre-schoolaged children."
+    },
+    {
+     "work_id": "W3029302826",
+     "year": 2011,
+     "text": "Security of public key schemes in a post-quantum world is a challenging task as both RSA and ECC will be broken then."
+    },
+    {
+     "work_id": "W1986603155",
+     "year": 2013,
+     "text": "An Efficient Authenticated Encryption Scheme Based on ECC and its Application for Electronic Payment."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2005,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2005,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "energy crisis": {
+   "track": "L_nonnovel",
+   "key": "energy crisis",
+   "surface_forms": [
+    "energy crisis"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W187399094",
+     "year": 2004,
+     "text": "“We’ve got an energy crisis in America,” he declared on March 14, 2001;1"
+    },
+    {
+     "work_id": "W300864410",
+     "year": 2007,
+     "text": "…ources in limited,short-supplied of oil resources,high-cost hydropower,wind power、solar energy development in small cases and the energy crisis approaches gradually,according to china's abundant biomass energy resources,development and utilization of vast pros…"
+    },
+    {
+     "work_id": "W2361800003",
+     "year": 2010,
+     "text": "Renewable energy utilization and development is a crucial way to deal with the energy crisis, and reduce environment pollution and develop recycling economy."
+    }
+   ],
+   "n_sample_occ": 8,
+   "first_sample_year": 2004,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 8,
+    "n_occ_main": 6,
+    "first_main_year": 2004,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 11.0947
+   }
+  },
+  "external measurement": {
+   "track": "P",
+   "key": "external measurement",
+   "surface_forms": [
+    "external measurements",
+    "external measurement"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2141142154",
+     "year": 2006,
+     "text": "…the genetic characterization of 52 Ectemnorhinus weevils from both islands, and morphometric assessment using a set of 15 linear, external measurements was used to differentiate between the two currently recognized species, Ectemnorhinus similis and Ectemnorhi…"
+    },
+    {
+     "work_id": "W2089624671",
+     "year": 2014,
+     "text": "The past decade has seen an intensification of the external measurement of both the quality and the quantity of research, in Australia, and other parts of the Western world."
+    }
+   ],
+   "n_sample_occ": 2,
+   "first_sample_year": 2006,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 2,
+    "n_occ_main": 2,
+    "first_main_year": 2006,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 3.1699
+   },
+   "audit_arm": false
+  },
+  "ezh2": {
+   "track": "L",
+   "key": "ezh2",
+   "surface_forms": [
+    "EZH2",
+    "Ezh2"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2586350421",
+     "year": 2009,
+     "text": "Poster Board III-353 EZH2 is the catalytic subunit of the PRC2 Polycomb complex and mediates transcriptional repression through its histone methyltransferase activity."
+    },
+    {
+     "work_id": "W2156817053",
+     "year": 2012,
+     "text": "Previous studies identified miR-29 as a pro-myogenic factor that interacts with components of Polycomb repressive complex, YY1 and Ezh2."
+    },
+    {
+     "work_id": "W2006786878",
+     "year": 2013,
+     "text": "We applied next-generation sequencing to investigate ASXL1, CBL, IDH1/2, JAK2, KRAS, MLL-PTD, NPM1, NRAS, TP53, SRSF2, SF3B1, SETBP1, U2AF1 at mutational hotspot regions, and analyzed complete coding regions of EZH2, ETV6, RUNX1, and TET2."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2009,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2009,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.9167
+   }
+  },
+  "failure of passive transfer": {
+   "track": "L",
+   "key": "failure of passive transfer",
+   "surface_forms": [
+    "FPT",
+    "Failure of passive transfer",
+    "failure of passive transfer"
+   ],
+   "acronym_short_forms": [
+    "FPT"
+   ],
+   "snippets": [
+    {
+     "work_id": "W3990452",
+     "year": 2008,
+     "text": "The corrective effect of bovine immune sera to FPT calf without any clinical signs showed that intravenous route was more effective than intraperitoneal administration(P"
+    },
+    {
+     "work_id": "W1596217864",
+     "year": 2011,
+     "text": "Failure of passive transfer (FPT) occurs when the acceptable levels of IgG or total protein are not achieved by 24–48 hrs after birth."
+    },
+    {
+     "work_id": "W2171759074",
+     "year": 2011,
+     "text": "Failure of passive transfer (FPT) in captive greater kudu (Tragelaphus strepsiceros) calves can lead to increased morbidity and mortality."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 4,
+    "is_acronym_long_form": true,
+    "cvalue": 4.6439
+   }
+  },
+  "firm efficiency": {
+   "track": "L",
+   "key": "firm efficiency",
+   "surface_forms": [
+    "Firm Efficiency",
+    "firm 's efficiency",
+    "firm efficiency"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2117048557",
+     "year": 2008,
+     "text": "Firm Efficiency in a Transitional Economy: Evidence from Vietnam."
+    },
+    {
+     "work_id": "W2171557002",
+     "year": 2009,
+     "text": "This paper examines a number of electronic data interchange (EDI) usage and implementation factors and their role in improving a firm's efficiency, productivity and competitiveness."
+    },
+    {
+     "work_id": "W2055022722",
+     "year": 2011,
+     "text": "Foreign ownership, sales to multinationals and firm efficiency: the case of Brazil, Morocco, Pakistan, South Africa and Vietnam."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "frontiers event": {
+   "track": "L",
+   "key": "frontiers event",
+   "surface_forms": [
+    "Frontiers Events"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W78591091",
+     "year": 2008,
+     "text": "Frontiers Events is a rapidly growing calendar management system dedicated to the scheduling of academic events."
+    },
+    {
+     "work_id": "W2165801067",
+     "year": 2008,
+     "text": "Frontiers Events is a rapidly growing calendar management system dedicated to the scheduling of academic events."
+    },
+    {
+     "work_id": "W2320848030",
+     "year": 2009,
+     "text": "Frontiers Events is a rapidly growing calendar management system dedicated to the scheduling of academic events."
+    }
+   ],
+   "n_sample_occ": 31,
+   "first_sample_year": 2008,
+   "n_fields": 10,
+   "stats": {
+    "n_occ": 31,
+    "n_occ_main": 31,
+    "first_main_year": 2008,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 10,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 49.1338
+   }
+  },
+  "fuel spray geometrical parameters injection uniformity": {
+   "track": "P",
+   "key": "fuel spray geometrical parameters injection uniformity",
+   "surface_forms": [
+    "fuel spray geometrical parameters injection uniformity"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W971614574",
+     "year": 2010,
+     "text": "The paper presents the methodology and tests results of the influence of the fuel injection pressure and combustion chamber back pressure on the changes of the fuel spray geometrical parameters injection uniformity and its quality during the injection."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2010,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2010,
+    "last_main_year": 2010,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 6,
+    "is_acronym_long_form": false,
+    "cvalue": 2.8074
+   },
+   "audit_arm": false
+  },
+  "fuzzy logic controller": {
+   "track": "L_nonnovel",
+   "key": "fuzzy logic controller",
+   "surface_forms": [
+    "fuzzy logic controller",
+    "Fuzzy logic controller",
+    "Fuzzy - Logic - Controllers"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2040239274",
+     "year": 2011,
+     "text": "The performance of the proposed self-tuning fuzzy PI controller is compared with the corresponding fuzzy logic controller and PI controller."
+    },
+    {
+     "work_id": "W2020546910",
+     "year": 2014,
+     "text": "Power Quality Improvement in Wind Energy Generation Using Fuzzy Logic Controller."
+    },
+    {
+     "work_id": "W1758585256",
+     "year": 2015,
+     "text": "The effectiveness of the model, with enhanced efficiency through voltage stabilization, is performed using Proportional-Integral-Derivative and Fuzzy-Logic-Controllers."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2011,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 3,
+    "first_main_year": 2011,
+    "last_main_year": 2015,
+    "in_pre": true,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 10.0
+   }
+  },
+  "gamma ray burst": {
+   "track": "L_nonnovel",
+   "key": "gamma ray burst",
+   "surface_forms": [
+    "gamma - ray bursts",
+    "GRBs",
+    "Gamma - Ray Bursts"
+   ],
+   "acronym_short_forms": [
+    "GRBs",
+    "GRB"
+   ],
+   "snippets": [
+    {
+     "work_id": "W3105808464",
+     "year": 2004,
+     "text": "Binary Merger Progenitors for Gamma-Ray Bursts and Hypernovae."
+    },
+    {
+     "work_id": "W3103634175",
+     "year": 2006,
+     "text": "General Relativistic, Neutrino‐assisted Magnetohydrodynamic Winds—Theory and Application to Gamma‐Ray Bursts."
+    },
+    {
+     "work_id": "W2036328388",
+     "year": 2006,
+     "text": "Constraining Lorentz violations with gamma ray bursts."
+    }
+   ],
+   "n_sample_occ": 11,
+   "first_sample_year": 2004,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 11,
+    "n_occ_main": 7,
+    "first_main_year": 2004,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 3,
+    "is_acronym_long_form": true,
+    "cvalue": 20.0
+   }
+  },
+  "golden rule": {
+   "track": "L",
+   "key": "golden rule",
+   "surface_forms": [
+    "Golden Rule",
+    "GR",
+    "golden rule"
+   ],
+   "acronym_short_forms": [
+    "GR"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2009266923",
+     "year": 2008,
+     "text": "Wetware, Game Theory, and the Golden Rule."
+    },
+    {
+     "work_id": "W2324517622",
+     "year": 2011,
+     "text": "Since the golden rule is that PEGylation has to be tailored to each specific drug and application, the review format is structured by specific conjugated species alphabetically sorted within the following groups: PEG-protein conjugates, PEG-antibody and antibo…"
+    },
+    {
+     "work_id": "W2343307272",
+     "year": 2014,
+     "text": "So there is no golden rule for that, but traditionally your personnel costs should be around 20 to 30 percent."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2008,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2008,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": true,
+    "cvalue": 6.3399
+   }
+  },
+  "gpus": {
+   "track": "L",
+   "key": "gpus",
+   "surface_forms": [
+    "GPUs"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2182130093",
+     "year": 2013,
+     "text": "…nt vendors[11] which efficiently maps to both heterogeneous and homogeneous, single or multiple device system consisting of CPUs, GPUs and others types of devices.…"
+    },
+    {
+     "work_id": "W2080574925",
+     "year": 2014,
+     "text": "Solving the Examination Timetabling Problem in GPUs."
+    },
+    {
+     "work_id": "W2566776102",
+     "year": 2016,
+     "text": "Our massive data-sets required parallelizing some Chebfun functions on GPUs, allowing about 100 times faster polynomial evaluation and up to 12 times faster on CPUs when parallelizing the whole algorithm."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2013,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2013,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "growth perspective": {
+   "track": "P",
+   "key": "growth perspective",
+   "surface_forms": [
+    "growth perspective"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2073692025",
+     "year": 2013,
+     "text": "… business decisions of a retailer based on location, merchandise, and profitability; and explore future strategy options from the growth perspective as well as a socially responsible player.…"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2013,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2013,
+    "last_main_year": 2013,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "h.264": {
+   "track": "L",
+   "key": "h.264",
+   "surface_forms": [
+    "H.264"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2350987027",
+     "year": 2006,
+     "text": "Fast motion estimation algorithm based on H.264."
+    },
+    {
+     "work_id": "W2362861964",
+     "year": 2007,
+     "text": "…based Adaptive Binary Arithmetic Coding) among various entropy coding schemes which are used to improve compression efficiency in H.264/AVC has a high hardware complexity and the fast calculation is difficult because data dependancy exists in the bit-serial pr…"
+    },
+    {
+     "work_id": "W2148790162",
+     "year": 2009,
+     "text": "A novel rate control initialization algorithm for H.264."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2006,
+    "last_main_year": 2009,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 1.6667
+   }
+  },
+  "hartmann new way": {
+   "track": "P",
+   "key": "hartmann new way",
+   "surface_forms": [
+    "Hartmann 's New Ways"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W637733848",
+     "year": 2014,
+     "text": "Personality III.1 The Realm of Real Being and the Realm of Values III.2 Personality as a Value III.3 Pseudo, Spurious and Genuine Personality III.4 Fulfillment of Personality Conclusion: Hartmann's New Ways of Philosophy Bibliography of Hartmann's Works Index"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2014,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2014,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "host tissue": {
+   "track": "L_nonnovel",
+   "key": "host tissue",
+   "surface_forms": [
+    "host tissues",
+    "host tissue"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2143649646",
+     "year": 2012,
+     "text": "Colonization of host tissues is a first step taken by many pathogens during the initial stages of infection."
+    },
+    {
+     "work_id": "W2329380442",
+     "year": 2015,
+     "text": "In the laboratory experiment, the P. olseni cells remained in the host tissue 2 days after death was approximately 50% lower than the level of infection measured in living clams."
+    },
+    {
+     "work_id": "W2137486650",
+     "year": 1998,
+     "text": "Invasion-dependent destruction of the gingival IL-8 chemokine gradient at sites of P. gingivalis colonization (local chemokine paralysis) will severely impair mucosal defense and represents a novel mechanism for bacterial colonization of host tissue."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2012,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 2,
+    "first_main_year": 2012,
+    "last_main_year": 2015,
+    "in_pre": true,
+    "n_fields": 4,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "igneous protolith": {
+   "track": "P",
+   "key": "igneous protolith",
+   "surface_forms": [
+    "igneous protolith"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1994170053",
+     "year": 2006,
+     "text": "The Mauranipur pillow lava underwent greenschist to amphibolite facies metamorphism while retaining a geochemical signature of its igneous protolith."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2006,
+    "last_main_year": 2006,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "industrial cluster": {
+   "track": "L",
+   "key": "industrial cluster",
+   "surface_forms": [
+    "industrial cluster",
+    "industrial clusters",
+    "Industrial Clusters"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2378278394",
+     "year": 2007,
+     "text": "Identifying Industrial Clusters: A Quantitative Case Study of Manufacturing Industry in Zhejiang Province."
+    },
+    {
+     "work_id": "W2356438460",
+     "year": 2008,
+     "text": "It is difficult of find out a certain pattern of developing industrial cluster which would be reproduced in any another areas,because there are many differences in the process of industrial cluster's formation and development."
+    },
+    {
+     "work_id": "W2366864526",
+     "year": 2010,
+     "text": "Since exchange rate reforming,industrial clusters have boosted the pricing capability improvement on most exporting commodities."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2007,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2007,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 7.9248
+   }
+  },
+  "interest rate risk": {
+   "track": "L_nonnovel",
+   "key": "interest rate risk",
+   "surface_forms": [
+    "interest rate risks",
+    "interest rate risk",
+    "Interest rate risk"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2362799392",
+     "year": 2005,
+     "text": "…n the fluctuations of the financial market,China's airlines is invariably confronting with a lot of uncertainties in terms of the interest rate risks,which becomes more and more prominent as the transaction volume grows bigger and bigger by the day.…"
+    },
+    {
+     "work_id": "W1481932851",
+     "year": 2013,
+     "text": "Finally, it considers two specific interest rate risks in more detail."
+    },
+    {
+     "work_id": "W2618730843",
+     "year": 1999,
+     "text": "Mortgage-backed securities (MBS) are similar to traditional fixed-income securities in that they are exposed to interest rate risk."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 2,
+    "first_main_year": 2005,
+    "last_main_year": 2013,
+    "in_pre": true,
+    "n_fields": 2,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 4.0
+   }
+  },
+  "interleukin": {
+   "track": "L_nonnovel",
+   "key": "interleukin",
+   "surface_forms": [
+    "interleukin",
+    "Interleukin",
+    "interleukins"
+   ],
+   "acronym_short_forms": [
+    "IL"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2060441025",
+     "year": 2003,
+     "text": "Interleukin (IL)-8, a chemotactic cytokine, plays an important role in pathogenesis of atherosclerosis."
+    },
+    {
+     "work_id": "W2010397548",
+     "year": 2003,
+     "text": "Early during infection and before initiation of treatment, we observed high levels of interleukin (IL) 10, IL-6, and IL-8, and large numbers of B cells and plasma cells in the CSF of most patients."
+    },
+    {
+     "work_id": "W1919417951",
+     "year": 2003,
+     "text": "Recently we showed that neutralization of PIBF results in an increased interleukin (IL)-12 expression, which is corrected by cyclooxygenase inhibitors."
+    }
+   ],
+   "n_sample_occ": 168,
+   "first_sample_year": 2003,
+   "n_fields": 12,
+   "stats": {
+    "n_occ": 168,
+    "n_occ_main": 89,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 12,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": true,
+    "cvalue": 165.7513
+   }
+  },
+  "international audience": {
+   "track": "L_nonnovel",
+   "key": "international audience",
+   "surface_forms": [
+    "International audience"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W4297808430",
+     "year": 2003,
+     "text": "International audience"
+    },
+    {
+     "work_id": "W2141743737",
+     "year": 2003,
+     "text": "International audience"
+    },
+    {
+     "work_id": "W2621413595",
+     "year": 2003,
+     "text": "International audience"
+    }
+   ],
+   "n_sample_occ": 172,
+   "first_sample_year": 2003,
+   "n_fields": 26,
+   "stats": {
+    "n_occ": 172,
+    "n_occ_main": 92,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 26,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 271.0286
+   }
+  },
+  "intra articular injection": {
+   "track": "L_nonnovel",
+   "key": "intra articular injection",
+   "surface_forms": [
+    "intra - articular injection",
+    "intra - articular injections",
+    "Intra - articular injection"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2016617658",
+     "year": 2008,
+     "text": "In vivo effects of intra-articular injection of gelatin hydrogen microspheres containing basic fibroblast growth factor on experimentally induced defects in third metacarpal bones of horses."
+    },
+    {
+     "work_id": "W2182378004",
+     "year": 2009,
+     "text": "Intra-articular injection of hyaluronic acid for temporomandibular joint osteoarthritis in elderly patients."
+    },
+    {
+     "work_id": "W2100303436",
+     "year": 2015,
+     "text": "Although these cytokines provide potential therapeutic targets for PTA, intra-articular injections of anti-cytokine therapies have proven difficult due to rapid clearance from the joint space."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2008,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 4,
+    "first_main_year": 2008,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 3,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 10.0
+   }
+  },
+  "investment opportunity": {
+   "track": "L",
+   "key": "investment opportunity",
+   "surface_forms": [
+    "investment opportunity",
+    "investment opportunities",
+    "Investment opportunities"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2377730585",
+     "year": 2006,
+     "text": "According to the irreversibility of investment and the probability of deferred investment,this paper holds that investment opportunity has its value,and the value is opportunity cost of investment."
+    },
+    {
+     "work_id": "W2003188548",
+     "year": 2007,
+     "text": "Investment opportunities in Indian energy sector."
+    },
+    {
+     "work_id": "W2556927006",
+     "year": 2009,
+     "text": "The lack of interest and understanding of these potential investment opportunities by corporate decision makers has severely limited the breadth and depth of technical and cost-effectiveness evaluations."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2006,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 7.9248
+   }
+  },
+  "jawbone": {
+   "track": "L",
+   "key": "jawbone",
+   "surface_forms": [
+    "jawbones",
+    "jawbone"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2507449430",
+     "year": 2011,
+     "text": "Objectives: The purpose of the present study was to assess the oral manifestations and radiographic changes in the jawbones of patients undergoing hemodialysis, diagnosed with end-stage renal disease (ESRD)."
+    },
+    {
+     "work_id": "W2168781864",
+     "year": 2012,
+     "text": "However, due to its high connectivity to neighboring teeth and jawbones, a tooth and/or its axis is very elusive to automatically identify in dental CT images."
+    },
+    {
+     "work_id": "W2340490013",
+     "year": 2016,
+     "text": "The maximum temperatures reached in all the models were lower than threshold temperatures, so thermal loading alone does not harm the jawbone."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2011,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2011,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "jute": {
+   "track": "L",
+   "key": "jute",
+   "surface_forms": [
+    "jute",
+    "Jute"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2269519637",
+     "year": 2008,
+     "text": "Integrated weed management in jute (Corchorus olitorius)."
+    },
+    {
+     "work_id": "W2328115175",
+     "year": 2010,
+     "text": "Renewable materials like furfuryl alcohol, palmitic acid, and jute were used for the first time to develop green biocomposites."
+    },
+    {
+     "work_id": "W2013299249",
+     "year": 2011,
+     "text": "Fabrication and Mechanical Characterization of Jute Fiber-Reinforced Melamine Matrix Composite."
+    }
+   ],
+   "n_sample_occ": 5,
+   "first_sample_year": 2008,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 5,
+    "n_occ_main": 5,
+    "first_main_year": 2008,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.8571
+   }
+  },
+  "kaempferol": {
+   "track": "L",
+   "key": "kaempferol",
+   "surface_forms": [
+    "kaempferol"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2188520747",
+     "year": 2006,
+     "text": "Five minor flavonoid monosides, glycosides of quercetin and kaempferol, together with three previously isolated compounds were identified cochromatographically in P. serotina Ehrh."
+    },
+    {
+     "work_id": "W2089860403",
+     "year": 2006,
+     "text": "Fractionation of this active extract led to the isolation and identification of sixteen flavonoids, including gallocatechin and flavonols having kaempferol, quercetin, and myricetin as aglycones."
+    },
+    {
+     "work_id": "W2103607874",
+     "year": 2007,
+     "text": "In the present study, inhibition of human neutrophil degranulation by four flavonoids (myricetin, quercetin, kaempferol, galangin) was evaluated by using released elastase as a biomarker."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2006,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2006,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 5.0
+   }
+  },
+  "landrace": {
+   "track": "L_nonnovel",
+   "key": "landrace",
+   "surface_forms": [
+    "Landrace",
+    "landraces",
+    "landrace"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2161143426",
+     "year": 2004,
+     "text": "and ten sows of Landrace were selected randomly from a herd at the National Livestock Research Institute (NLRI), Rural Development Administration (RDA), Korea."
+    },
+    {
+     "work_id": "W2044771550",
+     "year": 2004,
+     "text": "Methods: Landrace large white male pigs, weighing 20 to 25 kg, were used for the experiments."
+    },
+    {
+     "work_id": "W2019249249",
+     "year": 2009,
+     "text": "Meanwhile, attempts to add value to maize landraces via market differentiation have had varying success."
+    }
+   ],
+   "n_sample_occ": 20,
+   "first_sample_year": 2004,
+   "n_fields": 7,
+   "stats": {
+    "n_occ": 20,
+    "n_occ_main": 15,
+    "first_main_year": 2004,
+    "last_main_year": 2015,
+    "in_pre": true,
+    "n_fields": 7,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 18.8919
+   }
+  },
+  "left ventricular assist device": {
+   "track": "L",
+   "key": "left ventricular assist device",
+   "surface_forms": [
+    "left ventricular assist devices",
+    "LVADs",
+    "LVAD"
+   ],
+   "acronym_short_forms": [
+    "LVAD",
+    "LVADs"
+   ],
+   "snippets": [
+    {
+     "work_id": "W1571502844",
+     "year": 2008,
+     "text": "Shear-induced platelet activation (SIPA) has been identified to induce platelet adhesion and thrombus formation in continuous flow left ventricular assist devices (LVAD)."
+    },
+    {
+     "work_id": "W2156133102",
+     "year": 2014,
+     "text": "The implantable continuous-flow left ventricular assist devices (LVADs) HeartMate II (HM II) and HeartWare HVAD (HW) underwent design modifications."
+    },
+    {
+     "work_id": "W2560011922",
+     "year": 2016,
+     "text": "Patients with implanted continuous, nonpulsatile, left ventricular assist devices (LVADs) have increased the occurrence of gastrointestinal bleeding (GIB)."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2008,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2008,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 4,
+    "is_acronym_long_form": true,
+    "cvalue": 4.6439
+   }
+  },
+  "lhc injection test": {
+   "track": "P",
+   "key": "lhc injection test",
+   "surface_forms": [
+    "LHC injection tests"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W3117378857",
+     "year": 2009,
+     "text": "The dispersion measurements made during the LHC injection tests are re-analyzed taking into account known polarity errors and the resultant perturbed optics."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2009,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2009,
+    "last_main_year": 2009,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "mammalia": {
+   "track": "L",
+   "key": "mammalia",
+   "surface_forms": [
+    "Mammalia",
+    "MAMMALIA"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2004680413",
+     "year": 2006,
+     "text": "A new erinaceid (Mammalia, Insectivora) from the Late Paleocene of western Canada."
+    },
+    {
+     "work_id": "W2034922343",
+     "year": 2007,
+     "text": "A NEW MICROCHOERINE OMOMYID (PRIMATES, MAMMALIA) FROM THE ENGLISH EARLY EOCENE AND ITS PALAEOBIOGEOGRAPHICAL IMPLICATIONS."
+    },
+    {
+     "work_id": "W2158286177",
+     "year": 2009,
+     "text": "A New Species of Gomphos (Glires, Mammalia) from the Eocene of the Erlian Basin, Nei Mongol, China."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2006,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "marie": {
+   "track": "L",
+   "key": "marie",
+   "surface_forms": [
+    "Marie"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1967755521",
+     "year": 2006,
+     "text": "The plot ostensibly turns around a love triangle between the slave and heroic leader of the revolutionaries Pierrot/Bug-Jargal, the French captain D'Auverney, and a barely-sketched Virginie-like character, Marie."
+    },
+    {
+     "work_id": "W2115207195",
+     "year": 2010,
+     "text": "Vocal Cord Paresis and Probable X-Linked Charcot—Marie—Tooth Disease With Novel GJB1 Mutation."
+    },
+    {
+     "work_id": "W2091548169",
+     "year": 2012,
+     "text": "Belleflamme, Marie; Hantson, Philippe; Gougnard, Thierry; Minon, Jean-Marc; Wittebole, Xavier; Laterre, Pierre-François; Mairesse, Jacques; Dugernier, Thierry Author Information"
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2006,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.85
+   }
+  },
+  "mesoporosity": {
+   "track": "L",
+   "key": "mesoporosity",
+   "surface_forms": [
+    "mesoporosity"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W4250003169",
+     "year": 2005,
+     "text": "The 160-Ar catalyst synthesized by this method has a large pore volume and a high mesoporosity."
+    },
+    {
+     "work_id": "W2092181575",
+     "year": 2009,
+     "text": "The resulting solid consisted of nanodomains of TiO 2 brookite embedded in large micrometer-size particles and exhibited a high specific surface area of 255 m 2 /g because of the mesoporosity arising from the removal of water from the oxalate species."
+    },
+    {
+     "work_id": "W2422425949",
+     "year": 2016,
+     "text": "Oxygen vacancies and mesoporosity serve as key factors for excellent performance."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "modified knapsack problem": {
+   "track": "P",
+   "key": "modified knapsack problem",
+   "surface_forms": [
+    "modified knapsack problem"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2119815740",
+     "year": 2014,
+     "text": "Secondly, we use the modified knapsack problem to allocate the VMs."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2014,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2014,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "mouth profile": {
+   "track": "P",
+   "key": "mouth profile",
+   "surface_forms": [
+    "Mouth profile"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1974103319",
+     "year": 2014,
+     "text": "Mouth profile is the area which is manipulated during dental treatment."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2014,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2014,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "mufa": {
+   "track": "L",
+   "key": "mufa",
+   "surface_forms": [
+    "MUFA"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W24662041",
+     "year": 2007,
+     "text": "…omized, crossover, controlled feeding study to compare the effects of a macadamia nut‐rich (MAC) diet (33% total fat, 7% SFA, 18% MUFA, 5% PUFA) on lipids, lipoproteins and CRP levels, to an average American (AAD) diet (33% total fat, 13% SFA, 11% MUFA, 5% PUF…"
+    },
+    {
+     "work_id": "W2114781999",
+     "year": 2008,
+     "text": "…: 1.13, 3.99), and an equivalent difference in PUFA was associated with a halving in CHD risk (OR 0.49; 95 % CI: 0.26, 0.94), but MUFA was unrelated to CHD risk.…"
+    },
+    {
+     "work_id": "W2141003298",
+     "year": 2009,
+     "text": "RESULTS: The energy contribution of fat (P = 0.019) and MUFA (P < 0.001) was higher in the olive oil-group while that of PUFA (P = 0.001) and alcohol (P = 0.005) was higher in the sunflower oil-group."
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2007,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2007,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "health",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 5.0
+   }
+  },
+  "nanostructured lipid carrier": {
+   "track": "L",
+   "key": "nanostructured lipid carrier",
+   "surface_forms": [
+    "nanostructured lipid carriers",
+    "NLCs",
+    "NLC"
+   ],
+   "acronym_short_forms": [
+    "NLC",
+    "NLCs"
+   ],
+   "snippets": [
+    {
+     "work_id": "W167499259",
+     "year": 2007,
+     "text": "There are several examples of biomacromolecules used nowadays in the therapeutics, which are promising candidates to be delivered by means of liposomes and lipid nanoparticles, such as solid lipid nanoparticles (SLN) and nanostructured lipid carriers (NLC)."
+    },
+    {
+     "work_id": "W2080184671",
+     "year": 2013,
+     "text": "Topical delivery of enoxaparin using nanostructured lipid carrier."
+    },
+    {
+     "work_id": "W2317661064",
+     "year": 2013,
+     "text": "The new generation of lipid nanoparticles with solid matrix are the NLC (Nanostructured lipid carriers), and these nanoparticles show increased chemical stability of drug, film formation, controlled occlusion, increased skin hydration, the bioavailability of t…"
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2007,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2007,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "life",
+    "n_tokens": 3,
+    "is_acronym_long_form": true,
+    "cvalue": 10.0
+   }
+  },
+  "near optimal solution": {
+   "track": "L",
+   "key": "near optimal solution",
+   "surface_forms": [
+    "near‐optimal solution",
+    "near - optimal solution",
+    "near - optimal solutions"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2087473069",
+     "year": 2005,
+     "text": "We also show how to derive a near‐optimal solution of the general problem."
+    },
+    {
+     "work_id": "W2520942251",
+     "year": 2015,
+     "text": "We also propose a near-optimal solution that simplifies the optimization problem by replacing the objective function with its approximation at a high signal-to-noise ratio (SNR)."
+    },
+    {
+     "work_id": "W2335928369",
+     "year": 2016,
+     "text": "Instead of the mere location of the global minimum, it should be therefore preferred the generation of several alternatives, capable to express near-optimal solutions while being as different as possible from each other in physical terms."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "neural network": {
+   "track": "L_nonnovel",
+   "key": "neural network",
+   "surface_forms": [
+    "neural networks",
+    "neural network",
+    "Neural Networks"
+   ],
+   "acronym_short_forms": [
+    "NNs",
+    "NN",
+    "NN's"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2396801707",
+     "year": 2003,
+     "text": "Moreover, a novel Hebb-like learning rule for neural networks is introduced, which has not only interesting features by itself but establishes a connection to the action-perception-cycle and demonstrates the interplay between different levels of description."
+    },
+    {
+     "work_id": "W2019853123",
+     "year": 2003,
+     "text": "Optimization of Catalyst for Methanol Synthesis by a Combinatorial Approach Using a Parallel Activity Test and Genetic Algorithm Assisted by a Neural Network."
+    },
+    {
+     "work_id": "W2365699882",
+     "year": 2003,
+     "text": "A new normalization function is also presented to convert various data with different scales into the interval of 〔 1,1〕 .The function embodies the principle for reward the better and punish the worse, also benefits the training of neural networks."
+    }
+   ],
+   "n_sample_occ": 125,
+   "first_sample_year": 2003,
+   "n_fields": 18,
+   "stats": {
+    "n_occ": 125,
+    "n_occ_main": 64,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 18,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 2,
+    "is_acronym_long_form": true,
+    "cvalue": 195.3974
+   }
+  },
+  "neural network algorithm": {
+   "track": "P",
+   "key": "neural network algorithm",
+   "surface_forms": [
+    "neural network algorithm",
+    "neural network algorithms"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2031007864",
+     "year": 2015,
+     "text": "In addition to a classic data preprocessing procedure to reduce noise on the data, we present an innovative method, based on a neural network algorithm, that allows us to obtain radiometrically calibrated luminescence spectra with increased spectral resolution…"
+    },
+    {
+     "work_id": "W3009358515",
+     "year": 2016,
+     "text": "The performance of the support vector machine, random forest and neural network algorithms is compared."
+    }
+   ],
+   "n_sample_occ": 2,
+   "first_sample_year": 2015,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 2,
+    "n_occ_main": 2,
+    "first_main_year": 2015,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "social",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "optimization methodology": {
+   "track": "L",
+   "key": "optimization methodology",
+   "surface_forms": [
+    "Optimization Methodologies",
+    "optimization methodology",
+    "optimization methodologies"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1895590061",
+     "year": 2008,
+     "text": "Assessment of Optimization Methodologies to Study the Effects of Bowl Geometry, Spray Targeting and Swirl Ratio for a Heavy-Duty Diesel Engine Operated at High-Load."
+    },
+    {
+     "work_id": "W4232544923",
+     "year": 2010,
+     "text": "In a previous study (Shi, Y., and Reitz, R. D., 2008, “Assessment of Optimization Methodologies to Study the Effects of Bowl Geometry, Spray Targeting and Swirl Ratio for a Heavy-Duty Diesel Engine Operated at High-Load,” SAE Paper No. 2008-01-0949), nondomina…"
+    },
+    {
+     "work_id": "W2354649053",
+     "year": 2013,
+     "text": "Optimization Methodology of Process System Based on Meta-modeling."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2008,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2008,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "oxyl": {
+   "track": "L",
+   "key": "oxyl",
+   "surface_forms": [
+    "oxyl"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1888042863",
+     "year": 2007,
+     "text": "Two paramagnetic building blocks, 2-(4-ethynyl-1-phenyl)-4,4,5,5-tetramethylimidazoline-1-oxyl ( 3 ) and 2-(5-ethynyl-2-pyridyl)-4,4,5,5-tetramethylimidazoline-1-oxyl ( 4 ) were synthesized and crystallized."
+    },
+    {
+     "work_id": "W3143321022",
+     "year": 2011,
+     "text": "…e effects of these compounds could be significantly inhibited by NO specific scavenger 2-phenyl- 4,4,5,5-tetramethylimidazoline-1-oxyl 3-oxide (PTIO), indicating that NO signaling pathway might play a central role in the dormancy release and germination of A. …"
+    },
+    {
+     "work_id": "W2479637978",
+     "year": 2015,
+     "text": "…e and rate-determining step during turnover, in contrast to the previously held assumption that formation of a high-valent Mn-oxo/oxyl species is the highest barrier step that controls the rate of O 2 evolution by this complex.…"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2007,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2007,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "physical",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   }
+  },
+  "pentraxin 3": {
+   "track": "L",
+   "key": "pentraxin 3",
+   "surface_forms": [
+    "PTX3",
+    "Pentraxin 3",
+    "Pentraxin-3"
+   ],
+   "acronym_short_forms": [
+    "PTX3"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2000455748",
+     "year": 2010,
+     "text": "OBJECTIVE: Pentraxin 3 (PTX3), a key component of innate immunity, is a strong marker of disease severity in coronary artery disease (CAD)."
+    },
+    {
+     "work_id": "W2093500143",
+     "year": 2010,
+     "text": "OBJECTIVE: Pentraxin 3 (PTX3) is an acute-phase protein that has an important role in the regulation of the innate immune response."
+    },
+    {
+     "work_id": "W2995477310",
+     "year": 2015,
+     "text": "Level of Pentraxin-3 in Patients with Acute Leukemia in Septicemia and Its Prognostic Value."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2010,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2010,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": true,
+    "cvalue": 4.7549
+   }
+  },
+  "population median cyp2d6 activity": {
+   "track": "P",
+   "key": "population median cyp2d6 activity",
+   "surface_forms": [
+    "population median CYP2D6 activity"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2047705730",
+     "year": 2009,
+     "text": "…population variability in enzyme activity, as indicated by the 9- to 56-fold difference between the PM modal median and the total population median CYP2D6 activity.…"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2009,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2009,
+    "last_main_year": 2009,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "life",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 2.3219
+   },
+   "audit_arm": false
+  },
+  "practical geological meaning": {
+   "track": "P",
+   "key": "practical geological meaning",
+   "surface_forms": [
+    "practical geological meaning"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2034467734",
+     "year": 2009,
+     "text": "It reasons rigorously out that evaluated velocity is the real CRP stack velocity with practical geological meaning."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2009,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2009,
+    "last_main_year": 2009,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "practice teaching system": {
+   "track": "L",
+   "key": "practice teaching system",
+   "surface_forms": [
+    "Practice Teaching System",
+    "practice teaching system"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2361405011",
+     "year": 2005,
+     "text": "Analysis of the Construction of the Practice Teaching System."
+    },
+    {
+     "work_id": "W2383743768",
+     "year": 2009,
+     "text": "The studies on the Practice Teaching System of Major Logistics."
+    },
+    {
+     "work_id": "W2373627403",
+     "year": 2011,
+     "text": "Construction of Practice Teaching System on Electronic Commerce Conspectus in Higher Vocational Colleges."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2005,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2005,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "punica granatum": {
+   "track": "L",
+   "key": "punica granatum",
+   "surface_forms": [
+    "Punica granatum",
+    "Punica Granatum",
+    "PUNICA GRANATUM"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2378873496",
+     "year": 2008,
+     "text": "Objective:To develop a method of detecting the trace elements in Punica granatum L Methods: A method of determination of trace elements in Punica granatum L.was developed by using ICP—AES together with HNO3—HClO4 digestion."
+    },
+    {
+     "work_id": "W7169477285",
+     "year": 2013,
+     "text": "In group B no further intervention was done, group C and D were given ethanolic extract of Eugenia Jambolana and Punica Granatum respectively for eight weeks."
+    },
+    {
+     "work_id": "W2740403276",
+     "year": 2014,
+     "text": "U ovom clanku predstavljene su pojedine biljne vrste (Olea sativa, Phoenix dactylifera, Ficus carica, Prunus amygdalus, Punica granatum, Coriandrum sativum, Linum usitatissimum i Ruta graveolens)"
+    }
+   ],
+   "n_sample_occ": 7,
+   "first_sample_year": 2008,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 7,
+    "n_occ_main": 7,
+    "first_main_year": 2008,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 9.3657
+   }
+  },
+  "reduced hour": {
+   "track": "P",
+   "key": "reduced hour",
+   "surface_forms": [
+    "reduced hours"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2146634790",
+     "year": 2008,
+     "text": "We hypothesized that reduced hours and perceived stress in the prosthodontics curriculum might impact students' choice of specialty at HSDM."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2008,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2008,
+    "last_main_year": 2008,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "health",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "serum biomarker": {
+   "track": "L",
+   "key": "serum biomarker",
+   "surface_forms": [
+    "serum biomarkers",
+    "serum biomarker"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2008654454",
+     "year": 2007,
+     "text": "Using surface-enhanced laser desorption-ionization time-of-flight mass spectrometry (MS) to find novel serum biomarkers for lung cancer, we analyzed 227 serum samples, including 146 lung cancers, 41 benign lung diseases and 40 normal individuals."
+    },
+    {
+     "work_id": "W4250133124",
+     "year": 2008,
+     "text": "Soluble P-selectin: A potential serum biomarker for Inflammatory Bowel Disease and useful guide for Infliximab therapy."
+    },
+    {
+     "work_id": "W2388397061",
+     "year": 2011,
+     "text": "…125 and CA15-3 in breast cancer patients were higher than those in benign breast disease and healthy group(P0.05).Among the three serum biomarkers,TPS has the best sensitivity and the biggest area under a ROC curve,which sensitivity and specificity is 36.7% an…"
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2007,
+   "n_fields": 5,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 6,
+    "first_main_year": 2007,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 5,
+    "macro_domain": "life",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 7.9248
+   }
+  },
+  "smart grid": {
+   "track": "L",
+   "key": "smart grid",
+   "surface_forms": [
+    "Smart Grid",
+    "smart grids",
+    "smart grid"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2377672755",
+     "year": 2010,
+     "text": "A Multiobjective Dispatch Optimization Strategy for Economic Operation of Smart Grids."
+    },
+    {
+     "work_id": "W1007776960",
+     "year": 2012,
+     "text": "Reactive power management in wind power plants with induction machines in Smart Grid."
+    },
+    {
+     "work_id": "W2390755021",
+     "year": 2012,
+     "text": "Data integration based on REST and IEC61970 for smart grid."
+    }
+   ],
+   "n_sample_occ": 8,
+   "first_sample_year": 2010,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 8,
+    "n_occ_main": 8,
+    "first_main_year": 2010,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 4,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 11.0947
+   }
+  },
+  "spin boson system": {
+   "track": "P",
+   "key": "spin boson system",
+   "surface_forms": [
+    "spin - boson system"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2002253753",
+     "year": 2005,
+     "text": "However, it will be shown in this paper that for the case of a spin-boson system and weak coupling, this improvement does only occur in the case of a bath at high temperature."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2005,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2005,
+    "last_main_year": 2005,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "statistically significant ( chi 2": {
+   "track": "L",
+   "key": "statistically significant ( chi 2",
+   "surface_forms": [
+    "statistically significant （ χ2"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W3030605953",
+     "year": 2014,
+     "text": "The success rate of rescuing in the experimental group was 91.5%, and was 85.6% in the control group, and the difference was statistically significant （χ2 =3.91, P〈0.05）."
+    },
+    {
+     "work_id": "W3030743092",
+     "year": 2014,
+     "text": "The incidences of defects including the temperature records, doctor’s advice, the admission and discharge evaluation records and nursing records were respectively 4.40%,2.80%,4.16%,13.11%in the observation group, and were 11.53%,9.03%,15.49%,35.80% in the cont…"
+    },
+    {
+     "work_id": "W3029760905",
+     "year": 2014,
+     "text": "The incidence rates of serious medication error , intravenous administration error , intramuscular/subcutaneous administration error , high-risk drug medication error were respectively 0.54, 1.97, 1.37, 0.95/100,000 occupied bed day in the control group, and w…"
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2014,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2014,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 5,
+    "is_acronym_long_form": false,
+    "cvalue": 7.7549
+   }
+  },
+  "svg": {
+   "track": "L",
+   "key": "svg",
+   "surface_forms": [
+    "SVG"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2348608380",
+     "year": 2007,
+     "text": "Spatial Association Rule Mining Based on SVG."
+    },
+    {
+     "work_id": "W2383933679",
+     "year": 2008,
+     "text": "The Map Transformation from CAD Format to SVG and Publishing."
+    },
+    {
+     "work_id": "W2348198168",
+     "year": 2011,
+     "text": "Robust H_∞ control for power systems with SVG."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2007,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2007,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "swallowing": {
+   "track": "L_nonnovel",
+   "key": "swallowing",
+   "surface_forms": [
+    "swallowing"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2146343387",
+     "year": 2013,
+     "text": "The appetitive phase brings animals into contact with food (e.g., foraging, food hoarding), and the more reflexive consummatory phase results in ingestion (e.g., chewing, swallowing)."
+    },
+    {
+     "work_id": "W2418219766",
+     "year": 2014,
+     "text": "Oral squamous cell carcinoma (OSCC) being the most common malignancy of the oral cavity poses a significant public health problem due its impact on the speech, mastication, taste, swallowing and esthetics."
+    },
+    {
+     "work_id": "W2978153859",
+     "year": 2016,
+     "text": "In a randomized blinded study, we assessed two configurations of a SoS device for the following metrics: success rates for swallowing and retrieval, tolerability, preference relative to endoscopy, DNA yield, and BE detection by assay of selected methylated DNA…"
+    }
+   ],
+   "n_sample_occ": 6,
+   "first_sample_year": 2013,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 6,
+    "n_occ_main": 3,
+    "first_main_year": 2013,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 3,
+    "macro_domain": "health",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7857
+   }
+  },
+  "test retest reliability": {
+   "track": "L_nonnovel",
+   "key": "test retest reliability",
+   "surface_forms": [
+    "test - retest reliability",
+    "Test - retest reliability",
+    "test - retest reliabilities"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2000779777",
+     "year": 2005,
+     "text": "With the exception of pRFD, the force variables showed reasonably good levels of test-retest reliability (ICC range: 0.75-0.99; CV range: 1.2-7.6%)."
+    },
+    {
+     "work_id": "W1984670832",
+     "year": 2005,
+     "text": "Internal consistencies, test-retest reliability, and split-half reliability were acceptable."
+    },
+    {
+     "work_id": "W2108631642",
+     "year": 2005,
+     "text": "The objectives of this pair of studies were to examine the internal reliability, test-retest reliability, and construct validity of the Revised Dental Beliefs Survey."
+    }
+   ],
+   "n_sample_occ": 25,
+   "first_sample_year": 2005,
+   "n_fields": 7,
+   "stats": {
+    "n_occ": 25,
+    "n_occ_main": 17,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 7,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 47.7143
+   }
+  },
+  "testing method": {
+   "track": "L_nonnovel",
+   "key": "testing method",
+   "surface_forms": [
+    "testing methods",
+    "testing method",
+    "Testing Methods"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2605738778",
+     "year": 2003,
+     "text": "A testing method for evaluating the quality of ADSS fiber optic cable is presented."
+    },
+    {
+     "work_id": "W2383682418",
+     "year": 2005,
+     "text": "A testing method for melatonin of honeybee."
+    },
+    {
+     "work_id": "W2076079567",
+     "year": 2006,
+     "text": "Harmonization of VCU testing methods for maize varieties in a European context."
+    }
+   ],
+   "n_sample_occ": 21,
+   "first_sample_year": 2003,
+   "n_fields": 13,
+   "stats": {
+    "n_occ": 21,
+    "n_occ_main": 14,
+    "first_main_year": 2003,
+    "last_main_year": 2015,
+    "in_pre": true,
+    "n_fields": 13,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 31.6993
+   }
+  },
+  "thermodynamic basis": {
+   "track": "L",
+   "key": "thermodynamic basis",
+   "surface_forms": [
+    "thermodynamic basis",
+    "Thermodynamic basis"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1998304324",
+     "year": 2006,
+     "text": "The results are first presented on a thermodynamic basis, and some cases are then analyzed with a computational fluid dynamics simulation."
+    },
+    {
+     "work_id": "W2380039181",
+     "year": 2007,
+     "text": "The Gibbs free energies and the equilibrium constants of the three reactions were investigated to provide the thermodynamic basis for the synthesis of DMC by oxidation carbonylation of methanol and dimethyl ether."
+    },
+    {
+     "work_id": "W2077537745",
+     "year": 2009,
+     "text": "Thermodynamic basis of chiral recognition in a DNA aptamer."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2006,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2006,
+    "last_main_year": 2009,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 4.7549
+   }
+  },
+  "transformative potential": {
+   "track": "L",
+   "key": "transformative potential",
+   "surface_forms": [
+    "transformative potential"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W1601365128",
+     "year": 2006,
+     "text": "The transformative potential of public administration is forestalled by the portrayal of management as sphere-specific or apolitical and the resultant portrayal of marginality as natural."
+    },
+    {
+     "work_id": "W1696790465",
+     "year": 2012,
+     "text": "The transformative potential of marketing from the consumers' point of view."
+    },
+    {
+     "work_id": "W2214226438",
+     "year": 2015,
+     "text": "Conclusions - Research projects and evaluation studies conducted since 2003 demonstrate the transformative potential of the holistic Informed Systems approach to creating robust workplace learning environments."
+    }
+   ],
+   "n_sample_occ": 4,
+   "first_sample_year": 2006,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 4,
+    "n_occ_main": 4,
+    "first_main_year": 2006,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 6.3399
+   }
+  },
+  "trin": {
+   "track": "L",
+   "key": "trin",
+   "surface_forms": [
+    "Trin"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2092648769",
+     "year": 2005,
+     "text": "In the present work, an intensive tolerance to high salt stress of embryogenic suspension cultures from two reed (Phragmites communis Trin.)"
+    },
+    {
+     "work_id": "W200160646",
+     "year": 2012,
+     "text": "Highestpollen fertility 100% value was observed in Phragmites communis Trin."
+    },
+    {
+     "work_id": "W2115251445",
+     "year": 2014,
+     "text": "Trin."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2005,
+   "n_fields": 3,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2005,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 3,
+    "macro_domain": "life",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 3.0
+   }
+  },
+  "triple network": {
+   "track": "P",
+   "key": "triple network",
+   "surface_forms": [
+    "Triple - network",
+    "TN",
+    "Triple-network"
+   ],
+   "acronym_short_forms": [
+    "TN"
+   ],
+   "snippets": [
+    {
+     "work_id": "W2081839816",
+     "year": 2010,
+     "text": "Triple-network (TN) and special double-network (sDN) hydrogels, containing poly(acrylic acid) (PAA) and poly(acrylamide) (PAAm) as the matrix respectively, are successfully prepared."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2010,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2010,
+    "last_main_year": 2010,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": true,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "tunnel": {
+   "track": "L_nonnovel",
+   "key": "tunnel",
+   "surface_forms": [
+    "tunnel",
+    "tunnels",
+    "TUNNEL"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2188462634",
+     "year": 2003,
+     "text": "In such mountainous terrain, railway and road tunnels as well as major galleries drain water from their surrounding rock masses."
+    },
+    {
+     "work_id": "W2353063705",
+     "year": 2003,
+     "text": "Taking a city cable tunnel for example,the water seepage causes of tunnel and underground project were analyzed,and it was proposed that corresponding technical measures should be taken to prevent the water seepage in accordance with the hydrological character…"
+    },
+    {
+     "work_id": "W2054790014",
+     "year": 2003,
+     "text": "The structural feature associated with this phenomenon was the near rectangular shape of the 2 × 1 tunnels of the preponderant hinged ramsdellite structure."
+    }
+   ],
+   "n_sample_occ": 48,
+   "first_sample_year": 2003,
+   "n_fields": 17,
+   "stats": {
+    "n_occ": 48,
+    "n_occ_main": 26,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 17,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 46.7772
+   }
+  },
+  "under sampling algorithm": {
+   "track": "P",
+   "key": "under sampling algorithm",
+   "surface_forms": [
+    "under - sampling algorithm"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2376580439",
+     "year": 2010,
+     "text": "We use under-sampling algorithm to improve the unbalanced training dataset,and the two_stage classifier is used to keep the under-sampling algorithm from losting some useful informations."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2010,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2010,
+    "last_main_year": 2010,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 2.0
+   },
+   "audit_arm": false
+  },
+  "valuable contribution": {
+   "track": "L",
+   "key": "valuable contribution",
+   "surface_forms": [
+    "valuable contribution",
+    "valuable contributions"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W4403853378",
+     "year": 2005,
+     "text": "The acquired data represent a valuable contribution to the existing documentation and knowledge about this monument."
+    },
+    {
+     "work_id": "W2338408225",
+     "year": 2005,
+     "text": "Therefore, we will argue CSR/CC can make a valuable contribution especially regarding the clarification of such imperfect obligations."
+    },
+    {
+     "work_id": "W2071118037",
+     "year": 2005,
+     "text": "…oth orientation and vertical distribution of fractures as well as their opening and filling material or overburden thickness is a valuable contribution to estimating hydraulic conductivity and to evaluating the vulnerability and protection strategy of karst aq…"
+    }
+   ],
+   "n_sample_occ": 8,
+   "first_sample_year": 2005,
+   "n_fields": 6,
+   "stats": {
+    "n_occ": 8,
+    "n_occ_main": 8,
+    "first_main_year": 2005,
+    "last_main_year": 2016,
+    "in_pre": false,
+    "n_fields": 6,
+    "macro_domain": "social",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 11.0947
+   }
+  },
+  "varying tacticity": {
+   "track": "P",
+   "key": "varying tacticity",
+   "surface_forms": [
+    "varying tacticity"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2319554419",
+     "year": 2012,
+     "text": "…activated by methylaluminoxane (MAO) in the presence of propylene, allyl-terminated syndiotactic polypropylene macromonomers with varying tacticity ([ rrrr ] = 0.80 and 0.94) and molecular weight ( M n = 3600 and 5600 g/mol) were produced.…"
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2012,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2012,
+    "last_main_year": 2012,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "physical",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 1.585
+   },
+   "audit_arm": false
+  },
+  "verification": {
+   "track": "L_nonnovel",
+   "key": "verification",
+   "surface_forms": [
+    "verification",
+    "Verification",
+    "verifications"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W163736163",
+     "year": 2003,
+     "text": "As an enduring feature of our mental constitution, the religious contents are under no special burden of vindication or verification for they are vindicated and verified precisely by their ubiquity and efficacy."
+    },
+    {
+     "work_id": "W2586955925",
+     "year": 2003,
+     "text": "PRESUMPTION EXPERIMENT OF SUPPLY RATE FULFILLMENT USING TRACER GAS : Verification on the cylinder house."
+    },
+    {
+     "work_id": "W804478192",
+     "year": 2003,
+     "text": "Leakage current gets suppressed when operated at 120K. Migration and verification: a) Reverse Bias Voltage will be limited; b) Health check with I/V curve: 1) Minimal reverse voltage shall be x0.75 of the calculated voltage breakdown Vbr; 2) Degradation of the…"
+    }
+   ],
+   "n_sample_occ": 102,
+   "first_sample_year": 2003,
+   "n_fields": 24,
+   "stats": {
+    "n_occ": 102,
+    "n_occ_main": 72,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 24,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 1,
+    "is_acronym_long_form": false,
+    "cvalue": 100.7643
+   }
+  },
+  "vocational education": {
+   "track": "L_nonnovel",
+   "key": "vocational education",
+   "surface_forms": [
+    "vocational education",
+    "Vocational Education",
+    "Vocational education"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2394468636",
+     "year": 2003,
+     "text": "Research on and application of the Objective of Higher Vocational Education with a 4-year program —— a case study of the specialty of Building Services and Intelligent Technology."
+    },
+    {
+     "work_id": "W2375992820",
+     "year": 2003,
+     "text": "The realistic necessity of vocational education in the New century."
+    },
+    {
+     "work_id": "W2070518623",
+     "year": 2003,
+     "text": "Vocational education and training reform in the Netherlands: seven years experience."
+    }
+   ],
+   "n_sample_occ": 31,
+   "first_sample_year": 2003,
+   "n_fields": 4,
+   "stats": {
+    "n_occ": 31,
+    "n_occ_main": 23,
+    "first_main_year": 2003,
+    "last_main_year": 2016,
+    "in_pre": true,
+    "n_fields": 4,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 2,
+    "is_acronym_long_form": false,
+    "cvalue": 47.2986
+   }
+  },
+  "weihe river basin": {
+   "track": "L",
+   "key": "weihe river basin",
+   "surface_forms": [
+    "Weihe River Basin",
+    "Weihe River basin",
+    "Weihe river basin"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2371165243",
+     "year": 2007,
+     "text": "Analysis on Characteristics of Rainfall-Runoff and Water Environment of Shaanxi Area in the Weihe River Basin."
+    },
+    {
+     "work_id": "W2383841166",
+     "year": 2010,
+     "text": "Identification of the impact of rainfall on runoff in Weihe River Basin in Shaanxi."
+    },
+    {
+     "work_id": "W2378558955",
+     "year": 2011,
+     "text": "Ecological Landscape Patterns in Guanzhong Part of the Weihe River Basin Based on Remote Sensing."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2007,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2007,
+    "last_main_year": 2011,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "physical",
+    "n_tokens": 3,
+    "is_acronym_long_form": false,
+    "cvalue": 6.0
+   }
+  },
+  "whole genome sequencing": {
+   "track": "L",
+   "key": "whole genome sequencing",
+   "surface_forms": [
+    "WGS",
+    "whole-genome sequencing",
+    "whole genome sequencing"
+   ],
+   "acronym_short_forms": [
+    "WGS"
+   ],
+   "snippets": [
+    {
+     "work_id": "W1964726199",
+     "year": 2012,
+     "text": "Nebert and Zhang do not expect that advances in technology such as whole-genome sequencing (WGS) will lead to an accurate prediction of genetic risk for complex-trait-like diseases or drug responses in individual patients because of the difficulty in measuring…"
+    },
+    {
+     "work_id": "W2377995986",
+     "year": 2013,
+     "text": "We therefore sought to delineate copy number alterations (CNA) and structural variants using whole genome sequencing (WGS) in order to more clearly define other important gene alterations in WM."
+    },
+    {
+     "work_id": "W2179733566",
+     "year": 2015,
+     "text": "Whole-genome sequencing (WGS) was performed for each isolate of this collection, and discriminating molecular features were linked to patient data."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2012,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2012,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "health",
+    "n_tokens": 3,
+    "is_acronym_long_form": true,
+    "cvalue": 4.0
+   }
+  },
+  "wireless ad hoc network": {
+   "track": "L",
+   "key": "wireless ad hoc network",
+   "surface_forms": [
+    "wireless ad hoc networks",
+    "wireless ad - hoc network",
+    "Wireless Ad Hoc Network"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W69739244",
+     "year": 2006,
+     "text": "To show the applicability of our modeling framework, we model wireless ad hoc networks that operate according to the IEEE 802.11 standard."
+    },
+    {
+     "work_id": "W2519811982",
+     "year": 2008,
+     "text": "Using this\nmechanism, a SIP user agent (UA) can communicate with another UA even\nwhen no SIP registrar is available, as in a wireless ad-hoc network\nfor example."
+    },
+    {
+     "work_id": "W1970321557",
+     "year": 2014,
+     "text": "Design of Remote Detection System for Mooring-Rope Force of Offshore Cage Based on Wireless Ad Hoc Network."
+    }
+   ],
+   "n_sample_occ": 3,
+   "first_sample_year": 2006,
+   "n_fields": 2,
+   "stats": {
+    "n_occ": 3,
+    "n_occ_main": 3,
+    "first_main_year": 2006,
+    "last_main_year": 2014,
+    "in_pre": false,
+    "n_fields": 2,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 4.6439
+   }
+  },
+  "year clinical medicine major": {
+   "track": "P",
+   "key": "year clinical medicine major",
+   "surface_forms": [
+    "year clinical medicine majors"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2370190025",
+     "year": 2006,
+     "text": "The author divides class 03-1 and 03-2, 3-year clinical medicine majors into two groups----experimental group and control group by using randomized bolck method."
+    }
+   ],
+   "n_sample_occ": 1,
+   "first_sample_year": 2006,
+   "n_fields": 1,
+   "stats": {
+    "n_occ": 1,
+    "n_occ_main": 1,
+    "first_main_year": 2006,
+    "last_main_year": 2006,
+    "in_pre": false,
+    "n_fields": 1,
+    "macro_domain": "computing_engineering",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 2.3219
+   },
+   "audit_arm": false
+  },
+  "© 2015 wiley periodical": {
+   "track": "L",
+   "key": "© 2015 wiley periodical",
+   "surface_forms": [
+    "© 2015 Wiley Periodicals"
+   ],
+   "acronym_short_forms": [],
+   "snippets": [
+    {
+     "work_id": "W2261437793",
+     "year": 2015,
+     "text": "© 2015 Wiley Periodicals, Inc. J. Appl."
+    },
+    {
+     "work_id": "W2165166470",
+     "year": 2015,
+     "text": "© 2015 Wiley Periodicals, Inc. J. Polym."
+    },
+    {
+     "work_id": "W1596864481",
+     "year": 2015,
+     "text": "© 2015 Wiley Periodicals, Inc."
+    }
+   ],
+   "n_sample_occ": 11,
+   "first_sample_year": 2015,
+   "n_fields": 8,
+   "stats": {
+    "n_occ": 11,
+    "n_occ_main": 11,
+    "first_main_year": 2015,
+    "last_main_year": 2015,
+    "in_pre": false,
+    "n_fields": 8,
+    "macro_domain": "physical",
+    "n_tokens": 4,
+    "is_acronym_long_form": false,
+    "cvalue": 25.5412
+   }
+  }
+ },
+ "labels_AB": {
+  "A": {
+   "adequate bone volume": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific medical/dental measurement for successful implant placement.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006438
+   },
+   "agar well diffusion method": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific laboratory technique for testing antimicrobial activity.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006355
+   },
+   "alpha fe 2 o": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific material compound with scientific applications.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006742
+   },
+   "analyst ®": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A software name, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000657
+   },
+   "and commitment therapy": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific, named psychotherapy approach.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006024
+   },
+   "anti hiv drug": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific class of pharmaceutical agents targeting HIV.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006678
+   },
+   "authors ' conclusion": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Discourse marker, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006602
+   },
+   "average queue length": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific measure of system performance in queueing theory.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006181
+   },
+   "bed height": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A physical dimension, not a reusable scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006924
+   },
+   "bee specy": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Generic term for a class of organisms, too broad to be a specific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000662
+   },
+   "bioethanol": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of biofuel, studied for energy production and environmental impact.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007467
+   },
+   "biological pathway": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A fundamental concept in molecular biology and genetics.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006658
+   },
+   "blog": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General term for an online journal, not a specific scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000653
+   },
+   "cerebral infarction patient": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a patient with a specific medical condition.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006825
+   },
+   "charcot marie tooth disease": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific disease entity studied in neurology and genetics.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006876
+   },
+   "choreography": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific term for the arrangement and movement of biological entities.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006834
+   },
+   "civic engagement": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A general social science construct, too broad for a specific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006926
+   },
+   "clinical and radiographic examination": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a type of medical assessment, not a specific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006751
+   },
+   "columnar mesophase": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific phase of matter studied in materials science.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006561
+   },
+   "complete supervision system": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic phrase describing a system for supervision and administration.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006092
+   },
+   "constant rate infusion": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific medical administration method.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006659
+   },
+   "copyright © 2006 john wiley": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Copyright notice with a date and publisher, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006268
+   },
+   "critical discourse analysis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific, reusable analytical framework for studying discourse.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006725
+   },
+   "ctac haplotype": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific genetic marker studied in relation to disease.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006726
+   },
+   "de ce numéro": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Boilerplate text related to journal issue content.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006742
+   },
+   "deception research": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific area of study within psychology and communication.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000647
+   },
+   "densitometric detection": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific method of detecting substances using chromatography.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007168
+   },
+   "diffuse reflectance spectroscopy": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific spectroscopic technique for material analysis.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006738
+   },
+   "divisional based communication pattern": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific pattern of communication within an organization.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006794
+   },
+   "drug synthesis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific area of chemical synthesis focused on pharmaceuticals.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006421
+   },
+   "ecc": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "An acronym for a specific medical condition or cryptographic standard.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006936
+   },
+   "energy crisis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of societal and economic challenge.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006311
+   },
+   "external measurement": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a type of measurement, not a reusable scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006503
+   },
+   "ezh2": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific gene/protein involved in transcriptional repression.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007837
+   },
+   "failure of passive transfer": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific immunological concept with a known acronym (FPT).",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006617
+   },
+   "firm efficiency": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific measure of business performance, reusable across studies.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006496
+   },
+   "frontiers event": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific name of a service, not a general scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006751
+   },
+   "fuel spray geometrical parameters injection uniformity": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive phrase of multiple parameters, not a single concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006824
+   },
+   "fuzzy logic controller": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of control system based on fuzzy logic.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006572
+   },
+   "gamma ray burst": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific astronomical phenomenon studied across multiple papers.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006347
+   },
+   "golden rule": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A principle or heuristic used in various fields, including science.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006842
+   },
+   "gpus": {
+    "label": "VARIANT_OF",
+    "variant_of": "gpu",
+    "rationale": "Plural form of GPU, referring to the same concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006286
+   },
+   "growth perspective": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Descriptive phrase about research methodology.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006086
+   },
+   "h.264": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific video compression standard, widely used in digital media.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006726
+   },
+   "hartmann new way": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Title of a book or philosophical work, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006682
+   },
+   "host tissue": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a general biological entity that can be studied across different contexts.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006699
+   },
+   "igneous protolith": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "The original rock from which a metamorphic rock is formed.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006143
+   },
+   "industrial cluster": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific economic and geographical phenomenon studied in various fields.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006669
+   },
+   "interest rate risk": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of financial risk studied in economics and finance.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006682
+   },
+   "interleukin": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific class of signaling proteins involved in immune response.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006408
+   },
+   "international audience": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A general descriptor of an audience, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006558
+   },
+   "intra articular injection": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific medical procedure for joint treatment.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006644
+   },
+   "investment opportunity": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General business term for a chance to invest money.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000666
+   },
+   "jawbone": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Basic anatomical structure, too general for an emerging concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006443
+   },
+   "jute": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific natural material used in research and industry.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007253
+   },
+   "kaempferol": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific chemical compound studied for its biological effects.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007253
+   },
+   "landrace": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of animal breed, used in research.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006945
+   },
+   "left ventricular assist device": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific medical device for assisting heart function, with a common acronym.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006611
+   },
+   "lhc injection test": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of test related to particle accelerator operations.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006276
+   },
+   "mammalia": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A broad taxonomic class, too general for an emerging concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0008252
+   },
+   "marie": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A proper name, potentially referring to a person or a disease.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000795
+   },
+   "mesoporosity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific property of porous materials studied in chemistry and materials science.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006561
+   },
+   "modified knapsack problem": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific, named variant of a known combinatorial optimization problem.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006513
+   },
+   "mouth profile": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific anatomical or dental measurement.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006007
+   },
+   "mufa": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific class of fatty acids, a defined chemical entity.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000667
+   },
+   "nanostructured lipid carrier": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of nanoparticle formulation for drug delivery.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006676
+   },
+   "near optimal solution": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a quality of a solution, not a specific reusable concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006506
+   },
+   "neural network": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of computational model.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000619
+   },
+   "neural network algorithm": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of algorithm used in machine learning and pattern recognition.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006273
+   },
+   "optimization methodology": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A systematic approach to finding the best solution or parameters.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007842
+   },
+   "oxyl": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of paramagnetic molecule used in chemical research.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007656
+   },
+   "pentraxin 3": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific protein involved in innate immunity.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007158
+   },
+   "population median cyp2d6 activity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific measure of drug metabolism in a population.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006794
+   },
+   "practical geological meaning": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Phrase describes a quality of data, not a reusable scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006503
+   },
+   "practice teaching system": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific pedagogical system for practical training.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006088
+   },
+   "punica granatum": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Scientific name for a plant species studied for its properties.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006286
+   },
+   "reduced hour": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a condition of work hours, not a reusable scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006814
+   },
+   "serum biomarker": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of biological marker found in blood, used for disease diagnosis.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007467
+   },
+   "smart grid": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of electrical grid with defined characteristics and applications.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007117
+   },
+   "spin boson system": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific model in quantum mechanics involving spin and bosons.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006088
+   },
+   "statistically significant ( chi 2": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Statistical significance is a measure, not a reusable scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007158
+   },
+   "svg": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Acronym for a file format, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006306
+   },
+   "swallowing": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Basic biological function, too general for an emerging concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006306
+   },
+   "test retest reliability": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific statistical measure of measurement consistency over time.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006638
+   },
+   "testing method": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific procedure for evaluating or verifying something.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007842
+   },
+   "thermodynamic basis": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General scientific principles, not a specific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000665
+   },
+   "transformative potential": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A vague, non-specific phrase about potential in a broad context.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006425
+   },
+   "trin": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A botanical name, not a scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006207
+   },
+   "triple network": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of hydrogel network with a defined structure.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000619
+   },
+   "tunnel": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "A common engineering structure, too general to be an emerging concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006564
+   },
+   "under sampling algorithm": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific algorithm for handling imbalanced datasets in machine learning.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006273
+   },
+   "valuable contribution": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Evaluative phrase describing a contribution, not a reusable concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006505
+   },
+   "varying tacticity": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a property of a polymer, not a distinct concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006728
+   },
+   "verification": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "General term for checking accuracy, not a specific scientific concept.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006619
+   },
+   "vocational education": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific type of education focused on job skills.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006725
+   },
+   "weihe river basin": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific geographical and hydrological region, a defined area of study.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000665
+   },
+   "whole genome sequencing": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific and widely used method for DNA sequencing.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007694
+   },
+   "wireless ad hoc network": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of mobile communication network.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.000619
+   },
+   "year clinical medicine major": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a group of students, not a reusable scientific concept.",
+    "confidence": 2,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0008252
+   },
+   "© 2015 wiley periodical": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Copyright notice and publisher information.",
+    "confidence": 3,
+    "model": "google/gemini-2.5-flash-lite",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006086
+   }
+  },
+  "B": {
+   "adequate bone volume": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Medical term for bone volume relevant in clinical procedures.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006057
+   },
+   "agar well diffusion method": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Standard microbiological technique for antimicrobial activity testing.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.00064
+   },
+   "alpha fe 2 o": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A chemical compound and mineral form of iron oxide.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006596
+   },
+   "analyst ®": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A software product name used in analytical chemistry.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006996
+   },
+   "and commitment therapy": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A psychotherapy approach targeting psychological flexibility.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005928
+   },
+   "anti hiv drug": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A class of drugs targeting HIV, a specific medical concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006357
+   },
+   "authors ' conclusion": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Authors' conclusion is a study-specific statement, not a shared concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006403
+   },
+   "average queue length": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Technical term related to queueing theory and network congestion.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005944
+   },
+   "bed height": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A parameter in process engineering and environmental studies.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006408
+   },
+   "bee specy": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific bee species, a scientific entity.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006261
+   },
+   "bioethanol": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a biofuel type, a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007228
+   },
+   "biological pathway": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a biological process or pathway, a specific scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006502
+   },
+   "blog": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic term for online content platform",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006422
+   },
+   "cerebral infarction patient": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific disease condition in clinical context",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000608
+   },
+   "charcot marie tooth disease": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A hereditary neurological disorder, a specific disease entity.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006681
+   },
+   "choreography": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A term referring to a form of dance or movement art.",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006289
+   },
+   "civic engagement": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Social science concept related to civic participation.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0004048
+   },
+   "columnar mesophase": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific phase or structure in liquid crystal science.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000653
+   },
+   "complete supervision system": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic system setup, not a scientific concept",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005672
+   },
+   "constant rate infusion": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific medical infusion technique, a scientific/medical term.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006376
+   },
+   "copyright © 2006 john wiley": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Copyright statement, not a scientific concept",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005729
+   },
+   "critical discourse analysis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A recognized approach in discourse and text analysis in social sciences",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006424
+   },
+   "ctac haplotype": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a genetic haplotype, a specific genetic marker.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006275
+   },
+   "de ce numéro": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "French phrase meaning 'of this issue', not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006596
+   },
+   "deception research": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Discourse about deception research, not a specific scientific object.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006177
+   },
+   "densitometric detection": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A scientific detection method in analytical chemistry.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006055
+   },
+   "diffuse reflectance spectroscopy": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a spectroscopy technique, a scientific measurement method.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006694
+   },
+   "divisional based communication pattern": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific communication pattern, a technical term.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006528
+   },
+   "drug synthesis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Named process in pharmacology and chemistry",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006053
+   },
+   "ecc": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "ECC is an acronym for elliptic curve cryptography, a cryptographic method.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000663
+   },
+   "energy crisis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Names a global issue, a specific type of energy-related crisis.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006308
+   },
+   "external measurement": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of measurement in biology and ecology.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006011
+   },
+   "ezh2": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A gene/protein involved in epigenetic regulation.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000411
+   },
+   "failure of passive transfer": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific medical condition, a clinical concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006397
+   },
+   "firm efficiency": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Term for efficiency measure in business or economic context.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006125
+   },
+   "frontiers event": {
+    "label": "VARIANT_OF",
+    "variant_of": "academic event",
+    "rationale": "Surface variant of ",
+    "confidence": null,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0003686
+   },
+   "fuel spray geometrical parameters injection uniformity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific geometrical parameter related to fuel injection.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006552
+   },
+   "fuzzy logic controller": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A type of control system used in engineering and automation, a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006574
+   },
+   "gamma ray burst": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Names a specific astrophysical phenomenon studied in multiple papers.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006073
+   },
+   "golden rule": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a fundamental principle or guideline, a known concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006648
+   },
+   "gpus": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A class of hardware devices used in high-performance computing.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000615
+   },
+   "growth perspective": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Business strategy term, a specific perspective in decision-making.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005901
+   },
+   "h.264": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a video compression standard, a specific technology.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006275
+   },
+   "hartmann new way": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a person's name or a philosophical concept, not a scientific term.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006286
+   },
+   "host tissue": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a biological tissue involved in infection and immune response.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006339
+   },
+   "igneous protolith": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a geological term for a type of rock precursor.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006102
+   },
+   "industrial cluster": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific economic and industrial concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006173
+   },
+   "interest rate risk": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Financial risk type, relevant in economics and finance",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006404
+   },
+   "interleukin": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A biological molecule involved in immune response and inflammation.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006174
+   },
+   "international audience": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a type of audience, a social/scientific category.",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006163
+   },
+   "intra articular injection": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A medical procedure involving injections, a specific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000652
+   },
+   "investment opportunity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A general term for potential investment opportunities.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000633
+   },
+   "jawbone": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Anatomical structure studied in medical research",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000606
+   },
+   "jute": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a plant fiber used in materials science, a specific material.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007043
+   },
+   "kaempferol": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a flavonoid compound, a specific chemical entity.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007043
+   },
+   "landrace": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A breed or genetic variety of livestock or crop.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006369
+   },
+   "left ventricular assist device": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific medical device used in cardiology research.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006294
+   },
+   "lhc injection test": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A specific test related to particle accelerator operation.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006065
+   },
+   "mammalia": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A class of mammals, a scientific taxonomic group",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006726
+   },
+   "marie": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A personal name, not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006386
+   },
+   "mesoporosity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific material property related to porosity in materials science.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000653
+   },
+   "modified knapsack problem": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Optimization problem variant in computer science.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006038
+   },
+   "mouth profile": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific term for a dental or oral health measurement area.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006031
+   },
+   "mufa": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A class of fatty acids, a scientific term in nutrition",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006505
+   },
+   "nanostructured lipid carrier": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A nanocarrier used in drug delivery, a specific scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006379
+   },
+   "near optimal solution": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Describes a type of solution in optimization",
+    "confidence": 2,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000611
+   },
+   "neural network": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific type of neural network used in machine learning.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000628
+   },
+   "neural network algorithm": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Neural network-based method for data analysis and classification",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000595
+   },
+   "optimization methodology": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A set of systematic procedures for optimization in engineering or process design.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006678
+   },
+   "oxyl": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A chemical radical involved in signaling and biological processes.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007366
+   },
+   "pentraxin 3": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Pentraxin 3 is a specific protein involved in immune response.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007215
+   },
+   "population median cyp2d6 activity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Population median CYP2D6 activity as a genetic enzyme activity measure.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006722
+   },
+   "practical geological meaning": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic phrase, not a specific scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006011
+   },
+   "practice teaching system": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "An educational or training system.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005843
+   },
+   "punica granatum": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A plant species used in food and medicinal research.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000615
+   },
+   "reduced hour": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific measurement term, a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006354
+   },
+   "serum biomarker": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a type of biomarker, a scientific entity.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007228
+   },
+   "smart grid": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a type of electrical grid, a technical concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006721
+   },
+   "spin boson system": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A quantum physics model involving spin and bosons.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005843
+   },
+   "statistically significant ( chi 2": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Statistically significant chi-squared test is a common statistical concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0007215
+   },
+   "svg": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "File format and control method, a shared technical concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000604
+   },
+   "swallowing": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Behavioral process, not a specific scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000604
+   },
+   "test retest reliability": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Test-retest reliability as a measurement property",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000617
+   },
+   "testing method": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A general class of procedures for testing material or biological samples.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006678
+   },
+   "thermodynamic basis": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Fundamental scientific principle in thermodynamics.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006276
+   },
+   "transformative potential": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A broad but specific concept of transformative potential in various fields.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005818
+   },
+   "trin": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Short form of a scientific name, not a concept",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005823
+   },
+   "triple network": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific hydrogel network structure in materials science.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000628
+   },
+   "tunnel": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a type of tunnel, a physical structure, a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006214
+   },
+   "under sampling algorithm": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Sampling technique to address class imbalance in datasets",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000595
+   },
+   "valuable contribution": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Evaluation phrase about contribution, not a scientific concept.",
+    "confidence": 1,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006085
+   },
+   "varying tacticity": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Names a specific polymer tacticity characteristic studied in chemistry.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000644
+   },
+   "verification": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "A process of validation or confirmation in scientific or technical contexts.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006431
+   },
+   "vocational education": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Refers to a specific vocational education concept or program.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006491
+   },
+   "weihe river basin": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Geographical and hydrological entity, a specific basin.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006276
+   },
+   "whole genome sequencing": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Established scientific term for a genomic analysis method",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006423
+   },
+   "wireless ad hoc network": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific wireless ad hoc network standard in wireless communications.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.000628
+   },
+   "year clinical medicine major": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "A study cohort description, not a concept",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0006726
+   },
+   "© 2015 wiley periodical": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Copyright statement, not a scientific concept.",
+    "confidence": 3,
+    "model": "openai/gpt-4.1-nano",
+    "date": "2026-09-28",
+    "batch_cost": 0.0005901
+   }
+  }
+ },
+ "labels_adj": {
+  "silver_gold_200": [
+   "left ventricular assist device",
+   "fuzzy logic controller",
+   "wireless ad hoc network",
+   "vocational education",
+   "failure of passive transfer",
+   "ecc",
+   "punica granatum",
+   "drug synthesis",
+   "jute",
+   "kaempferol",
+   "landrace",
+   "smart grid",
+   "interest rate risk",
+   "verification",
+   "near optimal solution",
+   "clinical and radiographic examination",
+   "marie",
+   "© 2015 wiley periodical",
+   "thermodynamic basis",
+   "blog",
+   "gpus"
+  ],
+  "labels": {
+   "authors ' conclusion": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Boilerplate section heading, not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010937
+   },
+   "bed height": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic measurement parameter, not a reusable named scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010979
+   },
+   "bee specy": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific organism class (Hymenoptera) studied as reusable research subject.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010925
+   },
+   "blog": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic everyday object; not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010207
+   },
+   "cerebral infarction patient": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Study-specific patient cohort, not a reusable named entity.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01069
+   },
+   "civic engagement": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Broad social science construct, too general to be emerging concept.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010648
+   },
+   "clinical and radiographic examination": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic methodological procedure description, study-specific examination protocol.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010472
+   },
+   "drug synthesis": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic compositional phrase; 'drug synthesis' is a broad activity category, not a specific named concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.011045
+   },
+   "ecc": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Acronym for 'Early Childhood Caries', specific dental disease entity.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010648
+   },
+   "failure of passive transfer": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific veterinary/medical condition with defined diagnostic criteria.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010225
+   },
+   "frontiers event": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific product/service name, not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010472
+   },
+   "fuzzy logic controller": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific control technique/algorithm used in engineering applications.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010285
+   },
+   "gpus": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "GPUs are a ubiquitous hardware component used across all computational science.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010979
+   },
+   "interest rate risk": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific financial risk phenomenon studied across multiple contexts.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.0104
+   },
+   "international audience": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Publisher boilerplate metadata, not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010686
+   },
+   "investment opportunity": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic economic/business term; not a specific scientific concept or method.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010558
+   },
+   "jawbone": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Basic anatomical structure, too generic for emerging concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010564
+   },
+   "jute": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Jute is a specific plant material used in composites and agriculture research.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010905
+   },
+   "kaempferol": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Kaempferol is a specific flavonoid compound studied for bioactivity.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010905
+   },
+   "landrace": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Landrace is a specific pig breed/agricultural variety used in research.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010905
+   },
+   "left ventricular assist device": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific medical device/instrument with acronym; reusable across cardiac studies.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010538
+   },
+   "mammalia": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Taxonomic class (mammal order), too broad and fundamental.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.011135
+   },
+   "marie": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Person name used in study context or literary reference, not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.011135
+   },
+   "near optimal solution": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific algorithmic/optimization concept; reusable technical term.",
+    "confidence": 2,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010482
+   },
+   "punica granatum": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Punica granatum is a specific plant species studied for bioactive compounds and health effects.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010979
+   },
+   "smart grid": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Smart grid is a specific technological system for electrical distribution with named research applications.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010979
+   },
+   "statistically significant ( chi 2": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Statistical test result notation, not a reusable scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010686
+   },
+   "svg": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Technical file format acronym, not a scientific concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010925
+   },
+   "swallowing": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Basic physiological process studied across multiple disciplines; too fundamental and ubiquitous.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.011045
+   },
+   "thermodynamic basis": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Generic compositional phrase: 'thermodynamic' + 'basis'. Methodological descriptor.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010898
+   },
+   "transformative potential": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Evaluative descriptor; not a specific reusable scientific object or method.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01044
+   },
+   "tunnel": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Everyday structural entity; too basic and ubiquitous across engineering and science.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.006784
+   },
+   "verification": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Ubiquitous methodological term across all experimental science.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010335
+   },
+   "vocational education": {
+    "label": "TOO_GENERIC",
+    "variant_of": null,
+    "rationale": "Broad educational field/category, too general to be emerging concept.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.010648
+   },
+   "wireless ad hoc network": {
+    "label": "CONCEPT",
+    "variant_of": null,
+    "rationale": "Specific network architecture: decentralized wireless communication system without fixed infrastructure.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.011435
+   },
+   "© 2015 wiley periodical": {
+    "label": "NOT_CONCEPT",
+    "variant_of": null,
+    "rationale": "Publisher boilerplate copyright notice.",
+    "confidence": 3,
+    "model": "anthropic/claude-haiku-4.5",
+    "date": "2026-09-28",
+    "batch_cost": 0.01069
+   }
+  },
+  "note": "first 300 disagreements adjudicated in stage 'adjudicate', the remainder in 'adjudicate_extra'"
+ },
+ "split": {
+  "split": {
+   "adequate bone volume": "test",
+   "agar well diffusion method": "test",
+   "alpha fe 2 o": "train",
+   "and commitment therapy": "test",
+   "anti hiv drug": "test",
+   "authors ' conclusion": "train",
+   "average queue length": "train",
+   "bed height": "train",
+   "bee specy": "train",
+   "bioethanol": "train",
+   "biological pathway": "test",
+   "blog": "test",
+   "cerebral infarction patient": "train",
+   "charcot marie tooth disease": "test",
+   "choreography": "train",
+   "civic engagement": "train",
+   "clinical and radiographic examination": "test",
+   "columnar mesophase": "test",
+   "constant rate infusion": "train",
+   "copyright © 2006 john wiley": "test",
+   "critical discourse analysis": "train",
+   "de ce numéro": "train",
+   "diffuse reflectance spectroscopy": "test",
+   "drug synthesis": "test",
+   "ecc": "test",
+   "energy crisis": "test",
+   "ezh2": "test",
+   "failure of passive transfer": "test",
+   "firm efficiency": "train",
+   "frontiers event": "train",
+   "fuzzy logic controller": "test",
+   "gamma ray burst": "train",
+   "golden rule": "train",
+   "gpus": "test",
+   "h.264": "train",
+   "host tissue": "train",
+   "industrial cluster": "train",
+   "interest rate risk": "test",
+   "interleukin": "test",
+   "international audience": "train",
+   "intra articular injection": "train",
+   "investment opportunity": "train",
+   "jawbone": "train",
+   "jute": "test",
+   "kaempferol": "test",
+   "landrace": "test",
+   "left ventricular assist device": "test",
+   "mammalia": "train",
+   "marie": "test",
+   "mesoporosity": "train",
+   "mufa": "test",
+   "nanostructured lipid carrier": "test",
+   "near optimal solution": "test",
+   "neural network": "train",
+   "optimization methodology": "train",
+   "oxyl": "train",
+   "pentraxin 3": "train",
+   "practice teaching system": "test",
+   "punica granatum": "test",
+   "serum biomarker": "train",
+   "smart grid": "test",
+   "statistically significant ( chi 2": "train",
+   "svg": "train",
+   "swallowing": "train",
+   "test retest reliability": "train",
+   "testing method": "train",
+   "thermodynamic basis": "test",
+   "transformative potential": "test",
+   "trin": "train",
+   "tunnel": "train",
+   "valuable contribution": "train",
+   "verification": "test",
+   "vocational education": "test",
+   "weihe river basin": "train",
+   "whole genome sequencing": "train",
+   "wireless ad hoc network": "test",
+   "© 2015 wiley periodical": "test"
+  },
+  "cluster": {
+   "adequate bone volume": "c34",
+   "agar well diffusion method": "c44",
+   "alpha fe 2 o": "c54",
+   "and commitment therapy": "c63",
+   "anti hiv drug": "c70",
+   "authors ' conclusion": "c100",
+   "average queue length": "c103",
+   "bed height": "c118",
+   "bee specy": "c119",
+   "bioethanol": "c134",
+   "biological pathway": "c137",
+   "blog": "c148",
+   "cerebral infarction patient": "c202",
+   "charcot marie tooth disease": "c205",
+   "choreography": "c215",
+   "civic engagement": "c221",
+   "clinical and radiographic examination": "c225",
+   "columnar mesophase": "c248",
+   "constant rate infusion": "c272",
+   "copyright © 2006 john wiley": "c282",
+   "critical discourse analysis": "c302",
+   "de ce numéro": "c333",
+   "diffuse reflectance spectroscopy": "c367",
+   "drug synthesis": "c392",
+   "ecc": "c403",
+   "energy crisis": "c428",
+   "ezh2": "c465",
+   "failure of passive transfer": "c470",
+   "firm efficiency": "c487",
+   "frontiers event": "c13",
+   "fuzzy logic controller": "c523",
+   "gamma ray burst": "c524",
+   "golden rule": "c550",
+   "gpus": "c551",
+   "h.264": "c573",
+   "host tissue": "c609",
+   "industrial cluster": "c654",
+   "interest rate risk": "c679",
+   "interleukin": "c682",
+   "international audience": "c685",
+   "intra articular injection": "c693",
+   "investment opportunity": "c698",
+   "jawbone": "c715",
+   "jute": "c718",
+   "kaempferol": "c719",
+   "landrace": "c738",
+   "left ventricular assist device": "c750",
+   "mammalia": "c798",
+   "marie": "c802",
+   "mesoporosity": "c826",
+   "mufa": "c872",
+   "nanostructured lipid carrier": "c888",
+   "near optimal solution": "c900",
+   "neural network": "c905",
+   "optimization methodology": "c958",
+   "oxyl": "c979",
+   "pentraxin 3": "c1008",
+   "practice teaching system": "c1066",
+   "punica granatum": "c1089",
+   "serum biomarker": "c1211",
+   "smart grid": "c1238",
+   "statistically significant ( chi 2": "c1275",
+   "svg": "c1313",
+   "swallowing": "c1314",
+   "test retest reliability": "c1340",
+   "testing method": "c1342",
+   "thermodynamic basis": "c1353",
+   "transformative potential": "c1375",
+   "trin": "c1381",
+   "tunnel": "c1385",
+   "valuable contribution": "c1415",
+   "verification": "c1424",
+   "vocational education": "c1438",
+   "weihe river basin": "c1448",
+   "whole genome sequencing": "c1450",
+   "wireless ad hoc network": "c1455",
+   "© 2015 wiley periodical": "c1484"
+  }
+ }
+}
