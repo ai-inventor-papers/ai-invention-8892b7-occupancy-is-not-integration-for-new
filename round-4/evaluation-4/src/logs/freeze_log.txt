@@ -1,0 +1,5 @@
+40f6e55ff357d669e31b4ac5564bc1445899722554dff729c977ce73b04622bc  results/power_mde.json
+2026-09-29T07:10:51.525659+00:00 mesh_spec.json sha256 4847309e2b2e825167930fabab6b19b11830c2a2fa867d92e9f351ec5c3e0882 (frozen before any MeSH typology/lead-lag/role output)
+2026-09-29T07:11:30.683066+00:00 rooting_spec.json sha256 4ce330d378e06db7dd596fd356ffb5fd19e9f08b0cd921d520643a8619012b6a (frozen before any type x rooting number)
+2026-09-29T07:16:48.224215+00:00 mesh_spec.json sha256 59939626284fb9d8cad6c80e344652ff976e09362027f95dc1bef46d2a685e22 (frozen before any MeSH typology/lead-lag/role output)
+(v2 re-freeze: adapter I/O parsing fix -- bool metadata + list authorships + PubMed-route definition -- before any MeSH typology/lead-lag/role output; v1 kept as results/mesh_spec_v1_superseded.json)
