@@ -1,0 +1,13 @@
+{
+  "seed": 20260928,
+  "track_L_novel_available": 7879,
+  "track_L_nonnovel_available": 86848,
+  "track_L_selected_novel": 1200,
+  "track_L_selected_nonnovel_supplement": 300,
+  "track_P_available": 517751,
+  "track_P_cvalue_q25": 1.585,
+  "track_P_above_q25": 463737,
+  "track_P_selected": 3099,
+  "audit_arm": 100,
+  "n_keys_total": 1220464
+}

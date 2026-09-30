@@ -1,0 +1,20 @@
+entries:
+- path: works/
+  keep: credit-bought, frozen-frame hydrated OpenAlex works table (D2); not free to regenerate
+- path: work_store/
+  keep: hydrated work store (hours of free-singleton hydration); lets assemble.py rebuild D2/D3 offline
+- path: snapshot_entities/
+  delete: redownloadable
+  source: uv run download_snapshot.py  (aws s3 sync --no-sign-request s3://openalex/data/parquet/<entity>)
+- path: mesh_raw/
+  delete: redownloadable
+  source: curl -o mesh_raw/desc2026.gz https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz
+- path: arxiv_raw/
+  delete: redownloadable
+  source: uv run fetch_arxiv.py  (HF dataset librarian-bots/arxiv-metadata-snapshot, parquet conversion)
+- path: .venv/
+  delete: redownloadable
+  source: uv venv .venv --python=3.12 && uv pip install -r pyproject.toml
+- path: __pycache__/
+  delete: regenerable
+  source: python bytecode cache; recreated automatically by running any script (e.g. uv run assemble.py)
