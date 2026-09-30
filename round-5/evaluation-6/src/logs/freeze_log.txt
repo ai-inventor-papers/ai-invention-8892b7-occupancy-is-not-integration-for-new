@@ -1,2 +1,0 @@
-2026-09-29T09:32:18Z FROZEN k13_spec.json sha256=2435f909758bfab445fc28adab7b99efb5e4eed44a9f0e9b7377c1a470ddbbd5 (before any K coefficient)
-2026-09-29T09:35:33Z smoke run on synthetic NB2 outcome passed (results/smoke/). Code change after freeze: k/k_run.py run_k3() result-dict construction simplified (contrast CI filled from the contrast row); no estimator, sample or rule change

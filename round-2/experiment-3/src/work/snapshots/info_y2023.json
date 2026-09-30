@@ -1,1 +1,0 @@
-{"year": 2023, "n_works": 28234, "n_nodes": 27075, "n_edges": 517942, "n_kept_edges": 98514, "n_kept_nodes": 13289, "n_comm": 295, "n_comm_ge5": 97, "modularity": 0.9418835201050155, "Wtot": 19118805.752008617, "btw_nodes": 13429, "btw_edges": 130068, "secs": 60.4, "n_pool_active": 140, "n_pool_pool_edges": 96}
