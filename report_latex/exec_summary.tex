@@ -1,0 +1,95 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, booktabs, xcolor, tabularx}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\tolerance=1500
+\emergencystretch=1em
+
+\title{Executive Summary\\[0.5em]\large Open Neighbourhoods Precede Concept Spread:\\Structural Antecedents and Cross-Disciplinary Diffusion\\of Emerging Scientific Concepts}
+\author{}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section*{Research Questions and Data}
+
+This study investigates how emerging scientific concepts spread across disciplinary boundaries. Two research questions structure the work:
+
+\begin{itemize}
+\item[\textbf{RQ1}] Which temporal and structural patterns in an evolving scientific knowledge graph characterise concept emergence?
+\item[\textbf{RQ2}] How do emerging concepts diffuse across disciplinary communities, and which network patterns distinguish locally concentrated from broadly integrated concepts?
+\end{itemize}
+
+The study uses 426 semantically grounded concepts and 462,812 works from OpenAlex. The main pool of 366 concepts is split into a 247-concept screen fold and a 119-concept held-out fold; a separate 191-concept MeSH population provides independent replication. Twenty-five yearly co-occurrence network snapshots (${\sim}$27,000 nodes, ${\sim}$84,000 edges) are constructed with Leiden community detection.
+
+\section*{Key Findings}
+
+\subsection*{1.\ Host-Entry Grafting Predicts Durable Integration (RQ2 --- Confirmed)}
+
+When a concept enters a new host subfield, the share of its initial co-occurrence partners that are native to that host predicts subsequent uptake by newcomer authors. The effect replicates across all folds:
+
+\begin{table}[!htbp]
+\centering
+{\small
+\begin{tabular}{lrrr}
+\toprule
+Fold & IRR/SD & 95\% CI & $p$ \\
+\midrule
+Screen (co-primary) & 1.30 & [1.16, 1.45] & $10^{-5}$ \\
+Held-out (co-primary) & 1.19 & [1.06, 1.33] & 0.004 \\
+MeSH (co-primary) & 1.23 & [1.12, 1.36] & $<0.001$ \\
+IVW pooled & 1.26 & [1.17, 1.36] & -- \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+Co-transfer (arriving with origin companions) is null across all specifications.
+
+The effect operates through \textbf{both margins}: host-leaning entry vocabulary raises the probability that uptake starts (extensive, IVW $+6.43$ pp/SD) and its magnitude given it has started (intensive, IVW IRR/SD 1.183). It is \textbf{host-specific} (generality controls leave the coefficient unchanged; IVW retention 0.969) and shows \textbf{no field boundary} (Wald $p = 0.638$). The mechanism is host-vocabulary: topic-score controls absorb only $-7.3\%$ of the log-IRR (CI includes zero).
+
+\subsection*{2.\ Persistent-Neighbour Closure Before Emergence (RQ1 --- Partially Confirmed)}
+
+The primary closure measure did not survive held-out confirmation (R1\_DEAD: Holm $p = 0.147$). However, \textbf{persistent-neighbour closure} --- triadic closure among stable top-20 associates --- is confirmed: held-out $S = -1.07$ [$-1.86$, $-0.29$], Holm $p = 0.015$. The effect is not Burt brokerage (constraint is higher, not lower, on both folds).
+
+\subsection*{3.\ Diffusion Typology}
+
+Only $k = 2$ is stable (min Jaccard 0.861): \textbf{localised} ($n = 136$) concepts stay near-monopolised by a single subfield, and \textbf{broad-from-the-start} ($n = 66$) concepts split across subfields from their first window. Finer typologies are unstable. In 25 of 26 pooled main-arm dual-onset concepts, network expansion precedes disciplinary diffusion.
+
+\section*{Dead Ends}
+
+\begin{itemize}
+\item \textbf{Source-sink viability.} Blocked by Gate~A failure: only 17.3\% of host edges meet the within-host citation tracing threshold (vs 64.2\% under lenient any-parent tracing).
+\item \textbf{Breadth prediction.} Openness does not predict where concepts travel beyond growth baselines (all Holm $p = 0.405$).
+\item \textbf{Closure-anchoring link.} No detectable association between pre-emergence closure and later host-entry anchoring (partial $\rho = 0.049$, $p = 0.56$).
+\item \textbf{Co-transfer.} Null across all folds and populations.
+\item \textbf{Community roles.} BRIDGE role does not predict host entry (OR 0.64 [0.38, 1.08]).
+\end{itemize}
+
+\section*{Caveats and Open Questions}
+
+\begin{enumerate}
+\item The concept pool is dominated by physics, physical sciences, and computer science; social sciences and humanities are untested.
+\item The primary specification (concept $\times$ entry-year + host $\times$ entry-year FE) remains inconclusive on the held-out fold (IRR/SD 0.98, $G = 30$ clusters).
+\item 87\% of co-primary events are single-paper entries; on the held-out fold, the single-paper interaction ratio is 0.80 ($p = 0.004$).
+\item The binary establishment threshold (EST\_bin) is null on held-out ($p = 0.165$).
+\item The study design is observational; host-nativeness of entry partners is not randomly assigned.
+\item CRV1 rejection rate under the null is anti-conservative (17.5\%); wild-cluster bootstrap $p = 0.012$ on the held-out fold.
+\end{enumerate}
+
+\section*{Adopter-Level Mechanism}
+
+Adopters are 3.1$\times$ more likely than matched non-adopters to have prior exposure to the concept's entry partners (OR 3.09 [2.32, 4.28]). The gradient runs FOREIGN $>$ ADJACENT $>$ NATIVE (OR 2.88 $>$ 1.91 $>$ 1.47). This runs opposite to the entry-level finding: at the entry level, host-native partners lower the barrier for newcomers lacking origin expertise; at the adopter level, those who adopt tend to have origin expertise already.
+
+\section*{Run Summary}
+
+Five iterations produced 25 artifacts (5 datasets, 9 experiments, 9 evaluations, 2 research dossiers). A full numerical audit (Iteration~5) verified 99.4\% curated-number accuracy (319 numbers) and closed all 6 major reviewer critiques. The target venue is Applied Network Science.
+
+\end{document}
