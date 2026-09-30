@@ -1,0 +1,12 @@
+variable,vif,note
+closure_res_z,1.0750299490752675,
+H_W1,5.363526944197147,
+n_active_W1,4.525804308664026,
+log_vol_W1,2.6419446787044034,
+momentum,1.5236913473179996,
+GEB,3.0600536358772534,
+burst_state,1.4716630527491876,
+rafols_coh_f,1.5273899433106308,
+coh_missing,1.1733399582154387,
+P_rar_f,1.1731204893299418,
+P_rar_missing,,constant on these rows (dropped from the design)
