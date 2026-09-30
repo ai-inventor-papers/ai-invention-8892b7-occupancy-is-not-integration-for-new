@@ -1,0 +1,39 @@
+{
+ "metadata": {
+  "description": "first concept-work rows of works/works_part_XX.jsonl.gz (heldout_mesh_works)"
+ },
+ "datasets": [
+  {
+   "dataset": "heldout_mesh_works",
+   "examples": [
+    {
+     "input": "{\"indexing_regime\":\"manual_or_assisted\",\"work_id\":14534277,\"pmid\":24737036,\"doi\":\"10.1007/s00115-013-3986-2\",\"publication_year\":2014,\"publication_date\":\"2014-04-15\",\"type\":\"article\",\"language\":\"de\",\"primary_topic\":{\"topic_id\":10853,\"subfield_id\":3205,\"field_id\":32,\"domain_id\":2},\"venue\":{\"source_id\":62507270,\"source_type\":\"journal\",\"issn_l\":\"0028-2804\"},\"referenced_works\":[590294481,590855027,1734858766,1920633325,2025118707,2028115156,2034358032,2054907019,2070459871,2104797673,2109019333,2118211183,2119659422,2120332001,2130864844,2132418349,2132817439,2143079263,2145488239,2147152064,2149395005,2157741754,2163463292,2172231496,2401334002,2482134243,2560369694,4239211386,4405070066,4405071372,4405072364],\"authorships\":[{\"author_id\":5080980894,\"institution_ids\":[4210164182,78650965],\"author_position\":\"first\"},{\"author_id\":5010172928,\"institution_ids\":[4210164182,78650965],\"author_position\":\"middle\"},{\"author_id\":5003377818,\"institution_ids\":[4210164182,78650965],\"author_position\":\"last\"}],\"keywords\":[{\"id\":\"psychosomatic-medicine\",\"score\":0.46},{\"id\":\"psychology\",\"score\":0.44},{\"id\":\"medicine\",\"score\":0.42},{\"id\":\"psychotherapist\",\"score\":0.28}],\"concepts\":[{\"id\":2780414609,\"level\":2,\"score\":0.46},{\"id\":15744967,\"level\":0,\"score\":0.44},{\"id\":71924100,\"level\":0,\"score\":0.42}],\"cited_by_count\":18,\"has_abstract\":false,\"mesh\":[{\"descriptor_ui\":\"D001008\",\"is_major_topic\":false},{\"descriptor_ui\":\"D006801\",\"is_major_topic\":false},{\"descriptor_ui\":\"D008370\",\"is_major_topic\":false},{\"descriptor_ui\":\"D011569\",\"is_major_topic\":false},{\"descriptor_ui\":\"D011570\",\"is_major_topic\":false},{\"descriptor_ui\":\"D014481\",\"is_major_topic\":false},{\"descriptor_ui\":\"D017408\",\"is_major_topic\":true},{\"descriptor_ui\":\"D039721\",\"is_major_topic\":true}],\"indexed_in\":[\"crossref\",\"pubmed\"]}",
+     "output": "{\"concept_id\":\"mesh:D000068099\",\"match_route\":\"pubmed_tiab\",\"verified_text_match\":false,\"match_field\":\"none_local\",\"matched_forms\":[],\"descriptor_indexed_openalex\":false,\"descriptor_indexed_pubmed\":false}",
+     "metadata_fold": "heldout_mesh",
+     "metadata_concept_id": "mesh:D000068099",
+     "metadata_work_id": 14534277,
+     "metadata_publication_year": 2014,
+     "metadata_row_index": 0
+    },
+    {
+     "input": "{\"indexing_regime\":\"manual_or_assisted\",\"work_id\":118531466,\"pmid\":23198593,\"doi\":null,\"publication_year\":2012,\"publication_date\":\"2012-01-01\",\"type\":\"other\",\"language\":\"en\",\"primary_topic\":{\"topic_id\":13283,\"subfield_id\":3205,\"field_id\":32,\"domain_id\":2},\"venue\":{\"source_id\":4306525036,\"source_type\":\"repository\",\"issn_l\":null},\"referenced_works\":[],\"authorships\":[{\"author_id\":5065387422,\"institution_ids\":[42405503],\"author_position\":\"first\"}],\"keywords\":[{\"id\":\"agoraphobia\",\"score\":0.9},{\"id\":\"panic-disorder\",\"score\":0.85},{\"id\":\"anxiety\",\"score\":0.72},{\"id\":\"psychiatry\",\"score\":0.65},{\"id\":\"panic\",\"score\":0.56},{\"id\":\"generalized-anxiety-disorder\",\"score\":0.55},{\"id\":\"psychology\",\"score\":0.55},{\"id\":\"prevalence-of-mental-disorders\",\"score\":0.53},{\"id\":\"anxiety-disorder\",\"score\":0.48},{\"id\":\"clinical-psychology\",\"score\":0.43},{\"id\":\"adjustment-disorders\",\"score\":0.43}],\"concepts\":[{\"id\":2778678127,\"level\":4,\"score\":0.9},{\"id\":2777529043,\"level\":3,\"score\":0.85},{\"id\":558461103,\"level\":2,\"score\":0.72},{\"id\":118552586,\"level\":1,\"score\":0.65},{\"id\":2780712732,\"level\":3,\"score\":0.56},{\"id\":2779911313,\"level\":3,\"score\":0.55},{\"id\":15744967,\"level\":0,\"score\":0.55},{\"id\":145734003,\"level\":3,\"score\":0.53},{\"id\":2776317618,\"level\":3,\"score\":0.48},{\"id\":70410870,\"level\":1,\"score\":0.43},{\"id\":2781152799,\"level\":3,\"score\":0.43}],\"cited_by_count\":0,\"has_abstract\":true,\"mesh\":[{\"descriptor_ui\":\"D000379\",\"is_major_topic\":true},{\"descriptor_ui\":\"D003866\",\"is_major_topic\":false},{\"descriptor_ui\":\"D003937\",\"is_major_topic\":false},{\"descriptor_ui\":\"D006801\",\"is_major_topic\":false},{\"descriptor_ui\":\"D009771\",\"is_major_topic\":true},{\"descriptor_ui\":\"D016584\",\"is_major_topic\":true},{\"descriptor_ui\":\"D039721\",\"is_major_topic\":false}],\"indexed_in\":[\"pubmed\"]}",
+     "output": "{\"concept_id\":\"mesh:D000068099\",\"match_route\":\"pubmed_tiab\",\"verified_text_match\":true,\"match_field\":\"abstract\",\"matched_forms\":[\"Trauma and Stressor Related Disorders\"],\"descriptor_indexed_openalex\":false,\"descriptor_indexed_pubmed\":false}",
+     "metadata_fold": "heldout_mesh",
+     "metadata_concept_id": "mesh:D000068099",
+     "metadata_work_id": 118531466,
+     "metadata_publication_year": 2012,
+     "metadata_row_index": 1
+    },
+    {
+     "input": "{\"indexing_regime\":\"manual_or_assisted\",\"work_id\":356304235,\"pmid\":null,\"doi\":null,\"publication_year\":2014,\"publication_date\":\"2014-01-01\",\"type\":\"article\",\"language\":\"ja\",\"primary_topic\":{\"topic_id\":14313,\"subfield_id\":3203,\"field_id\":32,\"domain_id\":2},\"venue\":{\"source_id\":4306543744,\"source_type\":\"journal\",\"issn_l\":null},\"referenced_works\":[],\"authorships\":[{\"author_id\":5049744907,\"institution_ids\":[],\"author_position\":\"first\"}],\"keywords\":[{\"id\":\"stressor\",\"score\":0.71},{\"id\":\"psychology\",\"score\":0.41},{\"id\":\"psychiatry\",\"score\":0.29}],\"concepts\":[{\"id\":125370674,\"level\":2,\"score\":0.71},{\"id\":15744967,\"level\":0,\"score\":0.41}],\"cited_by_count\":0,\"has_abstract\":false,\"mesh\":[],\"indexed_in\":[]}",
+     "output": "{\"concept_id\":\"mesh:D000068099\",\"match_route\":\"openalex_nonpubmed_search\",\"verified_text_match\":true,\"match_field\":\"title\",\"matched_forms\":[\"Trauma and Stressor Related Disorders\"],\"descriptor_indexed_openalex\":false,\"descriptor_indexed_pubmed\":false}",
+     "metadata_fold": "heldout_mesh",
+     "metadata_concept_id": "mesh:D000068099",
+     "metadata_work_id": 356304235,
+     "metadata_publication_year": 2014,
+     "metadata_row_index": 2
+    }
+   ]
+  }
+ ]
+}

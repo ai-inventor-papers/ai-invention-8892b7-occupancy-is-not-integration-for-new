@@ -1,0 +1,79 @@
+{
+ "green low carbon": {
+  "n_works": 0,
+  "search_precision_exact_surface": null,
+  "low_precision": false,
+  "truncated": false,
+  "status": "budget_stopped"
+ },
+ "image proplus software": {
+  "n_works": 28,
+  "search_precision_exact_surface": 1.0,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete_or_batched"
+ },
+ "digital watermark insertion": {
+  "n_works": 8,
+  "search_precision_exact_surface": 1.0,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete_or_batched"
+ },
+ "cut anddried answer": {
+  "n_works": 14,
+  "search_precision_exact_surface": 1.0,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete_or_batched"
+ },
+ "lottery choice experiment": {
+  "n_works": 35,
+  "search_precision_exact_surface": 1.0,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete_or_batched"
+ },
+ "cfh mutation": {
+  "n_works": 57,
+  "search_precision_exact_surface": 0.614,
+  "low_precision": true,
+  "truncated": false,
+  "status": "complete"
+ },
+ "fiescherhorn glacier": {
+  "n_works": 12,
+  "search_precision_exact_surface": 1.0,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete_or_batched"
+ },
+ "ws pgrade": {
+  "n_works": 94,
+  "search_precision_exact_surface": 0.8617,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete"
+ },
+ "senegalese healthcare system": {
+  "n_works": 16,
+  "search_precision_exact_surface": 1.0,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete_or_batched"
+ },
+ "normal dispersion photonic crystal fiber": {
+  "n_works": 54,
+  "search_precision_exact_surface": 0.963,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete"
+ },
+ "vitro cadaveric study": {
+  "n_works": 45,
+  "search_precision_exact_surface": 0.9778,
+  "low_precision": false,
+  "truncated": false,
+  "status": "complete_or_batched"
+ }
+}
