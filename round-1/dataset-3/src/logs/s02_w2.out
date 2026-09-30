@@ -1,0 +1,67 @@
+12:45:11|INFO   |Pre-screening 868 descriptors
+12:45:12|INFO   |Step A: 4144 cached, 868 to query
+12:46:42|INFO   |Step A progress 200/868 calls=200 retries=0
+12:48:10|WARNING|esearch HTTP 502: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#f
+12:48:13|INFO   |Step A progress 400/868 calls=401 retries=1
+12:49:43|INFO   |Step A progress 600/868 calls=601 retries=1
+12:51:13|INFO   |Step A progress 800/868 calls=801 retries=1
+12:51:33|WARNING|esearch HTTP 502: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#f
+12:51:35|WARNING|esearch HTTP 502: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#f
+12:51:36|WARNING|esearch HTTP 502: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#f
+12:51:45|INFO   |Step A progress 868/868 calls=872 retries=4
+12:51:45|INFO   |PMID-date prune dropped 316; 433 go to exact yearly counts
+12:51:45|INFO   |After totals: keep 433 (big 52, small 67)
+12:51:45|INFO   |Step B: 0 descriptors covered by 0 cached chunks; 433 need new chunks
+12:51:45|INFO   |Step B: 433 descriptors in 31 chunks x 24 years
+12:51:45|INFO   |Step B: 744 calls remaining
+12:52:24|WARNING|esearch HTTP 502: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#f
+12:52:53|INFO   |Step B progress 150/744 calls=1023 retries=5
+12:53:14|WARNING|esearch HTTP 502: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#f
+12:53:31|WARNING|esearch HTTP 502: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#f
+12:54:02|INFO   |Step B progress 300/744 calls=1175 retries=7
+12:54:07|WARNING|esearch HTTP 502: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#f
+12:55:10|INFO   |Step B progress 450/744 calls=1326 retries=8
+12:56:18|INFO   |Step B progress 600/744 calls=1476 retries=8
+12:57:22|INFO   |Step B progress 744/744 calls=1620 retries=8
+12:57:23|INFO   |E-utilities calls: 1620, retries 8
+12:57:23|INFO   |Pre-screen outcomes: {'pass': 133, 'fail_F_window': 250, 'fail_F_window_pmid_prune': 316, 'fail_early_volume': 49, 'fail_total_gt_9999': 52, 'fail_total_lt_15': 67, 'fail_total_cap': 1}
