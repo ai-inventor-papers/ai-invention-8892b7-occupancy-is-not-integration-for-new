@@ -1,0 +1,18 @@
+{
+ "singleton": {
+  "status": 200,
+  "x-ratelimit-remaining": "0",
+  "x-ratelimit-credits-used": "0",
+  "x-ratelimit-limit": "10000",
+  "x-ratelimit-reset": "11348"
+ },
+ "group_by": {
+  "status": 429,
+  "x-ratelimit-remaining": "0",
+  "x-ratelimit-credits-used": null,
+  "x-ratelimit-limit": "10000",
+  "x-ratelimit-reset": "11348",
+  "body": "{\"error\":\"Rate limit exceeded\",\"message\":\"Insufficient budget. This request costs $0.0001 but you only have $0 remaining. Resets at midnight UTC. Need more? Add funds at https://openalex.org/pricing\","
+ },
+ "utc": "2026-09-28T20:50:52.618759+00:00"
+}
