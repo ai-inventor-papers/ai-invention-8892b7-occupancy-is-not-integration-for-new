@@ -1,0 +1,602 @@
+[
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "CRV1 Wald p, held-out co-primary A_cont",
+  "field": "cav.ho_crv1_p",
+  "key": "cav.ho_crv1_p",
+  "value": 0.004487870758267072,
+  "display_string": "0.004",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/p_A"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Holm-adjusted p (A_cont, CT family), held-out",
+  "field": "cav.ho_holm",
+  "key": "cav.ho_holm",
+  "value": 0.008975741516534144,
+  "display_string": "0.009",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/d2/results/heldout_confirmation.json",
+  "selector": {
+   "json_pointer": "/decision_secondary/holm_p/A_cont"
+  },
+  "sha256": "4100e3cf849feabdc7fcf90ecd7deb39afc98661ab231e60286b17e25694b3d6",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Wild cluster bootstrap p, held-out",
+  "field": "cav.ho_wild",
+  "key": "cav.ho_wild",
+  "value": 0.012,
+  "display_string": "0.012",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/p_wild_A"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Nativeness-permutation placebo p (500 draws), held-out",
+  "field": "cav.ho_nat_perm",
+  "key": "cav.ho_nat_perm",
+  "value": 0.02594810379241517,
+  "display_string": "0.026",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/nativeness_permutation_placebo/secondary/perm_p_two_sided_z"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Placebo-calibrated p (screen SD / held-out SD)",
+  "field": "cav.ho_plac_cal_screen",
+  "key": "cav.ho_plac_cal_screen",
+  "value": 0.033896597954134654,
+  "display_string": "0.034",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/p_placebo_cal_screenSD"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Placebo-calibrated p (screen SD / held-out SD)",
+  "field": "cav.ho_plac_cal_heldout",
+  "key": "cav.ho_plac_cal_heldout",
+  "value": 0.023770952352805453,
+  "display_string": "0.024",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/p_placebo_cal_heldoutSD"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Within-concept A-shuffle permutation p (200 draws)",
+  "field": "cav.ho_ashuffle_perm",
+  "key": "cav.ho_ashuffle_perm",
+  "value": 0.04975124378109453,
+  "display_string": "0.050",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/audit/audit_perm.json",
+  "selector": {
+   "json_pointer": "/perm_p_two_sided"
+  },
+  "sha256": "631d5993985e5445307878ea86d11b49b31290e7ae44722427f75756259a2151",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "CRV1 null rejection rate at alpha 0.05 (A-shuffle draws)",
+  "field": "cav.ho_crv1_null_rej",
+  "key": "cav.ho_crv1_null_rej",
+  "value": 0.175,
+  "display_string": "17.5%",
+  "format": ".1%",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/audit/audit_perm.json",
+  "selector": {
+   "json_pointer": "/share_crv1_p_lt_0.05"
+  },
+  "sha256": "631d5993985e5445307878ea86d11b49b31290e7ae44722427f75756259a2151",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "MeSH CRV1 null size at 0.05 / size-calibrated p",
+  "field": "cav.mesh_crv1_null_size",
+  "key": "cav.mesh_crv1_null_size",
+  "value": 0.105,
+  "display_string": "0.105",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/size_calibration_post_hoc/null_size_at_0.05"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "MeSH CRV1 null size at 0.05 / size-calibrated p",
+  "field": "cav.mesh_size_cal_p",
+  "key": "cav.mesh_size_cal_p",
+  "value": 0.004975124378109453,
+  "display_string": "0.005",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/size_calibration_post_hoc/calibrated_p_R2"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "MeSH nativeness-permutation placebo p (R2)",
+  "field": "cav.mesh_nat_perm",
+  "key": "cav.mesh_nat_perm",
+  "value": 0.009950248756218905,
+  "display_string": "0.010",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/placebo_mesh.json",
+  "selector": {
+   "json_pointer": "/R2/perm_p_two_sided_z"
+  },
+  "sha256": "c3586f99c5136228e16fe641da75a49ef4e8fd0d2ef64e02f8f9695e84d41e86",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Screen-vs-held-out heterogeneity p (co-primary / primary)",
+  "field": "cav.het_co",
+  "key": "cav.het_co",
+  "value": 0.25070113732097643,
+  "display_string": "0.25",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/heterogeneity_screen_vs_heldout/p"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Screen-vs-held-out heterogeneity p (co-primary / primary)",
+  "field": "cav.het_pri",
+  "key": "cav.het_pri",
+  "value": 0.17177148545002463,
+  "display_string": "0.17",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/heterogeneity_screen_vs_heldout/p"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "EST_bin LPM p for A_cont, held-out (co-primary / primary)",
+  "field": "cav.estbin_co",
+  "key": "cav.estbin_co",
+  "value": 0.16511976884533697,
+  "display_string": "0.165",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/EST_bin_LPM/secondary/p/A_cont"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "EST_bin LPM p for A_cont, held-out (co-primary / primary)",
+  "field": "cav.estbin_pri",
+  "key": "cav.estbin_pri",
+  "value": 0.9965077394361133,
+  "display_string": "0.997",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/EST_bin_LPM/primary/p/A_cont"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Out-of-sample deviance, with minus controls-only (main held-out)",
+  "field": "cav.oos_main",
+  "key": "cav.oos_main",
+  "value": -0.5036809104007052,
+  "display_string": "-0.50",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/oos/deviance_diff_with_minus_controls"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Out-of-sample deviance, with minus controls-only (main held-out)",
+  "field": "cav.oos_main_lo",
+  "key": "cav.oos_main_lo",
+  "value": -1.2422698622367032,
+  "display_string": "-1.24",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/oos/ci95_concept_bootstrap/0"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Out-of-sample deviance, with minus controls-only (main held-out)",
+  "field": "cav.oos_main_hi",
+  "key": "cav.oos_main_hi",
+  "value": 0.016149168764967737,
+  "display_string": "0.02",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/oos/ci95_concept_bootstrap/1"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Out-of-fold deviance, method minus baseline (MeSH)",
+  "field": "cav.oos_mesh",
+  "key": "cav.oos_mesh",
+  "value": -0.1458922584200235,
+  "display_string": "-0.146",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/oos/deviance_diff_method_minus_baseline"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Out-of-fold deviance, method minus baseline (MeSH)",
+  "field": "cav.oos_mesh_lo",
+  "key": "cav.oos_mesh_lo",
+  "value": -0.30599122150313196,
+  "display_string": "-0.306",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/oos/deviance_diff_ci95_concept_bootstrap/0"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Out-of-fold deviance, method minus baseline (MeSH)",
+  "field": "cav.oos_mesh_hi",
+  "key": "cav.oos_mesh_hi",
+  "value": -0.007987409677256498,
+  "display_string": "-0.008",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/oos/deviance_diff_ci95_concept_bootstrap/1"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Screen robustness recount: significant / rows with an A term",
+  "field": "cav.rob_sig",
+  "key": "cav.rob_sig",
+  "value": 20,
+  "display_string": "20",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/robustness_recount.json",
+  "selector": {
+   "json_pointer": "/secondary/n_significant"
+  },
+  "sha256": "8ae3caa1207f99489d7fae4525cbd9a09f78b7529a62525fe9b662268c99df94",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Screen robustness recount: significant / rows with an A term",
+  "field": "cav.rob_n",
+  "key": "cav.rob_n",
+  "value": 26,
+  "display_string": "26",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/robustness_recount.json",
+  "selector": {
+   "json_pointer": "/secondary/n_rows_with_A"
+  },
+  "sha256": "8ae3caa1207f99489d7fae4525cbd9a09f78b7529a62525fe9b662268c99df94",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Screen robustness recount excl. base and field strata",
+  "field": "cav.rob_sig_ex",
+  "key": "cav.rob_sig_ex",
+  "value": 18,
+  "display_string": "18",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/robustness_recount.json",
+  "selector": {
+   "json_pointer": "/secondary/n_significant_excl_base_and_strata"
+  },
+  "sha256": "8ae3caa1207f99489d7fae4525cbd9a09f78b7529a62525fe9b662268c99df94",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Screen robustness recount excl. base and field strata",
+  "field": "cav.rob_n_ex",
+  "key": "cav.rob_n_ex",
+  "value": 22,
+  "display_string": "22",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/robustness_recount.json",
+  "selector": {
+   "json_pointer": "/secondary/n_rows_excl_base_and_strata"
+  },
+  "sha256": "8ae3caa1207f99489d7fae4525cbd9a09f78b7529a62525fe9b662268c99df94",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Held-out co-primary spec rows significant (excl. strata)",
+  "field": "cav.ho_spec_rows_sig",
+  "key": "cav.ho_spec_rows_sig",
+  "value": 7.0,
+  "display_string": "7",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_robustness.csv",
+  "selector": {
+   "csv_count": {
+    "filters": {
+     "fe": "secondary"
+    },
+    "exclude_regex": {
+     "spec": "^stratum"
+    },
+    "lt": {
+     "p_A": 0.05
+    },
+    "gt": {
+     "irr_sd_A_lo": 1.0
+    }
+   }
+  },
+  "sha256": "094fe4a0da0c28cb1b91d80a469f6ff0ec2628af7a05ceade88698acbaef0a08",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Held-out co-primary spec rows significant (excl. strata)",
+  "field": "cav.ho_spec_rows_n",
+  "key": "cav.ho_spec_rows_n",
+  "value": 7.0,
+  "display_string": "7",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_robustness.csv",
+  "selector": {
+   "csv_count": {
+    "filters": {
+     "fe": "secondary"
+    },
+    "exclude_regex": {
+     "spec": "^stratum"
+    }
+   }
+  },
+  "sha256": "094fe4a0da0c28cb1b91d80a469f6ff0ec2628af7a05ceade88698acbaef0a08",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Screen wild p / nativeness-permutation p (co-primary)",
+  "field": "cav.scr_wild",
+  "key": "cav.scr_wild",
+  "value": 0.001,
+  "display_string": "0.001",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/A_cont/p_wild"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "caveats",
+  "panel": "table",
+  "row": "Screen wild p / nativeness-permutation p (co-primary)",
+  "field": "cav.scr_nat_perm",
+  "key": "cav.scr_nat_perm",
+  "value": 0.001996007984031936,
+  "display_string": "0.002",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/placebo/secondary/perm_p_two_sided_z (primary placebo p)"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ }
+]

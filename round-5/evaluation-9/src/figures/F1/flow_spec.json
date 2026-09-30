@@ -1,0 +1,560 @@
+{
+ "nodes": [
+  {
+   "id": "frame",
+   "band": 1,
+   "xywh": [
+    0.02,
+    0.855,
+    0.2,
+    0.075
+   ],
+   "status": "LIVE",
+   "text_template": "OpenAlex concept frame: {f1.frame_total|,.0f} candidates ({f1.frame_main|,.0f} emerging + {f1.frame_ref|,.0f} reference)",
+   "number_keys": [
+    [
+     "f1.frame_total",
+     ",.0f"
+    ],
+    [
+     "f1.frame_main",
+     ",.0f"
+    ],
+    [
+     "f1.frame_ref",
+     ",.0f"
+    ]
+   ]
+  },
+  {
+   "id": "works",
+   "band": 1,
+   "xywh": [
+    0.25,
+    0.855,
+    0.16,
+    0.075
+   ],
+   "status": "LIVE",
+   "text_template": "Hydrated corpus: {f1.n_works|,.0f} works",
+   "number_keys": [
+    [
+     "f1.n_works",
+     ",.0f"
+    ]
+   ]
+  },
+  {
+   "id": "link",
+   "band": 1,
+   "xywh": [
+    0.44,
+    0.855,
+    0.2,
+    0.075
+   ],
+   "status": "LIVE",
+   "text_template": "Classifier / merger / Wikidata linker: {f1.unlinked|,.0f} of {f1.frame_main|,.0f} emerging concepts unlinked (kept as new)",
+   "number_keys": [
+    [
+     "f1.unlinked",
+     ",.0f"
+    ],
+    [
+     "f1.frame_main",
+     ",.0f"
+    ]
+   ]
+  },
+  {
+   "id": "mesh",
+   "band": 1,
+   "xywh": [
+    0.02,
+    0.765,
+    0.2,
+    0.06
+   ],
+   "status": "LIVE",
+   "text_template": "MeSH biomedical pool: {f1.mesh_concepts|,.0f} concepts (never screened for D2)",
+   "number_keys": [
+    [
+     "f1.mesh_concepts",
+     ",.0f"
+    ]
+   ]
+  },
+  {
+   "id": "folds",
+   "band": 1,
+   "xywh": [
+    0.25,
+    0.765,
+    0.39,
+    0.06
+   ],
+   "status": "LIVE",
+   "text_template": "sha1 fold rule: screen {f1.screen_concepts|,.0f} / sealed held-out {f1.heldout_concepts|,.0f} MAIN concepts",
+   "number_keys": [
+    [
+     "f1.screen_concepts",
+     ",.0f"
+    ],
+    [
+     "f1.heldout_concepts",
+     ",.0f"
+    ]
+   ]
+  },
+  {
+   "id": "cooc",
+   "band": 2,
+   "xywh": [
+    0.02,
+    0.655,
+    0.3,
+    0.075
+   ],
+   "status": "LIVE",
+   "text_template": "View 1: yearly concept co-word snapshots 2000-2024, Leiden communities + alluvial paths (2023: {f1.snap_nodes_2023|,.0f} nodes, {f1.snap_kept_edges_2023|,.0f} kept edges)",
+   "number_keys": [
+    [
+     "f1.snap_nodes_2023",
+     ",.0f"
+    ],
+    [
+     "f1.snap_kept_edges_2023",
+     ",.0f"
+    ]
+   ]
+  },
+  {
+   "id": "bip",
+   "band": 2,
+   "xywh": [
+    0.34,
+    0.655,
+    0.3,
+    0.075
+   ],
+   "status": "LIVE",
+   "text_template": "View 2: concept-subfield bipartite network: host entries, partner host share A_cont, co-transfer CT",
+   "number_keys": []
+  },
+  {
+   "id": "viab",
+   "band": 3,
+   "xywh": [
+    0.02,
+    0.525,
+    0.2,
+    0.075
+   ],
+   "status": "DEAD",
+   "text_template": "Source-sink viability hypothesis (H1/H2)",
+   "number_keys": []
+  },
+  {
+   "id": "gateA",
+   "band": 3,
+   "xywh": [
+    0.25,
+    0.525,
+    0.18,
+    0.075
+   ],
+   "status": "DEAD",
+   "text_template": "Gate A FAIL: {f1.gateA_share|.1%} of host edges traced (>50% needed); Gate B: {f1.gateB_episodes|.0f} labelled episodes",
+   "number_keys": [
+    [
+     "f1.gateA_share",
+     ".1%"
+    ],
+    [
+     "f1.gateB_episodes",
+     ".0f"
+    ]
+   ]
+  },
+  {
+   "id": "graft",
+   "band": 3,
+   "xywh": [
+    0.46,
+    0.525,
+    0.18,
+    0.075
+   ],
+   "status": "LIVE",
+   "text_template": "Pre-declared graft fallback: host-entry grafting test (D2)",
+   "number_keys": []
+  },
+  {
+   "id": "d2s",
+   "band": 3,
+   "xywh": [
+    0.02,
+    0.43,
+    0.2,
+    0.07
+   ],
+   "status": "LIVE",
+   "text_template": "D2 SCREEN: co-primary FE {f1.d2_scr_N|,.0f} entries, {f1.d2_scr_G|,.0f} concept clusters; GRAFTING",
+   "number_keys": [
+    [
+     "f1.d2_scr_N",
+     ",.0f"
+    ],
+    [
+     "f1.d2_scr_G",
+     ",.0f"
+    ]
+   ]
+  },
+  {
+   "id": "d2h",
+   "band": 3,
+   "xywh": [
+    0.25,
+    0.43,
+    0.18,
+    0.07
+   ],
+   "status": "CONFIRMED",
+   "text_template": "Sealed held-out, opened once: {f1.d2_ho_N|,.0f} / {f1.d2_ho_G|,.0f}; CONFIRMED",
+   "number_keys": [
+    [
+     "f1.d2_ho_N",
+     ",.0f"
+    ],
+    [
+     "f1.d2_ho_G",
+     ",.0f"
+    ]
+   ]
+  },
+  {
+   "id": "d2m",
+   "band": 3,
+   "xywh": [
+    0.46,
+    0.43,
+    0.18,
+    0.07
+   ],
+   "status": "REPLICATED",
+   "text_template": "MeSH one-look replication: {f1.mesh_N|,.0f} / {f1.mesh_G|,.0f}; {f1.mesh_verdict} (biomed->biomed)",
+   "number_keys": [
+    [
+     "f1.mesh_N",
+     ",.0f"
+    ],
+    [
+     "f1.mesh_G",
+     ",.0f"
+    ],
+    [
+     "f1.mesh_verdict",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "adopt",
+   "band": 3,
+   "xywh": [
+    0.46,
+    0.335,
+    0.18,
+    0.06
+   ],
+   "status": "MECHANISM",
+   "text_template": "Adopter test (screen only): partner exposure OR {f1.adopter_or|.2f}; MECHANISM",
+   "number_keys": [
+    [
+     "f1.adopter_or",
+     ".2f"
+    ]
+   ]
+  },
+  {
+   "id": "d1",
+   "band": 3,
+   "xywh": [
+    0.02,
+    0.335,
+    0.2,
+    0.06
+   ],
+   "status": "NULL",
+   "text_template": "D1 openness -> breadth: {f1.d1_verdict} (Holm p {f1.d1_holm|.3f})",
+   "number_keys": [
+    [
+     "f1.d1_verdict",
+     ""
+    ],
+    [
+     "f1.d1_holm",
+     ".3f"
+    ]
+   ]
+  },
+  {
+   "id": "ct",
+   "band": 3,
+   "xywh": [
+    0.25,
+    0.335,
+    0.18,
+    0.06
+   ],
+   "status": "NULL",
+   "text_template": "Co-transfer CT: null (Holm p screen {f1.ct_holm|.2f}, MeSH {f1.ct_mesh_holm|.3f})",
+   "number_keys": [
+    [
+     "f1.ct_holm",
+     ".2f"
+    ],
+    [
+     "f1.ct_mesh_holm",
+     ".3f"
+    ]
+   ]
+  },
+  {
+   "id": "d3",
+   "band": 3,
+   "xywh": [
+    0.02,
+    0.25,
+    0.2,
+    0.055
+   ],
+   "status": "NULL",
+   "text_template": "D3 anchoring-typology link: {f1.d3_decision}",
+   "number_keys": [
+    [
+     "f1.d3_decision",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "r1",
+   "band": 3,
+   "xywh": [
+    0.25,
+    0.25,
+    0.18,
+    0.055
+   ],
+   "status": "DEAD",
+   "text_template": "RQ1 structural precursors: {f1.r1_status} on held-out",
+   "number_keys": [
+    [
+     "f1.r1_status",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "typ",
+   "band": 4,
+   "xywh": [
+    0.02,
+    0.125,
+    0.15,
+    0.065
+   ],
+   "status": "DESCRIPTIVE",
+   "text_template": "Typology k = {f1.typ_k|.0f} (min Jaccard {f1.typ_jacc|.3f})",
+   "number_keys": [
+    [
+     "f1.typ_k",
+     ".0f"
+    ],
+    [
+     "f1.typ_jacc",
+     ".3f"
+    ]
+   ]
+  },
+  {
+   "id": "roles",
+   "band": 4,
+   "xywh": [
+    0.185,
+    0.125,
+    0.15,
+    0.065
+   ],
+   "status": "DESCRIPTIVE",
+   "text_template": "Community roles: BRIDGE share {f1.roles_bridge|.2f}",
+   "number_keys": [
+    [
+     "f1.roles_bridge",
+     ".2f"
+    ]
+   ]
+  },
+  {
+   "id": "ll",
+   "band": 4,
+   "xywh": [
+    0.35,
+    0.125,
+    0.14,
+    0.065
+   ],
+   "status": "DESCRIPTIVE",
+   "text_template": "Lead-lag: expansion first in {f1.ll_share|.0%} of {f1.ll_n|.0f} (conditional)",
+   "number_keys": [
+    [
+     "f1.ll_share",
+     ".0%"
+    ],
+    [
+     "f1.ll_n",
+     ".0f"
+    ]
+   ]
+  },
+  {
+   "id": "cases",
+   "band": 4,
+   "xywh": [
+    0.505,
+    0.125,
+    0.135,
+    0.065
+   ],
+   "status": "DESCRIPTIVE",
+   "text_template": "4 typology cases (medoid rule; F6)",
+   "number_keys": []
+  }
+ ],
+ "edges": [
+  {
+   "from": "frame",
+   "to": "works",
+   "style": "arrow"
+  },
+  {
+   "from": "works",
+   "to": "link",
+   "style": "arrow"
+  },
+  {
+   "from": "frame",
+   "to": "mesh",
+   "style": "arrow"
+  },
+  {
+   "from": "link",
+   "to": "folds",
+   "style": "arrow"
+  },
+  {
+   "from": "folds",
+   "to": "cooc",
+   "style": "arrow"
+  },
+  {
+   "from": "folds",
+   "to": "bip",
+   "style": "arrow"
+  },
+  {
+   "from": "cooc",
+   "to": "viab",
+   "style": "arrow"
+  },
+  {
+   "from": "viab",
+   "to": "gateA",
+   "style": "arrow"
+  },
+  {
+   "from": "gateA",
+   "to": "graft",
+   "style": "arrow"
+  },
+  {
+   "from": "bip",
+   "to": "graft",
+   "style": "arrow"
+  },
+  {
+   "from": "graft",
+   "to": "d2m",
+   "style": "arrow"
+  },
+  {
+   "from": "graft",
+   "to": "d2s",
+   "style": "arrow"
+  },
+  {
+   "from": "d2s",
+   "to": "d2h",
+   "style": "arrow"
+  },
+  {
+   "from": "d2h",
+   "to": "d2m",
+   "style": "arrow"
+  },
+  {
+   "from": "d2m",
+   "to": "adopt",
+   "style": "arrow"
+  },
+  {
+   "from": "d2s",
+   "to": "d1",
+   "style": "arrow"
+  },
+  {
+   "from": "d2s",
+   "to": "ct",
+   "style": "arrow"
+  }
+ ],
+ "side_panel": [
+  {
+   "row": "E_up onset",
+   "definition_key": "f1.def.E_up",
+   "artifact": "art_htO_gJuUn6Pr"
+  },
+  {
+   "row": "A_cont",
+   "definition_key": "f1.def.A_cont",
+   "artifact": "art_2Cd2JJypeGuA"
+  },
+  {
+   "row": "CT companions",
+   "definition_key": "f1.def.CT",
+   "artifact": "art_2Cd2JJypeGuA"
+  },
+  {
+   "row": "Y_strict",
+   "definition_key": "f1.def.Y_strict",
+   "artifact": "art_2Cd2JJypeGuA"
+  },
+  {
+   "row": "EST_bin",
+   "definition_key": "f1.def.EST_bin",
+   "artifact": "art_2Cd2JJypeGuA"
+  },
+  {
+   "row": "Persist. closure",
+   "definition_key": "f1.def.closure_persist",
+   "artifact": "art_htO_gJuUn6Pr"
+  },
+  {
+   "row": "Folds",
+   "definition_key": "f1.def.folds",
+   "artifact": "art_2Cd2JJypeGuA"
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "evaluation_name": "numbers-of-record audit (iteration 5 FIX slot)",
+    "audit_spec_sha256": "33d9a70546a8ee820a4101c19f2ca828923f185a6f7bf4664ac1504791edd185",
+    "universe_sha256": "47f194abc876083d8011c9395576831af350c36d5562063466c62174c5e6090b",
+    "frozen_utc": "2026-09-29T09:52:07Z",
+    "report": "3_invention_loop/iter_5/gen_strat/current_report.md",
+    "summary_file": "results/audit_summary.json"
+  },
+  "metrics_agg": {
+    "M1_traceability_curated": 0.9937304075235109,
+    "M1_traceability_autoscan_all_tokens": 0.9934114202049781,
+    "M1_traceability_autoscan_sig2": 0.9927206551410374,
+    "M1_traceability_autoscan_sig3": 0.9877408056042032,
+    "M1_traceability_D2": 0.981651376146789,
+    "M1_traceability_MeSH": 1.0,
+    "M1_traceability_RQ1": 1.0,
+    "M1_traceability_descriptive": 1.0,
+    "M1_traceability_adopter": 1.0,
+    "M1_traceability_data": 1.0,
+    "M2_agreement_overall": 0.9076923076923077,
+    "M2_agreement_tier_R": 0.9285714285714286,
+    "M2_agreement_tier_C": 0.82,
+    "M2_headline_share_tier_C": 0.75,
+    "M3_n_nonOK_numbers": 26.0,
+    "M3_n_missing_in_report": 57.0,
+    "M3_n_wrong_estimator": 7.0,
+    "M3_n_wrong_definition": 17.0,
+    "M3_n_drift_value": 13.0,
+    "M3_n_not_traceable": 2.0,
+    "M4_report_drift_lines": 32.0,
+    "M4_verdict_changing": 6.0,
+    "M4_number_only": 23.0,
+    "M4_wording": 16.0,
+    "M4_known_drift_recall": 1.0,
+    "M5_seeded_recall": 0.6,
+    "M5_recall_digit_change": 0.4,
+    "M5_recall_ci_bound_swap": 1.0,
+    "M5_recall_estimator_fold_relabel": 0.1,
+    "M5_recall_verdict_flip": 0.9,
+    "M5_seeded_recall_frozen_seed_not_blind": 0.6,
+    "M6_independent_agreement": 1.0,
+    "M6_n_rederived": 73.0,
+    "M7_table_pass_rate": 1.0,
+    "M9_rule_mismatches": 1.0,
+    "M9_rules_evaluated": 13.0,
+    "M10_missing_in_report_rows": 292.0,
+    "M11_table18_done": 3.0,
+    "M11_table18_partial": 4.0,
+    "M11_table18_not_done": 4.0,
+    "M8_review_items_closed": 6.0,
+    "M5_precision_manual30": 0.8333333333333334
+  },
+  "datasets": [
+    {
+      "dataset": "record_of_numbers",
+      "examples": [
+        {
+          "input": "[d2.scr.cop.irr] Screen co-primary A_cont IRR/SD | fold SCREEN | estimator co-primary FE (concept+e+host) | report line 478: '1.30' | hypothesis: '1.30'",
+          "output": "source round-3/experiment-7/src/results/d2_summary.json::coprimary_fe_concept_plus_e_plus_d/A_cont/irr_per_sd = 1.30008; tier-C recompute 1.29981",
+          "predict_report": "1.30",
+          "predict_source": "1.30008",
+          "predict_flag": "OK",
+          "metadata_block": "D2",
+          "metadata_fold": "SCREEN",
+          "metadata_tier": "C",
+          "metadata_artifact": "art_2Cd2JJypeGuA",
+          "metadata_headline": true,
+          "metadata_known_drift": "",
+          "eval_traced": 1.0,
+          "eval_in_report": 1.0,
+          "eval_ok": 1.0,
+          "eval_flag_nonok": 0.0
+        },
+        {
+          "input": "[d2.scr.cop.lo] Screen co-primary CI low | fold SCREEN | estimator co-primary | report line 478: '1.16'",
+          "output": "source round-3/experiment-7/src/results/d2_summary.json::coprimary_fe_concept_plus_e_plus_d/A_cont/irr_per_sd_ci95/0 = 1.16394; tier-C recompute 1.16492",
+          "predict_report": "1.16",
+          "predict_source": "1.16394",
+          "predict_flag": "OK",
+          "metadata_block": "D2",
+          "metadata_fold": "SCREEN",
+          "metadata_tier": "C",
+          "metadata_artifact": "art_2Cd2JJypeGuA",
+          "metadata_headline": true,
+          "metadata_known_drift": "",
+          "eval_traced": 1.0,
+          "eval_in_report": 1.0,
+          "eval_ok": 1.0,
+          "eval_flag_nonok": 0.0
+        },
+        {
+          "input": "[d2.scr.cop.hi] Screen co-primary CI high | fold SCREEN | estimator co-primary | report line 478: '1.45'",
+          "output": "source round-3/experiment-7/src/results/d2_summary.json::coprimary_fe_concept_plus_e_plus_d/A_cont/irr_per_sd_ci95/1 = 1.45213; tier-C recompute 1.45031",
+          "predict_report": "1.45",
+          "predict_source": "1.45213",
+          "predict_flag": "OK",
+          "metadata_block": "D2",
+          "metadata_fold": "SCREEN",
+          "metadata_tier": "C",
+          "metadata_artifact": "art_2Cd2JJypeGuA",
+          "metadata_headline": true,
+          "metadata_known_drift": "",
+          "eval_traced": 1.0,
+          "eval_in_report": 1.0,
+          "eval_ok": 1.0,
+          "eval_flag_nonok": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "report_drift",
+      "examples": [
+        {
+          "input": "line 7: The study began with a source-sink viability hypothesis adapted from population ecology [1], asking whether a concept's presence in a subfield is self-sustaining or import-dependent. That hypothesis was blocked by insufficient citation-layer density (Gate A failure: only 17.3% of concept-subfield-ye",
+          "output": "R1_DEAD under the frozen rule: pooled-panel held-out closure -0.391 [-0.855, 0.072], Holm 0.147. RQ1 sentence: 'Structural precursors of sustained uptake are volume/churn correlates.'",
+          "predict_flag": "VERDICT_DRIFT",
+          "predict_severity": "VERDICT-CHANGING",
+          "metadata_source": "round-4/evaluation-3/src/results/tables/r1_holm_decisions.csv::closure",
+          "metadata_claim_id": "rule:R1 dead if the pooled-panel held-out row fails",
+          "metadata_known": "K01_rq1_rescue_summary",
+          "eval_verdict_changing": 1.0
+        },
+        {
+          "input": "line 50: [FIGURE:fig_methodology]",
+          "output": "methodology figure must be drawn from the 'Final design as executed' block (T_design): decision flow with dead branches greyed, R1 marked DEAD, adopter OR 3.09; it is placed in the Iteration-1 section although it depicts iteration 2-4 results",
+          "predict_flag": "VERDICT_DRIFT",
+          "predict_severity": "VERDICT-CHANGING",
+          "metadata_source": "round-4/report-text/.terminal_claude_agent_struct_out.json::figures/fig_methodology",
+          "metadata_claim_id": "A.fig_methodology",
+          "metadata_known": "K03_fig_methodology",
+          "eval_verdict_changing": 1.0
+        },
+        {
+          "input": "line 77: A design-weighted background sample of 259,716 OpenAlex works from 1,260 strata (150 per field × year, weights summing to 149,116,575) was built to supply co-occurrence network snapshots and calibrate host-nativeness profiles [ARTIFACT:art_eR1Z7fMlOcxs]. It delivered 6,325 exact subfield × year tota",
+          "output": "Artifact 2 is the workspace 3_invention_loop/iter_1/gen_art/gen_art_dataset_2; art_eR1Z7fMlOcxs is dataset_5 (iteration 2)",
+          "predict_flag": "WRONG_DEFINITION",
+          "predict_severity": "WORDING",
+          "metadata_source": "3_invention_loop/iter_1/gen_art/gen_art_dataset_2",
+          "metadata_claim_id": "A.art2_id",
+          "metadata_known": "",
+          "eval_verdict_changing": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "verdict_consistency",
+      "examples": [
+        {
+          "input": "iteration 2 rule: (a) Gate A -> graft fallback",
+          "output": "TRIGGERED",
+          "predict_report": "TRIGGERED",
+          "predict_status": "MATCH",
+          "metadata_quote": "(a) If Gate A FAILS, H1/H2 run with graft labels computed from the new exact profiles (anchored if the lower CI of A exceeds the entry anchoring of stationary reference concepts), and the claim is restated as the grafting alternate.",
+          "metadata_inputs": "within-host share>=0.40 on 0.1727 of edge-years (<0.5 => Gate A FAIL)",
+          "eval_match": 1.0
+        },
+        {
+          "input": "iteration 2 rule: (b) H1 pilot-only if < ~150 concepts carry a tested edge",
+          "output": "YES",
+          "predict_report": "YES",
+          "predict_status": "MATCH",
+          "metadata_quote": "(b) H1 runs on the grounded test population, screen fold, with the full baseline including Maillart and Rafols features, and is declared a pilot if fewer than ~150 concepts carry a tested edge. H2 is primary only if the Gate B MDE is <= 25%.",
+          "metadata_inputs": "N_c = 38",
+          "eval_match": 1.0
+        },
+        {
+          "input": "iteration 2 rule: (c) RQ1 CONFIRMED conditions",
+          "output": "NOT MET",
+          "predict_report": "NOT MET",
+          "predict_status": "MATCH",
+          "metadata_quote": "(c) RQ1 counts as CONFIRMED for the paper only if at least one pre-named per-paper precursor has an event-study CI excluding 0 AND a rolling-origin delta-AUC CI excluding 0 on the main screen fold, keeps its sign on MeSH, and then holds on the sealed held-out sha1 fold and the 2016-18 focal years in",
+          "metadata_inputs": "NOT MET: no pre-named precursor satisfies c1 AND c2 AND c3 AND c4 on the primary label; c2 fails for every label (logit delta-AUC CI covers 0), c1b fails (all s",
+          "eval_match": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "seeded_injection",
+      "examples": [
+        {
+          "input": "digit_change at line 419: '−0.810' -> '−0.814'",
+          "output": "detected",
+          "predict_detector": "claim:rq1s.closure.lo:DRIFT_VALUE",
+          "metadata_type": "digit_change",
+          "eval_detected": 1.0
+        },
+        {
+          "input": "digit_change at line 640: '0.82' -> '0.83'",
+          "output": "detected",
+          "predict_detector": "claim:d2.ho.pri.ct:DRIFT_VALUE; anchor_lost:d2.ho.pri.N; anchor_lost:d2.ho.pri.ct_p",
+          "metadata_type": "digit_change",
+          "eval_detected": 1.0
+        },
+        {
+          "input": "digit_change at line 60: '46,575' -> '46,572'",
+          "output": "detected",
+          "predict_detector": "scan:UNTRACED:46,572",
+          "metadata_type": "digit_change",
+          "eval_detected": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "independent_rederivation",
+      "examples": [
+        {
+          "input": "[d2.ho.pri.ct] round-4/evaluation-2/src/results/heldout_post.json::flags/primary/irr_sd_CT",
+          "output": "0.817848",
+          "predict_audit": "0.817848",
+          "predict_independent": "0.817848",
+          "metadata_block": "D2",
+          "eval_agree": 1.0
+        },
+        {
+          "input": "[d2.ho.oos_lo] round-4/evaluation-2/src/results/heldout_post.json::oos/ci95_concept_bootstrap/0",
+          "output": "-1.24227",
+          "predict_audit": "-1.24227",
+          "predict_independent": "-1.24227",
+          "metadata_block": "D2",
+          "eval_agree": 1.0
+        },
+        {
+          "input": "[g2a.ho.ADJ.lo] round-4/evaluation-2/src/results/g_heldout_rows.csv::csv:row=G2a NATIVE+ADJACENT (native>=0.3, adjacent [0.05,0.3));var=ADJ|irr_sd_lo",
+          "output": "1.02942",
+          "predict_audit": "1.02942",
+          "predict_independent": "1.02942",
+          "metadata_block": "D2",
+          "eval_agree": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "table_assertions",
+      "examples": [
+        {
+          "input": "T_adopter",
+          "output": "emitted",
+          "predict_status": "PASS",
+          "metadata_n_cells": 95,
+          "eval_pass": 1.0,
+          "eval_n_checked": 38.0,
+          "eval_n_fail": 0.0
+        },
+        {
+          "input": "T_caveats",
+          "output": "emitted",
+          "predict_status": "PASS",
+          "metadata_n_cells": 66,
+          "eval_pass": 1.0,
+          "eval_n_checked": 21.0,
+          "eval_n_fail": 0.0
+        },
+        {
+          "input": "T_coverage",
+          "output": "emitted",
+          "predict_status": "PASS",
+          "metadata_n_cells": 24,
+          "eval_pass": 1.0,
+          "eval_n_checked": 3.0,
+          "eval_n_fail": 0.0
+        }
+      ]
+    }
+  ]
+}

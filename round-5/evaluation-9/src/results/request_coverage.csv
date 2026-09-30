@@ -1,0 +1,9 @@
+activity,figure_or_panel,status,reason
+"1 semantic grounding (frame, classifier/linker, corpus)",F1 band 1,shown,
+2 two network views (co-word snapshots; concept-subfield bipartite),F1 band 2; F6b ego/alluvial,shown,network layouts are embedded from exp_8 (supplementary)
+3 RQ1 structural precursors of emergence,F4,shown,R1_DEAD stated on the figure
+"4 RQ2 diffusion across disciplinary boundaries (host entry, grafting)","F2, F3",shown,
+5 diffusion typology,F5; F1 band 4,shown,
+6 case studies (quantitatively selected),F6; F6b,shown,
+7 methodology in graphical form,F1,shown,
+8 comparison to related work,none,not shown,a literature comparison is prose/table work for the paper step; no figure here

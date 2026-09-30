@@ -1,0 +1,7 @@
+09:18:22|INFO   |MeSH concepts: 191; retrieval_complete 13; rule_parity 172
+09:18:23|INFO   |legacy concepts 65026; keyword slugs mapped 64983/65004
+09:18:32|INFO   |MeSH (concept, work) rows: 122645
+09:18:35|INFO   |unique works 117253; partner tags 1304401 (level-0 dropped 197247; keyword-mapped 1497145); authors 499557; works without subfield 239
+09:18:38|INFO   |mesh prepared: 191 concepts (25s)
+09:18:38|INFO   |profiles: 5488 (node, block) over 1372 nodes
+09:18:41|INFO   |bg shares: 5237 (node, block) (29s)

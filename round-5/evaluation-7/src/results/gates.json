@@ -1,0 +1,122 @@
+{
+ "heldout_lock": {
+  "lock_sha256": "03d6cfd7c491121a55f692c6499b7fa6e900f9a0cf6e7cc150d1cf969aad5e3c",
+  "lock_text": [
+   "opened_utc=2026-09-29T06:58:58Z",
+   "heldout_confirmation_sha256=4100e3cf849feabdc7fcf90ecd7deb39afc98661ab231e60286b17e25694b3d6",
+   "g_spec_sha256=a10b7f31b15afea52f09200adf178e39954595fb8da1d7683ca90c5f1ea73106",
+   "heldout_spec_sha256=8db17113adda31f3bb8640dc8209784aea803fb229f722ac9a6daa8428adca7c"
+  ],
+  "source": "round-4/evaluation-2/src/d2/results/HELDOUT_OPENED.lock",
+  "note": "held-out fold already opened once in iteration 4; K2 only re-reads its stored W1 features and outcomes; config.SEALED_IDS cleared as in heldout_post.py"
+ },
+ "screen": {
+  "gate_A": {
+   "max_abs_diff": 8.326672684688674e-17,
+   "n_events": 1740,
+   "n_nan_mismatch": 0,
+   "PASS": true,
+   "placebo_build_arrays_max_abs_diff": 8.326672684688674e-17
+  },
+  "gate_B": {
+   "recorded": {
+    "irr_sd": 1.300076888024346,
+    "ci": [
+     1.1639421314281162,
+     1.452133975682496
+    ],
+    "N": 1544,
+    "G": 140,
+    "b": 4.739105939721475
+   },
+   "reproduced": {
+    "irr_sd": 1.300076888024347,
+    "ci": [
+     1.1639421314281175,
+     1.452133975682496
+    ],
+    "N": 1544,
+    "G": 140,
+    "b": 4.739105939721486,
+    "se": 1.0102888770711786,
+    "p": 6.4346966624064085e-06
+   },
+   "abs_d_ln_irr_sd": 7.216449660063518e-16,
+   "source": "round-4/evaluation-2/src/d2/results/heldout_dryrun_on_screen.json",
+   "PASS": true
+  },
+  "status": "PASS"
+ },
+ "heldout": {
+  "gate_A": {
+   "max_abs_diff": 8.326672684688674e-17,
+   "n_events": 1097,
+   "n_nan_mismatch": 0,
+   "PASS": true,
+   "placebo_build_arrays_max_abs_diff": 8.326672684688674e-17
+  },
+  "gate_B": {
+   "recorded": {
+    "irr_sd": 1.187471175230877,
+    "ci": [
+     1.056595791617389,
+     1.3345574563056908
+    ],
+    "N": 972,
+    "G": 74,
+    "b": 3.068433425887302
+   },
+   "reproduced": {
+    "irr_sd": 1.1874711752308762,
+    "ci": [
+     1.0565957916173876,
+     1.3345574563056906
+    ],
+    "N": 972,
+    "G": 74,
+    "b": 3.0684334258872905,
+    "se": 1.0463246594480142,
+    "p": 0.004487870758267363
+   },
+   "abs_d_ln_irr_sd": 7.494005416219807e-16,
+   "source": "round-4/evaluation-2/src/d2/results/heldout_confirmation.json",
+   "PASS": true
+  },
+  "status": "PASS"
+ },
+ "mesh": {
+  "gate_A": {
+   "max_abs_diff": 1.1102230246251565e-16,
+   "n_events": 2249,
+   "n_nan_mismatch": 0,
+   "PASS": true
+  },
+  "gate_B": {
+   "recorded": {
+    "irr_sd": 1.2329838323526203,
+    "ci": [
+     1.1167392468870916,
+     1.3613286495308963
+    ],
+    "N": 2171,
+    "G": 160
+   },
+   "reproduced": {
+    "irr_sd": 1.2329838323526199,
+    "ci": [
+     1.1167392468870914,
+     1.3613286495308954
+    ],
+    "N": 2171,
+    "G": 160,
+    "b": 3.5166282758568137,
+    "se": 0.8418743591989367,
+    "p": 4.8539057905451434e-05
+   },
+   "abs_d_ln_irr_sd": 3.608224830031759e-16,
+   "source": "round-4/experiment-9/src/results/g4_summary.json",
+   "PASS": true
+  },
+  "status": "PASS"
+ }
+}

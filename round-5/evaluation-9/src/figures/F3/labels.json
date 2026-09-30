@@ -1,0 +1,266 @@
+[
+ {
+  "figure": "F3",
+  "panel": "a",
+  "row": "g1_scr",
+  "shown": "SCREEN",
+  "record_key": "f3.g1_scr.record_label",
+  "record_label": "SCREEN"
+ },
+ {
+  "figure": "F3",
+  "panel": "a",
+  "row": "g1s_scr",
+  "shown": "SCREEN",
+  "record_key": "f3.g1s_scr.record_label",
+  "record_label": "SCREEN"
+ },
+ {
+  "figure": "F3",
+  "panel": "a",
+  "row": "g1_ho",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": "f3.g1_ho.record_label",
+  "record_label": "SUPPLEMENTARY"
+ },
+ {
+  "figure": "F3",
+  "panel": "a",
+  "row": "g1s_ho",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": "f3.g1s_ho.record_label",
+  "record_label": "SUPPLEMENTARY"
+ },
+ {
+  "figure": "F3",
+  "panel": "a",
+  "row": "g1_pool",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": "f3.g1_pool.record_label",
+  "record_label": "SUPPLEMENTARY"
+ },
+ {
+  "figure": "F3",
+  "panel": "a",
+  "row": "g1s_pool",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": "f3.g1s_pool.record_label",
+  "record_label": "SUPPLEMENTARY"
+ },
+ {
+  "figure": "F3",
+  "panel": "a",
+  "row": "g1_mesh",
+  "shown": "REPLICATION",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "b",
+  "row": "g2nat_scr",
+  "shown": "SCREEN",
+  "record_key": "f3.g2nat_scr.record_label",
+  "record_label": "SCREEN"
+ },
+ {
+  "figure": "F3",
+  "panel": "b",
+  "row": "g2adj_scr",
+  "shown": "SCREEN",
+  "record_key": "f3.g2adj_scr.record_label",
+  "record_label": "SCREEN"
+ },
+ {
+  "figure": "F3",
+  "panel": "b",
+  "row": "g2nat_ho",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": "f3.g2nat_ho.record_label",
+  "record_label": "SUPPLEMENTARY"
+ },
+ {
+  "figure": "F3",
+  "panel": "b",
+  "row": "g2adj_ho",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": "f3.g2adj_ho.record_label",
+  "record_label": "SUPPLEMENTARY"
+ },
+ {
+  "figure": "F3",
+  "panel": "b",
+  "row": "g2nat_pool",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": "f3.g2nat_pool.record_label",
+  "record_label": "SUPPLEMENTARY"
+ },
+ {
+  "figure": "F3",
+  "panel": "b",
+  "row": "g2adj_pool",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": "f3.g2adj_pool.record_label",
+  "record_label": "SUPPLEMENTARY"
+ },
+ {
+  "figure": "F3",
+  "panel": "b",
+  "row": "g2nat_mesh",
+  "shown": "REPLICATION",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "b",
+  "row": "g2adj_mesh",
+  "shown": "REPLICATION",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_scr.i",
+  "shown": "SCREEN",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_scr.ii",
+  "shown": "SCREEN",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_scr.comb",
+  "shown": "SCREEN",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_ho.i",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_ho.ii",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_ho.comb",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_pool.i",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_pool.ii",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "c",
+  "row": "g3_pool.comb",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_any",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_neg",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_plac",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_for",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_adj",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_nat",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_comp",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_noncomp",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F3",
+  "panel": "d",
+  "row": "e_int",
+  "shown": "MECHANISM",
+  "record_key": null,
+  "record_label": null
+ }
+]
