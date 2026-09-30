@@ -1,0 +1,2032 @@
+{
+ "id_sets": {
+  "n_heldout_dataset5": 119,
+  "n_heldout_iter1": 61,
+  "iter1_subset_of_dataset5": true,
+  "n_iter1_not_in_dataset5": 0,
+  "source_dataset5": "round-2/dataset-5/src/full_data_out/full_data_out_*.json [concept_pool_2005_2016].metadata_fold",
+  "source_iter1": "round-1/dataset-1/src/full_data_out/full_data_out_*.json [concept_pool_2005_2016].metadata_fold"
+ },
+ "exp3_exp4": [
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/audit_headlines.json"
+  },
+  {
+   "n_ids_found": 145,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/concept_subfield/edges.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/concept_subfield/rs_distance.parquet"
+  },
+  {
+   "n_ids_found": 8,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/contrib.parquet"
+  },
+  {
+   "n_ids_found": 22,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/contrib_E_alt.parquet"
+  },
+  {
+   "n_ids_found": 42,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/contrib_E_up.parquet"
+  },
+  {
+   "n_ids_found": 9,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/matches.csv"
+  },
+  {
+   "n_ids_found": 26,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/matches_E_alt.csv"
+  },
+  {
+   "n_ids_found": 62,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/matches_E_up.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/summary.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/summary_E_alt.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/event_study/summary_E_up.json"
+  },
+  {
+   "n_ids_found": 145,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/indicators/concept_year_indicators.csv"
+  },
+  {
+   "n_ids_found": 145,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/indicators/concept_year_indicators.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/indicators/indicator_summary.json"
+  },
+  {
+   "n_ids_found": 123,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/labels/emergence_screen.csv"
+  },
+  {
+   "n_ids_found": 123,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/labels/emergence_screen.parquet"
+  },
+  {
+   "n_ids_found": 123,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/patterns/concept_patterns.csv"
+  },
+  {
+   "n_ids_found": 123,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/patterns/concept_patterns_E_alt.csv"
+  },
+  {
+   "n_ids_found": 123,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/patterns/concept_patterns_E_up.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/patterns/summary.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/patterns/summary_E_alt.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/patterns/summary_E_up.json"
+  },
+  {
+   "n_ids_found": 109,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/prediction/predictions.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/prediction/summary.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/robustness.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/snapshot_summary.csv"
+  },
+  {
+   "n_ids_found": 59,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/typology/assignments.csv"
+  },
+  {
+   "n_ids_found": 59,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/typology/assignments.parquet"
+  },
+  {
+   "n_ids_found": 2,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/typology/medoids.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-3/src/results/typology/stability.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/analysis_summary.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/audit_rederivation.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/communities_y.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/features.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/indicator_columns.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/intermediate/bg.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/intermediate/concepts.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/intermediate/mesh_works.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/intermediate/twins.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/labels.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/labels_mainpool_aligned.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/load_checks.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/mainpool_align_fit.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/matched_sets.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/prereg_spec.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/replication_verdict.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/rewire_units.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/rq1_effects.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/rq1_effects_mainpool_aligned.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/rq1_patterns.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/rq1_patterns_by_concept.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/rq1_prediction.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/side_by_side_mainpool_vs_mesh.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshot_scope.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshot_stats.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2000.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2001.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2002.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2003.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2004.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2005.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2006.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2007.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2008.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2009.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2010.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2011.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2012.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2013.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2014.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2014_nolowconf.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2015.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2016.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2017.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2018.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2019.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2020.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2021.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2022.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2023.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/edges_2024.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2000.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2001.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2002.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2003.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2004.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2005.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2006.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2007.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2008.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2009.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2010.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2011.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2012.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2013.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2014.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2014_nolowconf.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2015.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2016.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2017.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2018.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2019.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2020.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2021.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2022.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2023.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/focal_2024.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2000.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2001.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2002.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2003.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2004.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2005.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2006.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2007.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2008.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2009.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2010.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2011.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2012.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2013.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2014.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2014_nolowconf.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2015.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2016.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2017.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2018.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2019.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2020.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2021.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2022.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2023.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/nodes_2024.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2000.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2001.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2002.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2003.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2004.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2005.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2006.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2007.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2008.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2009.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2010.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2011.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2012.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2013.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2014.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2014_nolowconf.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2015.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2016.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2017.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2018.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2019.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2020.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2021.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2022.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2023.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/snapshots/stats_2024.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-4/src/results/volres_fit.json"
+  }
+ ],
+ "exp2": [
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/audit/1a_match_evidence.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/audit/1b_route_counts.csv"
+  },
+  {
+   "n_ids_found": 21,
+   "n_heldout_hits": 6,
+   "heldout_hits": [
+    "c_444e89430419",
+    "c_457b5eab7f19",
+    "c_592b396b9fa6",
+    "c_5d0609aeb10b",
+    "c_7011282bd1ba",
+    "c_bc7039a1fcd8"
+   ],
+   "file": "round-2/experiment-2/src/results/audit/1c_sense_flagged.csv",
+   "columns": [
+    "concept_id",
+    "phrase",
+    "sense_share",
+    "fold",
+    "arm",
+    "n_works_d1",
+    "threshold"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/audit/1e_fold_fband_new_rule.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/audit/1f_eligible_units_by_age.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/audit/1f_eligible_units_new_rule.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/audit/1f_eligible_units_old_rule.csv"
+  },
+  {
+   "n_ids_found": 184,
+   "n_heldout_hits": 61,
+   "heldout_hits": [
+    "c_01ebdf1dd642",
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0bce43f9d6c1",
+    "c_0bdbd70bb062",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_24d62510b246",
+    "c_26644834ada8",
+    "c_2cfdd88c29c0",
+    "c_30a83dce0f03",
+    "c_365ed459d0e7",
+    "c_372d7258975d",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419"
+   ],
+   "file": "round-2/experiment-2/src/results/audit/1g_origin_recompute.csv",
+   "columns": [
+    "concept_id",
+    "d1_origin",
+    "recomputed",
+    "agree"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/audit/audit_summary.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/audit/rederive.json"
+  },
+  {
+   "n_ids_found": 184,
+   "n_heldout_hits": 61,
+   "heldout_hits": [
+    "c_01ebdf1dd642",
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0bce43f9d6c1",
+    "c_0bdbd70bb062",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_24d62510b246",
+    "c_26644834ada8",
+    "c_2cfdd88c29c0",
+    "c_30a83dce0f03",
+    "c_365ed459d0e7",
+    "c_372d7258975d",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419"
+   ],
+   "file": "round-2/experiment-2/src/results/cache/ct_counts.pkl",
+   "columns": [],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/cache/distance.pkl"
+  },
+  {
+   "n_ids_found": 184,
+   "n_heldout_hits": 61,
+   "heldout_hits": [
+    "c_01ebdf1dd642",
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0bce43f9d6c1",
+    "c_0bdbd70bb062",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_24d62510b246",
+    "c_26644834ada8",
+    "c_2cfdd88c29c0",
+    "c_30a83dce0f03",
+    "c_365ed459d0e7",
+    "c_372d7258975d",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419"
+   ],
+   "file": "round-2/experiment-2/src/results/cache/main_edges_noboot.parquet",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "d",
+    "role",
+    "n_w1",
+    "n_children",
+    "n_parents",
+    "eligible",
+    "rho",
+    "m",
+    "mom",
+    "mom_lo",
+    "mom_hi",
+    "t_max_used",
+    "within_host_share",
+    "within_host_share_refs",
+    "n_children_with_refs",
+    "lenient_share",
+    "n_traced",
+    "untraced_share",
+    "background_only_share",
+    "n_canonical_in_d"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 22,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/cache/ref_cells.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/gate_a/gate_A_verdict.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/gate_a/gate_a_by_arm_fold_year.csv"
+  },
+  {
+   "n_ids_found": 100,
+   "n_heldout_hits": 38,
+   "heldout_hits": [
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_2cfdd88c29c0",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419",
+    "c_457b5eab7f19",
+    "c_4bd7704f481d",
+    "c_5382c59edd3c",
+    "c_592b396b9fa6",
+    "c_5d0609aeb10b",
+    "c_7011282bd1ba",
+    "c_81212986e10d",
+    "c_8856d927d560"
+   ],
+   "file": "round-2/experiment-2/src/results/gate_a/gate_a_host_edges.parquet",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "d",
+    "role",
+    "n_w1",
+    "n_children",
+    "n_parents",
+    "eligible",
+    "rho",
+    "m",
+    "mom",
+    "mom_lo",
+    "mom_hi",
+    "t_max_used",
+    "within_host_share",
+    "within_host_share_refs",
+    "n_children_with_refs",
+    "lenient_share",
+    "n_traced",
+    "untraced_share",
+    "background_only_share",
+    "n_canonical_in_d",
+    "fold",
+    "F_band"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 178,
+   "n_heldout_hits": 59,
+   "heldout_hits": [
+    "c_01ebdf1dd642",
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0bce43f9d6c1",
+    "c_0bdbd70bb062",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_24d62510b246",
+    "c_26644834ada8",
+    "c_2cfdd88c29c0",
+    "c_365ed459d0e7",
+    "c_372d7258975d",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419",
+    "c_4561b92644a6"
+   ],
+   "file": "round-2/experiment-2/src/results/gate_a/graft_fallback_events.csv",
+   "columns": [
+    "concept_id",
+    "d",
+    "e",
+    "fold",
+    "n_kw",
+    "anchored_proxy",
+    "e_ge_F"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/gate_a/graft_fallback_summary.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/gate_a/lenient_loader_check.json"
+  },
+  {
+   "n_ids_found": 184,
+   "n_heldout_hits": 61,
+   "heldout_hits": [
+    "c_01ebdf1dd642",
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0bce43f9d6c1",
+    "c_0bdbd70bb062",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_24d62510b246",
+    "c_26644834ada8",
+    "c_2cfdd88c29c0",
+    "c_30a83dce0f03",
+    "c_365ed459d0e7",
+    "c_372d7258975d",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419"
+   ],
+   "file": "round-2/experiment-2/src/results/origin/cooling_onsets.csv",
+   "columns": [
+    "concept_id",
+    "origin_subfield",
+    "F",
+    "fold",
+    "onset_0.6",
+    "onset_0.7",
+    "onset_0.8"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": [
+    "onset_0.6",
+    "onset_0.7",
+    "onset_0.8"
+   ]
+  },
+  {
+   "n_ids_found": 184,
+   "n_heldout_hits": 61,
+   "heldout_hits": [
+    "c_01ebdf1dd642",
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0bce43f9d6c1",
+    "c_0bdbd70bb062",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_24d62510b246",
+    "c_26644834ada8",
+    "c_2cfdd88c29c0",
+    "c_30a83dce0f03",
+    "c_365ed459d0e7",
+    "c_372d7258975d",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419"
+   ],
+   "file": "round-2/experiment-2/src/results/origin/origin_series.csv",
+   "columns": [
+    "y",
+    "O_raw",
+    "O_clean",
+    "T",
+    "O_raw_1e4",
+    "O_star",
+    "concept_id"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/origin/origin_summary.json"
+  },
+  {
+   "n_ids_found": 10,
+   "n_heldout_hits": 6,
+   "heldout_hits": [
+    "c_10899378a764",
+    "c_457b5eab7f19",
+    "c_5382c59edd3c",
+    "c_8ee79d97b600",
+    "c_a9f2f1d2a57f",
+    "c_ed80891593f2"
+   ],
+   "file": "round-2/experiment-2/src/results/p1/broad_but_hollow_candidates.csv",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "F_band",
+    "fold",
+    "H",
+    "RS",
+    "n_active",
+    "w1_volume",
+    "mean_host_mom",
+    "growing_breadth",
+    "n_tested_or_labelled",
+    "H_share_SOURCE",
+    "RS_share_SOURCE",
+    "H_share_SINK",
+    "RS_share_SINK",
+    "H_share_FADING",
+    "RS_share_FADING",
+    "H_share_UNDETERMINED",
+    "RS_share_UNDETERMINED",
+    "H_share_ORIGIN",
+    "RS_share_ORIGIN",
+    "H_S",
+    "phrase"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 184,
+   "n_heldout_hits": 61,
+   "heldout_hits": [
+    "c_01ebdf1dd642",
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0bce43f9d6c1",
+    "c_0bdbd70bb062",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_24d62510b246",
+    "c_26644834ada8",
+    "c_2cfdd88c29c0",
+    "c_30a83dce0f03",
+    "c_365ed459d0e7",
+    "c_372d7258975d",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419"
+   ],
+   "file": "round-2/experiment-2/src/results/p1/p1_ct_shares_main.csv",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "F_band",
+    "fold",
+    "H",
+    "RS",
+    "n_active",
+    "w1_volume",
+    "mean_host_mom",
+    "growing_breadth",
+    "n_tested_or_labelled",
+    "H_share_SOURCE",
+    "RS_share_SOURCE",
+    "H_share_SINK",
+    "RS_share_SINK",
+    "H_share_FADING",
+    "RS_share_FADING",
+    "H_share_UNDETERMINED",
+    "RS_share_UNDETERMINED",
+    "H_share_ORIGIN",
+    "RS_share_ORIGIN",
+    "H_S"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/p1/p1_share_curves.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/p1/p1_summary.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/power/decisions.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/power/gate_b.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/power/gate_b_power_curves.csv"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/power/h1_mde.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/power/h1_power_curves.csv"
+  },
+  {
+   "n_ids_found": 91,
+   "n_heldout_hits": 35,
+   "heldout_hits": [
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_2cfdd88c29c0",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419",
+    "c_457b5eab7f19",
+    "c_4bd7704f481d",
+    "c_5382c59edd3c",
+    "c_592b396b9fa6",
+    "c_5d0609aeb10b",
+    "c_7011282bd1ba",
+    "c_8856d927d560",
+    "c_8cebebdabedf"
+   ],
+   "file": "round-2/experiment-2/src/results/power/h1_units_nmin10.csv",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "F_band",
+    "fold",
+    "H",
+    "RS",
+    "n_active",
+    "w1_volume",
+    "mean_host_mom",
+    "growing_breadth",
+    "n_tested_or_labelled",
+    "H_share_SOURCE",
+    "RS_share_SOURCE",
+    "H_share_SINK",
+    "RS_share_SINK",
+    "H_share_FADING",
+    "RS_share_FADING",
+    "H_share_UNDETERMINED",
+    "RS_share_UNDETERMINED",
+    "H_share_ORIGIN",
+    "RS_share_ORIGIN",
+    "H_S",
+    "log_w1_volume",
+    "S_source_breadth",
+    "S_sink_share"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 58,
+   "n_heldout_hits": 21,
+   "heldout_hits": [
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_2cfdd88c29c0",
+    "c_3ece93670063",
+    "c_444e89430419",
+    "c_457b5eab7f19",
+    "c_4bd7704f481d",
+    "c_5382c59edd3c",
+    "c_8856d927d560",
+    "c_8cebebdabedf",
+    "c_8ee79d97b600",
+    "c_934bf6901f0f",
+    "c_9a6442305923",
+    "c_a9f2f1d2a57f",
+    "c_baf08ae6e65e",
+    "c_e3cf4e8c060a",
+    "c_ed80891593f2"
+   ],
+   "file": "round-2/experiment-2/src/results/power/h1_units_nmin20.csv",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "F_band",
+    "fold",
+    "H",
+    "RS",
+    "n_active",
+    "w1_volume",
+    "mean_host_mom",
+    "growing_breadth",
+    "n_tested_or_labelled",
+    "H_share_SOURCE",
+    "RS_share_SOURCE",
+    "H_share_SINK",
+    "RS_share_SINK",
+    "H_share_FADING",
+    "RS_share_FADING",
+    "H_share_UNDETERMINED",
+    "RS_share_UNDETERMINED",
+    "H_share_ORIGIN",
+    "RS_share_ORIGIN",
+    "H_S",
+    "log_w1_volume",
+    "S_source_breadth",
+    "S_sink_share"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 38,
+   "n_heldout_hits": 12,
+   "heldout_hits": [
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_3ece93670063",
+    "c_457b5eab7f19",
+    "c_4bd7704f481d",
+    "c_5382c59edd3c",
+    "c_8cebebdabedf",
+    "c_8ee79d97b600",
+    "c_934bf6901f0f",
+    "c_a9f2f1d2a57f",
+    "c_e3cf4e8c060a",
+    "c_ed80891593f2"
+   ],
+   "file": "round-2/experiment-2/src/results/power/h1_units_nmin30.csv",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "F_band",
+    "fold",
+    "H",
+    "RS",
+    "n_active",
+    "w1_volume",
+    "mean_host_mom",
+    "growing_breadth",
+    "n_tested_or_labelled",
+    "H_share_SOURCE",
+    "RS_share_SOURCE",
+    "H_share_SINK",
+    "RS_share_SINK",
+    "H_share_FADING",
+    "RS_share_FADING",
+    "H_share_UNDETERMINED",
+    "RS_share_UNDETERMINED",
+    "H_share_ORIGIN",
+    "RS_share_ORIGIN",
+    "H_S",
+    "log_w1_volume",
+    "S_source_breadth",
+    "S_sink_share"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 93,
+   "n_heldout_hits": 36,
+   "heldout_hits": [
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_2cfdd88c29c0",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419",
+    "c_457b5eab7f19",
+    "c_4bd7704f481d",
+    "c_5382c59edd3c",
+    "c_592b396b9fa6",
+    "c_5d0609aeb10b",
+    "c_7011282bd1ba",
+    "c_8856d927d560",
+    "c_8cebebdabedf"
+   ],
+   "file": "round-2/experiment-2/src/results/power/h1_units_nmin5.csv",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "F_band",
+    "fold",
+    "H",
+    "RS",
+    "n_active",
+    "w1_volume",
+    "mean_host_mom",
+    "growing_breadth",
+    "n_tested_or_labelled",
+    "H_share_SOURCE",
+    "RS_share_SOURCE",
+    "H_share_SINK",
+    "RS_share_SINK",
+    "H_share_FADING",
+    "RS_share_FADING",
+    "H_share_UNDETERMINED",
+    "RS_share_UNDETERMINED",
+    "H_share_ORIGIN",
+    "RS_share_ORIGIN",
+    "H_S",
+    "log_w1_volume",
+    "S_source_breadth",
+    "S_sink_share"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/power/projection.json"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_edges_correct.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_edges_drift.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_edges_pi08.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_edges_pi125.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_edges_refs3.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_edges_smoke.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_edges_smoke_R1.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_edges_smoke_R2.parquet"
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/synth/synth_results.json"
+  },
+  {
+   "n_ids_found": 22,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/viability/benchmark_stationary_cells.csv"
+  },
+  {
+   "n_ids_found": 100,
+   "n_heldout_hits": 38,
+   "heldout_hits": [
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_2cfdd88c29c0",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419",
+    "c_457b5eab7f19",
+    "c_4bd7704f481d",
+    "c_5382c59edd3c",
+    "c_592b396b9fa6",
+    "c_5d0609aeb10b",
+    "c_7011282bd1ba",
+    "c_81212986e10d",
+    "c_8856d927d560"
+   ],
+   "file": "round-2/experiment-2/src/results/viability/viability_layer.csv",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "d",
+    "role",
+    "n_w1",
+    "n_children",
+    "n_parents",
+    "eligible",
+    "rho",
+    "m",
+    "mom",
+    "mom_lo",
+    "mom_hi",
+    "t_max_used",
+    "within_host_share",
+    "within_host_share_refs",
+    "n_children_with_refs",
+    "lenient_share",
+    "n_traced",
+    "untraced_share",
+    "background_only_share",
+    "n_canonical_in_d",
+    "nan_share",
+    "rho_lo",
+    "rho_hi",
+    "log_ci_width",
+    "m_lo",
+    "m_hi",
+    "p_greater_main",
+    "p_less_main",
+    "rt_lo_main",
+    "rt_hi_main",
+    "p_greater_past",
+    "p_less_past",
+    "rt_lo_past",
+    "rt_hi_past",
+    "p_greater_eb",
+    "p_less_eb",
+    "rt_lo_eb",
+    "rt_hi_eb",
+    "p_greater_only3",
+    "p_less_only3",
+    "rt_lo_only3",
+    "rt_hi_only3",
+    "p_greater_refboot",
+    "p_less_refboot",
+    "rt_lo_refboot",
+    "rt_hi_refboot",
+    "n_parents_cw1",
+    "n_children_cw1",
+    "n_traced_cw1",
+    "rho_cw1",
+    "p_greater_cw1",
+    "p_less_cw1",
+    "m_lo_cw1",
+    "phrase",
+    "fold",
+    "F",
+    "F_band"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 100,
+   "n_heldout_hits": 38,
+   "heldout_hits": [
+    "c_05d308510ee3",
+    "c_05d3dfa90ab3",
+    "c_0db0c80eb81a",
+    "c_10899378a764",
+    "c_15655b81c9fd",
+    "c_1c1c5f783c18",
+    "c_1d198d662026",
+    "c_1e0ff7706e23",
+    "c_2cfdd88c29c0",
+    "c_3ece93670063",
+    "c_4380b7a089e5",
+    "c_444e89430419",
+    "c_457b5eab7f19",
+    "c_4bd7704f481d",
+    "c_5382c59edd3c",
+    "c_592b396b9fa6",
+    "c_5d0609aeb10b",
+    "c_7011282bd1ba",
+    "c_81212986e10d",
+    "c_8856d927d560"
+   ],
+   "file": "round-2/experiment-2/src/results/viability/viability_layer_part_00.parquet",
+   "columns": [
+    "concept_id",
+    "t",
+    "age",
+    "d",
+    "role",
+    "n_w1",
+    "n_children",
+    "n_parents",
+    "eligible",
+    "rho",
+    "m",
+    "mom",
+    "mom_lo",
+    "mom_hi",
+    "t_max_used",
+    "within_host_share",
+    "within_host_share_refs",
+    "n_children_with_refs",
+    "lenient_share",
+    "n_traced",
+    "untraced_share",
+    "background_only_share",
+    "n_canonical_in_d",
+    "nan_share",
+    "rho_lo",
+    "rho_hi",
+    "log_ci_width",
+    "m_lo",
+    "m_hi",
+    "p_greater_main",
+    "p_less_main",
+    "rt_lo_main",
+    "rt_hi_main",
+    "p_greater_past",
+    "p_less_past",
+    "rt_lo_past",
+    "rt_hi_past",
+    "p_greater_eb",
+    "p_less_eb",
+    "rt_lo_eb",
+    "rt_hi_eb",
+    "p_greater_only3",
+    "p_less_only3",
+    "rt_lo_only3",
+    "rt_hi_only3",
+    "p_greater_refboot",
+    "p_less_refboot",
+    "rt_lo_refboot",
+    "rt_hi_refboot",
+    "n_parents_cw1",
+    "n_children_cw1",
+    "n_traced_cw1",
+    "rho_cw1",
+    "p_greater_cw1",
+    "p_less_cw1",
+    "m_lo_cw1",
+    "phrase",
+    "fold",
+    "F",
+    "F_band"
+   ],
+   "note": "held-out rows present by design: check whether outcome columns were computed",
+   "w2_like_columns": []
+  },
+  {
+   "n_ids_found": 0,
+   "n_heldout_hits": 0,
+   "heldout_hits": [],
+   "file": "round-2/experiment-2/src/results/viability/viability_summary.json"
+  }
+ ],
+ "extra_checks": {
+  "exp3_labels_focal_years_2016_18_rows": 0,
+  "exp3_labels_heldout_concepts": 0,
+  "exp3_indicator_folds": {
+   "screen": 2068,
+   "reference": 550
+  },
+  "exp2_graft_events_heldout_rows": 931,
+  "exp2_graft_events_columns": [
+   "concept_id",
+   "d",
+   "e",
+   "fold",
+   "n_kw",
+   "anchored_proxy",
+   "e_ge_F"
+  ],
+  "exp2_graft_events_note": "graft_fallback_events.csv lists host-ENTRY events (concept, subfield, entry year e, n entry keywords, anchored proxy) for held-out concepts by design; no W2 outcome column (breadth gain, uptake) is present",
+  "exp2_origin_series_heldout": {
+   "n_concepts": 61,
+   "max_year": 2024,
+   "n_rows": 873
+  },
+  "exp2_cooling_onsets_heldout": {
+   "n_concepts": 61,
+   "n_with_onset_0_7": 10
+  },
+  "exp2_caveat": "exp_2 computed origin-subfield series through 2024 and cooling onsets for 61 held-out concepts (outcome-adjacent, post-t years); they are not RQ1 labels and are not read by exp_3/exp_4, but the held-out fold is no longer 'untouched' at the level of exp_2 descriptive outputs"
+ },
+ "hits_exp3_exp4_total": 0,
+ "files_scanned_exp3_exp4": 161,
+ "files_with_hits_exp3_exp4": [],
+ "verdict": "SEALED",
+ "limitation": "Analysis-level seal only: it shows no held-out id was ANALYSED (appears) in exp_3/exp_4 outputs. It cannot show that nobody looked at held-out raw data: dataset_5 holds full 2000-2024 works for all 426 concepts including the 119 held-out."
+}
