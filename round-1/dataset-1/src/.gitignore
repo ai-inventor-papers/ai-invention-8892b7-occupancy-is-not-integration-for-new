@@ -1,0 +1,6 @@
+.env
+.venv/
+raw_cache/
+snapshot_entities/
+temp/
+__pycache__/

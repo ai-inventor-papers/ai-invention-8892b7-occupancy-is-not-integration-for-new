@@ -1,0 +1,32 @@
+16:03:58|INFO   |audit 'interacting holographic dark energy': ours=113 ref=156 rho=0.8980676228386517
+16:03:58|INFO   |audit 'lhc signature': ours=137 ref=180 rho=0.9460404439541418
+16:03:58|INFO   |audit 'dirac fermions in graphene': ours=244 ref=315 rho=0.9354587869362364
+16:03:58|INFO   |audit 'conductivity of graphene': ours=1918 ref=2508 rho=0.9860067622019898
+16:04:02|INFO   |audit 'gaussian belief': ours=324 ref=283 rho=0.9551430781129157
+16:04:02|INFO   |audit 'group lasso': ours=1739 ref=2038 rho=0.9771683534407247
+16:04:02|INFO   |audit 'cu cu collision': ours=89 ref=400 rho=0.9515235589954825
+16:04:02|INFO   |audit 'decoy state': ours=828 ref=970 rho=0.9730146491904395
+16:04:02|INFO   |audit 'graphene on sic': ours=917 ref=1263 rho=0.9882029099488793
+16:04:02|INFO   |audit 'diagrammatic monte carlo': ours=193 ref=222 rho=0.8831405962876354
+16:04:02|INFO   |audit 'noncommutative motive': ours=58 ref=77 rho=0.9005020254555026
+16:04:02|INFO   |audit 'graphene plasmon': ours=816 ref=916 rho=0.9847732608035886
+16:04:02|INFO   |audit 'little rip': ours=110 ref=136 rho=0.9660578373819222
+16:04:02|INFO   |audit 'cognitive interference channel': ours=135 ref=141 rho=0.9831130361631826
+16:04:02|INFO   |audit 'ultrastrong coupling regime': ours=350 ref=432 rho=0.9790738688514986
+16:04:02|INFO   |audit 'rainbow connection number': ours=254 ref=304 rho=0.9822779769016328
+16:04:02|INFO   |audit 'iron arsenide': ours=432 ref=531 rho=0.9831793158814597
+16:04:02|INFO   |audit 'regenerating code': ours=530 ref=658 rho=0.9810294597766924
+16:04:02|INFO   |audit 'science verification data': ours=99 ref=123 rho=0.9222341147768626
+16:04:02|INFO   |audit 'ising nanowire': ours=102 ref=115 rho=0.9888774669085768
+16:04:02|INFO   |audit 'eddington inspired born infeld gravity': ours=114 ref=134 rho=0.9742163704158686
+16:04:02|INFO   |audit 'weyl semimetal taas': ours=111 ref=142 rho=0.988471945358206
+16:04:02|INFO   |audit 'twist bend nematic': ours=314 ref=352 rho=0.9761457888207937
+16:04:02|INFO   |audit 'deep face recognition': ours=282 ref=297 rho=0.9995096837165396
+16:04:02|INFO   |audit 'galactic center gamma ray excess': ours=92 ref=109 rho=0.9820792473116051
+16:04:16|INFO   |audit 'interfacial dzyaloshinskii moriya interaction': ours=649 ref=512 rho=0.9832252538483239
+16:04:16|INFO   |audit 'stochastic variational inference': ours=353 ref=426 rho=0.9757852511285557
+16:04:16|INFO   |audit 'gaussian mimo': ours=228 ref=243 rho=0.9529345013683351
+16:04:38|INFO   |audit 'proton radius puzzle': ours=240 ref=236 rho=0.9476622268362546
+16:04:38|INFO   |audit 'sequence to sequence learning': ours=415 ref=488 rho=0.9269712551183451
+16:04:38|INFO   |{"n_audited":30,"median_ratio_total":0.83975,"iqr_ratio_total":[0.7875,0.88985],"median_spearman_yearly":0.97595,"n_flag_ratio_lt_0.5":1,"stated_expectation":"ratio 0.7-1.1 vs OpenAlex-native; vs S2 index the ratio also reflects index coverage differences (S2 vs OpenAlex) and S2 phrase-matching looseness","routeA_verification_pass_rate_median":0.9754543732816101,"routeA_verification_pass_rate_p10":0.8251005936377908,"s2_calls":11,"s2_429":8}
+done
