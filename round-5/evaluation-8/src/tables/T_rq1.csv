@@ -1,0 +1,24 @@
+row,estimator,screen,heldout,lo,hi,holm,decision
+closure,pooled panel,-0.661,-0.391,-0.855,0.072,0.147,DEAD
+closure_resT,pooled panel,-0.400,-0.109,-0.561,0.342,0.635,DEAD
+closure_persist,pooled panel,-1.124,-1.073,-1.858,-0.289,0.015,CONFIRMED
+constraint,pooled panel,0.064,0.083,0.002,0.164,-,descriptive
+xc_excess,pooled panel,0.048,0.047,-0.036,0.130,-,descriptive
+wmz,pooled panel,0.038,0.037,0.006,0.067,-,descriptive
+effsize,pooled panel,-,8.214,-6.614,23.042,-,descriptive
+closure,event study,-0.439,-0.534,-1.200,0.074,-,descriptive
+closure_resT,event study,-0.295,-0.266,-0.891,0.300,-,descriptive
+closure_persist,event study,-0.575,-0.826,-1.706,-0.096,-,descriptive
+constraint,event study,0.083,0.105,0.021,0.187,0.995,DEAD
+xc_excess,event study,0.063,0.038,-0.061,0.133,-,descriptive
+wmz,event study,0.032,0.014,-0.024,0.049,-,descriptive
+effsize,event study,-1.701,-27.777,-49.293,-9.540,-,descriptive
+closure,IVW screen+held-out (descriptive),-,-0.464,-0.790,-0.137,-,"DESCRIPTIVE, NOT A DECISION"
+closure_resT,IVW screen+held-out (descriptive),-,-0.287,-0.605,0.032,-,"DESCRIPTIVE, NOT A DECISION"
+closure_persist,IVW screen+held-out (descriptive),-,-0.683,-1.209,-0.156,-,"DESCRIPTIVE, NOT A DECISION"
+constraint,IVW screen+held-out (descriptive),-,0.091,0.040,0.143,-,"DESCRIPTIVE, NOT A DECISION"
+H-matched subset closure_resT (n 11),event study,-,-0.536,-0.933,-0.133,-,sensitivity
+Balance: H SMD at k=0,matching,-,0.96,,,-,imperfect
+Covariates with |SMD| > 0.25 (of 11),matching,-,6,,,-,
+Event-study controls that are screen concepts (of 25),matching,-,17,,,-,fallback fired
+RQ1 VERDICT,frozen kill rule (iteration-4 strategy),-,R1_DEAD,,,,Structural precursors of sustained uptake are volume/churn correlates

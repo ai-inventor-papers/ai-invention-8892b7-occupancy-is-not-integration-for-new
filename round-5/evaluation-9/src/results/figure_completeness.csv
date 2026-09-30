@@ -1,0 +1,8 @@
+figure,pdf,png,figure_spec,caption,plotted_values,check_passes,caption_sentences
+F1,True,True,True,True,True,True,3
+F2,True,True,True,True,True,True,4
+F3,True,True,True,True,True,True,4
+F4,True,True,True,True,True,True,3
+F5,True,True,True,True,True,True,3
+F6,True,True,True,True,True,True,3
+F7,True,True,True,True,True,True,3

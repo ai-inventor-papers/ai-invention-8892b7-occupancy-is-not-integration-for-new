@@ -1,0 +1,14 @@
+{
+ "k1": {
+  "status": "RUN",
+  "seconds": 45.8
+ },
+ "k3": {
+  "status": "RUN",
+  "seconds": 44.2
+ },
+ "inference": {
+  "status": "RUN",
+  "seconds": 44.5
+ }
+}
