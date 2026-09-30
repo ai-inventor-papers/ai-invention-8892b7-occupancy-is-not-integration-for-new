@@ -1,0 +1,2859 @@
+{
+  "overall_main": {
+    "n_cpapers": 258814,
+    "share_with_refs": 0.844,
+    "traced_share_any": 0.6659,
+    "traced_share_excl_F": 0.6456,
+    "traced_share_excl_F_top5cited": 0.6067,
+    "host_traced_share_excl_F": 0.5444,
+    "n_host_cpapers": 90406,
+    "abstract_share": 0.7929,
+    "author_id_coverage": 0.8984,
+    "primary_topic_null_share": 0.0003,
+    "dup_group_share": 0.0344,
+    "match_evidence_mix": {
+      "oa_title": 123334,
+      "oa_abstract": 110615,
+      "s2_only": 21975,
+      "oa_index_only": 2890
+    }
+  },
+  "overall_reference": {
+    "n_cpapers": 229264,
+    "share_with_refs": 0.765,
+    "traced_share_any": 0.5401,
+    "traced_share_excl_F": 0.5401,
+    "traced_share_excl_F_top5cited": 0.5298,
+    "host_traced_share_excl_F": null,
+    "n_host_cpapers": 0,
+    "abstract_share": 0.7832,
+    "author_id_coverage": 0.9024,
+    "primary_topic_null_share": 0.002,
+    "dup_group_share": 0.0727,
+    "match_evidence_mix": {
+      "oa_abstract": 114429,
+      "oa_title": 87296,
+      "s2_only": 18836,
+      "oa_index_only": 8703
+    }
+  },
+  "gate_A_threshold_marked_not_applied": 0.4,
+  "by_group": {
+    "F17:Computer Science": {
+      "n_cpapers": 108755,
+      "share_with_refs": 0.8437,
+      "traced_share_any": 0.6354,
+      "traced_share_excl_F": 0.6187,
+      "traced_share_excl_F_top5cited": 0.5775,
+      "host_traced_share_excl_F": 0.5263,
+      "n_host_cpapers": 49724,
+      "abstract_share": 0.8092,
+      "author_id_coverage": 0.9122,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0408,
+      "match_evidence_mix": {
+        "oa_abstract": 50108,
+        "oa_title": 48653,
+        "s2_only": 8827,
+        "oa_index_only": 1167
+      }
+    },
+    "F22:Engineering": {
+      "n_cpapers": 36614,
+      "share_with_refs": 0.8821,
+      "traced_share_any": 0.7064,
+      "traced_share_excl_F": 0.6902,
+      "traced_share_excl_F_top5cited": 0.6571,
+      "host_traced_share_excl_F": 0.5519,
+      "n_host_cpapers": 8191,
+      "abstract_share": 0.8642,
+      "author_id_coverage": 0.9265,
+      "primary_topic_null_share": 0.0002,
+      "dup_group_share": 0.0504,
+      "match_evidence_mix": {
+        "oa_title": 18974,
+        "oa_abstract": 15477,
+        "s2_only": 1700,
+        "oa_index_only": 463
+      }
+    },
+    "F25:Materials Science": {
+      "n_cpapers": 48900,
+      "share_with_refs": 0.8286,
+      "traced_share_any": 0.672,
+      "traced_share_excl_F": 0.6526,
+      "traced_share_excl_F_top5cited": 0.6294,
+      "host_traced_share_excl_F": 0.5734,
+      "n_host_cpapers": 15010,
+      "abstract_share": 0.6813,
+      "author_id_coverage": 0.8926,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.024,
+      "match_evidence_mix": {
+        "oa_title": 24792,
+        "oa_abstract": 16803,
+        "s2_only": 6295,
+        "oa_index_only": 1010
+      }
+    },
+    "F26:Mathematics": {
+      "n_cpapers": 14853,
+      "share_with_refs": 0.8648,
+      "traced_share_any": 0.7275,
+      "traced_share_excl_F": 0.7151,
+      "traced_share_excl_F_top5cited": 0.6451,
+      "host_traced_share_excl_F": 0.6627,
+      "n_host_cpapers": 6392,
+      "abstract_share": 0.7427,
+      "author_id_coverage": 0.9276,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0173,
+      "match_evidence_mix": {
+        "oa_title": 8076,
+        "oa_abstract": 5185,
+        "s2_only": 1554,
+        "oa_index_only": 38
+      }
+    },
+    "F31:Physics and Astronomy": {
+      "n_cpapers": 46814,
+      "share_with_refs": 0.8272,
+      "traced_share_any": 0.6839,
+      "traced_share_excl_F": 0.6499,
+      "traced_share_excl_F_top5cited": 0.6086,
+      "host_traced_share_excl_F": 0.5137,
+      "n_host_cpapers": 9574,
+      "abstract_share": 0.8319,
+      "author_id_coverage": 0.8409,
+      "primary_topic_null_share": 0.0002,
+      "dup_group_share": 0.025,
+      "match_evidence_mix": {
+        "oa_title": 22124,
+        "oa_abstract": 21308,
+        "s2_only": 3170,
+        "oa_index_only": 212
+      }
+    },
+    "OTHER_small": {
+      "n_cpapers": 2878,
+      "share_with_refs": 0.7971,
+      "traced_share_any": 0.5928,
+      "traced_share_excl_F": 0.5431,
+      "traced_share_excl_F_top5cited": 0.4527,
+      "host_traced_share_excl_F": 0.5089,
+      "n_host_cpapers": 1515,
+      "abstract_share": 0.7919,
+      "author_id_coverage": 0.8965,
+      "primary_topic_null_share": 0.0007,
+      "dup_group_share": 0.0111,
+      "match_evidence_mix": {
+        "oa_abstract": 1734,
+        "oa_title": 715,
+        "s2_only": 429
+      }
+    }
+  },
+  "by_group_year": {
+    "F17:Computer Science|2004": {
+      "n_cpapers": 38,
+      "share_with_refs": 0.8158,
+      "traced_share_any": 0.0789,
+      "traced_share_excl_F": 0.0789,
+      "traced_share_excl_F_top5cited": 0.0789,
+      "host_traced_share_excl_F": 0.1333,
+      "n_host_cpapers": 15,
+      "abstract_share": 0.6053,
+      "author_id_coverage": 0.9211,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_abstract": 16,
+        "s2_only": 13,
+        "oa_title": 9
+      }
+    },
+    "F17:Computer Science|2005": {
+      "n_cpapers": 86,
+      "share_with_refs": 0.6512,
+      "traced_share_any": 0.093,
+      "traced_share_excl_F": 0.093,
+      "traced_share_excl_F_top5cited": 0.093,
+      "host_traced_share_excl_F": 0.037,
+      "n_host_cpapers": 27,
+      "abstract_share": 0.7093,
+      "author_id_coverage": 0.9302,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0814,
+      "match_evidence_mix": {
+        "oa_title": 41,
+        "oa_abstract": 27,
+        "s2_only": 18
+      }
+    },
+    "F17:Computer Science|2006": {
+      "n_cpapers": 175,
+      "share_with_refs": 0.7429,
+      "traced_share_any": 0.4,
+      "traced_share_excl_F": 0.1543,
+      "traced_share_excl_F_top5cited": 0.1371,
+      "host_traced_share_excl_F": 0.098,
+      "n_host_cpapers": 51,
+      "abstract_share": 0.7314,
+      "author_id_coverage": 0.9143,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0343,
+      "match_evidence_mix": {
+        "oa_title": 79,
+        "oa_abstract": 68,
+        "s2_only": 28
+      }
+    },
+    "F17:Computer Science|2007": {
+      "n_cpapers": 237,
+      "share_with_refs": 0.7975,
+      "traced_share_any": 0.4219,
+      "traced_share_excl_F": 0.3629,
+      "traced_share_excl_F_top5cited": 0.3333,
+      "host_traced_share_excl_F": 0.1875,
+      "n_host_cpapers": 64,
+      "abstract_share": 0.7131,
+      "author_id_coverage": 0.9283,
+      "primary_topic_null_share": 0.0084,
+      "dup_group_share": 0.0506,
+      "match_evidence_mix": {
+        "oa_abstract": 96,
+        "oa_title": 96,
+        "s2_only": 45
+      }
+    },
+    "F17:Computer Science|2008": {
+      "n_cpapers": 334,
+      "share_with_refs": 0.8653,
+      "traced_share_any": 0.4311,
+      "traced_share_excl_F": 0.3832,
+      "traced_share_excl_F_top5cited": 0.2964,
+      "host_traced_share_excl_F": 0.2527,
+      "n_host_cpapers": 91,
+      "abstract_share": 0.8144,
+      "author_id_coverage": 0.8832,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0359,
+      "match_evidence_mix": {
+        "oa_title": 157,
+        "oa_abstract": 138,
+        "s2_only": 38,
+        "oa_index_only": 1
+      }
+    },
+    "F17:Computer Science|2009": {
+      "n_cpapers": 494,
+      "share_with_refs": 0.836,
+      "traced_share_any": 0.5081,
+      "traced_share_excl_F": 0.4291,
+      "traced_share_excl_F_top5cited": 0.3401,
+      "host_traced_share_excl_F": 0.3577,
+      "n_host_cpapers": 137,
+      "abstract_share": 0.7611,
+      "author_id_coverage": 0.9433,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0466,
+      "match_evidence_mix": {
+        "oa_title": 243,
+        "oa_abstract": 181,
+        "s2_only": 67,
+        "oa_index_only": 3
+      }
+    },
+    "F17:Computer Science|2010": {
+      "n_cpapers": 777,
+      "share_with_refs": 0.834,
+      "traced_share_any": 0.5882,
+      "traced_share_excl_F": 0.5238,
+      "traced_share_excl_F_top5cited": 0.3707,
+      "host_traced_share_excl_F": 0.3727,
+      "n_host_cpapers": 220,
+      "abstract_share": 0.8069,
+      "author_id_coverage": 0.9434,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0412,
+      "match_evidence_mix": {
+        "oa_title": 398,
+        "oa_abstract": 292,
+        "s2_only": 86,
+        "oa_index_only": 1
+      }
+    },
+    "F17:Computer Science|2011": {
+      "n_cpapers": 1034,
+      "share_with_refs": 0.8298,
+      "traced_share_any": 0.5609,
+      "traced_share_excl_F": 0.5271,
+      "traced_share_excl_F_top5cited": 0.3975,
+      "host_traced_share_excl_F": 0.3529,
+      "n_host_cpapers": 340,
+      "abstract_share": 0.793,
+      "author_id_coverage": 0.9516,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0222,
+      "match_evidence_mix": {
+        "oa_title": 551,
+        "oa_abstract": 370,
+        "s2_only": 112,
+        "oa_index_only": 1
+      }
+    },
+    "F17:Computer Science|2012": {
+      "n_cpapers": 1477,
+      "share_with_refs": 0.8402,
+      "traced_share_any": 0.5836,
+      "traced_share_excl_F": 0.5464,
+      "traced_share_excl_F_top5cited": 0.4502,
+      "host_traced_share_excl_F": 0.3958,
+      "n_host_cpapers": 523,
+      "abstract_share": 0.7732,
+      "author_id_coverage": 0.9418,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0271,
+      "match_evidence_mix": {
+        "oa_title": 784,
+        "oa_abstract": 549,
+        "s2_only": 144
+      }
+    },
+    "F17:Computer Science|2013": {
+      "n_cpapers": 1996,
+      "share_with_refs": 0.8397,
+      "traced_share_any": 0.6092,
+      "traced_share_excl_F": 0.5656,
+      "traced_share_excl_F_top5cited": 0.4855,
+      "host_traced_share_excl_F": 0.4764,
+      "n_host_cpapers": 741,
+      "abstract_share": 0.7901,
+      "author_id_coverage": 0.9424,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.022,
+      "match_evidence_mix": {
+        "oa_title": 1102,
+        "oa_abstract": 704,
+        "s2_only": 190
+      }
+    },
+    "F17:Computer Science|2014": {
+      "n_cpapers": 2534,
+      "share_with_refs": 0.8749,
+      "traced_share_any": 0.6665,
+      "traced_share_excl_F": 0.6251,
+      "traced_share_excl_F_top5cited": 0.5466,
+      "host_traced_share_excl_F": 0.5684,
+      "n_host_cpapers": 950,
+      "abstract_share": 0.7995,
+      "author_id_coverage": 0.927,
+      "primary_topic_null_share": 0.0008,
+      "dup_group_share": 0.0182,
+      "match_evidence_mix": {
+        "oa_title": 1366,
+        "oa_abstract": 923,
+        "s2_only": 244,
+        "oa_index_only": 1
+      }
+    },
+    "F17:Computer Science|2015": {
+      "n_cpapers": 3216,
+      "share_with_refs": 0.8725,
+      "traced_share_any": 0.6642,
+      "traced_share_excl_F": 0.6206,
+      "traced_share_excl_F_top5cited": 0.5367,
+      "host_traced_share_excl_F": 0.5535,
+      "n_host_cpapers": 1261,
+      "abstract_share": 0.8007,
+      "author_id_coverage": 0.9291,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0177,
+      "match_evidence_mix": {
+        "oa_title": 1640,
+        "oa_abstract": 1277,
+        "s2_only": 298,
+        "oa_index_only": 1
+      }
+    },
+    "F17:Computer Science|2016": {
+      "n_cpapers": 4311,
+      "share_with_refs": 0.8706,
+      "traced_share_any": 0.6579,
+      "traced_share_excl_F": 0.6268,
+      "traced_share_excl_F_top5cited": 0.5528,
+      "host_traced_share_excl_F": 0.5434,
+      "n_host_cpapers": 1715,
+      "abstract_share": 0.7708,
+      "author_id_coverage": 0.933,
+      "primary_topic_null_share": 0.0002,
+      "dup_group_share": 0.0223,
+      "match_evidence_mix": {
+        "oa_title": 2189,
+        "oa_abstract": 1615,
+        "s2_only": 505,
+        "oa_index_only": 2
+      }
+    },
+    "F17:Computer Science|2017": {
+      "n_cpapers": 5894,
+      "share_with_refs": 0.87,
+      "traced_share_any": 0.6515,
+      "traced_share_excl_F": 0.6172,
+      "traced_share_excl_F_top5cited": 0.5533,
+      "host_traced_share_excl_F": 0.536,
+      "n_host_cpapers": 2375,
+      "abstract_share": 0.7716,
+      "author_id_coverage": 0.9359,
+      "primary_topic_null_share": 0.0002,
+      "dup_group_share": 0.0268,
+      "match_evidence_mix": {
+        "oa_title": 2826,
+        "oa_abstract": 2387,
+        "s2_only": 670,
+        "oa_index_only": 11
+      }
+    },
+    "F17:Computer Science|2018": {
+      "n_cpapers": 8294,
+      "share_with_refs": 0.8645,
+      "traced_share_any": 0.6494,
+      "traced_share_excl_F": 0.6254,
+      "traced_share_excl_F_top5cited": 0.5715,
+      "host_traced_share_excl_F": 0.5125,
+      "n_host_cpapers": 3333,
+      "abstract_share": 0.7638,
+      "author_id_coverage": 0.9396,
+      "primary_topic_null_share": 0.0001,
+      "dup_group_share": 0.0335,
+      "match_evidence_mix": {
+        "oa_title": 3770,
+        "oa_abstract": 3513,
+        "s2_only": 965,
+        "oa_index_only": 46
+      }
+    },
+    "F17:Computer Science|2019": {
+      "n_cpapers": 10406,
+      "share_with_refs": 0.877,
+      "traced_share_any": 0.664,
+      "traced_share_excl_F": 0.6462,
+      "traced_share_excl_F_top5cited": 0.603,
+      "host_traced_share_excl_F": 0.5273,
+      "n_host_cpapers": 4392,
+      "abstract_share": 0.7778,
+      "author_id_coverage": 0.9272,
+      "primary_topic_null_share": 0.0005,
+      "dup_group_share": 0.0354,
+      "match_evidence_mix": {
+        "oa_title": 4644,
+        "oa_abstract": 4574,
+        "s2_only": 1122,
+        "oa_index_only": 66
+      }
+    },
+    "F17:Computer Science|2020": {
+      "n_cpapers": 11683,
+      "share_with_refs": 0.8976,
+      "traced_share_any": 0.6929,
+      "traced_share_excl_F": 0.677,
+      "traced_share_excl_F_top5cited": 0.6373,
+      "host_traced_share_excl_F": 0.5696,
+      "n_host_cpapers": 5165,
+      "abstract_share": 0.7819,
+      "author_id_coverage": 0.9195,
+      "primary_topic_null_share": 0.0005,
+      "dup_group_share": 0.0413,
+      "match_evidence_mix": {
+        "oa_abstract": 5373,
+        "oa_title": 4975,
+        "s2_only": 1197,
+        "oa_index_only": 138
+      }
+    },
+    "F17:Computer Science|2021": {
+      "n_cpapers": 12604,
+      "share_with_refs": 0.9127,
+      "traced_share_any": 0.7068,
+      "traced_share_excl_F": 0.6968,
+      "traced_share_excl_F_top5cited": 0.6651,
+      "host_traced_share_excl_F": 0.5902,
+      "n_host_cpapers": 5751,
+      "abstract_share": 0.8209,
+      "author_id_coverage": 0.9277,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0463,
+      "match_evidence_mix": {
+        "oa_abstract": 6100,
+        "oa_title": 5444,
+        "s2_only": 916,
+        "oa_index_only": 144
+      }
+    },
+    "F17:Computer Science|2022": {
+      "n_cpapers": 12924,
+      "share_with_refs": 0.7963,
+      "traced_share_any": 0.6126,
+      "traced_share_excl_F": 0.6069,
+      "traced_share_excl_F_top5cited": 0.5829,
+      "host_traced_share_excl_F": 0.5287,
+      "n_host_cpapers": 6208,
+      "abstract_share": 0.8325,
+      "author_id_coverage": 0.9195,
+      "primary_topic_null_share": 0.0006,
+      "dup_group_share": 0.0579,
+      "match_evidence_mix": {
+        "oa_abstract": 6381,
+        "oa_title": 5656,
+        "s2_only": 679,
+        "oa_index_only": 208
+      }
+    },
+    "F17:Computer Science|2023": {
+      "n_cpapers": 14219,
+      "share_with_refs": 0.8072,
+      "traced_share_any": 0.6154,
+      "traced_share_excl_F": 0.6102,
+      "traced_share_excl_F_top5cited": 0.5884,
+      "host_traced_share_excl_F": 0.5289,
+      "n_host_cpapers": 7123,
+      "abstract_share": 0.8497,
+      "author_id_coverage": 0.9168,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.058,
+      "match_evidence_mix": {
+        "oa_abstract": 7193,
+        "oa_title": 6083,
+        "s2_only": 685,
+        "oa_index_only": 258
+      }
+    },
+    "F17:Computer Science|2024": {
+      "n_cpapers": 15970,
+      "share_with_refs": 0.7661,
+      "traced_share_any": 0.5598,
+      "traced_share_excl_F": 0.5569,
+      "traced_share_excl_F_top5cited": 0.5379,
+      "host_traced_share_excl_F": 0.4842,
+      "n_host_cpapers": 9214,
+      "abstract_share": 0.8487,
+      "author_id_coverage": 0.8291,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.037,
+      "match_evidence_mix": {
+        "oa_abstract": 8304,
+        "oa_title": 6584,
+        "s2_only": 796,
+        "oa_index_only": 286
+      }
+    },
+    "F22:Engineering|2005": {
+      "n_cpapers": 31,
+      "share_with_refs": 0.7419,
+      "traced_share_any": 0.0968,
+      "traced_share_excl_F": 0.0968,
+      "traced_share_excl_F_top5cited": 0.0645,
+      "host_traced_share_excl_F": 0.2222,
+      "n_host_cpapers": 9,
+      "abstract_share": 0.8065,
+      "author_id_coverage": 0.9355,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0645,
+      "match_evidence_mix": {
+        "oa_title": 15,
+        "oa_abstract": 13,
+        "s2_only": 3
+      }
+    },
+    "F22:Engineering|2006": {
+      "n_cpapers": 99,
+      "share_with_refs": 0.8586,
+      "traced_share_any": 0.1818,
+      "traced_share_excl_F": 0.1515,
+      "traced_share_excl_F_top5cited": 0.0909,
+      "host_traced_share_excl_F": 0.2105,
+      "n_host_cpapers": 19,
+      "abstract_share": 0.8788,
+      "author_id_coverage": 0.9192,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_title": 63,
+        "oa_abstract": 31,
+        "s2_only": 5
+      }
+    },
+    "F22:Engineering|2007": {
+      "n_cpapers": 119,
+      "share_with_refs": 0.7983,
+      "traced_share_any": 0.2689,
+      "traced_share_excl_F": 0.1597,
+      "traced_share_excl_F_top5cited": 0.1513,
+      "host_traced_share_excl_F": 0.0345,
+      "n_host_cpapers": 29,
+      "abstract_share": 0.8655,
+      "author_id_coverage": 0.8739,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.1092,
+      "match_evidence_mix": {
+        "oa_title": 58,
+        "oa_abstract": 54,
+        "s2_only": 5,
+        "oa_index_only": 2
+      }
+    },
+    "F22:Engineering|2008": {
+      "n_cpapers": 238,
+      "share_with_refs": 0.8361,
+      "traced_share_any": 0.3193,
+      "traced_share_excl_F": 0.2563,
+      "traced_share_excl_F_top5cited": 0.2185,
+      "host_traced_share_excl_F": 0.1282,
+      "n_host_cpapers": 39,
+      "abstract_share": 0.8782,
+      "author_id_coverage": 0.9412,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.1218,
+      "match_evidence_mix": {
+        "oa_title": 133,
+        "oa_abstract": 99,
+        "s2_only": 6
+      }
+    },
+    "F22:Engineering|2009": {
+      "n_cpapers": 417,
+      "share_with_refs": 0.8849,
+      "traced_share_any": 0.446,
+      "traced_share_excl_F": 0.3645,
+      "traced_share_excl_F_top5cited": 0.2662,
+      "host_traced_share_excl_F": 0.2532,
+      "n_host_cpapers": 79,
+      "abstract_share": 0.8825,
+      "author_id_coverage": 0.9496,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.1007,
+      "match_evidence_mix": {
+        "oa_title": 228,
+        "oa_abstract": 168,
+        "s2_only": 18,
+        "oa_index_only": 3
+      }
+    },
+    "F22:Engineering|2010": {
+      "n_cpapers": 681,
+      "share_with_refs": 0.859,
+      "traced_share_any": 0.5272,
+      "traced_share_excl_F": 0.486,
+      "traced_share_excl_F_top5cited": 0.4479,
+      "host_traced_share_excl_F": 0.3212,
+      "n_host_cpapers": 137,
+      "abstract_share": 0.8649,
+      "author_id_coverage": 0.9501,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.1043,
+      "match_evidence_mix": {
+        "oa_title": 397,
+        "oa_abstract": 248,
+        "s2_only": 26,
+        "oa_index_only": 10
+      }
+    },
+    "F22:Engineering|2011": {
+      "n_cpapers": 904,
+      "share_with_refs": 0.8374,
+      "traced_share_any": 0.5852,
+      "traced_share_excl_F": 0.5597,
+      "traced_share_excl_F_top5cited": 0.5155,
+      "host_traced_share_excl_F": 0.4086,
+      "n_host_cpapers": 186,
+      "abstract_share": 0.8783,
+      "author_id_coverage": 0.9381,
+      "primary_topic_null_share": 0.0011,
+      "dup_group_share": 0.1106,
+      "match_evidence_mix": {
+        "oa_title": 512,
+        "oa_abstract": 353,
+        "s2_only": 33,
+        "oa_index_only": 6
+      }
+    },
+    "F22:Engineering|2012": {
+      "n_cpapers": 1267,
+      "share_with_refs": 0.8571,
+      "traced_share_any": 0.6259,
+      "traced_share_excl_F": 0.5991,
+      "traced_share_excl_F_top5cited": 0.5564,
+      "host_traced_share_excl_F": 0.4477,
+      "n_host_cpapers": 239,
+      "abstract_share": 0.8485,
+      "author_id_coverage": 0.9416,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0797,
+      "match_evidence_mix": {
+        "oa_title": 711,
+        "oa_abstract": 480,
+        "s2_only": 61,
+        "oa_index_only": 15
+      }
+    },
+    "F22:Engineering|2013": {
+      "n_cpapers": 1656,
+      "share_with_refs": 0.8502,
+      "traced_share_any": 0.6214,
+      "traced_share_excl_F": 0.6008,
+      "traced_share_excl_F_top5cited": 0.57,
+      "host_traced_share_excl_F": 0.4022,
+      "n_host_cpapers": 363,
+      "abstract_share": 0.869,
+      "author_id_coverage": 0.9481,
+      "primary_topic_null_share": 0.0006,
+      "dup_group_share": 0.07,
+      "match_evidence_mix": {
+        "oa_title": 894,
+        "oa_abstract": 668,
+        "s2_only": 76,
+        "oa_index_only": 18
+      }
+    },
+    "F22:Engineering|2014": {
+      "n_cpapers": 1996,
+      "share_with_refs": 0.8697,
+      "traced_share_any": 0.6318,
+      "traced_share_excl_F": 0.6107,
+      "traced_share_excl_F_top5cited": 0.5862,
+      "host_traced_share_excl_F": 0.4375,
+      "n_host_cpapers": 368,
+      "abstract_share": 0.8948,
+      "author_id_coverage": 0.9173,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0757,
+      "match_evidence_mix": {
+        "oa_title": 1154,
+        "oa_abstract": 757,
+        "s2_only": 62,
+        "oa_index_only": 23
+      }
+    },
+    "F22:Engineering|2015": {
+      "n_cpapers": 2566,
+      "share_with_refs": 0.8659,
+      "traced_share_any": 0.6489,
+      "traced_share_excl_F": 0.6041,
+      "traced_share_excl_F_top5cited": 0.5647,
+      "host_traced_share_excl_F": 0.3938,
+      "n_host_cpapers": 452,
+      "abstract_share": 0.8823,
+      "author_id_coverage": 0.9291,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0425,
+      "match_evidence_mix": {
+        "oa_title": 1371,
+        "oa_abstract": 1071,
+        "s2_only": 103,
+        "oa_index_only": 21
+      }
+    },
+    "F22:Engineering|2016": {
+      "n_cpapers": 3122,
+      "share_with_refs": 0.8655,
+      "traced_share_any": 0.6986,
+      "traced_share_excl_F": 0.6688,
+      "traced_share_excl_F_top5cited": 0.623,
+      "host_traced_share_excl_F": 0.4863,
+      "n_host_cpapers": 547,
+      "abstract_share": 0.8706,
+      "author_id_coverage": 0.9209,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0503,
+      "match_evidence_mix": {
+        "oa_title": 1632,
+        "oa_abstract": 1326,
+        "s2_only": 122,
+        "oa_index_only": 42
+      }
+    },
+    "F22:Engineering|2017": {
+      "n_cpapers": 3438,
+      "share_with_refs": 0.8845,
+      "traced_share_any": 0.7344,
+      "traced_share_excl_F": 0.7193,
+      "traced_share_excl_F_top5cited": 0.6713,
+      "host_traced_share_excl_F": 0.562,
+      "n_host_cpapers": 621,
+      "abstract_share": 0.8549,
+      "author_id_coverage": 0.9407,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0439,
+      "match_evidence_mix": {
+        "oa_title": 1765,
+        "oa_abstract": 1430,
+        "s2_only": 199,
+        "oa_index_only": 44
+      }
+    },
+    "F22:Engineering|2018": {
+      "n_cpapers": 3690,
+      "share_with_refs": 0.8902,
+      "traced_share_any": 0.7442,
+      "traced_share_excl_F": 0.7355,
+      "traced_share_excl_F_top5cited": 0.7014,
+      "host_traced_share_excl_F": 0.5638,
+      "n_host_cpapers": 784,
+      "abstract_share": 0.8439,
+      "author_id_coverage": 0.9352,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0287,
+      "match_evidence_mix": {
+        "oa_title": 1835,
+        "oa_abstract": 1588,
+        "s2_only": 222,
+        "oa_index_only": 45
+      }
+    },
+    "F22:Engineering|2019": {
+      "n_cpapers": 3615,
+      "share_with_refs": 0.8799,
+      "traced_share_any": 0.7397,
+      "traced_share_excl_F": 0.7308,
+      "traced_share_excl_F_top5cited": 0.7029,
+      "host_traced_share_excl_F": 0.59,
+      "n_host_cpapers": 783,
+      "abstract_share": 0.8432,
+      "author_id_coverage": 0.932,
+      "primary_topic_null_share": 0.0008,
+      "dup_group_share": 0.0337,
+      "match_evidence_mix": {
+        "oa_title": 1753,
+        "oa_abstract": 1577,
+        "s2_only": 240,
+        "oa_index_only": 45
+      }
+    },
+    "F22:Engineering|2020": {
+      "n_cpapers": 3035,
+      "share_with_refs": 0.9157,
+      "traced_share_any": 0.7713,
+      "traced_share_excl_F": 0.7661,
+      "traced_share_excl_F_top5cited": 0.7427,
+      "host_traced_share_excl_F": 0.6439,
+      "n_host_cpapers": 719,
+      "abstract_share": 0.8442,
+      "author_id_coverage": 0.9236,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0379,
+      "match_evidence_mix": {
+        "oa_title": 1487,
+        "oa_abstract": 1323,
+        "s2_only": 190,
+        "oa_index_only": 35
+      }
+    },
+    "F22:Engineering|2021": {
+      "n_cpapers": 2722,
+      "share_with_refs": 0.9229,
+      "traced_share_any": 0.7957,
+      "traced_share_excl_F": 0.7917,
+      "traced_share_excl_F_top5cited": 0.7627,
+      "host_traced_share_excl_F": 0.6626,
+      "n_host_cpapers": 658,
+      "abstract_share": 0.8582,
+      "author_id_coverage": 0.9412,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0478,
+      "match_evidence_mix": {
+        "oa_title": 1380,
+        "oa_abstract": 1160,
+        "s2_only": 149,
+        "oa_index_only": 33
+      }
+    },
+    "F22:Engineering|2022": {
+      "n_cpapers": 2492,
+      "share_with_refs": 0.8965,
+      "traced_share_any": 0.7592,
+      "traced_share_excl_F": 0.7568,
+      "traced_share_excl_F_top5cited": 0.736,
+      "host_traced_share_excl_F": 0.6193,
+      "n_host_cpapers": 641,
+      "abstract_share": 0.8804,
+      "author_id_coverage": 0.9326,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.053,
+      "match_evidence_mix": {
+        "oa_title": 1231,
+        "oa_abstract": 1155,
+        "s2_only": 57,
+        "oa_index_only": 49
+      }
+    },
+    "F22:Engineering|2023": {
+      "n_cpapers": 2238,
+      "share_with_refs": 0.9142,
+      "traced_share_any": 0.7824,
+      "traced_share_excl_F": 0.7784,
+      "traced_share_excl_F_top5cited": 0.7534,
+      "host_traced_share_excl_F": 0.6601,
+      "n_host_cpapers": 662,
+      "abstract_share": 0.8874,
+      "author_id_coverage": 0.9245,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0492,
+      "match_evidence_mix": {
+        "oa_title": 1148,
+        "oa_abstract": 998,
+        "s2_only": 58,
+        "oa_index_only": 34
+      }
+    },
+    "F22:Engineering|2024": {
+      "n_cpapers": 2272,
+      "share_with_refs": 0.8552,
+      "traced_share_any": 0.7205,
+      "traced_share_excl_F": 0.7196,
+      "traced_share_excl_F_top5cited": 0.7025,
+      "host_traced_share_excl_F": 0.6184,
+      "n_host_cpapers": 849,
+      "abstract_share": 0.8785,
+      "author_id_coverage": 0.8389,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0383,
+      "match_evidence_mix": {
+        "oa_title": 1197,
+        "oa_abstract": 975,
+        "s2_only": 63,
+        "oa_index_only": 37
+      }
+    },
+    "F25:Materials Science|2006": {
+      "n_cpapers": 64,
+      "share_with_refs": 0.7031,
+      "traced_share_any": 0.1406,
+      "traced_share_excl_F": 0.125,
+      "traced_share_excl_F_top5cited": 0.0781,
+      "host_traced_share_excl_F": 0.1667,
+      "n_host_cpapers": 6,
+      "abstract_share": 0.6406,
+      "author_id_coverage": 0.8594,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0312,
+      "match_evidence_mix": {
+        "oa_title": 28,
+        "oa_abstract": 23,
+        "s2_only": 12,
+        "oa_index_only": 1
+      }
+    },
+    "F25:Materials Science|2007": {
+      "n_cpapers": 226,
+      "share_with_refs": 0.7611,
+      "traced_share_any": 0.3097,
+      "traced_share_excl_F": 0.1549,
+      "traced_share_excl_F_top5cited": 0.115,
+      "host_traced_share_excl_F": 0.0741,
+      "n_host_cpapers": 27,
+      "abstract_share": 0.677,
+      "author_id_coverage": 0.9159,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.031,
+      "match_evidence_mix": {
+        "oa_title": 120,
+        "oa_abstract": 73,
+        "s2_only": 32,
+        "oa_index_only": 1
+      }
+    },
+    "F25:Materials Science|2008": {
+      "n_cpapers": 625,
+      "share_with_refs": 0.7344,
+      "traced_share_any": 0.3104,
+      "traced_share_excl_F": 0.2432,
+      "traced_share_excl_F_top5cited": 0.2208,
+      "host_traced_share_excl_F": 0.1481,
+      "n_host_cpapers": 54,
+      "abstract_share": 0.7536,
+      "author_id_coverage": 0.8832,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0176,
+      "match_evidence_mix": {
+        "oa_title": 329,
+        "oa_abstract": 230,
+        "s2_only": 64,
+        "oa_index_only": 2
+      }
+    },
+    "F25:Materials Science|2009": {
+      "n_cpapers": 1270,
+      "share_with_refs": 0.7394,
+      "traced_share_any": 0.4496,
+      "traced_share_excl_F": 0.3118,
+      "traced_share_excl_F_top5cited": 0.2709,
+      "host_traced_share_excl_F": 0.1705,
+      "n_host_cpapers": 129,
+      "abstract_share": 0.6551,
+      "author_id_coverage": 0.8827,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0244,
+      "match_evidence_mix": {
+        "oa_title": 672,
+        "oa_abstract": 411,
+        "s2_only": 177,
+        "oa_index_only": 10
+      }
+    },
+    "F25:Materials Science|2010": {
+      "n_cpapers": 1775,
+      "share_with_refs": 0.7639,
+      "traced_share_any": 0.5561,
+      "traced_share_excl_F": 0.5059,
+      "traced_share_excl_F_top5cited": 0.4637,
+      "host_traced_share_excl_F": 0.3053,
+      "n_host_cpapers": 226,
+      "abstract_share": 0.7268,
+      "author_id_coverage": 0.862,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0248,
+      "match_evidence_mix": {
+        "oa_title": 909,
+        "oa_abstract": 637,
+        "s2_only": 221,
+        "oa_index_only": 8
+      }
+    },
+    "F25:Materials Science|2011": {
+      "n_cpapers": 2286,
+      "share_with_refs": 0.7616,
+      "traced_share_any": 0.5818,
+      "traced_share_excl_F": 0.5525,
+      "traced_share_excl_F_top5cited": 0.5157,
+      "host_traced_share_excl_F": 0.328,
+      "n_host_cpapers": 311,
+      "abstract_share": 0.7117,
+      "author_id_coverage": 0.8981,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0166,
+      "match_evidence_mix": {
+        "oa_title": 1161,
+        "oa_abstract": 818,
+        "s2_only": 300,
+        "oa_index_only": 7
+      }
+    },
+    "F25:Materials Science|2012": {
+      "n_cpapers": 2717,
+      "share_with_refs": 0.7935,
+      "traced_share_any": 0.6235,
+      "traced_share_excl_F": 0.5933,
+      "traced_share_excl_F_top5cited": 0.5639,
+      "host_traced_share_excl_F": 0.3606,
+      "n_host_cpapers": 477,
+      "abstract_share": 0.7243,
+      "author_id_coverage": 0.8988,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0199,
+      "match_evidence_mix": {
+        "oa_title": 1349,
+        "oa_abstract": 1010,
+        "s2_only": 342,
+        "oa_index_only": 16
+      }
+    },
+    "F25:Materials Science|2013": {
+      "n_cpapers": 3058,
+      "share_with_refs": 0.7812,
+      "traced_share_any": 0.6161,
+      "traced_share_excl_F": 0.5984,
+      "traced_share_excl_F_top5cited": 0.5687,
+      "host_traced_share_excl_F": 0.4518,
+      "n_host_cpapers": 653,
+      "abstract_share": 0.7031,
+      "author_id_coverage": 0.9075,
+      "primary_topic_null_share": 0.0007,
+      "dup_group_share": 0.0131,
+      "match_evidence_mix": {
+        "oa_title": 1539,
+        "oa_abstract": 1094,
+        "s2_only": 404,
+        "oa_index_only": 21
+      }
+    },
+    "F25:Materials Science|2014": {
+      "n_cpapers": 3431,
+      "share_with_refs": 0.7919,
+      "traced_share_any": 0.6304,
+      "traced_share_excl_F": 0.6159,
+      "traced_share_excl_F_top5cited": 0.5832,
+      "host_traced_share_excl_F": 0.4828,
+      "n_host_cpapers": 872,
+      "abstract_share": 0.6814,
+      "author_id_coverage": 0.9009,
+      "primary_topic_null_share": 0.0009,
+      "dup_group_share": 0.0224,
+      "match_evidence_mix": {
+        "oa_title": 1698,
+        "oa_abstract": 1190,
+        "s2_only": 520,
+        "oa_index_only": 23
+      }
+    },
+    "F25:Materials Science|2015": {
+      "n_cpapers": 3542,
+      "share_with_refs": 0.797,
+      "traced_share_any": 0.642,
+      "traced_share_excl_F": 0.6078,
+      "traced_share_excl_F_top5cited": 0.5765,
+      "host_traced_share_excl_F": 0.4827,
+      "n_host_cpapers": 924,
+      "abstract_share": 0.6945,
+      "author_id_coverage": 0.9032,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0169,
+      "match_evidence_mix": {
+        "oa_title": 1795,
+        "oa_abstract": 1234,
+        "s2_only": 487,
+        "oa_index_only": 26
+      }
+    },
+    "F25:Materials Science|2016": {
+      "n_cpapers": 3909,
+      "share_with_refs": 0.8107,
+      "traced_share_any": 0.6713,
+      "traced_share_excl_F": 0.6616,
+      "traced_share_excl_F_top5cited": 0.6344,
+      "host_traced_share_excl_F": 0.5318,
+      "n_host_cpapers": 1162,
+      "abstract_share": 0.6641,
+      "author_id_coverage": 0.9,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0179,
+      "match_evidence_mix": {
+        "oa_title": 1934,
+        "oa_abstract": 1330,
+        "s2_only": 599,
+        "oa_index_only": 46
+      }
+    },
+    "F25:Materials Science|2017": {
+      "n_cpapers": 3862,
+      "share_with_refs": 0.8242,
+      "traced_share_any": 0.6727,
+      "traced_share_excl_F": 0.6585,
+      "traced_share_excl_F_top5cited": 0.6401,
+      "host_traced_share_excl_F": 0.5325,
+      "n_host_cpapers": 1292,
+      "abstract_share": 0.6331,
+      "author_id_coverage": 0.9042,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0132,
+      "match_evidence_mix": {
+        "oa_title": 1874,
+        "oa_abstract": 1275,
+        "s2_only": 648,
+        "oa_index_only": 65
+      }
+    },
+    "F25:Materials Science|2018": {
+      "n_cpapers": 3720,
+      "share_with_refs": 0.8409,
+      "traced_share_any": 0.7019,
+      "traced_share_excl_F": 0.6941,
+      "traced_share_excl_F_top5cited": 0.6715,
+      "host_traced_share_excl_F": 0.5979,
+      "n_host_cpapers": 1318,
+      "abstract_share": 0.6699,
+      "author_id_coverage": 0.904,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0116,
+      "match_evidence_mix": {
+        "oa_title": 1882,
+        "oa_abstract": 1278,
+        "s2_only": 495,
+        "oa_index_only": 65
+      }
+    },
+    "F25:Materials Science|2019": {
+      "n_cpapers": 3549,
+      "share_with_refs": 0.8715,
+      "traced_share_any": 0.7281,
+      "traced_share_excl_F": 0.7188,
+      "traced_share_excl_F_top5cited": 0.7022,
+      "host_traced_share_excl_F": 0.6138,
+      "n_host_cpapers": 1279,
+      "abstract_share": 0.6534,
+      "author_id_coverage": 0.8946,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.011,
+      "match_evidence_mix": {
+        "oa_title": 1802,
+        "oa_abstract": 1168,
+        "s2_only": 497,
+        "oa_index_only": 82
+      }
+    },
+    "F25:Materials Science|2020": {
+      "n_cpapers": 3498,
+      "share_with_refs": 0.8722,
+      "traced_share_any": 0.7436,
+      "traced_share_excl_F": 0.7393,
+      "traced_share_excl_F_top5cited": 0.7238,
+      "host_traced_share_excl_F": 0.6324,
+      "n_host_cpapers": 1390,
+      "abstract_share": 0.6784,
+      "author_id_coverage": 0.8702,
+      "primary_topic_null_share": 0.0009,
+      "dup_group_share": 0.018,
+      "match_evidence_mix": {
+        "oa_title": 1740,
+        "oa_abstract": 1206,
+        "s2_only": 455,
+        "oa_index_only": 97
+      }
+    },
+    "F25:Materials Science|2021": {
+      "n_cpapers": 3162,
+      "share_with_refs": 0.9121,
+      "traced_share_any": 0.7755,
+      "traced_share_excl_F": 0.7682,
+      "traced_share_excl_F_top5cited": 0.7533,
+      "host_traced_share_excl_F": 0.6942,
+      "n_host_cpapers": 1282,
+      "abstract_share": 0.6679,
+      "author_id_coverage": 0.895,
+      "primary_topic_null_share": 0.0006,
+      "dup_group_share": 0.0221,
+      "match_evidence_mix": {
+        "oa_title": 1623,
+        "oa_abstract": 1045,
+        "s2_only": 380,
+        "oa_index_only": 114
+      }
+    },
+    "F25:Materials Science|2022": {
+      "n_cpapers": 2752,
+      "share_with_refs": 0.8834,
+      "traced_share_any": 0.7758,
+      "traced_share_excl_F": 0.7714,
+      "traced_share_excl_F_top5cited": 0.7605,
+      "host_traced_share_excl_F": 0.7003,
+      "n_host_cpapers": 1161,
+      "abstract_share": 0.6813,
+      "author_id_coverage": 0.9044,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0567,
+      "match_evidence_mix": {
+        "oa_title": 1439,
+        "oa_abstract": 935,
+        "s2_only": 230,
+        "oa_index_only": 148
+      }
+    },
+    "F25:Materials Science|2023": {
+      "n_cpapers": 2660,
+      "share_with_refs": 0.8891,
+      "traced_share_any": 0.765,
+      "traced_share_excl_F": 0.7605,
+      "traced_share_excl_F_top5cited": 0.7511,
+      "host_traced_share_excl_F": 0.6708,
+      "n_host_cpapers": 1142,
+      "abstract_share": 0.6992,
+      "author_id_coverage": 0.9049,
+      "primary_topic_null_share": 0.0011,
+      "dup_group_share": 0.0602,
+      "match_evidence_mix": {
+        "oa_title": 1367,
+        "oa_abstract": 938,
+        "s2_only": 224,
+        "oa_index_only": 131
+      }
+    },
+    "F25:Materials Science|2024": {
+      "n_cpapers": 2737,
+      "share_with_refs": 0.8696,
+      "traced_share_any": 0.7424,
+      "traced_share_excl_F": 0.7373,
+      "traced_share_excl_F_top5cited": 0.7271,
+      "host_traced_share_excl_F": 0.6564,
+      "n_host_cpapers": 1269,
+      "abstract_share": 0.692,
+      "author_id_coverage": 0.8235,
+      "primary_topic_null_share": 0.0015,
+      "dup_group_share": 0.0574,
+      "match_evidence_mix": {
+        "oa_title": 1519,
+        "oa_abstract": 892,
+        "s2_only": 189,
+        "oa_index_only": 137
+      }
+    },
+    "F26:Mathematics|2005": {
+      "n_cpapers": 26,
+      "share_with_refs": 0.9615,
+      "traced_share_any": 0.3462,
+      "traced_share_excl_F": 0.3462,
+      "traced_share_excl_F_top5cited": 0.2308,
+      "host_traced_share_excl_F": 0.0,
+      "n_host_cpapers": 9,
+      "abstract_share": 0.6154,
+      "author_id_coverage": 1.0,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_title": 12,
+        "oa_abstract": 10,
+        "s2_only": 4
+      }
+    },
+    "F26:Mathematics|2006": {
+      "n_cpapers": 30,
+      "share_with_refs": 0.9,
+      "traced_share_any": 0.3,
+      "traced_share_excl_F": 0.3,
+      "traced_share_excl_F_top5cited": 0.2667,
+      "host_traced_share_excl_F": 0.3,
+      "n_host_cpapers": 10,
+      "abstract_share": 0.4,
+      "author_id_coverage": 0.8333,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0333,
+      "match_evidence_mix": {
+        "oa_title": 16,
+        "oa_abstract": 9,
+        "s2_only": 5
+      }
+    },
+    "F26:Mathematics|2007": {
+      "n_cpapers": 72,
+      "share_with_refs": 0.9028,
+      "traced_share_any": 0.4028,
+      "traced_share_excl_F": 0.3611,
+      "traced_share_excl_F_top5cited": 0.3056,
+      "host_traced_share_excl_F": 0.1852,
+      "n_host_cpapers": 27,
+      "abstract_share": 0.5417,
+      "author_id_coverage": 0.9028,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.1111,
+      "match_evidence_mix": {
+        "oa_title": 50,
+        "oa_abstract": 13,
+        "s2_only": 9
+      }
+    },
+    "F26:Mathematics|2008": {
+      "n_cpapers": 142,
+      "share_with_refs": 0.8732,
+      "traced_share_any": 0.5211,
+      "traced_share_excl_F": 0.493,
+      "traced_share_excl_F_top5cited": 0.4155,
+      "host_traced_share_excl_F": 0.5,
+      "n_host_cpapers": 40,
+      "abstract_share": 0.6761,
+      "author_id_coverage": 0.9507,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0211,
+      "match_evidence_mix": {
+        "oa_title": 96,
+        "oa_abstract": 36,
+        "s2_only": 9,
+        "oa_index_only": 1
+      }
+    },
+    "F26:Mathematics|2009": {
+      "n_cpapers": 220,
+      "share_with_refs": 0.8545,
+      "traced_share_any": 0.6545,
+      "traced_share_excl_F": 0.5818,
+      "traced_share_excl_F_top5cited": 0.4,
+      "host_traced_share_excl_F": 0.4,
+      "n_host_cpapers": 50,
+      "abstract_share": 0.6955,
+      "author_id_coverage": 0.9455,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0318,
+      "match_evidence_mix": {
+        "oa_title": 147,
+        "oa_abstract": 54,
+        "s2_only": 19
+      }
+    },
+    "F26:Mathematics|2010": {
+      "n_cpapers": 357,
+      "share_with_refs": 0.9188,
+      "traced_share_any": 0.6835,
+      "traced_share_excl_F": 0.6667,
+      "traced_share_excl_F_top5cited": 0.5098,
+      "host_traced_share_excl_F": 0.52,
+      "n_host_cpapers": 125,
+      "abstract_share": 0.6975,
+      "author_id_coverage": 0.9328,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0168,
+      "match_evidence_mix": {
+        "oa_title": 200,
+        "oa_abstract": 109,
+        "s2_only": 48
+      }
+    },
+    "F26:Mathematics|2011": {
+      "n_cpapers": 499,
+      "share_with_refs": 0.9038,
+      "traced_share_any": 0.7134,
+      "traced_share_excl_F": 0.6854,
+      "traced_share_excl_F_top5cited": 0.5571,
+      "host_traced_share_excl_F": 0.6034,
+      "n_host_cpapers": 179,
+      "abstract_share": 0.6713,
+      "author_id_coverage": 0.9359,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.014,
+      "match_evidence_mix": {
+        "oa_title": 298,
+        "oa_abstract": 145,
+        "s2_only": 56
+      }
+    },
+    "F26:Mathematics|2012": {
+      "n_cpapers": 617,
+      "share_with_refs": 0.8493,
+      "traced_share_any": 0.6775,
+      "traced_share_excl_F": 0.6434,
+      "traced_share_excl_F_top5cited": 0.517,
+      "host_traced_share_excl_F": 0.5874,
+      "n_host_cpapers": 223,
+      "abstract_share": 0.7423,
+      "author_id_coverage": 0.9498,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0243,
+      "match_evidence_mix": {
+        "oa_title": 355,
+        "oa_abstract": 190,
+        "s2_only": 72
+      }
+    },
+    "F26:Mathematics|2013": {
+      "n_cpapers": 778,
+      "share_with_refs": 0.8432,
+      "traced_share_any": 0.6915,
+      "traced_share_excl_F": 0.6774,
+      "traced_share_excl_F_top5cited": 0.5848,
+      "host_traced_share_excl_F": 0.6103,
+      "n_host_cpapers": 290,
+      "abstract_share": 0.7468,
+      "author_id_coverage": 0.9242,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0231,
+      "match_evidence_mix": {
+        "oa_title": 450,
+        "oa_abstract": 243,
+        "s2_only": 85
+      }
+    },
+    "F26:Mathematics|2014": {
+      "n_cpapers": 895,
+      "share_with_refs": 0.8682,
+      "traced_share_any": 0.7553,
+      "traced_share_excl_F": 0.7307,
+      "traced_share_excl_F_top5cited": 0.6358,
+      "host_traced_share_excl_F": 0.6796,
+      "n_host_cpapers": 334,
+      "abstract_share": 0.7419,
+      "author_id_coverage": 0.924,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0302,
+      "match_evidence_mix": {
+        "oa_title": 488,
+        "oa_abstract": 310,
+        "s2_only": 97
+      }
+    },
+    "F26:Mathematics|2015": {
+      "n_cpapers": 884,
+      "share_with_refs": 0.8688,
+      "traced_share_any": 0.7104,
+      "traced_share_excl_F": 0.7036,
+      "traced_share_excl_F_top5cited": 0.6063,
+      "host_traced_share_excl_F": 0.6408,
+      "n_host_cpapers": 348,
+      "abstract_share": 0.7206,
+      "author_id_coverage": 0.9265,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0249,
+      "match_evidence_mix": {
+        "oa_title": 485,
+        "oa_abstract": 295,
+        "s2_only": 103,
+        "oa_index_only": 1
+      }
+    },
+    "F26:Mathematics|2016": {
+      "n_cpapers": 1026,
+      "share_with_refs": 0.8733,
+      "traced_share_any": 0.7437,
+      "traced_share_excl_F": 0.7251,
+      "traced_share_excl_F_top5cited": 0.6442,
+      "host_traced_share_excl_F": 0.7049,
+      "n_host_cpapers": 410,
+      "abstract_share": 0.731,
+      "author_id_coverage": 0.9337,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0244,
+      "match_evidence_mix": {
+        "oa_title": 539,
+        "oa_abstract": 371,
+        "s2_only": 114,
+        "oa_index_only": 2
+      }
+    },
+    "F26:Mathematics|2017": {
+      "n_cpapers": 1088,
+      "share_with_refs": 0.852,
+      "traced_share_any": 0.7068,
+      "traced_share_excl_F": 0.6967,
+      "traced_share_excl_F_top5cited": 0.6241,
+      "host_traced_share_excl_F": 0.6485,
+      "n_host_cpapers": 478,
+      "abstract_share": 0.7077,
+      "author_id_coverage": 0.9283,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0138,
+      "match_evidence_mix": {
+        "oa_title": 574,
+        "oa_abstract": 379,
+        "s2_only": 131,
+        "oa_index_only": 4
+      }
+    },
+    "F26:Mathematics|2018": {
+      "n_cpapers": 1079,
+      "share_with_refs": 0.8675,
+      "traced_share_any": 0.7424,
+      "traced_share_excl_F": 0.7331,
+      "traced_share_excl_F_top5cited": 0.6654,
+      "host_traced_share_excl_F": 0.6917,
+      "n_host_cpapers": 506,
+      "abstract_share": 0.7164,
+      "author_id_coverage": 0.9323,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0139,
+      "match_evidence_mix": {
+        "oa_title": 583,
+        "oa_abstract": 357,
+        "s2_only": 133,
+        "oa_index_only": 6
+      }
+    },
+    "F26:Mathematics|2019": {
+      "n_cpapers": 1271,
+      "share_with_refs": 0.8843,
+      "traced_share_any": 0.7467,
+      "traced_share_excl_F": 0.7427,
+      "traced_share_excl_F_top5cited": 0.6892,
+      "host_traced_share_excl_F": 0.6943,
+      "n_host_cpapers": 579,
+      "abstract_share": 0.7238,
+      "author_id_coverage": 0.9229,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0118,
+      "match_evidence_mix": {
+        "oa_title": 675,
+        "oa_abstract": 438,
+        "s2_only": 152,
+        "oa_index_only": 6
+      }
+    },
+    "F26:Mathematics|2020": {
+      "n_cpapers": 1253,
+      "share_with_refs": 0.9034,
+      "traced_share_any": 0.7965,
+      "traced_share_excl_F": 0.7901,
+      "traced_share_excl_F_top5cited": 0.7382,
+      "host_traced_share_excl_F": 0.7349,
+      "n_host_cpapers": 562,
+      "abstract_share": 0.7598,
+      "author_id_coverage": 0.9146,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0168,
+      "match_evidence_mix": {
+        "oa_title": 684,
+        "oa_abstract": 429,
+        "s2_only": 133,
+        "oa_index_only": 7
+      }
+    },
+    "F26:Mathematics|2021": {
+      "n_cpapers": 1278,
+      "share_with_refs": 0.9358,
+      "traced_share_any": 0.8255,
+      "traced_share_excl_F": 0.82,
+      "traced_share_excl_F_top5cited": 0.7715,
+      "host_traced_share_excl_F": 0.7678,
+      "n_host_cpapers": 577,
+      "abstract_share": 0.7731,
+      "author_id_coverage": 0.9413,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0102,
+      "match_evidence_mix": {
+        "oa_title": 673,
+        "oa_abstract": 487,
+        "s2_only": 115,
+        "oa_index_only": 3
+      }
+    },
+    "F26:Mathematics|2022": {
+      "n_cpapers": 1163,
+      "share_with_refs": 0.8255,
+      "traced_share_any": 0.7352,
+      "traced_share_excl_F": 0.7291,
+      "traced_share_excl_F_top5cited": 0.6922,
+      "host_traced_share_excl_F": 0.688,
+      "n_host_cpapers": 532,
+      "abstract_share": 0.8014,
+      "author_id_coverage": 0.9321,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0129,
+      "match_evidence_mix": {
+        "oa_title": 598,
+        "oa_abstract": 465,
+        "s2_only": 99,
+        "oa_index_only": 1
+      }
+    },
+    "F26:Mathematics|2023": {
+      "n_cpapers": 1068,
+      "share_with_refs": 0.838,
+      "traced_share_any": 0.7247,
+      "traced_share_excl_F": 0.7154,
+      "traced_share_excl_F_top5cited": 0.6863,
+      "host_traced_share_excl_F": 0.6556,
+      "n_host_cpapers": 514,
+      "abstract_share": 0.7856,
+      "author_id_coverage": 0.9326,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0122,
+      "match_evidence_mix": {
+        "oa_title": 572,
+        "oa_abstract": 402,
+        "s2_only": 91,
+        "oa_index_only": 3
+      }
+    },
+    "F26:Mathematics|2024": {
+      "n_cpapers": 1070,
+      "share_with_refs": 0.7626,
+      "traced_share_any": 0.6645,
+      "traced_share_excl_F": 0.6598,
+      "traced_share_excl_F_top5cited": 0.6308,
+      "host_traced_share_excl_F": 0.5945,
+      "n_host_cpapers": 582,
+      "abstract_share": 0.7981,
+      "author_id_coverage": 0.8935,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0103,
+      "match_evidence_mix": {
+        "oa_title": 562,
+        "oa_abstract": 436,
+        "s2_only": 68,
+        "oa_index_only": 4
+      }
+    },
+    "F31:Physics and Astronomy|2004": {
+      "n_cpapers": 24,
+      "share_with_refs": 0.9167,
+      "traced_share_any": 0.125,
+      "traced_share_excl_F": 0.125,
+      "traced_share_excl_F_top5cited": 0.0417,
+      "host_traced_share_excl_F": 0.0,
+      "n_host_cpapers": 6,
+      "abstract_share": 0.7083,
+      "author_id_coverage": 0.7917,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_abstract": 11,
+        "oa_title": 7,
+        "s2_only": 6
+      }
+    },
+    "F31:Physics and Astronomy|2005": {
+      "n_cpapers": 98,
+      "share_with_refs": 0.7041,
+      "traced_share_any": 0.2041,
+      "traced_share_excl_F": 0.2041,
+      "traced_share_excl_F_top5cited": 0.0612,
+      "host_traced_share_excl_F": 0.0,
+      "n_host_cpapers": 17,
+      "abstract_share": 0.6531,
+      "author_id_coverage": 0.8571,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0714,
+      "match_evidence_mix": {
+        "oa_title": 50,
+        "oa_abstract": 30,
+        "s2_only": 15,
+        "oa_index_only": 3
+      }
+    },
+    "F31:Physics and Astronomy|2006": {
+      "n_cpapers": 198,
+      "share_with_refs": 0.798,
+      "traced_share_any": 0.4343,
+      "traced_share_excl_F": 0.2929,
+      "traced_share_excl_F_top5cited": 0.1061,
+      "host_traced_share_excl_F": 0.0357,
+      "n_host_cpapers": 28,
+      "abstract_share": 0.6364,
+      "author_id_coverage": 0.7828,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0859,
+      "match_evidence_mix": {
+        "oa_title": 100,
+        "oa_abstract": 62,
+        "s2_only": 33,
+        "oa_index_only": 3
+      }
+    },
+    "F31:Physics and Astronomy|2007": {
+      "n_cpapers": 348,
+      "share_with_refs": 0.7701,
+      "traced_share_any": 0.4741,
+      "traced_share_excl_F": 0.342,
+      "traced_share_excl_F_top5cited": 0.1839,
+      "host_traced_share_excl_F": 0.0822,
+      "n_host_cpapers": 73,
+      "abstract_share": 0.6351,
+      "author_id_coverage": 0.842,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.069,
+      "match_evidence_mix": {
+        "oa_title": 199,
+        "oa_abstract": 91,
+        "s2_only": 52,
+        "oa_index_only": 6
+      }
+    },
+    "F31:Physics and Astronomy|2008": {
+      "n_cpapers": 465,
+      "share_with_refs": 0.757,
+      "traced_share_any": 0.514,
+      "traced_share_excl_F": 0.4452,
+      "traced_share_excl_F_top5cited": 0.357,
+      "host_traced_share_excl_F": 0.2727,
+      "n_host_cpapers": 66,
+      "abstract_share": 0.6688,
+      "author_id_coverage": 0.8172,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0366,
+      "match_evidence_mix": {
+        "oa_title": 281,
+        "oa_abstract": 122,
+        "s2_only": 60,
+        "oa_index_only": 2
+      }
+    },
+    "F31:Physics and Astronomy|2009": {
+      "n_cpapers": 701,
+      "share_with_refs": 0.776,
+      "traced_share_any": 0.515,
+      "traced_share_excl_F": 0.4365,
+      "traced_share_excl_F_top5cited": 0.3609,
+      "host_traced_share_excl_F": 0.2,
+      "n_host_cpapers": 115,
+      "abstract_share": 0.709,
+      "author_id_coverage": 0.806,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0285,
+      "match_evidence_mix": {
+        "oa_title": 389,
+        "oa_abstract": 218,
+        "s2_only": 91,
+        "oa_index_only": 3
+      }
+    },
+    "F31:Physics and Astronomy|2010": {
+      "n_cpapers": 1045,
+      "share_with_refs": 0.8383,
+      "traced_share_any": 0.6411,
+      "traced_share_excl_F": 0.4593,
+      "traced_share_excl_F_top5cited": 0.4038,
+      "host_traced_share_excl_F": 0.283,
+      "n_host_cpapers": 159,
+      "abstract_share": 0.7129,
+      "author_id_coverage": 0.8211,
+      "primary_topic_null_share": 0.001,
+      "dup_group_share": 0.0211,
+      "match_evidence_mix": {
+        "oa_title": 598,
+        "oa_abstract": 337,
+        "s2_only": 109,
+        "oa_index_only": 1
+      }
+    },
+    "F31:Physics and Astronomy|2011": {
+      "n_cpapers": 1486,
+      "share_with_refs": 0.7894,
+      "traced_share_any": 0.4852,
+      "traced_share_excl_F": 0.4172,
+      "traced_share_excl_F_top5cited": 0.3809,
+      "host_traced_share_excl_F": 0.2721,
+      "n_host_cpapers": 283,
+      "abstract_share": 0.7254,
+      "author_id_coverage": 0.8432,
+      "primary_topic_null_share": 0.0007,
+      "dup_group_share": 0.0323,
+      "match_evidence_mix": {
+        "oa_title": 838,
+        "oa_abstract": 469,
+        "s2_only": 176,
+        "oa_index_only": 3
+      }
+    },
+    "F31:Physics and Astronomy|2012": {
+      "n_cpapers": 1815,
+      "share_with_refs": 0.789,
+      "traced_share_any": 0.5444,
+      "traced_share_excl_F": 0.4331,
+      "traced_share_excl_F_top5cited": 0.3774,
+      "host_traced_share_excl_F": 0.2532,
+      "n_host_cpapers": 308,
+      "abstract_share": 0.7455,
+      "author_id_coverage": 0.8375,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0347,
+      "match_evidence_mix": {
+        "oa_title": 924,
+        "oa_abstract": 689,
+        "s2_only": 193,
+        "oa_index_only": 9
+      }
+    },
+    "F31:Physics and Astronomy|2013": {
+      "n_cpapers": 2166,
+      "share_with_refs": 0.7922,
+      "traced_share_any": 0.5799,
+      "traced_share_excl_F": 0.5115,
+      "traced_share_excl_F_top5cited": 0.4409,
+      "host_traced_share_excl_F": 0.3303,
+      "n_host_cpapers": 330,
+      "abstract_share": 0.7392,
+      "author_id_coverage": 0.8481,
+      "primary_topic_null_share": 0.0005,
+      "dup_group_share": 0.0319,
+      "match_evidence_mix": {
+        "oa_title": 1152,
+        "oa_abstract": 765,
+        "s2_only": 233,
+        "oa_index_only": 16
+      }
+    },
+    "F31:Physics and Astronomy|2014": {
+      "n_cpapers": 2343,
+      "share_with_refs": 0.7879,
+      "traced_share_any": 0.6082,
+      "traced_share_excl_F": 0.5566,
+      "traced_share_excl_F_top5cited": 0.4874,
+      "host_traced_share_excl_F": 0.3662,
+      "n_host_cpapers": 396,
+      "abstract_share": 0.7678,
+      "author_id_coverage": 0.8562,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0277,
+      "match_evidence_mix": {
+        "oa_title": 1212,
+        "oa_abstract": 933,
+        "s2_only": 182,
+        "oa_index_only": 16
+      }
+    },
+    "F31:Physics and Astronomy|2015": {
+      "n_cpapers": 2907,
+      "share_with_refs": 0.7771,
+      "traced_share_any": 0.6082,
+      "traced_share_excl_F": 0.5638,
+      "traced_share_excl_F_top5cited": 0.5064,
+      "host_traced_share_excl_F": 0.3895,
+      "n_host_cpapers": 516,
+      "abstract_share": 0.8228,
+      "author_id_coverage": 0.8559,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0251,
+      "match_evidence_mix": {
+        "oa_title": 1475,
+        "oa_abstract": 1257,
+        "s2_only": 165,
+        "oa_index_only": 10
+      }
+    },
+    "F31:Physics and Astronomy|2016": {
+      "n_cpapers": 3597,
+      "share_with_refs": 0.7879,
+      "traced_share_any": 0.6255,
+      "traced_share_excl_F": 0.5721,
+      "traced_share_excl_F_top5cited": 0.5227,
+      "host_traced_share_excl_F": 0.3968,
+      "n_host_cpapers": 620,
+      "abstract_share": 0.8321,
+      "author_id_coverage": 0.8474,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0272,
+      "match_evidence_mix": {
+        "oa_title": 1806,
+        "oa_abstract": 1567,
+        "s2_only": 199,
+        "oa_index_only": 25
+      }
+    },
+    "F31:Physics and Astronomy|2017": {
+      "n_cpapers": 3416,
+      "share_with_refs": 0.7889,
+      "traced_share_any": 0.6601,
+      "traced_share_excl_F": 0.6306,
+      "traced_share_excl_F_top5cited": 0.579,
+      "host_traced_share_excl_F": 0.4191,
+      "n_host_cpapers": 661,
+      "abstract_share": 0.8147,
+      "author_id_coverage": 0.853,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0135,
+      "match_evidence_mix": {
+        "oa_title": 1638,
+        "oa_abstract": 1543,
+        "s2_only": 231,
+        "oa_index_only": 4
+      }
+    },
+    "F31:Physics and Astronomy|2018": {
+      "n_cpapers": 3781,
+      "share_with_refs": 0.8281,
+      "traced_share_any": 0.7064,
+      "traced_share_excl_F": 0.6882,
+      "traced_share_excl_F_top5cited": 0.648,
+      "host_traced_share_excl_F": 0.5136,
+      "n_host_cpapers": 806,
+      "abstract_share": 0.8336,
+      "author_id_coverage": 0.8172,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0132,
+      "match_evidence_mix": {
+        "oa_abstract": 1781,
+        "oa_title": 1730,
+        "s2_only": 254,
+        "oa_index_only": 16
+      }
+    },
+    "F31:Physics and Astronomy|2019": {
+      "n_cpapers": 3994,
+      "share_with_refs": 0.8245,
+      "traced_share_any": 0.7058,
+      "traced_share_excl_F": 0.6918,
+      "traced_share_excl_F_top5cited": 0.6572,
+      "host_traced_share_excl_F": 0.5179,
+      "n_host_cpapers": 865,
+      "abstract_share": 0.8383,
+      "author_id_coverage": 0.7994,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0183,
+      "match_evidence_mix": {
+        "oa_abstract": 1889,
+        "oa_title": 1830,
+        "s2_only": 263,
+        "oa_index_only": 12
+      }
+    },
+    "F31:Physics and Astronomy|2020": {
+      "n_cpapers": 3916,
+      "share_with_refs": 0.8557,
+      "traced_share_any": 0.7482,
+      "traced_share_excl_F": 0.7403,
+      "traced_share_excl_F_top5cited": 0.7114,
+      "host_traced_share_excl_F": 0.5851,
+      "n_host_cpapers": 846,
+      "abstract_share": 0.8534,
+      "author_id_coverage": 0.7837,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0209,
+      "match_evidence_mix": {
+        "oa_abstract": 1916,
+        "oa_title": 1723,
+        "s2_only": 253,
+        "oa_index_only": 24
+      }
+    },
+    "F31:Physics and Astronomy|2021": {
+      "n_cpapers": 3627,
+      "share_with_refs": 0.922,
+      "traced_share_any": 0.8208,
+      "traced_share_excl_F": 0.815,
+      "traced_share_excl_F_top5cited": 0.7902,
+      "host_traced_share_excl_F": 0.7126,
+      "n_host_cpapers": 762,
+      "abstract_share": 0.8842,
+      "author_id_coverage": 0.8189,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.021,
+      "match_evidence_mix": {
+        "oa_abstract": 1808,
+        "oa_title": 1586,
+        "s2_only": 216,
+        "oa_index_only": 17
+      }
+    },
+    "F31:Physics and Astronomy|2022": {
+      "n_cpapers": 3499,
+      "share_with_refs": 0.8843,
+      "traced_share_any": 0.7951,
+      "traced_share_excl_F": 0.7865,
+      "traced_share_excl_F_top5cited": 0.7665,
+      "host_traced_share_excl_F": 0.6878,
+      "n_host_cpapers": 772,
+      "abstract_share": 0.9043,
+      "author_id_coverage": 0.8874,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.032,
+      "match_evidence_mix": {
+        "oa_abstract": 1802,
+        "oa_title": 1536,
+        "s2_only": 149,
+        "oa_index_only": 12
+      }
+    },
+    "F31:Physics and Astronomy|2023": {
+      "n_cpapers": 3540,
+      "share_with_refs": 0.865,
+      "traced_share_any": 0.7774,
+      "traced_share_excl_F": 0.772,
+      "traced_share_excl_F_top5cited": 0.7559,
+      "host_traced_share_excl_F": 0.6716,
+      "n_host_cpapers": 813,
+      "abstract_share": 0.9082,
+      "author_id_coverage": 0.9076,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0285,
+      "match_evidence_mix": {
+        "oa_abstract": 1879,
+        "oa_title": 1496,
+        "s2_only": 154,
+        "oa_index_only": 11
+      }
+    },
+    "F31:Physics and Astronomy|2024": {
+      "n_cpapers": 3797,
+      "share_with_refs": 0.8341,
+      "traced_share_any": 0.7574,
+      "traced_share_excl_F": 0.7524,
+      "traced_share_excl_F_top5cited": 0.7356,
+      "host_traced_share_excl_F": 0.645,
+      "n_host_cpapers": 1107,
+      "abstract_share": 0.9228,
+      "author_id_coverage": 0.8586,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0274,
+      "match_evidence_mix": {
+        "oa_abstract": 2114,
+        "oa_title": 1541,
+        "s2_only": 125,
+        "oa_index_only": 17
+      }
+    },
+    "OTHER_small|2009": {
+      "n_cpapers": 25,
+      "share_with_refs": 0.8,
+      "traced_share_any": 0.72,
+      "traced_share_excl_F": 0.6,
+      "traced_share_excl_F_top5cited": 0.6,
+      "host_traced_share_excl_F": 0.6667,
+      "n_host_cpapers": 6,
+      "abstract_share": 0.64,
+      "author_id_coverage": 0.96,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.08,
+      "match_evidence_mix": {
+        "oa_title": 15,
+        "oa_abstract": 8,
+        "s2_only": 2
+      }
+    },
+    "OTHER_small|2010": {
+      "n_cpapers": 25,
+      "share_with_refs": 0.8,
+      "traced_share_any": 0.76,
+      "traced_share_excl_F": 0.68,
+      "traced_share_excl_F_top5cited": 0.6,
+      "host_traced_share_excl_F": 0.5,
+      "n_host_cpapers": 8,
+      "abstract_share": 0.8,
+      "author_id_coverage": 1.0,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.04,
+      "match_evidence_mix": {
+        "oa_abstract": 13,
+        "oa_title": 10,
+        "s2_only": 2
+      }
+    },
+    "OTHER_small|2011": {
+      "n_cpapers": 47,
+      "share_with_refs": 0.7447,
+      "traced_share_any": 0.5957,
+      "traced_share_excl_F": 0.5957,
+      "traced_share_excl_F_top5cited": 0.4255,
+      "host_traced_share_excl_F": 0.3889,
+      "n_host_cpapers": 18,
+      "abstract_share": 0.7021,
+      "author_id_coverage": 0.9362,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0213,
+      "match_evidence_mix": {
+        "oa_abstract": 24,
+        "oa_title": 19,
+        "s2_only": 4
+      }
+    },
+    "OTHER_small|2012": {
+      "n_cpapers": 53,
+      "share_with_refs": 0.717,
+      "traced_share_any": 0.6792,
+      "traced_share_excl_F": 0.5094,
+      "traced_share_excl_F_top5cited": 0.2642,
+      "host_traced_share_excl_F": 0.5,
+      "n_host_cpapers": 22,
+      "abstract_share": 0.7358,
+      "author_id_coverage": 0.9245,
+      "primary_topic_null_share": 0.0189,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_title": 22,
+        "oa_abstract": 22,
+        "s2_only": 9
+      }
+    },
+    "OTHER_small|2013": {
+      "n_cpapers": 72,
+      "share_with_refs": 0.8333,
+      "traced_share_any": 0.7639,
+      "traced_share_excl_F": 0.6389,
+      "traced_share_excl_F_top5cited": 0.4444,
+      "host_traced_share_excl_F": 0.5484,
+      "n_host_cpapers": 31,
+      "abstract_share": 0.7222,
+      "author_id_coverage": 0.9722,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_abstract": 34,
+        "oa_title": 26,
+        "s2_only": 12
+      }
+    },
+    "OTHER_small|2014": {
+      "n_cpapers": 80,
+      "share_with_refs": 0.7875,
+      "traced_share_any": 0.65,
+      "traced_share_excl_F": 0.5625,
+      "traced_share_excl_F_top5cited": 0.4375,
+      "host_traced_share_excl_F": 0.5938,
+      "n_host_cpapers": 32,
+      "abstract_share": 0.7375,
+      "author_id_coverage": 0.9375,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_abstract": 35,
+        "oa_title": 32,
+        "s2_only": 13
+      }
+    },
+    "OTHER_small|2015": {
+      "n_cpapers": 113,
+      "share_with_refs": 0.8053,
+      "traced_share_any": 0.6283,
+      "traced_share_excl_F": 0.5487,
+      "traced_share_excl_F_top5cited": 0.4425,
+      "host_traced_share_excl_F": 0.5263,
+      "n_host_cpapers": 57,
+      "abstract_share": 0.7168,
+      "author_id_coverage": 0.9115,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0177,
+      "match_evidence_mix": {
+        "oa_abstract": 58,
+        "oa_title": 35,
+        "s2_only": 20
+      }
+    },
+    "OTHER_small|2016": {
+      "n_cpapers": 116,
+      "share_with_refs": 0.6379,
+      "traced_share_any": 0.4828,
+      "traced_share_excl_F": 0.3879,
+      "traced_share_excl_F_top5cited": 0.3103,
+      "host_traced_share_excl_F": 0.3158,
+      "n_host_cpapers": 57,
+      "abstract_share": 0.75,
+      "author_id_coverage": 0.9483,
+      "primary_topic_null_share": 0.0086,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_abstract": 66,
+        "oa_title": 26,
+        "s2_only": 24
+      }
+    },
+    "OTHER_small|2017": {
+      "n_cpapers": 177,
+      "share_with_refs": 0.8023,
+      "traced_share_any": 0.6441,
+      "traced_share_excl_F": 0.5932,
+      "traced_share_excl_F_top5cited": 0.4576,
+      "host_traced_share_excl_F": 0.5663,
+      "n_host_cpapers": 83,
+      "abstract_share": 0.7458,
+      "author_id_coverage": 0.9322,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0056,
+      "match_evidence_mix": {
+        "oa_abstract": 92,
+        "oa_title": 59,
+        "s2_only": 26
+      }
+    },
+    "OTHER_small|2018": {
+      "n_cpapers": 213,
+      "share_with_refs": 0.7606,
+      "traced_share_any": 0.5869,
+      "traced_share_excl_F": 0.5211,
+      "traced_share_excl_F_top5cited": 0.4272,
+      "host_traced_share_excl_F": 0.5083,
+      "n_host_cpapers": 120,
+      "abstract_share": 0.723,
+      "author_id_coverage": 0.9202,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0047,
+      "match_evidence_mix": {
+        "oa_abstract": 122,
+        "oa_title": 53,
+        "s2_only": 38
+      }
+    },
+    "OTHER_small|2019": {
+      "n_cpapers": 264,
+      "share_with_refs": 0.8295,
+      "traced_share_any": 0.6705,
+      "traced_share_excl_F": 0.625,
+      "traced_share_excl_F_top5cited": 0.5341,
+      "host_traced_share_excl_F": 0.5691,
+      "n_host_cpapers": 123,
+      "abstract_share": 0.7841,
+      "author_id_coverage": 0.9205,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0,
+      "match_evidence_mix": {
+        "oa_abstract": 156,
+        "oa_title": 60,
+        "s2_only": 48
+      }
+    },
+    "OTHER_small|2020": {
+      "n_cpapers": 322,
+      "share_with_refs": 0.882,
+      "traced_share_any": 0.6584,
+      "traced_share_excl_F": 0.6149,
+      "traced_share_excl_F_top5cited": 0.5031,
+      "host_traced_share_excl_F": 0.5402,
+      "n_host_cpapers": 174,
+      "abstract_share": 0.795,
+      "author_id_coverage": 0.9193,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0062,
+      "match_evidence_mix": {
+        "oa_abstract": 195,
+        "oa_title": 77,
+        "s2_only": 50
+      }
+    },
+    "OTHER_small|2021": {
+      "n_cpapers": 313,
+      "share_with_refs": 0.9073,
+      "traced_share_any": 0.6965,
+      "traced_share_excl_F": 0.6581,
+      "traced_share_excl_F_top5cited": 0.5751,
+      "host_traced_share_excl_F": 0.5949,
+      "n_host_cpapers": 158,
+      "abstract_share": 0.8179,
+      "author_id_coverage": 0.9105,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.016,
+      "match_evidence_mix": {
+        "oa_abstract": 200,
+        "oa_title": 66,
+        "s2_only": 47
+      }
+    },
+    "OTHER_small|2022": {
+      "n_cpapers": 320,
+      "share_with_refs": 0.775,
+      "traced_share_any": 0.5406,
+      "traced_share_excl_F": 0.5094,
+      "traced_share_excl_F_top5cited": 0.4531,
+      "host_traced_share_excl_F": 0.5116,
+      "n_host_cpapers": 172,
+      "abstract_share": 0.825,
+      "author_id_coverage": 0.8969,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0156,
+      "match_evidence_mix": {
+        "oa_abstract": 210,
+        "oa_title": 63,
+        "s2_only": 47
+      }
+    },
+    "OTHER_small|2023": {
+      "n_cpapers": 309,
+      "share_with_refs": 0.7346,
+      "traced_share_any": 0.4951,
+      "traced_share_excl_F": 0.4887,
+      "traced_share_excl_F_top5cited": 0.4239,
+      "host_traced_share_excl_F": 0.5083,
+      "n_host_cpapers": 181,
+      "abstract_share": 0.8608,
+      "author_id_coverage": 0.8511,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0162,
+      "match_evidence_mix": {
+        "oa_abstract": 209,
+        "oa_title": 68,
+        "s2_only": 32
+      }
+    },
+    "OTHER_small|2024": {
+      "n_cpapers": 402,
+      "share_with_refs": 0.7562,
+      "traced_share_any": 0.4652,
+      "traced_share_excl_F": 0.4453,
+      "traced_share_excl_F_top5cited": 0.3856,
+      "host_traced_share_excl_F": 0.4307,
+      "n_host_cpapers": 267,
+      "abstract_share": 0.8532,
+      "author_id_coverage": 0.7935,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0174,
+      "match_evidence_mix": {
+        "oa_abstract": 281,
+        "oa_title": 72,
+        "s2_only": 49
+      }
+    }
+  },
+  "by_year_main": {
+    "2000": {
+      "n_cpapers": 39,
+      "share_with_refs": 0.7179,
+      "traced_share_any": 0.0,
+      "traced_share_excl_F": 0.0,
+      "traced_share_excl_F_top5cited": 0.0,
+      "host_traced_share_excl_F": 0.0,
+      "n_host_cpapers": 25,
+      "abstract_share": 0.5897,
+      "author_id_coverage": 0.8718,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0256,
+      "match_evidence_mix": {
+        "oa_abstract": 16,
+        "oa_title": 13,
+        "s2_only": 7,
+        "oa_index_only": 3
+      }
+    },
+    "2001": {
+      "n_cpapers": 37,
+      "share_with_refs": 0.6486,
+      "traced_share_any": 0.027,
+      "traced_share_excl_F": 0.027,
+      "traced_share_excl_F_top5cited": 0.027,
+      "host_traced_share_excl_F": 0.0455,
+      "n_host_cpapers": 22,
+      "abstract_share": 0.7027,
+      "author_id_coverage": 1.0,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.027,
+      "match_evidence_mix": {
+        "oa_abstract": 17,
+        "oa_title": 12,
+        "s2_only": 7,
+        "oa_index_only": 1
+      }
+    },
+    "2002": {
+      "n_cpapers": 34,
+      "share_with_refs": 0.7941,
+      "traced_share_any": 0.1471,
+      "traced_share_excl_F": 0.1471,
+      "traced_share_excl_F_top5cited": 0.0882,
+      "host_traced_share_excl_F": 0.0588,
+      "n_host_cpapers": 17,
+      "abstract_share": 0.5294,
+      "author_id_coverage": 1.0,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0294,
+      "match_evidence_mix": {
+        "oa_abstract": 14,
+        "oa_title": 13,
+        "s2_only": 7
+      }
+    },
+    "2003": {
+      "n_cpapers": 56,
+      "share_with_refs": 0.6607,
+      "traced_share_any": 0.1071,
+      "traced_share_excl_F": 0.1071,
+      "traced_share_excl_F_top5cited": 0.0893,
+      "host_traced_share_excl_F": 0.1304,
+      "n_host_cpapers": 23,
+      "abstract_share": 0.5357,
+      "author_id_coverage": 0.9464,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0179,
+      "match_evidence_mix": {
+        "oa_abstract": 20,
+        "oa_title": 19,
+        "s2_only": 13,
+        "oa_index_only": 4
+      }
+    },
+    "2004": {
+      "n_cpapers": 95,
+      "share_with_refs": 0.8105,
+      "traced_share_any": 0.1263,
+      "traced_share_excl_F": 0.1263,
+      "traced_share_excl_F_top5cited": 0.0737,
+      "host_traced_share_excl_F": 0.1429,
+      "n_host_cpapers": 42,
+      "abstract_share": 0.5263,
+      "author_id_coverage": 0.8526,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0105,
+      "match_evidence_mix": {
+        "oa_abstract": 33,
+        "s2_only": 32,
+        "oa_title": 25,
+        "oa_index_only": 5
+      }
+    },
+    "2005": {
+      "n_cpapers": 256,
+      "share_with_refs": 0.7109,
+      "traced_share_any": 0.1719,
+      "traced_share_excl_F": 0.1719,
+      "traced_share_excl_F_top5cited": 0.1016,
+      "host_traced_share_excl_F": 0.0735,
+      "n_host_cpapers": 68,
+      "abstract_share": 0.668,
+      "author_id_coverage": 0.9141,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0625,
+      "match_evidence_mix": {
+        "oa_title": 122,
+        "oa_abstract": 85,
+        "s2_only": 46,
+        "oa_index_only": 3
+      }
+    },
+    "2006": {
+      "n_cpapers": 566,
+      "share_with_refs": 0.7862,
+      "traced_share_any": 0.3392,
+      "traced_share_excl_F": 0.2067,
+      "traced_share_excl_F_top5cited": 0.1184,
+      "host_traced_share_excl_F": 0.1228,
+      "n_host_cpapers": 114,
+      "abstract_share": 0.6961,
+      "author_id_coverage": 0.8587,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0459,
+      "match_evidence_mix": {
+        "oa_title": 286,
+        "oa_abstract": 193,
+        "s2_only": 83,
+        "oa_index_only": 4
+      }
+    },
+    "2007": {
+      "n_cpapers": 1012,
+      "share_with_refs": 0.7895,
+      "traced_share_any": 0.3913,
+      "traced_share_excl_F": 0.2816,
+      "traced_share_excl_F_top5cited": 0.2065,
+      "host_traced_share_excl_F": 0.1171,
+      "n_host_cpapers": 222,
+      "abstract_share": 0.6828,
+      "author_id_coverage": 0.8883,
+      "primary_topic_null_share": 0.002,
+      "dup_group_share": 0.0632,
+      "match_evidence_mix": {
+        "oa_title": 526,
+        "oa_abstract": 333,
+        "s2_only": 144,
+        "oa_index_only": 9
+      }
+    },
+    "2008": {
+      "n_cpapers": 1820,
+      "share_with_refs": 0.789,
+      "traced_share_any": 0.406,
+      "traced_share_excl_F": 0.3396,
+      "traced_share_excl_F_top5cited": 0.2824,
+      "host_traced_share_excl_F": 0.2526,
+      "n_host_cpapers": 293,
+      "abstract_share": 0.7511,
+      "author_id_coverage": 0.8797,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0396,
+      "match_evidence_mix": {
+        "oa_title": 1005,
+        "oa_abstract": 628,
+        "s2_only": 181,
+        "oa_index_only": 6
+      }
+    },
+    "2009": {
+      "n_cpapers": 3127,
+      "share_with_refs": 0.7909,
+      "traced_share_any": 0.4896,
+      "traced_share_excl_F": 0.3866,
+      "traced_share_excl_F_top5cited": 0.3131,
+      "host_traced_share_excl_F": 0.2674,
+      "n_host_cpapers": 516,
+      "abstract_share": 0.717,
+      "author_id_coverage": 0.889,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.04,
+      "match_evidence_mix": {
+        "oa_title": 1694,
+        "oa_abstract": 1040,
+        "s2_only": 374,
+        "oa_index_only": 19
+      }
+    },
+    "2010": {
+      "n_cpapers": 4660,
+      "share_with_refs": 0.8182,
+      "traced_share_any": 0.5871,
+      "traced_share_excl_F": 0.5088,
+      "traced_share_excl_F_top5cited": 0.4367,
+      "host_traced_share_excl_F": 0.3531,
+      "n_host_cpapers": 875,
+      "abstract_share": 0.7554,
+      "author_id_coverage": 0.8854,
+      "primary_topic_null_share": 0.0002,
+      "dup_group_share": 0.0378,
+      "match_evidence_mix": {
+        "oa_title": 2512,
+        "oa_abstract": 1636,
+        "s2_only": 492,
+        "oa_index_only": 20
+      }
+    },
+    "2011": {
+      "n_cpapers": 6256,
+      "share_with_refs": 0.8016,
+      "traced_share_any": 0.5665,
+      "traced_share_excl_F": 0.5281,
+      "traced_share_excl_F_top5cited": 0.4668,
+      "host_traced_share_excl_F": 0.3721,
+      "n_host_cpapers": 1317,
+      "abstract_share": 0.7492,
+      "author_id_coverage": 0.903,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0347,
+      "match_evidence_mix": {
+        "oa_title": 3379,
+        "oa_abstract": 2179,
+        "s2_only": 681,
+        "oa_index_only": 17
+      }
+    },
+    "2012": {
+      "n_cpapers": 7946,
+      "share_with_refs": 0.8151,
+      "traced_share_any": 0.6029,
+      "traced_share_excl_F": 0.5522,
+      "traced_share_excl_F_top5cited": 0.4933,
+      "host_traced_share_excl_F": 0.394,
+      "n_host_cpapers": 1792,
+      "abstract_share": 0.7595,
+      "author_id_coverage": 0.9037,
+      "primary_topic_null_share": 0.0001,
+      "dup_group_share": 0.0344,
+      "match_evidence_mix": {
+        "oa_title": 4145,
+        "oa_abstract": 2940,
+        "s2_only": 821,
+        "oa_index_only": 40
+      }
+    },
+    "2013": {
+      "n_cpapers": 9726,
+      "share_with_refs": 0.8128,
+      "traced_share_any": 0.6146,
+      "traced_share_excl_F": 0.5794,
+      "traced_share_excl_F_top5cited": 0.5238,
+      "host_traced_share_excl_F": 0.4556,
+      "n_host_cpapers": 2408,
+      "abstract_share": 0.7608,
+      "author_id_coverage": 0.9101,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0295,
+      "match_evidence_mix": {
+        "oa_title": 5163,
+        "oa_abstract": 3508,
+        "s2_only": 1000,
+        "oa_index_only": 55
+      }
+    },
+    "2014": {
+      "n_cpapers": 11279,
+      "share_with_refs": 0.8295,
+      "traced_share_any": 0.6442,
+      "traced_share_excl_F": 0.6134,
+      "traced_share_excl_F_top5cited": 0.5587,
+      "host_traced_share_excl_F": 0.5125,
+      "n_host_cpapers": 2952,
+      "abstract_share": 0.7689,
+      "author_id_coverage": 0.9025,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0324,
+      "match_evidence_mix": {
+        "oa_title": 5950,
+        "oa_abstract": 4148,
+        "s2_only": 1118,
+        "oa_index_only": 63
+      }
+    },
+    "2015": {
+      "n_cpapers": 13228,
+      "share_with_refs": 0.8292,
+      "traced_share_any": 0.6458,
+      "traced_share_excl_F": 0.6064,
+      "traced_share_excl_F_top5cited": 0.55,
+      "host_traced_share_excl_F": 0.4992,
+      "n_host_cpapers": 3558,
+      "abstract_share": 0.7869,
+      "author_id_coverage": 0.9057,
+      "primary_topic_null_share": 0.0001,
+      "dup_group_share": 0.0244,
+      "match_evidence_mix": {
+        "oa_title": 6801,
+        "oa_abstract": 5192,
+        "s2_only": 1176,
+        "oa_index_only": 59
+      }
+    },
+    "2016": {
+      "n_cpapers": 16081,
+      "share_with_refs": 0.835,
+      "traced_share_any": 0.666,
+      "traced_share_excl_F": 0.6357,
+      "traced_share_excl_F_top5cited": 0.5836,
+      "host_traced_share_excl_F": 0.5252,
+      "n_host_cpapers": 4511,
+      "abstract_share": 0.7753,
+      "author_id_coverage": 0.9036,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0277,
+      "match_evidence_mix": {
+        "oa_title": 8126,
+        "oa_abstract": 6275,
+        "s2_only": 1563,
+        "oa_index_only": 117
+      }
+    },
+    "2017": {
+      "n_cpapers": 17875,
+      "share_with_refs": 0.8457,
+      "traced_share_any": 0.677,
+      "traced_share_excl_F": 0.6529,
+      "traced_share_excl_F_top5cited": 0.603,
+      "host_traced_share_excl_F": 0.5343,
+      "n_host_cpapers": 5510,
+      "abstract_share": 0.7618,
+      "author_id_coverage": 0.9136,
+      "primary_topic_null_share": 0.0002,
+      "dup_group_share": 0.0236,
+      "match_evidence_mix": {
+        "oa_title": 8736,
+        "oa_abstract": 7106,
+        "s2_only": 1905,
+        "oa_index_only": 128
+      }
+    },
+    "2018": {
+      "n_cpapers": 20777,
+      "share_with_refs": 0.8573,
+      "traced_share_any": 0.6902,
+      "traced_share_excl_F": 0.6732,
+      "traced_share_excl_F_top5cited": 0.6298,
+      "host_traced_share_excl_F": 0.548,
+      "n_host_cpapers": 6867,
+      "abstract_share": 0.771,
+      "author_id_coverage": 0.9096,
+      "primary_topic_null_share": 0.0,
+      "dup_group_share": 0.0237,
+      "match_evidence_mix": {
+        "oa_title": 9853,
+        "oa_abstract": 8639,
+        "s2_only": 2107,
+        "oa_index_only": 178
+      }
+    },
+    "2019": {
+      "n_cpapers": 23099,
+      "share_with_refs": 0.8674,
+      "traced_share_any": 0.6976,
+      "traced_share_excl_F": 0.6835,
+      "traced_share_excl_F_top5cited": 0.6472,
+      "host_traced_share_excl_F": 0.5589,
+      "n_host_cpapers": 8021,
+      "abstract_share": 0.7765,
+      "author_id_coverage": 0.9005,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.0267,
+      "match_evidence_mix": {
+        "oa_title": 10764,
+        "oa_abstract": 9802,
+        "s2_only": 2322,
+        "oa_index_only": 211
+      }
+    },
+    "2020": {
+      "n_cpapers": 23707,
+      "share_with_refs": 0.8894,
+      "traced_share_any": 0.7246,
+      "traced_share_excl_F": 0.7132,
+      "traced_share_excl_F_top5cited": 0.6793,
+      "host_traced_share_excl_F": 0.5969,
+      "n_host_cpapers": 8856,
+      "abstract_share": 0.7854,
+      "author_id_coverage": 0.8901,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0323,
+      "match_evidence_mix": {
+        "oa_title": 10686,
+        "oa_abstract": 10442,
+        "s2_only": 2278,
+        "oa_index_only": 301
+      }
+    },
+    "2021": {
+      "n_cpapers": 23706,
+      "share_with_refs": 0.9164,
+      "traced_share_any": 0.7499,
+      "traced_share_excl_F": 0.7414,
+      "traced_share_excl_F_top5cited": 0.7118,
+      "host_traced_share_excl_F": 0.6313,
+      "n_host_cpapers": 9188,
+      "abstract_share": 0.8118,
+      "author_id_coverage": 0.9088,
+      "primary_topic_null_share": 0.0003,
+      "dup_group_share": 0.037,
+      "match_evidence_mix": {
+        "oa_abstract": 10800,
+        "oa_title": 10772,
+        "s2_only": 1823,
+        "oa_index_only": 311
+      }
+    },
+    "2022": {
+      "n_cpapers": 23150,
+      "share_with_refs": 0.8319,
+      "traced_share_any": 0.6805,
+      "traced_share_excl_F": 0.6745,
+      "traced_share_excl_F_top5cited": 0.652,
+      "host_traced_share_excl_F": 0.5774,
+      "n_host_cpapers": 9486,
+      "abstract_share": 0.8289,
+      "author_id_coverage": 0.9146,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0505,
+      "match_evidence_mix": {
+        "oa_abstract": 10948,
+        "oa_title": 10523,
+        "s2_only": 1261,
+        "oa_index_only": 418
+      }
+    },
+    "2023": {
+      "n_cpapers": 24034,
+      "share_with_refs": 0.8352,
+      "traced_share_any": 0.6747,
+      "traced_share_excl_F": 0.6695,
+      "traced_share_excl_F_top5cited": 0.6487,
+      "host_traced_share_excl_F": 0.5697,
+      "n_host_cpapers": 10435,
+      "abstract_share": 0.8425,
+      "author_id_coverage": 0.9147,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0505,
+      "match_evidence_mix": {
+        "oa_abstract": 11619,
+        "oa_title": 10734,
+        "s2_only": 1244,
+        "oa_index_only": 437
+      }
+    },
+    "2024": {
+      "n_cpapers": 26248,
+      "share_with_refs": 0.7942,
+      "traced_share_any": 0.6242,
+      "traced_share_excl_F": 0.6206,
+      "traced_share_excl_F_top5cited": 0.602,
+      "host_traced_share_excl_F": 0.5263,
+      "n_host_cpapers": 13288,
+      "abstract_share": 0.8437,
+      "author_id_coverage": 0.8357,
+      "primary_topic_null_share": 0.0004,
+      "dup_group_share": 0.0365,
+      "match_evidence_mix": {
+        "oa_abstract": 13002,
+        "oa_title": 11475,
+        "s2_only": 1290,
+        "oa_index_only": 481
+      }
+    }
+  },
+  "notes": [
+    "traced share = share of c-papers citing >= 1 earlier c-paper of the same concept (within the retrieved corpus).",
+    "top5cited uses the 2026 cited_by_count snapshot (proxy for canonical parents).",
+    "host = c-papers whose primary_topic subfield differs from the concept's origin subfield."
+  ],
+  "route_counts": {
+    "A_openalex_native": 46,
+    "B_s2_index": 380
+  },
+  "s2_mapping_rate_mean": 0.9276,
+  "s2_unmapped_share_by_year": {
+    "2000": 0.0849,
+    "2001": 0.0892,
+    "2002": 0.1023,
+    "2003": 0.1026,
+    "2004": 0.1075,
+    "2005": 0.1141,
+    "2006": 0.1226,
+    "2007": 0.1094,
+    "2008": 0.1037,
+    "2009": 0.0929,
+    "2010": 0.0868,
+    "2011": 0.0976,
+    "2012": 0.096,
+    "2013": 0.0976,
+    "2014": 0.0979,
+    "2015": 0.0952,
+    "2016": 0.0858,
+    "2017": 0.0795,
+    "2018": 0.0767,
+    "2019": 0.0596,
+    "2020": 0.0464,
+    "2021": 0.0621,
+    "2022": 0.0471,
+    "2023": 0.0246,
+    "2024": 0.0121
+  }
+}

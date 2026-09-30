@@ -1,0 +1,9 @@
+21:02:05|INFO   |prefix complete: 206 / 426; pending 220
+21:03:08|INFO   |208374 unique linked works; 208374 in store
+21:03:28|INFO   |sense check LLM cost $0.0120
+21:03:37|INFO   |D2: 208374 works in 4 parts
+21:04:08|INFO   |{"prefix_complete":206,"pending":220,"hydration_batch_counts":{"iter1":206},"retrieval_batch_counts_works":{"iter1":208366,"iter2_singleton":8},"n_main":184,"n_reference":22,"n_works":208374,"n_links":214798,"fold_counts":{"screen":123,"heldout_concept":61,"reference":22},"route_counts":{"A_openalex_native":26,"B_s2_index":180},"screen_heldout_focal_nonempty_by_band":{"2005-07":{"screen":38,"heldout":0},"2008-11":{"screen":76,"heldout":76},"2012-16":{"screen":0,"heldout":65}},"per_group_N":{"F31:Physics and Astronomy":82,"D3:Physical Sciences":56,"F17:Computer Science":45,"OTHER_small":1}}
+
+real	2m31.372s
+user	1m22.955s
+sys	0m11.894s

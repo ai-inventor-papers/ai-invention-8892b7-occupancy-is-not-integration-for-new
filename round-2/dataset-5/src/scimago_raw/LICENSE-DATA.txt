@@ -1,0 +1,15 @@
+Data files in this record (data/, results/, manuscript/ except build_manuscript_assets.py)
+Copyright (c) 2026 James Andrew C. Dorado, Stephen B. Alayon, Regin A. Cabacas,
+Ma. Beth S. Concepcion, Shem Durst Elijah B. Sandig
+
+Licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+You may share and adapt the material for any purpose, provided you give appropriate
+credit, provide a link to the licence and indicate if changes were made.
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The SJR indicator values and bibliometric fields in these files originate from the
+SCImago Journal & Country Rank portal (https://www.scimagojr.com; data source: Scopus).
+Reuse of those values should also credit SCImago.
+
+The code (code/ and manuscript/build_manuscript_assets.py) is licensed under the MIT
+License; see LICENSE inside the code archive.
