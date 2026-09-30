@@ -1,0 +1,2 @@
+k2_spec.json sha256=866c60a82ce4a5d3adf18e838e29effbc0d4535f0f45583895cb8f74b5156848 frozen_utc=2026-09-29T09:24:22Z (before any K2 coefficient; gates + outcome-free descriptives only)
+k2_power.json sha256=07b1581059c6a7d25a3ef266013abc20d1c4202f28c4030b794cc8647a57a170 written before any K2 fit

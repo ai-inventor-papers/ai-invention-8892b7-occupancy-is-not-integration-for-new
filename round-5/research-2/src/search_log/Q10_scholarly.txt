@@ -1,0 +1,83 @@
+Search: co-word diffusion of concepts between research fields survival  [scholarly via openalex]
+Found: 20 results
+
+1. An Explicit Link between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differential Equation Approach
+   https://doi.org/10.1111/j.1467-9868.2011.00777.x
+   Journal of the Royal Statistical Society Series B (Statistical Methodology) · 2011 · cited by 2813...
+
+2. Microbiome definition re-visited: old concepts and new challenges
+   https://doi.org/10.1186/s40168-020-00875-0
+   Microbiome · 2020 · cited by 2290...
+
+3. Digital transformation: A multidisciplinary reflection and research agenda
+   https://doi.org/10.1016/j.jbusres.2019.09.022
+   Journal of Business Research · 2019 · cited by 5449...
+
+4. The Circular Economy: An Interdisciplinary Exploration of the Concept and Application in a Global Context
+   https://doi.org/10.1007/s10551-015-2693-2
+   Journal of Business Ethics · 2015 · cited by 3314...
+
+5. Policy mixes for sustainability transitions: An extended concept and framework for analysis
+   https://doi.org/10.1016/j.respol.2016.04.004
+   Research Policy · 2016 · cited by 1494...
+
+6. Random walks and diffusion on networks
+   https://doi.org/10.1016/j.physrep.2017.07.007
+   Physics Reports · 2017 · cited by 670...
+
+7. Scientific Concepts of Functional Foods in Europe Consensus Document
+   https://doi.org/10.1017/s0007114599000471
+   British Journal Of Nutrition · 1999 · cited by 1131...
+
+8. Diffusion of Information Technology Outsourcing: Influence Sources and the Kodak Effect
+   https://doi.org/10.1287/isre.3.4.334
+   Information Systems Research · 1992 · cited by 588...
+
+9. Some like it cold: understanding the survival strategies of psychrophiles
+   https://doi.org/10.1002/embr.201338170
+   EMBO Reports · 2014 · cited by 587...
+
+10. Diaspora and Transnationalism : Concepts, Theories and Methods
+   https://doi.org/10.5117/9789089642387
+   Amsterdam University Press eBooks · 2010 · cited by 772...
+
+11. Networking and innovation: a systematic review of the evidence
+   https://doi.org/10.1111/j.1460-8545.2004.00101.x
+   International Journal of Management Reviews · 2004 · cited by 1753...
+
+12. Research On Degrowth
+   https://doi.org/10.1146/annurev-environ-102017-025941
+   Annual Review of Environment and Resources · 2018 · cited by 692...
+
+13. Biofilm-Related Infections: Bridging the Gap between Clinical Management and Fundamental Aspects of Recalcitrance toward Antibiotics
+   https://doi.org/10.1128/mmbr.00013-14
+   Microbiology and Molecular Biology Reviews · 2014 · cited by 1346...
+
+14. Early intervention in psychosis: concepts, evidence and future directions
+   https://doi.org/10.1002/j.2051-5545.2008.tb00182.x
+   World Psychiatry · 2008 · cited by 585...
+
+15. A Framework for Assessing the Global Diffusion of the Internet
+   https://doi.org/10.17705/1jais.00018
+   Journal of the Association for Information Systems · 2001 · cited by 202...
+
+16. Towards a typology of intermediaries in sustainability transitions: A systematic review and a research agenda
+   https://doi.org/10.1016/j.respol.2018.10.006
+   Research Policy · 2018 · cited by 835...
+
+17. Chinese Guanxi : An Integrative Review and New Directions for Future Research
+   https://doi.org/10.1111/more.12010
+   Management and Organization Review · 2012 · cited by 641...
+
+18. Conceptualising the future of HRM and technology research
+   https://doi.org/10.1080/09585192.2016.1232296
+   The International Journal of Human Resource Management · 2016 · cited by 429...
+
+19. Communities, knowledge creation, and information diffusion
+   https://doi.org/10.1016/j.joi.2009.03.007
+   Journal of Informetrics · 2009 · cited by 160...
+
+20. The Problem of Fit between Ecosystems and Institutions: Ten Years Later
+   https://doi.org/10.5751/es-02064-120130
+   Ecology and Society · 2007 · cited by 715...
+

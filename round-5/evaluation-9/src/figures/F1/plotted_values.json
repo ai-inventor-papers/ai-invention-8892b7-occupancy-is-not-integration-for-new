@@ -1,0 +1,814 @@
+[
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "frame",
+  "field": "f1.frame_total",
+  "key": "f1.frame_total",
+  "value": 426,
+  "display_string": "426",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_BdBvbNuNU8E7",
+  "path": "round-2/experiment-1/src/results/t0_counts.json",
+  "selector": {
+   "json_pointer": "/frame/total"
+  },
+  "sha256": "19ab106297464732620bdae81378b2ab48a3cd917d68910ec94ef8c6dda30dc4",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "frame",
+  "field": "f1.frame_main",
+  "key": "f1.frame_main",
+  "value": 366,
+  "display_string": "366",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_BdBvbNuNU8E7",
+  "path": "round-2/experiment-1/src/results/t0_counts.json",
+  "selector": {
+   "json_pointer": "/frame/arms/main"
+  },
+  "sha256": "19ab106297464732620bdae81378b2ab48a3cd917d68910ec94ef8c6dda30dc4",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "frame",
+  "field": "f1.frame_ref",
+  "key": "f1.frame_ref",
+  "value": 60,
+  "display_string": "60",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_BdBvbNuNU8E7",
+  "path": "round-2/experiment-1/src/results/t0_counts.json",
+  "selector": {
+   "json_pointer": "/frame/arms/reference"
+  },
+  "sha256": "19ab106297464732620bdae81378b2ab48a3cd917d68910ec94ef8c6dda30dc4",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "works",
+  "field": "f1.n_works",
+  "key": "f1.n_works",
+  "value": 462812,
+  "display_string": "462,812",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_eR1Z7fMlOcxs",
+  "path": "round-2/dataset-5/src/hyd/logs/assemble_summary.json",
+  "selector": {
+   "json_pointer": "/n_works"
+  },
+  "sha256": "d4e385c031b46b7d2de52ebc8c84a16f1d18e7845d6c24394675f040069e18e6",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "link",
+  "field": "f1.unlinked",
+  "key": "f1.unlinked",
+  "value": 312,
+  "display_string": "312",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_BdBvbNuNU8E7",
+  "path": "round-2/experiment-1/src/results/summary.json",
+  "selector": {
+   "json_pointer": "/frame_application/link_status_by_arm/main/UNLINKED"
+  },
+  "sha256": "363c5f766a96407bf1b51f2353f0576bbce8b92d66cf1fcff9a8ee20ce261d8b",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "link",
+  "field": "f1.frame_main",
+  "key": "f1.frame_main",
+  "value": 366,
+  "display_string": "366",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_BdBvbNuNU8E7",
+  "path": "round-2/experiment-1/src/results/t0_counts.json",
+  "selector": {
+   "json_pointer": "/frame/arms/main"
+  },
+  "sha256": "19ab106297464732620bdae81378b2ab48a3cd917d68910ec94ef8c6dda30dc4",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "mesh",
+  "field": "f1.mesh_concepts",
+  "key": "f1.mesh_concepts",
+  "value": 191,
+  "display_string": "191",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/mesh_load_summary.json",
+  "selector": {
+   "json_pointer": "/n_concepts"
+  },
+  "sha256": "7ee173220c5428ef69a9d52bb2bcfa98d28aec88814d4975c98a2ebed5deb3be",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "folds",
+  "field": "f1.screen_concepts",
+  "key": "f1.screen_concepts",
+  "value": 202,
+  "display_string": "202",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_htO_gJuUn6Pr",
+  "path": "round-3/experiment-5/src/results/main_population_hydrated.json",
+  "selector": {
+   "json_pointer": "/counts/MAIN/by_fold/screen"
+  },
+  "sha256": "3341a9782846fa972eea4486a1271777a06f80cbffd65cbd10ba46e3797bab79",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "folds",
+  "field": "f1.heldout_concepts",
+  "key": "f1.heldout_concepts",
+  "value": 100,
+  "display_string": "100",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_htO_gJuUn6Pr",
+  "path": "round-3/experiment-5/src/results/main_population_hydrated.json",
+  "selector": {
+   "json_pointer": "/counts/MAIN/by_fold/heldout"
+  },
+  "sha256": "3341a9782846fa972eea4486a1271777a06f80cbffd65cbd10ba46e3797bab79",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "cooc",
+  "field": "f1.snap_nodes_2023",
+  "key": "f1.snap_nodes_2023",
+  "value": 27075.0,
+  "display_string": "27,075",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_mbFjmo5rbbf8",
+  "path": "round-2/experiment-3/src/results/snapshot_summary.csv",
+  "selector": {
+   "csv_row": {
+    "filters": {
+     "year": "2023"
+    },
+    "column": "n_nodes"
+   }
+  },
+  "sha256": "e2c657e99b1e68b2bfcd1a94709da3a426ace8a1be3436a3094bd48566212ae8",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "cooc",
+  "field": "f1.snap_kept_edges_2023",
+  "key": "f1.snap_kept_edges_2023",
+  "value": 98514.0,
+  "display_string": "98,514",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_mbFjmo5rbbf8",
+  "path": "round-2/experiment-3/src/results/snapshot_summary.csv",
+  "selector": {
+   "csv_row": {
+    "filters": {
+     "year": "2023"
+    },
+    "column": "n_kept_edges"
+   }
+  },
+  "sha256": "e2c657e99b1e68b2bfcd1a94709da3a426ace8a1be3436a3094bd48566212ae8",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "gateA",
+  "field": "f1.gateA_share",
+  "key": "f1.gateA_share",
+  "value": 0.1727,
+  "display_string": "17.3%",
+  "format": ".1%",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_yjFB8Spw2w6M",
+  "path": "round-2/experiment-2/src/results/gate_a/gate_A_verdict.json",
+  "selector": {
+   "json_pointer": "/share_edges_ge_040"
+  },
+  "sha256": "1c950a0fa977cbf139a26768e6746ff022523b9fb22ebec45abbc0e86e4b1605",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "gateA",
+  "field": "f1.gateB_episodes",
+  "key": "f1.gateB_episodes",
+  "value": 0,
+  "display_string": "0",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_yjFB8Spw2w6M",
+  "path": "round-2/experiment-2/src/results/audit/rederive.json",
+  "selector": {
+   "json_pointer": "/gate_B_labelled_episodes"
+  },
+  "sha256": "204671ea68f6d0e3a996a5d12dd384a4a8278e14008be59df1aef2bbb6cdada2",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2s",
+  "field": "f1.d2_scr_N",
+  "key": "f1.d2_scr_N",
+  "value": 1544,
+  "display_string": "1,544",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/N"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2s",
+  "field": "f1.d2_scr_G",
+  "key": "f1.d2_scr_G",
+  "value": 140,
+  "display_string": "140",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/G"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2h",
+  "field": "f1.d2_ho_N",
+  "key": "f1.d2_ho_N",
+  "value": 972,
+  "display_string": "972",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/N"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2h",
+  "field": "f1.d2_ho_G",
+  "key": "f1.d2_ho_G",
+  "value": 74,
+  "display_string": "74",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/G"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2m",
+  "field": "f1.mesh_N",
+  "key": "f1.mesh_N",
+  "value": 2171,
+  "display_string": "2,171",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/R2/N"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2m",
+  "field": "f1.mesh_G",
+  "key": "f1.mesh_G",
+  "value": 160,
+  "display_string": "160",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/R2/G"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2m",
+  "field": "f1.mesh_verdict",
+  "key": "f1.mesh_verdict",
+  "value": "REPLICATED",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/g4_verdict"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "adopt",
+  "field": "f1.adopter_or",
+  "key": "f1.adopter_or",
+  "value": 3.094953030274428,
+  "display_string": "3.09",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_FZ2OCJwV6xHs",
+  "path": "round-4/evaluation-5/src/results/enrichment.json",
+  "selector": {
+   "json_pointer": "/m2/terms/E_any/OR"
+  },
+  "sha256": "02acef8b1c08ae11ef53b4ebdd89d9dc2647918908c25dfa57d66f55224c2cb8",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d1",
+  "field": "f1.d1_verdict",
+  "key": "f1.d1_verdict",
+  "value": "D1_NOT_SUPPORTED_SCREEN",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_62TVG6A4f7Iy",
+  "path": "round-3/experiment-6/src/results/d1/verdict.json",
+  "selector": {
+   "json_pointer": "/verdict"
+  },
+  "sha256": "faec1955532399df929f03dd1a73b1c8c0f295f6fac1ddd91be2ca8541c93811",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d1",
+  "field": "f1.d1_holm",
+  "key": "f1.d1_holm",
+  "value": 0.40479760119940034,
+  "display_string": "0.405",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_62TVG6A4f7Iy",
+  "path": "round-3/experiment-6/src/results/d1/verdict.json",
+  "selector": {
+   "json_pointer": "/per_measure/closure_res_z/Y1r/p_holm"
+  },
+  "sha256": "faec1955532399df929f03dd1a73b1c8c0f295f6fac1ddd91be2ca8541c93811",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "ct",
+  "field": "f1.ct_holm",
+  "key": "f1.ct_holm",
+  "value": 0.4766101870939929,
+  "display_string": "0.48",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/decision/holm_p/CT"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "ct",
+  "field": "f1.ct_mesh_holm",
+  "key": "f1.ct_mesh_holm",
+  "value": 0.05272429680813682,
+  "display_string": "0.053",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/holm_p_R2/CT"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d3",
+  "field": "f1.d3_decision",
+  "key": "f1.d3_decision",
+  "value": "NULL",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_zw_JJGsUFSnd",
+  "path": "round-4/evaluation-3/src/results/d3/d3_results.json",
+  "selector": {
+   "json_pointer": "/decision/decision"
+  },
+  "sha256": "fe50ee11cffae1aa74333fe5dc71afba79561fb076fee4fb537fe571594a6e38",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "r1",
+  "field": "f1.r1_status",
+  "key": "f1.r1_status",
+  "value": "R1_DEAD",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_zw_JJGsUFSnd",
+  "path": "round-4/evaluation-3/src/results/r1/r1_summary.json",
+  "selector": {
+   "json_pointer": "/status"
+  },
+  "sha256": "72fbe6de996579c06dafcb338ebac2bd61838bc5b22544560a2b32ad0fccebc4",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "typ",
+  "field": "f1.typ_k",
+  "key": "f1.typ_k",
+  "value": 2,
+  "display_string": "2",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_QKsLguxnGFQT",
+  "path": "round-3/experiment-8/src/results/typology.json",
+  "selector": {
+   "json_pointer": "/k_selected"
+  },
+  "sha256": "aa4cd83f5c7c89d0be202bd02fbf3e7e76aa7b9fd9c76d8d75b7fa3d9db21573",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "typ",
+  "field": "f1.typ_jacc",
+  "key": "f1.typ_jacc",
+  "value": 0.8606700427643464,
+  "display_string": "0.861",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_QKsLguxnGFQT",
+  "path": "round-3/experiment-8/src/results/typology.json",
+  "selector": {
+   "json_pointer": "/by_k/2/min_jaccard"
+  },
+  "sha256": "aa4cd83f5c7c89d0be202bd02fbf3e7e76aa7b9fd9c76d8d75b7fa3d9db21573",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "roles",
+  "field": "f1.roles_bridge",
+  "key": "f1.roles_bridge",
+  "value": 0.6088840736728061,
+  "display_string": "0.61",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_QKsLguxnGFQT",
+  "path": "round-3/experiment-8/src/results/roles.json",
+  "selector": {
+   "json_pointer": "/predeclared/robust_shares/BRIDGE"
+  },
+  "sha256": "db64a7df82f20a5f78e15afa29434ebe27160797b3f8f1e60482de057262db8a",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "ll",
+  "field": "f1.ll_share",
+  "key": "f1.ll_share",
+  "value": 0.9375,
+  "display_string": "94%",
+  "format": ".0%",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_QKsLguxnGFQT",
+  "path": "round-3/experiment-8/src/results/leadlag.json",
+  "selector": {
+   "json_pointer": "/primary/share_expansion_first"
+  },
+  "sha256": "2f8d793f04f0cc68b2407053f709af9e9680c18bd7a27a579a126c7c8eb7b087",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "ll",
+  "field": "f1.ll_n",
+  "key": "f1.ll_n",
+  "value": 16,
+  "display_string": "16",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_QKsLguxnGFQT",
+  "path": "round-3/experiment-8/src/results/leadlag.json",
+  "selector": {
+   "json_pointer": "/primary/n_both_onsets"
+  },
+  "sha256": "2f8d793f04f0cc68b2407053f709af9e9680c18bd7a27a579a126c7c8eb7b087",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "E_up onset",
+  "field": "definition",
+  "key": "f1.def.E_up",
+  "value": null,
+  "display_string": "n/a - source missing",
+  "format": null,
+  "status": "SOURCE_MISSING"
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "A_cont",
+  "field": "definition",
+  "key": "f1.def.A_cont",
+  "value": "A_cont (mean host share of partners' pre-entry works)",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/nativeness/primary_A"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "CT companions",
+  "field": "definition",
+  "key": "f1.def.CT",
+  "value": "partners on c-papers with sub == o(c) in [e-5, e-1]",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_prereg.json",
+  "selector": {
+   "json_pointer": "/spec/co_transfer/companions"
+  },
+  "sha256": "0a5c28b82f09b76cc7aee974453c2546778caf1c5ba83e87d9ace071722e980f",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "Y_strict",
+  "field": "definition",
+  "key": "f1.def.Y_strict",
+  "value": "W2 d-papers of c with no author in Pset (papers without author ids excluded)",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_prereg.json",
+  "selector": {
+   "json_pointer": "/spec/outcomes/Y_strict"
+  },
+  "sha256": "0a5c28b82f09b76cc7aee974453c2546778caf1c5ba83e87d9ace071722e980f",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "EST_bin",
+  "field": "definition",
+  "key": "f1.def.EST_bin",
+  "value": "Y_strict >= 3 and d-papers in >= 3 of the 5 W2 years",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_prereg.json",
+  "selector": {
+   "json_pointer": "/spec/outcomes/EST_bin"
+  },
+  "sha256": "0a5c28b82f09b76cc7aee974453c2546778caf1c5ba83e87d9ace071722e980f",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "Persist. closure",
+  "field": "definition",
+  "key": "f1.def.closure_persist",
+  "value": null,
+  "display_string": "n/a - source missing",
+  "format": null,
+  "status": "SOURCE_MISSING"
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "Folds",
+  "field": "definition",
+  "key": "f1.def.folds",
+  "value": "screen iff int(sha1(concept_id), 16) % 10 < 7",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_prereg.json",
+  "selector": {
+   "json_pointer": "/spec/fold_rule"
+  },
+  "sha256": "0a5c28b82f09b76cc7aee974453c2546778caf1c5ba83e87d9ace071722e980f",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "caption",
+  "row": "caption",
+  "field": "n_frame",
+  "key": "f1.frame_total",
+  "value": 426,
+  "display_string": "426",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_BdBvbNuNU8E7",
+  "path": "round-2/experiment-1/src/results/t0_counts.json",
+  "selector": {
+   "json_pointer": "/frame/total"
+  },
+  "sha256": "19ab106297464732620bdae81378b2ab48a3cd917d68910ec94ef8c6dda30dc4",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F1",
+  "panel": "caption",
+  "row": "caption",
+  "field": "n_works",
+  "key": "f1.n_works",
+  "value": 462812,
+  "display_string": "462,812",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_eR1Z7fMlOcxs",
+  "path": "round-2/dataset-5/src/hyd/logs/assemble_summary.json",
+  "selector": {
+   "json_pointer": "/n_works"
+  },
+  "sha256": "d4e385c031b46b7d2de52ebc8c84a16f1d18e7845d6c24394675f040069e18e6",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ }
+]

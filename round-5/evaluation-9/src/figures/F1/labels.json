@@ -1,0 +1,234 @@
+[
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "frame",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "works",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "link",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "mesh",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "folds",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "cooc",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "bip",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "viab",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "gateA",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "graft",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2s",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2h",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d2m",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "adopt",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d1",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "ct",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "d3",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "r1",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "typ",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "roles",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "ll",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "flow",
+  "row": "cases",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "E_up onset",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "A_cont",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "CT companions",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "Y_strict",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "EST_bin",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "Persist. closure",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F1",
+  "panel": "side",
+  "row": "Folds",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ }
+]

@@ -1,0 +1,2513 @@
+[
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "kill_rule_triggered",
+  "key": "f2.ho.kill_dead",
+  "value": false,
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/KILL_co_primary_dead"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "primary_label",
+  "key": "f2.ho.primary_label",
+  "value": "inconclusive (underpowered)",
+  "display_string": null,
+  "format": null,
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary_label"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "mde80",
+  "key": "f2.ho.mde_co",
+  "value": 1.15,
+  "display_string": "1.15",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/power_heldout/MDE_irr_per_sd_power80/secondary"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "mde80",
+  "key": "f2.mesh_pri.mde",
+  "value": 1.4,
+  "display_string": "1.40",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/MDE80/R1"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ivw.A",
+  "field": "I2",
+  "key": "f2.ivw.A.I2",
+  "value": 0.0,
+  "display_string": "0",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/comparison_main_vs_mesh.csv",
+  "selector": {
+   "csv_row": {
+    "filters": {
+     "estimate": "main_coprimary_1.30"
+    },
+    "column": "I2"
+   }
+  },
+  "sha256": "9561cb792fa00be685df7ca7e1fbf26d143cd728abd02e6904f57e85df1a47aa",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ivw.A",
+  "field": "p_main_vs_mesh",
+  "key": "f2.ivw.A.p_diff",
+  "value": 0.48061229106815095,
+  "display_string": "0.48",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/comparison_main_vs_mesh.csv",
+  "selector": {
+   "csv_row": {
+    "filters": {
+     "estimate": "main_coprimary_1.30"
+    },
+    "column": "p"
+   }
+  },
+  "sha256": "9561cb792fa00be685df7ca7e1fbf26d143cd728abd02e6904f57e85df1a47aa",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "retained_share_pct",
+  "key": "f2.retained_share_pct",
+  "value": 25.97701149425287,
+  "display_string": "26",
+  "format": ".0f",
+  "status": "OK",
+  "source_kind": "derived",
+  "formula": "100*x",
+  "inputs": [
+   "f2.retained_share"
+  ],
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ivw.A",
+  "field": "main_in_ivw",
+  "key": "f2.scr_co.A.est",
+  "value": 1.300076888024346,
+  "display_string": "1.30",
+  "format": ".2f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/A_cont/irr_per_sd"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "field": "est",
+  "key": "f2.scr_co.A.est",
+  "value": 1.300076888024346,
+  "display_string": "1.300",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/A_cont/irr_per_sd"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "field": "lo",
+  "key": "f2.scr_co.A.lo",
+  "value": 1.1639421314281162,
+  "display_string": "1.164",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/A_cont/irr_per_sd_ci95/0"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "field": "hi",
+  "key": "f2.scr_co.A.hi",
+  "value": 1.452133975682496,
+  "display_string": "1.452",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/A_cont/irr_per_sd_ci95/1"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "field": "col:N",
+  "key": "f2.scr_co.A.N",
+  "value": 1544,
+  "display_string": "1,544",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/N"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "field": "col:G",
+  "key": "f2.scr_co.A.G",
+  "value": 140,
+  "display_string": "140",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/G"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "field": "col:p",
+  "key": "f2.scr_co.A.p",
+  "value": 6.434696662407287e-06,
+  "display_string": "6.4e-06",
+  "format": ".1e",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/A_cont/p_crv1"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "field": "col:Holm",
+  "key": "f2.scr_co.A.holm",
+  "value": 1.2869393324814574e-05,
+  "display_string": "1.3e-05",
+  "format": ".1e",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/decision/holm_p/A_cont"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "field": "col:wild",
+  "key": "f2.scr_co.A.pw",
+  "value": 0.001,
+  "display_string": "0.001",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/A_cont/p_wild"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "est",
+  "key": "f2.scr_pri.A.est",
+  "value": 1.385942489788976,
+  "display_string": "1.386",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/A_cont/irr_per_sd"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "lo",
+  "key": "f2.scr_pri.A.lo",
+  "value": 0.9675311649358658,
+  "display_string": "0.968",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/A_cont/irr_per_sd_ci95/0"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "hi",
+  "key": "f2.scr_pri.A.hi",
+  "value": 1.985296861346881,
+  "display_string": "1.985",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/A_cont/irr_per_sd_ci95/1"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "col:N",
+  "key": "f2.scr_pri.A.N",
+  "value": 452,
+  "display_string": "452",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/N"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "col:G",
+  "key": "f2.scr_pri.A.G",
+  "value": 77,
+  "display_string": "77",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/G"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "col:p",
+  "key": "f2.scr_pri.A.p",
+  "value": 0.07444502998953129,
+  "display_string": "0.074",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/A_cont/p_crv1"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "col:Holm",
+  "key": "f2.scr_pri.A.holm",
+  "value": 0.14889005997906257,
+  "display_string": "0.149",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/decision/holm_p/A_cont"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "field": "col:wild",
+  "key": "f2.scr_pri.A.pw",
+  "value": 0.032,
+  "display_string": "0.032",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/A_cont/p_wild"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "est",
+  "key": "f2.ho_co.A.est",
+  "value": 1.187471175230877,
+  "display_string": "1.187",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/irr_sd_A"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "lo",
+  "key": "f2.ho_co.A.lo",
+  "value": 1.056595791617389,
+  "display_string": "1.057",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/ci_A/0"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "hi",
+  "key": "f2.ho_co.A.hi",
+  "value": 1.3345574563056908,
+  "display_string": "1.335",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/ci_A/1"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "col:N",
+  "key": "f2.ho_co.A.N",
+  "value": 972,
+  "display_string": "972",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/N"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "col:G",
+  "key": "f2.ho_co.A.G",
+  "value": 74,
+  "display_string": "74",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/G"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "col:p",
+  "key": "f2.ho_co.A.p",
+  "value": 0.004487870758267072,
+  "display_string": "0.004",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/p_A"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "col:Holm",
+  "key": "f2.ho_co.A.holm",
+  "value": 0.008975741516534144,
+  "display_string": "0.009",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/d2/results/heldout_confirmation.json",
+  "selector": {
+   "json_pointer": "/decision_secondary/holm_p/A_cont"
+  },
+  "sha256": "4100e3cf849feabdc7fcf90ecd7deb39afc98661ab231e60286b17e25694b3d6",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "field": "col:wild",
+  "key": "f2.ho_co.A.pw",
+  "value": 0.012,
+  "display_string": "0.012",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/p_wild_A"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "est",
+  "key": "f2.ho_pri.A.est",
+  "value": 0.9818917481791403,
+  "display_string": "0.982",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/irr_sd_A"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "lo",
+  "key": "f2.ho_pri.A.lo",
+  "value": 0.7041826472980212,
+  "display_string": "0.704",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/ci_A/0"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "hi",
+  "key": "f2.ho_pri.A.hi",
+  "value": 1.3691212199585217,
+  "display_string": "1.369",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/ci_A/1"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "col:N",
+  "key": "f2.ho_pri.A.N",
+  "value": 250,
+  "display_string": "250",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/N"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "col:G",
+  "key": "f2.ho_pri.A.G",
+  "value": 30,
+  "display_string": "30",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/G"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "col:p",
+  "key": "f2.ho_pri.A.p",
+  "value": 0.9112609889769059,
+  "display_string": "0.911",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/p_A"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "col:Holm",
+  "key": "f2.ho_pri.A.holm",
+  "value": 0.9112609889769059,
+  "display_string": "0.911",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/d2/results/heldout_confirmation.json",
+  "selector": {
+   "json_pointer": "/decision_primary/holm_p/A_cont"
+  },
+  "sha256": "4100e3cf849feabdc7fcf90ecd7deb39afc98661ab231e60286b17e25694b3d6",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "field": "col:wild",
+  "key": "f2.ho_pri.A.pw",
+  "value": 0.88,
+  "display_string": "0.880",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/p_wild_A"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "field": "est",
+  "key": "f2.mesh_co.A.est",
+  "value": 1.2329838323526203,
+  "display_string": "1.233",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/A_cont/irr_sd"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "field": "lo",
+  "key": "f2.mesh_co.A.lo",
+  "value": 1.1167392468870916,
+  "display_string": "1.117",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/A_cont/ci_irr_sd/0"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "field": "hi",
+  "key": "f2.mesh_co.A.hi",
+  "value": 1.3613286495308963,
+  "display_string": "1.361",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/A_cont/ci_irr_sd/1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "field": "col:N",
+  "key": "f2.mesh_co.A.N",
+  "value": 2171,
+  "display_string": "2,171",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/N"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "field": "col:G",
+  "key": "f2.mesh_co.A.G",
+  "value": 160,
+  "display_string": "160",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/G"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "field": "col:p",
+  "key": "f2.mesh_co.A.p",
+  "value": 4.8539057905451176e-05,
+  "display_string": "4.9e-05",
+  "format": ".1e",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/A_cont/p_crv1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "field": "col:Holm",
+  "key": "f2.mesh_co.A.holm",
+  "value": 9.707811581090235e-05,
+  "display_string": "9.7e-05",
+  "format": ".1e",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/holm_p_R2/A_cont"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "field": "col:wild",
+  "key": "f2.mesh_co.A.pw",
+  "value": 0.001,
+  "display_string": "0.001",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/A_cont/p_wild"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "est",
+  "key": "f2.mesh_pri.A.est",
+  "value": 1.3242509557724162,
+  "display_string": "1.324",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/A_cont/irr_sd"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "lo",
+  "key": "f2.mesh_pri.A.lo",
+  "value": 1.0976928492361515,
+  "display_string": "1.098",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/A_cont/ci_irr_sd/0"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "hi",
+  "key": "f2.mesh_pri.A.hi",
+  "value": 1.5975694795538289,
+  "display_string": "1.598",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/A_cont/ci_irr_sd/1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "col:N",
+  "key": "f2.mesh_pri.A.N",
+  "value": 1004,
+  "display_string": "1,004",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/N"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "col:G",
+  "key": "f2.mesh_pri.A.G",
+  "value": 122,
+  "display_string": "122",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/G"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "col:p",
+  "key": "f2.mesh_pri.A.p",
+  "value": 0.0036664760496780964,
+  "display_string": "0.004",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/A_cont/p_crv1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "col:Holm",
+  "key": "f2.mesh_pri.A.holm",
+  "value": 0.007332952099356193,
+  "display_string": "0.007",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/holm_p_R1/A_cont"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "field": "col:wild",
+  "key": "f2.mesh_pri.A.pw",
+  "value": 0.001,
+  "display_string": "0.001",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/A_cont/p_wild"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ivw.A",
+  "field": "est",
+  "key": "f2.ivw.A.est",
+  "value": 1.262431308700343,
+  "display_string": "1.262",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/comparison_main_vs_mesh.csv",
+  "selector": {
+   "csv_row": {
+    "filters": {
+     "estimate": "main_coprimary_1.30"
+    },
+    "column": "ivw_pooled_irr_sd"
+   }
+  },
+  "sha256": "9561cb792fa00be685df7ca7e1fbf26d143cd728abd02e6904f57e85df1a47aa",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": "95% IVW fixed-effect"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ivw.A",
+  "field": "lo",
+  "key": "f2.ivw.A.lo",
+  "value": 1.1733437315656936,
+  "display_string": "1.173",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/comparison_main_vs_mesh.csv",
+  "selector": {
+   "csv_row": {
+    "filters": {
+     "estimate": "main_coprimary_1.30"
+    },
+    "column": "ivw_lo"
+   }
+  },
+  "sha256": "9561cb792fa00be685df7ca7e1fbf26d143cd728abd02e6904f57e85df1a47aa",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": "95% IVW fixed-effect"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ivw.A",
+  "field": "hi",
+  "key": "f2.ivw.A.hi",
+  "value": 1.3582829705496493,
+  "display_string": "1.358",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/comparison_main_vs_mesh.csv",
+  "selector": {
+   "csv_row": {
+    "filters": {
+     "estimate": "main_coprimary_1.30"
+    },
+    "column": "ivw_hi"
+   }
+  },
+  "sha256": "9561cb792fa00be685df7ca7e1fbf26d143cd728abd02e6904f57e85df1a47aa",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": "95% IVW fixed-effect"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_scr.A",
+  "field": "est",
+  "key": "f2.plac_scr.A.est",
+  "value": 0.9691650485746623,
+  "display_string": "0.969",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_screen_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_median"
+  },
+  "sha256": "1b7c8a66638482eceb0c463776b9ee3eee34664e5b133835f7cee853bb9c6f9e",
+  "fold_label": "SCREEN",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_scr.A",
+  "field": "lo",
+  "key": "f2.plac_scr.A.lo",
+  "value": 0.8579420905718038,
+  "display_string": "0.858",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_screen_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_q025_q975/0"
+  },
+  "sha256": "1b7c8a66638482eceb0c463776b9ee3eee34664e5b133835f7cee853bb9c6f9e",
+  "fold_label": "SCREEN",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_scr.A",
+  "field": "hi",
+  "key": "f2.plac_scr.A.hi",
+  "value": 1.086933989656054,
+  "display_string": "1.087",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_screen_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_q025_q975/1"
+  },
+  "sha256": "1b7c8a66638482eceb0c463776b9ee3eee34664e5b133835f7cee853bb9c6f9e",
+  "fold_label": "SCREEN",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_scr.A",
+  "field": "col:N",
+  "key": "f2.plac_scr.A.N",
+  "value": 1740,
+  "display_string": "1,740",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_screen_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/n_events"
+  },
+  "sha256": "1b7c8a66638482eceb0c463776b9ee3eee34664e5b133835f7cee853bb9c6f9e",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_ho.A",
+  "field": "est",
+  "key": "f2.plac_ho.A.est",
+  "value": 0.9826827374725815,
+  "display_string": "0.983",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_heldout_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_median"
+  },
+  "sha256": "ea83ca6426f7fa023a2ba145791c321c6221261a4a871bb54bbfdfaa48ce338a",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_ho.A",
+  "field": "lo",
+  "key": "f2.plac_ho.A.lo",
+  "value": 0.8806143170061337,
+  "display_string": "0.881",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_heldout_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_q025_q975/0"
+  },
+  "sha256": "ea83ca6426f7fa023a2ba145791c321c6221261a4a871bb54bbfdfaa48ce338a",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_ho.A",
+  "field": "hi",
+  "key": "f2.plac_ho.A.hi",
+  "value": 1.0673049431210961,
+  "display_string": "1.067",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_heldout_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_q025_q975/1"
+  },
+  "sha256": "ea83ca6426f7fa023a2ba145791c321c6221261a4a871bb54bbfdfaa48ce338a",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_ho.A",
+  "field": "col:N",
+  "key": "f2.plac_ho.A.N",
+  "value": 1097,
+  "display_string": "1,097",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_heldout_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/n_events"
+  },
+  "sha256": "ea83ca6426f7fa023a2ba145791c321c6221261a4a871bb54bbfdfaa48ce338a",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_pool.A",
+  "field": "est",
+  "key": "f2.plac_pool.A.est",
+  "value": 0.9736516976814262,
+  "display_string": "0.974",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_pooled_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_median"
+  },
+  "sha256": "46f1dd61778b358105185d18b107ee160fc18f27708a7371dd3a03056a14631c",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_pool.A",
+  "field": "lo",
+  "key": "f2.plac_pool.A.lo",
+  "value": 0.8965085657429721,
+  "display_string": "0.897",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_pooled_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_q025_q975/0"
+  },
+  "sha256": "46f1dd61778b358105185d18b107ee160fc18f27708a7371dd3a03056a14631c",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_pool.A",
+  "field": "hi",
+  "key": "f2.plac_pool.A.hi",
+  "value": 1.0557959462519588,
+  "display_string": "1.056",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_pooled_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/placebo_irr_sd_q025_q975/1"
+  },
+  "sha256": "46f1dd61778b358105185d18b107ee160fc18f27708a7371dd3a03056a14631c",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": "2.5-97.5% quantiles of 100 placebo-host draws"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_pool.A",
+  "field": "col:N",
+  "key": "f2.plac_pool.A.N",
+  "value": 2837,
+  "display_string": "2,837",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/g_pooled_summary.json",
+  "selector": {
+   "json_pointer": "/placebo_host/size/n_events"
+  },
+  "sha256": "46f1dd61778b358105185d18b107ee160fc18f27708a7371dd3a03056a14631c",
+  "fold_label": "SUPPLEMENTARY/POOLED",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_mesh.A",
+  "field": "est",
+  "key": "f2.plac_mesh.A.est",
+  "value": 1.0305202850347557,
+  "display_string": "1.031",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/S3/row/A_placebo/irr_sd"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_mesh.A",
+  "field": "lo",
+  "key": "f2.plac_mesh.A.lo",
+  "value": 0.9629040896538383,
+  "display_string": "0.963",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/S3/row/A_placebo/ci_irr_sd/0"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_mesh.A",
+  "field": "hi",
+  "key": "f2.plac_mesh.A.hi",
+  "value": 1.1028845648063352,
+  "display_string": "1.103",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/S3/row/A_placebo/ci_irr_sd/1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_mesh.A",
+  "field": "col:N",
+  "key": "f2.plac_mesh.A.N",
+  "value": 2171,
+  "display_string": "2,171",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/S3/row/N"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_mesh.A",
+  "field": "col:G",
+  "key": "f2.plac_mesh.A.G",
+  "value": 160,
+  "display_string": "160",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/S3/row/G"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_mesh.A",
+  "field": "col:p",
+  "key": "f2.plac_mesh.A.p",
+  "value": 0.38294338301635433,
+  "display_string": "0.383",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/S3/row/A_placebo/p_crv1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "phys.A",
+  "field": "est",
+  "key": "f2.phys.A.est",
+  "value": 0.9516637634583498,
+  "display_string": "0.952",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/comparison_main_vs_mesh.csv",
+  "selector": {
+   "csv_row": {
+    "filters": {
+     "estimate": "main physics stratum (descriptive)"
+    },
+    "column": "irr_sd"
+   }
+  },
+  "sha256": "9561cb792fa00be685df7ca7e1fbf26d143cd728abd02e6904f57e85df1a47aa",
+  "fold_label": "DESCRIPTIVE",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "field": "est",
+  "key": "f2.scr_co.CT.est",
+  "value": 1.0509577175634093,
+  "display_string": "1.051",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/CT/irr_per_sd"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "field": "lo",
+  "key": "f2.scr_co.CT.lo",
+  "value": 0.9157714234231177,
+  "display_string": "0.916",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/CT/irr_per_sd_ci95/0"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "field": "hi",
+  "key": "f2.scr_co.CT.hi",
+  "value": 1.2061002296593484,
+  "display_string": "1.206",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/CT/irr_per_sd_ci95/1"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "field": "col:N",
+  "key": "f2.scr_co.CT.N",
+  "value": 1544,
+  "display_string": "1,544",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/N"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "field": "col:G",
+  "key": "f2.scr_co.CT.G",
+  "value": 140,
+  "display_string": "140",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/G"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "field": "col:p",
+  "key": "f2.scr_co.CT.p",
+  "value": 0.4766101870939929,
+  "display_string": "0.477",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/CT/p_crv1"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "field": "col:Holm",
+  "key": "f2.scr_co.CT.holm",
+  "value": 0.4766101870939929,
+  "display_string": "0.477",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/decision/holm_p/CT"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "field": "col:wild",
+  "key": "f2.scr_co.CT.pw",
+  "value": 0.488,
+  "display_string": "0.488",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/coprimary_fe_concept_plus_e_plus_d/CT/p_wild"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "field": "est",
+  "key": "f2.scr_pri.CT.est",
+  "value": 1.036676983065916,
+  "display_string": "1.037",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/CT/irr_per_sd"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "field": "lo",
+  "key": "f2.scr_pri.CT.lo",
+  "value": 0.7166958361590207,
+  "display_string": "0.717",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/CT/irr_per_sd_ci95/0"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "field": "hi",
+  "key": "f2.scr_pri.CT.hi",
+  "value": 1.499519200471809,
+  "display_string": "1.500",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/CT/irr_per_sd_ci95/1"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "field": "col:N",
+  "key": "f2.scr_pri.CT.N",
+  "value": 452,
+  "display_string": "452",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/N"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "field": "col:G",
+  "key": "f2.scr_pri.CT.G",
+  "value": 77,
+  "display_string": "77",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/G"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "field": "col:p",
+  "key": "f2.scr_pri.CT.p",
+  "value": 0.8464171358813409,
+  "display_string": "0.846",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/CT/p_crv1"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "field": "col:Holm",
+  "key": "f2.scr_pri.CT.holm",
+  "value": 0.8464171358813409,
+  "display_string": "0.846",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/decision/holm_p/CT"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "field": "col:wild",
+  "key": "f2.scr_pri.CT.pw",
+  "value": 0.857,
+  "display_string": "0.857",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_2Cd2JJypeGuA",
+  "path": "round-3/experiment-7/src/results/d2_summary.json",
+  "selector": {
+   "json_pointer": "/primary_fe_concept_x_e_plus_d_x_e/CT/p_wild"
+  },
+  "sha256": "f4495958681a8b2d9b93b69c32aab7b0ccb545d0ff5c38189ba31410aa7a2bb1",
+  "fold_label": "SCREEN",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_co.CT",
+  "field": "est",
+  "key": "f2.ho_co.CT.est",
+  "value": 1.038408305606539,
+  "display_string": "1.038",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/irr_sd_CT"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_co.CT",
+  "field": "lo",
+  "key": "f2.ho_co.CT.lo",
+  "value": 0.8998578331496024,
+  "display_string": "0.900",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/ci_CT/0"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_co.CT",
+  "field": "hi",
+  "key": "f2.ho_co.CT.hi",
+  "value": 1.1982912960578476,
+  "display_string": "1.198",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/ci_CT/1"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_co.CT",
+  "field": "col:N",
+  "key": "f2.ho_co.CT.N",
+  "value": 972,
+  "display_string": "972",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/N"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_co.CT",
+  "field": "col:G",
+  "key": "f2.ho_co.CT.G",
+  "value": 74,
+  "display_string": "74",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/G"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_co.CT",
+  "field": "col:p",
+  "key": "f2.ho_co.CT.p",
+  "value": 0.6015110742019717,
+  "display_string": "0.602",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/secondary/p_CT"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_co.CT",
+  "field": "col:Holm",
+  "key": "f2.ho_co.CT.holm",
+  "value": 0.6015110742019717,
+  "display_string": "0.602",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/d2/results/heldout_confirmation.json",
+  "selector": {
+   "json_pointer": "/decision_secondary/holm_p/CT"
+  },
+  "sha256": "4100e3cf849feabdc7fcf90ecd7deb39afc98661ab231e60286b17e25694b3d6",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_pri.CT",
+  "field": "est",
+  "key": "f2.ho_pri.CT.est",
+  "value": 0.8178483655931335,
+  "display_string": "0.818",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/irr_sd_CT"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_pri.CT",
+  "field": "lo",
+  "key": "f2.ho_pri.CT.lo",
+  "value": 0.5874152752608817,
+  "display_string": "0.587",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/ci_CT/0"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_pri.CT",
+  "field": "hi",
+  "key": "f2.ho_pri.CT.hi",
+  "value": 1.1386764649698629,
+  "display_string": "1.139",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/ci_CT/1"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_pri.CT",
+  "field": "col:N",
+  "key": "f2.ho_pri.CT.N",
+  "value": 250,
+  "display_string": "250",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/N"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_pri.CT",
+  "field": "col:G",
+  "key": "f2.ho_pri.CT.G",
+  "value": 30,
+  "display_string": "30",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/G"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_pri.CT",
+  "field": "col:p",
+  "key": "f2.ho_pri.CT.p",
+  "value": 0.22394834373329647,
+  "display_string": "0.224",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/results/heldout_post.json",
+  "selector": {
+   "json_pointer": "/flags/primary/p_CT"
+  },
+  "sha256": "5f3c110553e3ac8442bab91e213a9d88ca01723e2dc3227f793f80ceec3d1dfa",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_pri.CT",
+  "field": "col:Holm",
+  "key": "f2.ho_pri.CT.holm",
+  "value": 0.44789668746659295,
+  "display_string": "0.448",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_WZ8fbLn79nCq",
+  "path": "round-4/evaluation-2/src/d2/results/heldout_confirmation.json",
+  "selector": {
+   "json_pointer": "/decision_primary/holm_p/CT"
+  },
+  "sha256": "4100e3cf849feabdc7fcf90ecd7deb39afc98661ab231e60286b17e25694b3d6",
+  "fold_label": "CONFIRMATORY",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "field": "est",
+  "key": "f2.mesh_co.CT.est",
+  "value": 1.1039540999524076,
+  "display_string": "1.104",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/CT/irr_sd"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "field": "lo",
+  "key": "f2.mesh_co.CT.lo",
+  "value": 0.9988230374441575,
+  "display_string": "0.999",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/CT/ci_irr_sd/0"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "field": "hi",
+  "key": "f2.mesh_co.CT.hi",
+  "value": 1.2201507265193277,
+  "display_string": "1.220",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/CT/ci_irr_sd/1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "field": "col:N",
+  "key": "f2.mesh_co.CT.N",
+  "value": 2171,
+  "display_string": "2,171",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/N"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "field": "col:G",
+  "key": "f2.mesh_co.CT.G",
+  "value": 160,
+  "display_string": "160",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/G"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "field": "col:p",
+  "key": "f2.mesh_co.CT.p",
+  "value": 0.05272429680813682,
+  "display_string": "0.053",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/CT/p_crv1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "field": "col:Holm",
+  "key": "f2.mesh_co.CT.holm",
+  "value": 0.05272429680813682,
+  "display_string": "0.053",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/holm_p_R2/CT"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "field": "col:wild",
+  "key": "f2.mesh_co.CT.pw",
+  "value": 0.06,
+  "display_string": "0.060",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R2/row/CT/p_wild"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "field": "est",
+  "key": "f2.mesh_pri.CT.est",
+  "value": 1.0981871803375052,
+  "display_string": "1.098",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/CT/irr_sd"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "field": "lo",
+  "key": "f2.mesh_pri.CT.lo",
+  "value": 0.8556165864939026,
+  "display_string": "0.856",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/CT/ci_irr_sd/0"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "field": "hi",
+  "key": "f2.mesh_pri.CT.hi",
+  "value": 1.4095274707092584,
+  "display_string": "1.410",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/CT/ci_irr_sd/1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": "95% CRV1 Wald, concept-clustered"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "field": "col:N",
+  "key": "f2.mesh_pri.CT.N",
+  "value": 1004,
+  "display_string": "1,004",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/N"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "field": "col:G",
+  "key": "f2.mesh_pri.CT.G",
+  "value": 122,
+  "display_string": "122",
+  "format": ",.0f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/G"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "field": "col:p",
+  "key": "f2.mesh_pri.CT.p",
+  "value": 0.45897465245955127,
+  "display_string": "0.459",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/CT/p_crv1"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "field": "col:Holm",
+  "key": "f2.mesh_pri.CT.holm",
+  "value": 0.45897465245955127,
+  "display_string": "0.459",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_summary.json",
+  "selector": {
+   "json_pointer": "/holm_p_R1/CT"
+  },
+  "sha256": "25e6e35d509d3774dd9bb79fe16e458c3a67c89d429de9c8498910b0f18ed299",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "field": "col:wild",
+  "key": "f2.mesh_pri.CT.pw",
+  "value": 0.349,
+  "display_string": "0.349",
+  "format": ".3f",
+  "status": "OK",
+  "source_kind": "pass_through",
+  "artifact_id": "art_XGdzjWgi-a88",
+  "path": "round-4/experiment-9/src/results/g4_models.json",
+  "selector": {
+   "json_pointer": "/rows/R1/row/CT/p_wild"
+  },
+  "sha256": "1529ad004efeee66c06026fc0971ba187d0ca8848988de5cfd7936b97c942b88",
+  "fold_label": "REPLICATION",
+  "ci_type": ""
+ }
+]

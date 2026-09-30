@@ -1,0 +1,302 @@
+[
+ {
+  "table": "T_design",
+  "row": 0,
+  "col": "construct",
+  "display": "E_up (emergence label)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 0,
+  "col": "definition",
+  "display": "sustained-uptake onset label; POST-HOC primary promoted in iteration 2; confirmation only via the iteration-4 sealed fold",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 0,
+  "col": "source",
+  "display": "art_zw_JJGsUFSnd results/r1/verdict_heldout.json",
+  "src": "round-4/evaluation-3/src/results/r1/verdict_heldout.json",
+  "kind": "cont",
+  "check": "text",
+  "needle": "E_up is a POST-HOC primary label"
+ },
+ {
+  "table": "T_design",
+  "row": 1,
+  "col": "construct",
+  "display": "A_cont (host anchoring)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 1,
+  "col": "definition",
+  "display": "mean pre-entry host share of the entry-year partners (exact OpenAlex subfield x block profiles); continuous primary after fallback 6",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 1,
+  "col": "source",
+  "display": "art_2Cd2JJypeGuA results/d2_summary.json",
+  "src": "round-3/experiment-7/src/results/d2_summary.json",
+  "kind": "cont",
+  "check": "text",
+  "needle": "A_cont (mean host share of partners' pre-entry works)"
+ },
+ {
+  "table": "T_design",
+  "row": 2,
+  "col": "construct",
+  "display": "CT (co-transfer)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 2,
+  "col": "definition",
+  "display": "share of entry partners that were origin companions in [e-5, e-1]",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 2,
+  "col": "source",
+  "display": "art_2Cd2JJypeGuA results/d2_summary.json",
+  "src": "round-3/experiment-7/src/results/d2_summary.json",
+  "kind": "cont",
+  "check": "text",
+  "needle": "co-transfer"
+ },
+ {
+  "table": "T_design",
+  "row": 3,
+  "col": "construct",
+  "display": "Y_strict (outcome)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 3,
+  "col": "definition",
+  "display": "W2 = [e+1, e+5] host papers by author-disjoint newcomers (count; PPML, concept-clustered)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 3,
+  "col": "source",
+  "display": "art_2Cd2JJypeGuA results/d2_prereg.json",
+  "src": "round-3/experiment-7/src/results/d2_prereg.json",
+  "kind": "cont",
+  "check": "text",
+  "needle": "Y_strict"
+ },
+ {
+  "table": "T_design",
+  "row": 4,
+  "col": "construct",
+  "display": "EST_bin (binary establishment)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 4,
+  "col": "definition",
+  "display": "iteration-1 establishment: >= 5 W2 newcomer papers and presence in >= 3 of 5 W2 years; NULL on held-out (co-primary p 0.165)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 4,
+  "col": "source",
+  "display": "art_WZ8fbLn79nCq results/heldout_post.json",
+  "src": "round-4/evaluation-2/src/results/heldout_post.json",
+  "kind": "cont",
+  "check": "text",
+  "needle": "EST_bin"
+ },
+ {
+  "table": "T_design",
+  "row": 5,
+  "col": "construct",
+  "display": "Persistent-neighbour closure (R1b)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 5,
+  "col": "definition",
+  "display": "triadic closure among top-20 neighbours present in both y and y-1; secondary Holm-family row",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 5,
+  "col": "source",
+  "display": "art_zw_JJGsUFSnd results/tables/r1_holm_decisions.csv",
+  "src": "round-4/evaluation-3/src/results/tables/r1_holm_decisions.csv",
+  "kind": "cont",
+  "check": "text",
+  "needle": "closure_persist"
+ },
+ {
+  "table": "T_design",
+  "row": 6,
+  "col": "construct",
+  "display": "Folds",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 6,
+  "col": "definition",
+  "display": "sha1 concept fold: MAIN 202 screen / 100 held-out (426-concept frame); each sealed fold opened once in iteration 4 behind hash-checked runners",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 6,
+  "col": "source",
+  "display": "art_htO_gJuUn6Pr results/main_population_hydrated.json",
+  "src": "round-3/experiment-5/src/results/main_population_hydrated.json",
+  "kind": "cont",
+  "check": "text",
+  "needle": "sha1"
+ },
+ {
+  "table": "T_design",
+  "row": 7,
+  "col": "construct",
+  "display": "MeSH second population",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 7,
+  "col": "definition",
+  "display": "191 MeSH concepts never screened for D2; G4 covers biomedicine -> biomedicine host entries only",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 7,
+  "col": "source",
+  "display": "art_XGdzjWgi-a88 README.md",
+  "src": "round-4/experiment-9/src/README.md",
+  "kind": "cont",
+  "check": "text",
+  "needle": "biomedicine → biomedicine"
+ },
+ {
+  "table": "T_design",
+  "row": 8,
+  "col": "construct",
+  "display": "Adopter design",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 8,
+  "col": "definition",
+  "display": "W2 newcomer adopters vs exact-matched risk-set controls on bins (prior works, team size, host activity, first year); conditional logit m2 is the pre-declared primary",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 8,
+  "col": "source",
+  "display": "art_FZ2OCJwV6xHs results/match_balance.json",
+  "src": "round-4/evaluation-5/src/results/match_balance.json",
+  "kind": "cont",
+  "check": "text",
+  "needle": "team_bin"
+ },
+ {
+  "table": "T_design",
+  "row": 9,
+  "col": "construct",
+  "display": "RQ1 status",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 9,
+  "col": "definition",
+  "display": "R1_DEAD: pooled-panel held-out closure -0.391 [-0.855, 0.072], Holm 0.147. Structural precursors of sustained uptake are volume/churn correlates.",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_design",
+  "row": 9,
+  "col": "source",
+  "display": "art_zw_JJGsUFSnd results_note.md",
+  "src": "round-4/evaluation-3/src/results_note.md",
+  "kind": "cont",
+  "check": "text",
+  "needle": "R1_DEAD"
+ }
+]

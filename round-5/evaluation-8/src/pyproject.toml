@@ -1,0 +1,14 @@
+[project]
+name = "record-audit-iter5"
+version = "0.1.0"
+description = "Numbers-of-record audit of the iteration-5 report (read-only, CPU, $0)"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru==0.7.3",
+    "numpy==2.5.3",
+    "pandas==3.0.6",
+    "pyarrow==25.0.1",
+    "python-dateutil==2.9.0.post0",
+    "scipy==1.18.1",
+    "six==1.17.0",
+]

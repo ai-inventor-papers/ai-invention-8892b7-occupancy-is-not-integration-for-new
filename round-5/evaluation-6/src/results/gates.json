@@ -1,0 +1,228 @@
+{
+ "R0a": {
+  "files": [
+   {
+    "path": "d2/src/config.py",
+    "want": "9298a1e1ebf69cdde34bc3af89f502a0a617822457b8ad34be4786859db0f6b8",
+    "got": "9298a1e1ebf69cdde34bc3af89f502a0a617822457b8ad34be4786859db0f6b8",
+    "match": true
+   },
+   {
+    "path": "d2/src/io_load.py",
+    "want": "7a4c3efa577f25803e202ae9cd73a154d086cc10c0696ede5cdd5434b509b67d",
+    "got": "7a4c3efa577f25803e202ae9cd73a154d086cc10c0696ede5cdd5434b509b67d",
+    "match": true
+   },
+   {
+    "path": "d2/src/features.py",
+    "want": "42430cda1a6039f67fc807be3da5a5a8fac2649629d182683282f6530e779ff4",
+    "got": "42430cda1a6039f67fc807be3da5a5a8fac2649629d182683282f6530e779ff4",
+    "match": true
+   },
+   {
+    "path": "d2/src/outcomes.py",
+    "want": "6d4ad7d50843622ea100e19a8a530228d92c9dcba3fef8d92961301160d9e044",
+    "got": "6d4ad7d50843622ea100e19a8a530228d92c9dcba3fef8d92961301160d9e044",
+    "match": true
+   },
+   {
+    "path": "d2/src/models.py",
+    "want": "4110f18af2ad2512835730bcdeb0380071e7de5d319dcc0c58bd3c1554d7d661",
+    "got": "4110f18af2ad2512835730bcdeb0380071e7de5d319dcc0c58bd3c1554d7d661",
+    "match": true
+   },
+   {
+    "path": "d2/src/ppml.py",
+    "want": "369a93a658677c9f875a73b7fb8819727df557a540178d9b39daf6ce1f3aed4c",
+    "got": "369a93a658677c9f875a73b7fb8819727df557a540178d9b39daf6ce1f3aed4c",
+    "match": true
+   },
+   {
+    "path": "mesh/vendor/models.py == d2/src/models.py",
+    "want": "4110f18af2ad2512835730bcdeb0380071e7de5d319dcc0c58bd3c1554d7d661",
+    "got": "4110f18af2ad2512835730bcdeb0380071e7de5d319dcc0c58bd3c1554d7d661",
+    "match": true
+   },
+   {
+    "path": "mesh/vendor/ppml.py == d2/src/ppml.py",
+    "want": "369a93a658677c9f875a73b7fb8819727df557a540178d9b39daf6ce1f3aed4c",
+    "got": "369a93a658677c9f875a73b7fb8819727df557a540178d9b39daf6ce1f3aed4c",
+    "match": true
+   },
+   {
+    "path": "mesh/vendor/config.py == d2/src/config.py",
+    "want": "9298a1e1ebf69cdde34bc3af89f502a0a617822457b8ad34be4786859db0f6b8",
+    "got": "9298a1e1ebf69cdde34bc3af89f502a0a617822457b8ad34be4786859db0f6b8",
+    "match": true
+   }
+  ],
+  "heldout_confirmation_sha256": "4100e3cf849feabdc7fcf90ecd7deb39afc98661ab231e60286b17e25694b3d6",
+  "heldout_confirmation_match": true,
+  "lock_before": {
+   "sha256": "03d6cfd7c491121a55f692c6499b7fa6e900f9a0cf6e7cc150d1cf969aad5e3c",
+   "mtime": 1790665138.0
+  },
+  "pass": true
+ },
+ "R0b": {
+  "SCREEN": {
+   "irr_sd": 1.300076888024347,
+   "ci": [
+    1.1639421314281175,
+    1.452133975682496
+   ],
+   "N": 1544,
+   "G": 140,
+   "b": 4.739105939721486,
+   "se": 1.0102888770711786,
+   "sd_retained": 0.05537403271640128,
+   "p_crv1": 6.4346966624064085e-06,
+   "target": {
+    "irr_sd": 1.3,
+    "ci": [
+     1.164,
+     1.452
+    ],
+    "N": 1544,
+    "G": 140
+   },
+   "pass": true
+  },
+  "HELDOUT": {
+   "irr_sd": 1.1874711752308762,
+   "ci": [
+    1.0565957916173876,
+    1.3345574563056906
+   ],
+   "N": 972,
+   "G": 74,
+   "b": 3.0684334258872905,
+   "se": 1.0463246594480142,
+   "sd_retained": 0.05599795051527912,
+   "p_crv1": 0.004487870758267363,
+   "target": {
+    "irr_sd": 1.187,
+    "ci": [
+     1.057,
+     1.335
+    ],
+    "N": 972,
+    "G": 74
+   },
+   "pass": true
+  },
+  "MESH": {
+   "irr_sd": 1.2329838323526199,
+   "ci": [
+    1.1167392468870914,
+    1.3613286495308954
+   ],
+   "N": 2171,
+   "G": 160,
+   "b": 3.5166282758568137,
+   "se": 0.8418743591989367,
+   "sd_retained": 0.059556226936730725,
+   "p_crv1": 4.8539057905451434e-05,
+   "target": {
+    "irr_sd": 1.233,
+    "ci": [
+     1.117,
+     1.361
+    ],
+    "N": 2171,
+    "G": 160
+   },
+   "pass": true
+  }
+ },
+ "R0c": {
+  "heldout_EST_bin_LPM_secondary": {
+   "coef": 0.476073593558696,
+   "p": 0.1651197688453372,
+   "n": 1046,
+   "target": {
+    "coef": 0.476,
+    "p": 0.165
+   }
+  },
+  "heldout_coprimary_z": {
+   "z": 2.9325825384886124,
+   "target": 2.9326
+  },
+  "pass": true
+ },
+ "R0d": {
+  "returncode": 0,
+  "tail": [
+   "........                                                                 [100%]",
+   "8 passed in 14.66s"
+  ],
+  "seconds": 17.0,
+  "pass": true
+ },
+ "R0e": {
+  "SCREEN": {
+   "N_retained_coprimary": 1544,
+   "share_zero": 0.44365284974093266,
+   "P_Y_ge1": 0.5563471502590673,
+   "P_Y_ge3": 0.29404145077720206,
+   "P_Y_ge5": 0.19689119170984457,
+   "EST_bin": 0.26748704663212436,
+   "q50": 1.0,
+   "q90": 10.0,
+   "q99": 53.569999999999936,
+   "max": 290.0,
+   "mean": 4.134715025906735,
+   "N_input": 1740,
+   "share_zero_input": 0.49367816091954025
+  },
+  "HELDOUT": {
+   "N_retained_coprimary": 972,
+   "share_zero": 0.4444444444444444,
+   "P_Y_ge1": 0.5555555555555556,
+   "P_Y_ge3": 0.3117283950617284,
+   "P_Y_ge5": 0.2109053497942387,
+   "EST_bin": 0.28703703703703703,
+   "q50": 1.0,
+   "q90": 11.0,
+   "q99": 64.28999999999996,
+   "max": 808.0,
+   "mean": 5.459876543209877,
+   "N_input": 1097,
+   "share_zero_input": 0.49407474931631723
+  },
+  "MESH": {
+   "N_retained_coprimary": 2171,
+   "share_zero": 0.45186549976969137,
+   "P_Y_ge1": 0.5481345002303086,
+   "P_Y_ge3": 0.21833256563795486,
+   "P_Y_ge5": 0.10640257945647168,
+   "EST_bin": 0.1773376324274528,
+   "q50": 1.0,
+   "q90": 5.0,
+   "q99": 17.0,
+   "max": 87.0,
+   "mean": 1.8811607554122525,
+   "N_input": 2249,
+   "share_zero_input": 0.4690973766118275
+  },
+  "strategy_checks": {
+   "about_50pct_zeros": {
+    "SCREEN": 0.44365284974093266,
+    "HELDOUT": 0.4444444444444444,
+    "MESH": 0.45186549976969137
+   },
+   "max_290": {
+    "SCREEN": 290.0,
+    "HELDOUT": 808.0,
+    "MESH": 87.0
+   },
+   "note": "the strategy's 'max 290' refers to the screen fold; held-out and MeSH maxima are reported as found"
+  }
+ },
+ "fold_pass": {
+  "SCREEN": true,
+  "HELDOUT": true,
+  "MESH": true
+ }
+}

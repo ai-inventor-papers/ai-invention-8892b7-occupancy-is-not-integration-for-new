@@ -1,0 +1,9 @@
+09:46:13|INFO   |(a) max |diff| 1.69e-02 PASS False
+09:46:41|INFO   |(b) screen: max |db| 2.40e-14; ret pf 1.0056 own 1.0056
+09:46:51|INFO   |(c) screen: shuffled-G ret mean 0.998; (d) oracle ret -0.226
+09:46:52|INFO   |(b) heldout: max |db| 4.44e-15; ret pf 1.0624 own 1.0624
+09:47:04|INFO   |(c) heldout: shuffled-G ret mean 0.999; (d) oracle ret 3.379
+09:47:04|INFO   |(b) mesh: max |db| 6.22e-15; ret pf 0.8758 own 0.8758
+09:47:19|INFO   |(c) mesh: shuffled-G ret mean 1.000; (d) oracle ret 2.168
+09:47:19|INFO   |audit summary: {'a_entries': False, 'b_pyfixest': True, 'c_shuffled_G': True, 'd_oracle': False}; pooled ret pf 0.9686 own 0.9686
+audit exit 0

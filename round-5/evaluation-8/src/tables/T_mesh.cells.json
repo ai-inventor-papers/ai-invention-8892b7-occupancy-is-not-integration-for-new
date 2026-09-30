@@ -1,0 +1,362 @@
+[
+ {
+  "table": "T_mesh",
+  "row": 0,
+  "col": "item",
+  "display": "Scope caveat 1 (verbatim)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 0,
+  "col": "value",
+  "display": "G4 therefore speaks to **biomedicine → biomedicine** entries only.",
+  "src": "round-4/experiment-9/src/README.md",
+  "kind": "cont",
+  "check": "text",
+  "needle": "G4 therefore speaks to **biomedicine → biomedicine** entries only."
+ },
+ {
+  "table": "T_mesh",
+  "row": 0,
+  "col": "n",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 1,
+  "col": "item",
+  "display": "Coverage rule removes share of partner-qualified entries",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 1,
+  "col": "value",
+  "display": "34.1%",
+  "src": "round-4/experiment-9/src/results/events_mesh_summary.json::removed_by_coverage_among_kw/share",
+  "kind": "pct",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 1,
+  "col": "n",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 2,
+  "col": "item",
+  "display": "Declared kw5 + coverage-0.50 design events (F6 widening fired)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 2,
+  "col": "value",
+  "display": "192",
+  "src": "round-4/experiment-9/src/results/events_mesh_summary.json::widening_steps/0/events",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 2,
+  "col": "n",
+  "display": "46",
+  "src": "round-4/experiment-9/src/results/events_mesh_summary.json::widening_steps/0/design_G_non_singleton",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 3,
+  "col": "item",
+  "display": "R1 primary FE",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 3,
+  "col": "value",
+  "display": "1.324",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/R1/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 3,
+  "col": "n",
+  "display": "1,004",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/R1/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 4,
+  "col": "item",
+  "display": "R2 co-primary",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 4,
+  "col": "value",
+  "display": "1.233",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/R2/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 4,
+  "col": "n",
+  "display": "2,171",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/R2/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 5,
+  "col": "item",
+  "display": "R3 concept + d x e",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 5,
+  "col": "value",
+  "display": "1.251",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/R3/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 5,
+  "col": "n",
+  "display": "1,852",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/R3/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 6,
+  "col": "item",
+  "display": "R4 concept x 2yr + d x e",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 6,
+  "col": "value",
+  "display": "1.383",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/R4/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 6,
+  "col": "n",
+  "display": "1,320",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/R4/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 7,
+  "col": "item",
+  "display": "S3 placebo host",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 7,
+  "col": "value",
+  "display": "1.031",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S3/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 7,
+  "col": "n",
+  "display": "2,171",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S3/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 8,
+  "col": "item",
+  "display": "exact-profile nativeness only",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 8,
+  "col": "value",
+  "display": "1.243",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S16/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 8,
+  "col": "n",
+  "display": "2,171",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S16/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 9,
+  "col": "item",
+  "display": "unprofiled = 1 bound",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 9,
+  "col": "value",
+  "display": "1.722",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S5/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 9,
+  "col": "n",
+  "display": "2,171",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S5/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 10,
+  "col": "item",
+  "display": "S6 coverage-0.50 subset (declared)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 10,
+  "col": "value",
+  "display": "1.007",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S6/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 10,
+  "col": "n",
+  "display": "123",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S6/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 11,
+  "col": "item",
+  "display": "G1 multi-team",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 11,
+  "col": "value",
+  "display": "1.079",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S1/irr_sd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_mesh",
+  "row": 11,
+  "col": "n",
+  "display": "830",
+  "src": "round-4/experiment-9/src/results/g4_summary.json::rows/S1/N",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ }
+]
