@@ -1,0 +1,23 @@
+domain_d,field_d,False,True,field_name
+1,11,13,0,Agricultural and Biological Sciences
+1,13,4,23,"Biochemistry, Genetics and Molecular Biology"
+1,24,1,12,Immunology and Microbiology
+1,28,0,12,Neuroscience
+1,30,3,5,"Pharmacology, Toxicology and Pharmaceutics"
+2,12,1,0,Arts and Humanities
+2,14,3,0,"Business, Management and Accounting"
+2,18,1,0,Decision Sciences
+2,20,2,0,"Economics, Econometrics and Finance"
+2,32,7,0,Psychology
+2,33,4,0,Social Sciences
+3,15,1,0,Chemical Engineering
+3,16,4,0,Chemistry
+3,17,6,0,Computer Science
+3,22,5,0,Engineering
+3,23,11,0,Environmental Science
+3,25,5,0,Materials Science
+3,26,1,0,Mathematics
+4,27,17,114,Medicine
+4,29,4,0,Nursing
+4,35,0,5,Dentistry
+4,36,10,1,Health Professions

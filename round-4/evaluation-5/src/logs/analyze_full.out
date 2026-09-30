@@ -1,0 +1,9 @@
+06:56:55|INFO   |corpus: works 462812, authors 828829, authorships(sub>=0) 2510693, partner nodes 40831
+06:56:56|INFO   |exposures primary: 3750 rows in 1s
+06:56:57|INFO   |exposures expanded: 5653 rows in 1s
+06:57:25|INFO   |primary model suite + bootstrap B=1000 in 28s
+06:57:37|INFO   |permutation null in 0s
+07:09:43|INFO   |mediation + bootstrap in 694s
+07:09:47|INFO   |wrote eval_out.json: 485 metrics, 2026 + 1544 examples
+07:09:47|INFO   |{'verdict': 'SUPPORT', 'interaction': 'null: enrichment uniform across A_cont', 'mediation': 'A_cont is not reducible to pool size (M2) [lower bound under mediator noise]', 'vocabulary': 'FOREIGN > NATIVE (CI excludes 0): origin-vocabulary / boundary-spanner reading - NOT a pre-declared label, reported as-is; contradicts the grafting reading at the adopter level', 'MDE80_primary_at_p0': {'p0_observed': 0.6080947680157947, 'grid_point': 0.6, 'MDE80': 1.5}, 'criteria': {'primary_CI_excludes_1_above': True, 'ratio_neg_CI_excludes_1_above': True, 'ratio_plac_CI_excludes_1_above': True, 'OR_plac_significant': True, 'OR_neg_significant': True}, 'label': 'screen-fold mechanism evidence, not confirmation', 'exposure_label': 'corpus-exposure, coverage-limited'}
+07:09:47|INFO   |stage analyze done in 773.7s

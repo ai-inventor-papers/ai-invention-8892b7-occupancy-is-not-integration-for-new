@@ -1,0 +1,40 @@
+{
+ "exposure_agreement_all_members": {
+  "E_any": 1.0,
+  "E_neg": 1.0,
+  "E_plac": 1.0
+ },
+ "n_members": 3750,
+ "primary_OR_statsmodels_rederived": {
+  "OR_E_any": 3.0950574932249144,
+  "p": 1.4916727249327076e-19,
+  "OR_E_neg": 0.617101933244368,
+  "p_neg": 9.21112915311053e-05
+ },
+ "mcnemar": {
+  "n10": 268,
+  "n01": 86,
+  "OR": 3.116279069767442,
+  "ci95_concept_boot": [
+   2.3156050172159373,
+   4.235364145658263
+  ]
+ },
+ "placebo_shuffled_labels": {
+  "mean_OR": 0.9731136046468523,
+  "share_p_lt_0.05": 0.14
+ },
+ "placebo_random_exposure": {
+  "OR": 0.9311416799104252,
+  "p": 0.4295633339963024
+ },
+ "pyfixest_entry_level": {
+  "b_A_base": 4.739105939721497,
+  "b_A_plus_M2": 4.49326466117698,
+  "attenuation_M2": 0.051875033323050164,
+  "M2_p": 0.3460264398272028,
+  "n": 1544,
+  "placebo_shuffled_M2_attenuation": -0.002272073043609094,
+  "placebo_shuffled_M2_p": 0.4224901942565502
+ }
+}

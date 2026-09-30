@@ -1,0 +1,11 @@
+arm,fold,pop,kw5,n
+main,heldout,MAIN,False,176
+main,heldout,MAIN,True,1101
+main,heldout,nonMAIN,False,51
+main,heldout,nonMAIN,True,270
+main,screen,MAIN,False,302
+main,screen,MAIN,True,1749
+main,screen,nonMAIN,False,103
+main,screen,nonMAIN,True,469
+reference,reference,REF,False,422
+reference,reference,REF,True,1975

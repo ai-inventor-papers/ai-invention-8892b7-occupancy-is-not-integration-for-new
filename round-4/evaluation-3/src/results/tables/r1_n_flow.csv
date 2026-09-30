@@ -1,0 +1,25 @@
+step,value
+n_onsets,30
+n_matched,22
+match_rate,0.7333333333333333
+n_never_controls_pool,103
+n_matched_before_fallback,14
+n_never_before_fallback,33
+fallback_screen_controls,True
+n_unique_controls,25
+controls_from_heldout,8
+controls_from_screen,17
+matched_treated_with_any_screen_control,18
+widened_share,0.18181818181818182
+mean_controls_per_matched,1.6363636363636365
+closure_persist_window_treated_na,0.07954545454545454
+closure_persist_window_control_na,0.1111111111111111
+closure_persist_n_treated_finite,22
+H_matched_n,11
+H_matched_S_closure_resT,-0.5358917242348268
+H_matched_ci,"[-0.93348076709635, -0.13339393011467773]"
+expected_heldout_n,"{""band80"": [8, 16], ""n_h_concepts_MAIN"": 100, ""n_h_eligible"": 63, ""n_h_treated"": 12}"
+n_matched_within_expected_band,False
+screen_n_onsets,68
+screen_n_matched,26
+screen_match_rate,0.38235294117647056

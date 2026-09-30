@@ -1,0 +1,22 @@
+entries:
+  - path: d2/.venv/
+    delete: regenerable
+    source: "cd d2 && uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python -r requirements.lock.txt"
+  - path: d2/results/cache/
+    delete: regenerable
+    source: "cd d2 && AII_DEPS_ROOT=\"$(cd ../../../.. && pwd)\" .venv/bin/python -c \"import sys; sys.path.insert(0, 'src'); import io_load; io_load.prepare()\""
+  - path: g/__pycache__/
+    delete: regenerable
+    source: "created automatically by python on import"
+  - path: audit/__pycache__/
+    delete: regenerable
+    source: "created automatically by python on import"
+  - path: d2/src/__pycache__/
+    delete: regenerable
+    source: "created automatically by python on import"
+  - path: d2/tests/__pycache__/
+    delete: regenerable
+    source: "created automatically by python on import"
+  - path: d2/.pytest_cache/
+    delete: regenerable
+    source: "cd d2 && .venv/bin/python -m pytest -q"

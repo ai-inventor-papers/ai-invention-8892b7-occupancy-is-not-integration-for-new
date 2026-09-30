@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "method_name": "3-channel multivariate-DTW + k-medoids diffusion typology (Hennig-stable k) with roles, lead-lag and patterns",
+    "baseline": "entropy-only DTW typology (iteration-2 recipe, B1); volume terciles (B2) as predict_volume_baseline",
+    "k": 2,
+    "cluster_names": {
+      "1": "localised",
+      "0": "broad from the start (rapid interdisciplinary)"
+    },
+    "channels": [
+      "H_rar",
+      "RS",
+      "active_subfields_3y"
+    ],
+    "dtw": {
+      "radius": 3,
+      "normalisation": "dtw/sqrt(len(path))",
+      "constraint": "sakoe_chiba"
+    },
+    "population": "screen fold, MAIN rule (hydrated); held-out concepts sealed",
+    "n_primary": 202,
+    "n_sensitivity": 247,
+    "B1_sensitivity_247": {
+      "k": 3,
+      "min_jaccard": 0.8257508921302897,
+      "n": 245
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "screen_concept_trajectories",
+      "examples": [
+        {
+          "input": "{\"concept_id\": \"c_007a7950eb4d\", \"phrase\": \"dantzig selector\", \"F\": 2007, \"origin_group\": \"F26:Mathematics\", \"origin_subfield\": \"Statistics and Probability\", \"route\": \"B_s2_index\", \"n_papers_2000_2024...",
+          "output": "broad from the start (rapid interdisciplinary)",
+          "predict_method": "broad from the start (rapid interdisciplinary)",
+          "predict_baseline": "entropy-high (H median 1.60)",
+          "predict_volume_baseline": "V2_mid",
+          "metadata_E_up_group": "emerging",
+          "metadata_E_up_onset": 2010.0,
+          "metadata_closure_tercile": "T3_high",
+          "metadata_leadlag_category": "neither",
+          "metadata_expansion_onset": null,
+          "metadata_diffusion_onset": 2010.0,
+          "metadata_role_share_json": "{\"BRIDGE\": 0.9412, \"OTHER\": 0.0588}",
+          "metadata_patterns": {
+            "INCUBATION_THEN_EXPANSION": false,
+            "GRADUAL_CENTRALISATION": false,
+            "EARLY_BRIDGING": true,
+            "EARLY_BRIDGING_aligned": true
+          },
+          "metadata_population_flags": {
+            "MAIN": true,
+            "STRICT": true,
+            "sense_check_fail": false,
+            "route": "B_s2_index",
+            "fold": "screen"
+          },
+          "metadata_is_medoid": false,
+          "metadata_cluster_k3_exploratory": "gradual broadening"
+        },
+        {
+          "input": "{\"concept_id\": \"c_015399b04dea\", \"phrase\": \"rogue wave solution\", \"F\": 2010, \"origin_group\": \"F31:Physics and Astronomy\", \"origin_subfield\": \"Statistical and Nonlinear Physics\", \"route\": \"B_s2_index\",...",
+          "output": "localised",
+          "predict_method": "localised",
+          "predict_baseline": "entropy-mid1 (H median 0.48)",
+          "predict_volume_baseline": "V3_high",
+          "metadata_E_up_group": "emerging",
+          "metadata_E_up_onset": 2013.0,
+          "metadata_closure_tercile": "T3_high",
+          "metadata_leadlag_category": "expansion_only",
+          "metadata_expansion_onset": 2012.0,
+          "metadata_diffusion_onset": null,
+          "metadata_role_share_json": "{\"BRIDGE\": 0.8571, \"OTHER\": 0.1429}",
+          "metadata_patterns": {
+            "INCUBATION_THEN_EXPANSION": false,
+            "GRADUAL_CENTRALISATION": false,
+            "EARLY_BRIDGING": false,
+            "EARLY_BRIDGING_aligned": false
+          },
+          "metadata_population_flags": {
+            "MAIN": true,
+            "STRICT": true,
+            "sense_check_fail": false,
+            "route": "B_s2_index",
+            "fold": "screen"
+          },
+          "metadata_is_medoid": false,
+          "metadata_cluster_k3_exploratory": "localised"
+        },
+        {
+          "input": "{\"concept_id\": \"c_021cd7f7a587\", \"phrase\": \"galactic center gamma ray excess\", \"F\": 2014, \"origin_group\": \"F31:Physics and Astronomy\", \"origin_subfield\": \"Nuclear and High Energy Physics\", \"route\": \"B...",
+          "output": "localised",
+          "predict_method": "localised",
+          "predict_baseline": "entropy-low (H median 0.15)",
+          "predict_volume_baseline": "V1_low",
+          "metadata_E_up_group": "censored",
+          "metadata_E_up_onset": null,
+          "metadata_closure_tercile": "T2_mid",
+          "metadata_leadlag_category": "neither",
+          "metadata_expansion_onset": 2014.0,
+          "metadata_diffusion_onset": null,
+          "metadata_role_share_json": "{\"OTHER\": 0.6364, \"BRIDGE\": 0.2727, \"STAYER\": 0.0909}",
+          "metadata_patterns": {
+            "INCUBATION_THEN_EXPANSION": false,
+            "GRADUAL_CENTRALISATION": false,
+            "EARLY_BRIDGING": true,
+            "EARLY_BRIDGING_aligned": true
+          },
+          "metadata_population_flags": {
+            "MAIN": true,
+            "STRICT": true,
+            "sense_check_fail": false,
+            "route": "B_s2_index",
+            "fold": "screen"
+          },
+          "metadata_is_medoid": false,
+          "metadata_cluster_k3_exploratory": "localised"
+        }
+      ]
+    },
+    {
+      "dataset": "sensitivity_all_screen_mainarm",
+      "examples": [
+        {
+          "input": "{\"concept_id\": \"c_007a7950eb4d\", \"phrase\": \"dantzig selector\", \"F\": 2007, \"origin_group\": \"F26:Mathematics\", \"origin_subfield\": \"Statistics and Probability\", \"route\": \"B_s2_index\", \"n_papers_2000_2024...",
+          "output": "broad from the start (rapid interdisciplinary)",
+          "predict_method": "broad from the start (rapid interdisciplinary)",
+          "predict_baseline": "entropy-high (H median 1.40)",
+          "predict_volume_baseline": "NA",
+          "metadata_E_up_group": "emerging",
+          "metadata_E_up_onset": 2010.0,
+          "metadata_closure_tercile": "T3_high",
+          "metadata_leadlag_category": "neither",
+          "metadata_expansion_onset": null,
+          "metadata_diffusion_onset": 2010.0,
+          "metadata_role_share_json": "{\"BRIDGE\": 0.9412, \"OTHER\": 0.0588}",
+          "metadata_patterns": {
+            "INCUBATION_THEN_EXPANSION": false,
+            "GRADUAL_CENTRALISATION": false,
+            "EARLY_BRIDGING": true,
+            "EARLY_BRIDGING_aligned": true
+          },
+          "metadata_population_flags": {
+            "MAIN": true,
+            "STRICT": true,
+            "sense_check_fail": false,
+            "route": "B_s2_index",
+            "fold": "screen"
+          },
+          "metadata_is_medoid": false,
+          "metadata_cluster_k3_exploratory": null
+        },
+        {
+          "input": "{\"concept_id\": \"c_0143674052b0\", \"phrase\": \"regularized optimal transport\", \"F\": 2015, \"origin_group\": \"F17:Computer Science\", \"origin_subfield\": \"Artificial Intelligence\", \"route\": \"B_s2_index\", \"n_p...",
+          "output": "broad from the start (rapid interdisciplinary)",
+          "predict_method": "broad from the start (rapid interdisciplinary)",
+          "predict_baseline": "entropy-high (H median 1.40)",
+          "predict_volume_baseline": "NA",
+          "metadata_E_up_group": "censored",
+          "metadata_E_up_onset": null,
+          "metadata_closure_tercile": "T1_low",
+          "metadata_leadlag_category": "not_computed",
+          "metadata_expansion_onset": null,
+          "metadata_diffusion_onset": null,
+          "metadata_role_share_json": "{\"BRIDGE\": 1.0}",
+          "metadata_patterns": {
+            "INCUBATION_THEN_EXPANSION": false,
+            "GRADUAL_CENTRALISATION": false,
+            "EARLY_BRIDGING": true,
+            "EARLY_BRIDGING_aligned": true
+          },
+          "metadata_population_flags": {
+            "MAIN": false,
+            "STRICT": false,
+            "sense_check_fail": true,
+            "route": "B_s2_index",
+            "fold": "screen"
+          },
+          "metadata_is_medoid": false,
+          "metadata_cluster_k3_exploratory": null
+        },
+        {
+          "input": "{\"concept_id\": \"c_015399b04dea\", \"phrase\": \"rogue wave solution\", \"F\": 2010, \"origin_group\": \"F31:Physics and Astronomy\", \"origin_subfield\": \"Statistical and Nonlinear Physics\", \"route\": \"B_s2_index\",...",
+          "output": "localised",
+          "predict_method": "localised",
+          "predict_baseline": "entropy-low (H median 0.20)",
+          "predict_volume_baseline": "NA",
+          "metadata_E_up_group": "emerging",
+          "metadata_E_up_onset": 2013.0,
+          "metadata_closure_tercile": "T3_high",
+          "metadata_leadlag_category": "expansion_only",
+          "metadata_expansion_onset": 2012.0,
+          "metadata_diffusion_onset": null,
+          "metadata_role_share_json": "{\"BRIDGE\": 0.8571, \"OTHER\": 0.1429}",
+          "metadata_patterns": {
+            "INCUBATION_THEN_EXPANSION": false,
+            "GRADUAL_CENTRALISATION": false,
+            "EARLY_BRIDGING": false,
+            "EARLY_BRIDGING_aligned": false
+          },
+          "metadata_population_flags": {
+            "MAIN": true,
+            "STRICT": true,
+            "sense_check_fail": false,
+            "route": "B_s2_index",
+            "fold": "screen"
+          },
+          "metadata_is_medoid": false,
+          "metadata_cluster_k3_exploratory": null
+        }
+      ]
+    }
+  ]
+}
