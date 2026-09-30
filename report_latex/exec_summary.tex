@@ -1,0 +1,113 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, booktabs, xcolor, tabularx}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\title{Executive Summary\\[4pt]
+\large Open Neighbourhoods Precede Concept Spread:\\
+Structural Antecedents and Cross-Disciplinary Diffusion\\
+of Emerging Scientific Concepts}
+\author{}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+
+%% ─────────────────────────────────────────────────
+\section*{Headline}
+%% ─────────────────────────────────────────────────
+
+When a scientific concept enters a new subfield, the share of its initial co-occurrence partners that are native to that host predicts whether the concept will be taken up by the host's own newcomer authors.
+The effect replicates on a held-out concept fold (IRR/SD 1.19 [1.06, 1.33], $p = 0.004$) and an independent MeSH biomedical population (IRR/SD 1.23 [1.12, 1.36], Holm $p < 0.001$), pools to IRR/SD 1.26 [1.17, 1.36], operates through both extensive and intensive margins, and is host-specific rather than reflecting general concept accessibility.
+
+%% ─────────────────────────────────────────────────
+\section*{Goal}
+%% ─────────────────────────────────────────────────
+
+The study investigates two questions using an OpenAlex-based scholarly dataset of 426 semantically grounded concepts with 462,812 works:
+
+\begin{description}
+\item[RQ1 (Emergence)] Which temporal and structural patterns in an evolving, semantically grounded scientific knowledge graph characterise the emergence of scientific concepts?
+\item[RQ2 (Diffusion)] How do emerging scientific concepts diffuse across disciplinary communities over time, and which temporal network patterns distinguish locally concentrated concepts from broadly integrated ones?
+\end{description}
+
+The target venue is \emph{Applied Network Science}.
+
+%% ─────────────────────────────────────────────────
+\section*{What Was Tried}
+%% ─────────────────────────────────────────────────
+
+Five iterations over 25 artifacts:
+
+\begin{enumerate}
+\item \textbf{Data foundation (Iteration~1).} Built a concept pool of 426 concepts (366 main, 60 reference), 462,812 works, and 488,078 verified concept-work links from OpenAlex with a held-out MeSH confirmation population of 191 biomedical concepts. Pre-registered all decision rules and hashed specifications before data inspection.
+
+\item \textbf{Gates, viability, and emergence event study (Iteration~2).} Tested the citation-layer gate (Gate~A) at edge level; built 25 yearly co-word network snapshots ($\sim$27,000 nodes, $\sim$84,000 edges); ran the RQ1 precursor event study on the screen fold and MeSH population. Originally planned source-sink viability estimation; blocked by Gate~A failure.
+
+\item \textbf{Deepen closure, test grafting, describe diffusion (Iteration~3).} Deepened the closure finding with turnover-proof openness measures. Tested host-entry grafting on 1,740 screen-fold entries using PPML regression. Built a $k{=}2$ diffusion typology and tested expansion-before-diffusion ordering.
+
+\item \textbf{Held-out confirmation and replication (Iteration~4).} Opened four sealed held-out folds. Confirmed the co-primary grafting specification. Replicated on MeSH. Tested single-paper artefact, vocabulary decomposition, classifier circularity, closure-anchoring link, and adopter-level mechanism.
+
+\item \textbf{Post-confirmation decomposition, audit, positioning (Iteration~5).} Ran three K-tests: margin decomposition (both extensive and intensive confirmed), host-specificity (confirmed), and field boundary (no variation). Full numerical audit (319 curated numbers, 99.4\% accuracy). Positioning dossier grading novelty against 25 candidates.
+\end{enumerate}
+
+%% ─────────────────────────────────────────────────
+\section*{Key Results}
+%% ─────────────────────────────────────────────────
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Summary of confirmed and dead findings.}
+\begin{tabularx}{\textwidth}{lYl}
+\toprule
+Finding & Evidence & Status \\
+\midrule
+Host-vocabulary grafting (RQ2) & Co-primary IRR/SD: screen 1.30, held-out 1.19, MeSH 1.23; IVW pooled 1.26 [1.17, 1.36] & CONFIRMED \\
+Margin decomposition (K1) & Extensive IVW $+$6.43 pp/SD; intensive IVW IRR/SD 1.183 & BOTH \\
+Host-specificity (K2) & IVW retention 0.969; $A_{\mathrm{lift}}$ IVW IRR/SD 1.34 [1.23, 1.46] & HOST-SPECIFIC \\
+Field boundary (K3) & Wald $p = 0.638$ & NO VARIATION \\
+Persistent-neighbour closure (RQ1) & Held-out $S = -1.073$, Holm $p = 0.015$ & CONFIRMED \\
+Diffusion typology ($k{=}2$) & Localised (136) vs broad-from-start (66); replicates on held-out & CONFIRMED \\
+Expansion before diffusion & 25 of 26 pooled dual-onset concepts & CONFIRMED \\
+Adopter enrichment & OR 3.09 [2.32, 4.28]; gradient FOREIGN $>$ ADJACENT $>$ NATIVE & CONFIRMED \\
+\midrule
+Primary closure (R1) & Holm $p = 0.147$ on held-out & R1\_DEAD \\
+Source-sink viability (C0) & Gate~A failure: within-host traced share 0.17 & BLOCKED \\
+Breadth prediction & All Holm $p = 0.405$ & NOT SUPPORTED \\
+Closure-anchoring link & Partial $\rho = 0.049$, $p = 0.564$ & NULL \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+%% ─────────────────────────────────────────────────
+\section*{What Failed}
+%% ─────────────────────────────────────────────────
+
+\begin{itemize}
+\item \textbf{Gate~A (citation-layer feasibility).} Only 17.3\% of host edge-years meet the within-host tracing threshold (vs 64.2\% under lenient any-parent tracing). The viability decomposition central to the original hypothesis could not be executed.
+\item \textbf{Primary closure (R1\_DEAD).} The general closure deficit does not survive held-out confirmation (Holm $p = 0.147$). Only the persistent-neighbour variant survives.
+\item \textbf{Breadth prediction.} Openness does not predict where concepts travel beyond growth baselines.
+\item \textbf{Community roles.} Leiden community roles (BRIDGE, STAYER, MIGRANT) do not predict host-subfield entry (BRIDGE OR 0.64 [0.38, 1.08]).
+\item \textbf{Co-transfer.} Arriving with origin companions is null across all folds and populations.
+\item \textbf{Concept pool field coverage.} 363 of 366 eligible candidates from the arXiv arm; social sciences and humanities are absent.
+\end{itemize}
+
+%% ─────────────────────────────────────────────────
+\section*{Open Questions}
+%% ─────────────────────────────────────────────────
+
+\begin{enumerate}
+\item \textbf{Generalisability.} The population is dominated by physics/CS arXiv concepts. Extension to social sciences and humanities is untested.
+\item \textbf{Primary specification power.} The fully-saturated primary specification is underpowered on the held-out fold and MeSH. Only the co-primary specification supports the grafting claim.
+\item \textbf{Establishment threshold null.} The binary establishment threshold ($\mathrm{EST}_{\mathrm{bin}}$) is null on the held-out fold ($+$2.54 pp, $p = 0.16$).
+\item \textbf{Single-paper dominance.} 87\% of screen co-primary events are single-paper entries; the held-out interaction ($p = 0.004$) suggests the effect is stronger for single-paper entries.
+\item \textbf{Adopter-vs-entry paradox.} The adopter-level vocabulary gradient (FOREIGN $>$ NATIVE) runs opposite to the entry-level finding (host-native partners predict uptake). Whether these reflect different mechanisms at different scales is unresolved.
+\item \textbf{Audit residuals.} 292 numbers in artifact outputs were not transcribed into the report. Seeded-perturbation recall is 0.60.
+\end{enumerate}
+
+\end{document}
