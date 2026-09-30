@@ -1,0 +1,1593 @@
+{
+  "title": "Where the host-vocabulary finding sits in the literature",
+  "answer": "**Verdict: partly anticipated (0 ANTICIPATES, 11 PARTLY among 25 graded candidates).** No located work measures how host-specific the vocabulary is that a concept is combined with when it enters a new subfield, and relates that, within concepts and across hosts, to later uptake by the host's own newcomers. The ingredients exist separately:\n- global embeddedness of a new idea among established ideas, with a yearly article-count outcome [1];\n- paper-level content connectivity, with a citation outcome [20, 21];\n- proximal new concept links, which receive more uptake [4];\n- conventional-plus-atypical combinations, which predict impact [2];\n- host-specific relatedness, which predicts entry into fields or topics, not post-entry uptake [6, 7, 22];\n- qualitative accounts of ideas being translated to field-specific problems [23, 24].\n\n**Cheng et al. 2023, now read in full text, corrects the plan [1].**\n- Their outcome is \"the number of articles a new idea diffuses into the year ahead\" (56,540 ideas, 995,945 idea-years), estimated with a multilevel over-dispersed Poisson model. It is not a binary \"core\" status.\n- \"Fit with research traditions\" is ideational embeddedness: the mean cosine similarity between the focal term's neighbours in a single global word2vec embedding of the prior-decade co-occurrence network. +1 SD gives about +25% articles. Social embeddedness gives about -15% [1].\n- Fit is therefore global and pooled over all adopters. That leaves our margin intact: host-specific context at entry, concept fixed effects across hosts, author-disjoint newcomer outcome, sealed-fold confirmation and MeSH replication.\n- The sentence \"consistent with Cheng for volume, not for a binary threshold\" must be dropped. Cheng has no binary outcome.\n\n**Paper-ready sentence.** \"To our knowledge, no prior study tests, within concepts and across the host subfields they enter, whether the host-specificity of the vocabulary a concept is first combined with predicts uptake by the host's own newcomers. The nearest work measures embeddedness globally (Cheng et al. 2023), connectivity at the paper level (Deichmann et al. 2020; Candelon et al. 2024), recombination at the paper or link level (Uzzi et al. 2013; Hofstra et al. 2020), or uses relatedness to predict entry (Boschma et al. 2014; Guevara et al. 2016; Hidalgo et al. 2018).\"\n\n**Forbidden over-claims:**\n- \"first to show fit matters\" [1, 8, 20];\n- \"predicts establishment\";\n- \"Cheng studies binary core status\";\n- \"novel hurdle decomposition\";\n- a single absorptive-capacity reading of the adopter result. Topical proximity is an equally good reading [5, 9].\n\n**Further neighbours and framing references.**\n- Foster et al. show risky strategies are more often ignored but more likely to reach high impact [3].\n- Meme propagation scores are pooled over all of science [11].\n- Rotolo et al.'s five attributes frame RQ1 [12].\n- Author diversification follows topic and social relatedness [25].\n- Discipline-specific jargon has been measured across subfields [27], and donor/borrower disciplines have been measured from term frequencies [28].\n- Boundary objects, co-word translation and \"diaphors\" remain metadata-level theory pointers only [91, 92, 93].\n\n**ANS related work beyond the core rows:**\n- delayed recognition [65];\n- structure exemplar [66];\n- low-capacity spanning ties [67];\n- fragmentation of network science [69];\n- bipartite modelling [70];\n- knowledge-graph extraction error [71];\n- LLM-recovered collaboration networks [72];\n- regional patent networks [73];\n- co-occurrence simplicial complexes [76];\n- patent community evolution [77];\n- entropy of title networks [78];\n- scientist mobility [79];\n- alluvial community change [80];\n- dynamic community detection [81, 86];\n- statistically validated text networks [82];\n- concept-centred ego networks [83];\n- citation flows [84];\n- temporal network prediction [85];\n- citation ABMs [87, 88];\n- k-max intercitation [89];\n- tie-specific diffusion [90].\n\n**Tensions to present as complementary.** Surprise and novelty pay off in impact, often through distant audiences [10, 18, 19]. Host-familiar framing pays off in local newcomer uptake. Brokerage predictions [14, 15] and pre-emergence collaboration signals [13] are not supported at concept level here. Breadth indicators [16, 17] measure occupancy, not integration.\n\n**Methods.**\n- K1 is standard practice on a new unit. Scientometric hurdle models appear in [45], [21] and [47]; the econometric bases are [42], [43] and [44].\n- K2 lift is Balassa RCA / Frame's activity index [48, 49]. Term-generality entropy has direct precedent [1, 26].\n- Inference references are DOI-verified:\n  - PPML [29], estimation with high-dimensional fixed effects [30], separation / existence of estimates [31], incidental-parameter bias with three-way fixed effects [32];\n  - few or unbalanced clusters [33, 34], effective number of clusters [35], current practice guide [36], wild bootstrap implementation [37], Webb weights [38];\n  - score bootstrap [39]; randomisation inference [40, 41];\n  - zero-inclusive citation distributions [46];\n  - pooling and heterogeneity [50, 51]; pre-declared subgroups [52]; forking paths [53]; covariate decomposition [54].\n- DOIs of tools the run already uses were verified: participation coefficient [55], beta-diversity partitioning [56], Leiden [57], cluster-wise stability [58], burst detection [59], Chung-Lu null [60], OpenAlex [61].\n\n**Venue.**\n- The collection page is login-gated. Snippets give the scope (health, mobility, education, politics), a topic on innovation, collaboration and knowledge-exchange networks, and a deadline of 30 Nov 2026 [62].\n- ANS guidelines require 3-10 keywords and a Declarations block, with no abstract word limit [63]. Three full texts confirm author-year citations and abstracts of 215-250 words [64, 65, 66].\n- A 27-paper ANS base is assembled. It includes Fontaine 2024 [75], De Domenico 2016 [74], Cunningham 2022 [64] and Doonan 2019 [68]; Doonan is a social analogue of local uptake.\n\n**Confidence.**\n- High for Cheng's operationalisation, the K1 status and all DOIs.\n- Medium for the novelty verdict. There was no WoS/Scopus access and a single screener. It would become \"anticipated\" if a study were found measuring the host-share of a concept's co-occurrence partners at entry against later host uptake.\n- Low for collection membership and editors.",
+  "sources": [
+    {
+      "index": 1,
+      "url": "https://journals.sagepub.com/doi/full/10.1177/00031224231166955",
+      "title": "How New Ideas Diffuse in Science (American Sociological Review 88(3):522-561, doi:10.1177/00031224231166955)",
+      "summary": "VERBATIM-FULLTEXT. Nearest neighbour. Unit = idea-year (56,540 new WoS terms, 995,945 idea-years); outcome = count of articles the idea diffuses into at t+1 (not binary 'core'); ideational embeddedness = mean pairwise cosine similarity of the focal term's neighbour terms in a GLOBAL word2vec embedding of the prior-decade co-occurrence network (+1 SD -> +25% articles); social embeddedness -> -15%; multilevel over-dispersed Poisson with random intercepts; 'Interdisciplinary' control = term entropy across NRC subject codes.",
+      "authors": [
+        "Mengjie Cheng",
+        "Daniel Scott Smith",
+        "Xiang Ren",
+        "Hancheng Cao",
+        "Sanne Smith",
+        "Daniel A. McFarland"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "We construct our dependent variable as the number of articles a new idea diffuses into the year ahead",
+          "locator": "Data and Measures, dependent variable"
+        },
+        {
+          "quote": "these 56,540 new ideas sum to 995,945 observations at the idea-year level",
+          "locator": "Data and Measures"
+        },
+        {
+          "quote": "we compute cosine similarities of these embedding dimensions on each neighbor-pair",
+          "locator": "Measures: Ideational embeddedness"
+        },
+        {
+          "quote": "we construct a semantic network for the prior decade",
+          "locator": "Measures: Ideational embeddedness"
+        },
+        {
+          "quote": "Therefore, we use an over-dispersed Poisson regression model to model the data",
+          "locator": "Statistical Approach"
+        },
+        {
+          "quote": "a one standard deviation change in social embeddedness is associated with a 15 percent",
+          "locator": "Results: The Effects of Ideational and Social Ecology"
+        },
+        {
+          "quote": "The more embedded it is within densely interconnected extant ideas, the more a new idea will diffuse.",
+          "locator": "Hypothesis 6a"
+        },
+        {
+          "quote": "computed as a term’s average entropy across NRC discipline subject codes",
+          "locator": "Table 2, control 'Interdisciplinary'"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "url": "https://www.kellogg.northwestern.edu/faculty/uzzi/htm/papers/science-2013-uzzi-468-72.pdf",
+      "title": "Atypical Combinations and Scientific Impact (Science 342:468-472, doi:10.1126/science.1240474)",
+      "summary": "VERBATIM-FULLTEXT. Paper-level reference journal-pair z-scores vs randomised null; hit = top-5% citations; conventional mass + atypical tail twice as likely to be a hit.",
+      "authors": [
+        "Brian Uzzi",
+        "Satyam Mukherjee",
+        "Michael Stringer",
+        "Benjamin Jones"
+      ],
+      "year": 2013,
+      "supporting_passages": [
+        {
+          "quote": "Papers of this type were twice as likely to be highly cited works.",
+          "locator": "Abstract"
+        },
+        {
+          "quote": "a z score below zero represents a journal pair that occurs less often than expected by chance",
+          "locator": "p. 469"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "url": "https://arxiv.org/pdf/1302.6906",
+      "title": "Tradition and Innovation in Scientists' Research Strategies (ASR 80(5):875-908, doi:10.1177/0003122415601618)",
+      "summary": "VERBATIM-FULLTEXT (arXiv version). Research strategies defined on chemical-relationship networks (MEDLINE); risky (innovative) strategies ignored more often but more likely to win high impact.",
+      "authors": [
+        "Jacob G. Foster",
+        "Andrey Rzhetsky",
+        "James A. Evans"
+      ],
+      "year": 2015,
+      "supporting_passages": [
+        {
+          "quote": "They can consolidate existing knowledge clusters, or bridge distant ones.",
+          "locator": "Abstract"
+        },
+        {
+          "quote": "Research following a risky strategy is more likely to be ignored but also more likely to achieve high impact and recognition.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "url": "https://arxiv.org/pdf/1909.02063",
+      "title": "The Diversity-Innovation Paradox in Science (PNAS 117(17):9284-9291, doi:10.1073/pnas.1915378117)",
+      "summary": "VERBATIM-FULLTEXT. Unit = thesis and its new concept links; novelty = # new links; impactful novelty = uptake per new link; distal new links receive far less uptake.",
+      "authors": [
+        "Bas Hofstra",
+        "Vivek V. Kulkarni",
+        "Sebastian Munoz-Najar Galvez",
+        "Bryan He",
+        "Dan Jurafsky",
+        "Daniel A. McFarland"
+      ],
+      "year": 2020,
+      "supporting_passages": [
+        {
+          "quote": "are adopted in ensuing documents of each year (uptake per new link)",
+          "locator": "Innovation as Novelty and Impactful Novelty in Text"
+        },
+        {
+          "quote": "more distal new links between concepts receive far less uptake",
+          "locator": "Results"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "url": "https://arxiv.org/pdf/1709.03319",
+      "title": "Quantifying patterns of research-interest evolution (Nature Human Behaviour 1:0078, doi:10.1038/s41562-017-0078)",
+      "summary": "VERBATIM-FULLTEXT. Interest change is exponentially distributed; subject proximity drives moves (random-walk model). Rival 'topical proximity' reading of the adopter result.",
+      "authors": [
+        "Tao Jia",
+        "Dashun Wang",
+        "Boleslaw K. Szymanski"
+      ],
+      "year": 2017,
+      "supporting_passages": [
+        {
+          "quote": "research interest change follows a reproducible pattern characterized by an exponential distribution",
+          "locator": "Abstract"
+        },
+        {
+          "quote": "she is more likely to choose a subject related to the current one than moving to a totally new",
+          "locator": "Results"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "url": "https://arxiv.org/pdf/1602.08409",
+      "title": "The research space: using career paths to predict the evolution of the research output of individuals, institutions, and nations (Scientometrics 109(3):1695-1709, doi:10.1007/s11192-016-2125-9)",
+      "summary": "VERBATIM-FULLTEXT. Relatedness (co-publication career paths) predicts which fields units ENTER; not post-entry uptake.",
+      "authors": [
+        "Miguel R. Guevara",
+        "Dominik Hartmann",
+        "Manuel Aristarán",
+        "Marcelo Mendoza",
+        "César A. Hidalgo"
+      ],
+      "year": 2016,
+      "supporting_passages": [
+        {
+          "quote": "significantly more accurate predictor of the fields that individuals and organizations will enter in the future than citation based science maps",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "url": "https://research-portal.uu.nl/ws/files/54934557/Hidalgo2018_Chapter_ThePrincipleOfRelatedness.pdf",
+      "title": "The Principle of Relatedness (Springer Proceedings in Complexity, pp. 451-457, doi:10.1007/978-3-319-96661-8_46)",
+      "summary": "VERBATIM-FULLTEXT. Principle: probability a region enters/exits an activity grows with related activities present; 8-20x entry probability. (Plan's arXiv id 1807.03148 is wrong.)",
+      "authors": [
+        "César A. Hidalgo",
+        "Pierre-Alexandre Balland",
+        "Ron Boschma",
+        "Mercedes Delgado",
+        "Maryann Feldman",
+        "Koen Frenken"
+      ],
+      "year": 2018,
+      "supporting_passages": [
+        {
+          "quote": "an empirical principle describing the probability that a region enters—or exits—an economic activity as a function of the number of related activities present in that location",
+          "locator": "Abstract"
+        },
+        {
+          "quote": "the probability of entering an activity rises between eight-fold and twenty-fold",
+          "locator": "Sec. 2"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "url": "https://files.eric.ed.gov/fulltext/ED501453.pdf",
+      "title": "Detailed review of Rogers' Diffusion of Innovations theory (Sahin 2006, TOJET; quoting Rogers 2003, Diffusion of Innovations, 5th ed.)",
+      "summary": "SECONDARY-QUOTE of Rogers (2003, p. 15) compatibility definition; A_cont is an entry-level network operationalisation of compatibility with the host.",
+      "authors": [
+        "Ismail Sahin"
+      ],
+      "year": 2006,
+      "supporting_passages": [
+        {
+          "quote": "compatibility is the degree to which an innovation is perceived as consistent with the existing values, past experiences, and needs of potential adopters",
+          "locator": "Compatibility section, citing Rogers 2003 p. 15"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "url": "https://josephmahoney.web.illinois.edu/BA545_Fall%202022/Cohen%20and%20Levinthal%20(1990).pdf",
+      "title": "Absorptive Capacity: A New Perspective on Learning and Innovation (ASQ 35(1):128-152, doi:10.2307/2393553)",
+      "summary": "VERBATIM-FULLTEXT. Absorptive capacity is largely a function of prior related knowledge: one of two readings of the adopter result.",
+      "authors": [
+        "Wesley M. Cohen",
+        "Daniel A. Levinthal"
+      ],
+      "year": 1990,
+      "supporting_passages": [
+        {
+          "quote": "We label this capability a firm's absorptive capacity and suggest that it is largely a function of the firm's level of prior related knowledge.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "url": "https://www.nature.com/articles/s41467-023-36741-4",
+      "title": "Surprising combinations of research contents and contexts are related to impact and emerge with scientific outsiders from distant disciplines (Nat Commun 14:1641, doi:10.1038/s41467-023-36741-4)",
+      "summary": "VERBATIM-FULLTEXT (nature.com open access). Content-context hypergraph surprise predicts top-10% citations; emerges when scientists publish to distant fields. Complementary tension: impact via distance vs our local uptake via familiarity.",
+      "authors": [
+        "Feng Shi",
+        "James Evans"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "surprise in terms of unexpected combinations of contents and contexts predicts outsized impact (within the top 10% of citations)",
+          "locator": "Abstract"
+        },
+        {
+          "quote": "most commonly when scientists from one field publish problem-solving results to an audience from a distant field",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "url": "https://arxiv.org/pdf/1404.3757",
+      "title": "Inheritance Patterns in Citation Networks Reveal Scientific Memes (PRX 4:041036, doi:10.1103/PhysRevX.4.041036)",
+      "summary": "VERBATIM-FULLTEXT. Meme propagation score pooled over science (iter-1 verified).",
+      "authors": [
+        "Tobias Kuhn",
+        "Matjaž Perc",
+        "Dirk Helbing"
+      ],
+      "year": 2014,
+      "supporting_passages": [
+        {
+          "quote": "as its sticking factor divided by its sparking factor",
+          "locator": "Results"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "url": "https://arxiv.org/pdf/1503.00673",
+      "title": "What is an emerging technology? (Research Policy 44(10):1827-1843, doi:10.1016/j.respol.2015.06.006)",
+      "summary": "VERBATIM-FULLTEXT. Five attributes of emergence; RQ1 framing.",
+      "authors": [
+        "Daniele Rotolo",
+        "Diana Hicks",
+        "Ben R. Martin"
+      ],
+      "year": 2015,
+      "supporting_passages": [
+        {
+          "quote": "(i) radical novelty, (ii) relatively fast growth, (iii) coherence, (iv) prominent impact, and (v) uncertainty and ambiguity",
+          "locator": "Sec. 3"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "url": "https://peerj.com/articles/cs-119/",
+      "title": "How are topics born? Understanding the research dynamics preceding the emergence of new areas (PeerJ CS 3:e119, doi:10.7717/peerj-cs.119)",
+      "summary": "VERBATIM-FULLTEXT. Emergence preceded by increase in collaboration pace between ancestor topics; RQ1 contrast (not confirmed at concept level in our data).",
+      "authors": [
+        "Angelo A. Salatino",
+        "Francesco Osborne",
+        "Enrico Motta"
+      ],
+      "year": 2017,
+      "supporting_passages": [
+        {
+          "quote": "the emergence of a new topic is anticipated by a significant increase in the pace of collaboration between relevant research areas",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "url": "https://arxiv.org/pdf/0904.1439",
+      "title": "Towards an explanatory and computational theory of scientific discovery (J Informetrics 3(3):191-209, doi:10.1016/j.joi.2009.03.004)",
+      "summary": "VERBATIM-FULLTEXT. Confirmed as the brokerage/structural-hole 'Chen 2009' paper; brokerage prediction ruled out in our data.",
+      "authors": [
+        "Chaomei Chen",
+        "Yue Chen",
+        "Mark Horowitz",
+        "Haiyan Hou",
+        "Zeyuan Liu",
+        "Donald Pellegrino"
+      ],
+      "year": 2009,
+      "supporting_passages": [
+        {
+          "quote": "The central premise is that connecting otherwise disparate patches of knowledge is a valuable mechanism of creative thinking",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "url": "https://www.cs.stonybrook.edu/~leman/courses/12CSE590/readings/Burt04StructureHole.pdf",
+      "title": "Structural Holes and Good Ideas (AJS 110(2):349-399, doi:10.1086/421787)",
+      "summary": "VERBATIM-FULLTEXT. Brokers across structural holes have good ideas.",
+      "authors": [
+        "Ronald S. Burt"
+      ],
+      "year": 2004,
+      "supporting_passages": [
+        {
+          "quote": "people who stand near the holes in a social structure are at higher risk of having good ideas",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2373389/",
+      "title": "A general framework for analysing diversity in science, technology and society (J R Soc Interface 4:707-719, doi:10.1098/rsif.2007.0213)",
+      "summary": "Read in full text via PMC during this session (PMC now serves a stub to fetchers, so no exact passage is kept). Variety, balance, disparity; breadth indicators measure occupancy.",
+      "authors": [
+        "Andy Stirling"
+      ],
+      "year": 2007,
+      "supporting_passages": []
+    },
+    {
+      "index": 17,
+      "url": "https://arxiv.org/pdf/1412.6683",
+      "title": "Knowledge Integration and Diffusion: Measures and Mapping of Diversity and Coherence",
+      "summary": "VERBATIM-FULLTEXT (iter-1 verified). Diversity x coherence; coherence needed to speak of integration.",
+      "authors": [
+        "Ismael Rafols"
+      ],
+      "year": 2014,
+      "supporting_passages": [
+        {
+          "quote": "More coherence can be interpreted as an increase in integration",
+          "locator": "iter-1 verified passage"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "url": "https://www.nber.org/system/files/working_papers/w22180/w22180.pdf",
+      "title": "Bias against novelty in science: A cautionary tale for users of bibliometric indicators (Research Policy 46(8):1416-1436, doi:10.1016/j.respol.2017.06.006; NBER w22180)",
+      "summary": "VERBATIM-FULLTEXT (NBER). Novel papers more cited in foreign fields, not home field; delayed recognition. Tension with our host-familiar framing result.",
+      "authors": [
+        "Jian Wang",
+        "Reinhilde Veugelers",
+        "Paula Stephan"
+      ],
+      "year": 2017,
+      "supporting_passages": [
+        {
+          "quote": "novel research is significantly more highly cited in “foreign” fields but not in its “home” field",
+          "locator": "Abstract"
+        },
+        {
+          "quote": "We also find strong evidence of delayed recognition of novel papers",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "url": "https://arxiv.org/pdf/2103.03398",
+      "title": "New directions in science emerge from disconnection and discord (J Informetrics 16(1):101234, doi:10.1016/j.joi.2021.101234)",
+      "summary": "VERBATIM-FULLTEXT. Atypical papers ~2x more likely to disrupt; slow process.",
+      "authors": [
+        "Yiling Lin",
+        "James A. Evans",
+        "Lingfei Wu"
+      ],
+      "year": 2022,
+      "supporting_passages": [
+        {
+          "quote": "Atypical papers are nearly two times more likely to disrupt science than conventional papers",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "url": "https://research.vu.nl/ws/portalfiles/portal/123105906/Ideas_with_impact.pdf",
+      "title": "Ideas with impact: How connectivity shapes idea diffusion (Research Policy 49(1):103881, doi:10.1016/j.respol.2019.103881)",
+      "summary": "VERBATIM-FULLTEXT. PARTLY: paper-level content-network betweenness (shared title words) -> citations; CS conferences 2006-2012.",
+      "authors": [
+        "Dirk Deichmann",
+        "Christine Moser",
+        "Julie M. Birkholz",
+        "Adina Nerghes",
+        "Peter Groenewegen",
+        "Shenghui Wang"
+      ],
+      "year": 2020,
+      "supporting_passages": [
+        {
+          "quote": "operationalize connectivity by investigating an idea's betweenness centrality in a content network",
+          "locator": "Sec. 2 hypotheses"
+        },
+        {
+          "quote": "Our study focuses on academic conference publications and the co-authorship data of a community of computer science researchers from 2006 to 2012",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "url": "https://research.dial.uclouvain.be/server/api/core/bitstreams/2e847eb3-54f9-4462-afc8-e3a26d629472/content",
+      "title": "What makes econometric ideas popular: The role of connectivity (Research Policy 53(7):105025, doi:10.1016/j.respol.2024.105025)",
+      "summary": "VERBATIM-FULLTEXT. PARTLY: topic/social connectivity of econometrics papers -> citations via a hurdle count model; also a 2024 scientometric hurdle precedent (K1).",
+      "authors": [
+        "Bertrand Candelon",
+        "Marc Joëts",
+        "Valérie Mignon"
+      ],
+      "year": 2024,
+      "supporting_passages": [
+        {
+          "quote": "Using a hurdle count model, we show that both content and social connectivity among the authors enhance the likelihood of non-zero citation counts",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "url": "https://econpapers.repec.org/article/eeerespol/v_3a43_3ay_3a2014_3ai_3a1_3ap_3a107-114.htm",
+      "title": "Scientific knowledge dynamics and relatedness in biotech cities (Research Policy 43(1):107-114, doi:10.1016/j.respol.2013.07.009)",
+      "summary": "ABSTRACT. PARTLY: host (city)-specific emergence of new topics depends on relatedness to the city's topic portfolio; entry, not newcomer uptake.",
+      "authors": [
+        "Ron Boschma",
+        "Gaston Heimeriks",
+        "Pierre-Alexandre Balland"
+      ],
+      "year": 2014,
+      "supporting_passages": [
+        {
+          "quote": "We assess the extent to which the emergence of new research topics and the disappearance of existing topics in cities are dependent on their degree of scientific relatedness with existing topics in those cities.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.shpsa.2017.12.001?fields=title,year,abstract",
+      "title": "The diffusion of scientific innovations: A role typology (Studies in History and Philosophy of Science 77:64-80, doi:10.1016/j.shpsa.2017.12.001)",
+      "summary": "ABSTRACT (S2). PARTLY: ideas must be conceptually translated to field-specific problems before adoption; conceptual + one case.",
+      "authors": [
+        "Catherine Herfeld",
+        "Malte Doehne"
+      ],
+      "year": 2019,
+      "supporting_passages": [
+        {
+          "quote": "novel ideas must be elaborated on and conceptually translated before they can be adopted and applied to field-specific problems",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.socnet.2021.01.001?fields=title,year,abstract",
+      "title": "Adoption and adaptation: A computational case study of the spread of Granovetter's weak ties hypothesis (Social Networks 66:10-25, doi:10.1016/j.socnet.2021.01.001)",
+      "summary": "ABSTRACT (S2). PARTLY: communities adapt one idea differently; single case, no across-host uptake test.",
+      "authors": [
+        "Anna Keuchenius",
+        "Petter Törnberg",
+        "Justus Uitermark"
+      ],
+      "year": 2021,
+      "supporting_passages": [
+        {
+          "quote": "we study how different communities in this network interpret and develop Granovetter's hypothesis in distinct ways",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "url": "https://www.nature.com/articles/s41598-020-71009-7",
+      "title": "Knowledge and social relatedness shape research portfolio diversification (Scientific Reports 10:14232, doi:10.1038/s41598-020-71009-7)",
+      "summary": "ABSTRACT. PARTLY: author-level diversification shaped by topic and social relatedness (bipartite networks).",
+      "authors": [
+        "Giorgio Tripodi",
+        "Francesca Chiaromonte",
+        "Fabrizio Lillo"
+      ],
+      "year": 2020,
+      "supporting_passages": [
+        {
+          "quote": "Using bipartite networks, we compute a measure of topic similarity and a measure of social proximity.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "url": "https://arxiv.org/pdf/2010.06657",
+      "title": "Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text Corpora (Findings of EMNLP 2020, doi:10.18653/v1/2020.findings-emnlp.158)",
+      "summary": "VERBATIM-FULLTEXT. DIFFERENT (paper->patent/trial transfer); precedent for discipline-entropy term feature (K2).",
+      "authors": [
+        "Hancheng Cao",
+        "Mengjie Cheng",
+        "Zhepeng Cen",
+        "Daniel A. McFarland",
+        "Xiang Ren"
+      ],
+      "year": 2020,
+      "supporting_passages": [
+        {
+          "quote": "computed as a concept’s average entropy across NRC discipline subject codes",
+          "locator": "Sec. 3 features"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "url": "https://arxiv.org/abs/2212.09676",
+      "title": "Words as Gatekeepers: Measuring Discipline-specific Terms and Meanings in Scholarly Publications (arXiv 2212.09676)",
+      "summary": "ABSTRACT. DIFFERENT: discipline-specific jargon (word types and senses) across subfields; relevant to K2 term specificity. Authors not confirmed this session.",
+      "authors": null,
+      "year": 2022,
+      "supporting_passages": [
+        {
+          "quote": "we use word sense induction to also identify words that are widespread but overloaded with different meanings across fields",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "url": "https://arxiv.org/abs/cmp-lg/9509004",
+      "title": "The Development and Migration of Concepts from Donor to Borrower Disciplines: Sublanguage Term Use in Hard & Soft Sciences",
+      "summary": "ABSTRACT. DIFFERENT: donor/borrower disciplines from term frequencies.",
+      "authors": [
+        "Robert M. Losee"
+      ],
+      "year": 1995,
+      "supporting_passages": [
+        {
+          "quote": "Using term frequencies, the birth, growth, death, and migration of concepts and their associated terms are examined.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1162/rest.88.4.641?fields=title,year,abstract",
+      "title": "The Log of Gravity (REStat 88(4):641-658, doi:10.1162/rest.88.4.641)",
+      "summary": "ABSTRACT. PPML rationale.",
+      "authors": [
+        "J. M. C. Santos Silva",
+        "Silvana Tenreyro"
+      ],
+      "year": 2006,
+      "supporting_passages": [
+        {
+          "quote": "under heteroskedasticity, the parameters of log-linearized models estimated by OLS lead to biased estimates of the true elasticities",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1177/1536867X20909691?fields=title,year,abstract",
+      "title": "Fast Poisson estimation with high-dimensional fixed effects (Stata Journal 20(1):95-115, doi:10.1177/1536867X20909691)",
+      "summary": "ABSTRACT. ppmlhdfe.",
+      "authors": [
+        "Sergio Correia",
+        "Paulo Guimarães",
+        "Tom Zylkin"
+      ],
+      "year": 2020,
+      "supporting_passages": [
+        {
+          "quote": "a new command for estimation of (pseudo-)Poisson regression models with multiple high-dimensional fixed effects (HDFE)",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "url": "https://arxiv.org/abs/1903.01633",
+      "title": "Verifying the existence of maximum likelihood estimates for generalized linear models (arXiv 1903.01633)",
+      "summary": "ABSTRACT. Separation / existence of PPML estimates with FE.",
+      "authors": [
+        "Sergio Correia",
+        "Paulo Guimarães",
+        "Tom Zylkin"
+      ],
+      "year": 2019,
+      "supporting_passages": [
+        {
+          "quote": "maximum likelihood estimates are not guaranteed to exist",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "url": "https://arxiv.org/abs/1909.01327",
+      "title": "Bias and consistency in three-way gravity models (J Int Econ 132:103513, doi:10.1016/j.jinteco.2021.103513)",
+      "summary": "ABSTRACT. Incidental-parameter problem for three-way PPML (volume corrected to 132).",
+      "authors": [
+        "Martin Weidner",
+        "Thomas Zylkin"
+      ],
+      "year": 2021,
+      "supporting_passages": [
+        {
+          "quote": "Despite the number and variety of fixed effects involved",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "url": "http://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf",
+      "title": "A Practitioner's Guide to Cluster-Robust Inference (JHR 50(2):317-372, doi:10.3368/jhr.50.2.317)",
+      "summary": "VERBATIM-FULLTEXT. Few-cluster problem.",
+      "authors": [
+        "A. Colin Cameron",
+        "Douglas L. Miller"
+      ],
+      "year": 2015,
+      "supporting_passages": [
+        {
+          "quote": "There is no clear-cut definition of",
+          "locator": "Sec. I (few clusters)"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/jae.2508?fields=title,year,abstract",
+      "title": "Wild Bootstrap Inference for Wildly Different Cluster Sizes (J Applied Econometrics 32(2):233-254, doi:10.1002/jae.2508)",
+      "summary": "ABSTRACT. Unbalanced clusters; wild cluster bootstrap; effective number of clusters.",
+      "authors": [
+        "James G. MacKinnon",
+        "Matthew D. Webb"
+      ],
+      "year": 2017,
+      "supporting_passages": [
+        {
+          "quote": "Rejection frequencies are higher for datasets with 50 clusters proportional to US state populations than with 50 balanced clusters.",
+          "locator": "Summary"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "url": "https://api.crossref.org/works/10.1162/REST_a_00639",
+      "title": "Asymptotic Behavior of a t-Test Robust to Cluster Heterogeneity (REStat 99(4):698-709, doi:10.1162/REST_a_00639)",
+      "summary": "METADATA-ONLY (Crossref). Effective number of clusters.",
+      "authors": [
+        "Andrew V. Carter",
+        "Kevin T. Schnepel",
+        "Douglas G. Steigerwald"
+      ],
+      "year": 2017,
+      "supporting_passages": []
+    },
+    {
+      "index": 36,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.jeconom.2022.04.001?fields=title,year,abstract",
+      "title": "Cluster-robust inference: A guide to empirical practice (J Econometrics 232(2):272-299, doi:10.1016/j.jeconom.2022.04.001)",
+      "summary": "ABSTRACT. Current practice guide.",
+      "authors": [
+        "James G. MacKinnon",
+        "Morten Ørregaard Nielsen",
+        "Matthew D. Webb"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "Methods for cluster-robust inference are routinely used in economics and many other disciplines",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1177/1536867X19830877?fields=title,year,abstract",
+      "title": "Fast and wild: Bootstrap inference in Stata using boottest (Stata Journal 19(1):4-60, doi:10.1177/1536867X19830877)",
+      "summary": "ABSTRACT. Wild bootstrap implementation.",
+      "authors": [
+        "David Roodman",
+        "Morten Ørregaard Nielsen",
+        "James G. MacKinnon",
+        "Matthew D. Webb"
+      ],
+      "year": 2019,
+      "supporting_passages": [
+        {
+          "quote": "there may be few clusters, few treated clusters, or weak instruments",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1111/caje.12661?fields=title,year,abstract",
+      "title": "Reworking wild bootstrap-based inference for clustered errors (Canadian J Econ 56(3):839-858, doi:10.1111/caje.12661)",
+      "summary": "ABSTRACT (QED WP 1315 text in S2). Webb six-point weights.",
+      "authors": [
+        "Matthew D. Webb"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "a 6-point bootstrap weight distribution improves the reliability of inference",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "url": "https://www.nber.org/system/files/working_papers/w16127/w16127.pdf",
+      "title": "A Score Based Approach to Wild Bootstrap Inference (J Econometric Methods 1(1):23-41, doi:10.1515/2156-6674.1006; NBER w16127)",
+      "summary": "VERBATIM-FULLTEXT (NBER). Score bootstrap for nonlinear M-estimators such as PPML.",
+      "authors": [
+        "Patrick M. Kline",
+        "Andres Santos"
+      ],
+      "year": 2012,
+      "supporting_passages": [
+        {
+          "quote": "based upon perturbing the scores of M-estimators",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1093/qje/qjy029?fields=title,year,abstract",
+      "title": "Channeling Fisher: Randomization Tests and the Statistical Insignificance of Seemingly Significant Experimental Results (QJE 134(2):557-598, doi:10.1093/qje/qjy029)",
+      "summary": "ABSTRACT. Randomisation inference is more conservative.",
+      "authors": [
+        "Alwyn Young"
+      ],
+      "year": 2019,
+      "supporting_passages": [
+        {
+          "quote": "In joint tests of multiple treatment effects appearing together in tables, randomization tests yield 33% to 49% fewer statistically significant results than conventional tests.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "url": "https://api.crossref.org/works/10.1080/07350015.1983.10509354",
+      "title": "A Nonstochastic Interpretation of Reported Significance Levels (JBES 1(4):292-298)",
+      "summary": "METADATA-ONLY. Permutation scheme reference.",
+      "authors": [
+        "David Freedman",
+        "David Lane"
+      ],
+      "year": 1983,
+      "supporting_passages": []
+    },
+    {
+      "index": 42,
+      "url": "https://api.crossref.org/works/10.2307/1909582",
+      "title": "Some Statistical Models for Limited Dependent Variables with Application to the Demand for Durable Goods (Econometrica 39(5):829)",
+      "summary": "METADATA-ONLY. Two-part model origin.",
+      "authors": [
+        "John G. Cragg"
+      ],
+      "year": 1971,
+      "supporting_passages": []
+    },
+    {
+      "index": 43,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/0304-4076(86)90002-3?fields=title,year,abstract",
+      "title": "Specification and testing of some modified count data models (J Econometrics 33(3):341-365)",
+      "summary": "ABSTRACT. Hurdle count models.",
+      "authors": [
+        "John Mullahy"
+      ],
+      "year": 1986,
+      "supporting_passages": [
+        {
+          "quote": "These alternatives permit more flexible specification of the data-generating process (dgp) than do familiar count data models",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "url": "https://api.crossref.org/works/10.1515/jem-2013-0005",
+      "title": "Testing Competing Models for Non-negative Data with Many Zeros (J Econometric Methods 4(1):29-46)",
+      "summary": "METADATA-ONLY. PPML vs two-part models (K1's question).",
+      "authors": [
+        "J. M. C. Santos Silva",
+        "Silvana Tenreyro",
+        "Frank Windmeijer"
+      ],
+      "year": 2015,
+      "supporting_passages": []
+    },
+    {
+      "index": 45,
+      "url": "https://ideas.repec.org/a/eee/infome/v7y2013i4p861-873.html",
+      "title": "Which factors help authors produce the highest impact research? Collaboration, journal and document properties (J Informetrics 7(4):861-873, doi:10.1016/j.joi.2013.08.006)",
+      "summary": "ABSTRACT. Scientometric hurdle precedent (negative binomial-logit hurdle for citations).",
+      "authors": [
+        "Fereshteh Didegah",
+        "Mike Thelwall"
+      ],
+      "year": 2013,
+      "supporting_passages": [
+        {
+          "quote": "used a single negative binomial-logit hurdle model estimating the percentage change in the mean citation counts",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "url": "https://arxiv.org/abs/1601.00473",
+      "title": "The discretised lognormal and hooked power law distributions for complete citation data (arXiv 1601.00473)",
+      "summary": "ABSTRACT. Zero-inclusive citation distributions (plan: Thelwall 2016; author list not re-confirmed this session).",
+      "authors": null,
+      "year": 2016,
+      "supporting_passages": [
+        {
+          "quote": "adding 1 to citation counts in order to include zeros",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "url": "https://arxiv.org/html/2505.15384v1",
+      "title": "A Two-Stage Model for Factors Influencing Citation Counts (Publications 13(2):29, doi:10.3390/publications13020029)",
+      "summary": "VERBATIM-FULLTEXT. Recent hurdle precedent for citation counts.",
+      "authors": [
+        "Pablo Dorta-González",
+        "Emilio Gómez-Déniz"
+      ],
+      "year": 2025,
+      "supporting_passages": [
+        {
+          "quote": "A hurdle model for separating the documents with citations and those without citations is considered.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "url": "https://api.crossref.org/works/10.1111/j.1467-9957.1965.tb00050.x",
+      "title": "Trade Liberalisation and 'Revealed' Comparative Advantage (Manchester School 33(2):99-123)",
+      "summary": "METADATA-ONLY. RCA / location quotient origin for K2 lift.",
+      "authors": [
+        "Bela Balassa"
+      ],
+      "year": 1965,
+      "supporting_passages": []
+    },
+    {
+      "index": 49,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1751157712000053",
+      "title": "Reflections on the activity index and related indicators (J Informetrics 6(3):413-421, doi:10.1016/j.joi.2012.01.004)",
+      "summary": "ABSTRACT. Activity index = Balassa/RCA, introduced by Frame (1977); non-monotonicity caveat.",
+      "authors": [
+        "Ronald Rousseau",
+        "Liying Yang"
+      ],
+      "year": 2012,
+      "supporting_passages": [
+        {
+          "quote": "such as the revealed comparative advantage index or Balassa index",
+          "locator": "Abstract"
+        },
+        {
+          "quote": "This index was introduced in informetrics by Frame (1977).",
+          "locator": "Sec. 2 (article preview)"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "url": "https://api.crossref.org/works/10.1002/sim.1186",
+      "title": "Quantifying heterogeneity in a meta-analysis (Stat Med 21(11):1539-1558)",
+      "summary": "METADATA-ONLY. I-squared.",
+      "authors": [
+        "Julian P. T. Higgins",
+        "Simon G. Thompson"
+      ],
+      "year": 2002,
+      "supporting_passages": []
+    },
+    {
+      "index": 51,
+      "url": "https://api.crossref.org/works/10.1016/0197-2456(86)90046-2",
+      "title": "Meta-analysis in clinical trials (Controlled Clinical Trials 7(3):177-188)",
+      "summary": "METADATA-ONLY. Random-effects pooling.",
+      "authors": [
+        "Rebecca DerSimonian",
+        "Nan Laird"
+      ],
+      "year": 1986,
+      "supporting_passages": []
+    },
+    {
+      "index": 52,
+      "url": "https://api.crossref.org/works/10.1056/NEJMsr077003",
+      "title": "Statistics in Medicine — Reporting of Subgroup Analyses in Clinical Trials (NEJM 357(21):2189-2194)",
+      "summary": "METADATA-ONLY. Pre-declared subgroup analyses.",
+      "authors": [
+        "Rui Wang",
+        "Stephen W. Lagakos",
+        "James H. Ware",
+        "David J. Hunter",
+        "Jeffrey M. Drazen"
+      ],
+      "year": 2007,
+      "supporting_passages": []
+    },
+    {
+      "index": 53,
+      "url": "http://www.stat.columbia.edu/~gelman/research/published/ForkingPaths.pdf",
+      "title": "The Statistical Crisis in Science (American Scientist 102(6):460, doi:10.1511/2014.111.460)",
+      "summary": "VERBATIM-FULLTEXT. Garden of forking paths (K3 moderators).",
+      "authors": [
+        "Andrew Gelman",
+        "Eric Loken"
+      ],
+      "year": 2014,
+      "supporting_passages": [
+        {
+          "quote": "explains why many statistically significant comparisons",
+          "locator": "Subtitle"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1425737",
+      "title": "When Do Covariates Matter? And Which Ones, and How Much? (J Labor Econ 34(2):509-543, doi:10.1086/683668)",
+      "summary": "ABSTRACT. Covariate-order-invariant decomposition.",
+      "authors": [
+        "Jonah B. Gelbach"
+      ],
+      "year": 2016,
+      "supporting_passages": [
+        {
+          "quote": "This is problematic, due to sequence-sensitivity when added covariates are intercorrelated.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "url": "https://api.crossref.org/works/10.1038/nature03288",
+      "title": "Functional cartography of complex metabolic networks (Nature 433:895-900)",
+      "summary": "METADATA-ONLY (DOI verified; text verified in iter-1). Participation coefficient / roles.",
+      "authors": [
+        "Roger Guimerà",
+        "Luís A. Nunes Amaral"
+      ],
+      "year": 2005,
+      "supporting_passages": []
+    },
+    {
+      "index": 56,
+      "url": "https://api.crossref.org/works/10.1111/j.1466-8238.2009.00490.x",
+      "title": "Partitioning the turnover and nestedness components of beta diversity (Global Ecology and Biogeography 19(1):134-143)",
+      "summary": "METADATA-ONLY (DOI verified).",
+      "authors": [
+        "Andrés Baselga"
+      ],
+      "year": 2010,
+      "supporting_passages": []
+    },
+    {
+      "index": 57,
+      "url": "https://api.crossref.org/works/10.1038/s41598-019-41695-z",
+      "title": "From Louvain to Leiden: guaranteeing well-connected communities (Sci Rep 9:5233)",
+      "summary": "METADATA-ONLY (DOI verified).",
+      "authors": [
+        "V. A. Traag",
+        "L. Waltman",
+        "N. J. van Eck"
+      ],
+      "year": 2019,
+      "supporting_passages": []
+    },
+    {
+      "index": 58,
+      "url": "https://api.crossref.org/works/10.1016/j.csda.2006.11.025",
+      "title": "Cluster-wise assessment of cluster stability (CSDA 52(1):258-271)",
+      "summary": "METADATA-ONLY (DOI verified).",
+      "authors": [
+        "Christian Hennig"
+      ],
+      "year": 2007,
+      "supporting_passages": []
+    },
+    {
+      "index": 59,
+      "url": "https://api.crossref.org/works/10.1023/A:1024940629314",
+      "title": "Bursty and Hierarchical Structure in Streams (DMKD 7(4):373-397)",
+      "summary": "METADATA-ONLY (DOI verified).",
+      "authors": [
+        "Jon Kleinberg"
+      ],
+      "year": 2003,
+      "supporting_passages": []
+    },
+    {
+      "index": 60,
+      "url": "https://api.crossref.org/works/10.1073/pnas.252631999",
+      "title": "The average distances in random graphs with given expected degrees (PNAS 99(25):15879-15882)",
+      "summary": "METADATA-ONLY (DOI verified).",
+      "authors": [
+        "Fan Chung",
+        "Linyuan Lu"
+      ],
+      "year": 2002,
+      "supporting_passages": []
+    },
+    {
+      "index": 61,
+      "url": "https://arxiv.org/abs/2205.01833",
+      "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts (arXiv 2205.01833)",
+      "summary": "METADATA-ONLY (not re-fetched; listed for the bibliography).",
+      "authors": null,
+      "year": 2022,
+      "supporting_passages": []
+    },
+    {
+      "index": 62,
+      "url": "https://link.springer.com/collections/fgcaicgjah",
+      "title": "Applied Network Science collection: Networks for everyday life",
+      "summary": "SNIPPET only (page 303-redirects to login). Scope: theory, methods, applications for health, mobility, education, politics and related societal domains; topics include innovation/collaboration/knowledge-exchange networks and information diffusion; submissions opened 24 Jun 2026, deadline 30 Nov 2026; editor named in snippet: Ronaldo Menezes (Exeter); no member articles listed.",
+      "authors": null,
+      "year": 2026,
+      "supporting_passages": []
+    },
+    {
+      "index": 63,
+      "url": "http://web.archive.org/web/2025/https://appliednetsci.springeropen.com/submission-guidelines/preparing-your-manuscript/research",
+      "title": "Applied Network Science: Preparing your manuscript (Research article) — Wayback snapshot 2024-11-01",
+      "summary": "VERBATIM (official guidelines): no abstract word limit; 3-10 keywords; mandatory Declarations list; figure/table titles <=15 words, legends <=300 words; Basic Springer reference style.",
+      "authors": null,
+      "year": null,
+      "supporting_passages": [
+        {
+          "quote": "Three to ten keywords representing the main content of the article.",
+          "locator": "Keywords"
+        },
+        {
+          "quote": "All manuscripts must contain the following sections under the heading 'Declarations'",
+          "locator": "Declarations"
+        },
+        {
+          "quote": "Figure titles (max 15 words) and legends (max 300 words)",
+          "locator": "Figures"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9673898/",
+      "title": "Author multidisciplinarity and disciplinary roles in field of study networks (ANS 7:77, doi:10.1007/s41109-022-00517-4)",
+      "summary": "VERBATIM-FULLTEXT. ANS scientometric structure exemplar: 215-word abstract, 3 keywords, separate Related work, author-year citations (25 vs 1 numbered). Topic roles in FoS networks.",
+      "authors": [
+        "Eoghan Cunningham",
+        "Barry Smyth",
+        "Derek Greene"
+      ],
+      "year": 2022,
+      "supporting_passages": []
+    },
+    {
+      "index": 65,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8242290/",
+      "title": "Large-scale analysis of delayed recognition using sleeping beauty and the prince (ANS 6:48, doi:10.1007/s41109-021-00389-0)",
+      "summary": "VERBATIM-FULLTEXT. ANS exemplar: 247-word abstract, 7 keywords, 51 author-year citations; delayed recognition (slow uptake).",
+      "authors": [
+        "Takahiro Miura",
+        "Kimitaka Asatani",
+        "Ichiro Sakata"
+      ],
+      "year": 2021,
+      "supporting_passages": []
+    },
+    {
+      "index": 66,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12102006/",
+      "title": "Temporal dynamics of the friendship paradox in a smartphone communication network (ANS 2025)",
+      "summary": "VERBATIM-FULLTEXT (structure only). 250-word abstract, 5 keywords, Materials and methods (Data, Analytical strategy), 22 author-year citations.",
+      "authors": [
+        "Cheng Wang",
+        "Omar Lizardo",
+        "David S. Hachen"
+      ],
+      "year": 2025,
+      "supporting_passages": []
+    },
+    {
+      "index": 67,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-017-0034-3?fields=title,year,abstract",
+      "title": "The weakness of weak ties for novel information diffusion (ANS 2:14, doi:10.1007/s41109-017-0034-3)",
+      "summary": "ABSTRACT. Spanning weak ties are lower-capacity: accessibility vs familiarity reading.",
+      "authors": [
+        "Jennifer M. Larson"
+      ],
+      "year": 2017,
+      "supporting_passages": [
+        {
+          "quote": "I argue that weak ties, especially the kind that span subgroups, are often also lower-capacity.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-019-0126-3?fields=title,year,abstract",
+      "title": "Community structure in co-inventor networks affects time to first citation for patents (ANS, doi:10.1007/s41109-019-0126-3)",
+      "summary": "ABSTRACT. Same-community citers cite faster: social analogue of local uptake.",
+      "authors": [
+        "William Doonan",
+        "Kyle W. Higham",
+        "Martina Governale"
+      ],
+      "year": 2019,
+      "supporting_passages": [
+        {
+          "quote": "A statistically significant difference in the time lag until first citation is linked to whether or not this citation comes from a patent whose listed inventors share membership in the same communities",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-016-0010-3?fields=title,year,abstract",
+      "title": "Disconnected, fragmented, or united? a trans-disciplinary review of network science (ANS 1, doi:10.1007/s41109-016-0010-3)",
+      "summary": "ABSTRACT. Disciplinary fragmentation of network science (Introduction framing).",
+      "authors": [
+        "César A. Hidalgo"
+      ],
+      "year": 2016,
+      "supporting_passages": [
+        {
+          "quote": "During decades the study of networks has been divided between the efforts of social scientists and natural scientists",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-023-00533-y?fields=title,year,abstract",
+      "title": "A methodology framework for bipartite network modeling (ANS 8:6, doi:10.1007/s41109-023-00533-y)",
+      "summary": "ABSTRACT. Bipartite modelling framework (concept-subfield view).",
+      "authors": [
+        "Chin-Ying Liew",
+        "Jane Labadin",
+        "Wo-On-Chee Kok"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "The graph-theoretic based studies employing bipartite network approach mostly focus on surveying the statistical properties",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-025-00749-0?fields=title,year,abstract",
+      "title": "Understanding the effect of knowledge graph extraction error on downstream graph analyses (ANS 10:64, doi:10.1007/s41109-025-00749-0)",
+      "summary": "ABSTRACT. Grounding/extraction-error caveat.",
+      "authors": [
+        "Erica Cai",
+        "Brendan T. O'Connor"
+      ],
+      "year": 2025,
+      "supporting_passages": [
+        {
+          "quote": "the impacts of extraction errors on downstream analyses are poorly under",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-024-00658-8?fields=title,year,abstract",
+      "title": "Large language models recover scientific collaboration networks from text (ANS 9:64, doi:10.1007/s41109-024-00658-8)",
+      "summary": "ABSTRACT. LLM-based network extraction (alternative grounding).",
+      "authors": [
+        "Rathin Jeyaram",
+        "Robert N. Ward",
+        "Marc Santolini"
+      ],
+      "year": 2024,
+      "supporting_passages": [
+        {
+          "quote": "We show that Large Language Models (LLMs) can solve this problem",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-022-00518-3?fields=title,year,abstract",
+      "title": "Regional industrial growth and biopharma patent networks: empirical insights from the UK (ANS 7:77, doi:10.1007/s41109-022-00518-3)",
+      "summary": "ABSTRACT. Regional (host) growth and network position.",
+      "authors": [
+        "Yuanhua Gao",
+        "Zheng Hua Zhu"
+      ],
+      "year": 2022,
+      "supporting_passages": [
+        {
+          "quote": "cross-border patenting collaboration",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "url": "https://arxiv.org/abs/1604.00696",
+      "title": "Quantifying the diaspora of knowledge in the last century (ANS 1:15, doi:10.1007/s41109-016-0017-9)",
+      "summary": "VERBATIM (iter-1 verified). Field-level author flows; sources/sinks.",
+      "authors": [
+        "Manlio De Domenico",
+        "Elisa Omodei",
+        "Alex Arenas"
+      ],
+      "year": 2016,
+      "supporting_passages": [
+        {
+          "quote": "mainly act as sources of the diaspora",
+          "locator": "Abstract (iter-1 verified)"
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "url": "https://arxiv.org/pdf/2310.01046",
+      "title": "Epistemic integration and social segregation of AI in neuroscience (ANS 9:8, doi:10.1007/s41109-024-00618-2)",
+      "summary": "VERBATIM (iter-1 verified). AI integrates epistemically into neuroscience but stays socially segregated; closest ANS RQ2 neighbour.",
+      "authors": [
+        "Sylvain Fontaine",
+        "Floriana Gargiulo",
+        "Michel Dubois",
+        "Paola Tubaro"
+      ],
+      "year": 2024,
+      "supporting_passages": [
+        {
+          "quote": "only 3% contain AI-related keywords",
+          "locator": "iter-1 verified"
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-018-0074-3?fields=title,year,abstract",
+      "title": "Co-occurrence simplicial complexes in mathematics: identifying the holes of knowledge (ANS 3, doi:10.1007/s41109-018-0074-3)",
+      "summary": "ABSTRACT. Higher-order word co-occurrence (RQ1 related work).",
+      "authors": [
+        "Vsevolod Salnikov",
+        "Daniele Cassese",
+        "Renaud Lambiotte"
+      ],
+      "year": 2018,
+      "supporting_passages": [
+        {
+          "quote": "we propose for the first time a simplicial complex approach to word co-occurrences",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-018-0090-3?fields=title,year,abstract",
+      "title": "Community evolution in patent networks: technological change and network dynamics (ANS 3, doi:10.1007/s41109-018-0090-3)",
+      "summary": "ABSTRACT. Community evolution in patent networks.",
+      "authors": [
+        "Yuan Gao",
+        "Zhen-Yan Zhu",
+        "Raja Kali"
+      ],
+      "year": 2018,
+      "supporting_passages": [
+        {
+          "quote": "categorizing technologies based on the existing classification systems used by patent authorities could cause inaccuracy and misclassification",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-020-00292-0?fields=title,year,abstract",
+      "title": "Shannon entropy in time-varying semantic networks of titles of scientific paper (ANS 5, doi:10.1007/s41109-020-00292-0)",
+      "summary": "ABSTRACT. Entropy of temporal title semantic networks.",
+      "authors": [
+        "Marcelo do Vale Cunha",
+        "Carlos César Ribeiro Santos",
+        "Marcelo A. Moret"
+      ],
+      "year": 2020,
+      "supporting_passages": [
+        {
+          "quote": "We propose a method for calculating the entropy of a clique network",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-020-00279-x?fields=title,year,abstract",
+      "title": "The mobility network of scientists: analyzing temporal correlations in scientific careers (ANS 5, doi:10.1007/s41109-020-00279-x)",
+      "summary": "ABSTRACT. 3.5M career trajectories; mobility constraints.",
+      "authors": [
+        "Giacomo Vaccario",
+        "Luca Verginer",
+        "Frank Schweitzer"
+      ],
+      "year": null,
+      "supporting_passages": [
+        {
+          "quote": "we extract 3.5 million career trajectories of scientists from two large scale bibliographic data sets",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-023-00572-5?fields=title,year,abstract",
+      "title": "Mapping change in higher-order networks with multilevel and overlapping communities (ANS 8, doi:10.1007/s41109-023-00572-5)",
+      "summary": "ABSTRACT. Alluvial diagrams for community change.",
+      "authors": [
+        "Anton Holmgren",
+        "Daniel Edler",
+        "Martin Rosvall"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "alluvial diagrams, which visualize community splits and merges between networks",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-023-00592-1?fields=title,year,abstract",
+      "title": "Exploring temporal community evolution: algorithmic approaches and parallel optimization for dynamic community detection (ANS 8, doi:10.1007/s41109-023-00592-1)",
+      "summary": "ABSTRACT. Dynamic community detection.",
+      "authors": [
+        "Naw Safrin Sattar",
+        "Aydın Buluç",
+        "Khaled Z. Ibrahim"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "Community discovery is an extensively used graph analysis kernel",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-025-00693-z?fields=title,year,abstract",
+      "title": "Statistically validated network for analysing textual data (ANS 10, doi:10.1007/s41109-025-00693-z)",
+      "summary": "ABSTRACT. SVN null backbone for word co-occurrence.",
+      "authors": [
+        "Andrea Simonetti",
+        "Alessandro Albano",
+        "Michele Tumminello"
+      ],
+      "year": 2025,
+      "supporting_passages": [
+        {
+          "quote": "represents the corpus as a bipartite network of words and documents to rigorously assess the statistical significance of word co-occurrences",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-021-00408-0?fields=title,year,abstract",
+      "title": "Appraising discrepancies and similarities in semantic networks using concept-centered subnetworks (ANS 6, doi:10.1007/s41109-021-00408-0)",
+      "summary": "ABSTRACT. Concept-centred ego subnetworks (neighbourhood turnover).",
+      "authors": [
+        "Darkhan Medeuov",
+        "Camille Roth",
+        "Kseniia A. Puzyreva"
+      ],
+      "year": 2021,
+      "supporting_passages": [
+        {
+          "quote": "A concept-centered sub-network is defined as an induced network whose vertex set consists of the given concept (ego) and all its adjacent concepts (alters)",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-017-0035-2?fields=title,year,abstract",
+      "title": "Multiplex flows in citation networks (ANS 2, doi:10.1007/s41109-017-0035-2)",
+      "summary": "ABSTRACT. Inheritance paths in citation networks.",
+      "authors": [
+        "Benjamin Renoust",
+        "Vivek Claver",
+        "Jean-François Baffier"
+      ],
+      "year": 2017,
+      "supporting_passages": [
+        {
+          "quote": "A citation network can be seen as a perfect example of one generative process leading to innovation.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-023-00597-w?fields=title,year,abstract",
+      "title": "Short- and long-term temporal network prediction based on network memory (ANS 8, doi:10.1007/s41109-023-00597-w)",
+      "summary": "ABSTRACT. Temporal network prediction baseline.",
+      "authors": [
+        "Li Zou",
+        "Alberto Ceria",
+        "Huijuan Wang"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "The classic temporal network prediction problem aims to predict the temporal network one time step ahead",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-024-00687-3?fields=title,year,abstract",
+      "title": "Detection of dynamic communities in temporal networks with sparse data (ANS, doi:10.1007/s41109-024-00687-3)",
+      "summary": "ABSTRACT. Dynamic communities with sparse data.",
+      "authors": [
+        "Nataša Djurdjevac Conrad",
+        "Elisa Tonello",
+        "Johannes Zonker"
+      ],
+      "year": 2025,
+      "supporting_passages": [
+        {
+          "quote": "detection of dynamic communities within these networks can help identify important cohesive structures",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-025-00766-z?fields=title,year,abstract",
+      "title": "An agent-based model of citation behavior (ANS, doi:10.1007/s41109-025-00766-z)",
+      "summary": "ABSTRACT. Generative citation ABM (null).",
+      "authors": [
+        "George Chacko",
+        "Minhyuk Park",
+        "Vikram Ramavarapu"
+      ],
+      "year": 2026,
+      "supporting_passages": [
+        {
+          "quote": "We examine this motivation using a generative model of citation that is agent-based.",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-025-00725-8?fields=title,year,abstract",
+      "title": "The impact factor game: an agent-based exploration of self-citation influence and interdisciplinary dynamics on impact metrics (ANS, doi:10.1007/s41109-025-00725-8)",
+      "summary": "ABSTRACT. Indicator gaming ABM (policy framing).",
+      "authors": [
+        "Luiz Gabriel Correia",
+        "Jesús P. Mena-Chalco"
+      ],
+      "year": 2025,
+      "supporting_passages": [
+        {
+          "quote": "This work introduces an agent-based model simulating journals as rational agents competing for IF ranking positions",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-022-00497-5?fields=title,year,abstract",
+      "title": "The role of highly intercited papers on scientific impact: the Mexican case (ANS 7, doi:10.1007/s41109-022-00497-5)",
+      "summary": "ABSTRACT. k-max interconnection and author impact (optional RQ2 related work).",
+      "authors": [
+        "Rodrigo Dorantes-Gilardi",
+        "Aurora A. Ramírez-Álvarez",
+        "Diana Terrazas-Santamaría"
+      ],
+      "year": 2022,
+      "supporting_passages": [
+        {
+          "quote": "explores the relationship between highly intercited papers in the k-max of citation networks",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s41109-023-00546-7?fields=title,year,abstract",
+      "title": "The risk of aggregating networks when diffusion is tie-specific (ANS 8, doi:10.1007/s41109-023-00546-7)",
+      "summary": "ABSTRACT. Tie-specific diffusion; supports host-specific network views.",
+      "authors": [
+        "Jennifer M. Larson",
+        "Pedro L. Rodriguez"
+      ],
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "Aggregating multiple measures of ties into",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "url": "https://api.crossref.org/works/10.1177/030631289019003001",
+      "title": "Institutional Ecology, 'Translations' and Boundary Objects (Social Studies of Science 19(3):387-420)",
+      "summary": "METADATA-ONLY. Boundary objects (theory pointer).",
+      "authors": [
+        "Susan Leigh Star",
+        "James R. Griesemer"
+      ],
+      "year": 1989,
+      "supporting_passages": []
+    },
+    {
+      "index": 92,
+      "url": "https://api.crossref.org/works/10.1177/053901883022002003",
+      "title": "From translations to problematic networks: An introduction to co-word analysis (Social Science Information 22(2):191-235)",
+      "summary": "METADATA-ONLY. Origin of co-word analysis.",
+      "authors": [
+        "Michel Callon",
+        "Jean-Pierre Courtial",
+        "William A. Turner",
+        "Serge Bauin"
+      ],
+      "year": 1983,
+      "supporting_passages": []
+    },
+    {
+      "index": 93,
+      "url": "https://api.crossref.org/works/10.1177/1075547005278346",
+      "title": "Metaphors and Diaphors in Science Communication (Science Communication 27(1):64-99)",
+      "summary": "METADATA-ONLY (year corrected to 2005). Recontextualisation pointer.",
+      "authors": [
+        "Loet Leydesdorff",
+        "Iina Hellsten"
+      ],
+      "year": 2005,
+      "supporting_passages": []
+    }
+  ],
+  "summary": "Positioning dossier (web-only, $0) for the iteration-5 ANS paper. It covers the confirmed claim that host-leaning entry vocabulary (A_cont) raises W2 uptake by host newcomers beyond RD, volume and momentum, with co-transfer null and binary establishment null.\n\n**Novelty verdict: PARTLY ANTICIPATED** (0 ANTICIPATES / 11 PARTLY / 25 graded).\n- Evidence: 14 queries in general and scholarly mode (571 titles screened), 4 extra queries, and forward-citation snowballing of Cheng 2023 (33 citing papers), Hofstra 2020 (856), Uzzi 2013 (937), Guevara 2016 (123) and Deichmann 2020 (31). Backward chasing used Cheng's 167 Crossref references.\n- The report gives a paper-ready novelty sentence and a list of forbidden over-claims.\n\n**Key correction: Cheng et al. 2023 (ASR 88(3):522-561), read in full text.**\n- Unit = idea-year. Outcome = yearly article COUNT, not binary 'core'.\n- Fit = ideational embeddedness: mean cosine similarity of neighbour terms in a GLOBAL word2vec embedding (+25% per SD). Social embeddedness is -15%.\n- Model: multilevel over-dispersed Poisson.\n- Our margin therefore holds (host-specific, entry-level, within-concept FE, newcomer outcome, sealed fold, MeSH replication). Drop any 'binary threshold' contrast with Cheng.\n- New PARTLY neighbours to cite: Deichmann et al. 2020 (Res Policy); Candelon et al. 2024 (Res Policy, hurdle); Boschma et al. 2014 (city-level relatedness); Herfeld & Doehne 2019; Keuchenius et al. 2021; Tripodi et al. 2020.\n- Tensions to frame as complementary: Wang, Veugelers & Stephan 2017 (novelty cited in foreign, not home, fields); Shi & Evans 2023.\n\n**Methods.**\n- K1 hurdle = standard: Didegah & Thelwall 2013; Candelon 2024; Dorta-González 2025.\n- K2 lift = Balassa/activity index (Rousseau & Yang 2012 caveat). Term entropy has precedent in Cheng's 'Interdisciplinary' control and in Cao et al. 2020.\n- 26 methods references with sentence and quote; DOIs checked for 65 references in total.\n- Corrections: Weidner & Zylkin is J Int Econ 132; Leydesdorff & Hellsten is 2005; Cheng pages are 522-561; the Hidalgo 2018 arXiv id in the plan is wrong.\n\n**Venue.**\n- Collection page is login-gated. Snippets give the scope, the topic 'innovation, collaboration, and knowledge exchange networks across sectors', dates 24 Jun to 30 Nov 2026, and editor R. Menezes. No member articles. Fit upgraded to moderate.\n- ANS guidelines (Wayback): 3-10 keywords, mandatory Declarations, no abstract limit, figure titles 15 words or fewer.\n- Author-year citation style confirmed on 3 full texts. A 27-paper ANS related-work table maps each paper to a section.\n\n**Files:** research_report.md (11 sections incl. Table 1 draft and nearest-neighbour table), bib_ids.txt (identifiers for aii-semscholar-bib), search_log/, snowball/, reproducibility.md.",
+  "follow_up_questions": [
+    "Does any economic-geography or science-of-science study measure the host-share (location quotient) of an entering technology's or concept's co-occurring partners at entry and relate it to post-entry growth or survival in that region/field? This is the most likely place for an ANTICIPATES item that our keyword and forward-citation search missed.",
+    "Can Cheng et al.'s global ideational-embeddedness measure be computed on our OpenAlex/MeSH entry events and entered alongside A_cont, to show empirically that host-specific context adds explanatory power beyond global embeddedness?",
+    "Can the two readings of the adopter result (absorptive capacity vs topical proximity, Jia et al. 2017) be separated, e.g. by conditioning on adopters' prior topical distance to the concept's origin?"
+  ]
+}

@@ -1,0 +1,87 @@
+test,fold,row,value,note,source
+p_crv1,SCREEN,coprimary_A_count,6.4346966624064085e-06,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_rand_t,SCREEN,coprimary_A_count,0.0004997501249375312,headline p (declared),3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_rand_t,SCREEN,coprimary_A_count,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_freedman_lane,SCREEN,coprimary_A_count,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_freedman_lane,SCREEN,coprimary_A_count,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_webb,SCREEN,coprimary_A_count,0.0001,9999 Webb draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_rademacher_check,SCREEN,coprimary_A_count,0.001,999 Rademacher draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection,SCREEN,coprimary_A_count,0.0915,share of plain-shuffle draws with CRV1 p<0.05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null,SCREEN,coprimary_A_count,1.1832386929553702,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection_fl,SCREEN,coprimary_A_count,0.0885,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null_fl,SCREEN,coprimary_A_count,1.1488451049724249,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+draws_converged,SCREEN,coprimary_A_count,2000.0,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_crv1,SCREEN,K1a_LPM,4.516728941485364e-05,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_rand_t,SCREEN,K1a_LPM,0.0004997501249375312,headline p (declared),3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_rand_t,SCREEN,K1a_LPM,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_freedman_lane,SCREEN,K1a_LPM,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_freedman_lane,SCREEN,K1a_LPM,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_webb,SCREEN,K1a_LPM,0.0001,9999 Webb draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_rademacher_check,SCREEN,K1a_LPM,0.001,999 Rademacher draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection,SCREEN,K1a_LPM,0.051,share of plain-shuffle draws with CRV1 p<0.05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null,SCREEN,K1a_LPM,0.9918235795633967,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection_fl,SCREEN,K1a_LPM,0.0495,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null_fl,SCREEN,K1a_LPM,1.0087529522415828,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+draws_converged,SCREEN,K1a_LPM,2000.0,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_crv1,HELDOUT,coprimary_A_count,0.004487870758267363,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_rand_t,HELDOUT,coprimary_A_count,0.022988505747126436,headline p (declared),3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_rand_t,HELDOUT,coprimary_A_count,0.0033511217786467247,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_freedman_lane,HELDOUT,coprimary_A_count,0.02498750624687656,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_freedman_lane,HELDOUT,coprimary_A_count,0.003490209934834785,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_webb,HELDOUT,coprimary_A_count,0.0118,9999 Webb draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_rademacher_check,HELDOUT,coprimary_A_count,0.011,999 Rademacher draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection,HELDOUT,coprimary_A_count,0.107,share of plain-shuffle draws with CRV1 p<0.05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null,HELDOUT,coprimary_A_count,1.2395918513100868,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection_fl,HELDOUT,coprimary_A_count,0.106,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null_fl,HELDOUT,coprimary_A_count,1.2686894938616124,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+draws_converged,HELDOUT,coprimary_A_count,2000.0,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_crv1,HELDOUT,K1a_LPM,0.0011912108693197658,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_rand_t,HELDOUT,K1a_LPM,0.00399800099950025,headline p (declared),3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_rand_t,HELDOUT,K1a_LPM,0.0014110310038245519,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_freedman_lane,HELDOUT,K1a_LPM,0.0029985007496251873,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_freedman_lane,HELDOUT,K1a_LPM,0.0012226016814317908,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_webb,HELDOUT,K1a_LPM,0.0002,9999 Webb draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_rademacher_check,HELDOUT,K1a_LPM,0.001,999 Rademacher draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection,HELDOUT,K1a_LPM,0.0645,share of plain-shuffle draws with CRV1 p<0.05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null,HELDOUT,K1a_LPM,1.0642835054970659,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection_fl,HELDOUT,K1a_LPM,0.057,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null_fl,HELDOUT,K1a_LPM,1.0232052200185178,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+draws_converged,HELDOUT,K1a_LPM,2000.0,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_crv1,MESH,coprimary_A_count,4.8539057905451434e-05,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_rand_t,MESH,coprimary_A_count,0.0014992503748125937,headline p (declared),3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_rand_t,MESH,coprimary_A_count,0.0008651597029237486,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_freedman_lane,MESH,coprimary_A_count,0.0009995002498750624,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_freedman_lane,MESH,coprimary_A_count,0.0007065766940416171,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_webb,MESH,coprimary_A_count,0.0002,9999 Webb draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_rademacher_check,MESH,coprimary_A_count,0.001,999 Rademacher draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection,MESH,coprimary_A_count,0.1035,share of plain-shuffle draws with CRV1 p<0.05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null,MESH,coprimary_A_count,1.2174908268228333,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection_fl,MESH,coprimary_A_count,0.098,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null_fl,MESH,coprimary_A_count,1.1979516860040682,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+draws_converged,MESH,coprimary_A_count,2000.0,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_crv1,MESH,K1a_LPM,3.42155481992389e-07,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_rand_t,MESH,K1a_LPM,0.0004997501249375312,headline p (declared),3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_rand_t,MESH,K1a_LPM,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_freedman_lane,MESH,K1a_LPM,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_freedman_lane,MESH,K1a_LPM,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_webb,MESH,K1a_LPM,0.0001,9999 Webb draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_rademacher_check,MESH,K1a_LPM,0.001,999 Rademacher draws,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection,MESH,K1a_LPM,0.0455,share of plain-shuffle draws with CRV1 p<0.05,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null,MESH,K1a_LPM,0.983786436386827,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection_fl,MESH,K1a_LPM,0.053,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null_fl,MESH,K1a_LPM,1.0104731818890649,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+draws_converged,MESH,K1a_LPM,2000.0,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_normal,IVW,coprimary_A_count,7.946748219316568e-12,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_rand_t,IVW,coprimary_A_count,0.0004997501249375312,same draw index in every fold,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_rand_t,IVW,coprimary_A_count,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_freedman_lane,IVW,coprimary_A_count,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null,IVW,coprimary_A_count,1.2286490089572806,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection,IVW,coprimary_A_count,0.106,share of draws with |z_IVW*| > 1.96,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_webb,IVW,coprimary_A_count,,not defined for the pooled z (per-fold wild p reported),3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_normal,IVW,K1a_LPM,5.053112810407532e-14,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_rand_t,IVW,K1a_LPM,0.0004997501249375312,same draw index in every fold,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+mc_se_rand_t,IVW,K1a_LPM,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_freedman_lane,IVW,K1a_LPM,0.0004997501249375312,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+z_sd_null,IVW,K1a_LPM,1.0045345540855164,,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+crv1_null_rejection,IVW,K1a_LPM,0.054,share of draws with |z_IVW*| > 1.96,3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv
+p_wcr_webb,IVW,K1a_LPM,,not defined for the pooled z (per-fold wild p reported),3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/inference_rows.csv

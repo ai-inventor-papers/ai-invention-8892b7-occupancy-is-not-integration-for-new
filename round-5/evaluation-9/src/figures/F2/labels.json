@@ -1,0 +1,146 @@
+[
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_co.A",
+  "shown": "SCREEN",
+  "record_key": "f2.scr_co.A.record_label",
+  "record_label": "SCREEN"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "scr_pri.A",
+  "shown": "SCREEN",
+  "record_key": "f2.scr_pri.A.record_label",
+  "record_label": "SCREEN"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_co.A",
+  "shown": "CONFIRMATORY",
+  "record_key": "f2.ho_co.A.record_label",
+  "record_label": "CONFIRMATORY"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ho_pri.A",
+  "shown": "CONFIRMATORY",
+  "record_key": "f2.ho_pri.A.record_label",
+  "record_label": "CONFIRMATORY"
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_co.A",
+  "shown": "REPLICATION",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "mesh_pri.A",
+  "shown": "REPLICATION",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "ivw.A",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_scr.A",
+  "shown": "SCREEN",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_ho.A",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_pool.A",
+  "shown": "SUPPLEMENTARY/POOLED",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "plac_mesh.A",
+  "shown": "REPLICATION",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "a",
+  "row": "phys.A",
+  "shown": "DESCRIPTIVE",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_co.CT",
+  "shown": "SCREEN",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "scr_pri.CT",
+  "shown": "SCREEN",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_co.CT",
+  "shown": "CONFIRMATORY",
+  "record_key": "f2.ho_co.CT.record_label",
+  "record_label": "CONFIRMATORY"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "ho_pri.CT",
+  "shown": "CONFIRMATORY",
+  "record_key": "f2.ho_pri.CT.record_label",
+  "record_label": "CONFIRMATORY"
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_co.CT",
+  "shown": "REPLICATION",
+  "record_key": null,
+  "record_label": null
+ },
+ {
+  "figure": "F2",
+  "panel": "b",
+  "row": "mesh_pri.CT",
+  "shown": "REPLICATION",
+  "record_key": null,
+  "record_label": null
+ }
+]

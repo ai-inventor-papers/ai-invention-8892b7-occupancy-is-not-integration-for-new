@@ -1,0 +1,75 @@
+{
+ "figure": "F3",
+ "width_mm": 174,
+ "panels": [
+  "a",
+  "b",
+  "c",
+  "d"
+ ],
+ "ci_type": "CRV1 Wald (a,b); concept bootstrap (c,d)",
+ "production": {
+  "min_font_pt": 6.5,
+  "n_text": 128,
+  "n_overlaps": 0,
+  "overlaps": [],
+  "n_clipped": 0,
+  "clipped": [],
+  "width_mm": 174.0,
+  "height_mm": 175.0
+ },
+ "sources": [
+  [
+   "art_FZ2OCJwV6xHs",
+   "round-4/evaluation-5/src/results/enrichment.json"
+  ],
+  [
+   "art_FZ2OCJwV6xHs",
+   "round-4/evaluation-5/src/results/frame_summary.json"
+  ],
+  [
+   "art_FZ2OCJwV6xHs",
+   "round-4/evaluation-5/src/results/interaction.json"
+  ],
+  [
+   "art_FZ2OCJwV6xHs",
+   "round-4/evaluation-5/src/results/mechanism_results.json"
+  ],
+  [
+   "art_FZ2OCJwV6xHs",
+   "round-4/evaluation-5/src/results/vocab_class.json"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "round-4/evaluation-2/src/results/g_heldout_rows.csv"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "round-4/evaluation-2/src/results/g_heldout_summary.json"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "round-4/evaluation-2/src/results/g_pooled_rows.csv"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "round-4/evaluation-2/src/results/g_pooled_summary.json"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "round-4/evaluation-2/src/results/g_screen_rows.csv"
+  ],
+  [
+   "art_WZ8fbLn79nCq",
+   "round-4/evaluation-2/src/results/g_screen_summary.json"
+  ],
+  [
+   "art_XGdzjWgi-a88",
+   "round-4/experiment-9/src/results/g4_models.json"
+  ],
+  [
+   "art_XGdzjWgi-a88",
+   "round-4/experiment-9/src/results/power_mesh.json"
+  ]
+ ]
+}

@@ -1,0 +1,148 @@
+Search: method migration between disciplines local adaptation uptake machine learning  [general via exa]
+Found: 16 results
+
+1. Frontiers | Local transplantation, adaptation, and creation of AI models for public health policy
+   https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2023.1085671/full
+   Frontiers | Local transplantation, adaptation, and creation of AI models for public health policy
+
+Front. Artif. Intell., 16 August 2023
+
+Figures and Tables 
+
+- Figure 1
+
+View in article 
+- Figure 2
+
+...
+
+2. Embedding and customizing templates in cross-disciplinary modeling
+   https://exa.ai/library/publication/dzbnttmzyry
+   # Embedding and customizing templates in cross-disciplinary modeling
+
+Synthese. Published: 2023-02-20. 2 citations.
+
+## Authors
+
+- Wybo Houkes (Eindhoven University of Technology): h-index 18; 1,585 c...
+
+3. The next generation of machine learning for tracking adaptation texts
+   https://exa.ai/library/publication/f59cytvgqbl
+   # The next generation of machine learning for tracking adaptation texts
+
+Nature Climate Change. Published: 2023-12-27. 36 citations.
+
+## Authors
+
+- Anne J. Sietsma (University of Leeds): h-index 9; 65...
+
+4. Dive into transfer-learning for daily rainfall-runoff modeling in data-limited basins - ScienceDirect
+   https://www.sciencedirect.com/science/article/abs/pii/S0022169425004019
+   Dive into transfer-learning for daily rainfall-runoff modeling in data-limited basins - ScienceDirect
+
+Skip to main contentSkip to article
+
+## Journal of Hydrology
+
+Date: August 2025
+
+Article: 133063
+...
+
+5. Applying Machine Learning Techniques to Implementation Science
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC11074902/
+   # Applying Machine Learning Techniques to Implementation Science
+
+Online Journal of Public Health Informatics. Published: 2024-03-14. 7 citations.
+
+## Authors
+
+- Nathalie Huguet (Oregon Health & Scien...
+
+6. TransGM: Transferable gravity models for cross-city policy transfer
+   https://discovery.ucl.ac.uk/id/eprint/10225427/1/TransferGM-2026.pdf
+   TransGM: Transferable gravity models for cross-city policy transfer Adham Enaya , Chen Zhong *, Michael Batty , Robin Morphet, Fulvio D. Lopane Centre for Advanced Spatial Analysis, University College...
+
+7. Adaptive Bayesian transfer learning under compositional generalized linear mixed model for microbiome data analysis | BMC Medical Research Methodology | Springer Nature Link
+   https://link.springer.com/article/10.1186/s12874-026-03009-6
+   # Adaptive Bayesian transfer learning under compositional generalized linear mixed model for microbiome data analysis | BMC Medical Research Methodology | Springer Nature Link
+
+Published: 2026-09-17T0...
+
+8. [2603.22621] Transfer learning via interpolating structures
+   https://ar5iv.labs.arxiv.org/html/2603.22621
+   [2603.22621] Transfer learning via interpolating structures
+
+# Transfer learning via interpolating structures
+
+T.A. Dardeno t.a.dardeno@sheffield.ac.uk A.J. Hughes L.A. Bull R.S. Mills N. Dervilis K. ...
+
+9. Real-to-Real: synthesizing a practical method for translating project practices across conceptually dissimilar industries | International Journal of Managing Projects in Business | Emerald Publishing
+   https://www.emerald.com/ijmpb/article/19/8/124/1350856/Real-to-Real-synthesizing-a-practical-method-for
+   Real-to-Real: synthesizing a practical method for translating project practices across conceptually dissimilar industries | International Journal of Managing Projects in Business | Emerald Publishing
+...
+
+10. The CARIAA Research-into-Use (RiU) Learning Guide - weADAPT
+   https://weadapt.org/knowledge-base/climate-adaptation-training/the-cariaa-riu-learning-guide/
+   The CARIAA Research-into-Use (RiU) Learning Guide - weADAPT
+
+# The CARIAA Research-into-Use (RiU) Learning Guide 
+
+This learning guide is designed to provide research teams with a bottom-up and experi...
+
+11. Next-generation hybrid precipitation forecasts that integrate Indigenous knowledge - IOPscience
+   https://beta.iopscience.iop.org/article/10.1088/1748-9326/ade4e2
+   Next-generation hybrid precipitation forecasts that integrate Indigenous knowledge - IOPscience
+
+Letter • The following article is Open access
+
+# Next-generation hybrid precipitation forecasts that in...
+
+12. Transporting Predictions via Double Machine Learning:
+   https://feb.kuleuven.be/drc/LEER/bridge-project/transporting_predictions_via_double_machine_learning-1.pdf
+   ### Transporting Predictions via Double Machine Learning:
+
+### Predicting Partially Unobserved Students’ Outcomes
+
+Falco J. Bargagli-Stoffi∗ Emma Landry † Kevin P. Josey‡ Kenneth De Beckker§
+
+Joana El...
+
+13. Towards Fine-Tuning-Based Site Calibration for Knowledge-Guided Machine Learning: A Summary of Results
+   https://exa.ai/library/publication/f2r1xbx3vbx
+   # Towards Fine-Tuning-Based Site Calibration for Knowledge-Guided Machine Learning: A Summary of Results
+
+arXiv (Cornell University). Published: 2025-12-17. Preprint. 0 citations.
+
+## Abstract
+
+Accura...
+
+14. Machine learning in the social and health sciences |...
+   https://arxivlens.com/paperview/details/machine-learning-in-the-social-and-health-sciences-6791-1869381
+   Machine learning in the social and health sciences |...
+
+# Machine learning in the social and health sciences 
+
+ Anja K. Leist, David H. Rehkopf, Graciela Muniz-Terrera, Jung Hyun Kim, Matthias Klee, ...
+
+15. Machine learning in the social and health sciences | Scholar Feed
+   https://www.scholarfeed.org/paper/2106.10716v1
+   Machine learning in the social and health sciences | Scholar Feed
+
+LG Jun 20, 2021
+
+# Machine learning in the social and health sciences
+
+Anja K. Leist, Matthias Klee, Jung Hyun Kim, David H. Rehkopf,...
+
+16. Local transplantation, adaptation, and creation of AI models for public health policy
+   https://exa.ai/library/publication/2mzqqgdyh01
+   # Local transplantation, adaptation, and creation of AI models for public health policy
+
+Frontiers in Artificial Intelligence. Published: 2023-08-16. 9 citations.
+
+## Authors
+
+- Éléonore Fournier-Tomb...
+

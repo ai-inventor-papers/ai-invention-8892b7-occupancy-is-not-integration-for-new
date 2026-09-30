@@ -1,0 +1,66 @@
+OK|10.1002/jae.2508|Wild Bootstrap Inference for Wildly Different Cluster Sizes|Journal of Applied Econometrics|32(2):233-254|2016|MacKinnon, Webb
+OK|10.1002/sim.1186|Quantifying heterogeneity in a meta‐analysis|Statistics in Medicine|21(11):1539-1558|2002|Higgins, Thompson
+OK|10.1007/978-3-319-96661-8_46|The Principle of Relatedness|Springer Proceedings in Complexity|None(None):451-457|2018|Hidalgo, Balland, Boschma, Delgado, Feldman
+OK|10.1007/s41109-017-0034-3|The weakness of weak ties for novel information diffusion|Applied Network Science|2(1):14|2017|Larson
+OK|10.1007/s41109-021-00389-0|Large-scale analysis of delayed recognition using sleeping beauty and the prince|Applied Network Science|6(1):48|2021|Miura, Asatani, Sakata
+OK|10.1007/s41109-022-00518-3|Regional industrial growth and biopharma patent networks: empirical insights from the UK|Applied Network Science|7(1):77|2022|Gao, Zhu
+OK|10.1007/s41109-023-00533-y|A methodology framework for bipartite network modeling|Applied Network Science|8(1):6|2023|Liew, Labadin, Kok, Eze
+OK|10.1007/s41109-024-00658-8|Large language models recover scientific collaboration networks from text|Applied Network Science|9(1):64|2024|Jeyaram, Ward, Santolini
+OK|10.1007/s41109-025-00749-0|Understanding the effect of knowledge graph extraction error on downstream graph analyses: a case st|Applied Network Science|10(1):64|2025|Cai, O’Connor
+OK|10.1016/0197-2456(86)90046-2|Meta-analysis in clinical trials|Controlled Clinical Trials|7(3):177-188|1986|DerSimonian, Laird
+OK|10.1016/0304-4076(86)90002-3|Specification and testing of some modified count data models|Journal of Econometrics|33(3):341-365|1986|Mullahy
+OK|10.1016/j.csda.2006.11.025|Cluster-wise assessment of cluster stability|Computational Statistics &amp; Data Analysis|52(1):258-271|2007|Hennig
+OK|10.1016/j.jeconom.2022.04.001|Cluster-robust inference: A guide to empirical practice|Journal of Econometrics|232(2):272-299|2023|MacKinnon, Nielsen, Webb
+OK|10.1016/j.jinteco.2021.103513|Bias and consistency in three-way gravity models|Journal of International Economics|132(None):103513|2021|Weidner, Zylkin
+OK|10.1016/j.joi.2013.08.006|Which factors help authors produce the highest impact research? Collaboration, journal and document |Journal of Informetrics|7(4):861-873|2013|Didegah, Thelwall
+OK|10.1016/j.joi.2021.101234|New directions in science emerge from disconnection and discord|Journal of Informetrics|16(1):101234|2022|Lin, Evans, Wu
+OK|10.1016/j.respol.2013.07.009|Scientific knowledge dynamics and relatedness in biotech cities|Research Policy|43(1):107-114|2014|Boschma, Heimeriks, Balland
+OK|10.1016/j.respol.2019.103881|Ideas with impact: How connectivity shapes idea diffusion|Research Policy|49(1):103881|2020|Deichmann, Moser, Birkholz, Nerghes, Groenewegen
+OK|10.1016/j.respol.2024.105025|What makes econometric ideas popular: The role of connectivity|Research Policy|53(7):105025|2024|Candelon, Joëts, Mignon
+OK|10.1016/j.shpsa.2017.12.001|The diffusion of scientific innovations: A role typology|Studies in History and Philosophy of Science |77(None):64-80|2019|Herfeld, Doehne
+OK|10.1016/j.socnet.2021.01.001|Adoption and adaptation: A computational case study of the spread of Granovetter's weak ties hypothe|Social Networks|66(None):10-25|2021|Keuchenius, Törnberg, Uitermark
+OK|10.1023/A:1024940629314|Bursty and Hierarchical Structure in Streams|Data Mining and Knowledge Discovery|7(4):373-397|2003|Kleinberg
+OK|10.1038/nature03288|Functional cartography of complex metabolic networks|Nature|433(7028):895-900|2005|Guimerà, Nunes Amaral
+OK|10.1038/s41467-023-36741-4|Surprising combinations of research contents and contexts are related to impact and emerge with scie|Nature Communications|14(1):1641|2023|Shi, Evans
+OK|10.1038/s41562-017-0078|Quantifying patterns of research-interest evolution|Nature Human Behaviour|1(4):0078|2017|Jia, Wang, Szymanski
+OK|10.1038/s41598-019-41695-z|From Louvain to Leiden: guaranteeing well-connected communities|Scientific Reports|9(1):5233|2019|Traag, Waltman, van Eck
+OK|10.1038/s41598-020-71009-7|Knowledge and social relatedness shape research portfolio diversification|Scientific Reports|10(1):14232|2020|Tripodi, Chiaromonte, Lillo
+OK|10.1056/NEJMsr077003|Statistics in Medicine — Reporting of Subgroup Analyses in Clinical Trials|New England Journal of Medicine|357(21):2189-2194|2007|Wang, Lagakos, Ware, Hunter, Drazen
+OK|10.1073/pnas.1915378117|The Diversity–Innovation Paradox in Science|Proceedings of the National Academy of Scienc|117(17):9284-9291|2020|Hofstra, Kulkarni, Munoz-Najar Galvez, He, Jurafsky
+OK|10.1073/pnas.252631999|The average distances in random graphs with given expected degrees|Proceedings of the National Academy of Scienc|99(25):15879-15882|2002|Chung, Lu
+OK|10.1080/07350015.1983.10509354|A Nonstochastic Interpretation of Reported Significance Levels|Journal of Business &amp; Economic Statistics|1(4):292-298|1983|Freedman, Lane
+OK|10.1086/683668|When Do Covariates Matter? And Which Ones, and How Much?|Journal of Labor Economics|34(2):509-543|2016|Gelbach
+OK|10.1093/qje/qjy029|Channeling Fisher: Randomization Tests and the Statistical Insignificance of Seemingly Significant E|The Quarterly Journal of Economics|134(2):557-598|2018|Young
+OK|10.1098/rsif.2007.0213|A general framework for analysing diversity in science, technology and society|Journal of The Royal Society Interface|4(15):707-719|2007|Stirling
+OK|10.1111/caje.12661|Reworking wild bootstrap‐based inference for clustered errors|Canadian Journal of Economics/Revue canadienn|56(3):839-858|2023|Webb
+OK|10.1111/j.1466-8238.2009.00490.x|Partitioning the turnover and nestedness components of beta diversity|Global Ecology and Biogeography|19(1):134-143|2009|Baselga
+OK|10.1111/j.1467-9957.1965.tb00050.x|Trade Liberalisation and “Revealed” Comparative Advantage
+                    <sup>1</sup>|The Manchester School|33(2):99-123|1965|Balassa
+OK|10.1162/REST_a_00639|Asymptotic Behavior of a <i>t</i>-Test Robust to Cluster Heterogeneity|The Review of Economics and Statistics|99(4):698-709|2017|Carter, Schnepel, Steigerwald
+OK|10.1177/00031224231166955|How New Ideas Diffuse in Science|American Sociological Review|88(3):522-561|2023|Cheng, Smith, Ren, Cao, Smith
+OK|10.1177/030631289019003001|Institutional Ecology, `Translations' and Boundary Objects: Amateurs and Professionals in Berkeley's|Social Studies of Science|19(3):387-420|1989|Star, Griesemer
+OK|10.1177/053901883022002003|From translations to problematic networks: An introduction to co-word analysis|Social Science Information|22(2):191-235|1983|Callon, Courtial, Turner, Bauin
+OK|10.1177/1075547005278346|Metaphors and Diaphors in Science Communication|Science Communication|27(1):64-99|2005|Leydesdorff, Hellsten
+OK|10.1177/1536867X19830877|Fast and wild: Bootstrap inference in Stata using boottest|The Stata Journal: Promoting communications o|19(1):4-60|2019|Roodman, Nielsen, MacKinnon, Webb
+OK|10.1177/1536867X20909691|Fast Poisson estimation with high-dimensional fixed effects|The Stata Journal: Promoting communications o|20(1):95-115|2020|Correia, Guimarães, Zylkin
+OK|10.1511/2014.111.460|The Statistical Crisis in Science|American Scientist|102(6):460|2014|Gelman, Loken
+OK|10.1515/2156-6674.1006|A Score Based Approach to Wild Bootstrap Inference|Journal of Econometric Methods|1(1):23-41|2012|Kline, Santos
+OK|10.1515/jem-2013-0005|Testing Competing Models for Non-negative Data with Many Zeros|Journal of Econometric Methods|4(1):29-46|2014|Silva, Tenreyro, Windmeijer
+OK|10.18653/v1/2020.findings-emnlp.158|Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts acros|Findings of the Association for Computational|None(None):1746-1757|2020|Cao, Cheng, Cen, McFarland, Ren
+OK|10.2307/1909582|Some Statistical Models for Limited Dependent Variables with Application to the Demand for Durable G|Econometrica|39(5):829|1971|Cragg
+OK|10.3368/jhr.50.2.317|A Practitioner’s Guide to Cluster-Robust Inference|Journal of Human Resources|50(2):317-372|2015|Colin Cameron, Miller
+OK|10.7717/peerj-cs.119|How are topics born? Understanding the research dynamics preceding the emergence of new areas|PeerJ Computer Science|3(None):e119|2017|Salatino, Osborne, Motta
+OK|10.1007/s11192-016-2125-9|The research space: using career paths to predict the evolution of the research output of indiv|Scientometrics|109(3):1695-1709|2016|Guevara, Hartmann, Aristarán, Mendoza, Hidalgo
+OK|10.1016/j.joi.2009.03.004|Towards an explanatory and computational theory of scientific discovery|Journal of Informetrics|3(3):191-209|2009|Chen, Chen, Horowitz, Hou, Liu
+OK|10.1016/j.respol.2015.06.006|What is an emerging technology?|Research Policy|44(10):1827-1843|2015|Rotolo, Hicks, Martin
+OK|10.1016/j.respol.2017.06.006|Bias against novelty in science: A cautionary tale for users of bibliometric indicators|Research Policy|46(8):1416-1436|2017|Wang, Veugelers, Stephan
+OK|10.1086/421787|Structural Holes and Good Ideas|American Journal of Sociology|110(2):349-399|2004|Burt
+OK|10.1103/PhysRevX.4.041036|Inheritance Patterns in Citation Networks Reveal Scientific Memes|Physical Review X|4(4):041036|2014|Kuhn, Perc, Helbing
+OK|10.1126/science.1240474|Atypical Combinations and Scientific Impact|Science|342(6157):468-472|2013|Uzzi, Mukherjee, Stringer, Jones
+OK|10.1162/rest.88.4.641|The Log of Gravity|The Review of Economics and Statistics|88(4):641-658|2006|Silva, Tenreyro
+OK|10.1177/0003122415601618|Tradition and Innovation in Scientists’ Research Strategies|American Sociological Review|80(5):875-908|2015|Foster, Rzhetsky, Evans
+OK|10.2307/2393553|Absorptive Capacity: A New Perspective on Learning and Innovation|Administrative Science Quarterly|35(1):128|1990|Cohen, Levinthal
+OK|10.1016/j.joi.2012.01.004|Reflections on the activity index and related indicators|Journal of Informetrics|6(3):413-421|2012|Rousseau, Yang
+OK|10.3390/publications13020029|A Two-Stage Model for Factors Influencing Citation Counts|Publications|13(2):29|2025|Dorta-González, Gómez-Déniz
+OK|10.1007/s41109-016-0017-9|Quantifying the diaspora of knowledge in the last century|Applied Network Science|1(1):15|2016|De Domenico, Omodei, Arenas
+OK|10.1007/s41109-024-00618-2|Epistemic integration and social segregation of AI in neuroscience|Applied Network Science|9(1):8|2024|Fontaine, Gargiulo, Dubois, Tubaro

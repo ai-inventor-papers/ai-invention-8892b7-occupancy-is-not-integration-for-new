@@ -1,0 +1,27 @@
+artifact_type: report_text
+version: 5
+status: succeeded
+outputs:
+  paper_draft: paper_draft.md
+  references: references.bib
+  references_record: references.json
+inputs:
+  style_exemplars: style_exemplars.md
+  domain_terms: domain_terms.json
+dependencies:
+  - round-4/report-text/paper_draft.md
+  - round-5/evaluation-6/src/results/k13_summary.json
+  - round-5/evaluation-6/src/results/k1_rows.csv
+  - round-5/evaluation-6/src/results/k3_rows.csv
+  - round-5/evaluation-6/src/results/k1_decomposition.json
+  - round-5/evaluation-7/src/results/k2_summary.json
+  - round-5/evaluation-7/src/results/k2_rows.csv
+  - round-5/evaluation-8/src/results/audit_summary.json
+  - round-5/evaluation-8/src/results/table18_honesty.json
+  - round-5/evaluation-8/src/results/review_closure.json
+  - round-5/evaluation-8/src/results/verify_headlines.json
+  - round-5/research-2/src/research_report.md
+  - round-5/evaluation-9/src/results/fidelity_summary.json
+  - round-5/evaluation-9/src/results/production_checks.json
+  - round-5/evaluation-9/src/results/figure_completeness.csv
+entries: []

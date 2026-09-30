@@ -1,0 +1,54 @@
+{
+ "figure": "F4",
+ "width_mm": 174,
+ "panels": [
+  "closure",
+  "closure_resT",
+  "closure_persist",
+  "constraint",
+  "effsize",
+  "wmz"
+ ],
+ "xscale": "linear",
+ "ci_type": "concept bootstrap B=2,000 (ES); Wald (PP)",
+ "production": {
+  "min_font_pt": 6.5,
+  "n_text": 46,
+  "n_overlaps": 0,
+  "overlaps": [],
+  "n_clipped": 0,
+  "clipped": [],
+  "width_mm": 174.0,
+  "height_mm": 150.0
+ },
+ "sources": [
+  [
+   "art_htO_gJuUn6Pr",
+   "round-3/experiment-5/src/results/prediction.json"
+  ],
+  [
+   "art_zw_JJGsUFSnd",
+   "round-4/evaluation-3/src/results/r1/r1_summary.json"
+  ],
+  [
+   "art_zw_JJGsUFSnd",
+   "round-4/evaluation-3/src/results/tables/r1_balance_smd.csv"
+  ],
+  [
+   "art_zw_JJGsUFSnd",
+   "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv"
+  ],
+  [
+   "art_zw_JJGsUFSnd",
+   "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv"
+  ],
+  [
+   "art_zw_JJGsUFSnd",
+   "round-4/evaluation-3/src/results/tables/r1_n_flow.csv"
+  ],
+  [
+   "art_zw_JJGsUFSnd",
+   "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv"
+  ]
+ ]
+}

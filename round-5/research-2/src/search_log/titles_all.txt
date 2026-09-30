@@ -1,0 +1,571 @@
+== Q01_general.txt
+1. Holdings: Migration of the term "neologism" between two scientific disciplines : neologism in linguistics a
+2. Beyond borrowed concepts: a semantic analysis of entropy’s half-century cross-disciplinary journey betwe
+3. Co-word analysis as a tool for describing the network of interactions between basic and technological resea
+4. Understanding the formation of interdisciplinary research from the perspective of keyword evolution: a case
+5. Tracing Research Paradigm Change Using Terminological Methods
+6. Random Drift versus Selection in Academic Vocabulary: An Evolutionary Analysis of Published Keywords | PLOS
+7. [1812.01250] Quantification and Analysis of Scientific Language Variation Across Research Fields
+8. [2010.06657] Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts
+9. Mapping the network of mathematics using ‘cognitive mobility’ or
+10. How new concepts become universal scientific approaches: insights from citation network analysis of agent-
+11. The Development and Migration of Concepts from Donor to Borrower Disciplines: Sublanguage Term Use in Hard
+12. [0803.2315] Science mapping with asymmetrical paradigmatic proximity
+13. SciEvo: A 2 Million, 30-Year Cross-disciplinary Dataset for Temporal Scientometric Analysis
+14. [1604.00696] Quantifying the Diaspora of Knowledge in the Last Century
+15. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text
+16. ADOPTING CROSS-DISCIPLINARY PERSPECTIVES IN CONSTRUCTING A MULTILINGUAL'S IDENTITY
+== Q01_scholarly.txt
+1. A theory of migration: the aspirations-capabilities framework
+2. Designing qualitative research
+3. Genre, discipline and identity
+4. The interdisciplinary study of coordination
+5. Setting the future of digital and social media marketing research: Perspectives and research propositions
+6. The Politics of Knowledge: Area Studies and the Disciplines
+7. Resilience and disaster risk reduction: an etymological journey
+8. Decolonization is not a metaphor
+9. Sustainable urban systems: Co-design and framing for transformation
+10. Health professionals for a new century: transforming education to strengthen health systems in an interdep
+11. Three frames for innovation policy: R&D, systems of innovation and transformative change
+12. Return Migration
+13. Intersectionality's Definitional Dilemmas
+14. Global Autocracies: Strategies of Transnational Repression, Legitimation, and Co-Optation in World Politic
+15. Advances in Social Media Research: Past, Present and Future
+16. Implementation and adoption of nationwide electronic health records in secondary care in England: qualitat
+17. Digital Innovation Dynamics Influence on Organisational Adoption: The Case of Cloud Computing Services
+18. Choosing a Fit Technology: Understanding Mindfulness in Technology Adoption and Continuance
+19. Adoption of mobile banking in Finland
+20. Technology Adoption by Groups: A Valence Perspective
+== Q02_general.txt
+1. Borrowing theories: contextual and empirical considerations: Construction Management and Economics: Vol 38 
+2. Mobilizing Conceptual Spaces: How Word Embedding Models Can Inform Measurement and Theory Within Organizati
+3. The Practice of Theory Borrowing in Organizational Studies: Current Issues and Future Directions - David A.
+4. Conceptual Learning via Embedding Approximations for Reinforcing Interpretability and Transparency
+5. Borrowing theories: contextual and empirical considerations
+6. Investigating patterns of change, stability, and interaction among scientific disciplines using embeddings 
+7. Two Modalities of the Contextualized Courseware in Three ...
+8. Embedding academic literacies in university programme curricula: a case study | Request PDF
+9. concept borrowing | orgtheory.net
+10. Embedding academic literacies in university programme ...
+11. Embedding Data Science & AI across Disciplines: Context and Suggestions for Educators - The Turing Way
+12. (PDF) Embedding academic literacies in university programme curricula: a case study
+13. Conceptual Learning via Embedding Approximations
+14. Conceptual Learning via Embedding Approximations for Reinforcing
+15. [2406.08840] Conceptual Learning via Embedding Approximations for Reinforcing Interpretability and Transpa
+16. (PDF) Conceptual Learning via Embedding Approximations for Reinforcing Interpretability and Transparency
+17. Beyond borrowed concepts: a semantic analysis of entropy’s half-century cross-disciplinary journey betwe
+18. an exploration of factors influencing the adoption of student ...
+19. r/PhilosophyofScience on Reddit: Is There a Term for Applying Concepts from One Discipline to Another Disc
+20. Full article: Effect of context-based instructional approach on students’ science process skills acquisi
+== Q02_scholarly.txt
+1. The Rhetorical Functions of Borrowing and the Uses of Disciplinary Prestige
+2. Embedding Preparation In Language Courses
+3. EMBEDDING SCAFFOLDED READING PRACTICES INTO THE FIRST-YEAR UNIVERSITY SCIENCE CURRICULUM
+4. International political economy: Conceptual affinities and substantive differences with security studies
+5. Editorial Introduction: Contextual Evolution of SMEs across Markets, Disciplines and Sectors
+6. The importance of borrowing across disciplines
+7. Conceptual Models as Tools for Communication Across Disciplines
+8. Conceptual Change across Engineering Disciplines
+9. NGO Accountability: A Conceptual Review across the Engaged Disciplines
+10. Studying ethnic identity: Methodological and conceptual approaches across disciplines.
+11. A conceptual framework for understanding the cultural and contextual factors on autism across the globe
+12. Learning for Resilience: Embedding Ecosystem Services Literacy Across Disciplines to Support Sustainable U
+13. Introduction: Ethnic identity research across diverse perspectives.
+14. “World”:
+15. Religion, Tolerance, and Intolerance: Views from Across the Disciplines
+16. PEACH: Pretrained-Embedding Explanation across Contextual and Hierarchical Structure
+17. Figure 2: Contextual word embedding by BERT.
+18. Borrowing from Other Disciplines
+19. Concept of Sound in Tifa as Papua’s Contextual Learning Media
+20. A Conceptual Consideration of Irreversible Phenomena Based on an Information-Theoretic Measure of Correlat
+== Q03_general.txt
+1. Bibliometrics - Wikipedia
+2. The Landscape of Research on Contextualized Science Learning: A Bibliometric Network Review - Giamellaro - 
+3. Deepening and broadening knowledge after the PISA scientific event: bibliometric, semantic network, and exp
+4. Frontiers | Exploring Topics in Bibliometric Research Through Citation Networks and Semantic Analysis
+5. Transmedial recontextualization of new scientific research claims - ScienceDirect
+6. The bibliometric analysis of scholarly production: How great is the impact? | Scientometrics | Springer Nat
+7. A bibliometric study of reference literature in the sciences and social sciences - ScienceDirect
+8. Bibliometric analysis: a systematic review of methods, tools, and databases with a methodical approach and 
+9. How to design bibliometric research: an overview and a framework proposal | Review of Managerial Science | 
+10. Development of Bibliometrics as a Scientific Field | Scientific and Technical Information Processing | Spr
+11. Bibliometric Delineation of Scientific Fields | Springer Nature Link
+12. Visualizing a field of research: A methodology of systematic scientometric reviews | PLOS One
+13. Re-envisioning bibliometric analysis as a tool for transforming the field | NSF Public Access Repository
+14. (PDF) Bibliometrics as a research field: A course on theory and application of bibliometric indicators
+15. Scientific mapping and trend of conceptual change: A bibliometric analysis - ScienceDirect
+16. BIBLIOMETRICS AS A RESEARCH FIELD
+17. A bibliometric analysis of the interdisciplinary field of cultural evolution | Humanities and Social Scien
+18. How to conduct a bibliometric analysis: An overview and guidelines - ScienceDirect
+19. Representing a scientific field: A bibliometric approach | Scientometrics | Springer Nature Link
+20. Comparative science mapping: a novel conceptual structure analysis with metadata | Scientometrics | Spring
+== Q03_scholarly.txt
+1. Transmedial recontextualization of new scientific research claims
+2. Recontextualization of concepts in European legal discourse
+3. Understanding the Scientific Cooperation in Energy Field: From a Bibliometric Perspective: 2005-2023
+4. Genres, media, and recontextualization practices
+5. BIBLIOMETRIC DATA ANALYSIS OF SCIENTIFIC PUBLICATIONS IN THE FIELD OF CHANGE MANAGEMENT
+6. Interpreting `Resistance' Sociologically
+7. Wellness Tourism Research: Bibliometric Study of the Scientific Field
+8. Representing a scientific field: A bibliometric approach
+9. Lunar Habitat Concepts
+10. BIBLIOMETRIC ANALYSIS OF PUBLIC RELATIONS AXIS POSTGRADUATE THESES RELATED TO SOCIAL MEDIA OR NEW MEDIA CO
+11. Bibliometric Analysis of Public Relations Axis Postgraduate Theses Related to Social Media or New Media Co
+12. A Bibliometric Analysis of Publications on Surveillance and New Media Concepts in The Web of Science Datab
+13. Various concepts of equilibrium in economics
+14. SCIENTIFIC DEVELOPMENTS IN CAREERISM RESEARCH IN THE FIELD OF BUSINESS: A BIBLIOMETRIC REVIEW
+15. Bibliometric Analysis of Machine Learning and Fuzzy Concepts: Web of Science-Based Study
+16. New and Post-New Age Appropriations
+17. Bibliometric Analysis of Scientific Trends Around the Key Concepts of the New Era: Digital Transformation 
+18. Analyzing students' recontextualization strategies for algorithmic concepts
+19. BIBLIOMETRIC ANALYSIS OF A NEW RESEARCH SUB‐FIELD
+20. NEW CONCEPTS, THEORETICAL AND PRACTICAL PROBLEMS IN THE FIELD OF AGRICULTURAL SCIENCES AND FOOD
+== Q04_general.txt
+1. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text 
+2. [2306.02282] Exploring and Verbalizing Academic Ideas by Concept Co-occurrence
+3. Beyond Citations: Measuring Idea-level Knowledge Diffusion from Research to Journalism and Policy-making
+4. Identifying interdisciplinary emergence in the science of science: combination of network analysis and BERT
+5. Integrated knowledge content in an interdisciplinary field: identification, classification, and application
+6. The evolution of scientific literature as metastable knowledge states
+7. A temporal keyword co-occurrence network mining framework for detecting structural transitions in cancer bi
+8. Bisociative Literature-Based Discovery: Lessons Learned and New Word Embedding Approach | New Generation Co
+9. Research Hotspots and Trends of Knowledge Transfer in China Based on Visualization Analysis
+10. A review of reviews – a meta-review analysis of literature on knowledge and technology transfer in highe
+11. Large-scale transformer-based topic graphs identify thematic links between engineering and biology | Scien
+12. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text
+13. Cartographie bibliométrique du transfert de connaissances et des modèles de gouvernance universitaire : 
+14. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text
+15. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text
+16. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text
+17. Keyphrase identification using minimal labeled data with hierarchical contexts and transfer learning | BMC
+18. Keyword extraction based on statistical information for cyrillic Mongolian script
+19. Global Trends and Research Evolution of XBRL Adoption in
+== Q04_scholarly.txt
+1. Sustainable–smart–resilient–low carbon–eco–knowledge cities; making sense of a multitude of conce
+2. Air Source Heat Pumps field studies: A systematic literature review
+3. A systematic literature review of blockchain-based applications: Current status, classification and open is
+4. Sustainable Sport Entrepreneurship and Innovation: A Bibliometric Analysis of This Emerging Field of Resear
+5. Do Formal Intellectual Property Rights Hinder the Free Flow of Scientific Knowledge? An Empirical Test of t
+6. A review of the global climate change impacts, adaptation, and sustainable mitigation measures
+7. Review on Mycotoxin Issues in Ruminants: Occurrence in Forages, Effects of Mycotoxin Ingestion on Health St
+8. From distributed coordination to field calculus and aggregate computing
+9. Testing Intrusion detection systems
+10. Opportunities and Challenges of Generative AI in Construction Industry: Focusing on Adoption of Text-Based
+11. From DFT to machine learning: recent approaches to materials science–a review
+12. Fuzzy-set qualitative comparative analysis (fsQCA) in business and management research: A contemporary ove
+13. The big picture on the internet of things and the smart city: a review of what we know and what we need to
+14. AI and Related Technologies in the Fields of Smart Agriculture: A Review
+15. The Effect of Previous Crop Residues and Tillage on Fusarium Head Blight of Wheat
+16. Bibliometric Review of Research on Knowledge Management and Sustainability, 1994–2018
+17. Gastrointestinal Parasites in Shelter Dogs: Occurrence, Pathology, Treatment and Risk to Shelter Workers
+18. Climate change and COP26: Are digital technologies and information management part of the problem or the s
+19. A systematic review of knowledge management and new product development projects: Trends, issues, and chal
+20. Clay‐Inspired MXene‐Based Electrochemical Devices and Photo‐Electrocatalyst: State‐of‐the‐Art 
+== Q05_general.txt
+1. Boundary object - Wikipedia
+2. Boundary objects, knowledge integration, and innovation management: A systematic review of the literature -
+3. (PDF) Boundary object or bridging concept? A citation network analysis of resilience
+4. (PDF) Boundary object or bridging concept? A citation network analysis of resilience
+5. Boundary object or bridging concept? A citation network analysis of resilience
+6. "Boundary Object or Bridging Concept? A Citation Network Analysis of Re" by Jacopo A. Baggio, Katriana Brow
+7. JMIR Human Factors - Boundary Objects as Dialogical Learning Accelerators for Social Change in Design for H
+8. Boundary Objects as Dialogical Learning Accelerators for Social Change in Design for Health: Systematic Rev
+9. Boundary objects, knowledge integration, and innovation ...
+10. Bridging Theories and Practices: Boundary Objects and Constellation Analysis as Vehicles for Interdiscipli
+11. Full article: How boundary objects facilitate local climate adaptation networks: the cases of Amsterdam Ra
+12. Review Boundary Objects as Dialogical Learning Accelerators for Social
+13. Ecology and Society: Boundary object or bridging concept? A citation network analysis of resilience
+14. The Grand Concepts of Environmental Studies Boundary objects between disciplines and policymakers | Journa
+15. Boundary objects and knowledge sharing in sustainability demonstration projects: insights from practitione
+16. Concept Learning with Co-occurrence Network for Image Retrieval
+17. (PDF) Boundary Objects, Social Meanings and the Success of New Technologies
+18. Boundary objects in network interactions - ScienceDirect
+19. Development of a Boundary Object Assessment Framework Supporting Knowledge Integration in Product Realizat
+20. A Discipline Co-Occurrence Network Analysis Approach
+== Q05_scholarly.txt
+1. Concept Learning with Co-occurrence Network for Image Retrieval
+2. Boundary object or bridging concept? A citation network analysis of resilience
+3. Figure 6: Co-occurrence network.
+4. Figure 1: Co-occurrence network.
+5. Figure 5: Prokaryotic co-occurrence network in control and maize residue retention (A) treatments; fungal c
+6. Table S4: Co-occurrence network topological parameters
+7. Figure 6: Author’s keywords co-occurrence network.
+8. Forming Object Concept Using Bayesian Network
+9. Introduction(s): Object/Subject, Discipline/Argument
+10. Figure 3: Co-occurrence network of BSNB Research.
+11. Figure 5: Authors keywords occurrences and co-occurrence network.
+12. Table 1: Co-occurrence network indices of endophytic community.
+13. Co-occurrence analyzis of key concept on risk-taking in organizational management research
+14. Table S1: Resulting OTUs from Network Analysis (see ‘Results’: OUT co-occurrence network analysis’)
+15. Table 4: Topological properties of soil microbiome co-occurrence network.
+16. Figure 6: Co-occurrence network of bacterial taxa on litters.
+17. Figure 6: Co-occurrence network of keywords in RVO study.
+18. Table 7: Concept matrix of TF-IDF: co-occurrence of concepts in CC and SC datasets.
+19. Fig. 2. A keyword co-occurrence network for the selected publications.
+== Q06_general.txt
+1. Beyond Citations: Measuring Idea-level Knowledge Diffusion
+2. Beyond Citations: Measuring Idea-level Knowledge Diffusion from Research to Journalism and Policy-making
+3. Disciplinary knowledge production and diffusion in science | Request PDF
+4. Cross-discipline cold-start knowledge tracing via overlapping entities and contrastive learning - ScienceDi
+5. Disciplinary knowledge diffusion in business research - ScienceDirect
+6. Knowledge diffusion within a large conservation organization and beyond | PLOS One
+7. Bibliometric cartography of data science: a large-scale analysis on knowledge integration and diffusion | E
+8. Educating the future generation of researchers: A cross-disciplinary survey of trends in analysis methods |
+9. Research Data in Scientific Publications: A Cross-Field Analysis
+10. Knowledge integration and diffusion structures of interdisciplinary research: A large‐scale analysis bas
+11. Internal dynamics and innovation: A cross-disciplinary review and future research agenda - ScienceDirect
+12. Exploring the direction and diversity of interdisciplinary knowledge diffusion: A case study of professor 
+13. Interdisciplinary knowledge diffusion of educational research, 2002–2021 - ScienceDirect
+14. (PDF) The Diffusion of Research on the Adoption and Diffusion of Information Technology
+15. Knowledge Diffusion Research Papers - Academia.edu
+16. Modeling study of knowledge diffusion in scientific collaboration networks based on differential dynamics:
+17. Modeling knowledge diffusion in the disciplinary citation network based on differential dynamics | Sciento
+18. LLM-Enabled Scientific Knowledge Diffusion Analysis Uttam Rao, Madhav Marathe
+19. Dissecting diffusion: Tracing the plurality of factors that shape knowledge diffusion - ScienceDirect
+20. Modeling knowledge diffusion in the disciplinary citation ...
+== Q06_scholarly.txt
+1. Knowledge Management in Agile Methods Context
+2. Electronic Training Methods
+3. Introduction Knowledge Management: Historical and Cross-Disciplinary Themes
+4. Assessing the cross-region knowledge transfer capability of selected deep learning building vectorization m
+5. Temporal Entities in the Context of Cross-Cultural Meetings and Negotiations
+6. Knowledge Sharing
+7. Knowledge Representation
+8. Cross-disciplinary perspectives on context-specific argumentation practices
+9. Word knowledge in a cross-disciplinary world
+10. Exploring diffusion of innovation adoption attributes: a cross-disciplinary literature analysis
+11. Accelerating the Adoption of Knowledge Graphs for Cross-Disciplinary Collaboration in Wind Energy
+12. EDI Adoption and Diffusion in Political Economies: A Cross-Case Analysis
+13. The Nature of Knowledge
+14. The Future of Knowledge Management
+15. Context and User-Centered Approaches: Icons in Cross-Cultural Context
+16. Intellectual Capital and the Knowledge Economy
+17. Index
+18. Situated Knowledge in Context-Aware Computing
+19. Content Management
+== Q07_general.txt
+1. How New Ideas Diffuse in Science
+2. Ideas with impact: How connectivity shapes idea diffusion
+3. Aalborg Universitet
+4. OLD AND CONNECTED VERSUS YOUNG AND CREATIVE: NETWORKS AND THE DIFFUSION OF NEW SCIENTIFIC IDEAS
+5. The increasing fragmentation of global science limits the diffusion of ideas
+6. How New Ideas Diffuse in Science | NSF Public Access Repository
+7. The Diffusion of Scientific Innovations: Arguments for an Integrated Approach
+8. Intentional and serendipitous diffusion of ideas: Evidence from academic conferences
+9. [2010.06657] Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts
+10. The power of a good idea: Quantitative modeling of the spread of ideas from epidemiological models
+11. How New Ideas Diffuse in Science - Article - Faculty & Research - Harvard Business School
+12. Scholars@Duke publication: How New Ideas Diffuse in Science
+13. Beyond Citations: Measuring Idea-level Knowledge Diffusion from Research to Journalism and Policy-making
+14. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text
+15. The Diffusion of Scientific Innovations: a Role Typology - DocsLib
+16. A Strategic Multiplexity Perspective on Innovation Diffusion - Mack Institute for Innovation Management
+17. A systemic theory of scientific discovery: a conceptual review of field maturation and independent converg
+18. Three Tales of Lifelong Learning as a Travelling Idea: Diffusion, Mimesis, and Translation
+19. SCI-IDEA: Context-Aware Scientific Ideation Using Token and Sentence Embeddings | Machine Learning | Sprin
+20. Engineering serendipity: When does knowledge sharing lead to knowledge production?
+== Q07_scholarly.txt
+1. Fostering implementation of health services research findings into practice: a consolidated framework for a
+2. A Holistic Framework to Improve the Uptake and Impact of eHealth Technologies
+3. Science and technology roadmap for graphene, related two-dimensional crystals, and hybrid systems
+4. Context matters in implementation science: a scoping review of determinant frameworks that describe context
+5. Making sense of complexity in context and implementation: the Context and Implementation of Complex Interve
+6. Tumour exosome integrins determine organotropic metastasis
+7. RE-AIM Planning and Evaluation Framework: Adapting to New Science and Practice With a 20-Year Review
+8. Diffusion and related transport mechanisms in brain tissue
+9. The dynamic sustainability framework: addressing the paradox of sustainment amid ongoing change
+10. Imaging brain microstructure with diffusion MRI: practicality and applications
+11. MICU3 is a tissue-specific enhancer of mitochondrial calcium uptake
+12. Systems science and systems thinking for public health: a systematic review of the field
+13. The PRISMA Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Ca
+14. Evaluating the successful implementation of evidence into practice using the PARiHS framework: theoretical
+15. Advancing a Conceptual Model of Evidence-Based Practice Implementation in Public Service Sectors
+16. Advanced capabilities for materials modelling with Q uantum ESPRESSO
+17. Methods for exploring implementation variation and local context within a cluster randomised community int
+18. Reframing implementation science to address inequities in healthcare delivery
+19. Hierarchical diffusion models for two-choice response times.
+20. Nanocellulose as a natural source for groundbreaking applications in materials science: Today’s state
+== Q08_general.txt
+1. Rogers’ Innovation Adoption Attributes: A Systematic Review and Synthesis of Existing Research | Request 
+2. (PDF) Innovation Characteristics and Innovation-Adoption-Implementation: A Meta-analysis of findings
+3. A bibliometric review of the innovation adoption literature | Request PDF
+4. (PDF) Innovation characteristics and innovation adoption-implementation: A meta-analysis of findings
+5. Innovation attributes and managers' decisions about the adoption of innovations in organizations: A meta-an
+6. Compatibility's Innovation Metrics (n = 334). | Download Scientific Diagram
+7. A diffusion of innovations measurement scale for reinvention, relative advantage, compatibility, complexity
+8. A bibliometric review of the innovation adoption literature - ScienceDirect
+9. Diffusion of Innovations model helps interpret the comparative uptake of two methodological innovations: co
+10. Top 5 Perceived Attributes of Innovations and Their Effect on Rate of Adoption - Vanguard Marketing Intern
+11. Full article: Applying a diffusion innovation theory to identify novelty in communication research
+12. A bibliometric review of innovation ecosystem - Xu - 2025 - Systems Research and Behavioral Science - Wile
+13. Roger's Five Attributes of Innovation Diffusion and Online ...
+14. Innovation adoption attributes: a review and synthesis of research findings
+15. Unpacking Innovation Diffusion Theory - Part 2: Compatibility — Ulysses Partners
+16. Diffusion of Innovations - TheoryHub - Academic theories reviews for research and T&L
+17. Measures for Predictors of Innovation Adoption - PMC
+18. Procedia - Social and Behavioral Sciences 155 ( 2014 ) 69 – 74
+19. Rogers Five Factors | Think Insights
+== Q08_scholarly.txt
+1. Innovation dimension in the concept of a smart city: is the innovativeness the main attribute of being smar
+2. Contributions of Innovation Ecosystems in the Adoption of the Industry 4.0 Model in SMEs, a Bibliometric St
+3. Renewable energy adoption and green innovation in Oman: a bibliometric and predictive analysis of energy ec
+4. Open Innovation adoption in healthcare through bibliometric analysis
+5. Bridging Innovation and Adoption: The Future of the Central Bank Digital Currencies (Cbdcs) in the European
+6. Concept Attribute
+7. Bibliometric analysis regarding the concept of blockchain accounting
+8. Evolution of the Concept of Educational Efficiency: Bibliometric Analysis of Global Scientific Articles 201
+9. A Bibliometric Analysis of the Concept of Inclusive Education
+10. RELATIVE ADVANTAGE AND COMPATIBILITY AS FACTORS PREDICTING ADOPTION OF INNOVATION AMONG GENERATION X TEACH
+11. Concept and Measurement of the Food System Sustainability: A Bibliometric Research
+12. Mapping the Landscape: A Bibliometric Analysis of Fintech Innovation and Adoption
+13. Outfit Compatibility Prediction with an Attribute Detection Model
+14. Understanding the Determinants of Cryptocurrency Adoption: a Bibliometric Analysis
+15. A bibliometric review of water security concept in Central Asia
+16. Adoption of Innovation: A Concept Attainment View
+17. Adoption of Mobile Wallets and Sustainable Digital Financial  Services: A Bibliometric Analysis of User Be
+18. Scientific Collaboration Network in Cryptocurrency Adoption Research: A Bibliometric Study
+19. Peer Review Report For: Artificial Intelligence Adoption as a Driver of Innovation and Competitiveness in 
+20. Peer Review Report For: Artificial Intelligence Adoption as a Driver of Innovation and Competitiveness in 
+== Q09_general.txt
+1. A Vocabulary-Based Approach To Getting Up To Speed In A New Field
+2. Ten simple rules for training yourself in an emerging field | PLOS Computational Biology
+3. Off the Beaten Path:
+4. Personalized Jargon Identification for Enhanced Interdisciplinary Communication
+5. Getting up to speed in a new research area fast
+6. Augmenting Scientific Creativity with Retrieval across Knowledge Domains
+7. commands/cross-field-search.md
+8. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text 
+9. Words as Bridges: Exploring Computational Support for Cross-Disciplinary Translation Work
+10. Off the beaten path: what drives scientists’ entry into new fields?
+11. The Researcher's Path Part 7: Expansion (Where the Missing Answers Have Been Hiding) | Lee Foropoulos
+12. Words as Bridges: Exploring Computational Support for Cross-Disciplinary Translation Work
+13. How to map a research field in one morning
+14. How to Find Research Outside Your Field Without the Jargon - Techgues.Com
+15. RecSOI: recommending research directions using statements of ignorance
+16. Keyphrase identification using minimal labeled data with hierarchical contexts and transfer learning | BMC
+17. Personalized Jargon Identification for Enhanced Interdisciplinary Communication
+18. Words as Bridges: Exploring Computational Support for Cross-Disciplinary  Translation Work | alphaXiv
+19. Familiar Academic Preprint: Preprint Drafts
+== Q09_scholarly.txt
+1. DEFINING THE TERMS
+2. Fundamental research terms
+3. Supplemental Information 1: Keywords used as search terms.
+4. Entering New Markets
+5. Entering the Field
+6. A New Look at Success Chances of Recruits Entering the Navy (SCREEN)
+7. KEYWORDS INDEX
+8. Additional Terms
+9. Introduction
+10. Diagnosis
+11. Entering the Behavioral Health Field
+12. Assessment
+13. First Session
+14. Tagcloud based on keywords, showing relative importance of these terms to creativity research
+15. Cultural Considerations
+16. Professional Preparation
+17. Case Formulation
+18. Entering the Field
+19. Personal Preparation
+20. Clinical Documentation
+== Q10_general.txt
+1. Co-word analysis as a tool for describing the network of interactions between basic and technological resea
+2. LA METHODE DES MOTS ASSOCIES (CO-WORD ANALYSIS)
+3. Co word analysis | PPTX
+4. Evolution analysis of online topics based on ‘word-topic’ coupling network - PMC
+5. Knowledge Discovery Through Co-Word Analysis QINHE ABSTRACT
+6. Predicting co-word links via heterogeneous graph convolutional networks | Scientific Reports
+7. (PDF) Application of word co-occurrence analysis method in mapping of the scientific fields (case study: th
+8. Industry 5.0 as seen through its academic literature: an investigation using co-word analysis | Discover Su
+9. (PDF) Co-word Analysis for the non-Scientific Information Example of Reuters Business Briefings
+10. An author keyword analysis for mapping Sport Sciences | PLOS One
+11. (PDF) A Co-Word Analysis of Global Research on Knowledge Organization: 1900-2019
+12. Evolution analysis of cross-domain collaborative research topic: a case study of cognitive-based product c
+13. An application of co-word analysis and bibliometric maps for detecting the most highlighting themes in the
+14. Phylomemetic Patterns in Science Evolution—The Rise and Fall of Scientific Fields | PLOS One
+15. Research topic flows in co-authorship networks | Scientometrics | Springer Nature Link
+16. Co-Word Analysis | Springer Nature Link
+17. Document co-citation analysis to enhance transdisciplinary research | Science Advances
+18. Mapping of science by combined co-citation and word ...
+19. Can epidemic model describe the diffusion of topics across disciplines? | Request PDF
+20. Mapping knowledge domains: Characterizing PNAS - PMC
+== Q10_scholarly.txt
+1. An Explicit Link between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differen
+2. Microbiome definition re-visited: old concepts and new challenges
+3. Digital transformation: A multidisciplinary reflection and research agenda
+4. The Circular Economy: An Interdisciplinary Exploration of the Concept and Application in a Global Context
+5. Policy mixes for sustainability transitions: An extended concept and framework for analysis
+6. Random walks and diffusion on networks
+7. Scientific Concepts of Functional Foods in Europe Consensus Document
+8. Diffusion of Information Technology Outsourcing: Influence Sources and the Kodak Effect
+9. Some like it cold: understanding the survival strategies of psychrophiles
+10. Diaspora and Transnationalism : Concepts, Theories and Methods
+11. Networking and innovation: a systematic review of the evidence
+12. Research On Degrowth
+13. Biofilm-Related Infections: Bridging the Gap between Clinical Management and Fundamental Aspects of Recalc
+14. Early intervention in psychosis: concepts, evidence and future directions
+15. A Framework for Assessing the Global Diffusion of the Internet
+16. Towards a typology of intermediaries in sustainability transitions: A systematic review and a research age
+17. Chinese Guanxi : An Integrative Review and New Directions for Future Research
+18. Conceptualising the future of HRM and technology research
+19. Communities, knowledge creation, and information diffusion
+20. The Problem of Fit between Ecosystems and Institutions: Ten Years Later
+== Q11_general.txt
+1. Social embeddedness of scientific and cultural work – Understanding Society
+2. Understanding Society: Social embeddedness of scientific and intellectual work
+3. Using Embeddedness Theory to Understand and Promote Persistence in STEM Majors | Request PDF
+4. Rethinking scientific progress in the social sciences: disruptive or cumulative? - ScienceDirect
+5. Scientific concepts and methods for moving persistence ...
+6. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text 
+7. Scientific concepts and methods for moving persistence assessments into the 21st century - Davenport - 2022
+8. Scientific concepts and methods for moving persistence assessments into the 21st century | Integrated Envir
+9. Beyond borrowed concepts: a semantic analysis of entropy’s half-century cross-disciplinary journey betwee
+10. The unexpected persistence of non-corporate platforms: The role of local and network embeddedness - Scienc
+11. Embodiment and regenerative implants: a proposal for entanglement | Medicine, Health Care and Philosophy |
+12. (PDF) Model transfer in science
+13. 1 Chapter 17: Model Transfer in Science
+14. Knowledge transfer and its contexts - ScienceDirect
+15. Personality changes following heart transplantation: The role of cellular memory - ScienceDirect
+16. Embryonic transplantation experiments: Past, present, and future - PMC
+17. Ambiguous embodiment and organ transplantation - Embodiment and everyday cyborgs - NCBI Bookshelf
+18. Embedding and customizing templates in cross-disciplinary modeling | Synthese | Springer Nature Link
+19. Re-cognizing the new self: The neurocognitive plasticity of self-processing following facial transplantati
+== Q11_scholarly.txt
+1. Shifting Ground for Health Information Systems
+2. Shifting Legitimation along Information Infrastructures Growth
+3. Embeddedness
+4. Methods for Calculating Persistence and Spatial Range
+5. Multi‐Media Box Models for Persistence and Spatial Range
+6. Beyond Membership: The Institutional Embeddedness of Trade Unions and Their Persistence in Financialised Eu
+7. Characterizing Chemicals by Means of Persistence and Spatial Range
+8. Persistence and Spatial Range as Measures of Environmental Threat
+9. Extending and enriching job embeddedness theory: Predicting college persistence
+10. Persistence and Spatial Range of Environmental Chemicals
+11. Front Matter
+12. Stacked Fields of Criminal Justice: The National Embeddedness of Transnational Policing
+13. References
+14. Index
+15. Persistent Organic Pollutants
+16. Appendix B: Glossary
+17. Concepts of Culture in the Sociology of Punishment
+18. Connecting Environmental Chemistry and Ethics
+19. Implications for the Assessment of Chemicals
+20. Overcomplexity and Normative Indeterminacy of Environmental Systems
+== Q12_general.txt
+1. Frontiers | Local transplantation, adaptation, and creation of AI models for public health policy
+2. Embedding and customizing templates in cross-disciplinary modeling
+3. The next generation of machine learning for tracking adaptation texts
+4. Dive into transfer-learning for daily rainfall-runoff modeling in data-limited basins - ScienceDirect
+5. Applying Machine Learning Techniques to Implementation Science
+6. TransGM: Transferable gravity models for cross-city policy transfer
+7. Adaptive Bayesian transfer learning under compositional generalized linear mixed model for microbiome data 
+8. [2603.22621] Transfer learning via interpolating structures
+9. Real-to-Real: synthesizing a practical method for translating project practices across conceptually dissimi
+10. The CARIAA Research-into-Use (RiU) Learning Guide - weADAPT
+11. Next-generation hybrid precipitation forecasts that integrate Indigenous knowledge - IOPscience
+12. Transporting Predictions via Double Machine Learning:
+13. Towards Fine-Tuning-Based Site Calibration for Knowledge-Guided Machine Learning: A Summary of Results
+14. Machine learning in the social and health sciences |...
+15. Machine learning in the social and health sciences | Scholar Feed
+16. Local transplantation, adaptation, and creation of AI models for public health policy
+== Q12_scholarly.txt
+1. Tackling Climate Change with Machine Learning
+2. A review of machine learning applications in wildfire science and management
+3. Fundamentals, materials, and machine learning of polymer electrolyte membrane fuel cell technology
+4. Application of machine-learning methods in forest ecology: recent progress and future challenges
+5. Tackling Climate Change with Machine Learning
+6. Machine-learning-based evidence and attribution mapping of 100,000 climate impact studies
+7. Radiomics and Machine Learning for Radiotherapy in Head and Neck Cancers
+8. Mapping the evolution and current trends in climate change adaptation science
+9. Communities and change in the anthropocene: understanding social-ecological vulnerability and planning adap
+10. Machine intelligence and the data-driven future of marine science
+11. Deep Learning-Based Diagnosis of Alzheimer’s Disease
+12. The Role and Impact of Industry 4.0 and the Internet of Things on the Business Strategy of the Value Chain
+13. Perspectives on the Future of Land Surface Models and the Challenges of Representing Complex Terrestrial S
+14. Reducing risks to food security from climate change
+15. Impact of Climate Change on Agroecosystems and Potential Adaptation Strategies
+16. Climate change awareness, perceived impacts, and adaptation from farmers’ experience and behavior: a tri
+17. Artificial intelligence for geoscience: Progress, challenges, and perspectives
+18. Eight grand challenges in socio-environmental systems modeling
+19. Selecting a Dynamic Simulation Modeling Method for Health Care Delivery Research—Part 2: Report of the I
+20. A Machine-Generated View of the Role of Blood Glucose Levels in the Severity of COVID-19
+== Q13_general.txt
+1. Add keyword dictionary to subfield
+2. Field Profiles - Vireo User Group
+3. URL search parameters: can you make `field:Host` include non-specific matches? - General - iNaturalist Comm
+4. Slot: host_genus - submission-schema
+5. Origin
+6. Discussion Paper No. 2024-DP03: Addition of Relationship Subfields in Fields 647 and 648 in the MARC 21 Bib
+7. bf_attach_native_status: Attach native/non-native recipient status to a data frame in biofetchR: Download, 
+8. Keyword Field — ASO Wiki | ASOtext
+9. 1. Background
+10. A graduated nativeness definition for overcoming dilemmas and difficulties of vascular plant species
+11. A graduated nativeness definition for overcoming dilemmas and difficulties of vascular plant species
+12. Linked data profile (used in our Linked Data Macro)
+13. Table 2 Fields and field terms in the GRIIS Country Compendium.
+14. NTA indexes and indexed fields - OCLC Support
+15. Slot: observed host symbionts (host_symbiont) - submission-schema
+16. Applying field 752 (Added Entry – Hierarchical Place Name) for different purposes in the MARC 21 Bibliog
+17. treekipedia/docs/SPECIES_FIELDS_FRONTEND_GUIDE.md
+18. Modify the CA 1 Keyword Table
+19. Talent profile reference
+== Q13_scholarly.txt
+1. The SIMBAD astronomical database
+2. Humanitarianism: Keywords
+3. Linking genes to literature: text mining, information extraction, and retrieval applications for biology
+4. Migration and invention in the Age of Mass Migration
+5. The Transformation of Historical Research in the Digital Age
+6. Current perspectives and trend of computer-aided drug design: a review and bibliometric analysis
+7. Risk Assessment Tools and Data-Driven Approaches for Predicting and Preventing Suicidal Behavior
+8. The LASER database: Formalizing design rules for metabolic engineering
+9. The Constitution of Algorithms
+10. Automatic Language Identification in Texts: A Survey
+11. A mixed-method study of language-learning motivation and intercultural contact of international students
+12. Between Discipline and Profession A History of Persistent Instability in the Field of Computer Engineering
+13. Digital Humanities Pedagogy: Practices, Principles and Politics
+14. A Review of Metadata: a Survey of Current Resource Description Formats
+15. English for Specific Purposes Project Leader Profiles: The Leadership Communication of 55 ESP Project Lead
+16. A guide to current methodology and usage of reverse vaccinology towards in silico vaccine discovery
+17. Proceedings of the Eighteenth Conference on Computational Natural Language Learning
+18. De-mystifying Translation
+19. Development of Linguistic Linked Open Data Resources for Collaborative Data-Intensive Research in the Lang
+20. Trustworthy journalism through AI
+== Q14_general.txt
+1. Technological Relatedness and Knowledge Space: Entry and Exit of US Cities from Patent Classes
+2. Entry Models -All Dimensions of Relatedness Density | Download Table
+3. Knowledge and social relatedness shape research portfolio diversification | Scientific Reports
+4. relatedness.density.int: Compute the relatedness density between regions and... in PABalland/EconGeo: Compu
+5. Regional knowledge spaces: the interplay of entry-relatedness and entry-potential for technological change 
+6. relatedness.density: Compute the relatedness density between regions and... in PABalland/EconGeo: Computing
+7. Evaluating the principle of relatedness: Estimation, drivers and implications for policy - ScienceDirect
+8. Scientific knowledge dynamics and relatedness in biotech cities - ScienceDirect
+9. Scientific Knowledge Dynamics and Relatedness in Bio-Tech Cities
+10. Scientific knowledge dynamics and relatedness in biotech cities — MIT Media Lab
+11. Relatedness Density → Area → Sustainability
+12. Evaluating the principle of relatedness: Estimation,
+13. Regional knowledge spaces: the interplay of entry-relatedness and entry-potential for technological change
+14. Knowledge Spillovers Informed by Network Theory and Social Network Analysis | Springer Nature Link
+15. Specialization versus diversification in research activities: the extent, intensity and relatedness of fie
+16. Building relatedness explanations from knowledge graphs
+17. Scholarly knowledge graphs through structuring scholarly communication: a review | Complex & Intelligent S
+18. Pierre-Alexandre Balland - Research and innovation
+== Q14_scholarly.txt
+1. Semantic Relatedness with Variable Ontology Density
+2. Knowledge Relatedness, Firm Entry, and Entrant Types: Knowledge Modularity and Concentration
+3. The lexical entry
+4. Legitimizing processes: Barriers and facilitators for experienced Newcomers' entry transitions to knowledge
+5. The entry of newcomers into organizations
+6. Technological Relatedness and Knowledge Space: Entry and Exit of US Cities from Patent Classes
+7. Where do firms come from? Knowledge Relatedness and Firm Entry
+8. Post-entry experiences of newcomers through the perspective of gamification: the relationship between socia
+9. Knowledge and social relatedness shape research portfolio diversification
+10. Figure 5.2.3. Scientific knowledge embedded in digital patents, by scientific fields, 2003-06 and 2013-16
+11. Linking Pre-Entry Job Search and Post-Entry Socialization among Newcomers
+12. Scientific knowledge dynamics and relatedness in biotech cities
+13. Organizational entry: Newcomers moving from outside to inside.
+14. Regional knowledge spaces: the interplay of entry-relatedness and entry-potential for technological change
+15. Incorporating Scientific Knowledge into Neural Network Density Functionals
+16. Newcomers in organisational entry coping with early job experiences
+17. The Effects of Cultural Background and Knowledge Creation on Self-Employment and Entry Density Rates
+18. RELATEDNESS AND KNOWLEDGE BASES
+19. Enter here, exit there: explaining symbiotic knowledge flows of international market entry, exit and re-
+20. Knowledge Transmission in Work Groups: Helping Newcomers to Succeed

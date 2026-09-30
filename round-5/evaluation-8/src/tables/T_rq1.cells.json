@@ -1,0 +1,1842 @@
+[
+ {
+  "table": "T_rq1",
+  "row": 0,
+  "col": "row",
+  "display": "closure",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 0,
+  "col": "estimator",
+  "display": "pooled panel",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 0,
+  "col": "screen",
+  "display": "-0.661",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure|coef_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 0,
+  "col": "heldout",
+  "display": "-0.391",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure|coef_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 0,
+  "col": "lo",
+  "display": "-0.855",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 0,
+  "col": "hi",
+  "display": "0.072",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 0,
+  "col": "holm",
+  "display": "0.147",
+  "src": "recompute:holm_rq1_closure",
+  "kind": "p",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 0,
+  "col": "decision",
+  "display": "DEAD",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 1,
+  "col": "row",
+  "display": "closure_resT",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 1,
+  "col": "estimator",
+  "display": "pooled panel",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 1,
+  "col": "screen",
+  "display": "-0.400",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure_resT|coef_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 1,
+  "col": "heldout",
+  "display": "-0.109",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure_resT|coef_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 1,
+  "col": "lo",
+  "display": "-0.561",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure_resT|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 1,
+  "col": "hi",
+  "display": "0.342",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure_resT|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 1,
+  "col": "holm",
+  "display": "0.635",
+  "src": "recompute:holm_rq1_closure_resT",
+  "kind": "p",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 1,
+  "col": "decision",
+  "display": "DEAD",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 2,
+  "col": "row",
+  "display": "closure_persist",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 2,
+  "col": "estimator",
+  "display": "pooled panel",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 2,
+  "col": "screen",
+  "display": "-1.124",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure_persist|coef_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 2,
+  "col": "heldout",
+  "display": "-1.073",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure_persist|coef_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 2,
+  "col": "lo",
+  "display": "-1.858",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure_persist|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 2,
+  "col": "hi",
+  "display": "-0.289",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=closure_persist|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 2,
+  "col": "holm",
+  "display": "0.015",
+  "src": "recompute:holm_rq1_closure_persist",
+  "kind": "p",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 2,
+  "col": "decision",
+  "display": "CONFIRMED",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 3,
+  "col": "row",
+  "display": "constraint",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 3,
+  "col": "estimator",
+  "display": "pooled panel",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 3,
+  "col": "screen",
+  "display": "0.064",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=constraint|coef_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 3,
+  "col": "heldout",
+  "display": "0.083",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=constraint|coef_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 3,
+  "col": "lo",
+  "display": "0.002",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=constraint|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 3,
+  "col": "hi",
+  "display": "0.164",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=constraint|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 3,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 3,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 4,
+  "col": "row",
+  "display": "xc_excess",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 4,
+  "col": "estimator",
+  "display": "pooled panel",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 4,
+  "col": "screen",
+  "display": "0.048",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=xc_excess|coef_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 4,
+  "col": "heldout",
+  "display": "0.047",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=xc_excess|coef_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 4,
+  "col": "lo",
+  "display": "-0.036",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=xc_excess|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 4,
+  "col": "hi",
+  "display": "0.130",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=xc_excess|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 4,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 4,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 5,
+  "col": "row",
+  "display": "wmz",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 5,
+  "col": "estimator",
+  "display": "pooled panel",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 5,
+  "col": "screen",
+  "display": "0.038",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=wmz|coef_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 5,
+  "col": "heldout",
+  "display": "0.037",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=wmz|coef_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 5,
+  "col": "lo",
+  "display": "0.006",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=wmz|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 5,
+  "col": "hi",
+  "display": "0.067",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=wmz|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 5,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 5,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 6,
+  "col": "row",
+  "display": "effsize",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 6,
+  "col": "estimator",
+  "display": "pooled panel",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 6,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 6,
+  "col": "heldout",
+  "display": "8.214",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=effsize|coef_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 6,
+  "col": "lo",
+  "display": "-6.614",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=effsize|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 6,
+  "col": "hi",
+  "display": "23.042",
+  "src": "round-4/evaluation-3/src/results/tables/r1_pooled_panel_screen_vs_heldout.csv::csv:row=effsize|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 6,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 6,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 7,
+  "col": "row",
+  "display": "closure",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 7,
+  "col": "estimator",
+  "display": "event study",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 7,
+  "col": "screen",
+  "display": "-0.439",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure|S_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 7,
+  "col": "heldout",
+  "display": "-0.534",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure|S_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 7,
+  "col": "lo",
+  "display": "-1.200",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 7,
+  "col": "hi",
+  "display": "0.074",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 7,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 7,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 8,
+  "col": "row",
+  "display": "closure_resT",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 8,
+  "col": "estimator",
+  "display": "event study",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 8,
+  "col": "screen",
+  "display": "-0.295",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure_resT|S_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 8,
+  "col": "heldout",
+  "display": "-0.266",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure_resT|S_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 8,
+  "col": "lo",
+  "display": "-0.891",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure_resT|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 8,
+  "col": "hi",
+  "display": "0.300",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure_resT|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 8,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 8,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 9,
+  "col": "row",
+  "display": "closure_persist",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 9,
+  "col": "estimator",
+  "display": "event study",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 9,
+  "col": "screen",
+  "display": "-0.575",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure_persist|S_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 9,
+  "col": "heldout",
+  "display": "-0.826",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure_persist|S_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 9,
+  "col": "lo",
+  "display": "-1.706",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure_persist|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 9,
+  "col": "hi",
+  "display": "-0.096",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=closure_persist|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 9,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 9,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 10,
+  "col": "row",
+  "display": "constraint",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 10,
+  "col": "estimator",
+  "display": "event study",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 10,
+  "col": "screen",
+  "display": "0.083",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=constraint|S_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 10,
+  "col": "heldout",
+  "display": "0.105",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=constraint|S_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 10,
+  "col": "lo",
+  "display": "0.021",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=constraint|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 10,
+  "col": "hi",
+  "display": "0.187",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=constraint|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 10,
+  "col": "holm",
+  "display": "0.995",
+  "src": "round-4/evaluation-3/src/results/tables/r1_holm_decisions.csv::csv:row=constraint|p_one_holm",
+  "kind": "p",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 10,
+  "col": "decision",
+  "display": "DEAD",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 11,
+  "col": "row",
+  "display": "xc_excess",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 11,
+  "col": "estimator",
+  "display": "event study",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 11,
+  "col": "screen",
+  "display": "0.063",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=xc_excess|S_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 11,
+  "col": "heldout",
+  "display": "0.038",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=xc_excess|S_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 11,
+  "col": "lo",
+  "display": "-0.061",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=xc_excess|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 11,
+  "col": "hi",
+  "display": "0.133",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=xc_excess|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 11,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 11,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 12,
+  "col": "row",
+  "display": "wmz",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 12,
+  "col": "estimator",
+  "display": "event study",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 12,
+  "col": "screen",
+  "display": "0.032",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=wmz|S_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 12,
+  "col": "heldout",
+  "display": "0.014",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=wmz|S_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 12,
+  "col": "lo",
+  "display": "-0.024",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=wmz|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 12,
+  "col": "hi",
+  "display": "0.049",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=wmz|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 12,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 12,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 13,
+  "col": "row",
+  "display": "effsize",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 13,
+  "col": "estimator",
+  "display": "event study",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 13,
+  "col": "screen",
+  "display": "-1.701",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=effsize|S_screen",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 13,
+  "col": "heldout",
+  "display": "-27.777",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=effsize|S_heldout",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 13,
+  "col": "lo",
+  "display": "-49.293",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=effsize|ci_heldout_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 13,
+  "col": "hi",
+  "display": "-9.540",
+  "src": "round-4/evaluation-3/src/results/tables/r1_event_study_screen_vs_heldout.csv::csv:row=effsize|ci_heldout_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 13,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 13,
+  "col": "decision",
+  "display": "descriptive",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 14,
+  "col": "row",
+  "display": "closure",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 14,
+  "col": "estimator",
+  "display": "IVW screen+held-out (descriptive)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 14,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 14,
+  "col": "heldout",
+  "display": "-0.464",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure|S_pooled",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 14,
+  "col": "lo",
+  "display": "-0.790",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure|ci_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 14,
+  "col": "hi",
+  "display": "-0.137",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure|ci_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 14,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 14,
+  "col": "decision",
+  "display": "DESCRIPTIVE, NOT A DECISION",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 15,
+  "col": "row",
+  "display": "closure_resT",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 15,
+  "col": "estimator",
+  "display": "IVW screen+held-out (descriptive)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 15,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 15,
+  "col": "heldout",
+  "display": "-0.287",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure_resT|S_pooled",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 15,
+  "col": "lo",
+  "display": "-0.605",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure_resT|ci_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 15,
+  "col": "hi",
+  "display": "0.032",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure_resT|ci_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 15,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 15,
+  "col": "decision",
+  "display": "DESCRIPTIVE, NOT A DECISION",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 16,
+  "col": "row",
+  "display": "closure_persist",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 16,
+  "col": "estimator",
+  "display": "IVW screen+held-out (descriptive)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 16,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 16,
+  "col": "heldout",
+  "display": "-0.683",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure_persist|S_pooled",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 16,
+  "col": "lo",
+  "display": "-1.209",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure_persist|ci_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 16,
+  "col": "hi",
+  "display": "-0.156",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=closure_persist|ci_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 16,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 16,
+  "col": "decision",
+  "display": "DESCRIPTIVE, NOT A DECISION",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 17,
+  "col": "row",
+  "display": "constraint",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 17,
+  "col": "estimator",
+  "display": "IVW screen+held-out (descriptive)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 17,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 17,
+  "col": "heldout",
+  "display": "0.091",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=constraint|S_pooled",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 17,
+  "col": "lo",
+  "display": "0.040",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=constraint|ci_lo",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 17,
+  "col": "hi",
+  "display": "0.143",
+  "src": "round-4/evaluation-3/src/results/tables/r1_iv_synthesis_descriptive.csv::csv:row=constraint|ci_hi",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 17,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 17,
+  "col": "decision",
+  "display": "DESCRIPTIVE, NOT A DECISION",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 18,
+  "col": "row",
+  "display": "H-matched subset closure_resT (n 11)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 18,
+  "col": "estimator",
+  "display": "event study",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 18,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 18,
+  "col": "heldout",
+  "display": "-0.536",
+  "src": "round-4/evaluation-3/src/results/tables/r1_n_flow.csv::csv:step=H_matched_S_closure_resT|value",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 18,
+  "col": "lo",
+  "display": "-0.933",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 18,
+  "col": "hi",
+  "display": "-0.133",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 18,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 18,
+  "col": "decision",
+  "display": "sensitivity",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 19,
+  "col": "row",
+  "display": "Balance: H SMD at k=0",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 19,
+  "col": "estimator",
+  "display": "matching",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 19,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 19,
+  "col": "heldout",
+  "display": "0.96",
+  "src": "round-4/evaluation-3/src/results/tables/r1_balance_smd.csv::csv:covariate=H;k=0|smd",
+  "kind": "cont",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 19,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 19,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 19,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 19,
+  "col": "decision",
+  "display": "imperfect",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 20,
+  "col": "row",
+  "display": "Covariates with |SMD| > 0.25 (of 11)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 20,
+  "col": "estimator",
+  "display": "matching",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 20,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 20,
+  "col": "heldout",
+  "display": "6",
+  "src": "recompute:rq1_smd_flag_count",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 20,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 20,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 20,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 20,
+  "col": "decision",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 21,
+  "col": "row",
+  "display": "Event-study controls that are screen concepts (of 25)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 21,
+  "col": "estimator",
+  "display": "matching",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 21,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 21,
+  "col": "heldout",
+  "display": "17",
+  "src": "round-4/evaluation-3/src/results/tables/r1_n_flow.csv::csv:step=controls_from_screen|value",
+  "kind": "count",
+  "check": "value",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 21,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 21,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 21,
+  "col": "holm",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 21,
+  "col": "decision",
+  "display": "fallback fired",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 22,
+  "col": "row",
+  "display": "RQ1 VERDICT",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 22,
+  "col": "estimator",
+  "display": "frozen kill rule (iteration-4 strategy)",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 22,
+  "col": "screen",
+  "display": "-",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 22,
+  "col": "heldout",
+  "display": "R1_DEAD",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 22,
+  "col": "lo",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 22,
+  "col": "hi",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 22,
+  "col": "holm",
+  "display": "",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ },
+ {
+  "table": "T_rq1",
+  "row": 22,
+  "col": "decision",
+  "display": "Structural precursors of sustained uptake are volume/churn correlates",
+  "src": null,
+  "kind": "cont",
+  "check": "literal",
+  "needle": null
+ }
+]
