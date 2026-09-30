@@ -1,0 +1,16 @@
+{
+ "load": 7.2,
+ "gates": 157.4,
+ "coverage": 18.4,
+ "mini_events": 4.4,
+ "events": 3.7,
+ "mini_nativeness": 14.8,
+ "mini_features": 11.1,
+ "nativeness": 696.1,
+ "features": 50.8,
+ "freeze": 123.2,
+ "outcomes": 9.8,
+ "models": 59.8,
+ "report": 26.3,
+ "h6": 53.2
+}

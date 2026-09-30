@@ -1,0 +1,302 @@
+{
+ "primary": {
+  "definition": {
+   "expansion": "pct_alt +10 points in 2 consecutive years (y >= first_attach+1)",
+   "diffusion": "H_rar(y)-H_rar(y-2) >= 0.2 nats AND a new active subfield in y"
+  },
+  "n_concepts": 202,
+  "category_counts": {
+   "neither": 110,
+   "diffusion_only": 39,
+   "expansion_only": 37,
+   "expansion_first": 15,
+   "same_year": 1
+  },
+  "category_counts_incl_from_start": {
+   "neither": 80,
+   "expansion_only": 52,
+   "expansion_first": 40,
+   "diffusion_only": 28,
+   "same_year": 2
+  },
+  "exp_from_start": 41,
+  "diff_from_start": 15,
+  "n_both_onsets": 16,
+  "share_expansion_first": 0.9375,
+  "share_expansion_first_ci": [
+   0.8125,
+   1.0
+  ],
+  "share_same_year": 0.0625,
+  "share_diffusion_first": 0.0,
+  "share_incl_from_start": 0.9523809523809523,
+  "share_incl_from_start_ci": [
+   0.8809523809523809,
+   1.0
+  ],
+  "n_both_incl_from_start": 42,
+  "lag_hist": {
+   "0": 1,
+   "1": 2,
+   "3": 3,
+   "5": 3,
+   "6": 4,
+   "7": 1,
+   "10": 1,
+   "19": 1
+  },
+  "lag_median": 5.0
+ },
+ "null": {
+  "draws": 1000,
+  "rule": "each observed onset redrawn uniformly over that concept's evaluable (non-first) years",
+  "observed": 0.9375,
+  "null_mean": 0.6194375,
+  "null_ci": [
+   0.375,
+   0.875
+  ],
+  "p_one_sided_greater": 0.003996003996003996,
+  "p_one_sided_less": 1.0
+ },
+ "secondary": {
+  "all_node_pct": {
+   "n_both": 2,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "counts": {
+    "neither": 146,
+    "diffusion_only": 53,
+    "expansion_first": 2,
+    "expansion_only": 1
+   }
+  },
+  "cumulative_2yr": {
+   "n_both": 8,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "counts": {
+    "neither": 113,
+    "diffusion_only": 47,
+    "expansion_only": 34,
+    "expansion_first": 8
+   }
+  },
+  "F7_widened_cum2_rise0.1": {
+   "n_both": 20,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "counts": {
+    "neither": 84,
+    "diffusion_only": 76,
+    "expansion_only": 22,
+    "expansion_first": 20
+   }
+  },
+  "all_screen_mainarm": {
+   "n_concepts": 247,
+   "n_both": 21,
+   "share_expansion_first": 0.9523809523809523,
+   "ci": [
+    0.8571428571428571,
+    1.0
+   ]
+  },
+  "onsets_le_2015": {
+   "n_both": 2,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "share_onsets_in_2016_2018": 0.24390243902439024
+  }
+ },
+ "F7_underpowered": true,
+ "by_cluster_name": {
+  "broad from the start (rapid interdisciplinary)": {
+   "n": 66,
+   "n_both": 6,
+   "share_expansion_first": 0.8333333333333334,
+   "ci": [
+    0.5,
+    1.0
+   ],
+   "counts": {
+    "neither": 29,
+    "diffusion_only": 20,
+    "expansion_only": 11,
+    "expansion_first": 5,
+    "same_year": 1
+   }
+  },
+  "localised": {
+   "n": 136,
+   "n_both": 10,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "counts": {
+    "neither": 81,
+    "expansion_only": 26,
+    "diffusion_only": 19,
+    "expansion_first": 10
+   }
+  }
+ },
+ "by_origin_group": {
+  "F17:Computer Science": {
+   "n": 41,
+   "n_both": 8,
+   "share_expansion_first": 0.875,
+   "ci": [
+    0.625,
+    1.0
+   ],
+   "counts": {
+    "neither": 18,
+    "expansion_only": 9,
+    "expansion_first": 7,
+    "diffusion_only": 6,
+    "same_year": 1
+   }
+  },
+  "F22:Engineering": {
+   "n": 19,
+   "n_both": 0,
+   "share_expansion_first": null,
+   "ci": [
+    null,
+    null
+   ],
+   "counts": {
+    "neither": 10,
+    "diffusion_only": 6,
+    "expansion_only": 3
+   }
+  },
+  "F25:Materials Science": {
+   "n": 25,
+   "n_both": 1,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "counts": {
+    "neither": 10,
+    "diffusion_only": 9,
+    "expansion_only": 5,
+    "expansion_first": 1
+   }
+  },
+  "F26:Mathematics": {
+   "n": 17,
+   "n_both": 1,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "counts": {
+    "neither": 11,
+    "expansion_only": 3,
+    "diffusion_only": 2,
+    "expansion_first": 1
+   }
+  },
+  "F31:Physics and Astronomy": {
+   "n": 98,
+   "n_both": 5,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "counts": {
+    "neither": 61,
+    "expansion_only": 16,
+    "diffusion_only": 16,
+    "expansion_first": 5
+   }
+  },
+  "OTHER_small": {
+   "n": 2,
+   "n_both": 1,
+   "share_expansion_first": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "counts": {
+    "expansion_only": 1,
+    "expansion_first": 1
+   }
+  }
+ },
+ "granger_panel": {
+  "dH_on_lags": {
+   "n": 1857,
+   "n_concepts": 193,
+   "coefs": {
+    "dP_l1": {
+     "b": -0.0013269005093700967,
+     "se": 0.0007275871928542101,
+     "p": 0.06819749172025413
+    },
+    "dP_l2": {
+     "b": 0.00010782244278298368,
+     "se": 0.000447042506852647,
+     "p": 0.8094074092933027
+    },
+    "dH_l1": {
+     "b": -0.036147194229339874,
+     "se": 0.03757937686470394,
+     "p": 0.3361052978938168
+    },
+    "dH_l2": {
+     "b": -0.08837139938845204,
+     "se": 0.03887613419523571,
+     "p": 0.02301696409020043
+    }
+   }
+  },
+  "dP_on_lags": {
+   "n": 1908,
+   "n_concepts": 200,
+   "coefs": {
+    "dH_l1": {
+     "b": 1.2088337644133027,
+     "se": 1.1480993606884864,
+     "p": 0.2923868470580636
+    },
+    "dH_l2": {
+     "b": 0.594843745221316,
+     "se": 1.0755085191998295,
+     "p": 0.5802076802836796
+    },
+    "dP_l1": {
+     "b": 0.2396029161306105,
+     "se": 0.037860390035161416,
+     "p": 2.474102502647698e-10
+    },
+    "dP_l2": {
+     "b": 0.07028438333106098,
+     "se": 0.028591985763638576,
+     "p": 0.01396413169914934
+    }
+   }
+  }
+ }
+}

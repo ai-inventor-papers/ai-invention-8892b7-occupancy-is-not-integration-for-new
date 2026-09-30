@@ -1,0 +1,101 @@
+concept_id,cluster,cluster_name,nearest_medoid,dtw_to_c_3a8d31dc5fbf,dtw_to_c_af9f1a649198,E_up_group,closure_tercile,origin_group,route,F_band,is_medoid
+c_01ebdf1dd642,1,localised,c_af9f1a649198,1.7809749473430652,0.9952685486119937,censored,T2_mid,F17:Computer Science,B_s2_index,2012-16,False
+c_02f12fcf6dfc,1,localised,c_af9f1a649198,2.210704531666251,0.41178818200178247,emerging,T3_high,F25:Materials Science,B_s2_index,2008-11,False
+c_0425ed625adb,1,localised,c_af9f1a649198,1.7722264979009423,0.6520098520582073,censored,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_05d308510ee3,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.7325606508495791,2.689783970423036,censored,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_05d3dfa90ab3,1,localised,c_af9f1a649198,1.7274057437580357,0.327046394425481,emerging,T2_mid,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_06c9f4488ab9,1,localised,c_af9f1a649198,2.2773729361692325,0.5691793320054827,emerging,T2_mid,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_0917b490e088,1,localised,c_af9f1a649198,1.7885373087274918,0.915017935197877,never,T2_mid,F31:Physics and Astronomy,B_s2_index,2005-07,False
+c_0a56c2c57311,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.4752049823667053,3.5881096961551324,censored,T1_low,F17:Computer Science,B_s2_index,2012-16,False
+c_0bce43f9d6c1,1,localised,c_af9f1a649198,1.9840640017407498,0.5101296272974123,never,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_0bdbd70bb062,1,localised,c_af9f1a649198,1.9386994801540038,0.5394428825412059,never,T2_mid,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_0db0c80eb81a,1,localised,c_af9f1a649198,1.309677847456492,1.0630321557995615,censored,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_1051a0921d9a,1,localised,c_af9f1a649198,2.5618120024464397,0.7004484305891259,censored,T2_mid,F22:Engineering,B_s2_index,2012-16,False
+c_10899378a764,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,2.8856110589808677,3.623134869623832,emerging,T1_low,F25:Materials Science,A_openalex_native,2008-11,False
+c_151799e72dd0,1,localised,c_af9f1a649198,1.548991346084032,0.9371429948186165,never,T1_low,F26:Mathematics,B_s2_index,2008-11,False
+c_15655b81c9fd,1,localised,c_af9f1a649198,1.5933329624974222,0.5351007989137716,emerging,T2_mid,F31:Physics and Astronomy,B_s2_index,2005-07,False
+c_1c1c5f783c18,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.674980978503558,1.687493580087351,emerging,T3_high,F22:Engineering,B_s2_index,2008-11,False
+c_1cfcd477dee3,1,localised,c_af9f1a649198,1.6151071376927433,0.7464998955692912,censored,T1_low,F26:Mathematics,B_s2_index,2012-16,False
+c_1d198d662026,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.9294239348850046,1.539090010088951,emerging,T2_mid,F25:Materials Science,B_s2_index,2005-07,False
+c_1e0ff7706e23,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.0886900746891637,3.402533171018297,emerging,T1_low,F31:Physics and Astronomy,A_openalex_native,2008-11,False
+c_24d62510b246,1,localised,c_af9f1a649198,2.170446651891365,0.7897505508430943,never,T3_high,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_251e8d3c0809,1,localised,c_af9f1a649198,1.56483172903346,0.39361902280117395,emerging,T1_low,F25:Materials Science,B_s2_index,2008-11,False
+c_2651f7b6296d,1,localised,c_af9f1a649198,1.4504665220338875,1.1010498297599205,never,T3_high,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_26644834ada8,1,localised,c_af9f1a649198,1.87622509209372,0.7345163008973417,never,T2_mid,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_2c27e91c2e29,1,localised,c_af9f1a649198,3.042072690146113,0.7385886039032593,never,T1_low,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_2cfdd88c29c0,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.46314023865241355,2.393699818855352,emerging,T2_mid,F22:Engineering,A_openalex_native,2005-07,False
+c_30a83dce0f03,1,localised,c_af9f1a649198,3.0383984308126797,0.7824644141716748,never,T1_low,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_3322e1ed073b,1,localised,c_af9f1a649198,2.4120608227262443,0.3061688639658197,emerging,T1_low,F25:Materials Science,B_s2_index,2008-11,False
+c_372d7258975d,1,localised,c_af9f1a649198,1.8376390043885886,0.2950005321575385,censored,T1_low,F17:Computer Science,B_s2_index,2012-16,False
+c_379ff6ff5a24,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.5839496942248712,3.846317996438437,emerging,T2_mid,F26:Mathematics,B_s2_index,2008-11,False
+c_391742f34b5a,1,localised,c_af9f1a649198,2.0972443784419736,0.3236815815625421,never,T1_low,F25:Materials Science,B_s2_index,2008-11,False
+c_3cdb45ed686d,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.9195897346848346,1.3239780655646887,censored,T3_high,F17:Computer Science,B_s2_index,2012-16,False
+c_3ece93670063,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.6917464596541438,4.475398650550114,censored,T1_low,F17:Computer Science,A_openalex_native,2012-16,False
+c_42a67c9a238e,1,localised,c_af9f1a649198,3.045054761362132,0.7257353053254725,never,T1_low,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_42f3c427ad74,1,localised,c_af9f1a649198,2.4115184098083793,0.3803488116039531,censored,T3_high,F22:Engineering,B_s2_index,2012-16,False
+c_4380b7a089e5,1,localised,c_af9f1a649198,1.7566228240945614,0.6901278489492397,never,T3_high,F25:Materials Science,B_s2_index,2008-11,False
+c_4561b92644a6,1,localised,c_af9f1a649198,1.4827216436029662,0.7813536601040668,never,T1_low,F22:Engineering,B_s2_index,2008-11,False
+c_4bd7704f481d,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.3660828970991121,3.714364577376294,censored,T1_low,F17:Computer Science,B_s2_index,2012-16,False
+c_5382c59edd3c,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,2.2068353046857974,4.256483947054274,emerging,T2_mid,F17:Computer Science,B_s2_index,2008-11,False
+c_54582ea849bf,1,localised,c_af9f1a649198,2.489468522909036,0.3569799817475789,censored,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_5a54356703c2,1,localised,c_af9f1a649198,2.3025480190300422,0.794523166861266,censored,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_6125adfefeb8,1,localised,c_af9f1a649198,2.3193950460062136,0.4376192764617647,censored,T2_mid,F26:Mathematics,B_s2_index,2012-16,False
+c_636516409d2a,1,localised,c_af9f1a649198,1.912546732188836,0.7733561830370009,censored,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_6a0ffa846683,1,localised,c_af9f1a649198,1.5803145882808352,0.7230366169015573,emerging,T3_high,F17:Computer Science,B_s2_index,2008-11,False
+c_6accb4e10a55,1,localised,c_af9f1a649198,1.4969511295489752,0.8715464854692866,never,T1_low,F25:Materials Science,B_s2_index,2012-16,False
+c_6e91c4cb8b5c,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.2484758123294908,1.4590060065830894,emerging,T2_mid,F25:Materials Science,B_s2_index,2008-11,False
+c_6f2c8d252a05,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.8838095886559361,1.097140117284875,censored,T1_low,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_75580e5ba815,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.4868010766605853,2.269378580194595,never,T3_high,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_7a4d2a93afe3,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.5895152040015323,3.581867705812916,emerging,T2_mid,F17:Computer Science,B_s2_index,2005-07,False
+c_7bdefb53c45b,1,localised,c_af9f1a649198,1.9346420410345384,0.3637810151216479,censored,T3_high,F22:Engineering,B_s2_index,2012-16,False
+c_7f10d7675fc9,1,localised,c_af9f1a649198,2.518345976416612,0.3802330145626183,censored,T3_high,F22:Engineering,A_openalex_native,2012-16,False
+c_81212986e10d,1,localised,c_af9f1a649198,2.198181669317012,0.3505846142930445,emerging,T3_high,F31:Physics and Astronomy,B_s2_index,2005-07,False
+c_8310f98578e7,1,localised,c_af9f1a649198,2.2371460503338274,0.28505452236575196,censored,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_8777851df080,1,localised,c_af9f1a649198,1.3655856679011358,0.6206597848001542,censored,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_8856d927d560,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.8685307609516594,1.1927298263929471,censored,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_8c016f0f2660,1,localised,c_af9f1a649198,2.0300731887719956,0.6666813310596089,emerging,T2_mid,F22:Engineering,B_s2_index,2008-11,False
+c_8c66d94e3b0b,1,localised,c_af9f1a649198,2.5014091373335763,0.7494830924495693,never,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_8cebebdabedf,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.3698635136356442,1.8515737552820124,censored,T2_mid,F22:Engineering,B_s2_index,2012-16,False
+c_8d78d45b59d2,1,localised,c_af9f1a649198,2.0582542305445437,1.6550238605613132,never,T1_low,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_8ee79d97b600,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,2.3950918915490464,4.90948135111425,emerging,T3_high,F26:Mathematics,B_s2_index,2008-11,False
+c_934bf6901f0f,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,3.3636676669421495,5.067960579890501,censored,T3_high,F17:Computer Science,B_s2_index,2012-16,False
+c_99bda3ffe651,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.1956513747699264,1.2230295075561528,emerging,T1_low,F25:Materials Science,A_openalex_native,2008-11,False
+c_9a6442305923,1,localised,c_af9f1a649198,1.1162044031313234,0.8805288297471825,never,T1_low,F17:Computer Science,B_s2_index,2005-07,False
+c_a3b2376178b6,1,localised,c_af9f1a649198,2.2596361234806333,0.33821197152139126,never,T3_high,F31:Physics and Astronomy,B_s2_index,2005-07,False
+c_a4b39f8b435f,1,localised,c_af9f1a649198,1.5591750508106457,0.5644657749956926,emerging,T3_high,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_a6e0e7783421,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.9233300149891414,0.9591953009323836,never,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_a86b2f667874,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.9723800502799559,1.5648536506262547,emerging,T2_mid,OTHER_small,B_s2_index,2005-07,False
+c_a9b6c9b8a739,1,localised,c_af9f1a649198,3.0409249610036997,0.7889578477897242,never,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_a9f2f1d2a57f,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.3072756290531857,2.086051755850661,emerging,T3_high,F25:Materials Science,B_s2_index,2008-11,False
+c_af24092173ad,1,localised,c_af9f1a649198,1.1096119460368417,1.062198406620035,emerging,T3_high,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_af65305d9392,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.6720034088063704,1.6971672720067899,emerging,T1_low,F25:Materials Science,B_s2_index,2005-07,False
+c_af9db7d6afa5,1,localised,c_af9f1a649198,2.3356135800371254,0.7181610855738415,never,T3_high,F31:Physics and Astronomy,A_openalex_native,2005-07,False
+c_b2414f919e9a,1,localised,c_af9f1a649198,2.318000919726934,1.1069133065843506,never,T2_mid,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_b5312b5d17ee,1,localised,c_af9f1a649198,1.7735929203685075,0.3267164303035723,censored,T3_high,F22:Engineering,B_s2_index,2012-16,False
+c_b6dd7607bba6,1,localised,c_af9f1a649198,1.7092574899243582,0.36283618410598034,never,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_b6f806466001,1,localised,c_af9f1a649198,2.2374465932549326,0.4506559472051949,censored,T1_low,F26:Mathematics,B_s2_index,2012-16,False
+c_b713a03f1d5b,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.7698066800166381,1.6349892411532232,never,T3_high,F31:Physics and Astronomy,B_s2_index,2005-07,False
+c_b8fae2ede1ed,1,localised,c_af9f1a649198,1.9217032321620373,0.3321132821467063,emerging,T2_mid,F17:Computer Science,B_s2_index,2008-11,False
+c_b90a0c18af13,1,localised,c_af9f1a649198,1.7998616577624929,0.5462572230289986,emerging,T3_high,F31:Physics and Astronomy,A_openalex_native,2008-11,False
+c_baf08ae6e65e,1,localised,c_af9f1a649198,1.1798808405994055,1.117570456484031,censored,T1_low,F25:Materials Science,B_s2_index,2012-16,False
+c_c1cfbd325cd5,1,localised,c_af9f1a649198,1.6922315022920875,1.2887964131110203,censored,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_c377114d1840,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.2123893187015717,1.462646614376169,censored,T1_low,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_c46af104250d,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,6.930790388578525,9.110732624722166,censored,T2_mid,F17:Computer Science,B_s2_index,2012-16,False
+c_c729a83094d1,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.8688748623661806,2.2896737523562707,never,T1_low,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_c907f4146998,1,localised,c_af9f1a649198,1.2081324986980535,0.9930658517772846,censored,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_ccd9bcf0ba2f,1,localised,c_af9f1a649198,2.376914471142391,0.41926005688134627,censored,T1_low,F25:Materials Science,B_s2_index,2012-16,False
+c_d90c1950b389,1,localised,c_af9f1a649198,2.095398522869226,0.869209702489941,censored,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_da11b8df9771,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.7617484776852471,1.5353182335072078,never,T2_mid,F31:Physics and Astronomy,B_s2_index,2008-11,False
+c_da42247f2a8b,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.9802381640532117,1.3702710296200589,never,T1_low,F17:Computer Science,B_s2_index,2008-11,False
+c_db639deb9200,1,localised,c_af9f1a649198,1.4924618950746873,1.4264720756346727,never,T2_mid,F26:Mathematics,B_s2_index,2008-11,False
+c_e3cf4e8c060a,1,localised,c_af9f1a649198,3.14740360031945,2.987646962012394,censored,T1_low,F17:Computer Science,A_openalex_native,2012-16,False
+c_e5a45e82b8e9,1,localised,c_af9f1a649198,1.5685642175583232,0.8162252237268339,never,T2_mid,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_e6673f0a4a58,1,localised,c_af9f1a649198,1.2272930992705435,0.8272299744645063,never,T1_low,F22:Engineering,B_s2_index,2005-07,False
+c_e72540ebc5f6,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,2.013387920703297,2.223001799812795,emerging,T1_low,F22:Engineering,B_s2_index,2005-07,False
+c_e81a3081874e,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,0.838465551397182,2.015669335226019,emerging,T3_high,F26:Mathematics,B_s2_index,2008-11,False
+c_e85f6af2801f,1,localised,c_af9f1a649198,2.3567976898648126,0.6419153865724702,censored,T3_high,F26:Mathematics,A_openalex_native,2012-16,False
+c_ed80891593f2,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,3.912345920812156,5.365587937328045,emerging,T1_low,F26:Mathematics,B_s2_index,2005-07,False
+c_ee36e7f3a9cf,1,localised,c_af9f1a649198,2.518659976608945,0.6689135723438772,never,T3_high,F31:Physics and Astronomy,B_s2_index,2012-16,False
+c_f1b003ecc05d,1,localised,c_af9f1a649198,1.4181894364865546,0.5541909417243226,censored,T1_low,F17:Computer Science,B_s2_index,2012-16,False
+c_f254c2991eae,1,localised,c_af9f1a649198,1.906871219848528,0.4805091816736483,never,T1_low,F17:Computer Science,B_s2_index,2012-16,False
+c_f9068dcb74a4,0,broad from the start (rapid interdisciplinary),c_3a8d31dc5fbf,1.2581078492274855,2.3692924497830066,censored,T1_low,F17:Computer Science,B_s2_index,2012-16,False

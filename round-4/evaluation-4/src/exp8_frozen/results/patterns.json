@@ -1,0 +1,309 @@
+{
+ "thresholds_recomputed": {
+  "sim_med": 0.5746099034891887,
+  "ng_med": 0.16362942378180212,
+  "sg_p90": 1.304186287888667,
+  "sim_raw_med": 0.47058823529411764,
+  "sg_p90_by_age": {
+   "0": 4.1588830833596715,
+   "1": 1.5738107961245698,
+   "2": 1.0607515511385825,
+   "3": 0.718791332910654,
+   "4": 0.6138808798720637,
+   "5": 0.41757599793638706,
+   "6": 0.3807222683352779,
+   "7": 0.3475977257876158,
+   "8": 0.29266441443961055,
+   "9": 0.26173853399928626
+  }
+ },
+ "thresholds_frozen_iter2": {
+  "sim_med": 0.5690308312223368,
+  "ng_med": 0.16705408466316624,
+  "sg_p90": 1.263556714320118,
+  "sim_raw_med": 0.4624327956989247,
+  "sg_p90_by_age": {
+   "0": 3.966482274557983,
+   "1": 1.596215391822491,
+   "2": 1.0964197062603975,
+   "3": 0.7190584135947892,
+   "4": 0.6027589355996656,
+   "5": 0.40219565063681423,
+   "6": 0.37063761087625885,
+   "7": 0.34950830978787184,
+   "8": 0.30743839003806683,
+   "9": 0.263190793261372
+  }
+ },
+ "mesh_verification": {
+  "incubation_expansion": {
+   "recomputed": 0.16753926701570682,
+   "reported": 0.1675392670157068,
+   "equal": true
+  },
+  "gradual_centralisation": {
+   "recomputed": 0.015706806282722512,
+   "reported": 0.0157068062827225,
+   "equal": true
+  },
+  "early_bridging": {
+   "recomputed": 0.5863874345549738,
+   "reported": 0.5863874345549738,
+   "equal": true
+  }
+ },
+ "tests": {
+  "INCUBATION_THEN_EXPANSION__E_up_group": {
+   "test": "permutation_chi2",
+   "n": 202,
+   "chi2": null,
+   "p_perm": null
+  },
+  "INCUBATION_THEN_EXPANSION__cluster_name": {
+   "test": "fisher_exact",
+   "levels": [
+    "broad from the start (rapid interdisciplinary)",
+    "localised"
+   ],
+   "p": 1.0,
+   "odds_ratio": null
+  },
+  "GRADUAL_CENTRALISATION__E_up_group": {
+   "test": "permutation_chi2",
+   "n": 202,
+   "chi2": 3.9860832794656327,
+   "p_perm": 0.16756648670265947,
+   "cramers_v": 0.14047450139405754,
+   "rows": [
+    "censored",
+    "emerging",
+    "never"
+   ],
+   "cols": [
+    "False",
+    "True"
+   ],
+   "table": [
+    [
+     61,
+     3
+    ],
+    [
+     64,
+     4
+    ],
+    [
+     70,
+     0
+    ]
+   ],
+   "std_residuals": [
+    [
+     -0.647,
+     0.647
+    ],
+    [
+     -1.338,
+     1.338
+    ],
+    [
+     1.961,
+     -1.961
+    ]
+   ],
+   "min_expected": 2.217821782178218
+  },
+  "GRADUAL_CENTRALISATION__cluster_name": {
+   "test": "fisher_exact",
+   "levels": [
+    "broad from the start (rapid interdisciplinary)",
+    "localised"
+   ],
+   "p": 0.43051867873316424,
+   "odds_ratio": 0.3333333333333333
+  },
+  "EARLY_BRIDGING__E_up_group": {
+   "test": "permutation_chi2",
+   "n": 202,
+   "chi2": 2.7996463182412827,
+   "p_perm": 0.2425514897020596,
+   "cramers_v": 0.11772695204930021,
+   "rows": [
+    "censored",
+    "emerging",
+    "never"
+   ],
+   "cols": [
+    "False",
+    "True"
+   ],
+   "table": [
+    [
+     24,
+     40
+    ],
+    [
+     20,
+     48
+    ],
+    [
+     17,
+     53
+    ]
+   ],
+   "std_residuals": [
+    [
+     1.539,
+     -1.539
+    ],
+    [
+     -0.173,
+     0.173
+    ],
+    [
+     -1.333,
+     1.333
+    ]
+   ],
+   "min_expected": 19.326732673267326
+  },
+  "EARLY_BRIDGING__cluster_name": {
+   "test": "fisher_exact",
+   "levels": [
+    "broad from the start (rapid interdisciplinary)",
+    "localised"
+   ],
+   "p": 0.0010599547051673216,
+   "odds_ratio": 3.36
+  },
+  "INCUBATION_THEN_EXPANSION_ageadj__E_up_group": {
+   "test": "permutation_chi2",
+   "n": 202,
+   "chi2": 1.865520881719522,
+   "p_perm": 0.7760447910417917,
+   "cramers_v": 0.09610021794824715,
+   "rows": [
+    "censored",
+    "emerging",
+    "never"
+   ],
+   "cols": [
+    "False",
+    "True"
+   ],
+   "table": [
+    [
+     64,
+     0
+    ],
+    [
+     67,
+     1
+    ],
+    [
+     68,
+     2
+    ]
+   ],
+   "std_residuals": [
+    [
+     1.188,
+     -1.188
+    ],
+    [
+     0.012,
+     -0.012
+    ],
+    [
+     -1.174,
+     1.174
+    ]
+   ],
+   "min_expected": 0.9504950495049505
+  },
+  "INCUBATION_THEN_EXPANSION_ageadj__cluster_name": {
+   "test": "fisher_exact",
+   "levels": [
+    "broad from the start (rapid interdisciplinary)",
+    "localised"
+   ],
+   "p": 0.033811142308260676,
+   "odds_ratio": null
+  },
+  "EARLY_BRIDGING_aligned__E_up_group": {
+   "test": "permutation_chi2",
+   "n": 202,
+   "chi2": 6.152307480160849,
+   "p_perm": 0.04379124175164967,
+   "cramers_v": 0.17451924743010028,
+   "rows": [
+    "censored",
+    "emerging",
+    "never"
+   ],
+   "cols": [
+    "False",
+    "True"
+   ],
+   "table": [
+    [
+     25,
+     39
+    ],
+    [
+     18,
+     50
+    ],
+    [
+     14,
+     56
+    ]
+   ],
+   "std_residuals": [
+    [
+     2.332,
+     -2.332
+    ],
+    [
+     -0.393,
+     0.393
+    ],
+    [
+     -1.89,
+     1.89
+    ]
+   ],
+   "min_expected": 18.059405940594058
+  },
+  "EARLY_BRIDGING_aligned__cluster_name": {
+   "test": "fisher_exact",
+   "levels": [
+    "broad from the start (rapid interdisciplinary)",
+    "localised"
+   ],
+   "p": 0.004422732457333397,
+   "odds_ratio": 2.957303370786517
+  }
+ },
+ "early_bridging_gap_diagnostic": {
+  "iter2_indicators_rescored": 0.7642276422764228,
+  "hydrated_with_iter2_cross_flag": 0.7642276422764228,
+  "hydrated_P_raw_component_only": 0.6910569105691057,
+  "iter2_P_raw_component_only": 0.6910569105691057,
+  "cross_flag_share_F_F1_hydrated": 0.13821138211382114,
+  "cross_flag_share_F_F1_iter2": 0.3130081300813008
+ },
+ "old123_frozen_reproduction": {
+  "hydrated": {
+   "INCUBATION_THEN_EXPANSION": 0.0,
+   "GRADUAL_CENTRALISATION": 0.032520325203252036,
+   "EARLY_BRIDGING": 0.7154471544715447
+  },
+  "iter2": {
+   "INCUBATION_THEN_EXPANSION": 0.0,
+   "GRADUAL_CENTRALISATION": 0.032520325203252036,
+   "EARLY_BRIDGING": 0.7642276422764228
+  }
+ },
+ "note": "MeSH flags come from iteration 2 (own background snapshots, Leiden n_iterations=2, first-network-year anchor): the contrast is a descriptive population contrast; the aligned early-bridging variant re-scores the main pool under the MeSH anchoring rule."
+}
