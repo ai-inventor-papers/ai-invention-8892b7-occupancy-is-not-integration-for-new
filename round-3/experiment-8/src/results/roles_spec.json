@@ -1,0 +1,79 @@
+{
+ "spec": {
+  "unit": "concept-year y >= first attachment year + 1 (first year with frame-type c-papers in the snapshot)",
+  "dominant": "dom(y) = persistent id of the community holding the largest all-type tag weight (plural community); communities < 5 nodes have no persistent id (dom = -1)",
+  "P": "P_rar (m = 10, 50 draws, iteration-2 seeds); fallback P_raw if P_rar is NaN (flagged)",
+  "STAYER": {
+   "rule": "dom(y) == dom(y-1) >= 0 AND P < P_stay",
+   "P_stay": 0.3
+  },
+  "MIGRANT": {
+   "rule": "dom(y) != dom(y-1), both >= 0, AND dom(y) existed in y-1 (its persistent id is present at y-1)"
+  },
+  "BRIDGE": {
+   "rule": "P >= P_bridge OR >= 2 communities each holding >= share_bridge of the concept's all-type tag weight",
+   "P_bridge": 0.6,
+   "share_bridge": 0.25
+  },
+  "CORE_GROWING": {
+   "rule": "wmz >= z_core AND size(dom, y) >= (1 + growth) * size(dom, y-1)",
+   "z_core": 1.0,
+   "growth": 0.1
+  },
+  "FOUNDER": {
+   "rule": "dom(y) was born (alluvial 'birth', no Jaccard >= 0.3 match in y-1) in [first_attach-1, first_attach+1] AND y - birth_year <= 1 AND the concept ranks in the top 5 of dom(y) by within-community strength (its frame-type tag weight into dom vs k_own of the community's members)",
+   "top": 5
+  },
+  "precedence": [
+   "FOUNDER",
+   "CORE_GROWING",
+   "BRIDGE",
+   "MIGRANT",
+   "STAYER",
+   "OTHER"
+  ],
+  "robust": "the modal primary role over the 5 NEW seeds (101-105) occurs in >= 3 of them",
+  "GA": {
+   "hub_z": 2.5,
+   "nonhub": {
+    "R1_ultra_peripheral": 0.05,
+    "R2_peripheral": 0.62,
+    "R3_connector": 0.8,
+    "R4_kinless": 1.0
+   },
+   "hub": {
+    "R5_provincial_hub": 0.3,
+    "R6_connector_hub": 0.75,
+    "R7_kinless_hub": 1.0
+   }
+  },
+  "grid": {
+   "P_stay": [
+    0.2,
+    0.3,
+    0.4
+   ],
+   "P_bridge": [
+    0.5,
+    0.6,
+    0.7
+   ],
+   "share_bridge": [
+    0.2,
+    0.25,
+    0.33
+   ],
+   "z_core": [
+    0.5,
+    1.0,
+    1.5
+   ],
+   "growth": [
+    0.05,
+    0.1,
+    0.2
+   ]
+  }
+ },
+ "sha256": "86f8acb86b982f8f55d90899d9ea843e31f9e50d24e8f0285c578d912a9f0f0c"
+}

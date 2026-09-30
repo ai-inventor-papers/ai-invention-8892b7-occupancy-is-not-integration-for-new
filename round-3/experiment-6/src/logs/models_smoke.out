@@ -1,0 +1,23 @@
+04:19:17|INFO   |__main__:64|=== stage models ===
+04:19:30|INFO   |models:132|     closure_res_z       Y1r: coef +0.0194 [-0.0089, +0.0394] p_boot 0.1891 n=347/98 | dR2 +0.0067 [-0.0149, +0.0277]
+04:19:30|INFO   |models:132|     closure_res_z        Y2: coef +0.0070 [-0.0019, +0.0131] p_boot 0.1990 n=351/100 | dR2 +0.0123 [-0.0135, +0.0389]
+04:19:30|INFO   |models:132|     closure_res_z  log1p_Y3: coef -0.0650 [-0.1494, +0.0052] p_boot 0.0796 n=351/100 | dR2 +0.0011 [-0.0117, +0.0160]
+04:19:30|INFO   |models:132| closure_res_imp_z       Y1r: coef +0.0209 [-0.0053, +0.0398] p_boot 0.1891 n=452/123 | dR2 +0.0079 [-0.0116, +0.0253]
+04:19:31|INFO   |models:132| closure_res_imp_z        Y2: coef +0.0120 [+0.0017, +0.0206] p_boot 0.0398 n=512/136 | dR2 +0.0182 [-0.0039, +0.0379]
+04:19:31|INFO   |models:132| closure_res_imp_z  log1p_Y3: coef -0.0262 [-0.1009, +0.0566] p_boot 0.5274 n=515/136 | dR2 -0.0022 [-0.0057, +0.0020]
+04:19:31|INFO   |models:132|      constraint_z       Y1r: coef +0.0108 [-0.0180, +0.0311] p_boot 0.4975 n=453/123 | dR2 -0.0006 [-0.0096, +0.0082]
+04:19:31|INFO   |models:132|      constraint_z        Y2: coef -0.0094 [-0.0197, +0.0019] p_boot 0.1194 n=523/137 | dR2 +0.0025 [-0.0207, +0.0160]
+04:19:31|INFO   |models:132|      constraint_z  log1p_Y3: coef +0.0617 [-0.0235, +0.1434] p_boot 0.1692 n=528/138 | dR2 -0.0005 [-0.0101, +0.0077]
+04:19:31|INFO   |models:132|      esize_norm_z       Y1r: coef -0.0086 [-0.0365, +0.0308] p_boot 0.6468 n=453/123 | dR2 -0.0056 [-0.0128, +0.0010]
+04:19:32|INFO   |models:132|      esize_norm_z        Y2: coef +0.0006 [-0.0174, +0.0245] p_boot 0.8557 n=523/137 | dR2 -0.0150 [-0.0341, -0.0040]
+04:19:32|INFO   |models:132|      esize_norm_z  log1p_Y3: coef +0.0433 [-0.0676, +0.2014] p_boot 0.4577 n=528/138 | dR2 -0.0067 [-0.0196, +0.0020]
+04:19:32|INFO   |models:132|       xcomm_exc_z       Y1r: coef +0.0033 [-0.0273, +0.0325] p_boot 0.7363 n=429/122 | dR2 -0.0105 [-0.0202, -0.0030]
+04:19:32|INFO   |models:132|       xcomm_exc_z        Y2: coef -0.0021 [-0.0124, +0.0100] p_boot 0.7960 n=497/136 | dR2 -0.0056 [-0.0111, -0.0020]
+04:19:32|INFO   |models:132|       xcomm_exc_z  log1p_Y3: coef +0.0457 [-0.0337, +0.1525] p_boot 0.3781 n=502/137 | dR2 -0.0016 [-0.0071, +0.0033]
+04:19:32|INFO   |models:387|VERDICT: D1_NOT_SUPPORTED_SCREEN (met: []; opposite: [])
+04:19:33|INFO   |models:398|E_up subset: 68 concepts / 81 rows (secondary analysis)
+04:19:40|INFO   |models:401|robustness grid: 132 rows
+./src/stats_core.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  return float(1 - np.sum((y - p) ** 2) / np.sum((y - y.mean()) ** 2))
+04:19:45|INFO   |models:416|models done
+04:19:45|INFO   |__main__:104|=== stage models done in 27.2s (guard calls so far 0) ===
