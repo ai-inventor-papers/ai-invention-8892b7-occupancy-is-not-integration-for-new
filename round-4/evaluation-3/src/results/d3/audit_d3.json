@@ -1,0 +1,28 @@
+{
+ "screen": {
+  "n": 102,
+  "n_reported": 102,
+  "max_abs_dX": 1.7763568394002505e-15,
+  "max_abs_dY": 9.71445146547012e-17,
+  "partial_rho_ols": 0.02471650692182707,
+  "partial_rho_precision": 0.024716506921826937,
+  "partial_rho_reported": 0.0247165069218271,
+  "abs_diff": 3.122502256758253e-17,
+  "raw_rho": -0.02700586088260473,
+  "raw_rho_reported": -0.02700586088260473,
+  "pass": true
+ },
+ "heldout": {
+  "n": 49,
+  "n_reported": 49,
+  "max_abs_dX": 1.7763568394002505e-15,
+  "max_abs_dY": 9.71445146547012e-17,
+  "partial_rho_ols": 0.05262567070761111,
+  "partial_rho_precision": 0.05262567070761114,
+  "partial_rho_reported": 0.05262567070761105,
+  "abs_diff": 5.551115123125783e-17,
+  "raw_rho": 0.08826530612244897,
+  "raw_rho_reported": 0.08826530612244897,
+  "pass": true
+ }
+}

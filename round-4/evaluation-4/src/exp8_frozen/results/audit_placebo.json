@@ -1,0 +1,78 @@
+{
+ "validation_V1_newcomer_share": {
+  "rederived_eps2": 0.1712823648531913,
+  "rederived_p": 5.2751215739483494e-09,
+  "pipeline_eps2": 0.1712823648531913,
+  "pipeline_p": 5.2751215739483494e-09,
+  "equal": 1.0,
+  "placebo_shuffled_labels_share_p_lt_0_05": 0.062,
+  "placebo_fails": true
+ },
+ "validation_V2_pct_alt_gain": {
+  "rederived_eps2": 0.0649764356941013,
+  "rederived_p": 0.00032330411605712225,
+  "pipeline_eps2": 0.0649764356941013,
+  "pipeline_p": 0.00032330411605712225,
+  "equal": 1.0,
+  "placebo_shuffled_labels_share_p_lt_0_05": 0.066,
+  "placebo_fails": true
+ },
+ "validation_V3_comm_touched": {
+  "rederived_eps2": 0.04387813257641516,
+  "rederived_p": 0.0031271648935312455,
+  "pipeline_eps2": 0.04387813257641516,
+  "pipeline_p": 0.0031271648935312455,
+  "equal": 1.0,
+  "placebo_shuffled_labels_share_p_lt_0_05": 0.046,
+  "placebo_fails": true
+ },
+ "AMI_3ch_vs_volume_terciles": {
+  "rederived": 0.014349059383510838,
+  "pipeline": 0.014349059383510838,
+  "equal": true
+ },
+ "cluster_x_origin_group": {
+  "rederived_perm_p": 0.0074962518740629685,
+  "pipeline_perm_p": 0.0037996200379962005,
+  "both_below_0_05": true,
+  "placebo_share_p_lt_0_05": 0.025,
+  "placebo_fails": true
+ },
+ "leadlag_share_expansion_first": {
+  "rederived": 0.9375,
+  "n_both": 16,
+  "pipeline": 0.9375,
+  "equal": true,
+  "placebo_label_swap_mean": 0.4715,
+  "placebo_p_share_ge_observed": 0.0,
+  "observed_vs_null_p": 0.003996003996003996,
+  "placebo_fails": true
+ },
+ "roles_robust_share": {
+  "rederived": 0.9715789473684211,
+  "pipeline": 0.9715789473684211,
+  "equal": 1.0,
+  "placebo_independent_seeds_share": 0.8712280701754386,
+  "placebo_lower": true
+ },
+ "entry_OR_BRIDGE": {
+  "rederived": 0.6382623804603537,
+  "ci": [
+   0.3784664157773756,
+   1.076393701866928
+  ],
+  "pipeline": 0.6382623804603547,
+  "equal": true,
+  "placebo_shuffled_roles_median_OR": 0.9897194180897921,
+  "placebo_share_CI_excludes_1": 0.02,
+  "note": "the observed CI already covers 1 (no claim of an effect); placebo confirms OR ~ 1 under shuffling"
+ },
+ "early_bridging_main_minus_mesh": {
+  "rederived": 0.1116323674252242,
+  "permutation_p_two_sided": 0.0246,
+  "placebo_mean_diff": 0.0005998341195376239,
+  "placebo_fails": true
+ },
+ "all_rederived_equal": true,
+ "all_placebos_fail": true
+}

@@ -1,0 +1,17 @@
+{
+ "started_utc": "2026-09-29T07:12:10Z",
+ "n_events": 2267,
+ "Y_strict_zero_share": 0.47154830172033524,
+ "Y_strict_mean": 1.8253198059108955,
+ "Y_all_mean": 2.4847816497573887,
+ "n_w2_noauthor_total": 51,
+ "EST_bin_share": 0.17159241288045876,
+ "g1": {
+  "n": 880,
+  "Y_strict_zero_share": 0.19886363636363635
+ },
+ "union": {
+  "n": 2619,
+  "Y_strict_zero_share": 0.4539900725467736
+ }
+}

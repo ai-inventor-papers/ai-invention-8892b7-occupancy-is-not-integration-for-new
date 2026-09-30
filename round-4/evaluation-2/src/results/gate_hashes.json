@@ -1,0 +1,202 @@
+{
+ "n_checked": 27,
+ "n_match": 27,
+ "counts": {
+  "spec": 1,
+  "code": 7,
+  "sealed": 3,
+  "data": 16
+ },
+ "all_match": true,
+ "files": [
+  {
+   "kind": "spec",
+   "path": "d2/heldout_spec.json",
+   "want": "8db17113adda31f3bb8640dc8209784aea803fb229f722ac9a6daa8428adca7c",
+   "got": "8db17113adda31f3bb8640dc8209784aea803fb229f722ac9a6daa8428adca7c",
+   "match": true
+  },
+  {
+   "kind": "code",
+   "path": "d2/src/config.py",
+   "want": "9298a1e1ebf69cdde34bc3af89f502a0a617822457b8ad34be4786859db0f6b8",
+   "got": "9298a1e1ebf69cdde34bc3af89f502a0a617822457b8ad34be4786859db0f6b8",
+   "match": true
+  },
+  {
+   "kind": "code",
+   "path": "d2/src/io_load.py",
+   "want": "7a4c3efa577f25803e202ae9cd73a154d086cc10c0696ede5cdd5434b509b67d",
+   "got": "7a4c3efa577f25803e202ae9cd73a154d086cc10c0696ede5cdd5434b509b67d",
+   "match": true
+  },
+  {
+   "kind": "code",
+   "path": "d2/src/features.py",
+   "want": "42430cda1a6039f67fc807be3da5a5a8fac2649629d182683282f6530e779ff4",
+   "got": "42430cda1a6039f67fc807be3da5a5a8fac2649629d182683282f6530e779ff4",
+   "match": true
+  },
+  {
+   "kind": "code",
+   "path": "d2/src/outcomes.py",
+   "want": "6d4ad7d50843622ea100e19a8a530228d92c9dcba3fef8d92961301160d9e044",
+   "got": "6d4ad7d50843622ea100e19a8a530228d92c9dcba3fef8d92961301160d9e044",
+   "match": true
+  },
+  {
+   "kind": "code",
+   "path": "d2/src/models.py",
+   "want": "4110f18af2ad2512835730bcdeb0380071e7de5d319dcc0c58bd3c1554d7d661",
+   "got": "4110f18af2ad2512835730bcdeb0380071e7de5d319dcc0c58bd3c1554d7d661",
+   "match": true
+  },
+  {
+   "kind": "code",
+   "path": "d2/src/ppml.py",
+   "want": "369a93a658677c9f875a73b7fb8819727df557a540178d9b39daf6ce1f3aed4c",
+   "got": "369a93a658677c9f875a73b7fb8819727df557a540178d9b39daf6ce1f3aed4c",
+   "match": true
+  },
+  {
+   "kind": "code",
+   "path": "d2/confirm_heldout.py",
+   "want": "6a57f149a964473757ddd57feb9076ee6fe429f9b6a2818ff93407e0e5aeaa50",
+   "got": "6a57f149a964473757ddd57feb9076ee6fe429f9b6a2818ff93407e0e5aeaa50",
+   "match": true
+  },
+  {
+   "kind": "sealed",
+   "path": "d2/sealed/heldout_features.parquet",
+   "want": "92e3099adff5fc1e526f899945fe19f9a003face0f0cc7d61574e3e19f844ff4",
+   "got": "92e3099adff5fc1e526f899945fe19f9a003face0f0cc7d61574e3e19f844ff4",
+   "match": true
+  },
+  {
+   "kind": "sealed",
+   "path": "d2/sealed/graft_labels_heldout.parquet",
+   "want": "3a3728a9e2d99d0418b5f559f358a997e7ceda32eed2627917442e37bf869e55",
+   "got": "3a3728a9e2d99d0418b5f559f358a997e7ceda32eed2627917442e37bf869e55",
+   "match": true
+  },
+  {
+   "kind": "sealed",
+   "path": "d2/sealed/d3_concept_anchoring_heldout.parquet",
+   "want": "c01f73a43cc7619a918f9b76b5f361812c8d3cdc33374c034c6259036d789ae4",
+   "got": "c01f73a43cc7619a918f9b76b5f361812c8d3cdc33374c034c6259036d789ae4",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/works/works_part_00.parquet",
+   "want": "7a46c39bcc6d4e5f4f73d50accf23e8a7f2f1d5c8227dad2339da42a2a096795",
+   "got": "7a46c39bcc6d4e5f4f73d50accf23e8a7f2f1d5c8227dad2339da42a2a096795",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/works/works_part_01.parquet",
+   "want": "a605e94d935bcb9ff0e0a4b31edd703dc2e5808c6f1c7ad112f6da92d49a2054",
+   "got": "a605e94d935bcb9ff0e0a4b31edd703dc2e5808c6f1c7ad112f6da92d49a2054",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/works/works_part_02.parquet",
+   "want": "e560719f7dff0676d1446b2a2835bc75d38c0ae6cad133fa8701f6e67ad2786c",
+   "got": "e560719f7dff0676d1446b2a2835bc75d38c0ae6cad133fa8701f6e67ad2786c",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/works/works_part_03.parquet",
+   "want": "8a62d2b73fd6e04031deca56f6e8f5610aba53a9990920c8629a2afc2582a71c",
+   "got": "8a62d2b73fd6e04031deca56f6e8f5610aba53a9990920c8629a2afc2582a71c",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/works/works_part_04.parquet",
+   "want": "2ebd35dd1095ecf1c6d6ef957b703e47e6bf5c7eb2a9f8157209aa34925cf4ab",
+   "got": "2ebd35dd1095ecf1c6d6ef957b703e47e6bf5c7eb2a9f8157209aa34925cf4ab",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/works/works_part_05.parquet",
+   "want": "21868ec01f3389ea1a2ef5205019d1a3f1664c40bac25e892902c35138220a63",
+   "got": "21868ec01f3389ea1a2ef5205019d1a3f1664c40bac25e892902c35138220a63",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/works/works_part_06.parquet",
+   "want": "b4ae5b020f0220c36343b9ab11174c3d357d7b3c88bf8df3f4bcf99297b75ae6",
+   "got": "b4ae5b020f0220c36343b9ab11174c3d357d7b3c88bf8df3f4bcf99297b75ae6",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/works/works_part_07.parquet",
+   "want": "f05eae45d5cc572dd18ad11aa58fd6d91d1a1c827c48aa12894ee55ef6d92147",
+   "got": "f05eae45d5cc572dd18ad11aa58fd6d91d1a1c827c48aa12894ee55ef6d92147",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/concept_work.parquet",
+   "want": "000e6de2a4b57c4fcc083270f8b02c969e418bea9ea1809d5611cd0cc7f4bf2f",
+   "got": "000e6de2a4b57c4fcc083270f8b02c969e418bea9ea1809d5611cd0cc7f4bf2f",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/data_out.json",
+   "want": "945b78544e0f0a92c7b9cbe6889c39b0cab55905cc01d644d7bfb1da56f28a76",
+   "got": "945b78544e0f0a92c7b9cbe6889c39b0cab55905cc01d644d7bfb1da56f28a76",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/p2/profiles.jsonl",
+   "want": "fc0d0107e3743fcc1493d769a0a42a419198c1c7f401d70d9068d0d3272dc73f",
+   "got": "fc0d0107e3743fcc1493d769a0a42a419198c1c7f401d70d9068d0d3272dc73f",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/outputs/nativeness_coverage.json",
+   "want": "b101cc348d89ceb31a68cf7c2930a8e85e86bf93e06261e493d2a1abcc075211",
+   "got": "b101cc348d89ceb31a68cf7c2930a8e85e86bf93e06261e493d2a1abcc075211",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/keywords_dict.json",
+   "want": "f4a5e312836a588f4c0bdbf67608cd98b2cc140dff5ae3814440502c047c89cd",
+   "got": "f4a5e312836a588f4c0bdbf67608cd98b2cc140dff5ae3814440502c047c89cd",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/context/subfield_year_totals.json",
+   "want": "0b75c1919a59868f5535909cd518b9ff14199e360d9229a2743df3771f8dfe21",
+   "got": "0b75c1919a59868f5535909cd518b9ff14199e360d9229a2743df3771f8dfe21",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/dataset-5/src/hyd/taxonomy.json",
+   "want": "af81846da989118f16f1bf3f7aeb6cc2252a974916421f2609aef02440d7b243",
+   "got": "af81846da989118f16f1bf3f7aeb6cc2252a974916421f2609aef02440d7b243",
+   "match": true
+  },
+  {
+   "kind": "data",
+   "path": "round-2/experiment-1/src/results/test_population.json",
+   "want": "6a887fb44d3a72951abbc647cb08a5be39081601e0e2647922376dcd40075505",
+   "got": "6a887fb44d3a72951abbc647cb08a5be39081601e0e2647922376dcd40075505",
+   "match": true
+  }
+ ]
+}

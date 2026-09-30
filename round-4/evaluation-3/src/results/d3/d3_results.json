@@ -1,0 +1,1126 @@
+{
+ "spec_sha256": "5d0144d7c06d61491cd517f6216c4de2cebb462369e355b5e1203cb95f0297d2",
+ "timing_level": "L1",
+ "primary": {
+  "screen": {
+   "label": "primary|screen",
+   "x": "X",
+   "y": "Y",
+   "n": 102,
+   "k_covariates": 5,
+   "covariate_columns": [
+    "log_vol_early",
+    "log_n_events",
+    "og_Computer Science",
+    "og_Materials/Chem/Eng",
+    "og_Mathematics"
+   ],
+   "origin_counts": {
+    "Physics&Astronomy": 37,
+    "Materials/Chem/Eng": 31,
+    "Computer Science": 19,
+    "Mathematics": 13,
+    "Other": 2
+   },
+   "raw_rho": -0.02700586088260473,
+   "raw_p_two": 0.787596114375055,
+   "raw_ci": [
+    -0.2545973022897977,
+    0.2040403933819861
+   ],
+   "partial_rho": 0.0247165069218271,
+   "ci": [
+    -0.1987005564227242,
+    0.24247952859874067
+   ],
+   "ci_bca": [
+    -0.20836967521505842,
+    0.23780246375902409
+   ],
+   "se_boot": 0.1146627904402738,
+   "p_one_neg": 0.6008399160083991,
+   "p_one_pos": 0.3992600739926007,
+   "p_two_perm": 0.8057194280571943,
+   "perm_null_mean": -0.0007224081083759519,
+   "perm_null_sd": 0.10200079377499797,
+   "mde_rho": 0.2581243365067979,
+   "power_at_screen_rho": null,
+   "secs": 1.94
+  },
+  "heldout": {
+   "label": "primary|heldout",
+   "x": "X",
+   "y": "Y",
+   "n": 49,
+   "k_covariates": 5,
+   "covariate_columns": [
+    "log_vol_early",
+    "log_n_events",
+    "og_Computer Science",
+    "og_Materials/Chem/Eng",
+    "og_Mathematics"
+   ],
+   "origin_counts": {
+    "Physics&Astronomy": 18,
+    "Materials/Chem/Eng": 17,
+    "Computer Science": 7,
+    "Mathematics": 6,
+    "Other": 1
+   },
+   "raw_rho": 0.08826530612244897,
+   "raw_p_two": 0.5464515139087022,
+   "raw_ci": [
+    -0.21631334286881895,
+    0.39261474362992344
+   ],
+   "partial_rho": 0.05262567070761105,
+   "ci": [
+    -0.2792458638764486,
+    0.39061877764414327
+   ],
+   "ci_bca": [
+    -0.3072367670029604,
+    0.35352302704120686
+   ],
+   "se_boot": 0.17102135668911717,
+   "p_one_neg": 0.6348365163483651,
+   "p_one_pos": 0.36526347365263473,
+   "p_two_perm": 0.7356264373562644,
+   "perm_null_mean": -0.0009796027646377435,
+   "perm_null_sd": 0.1526378886565879,
+   "mde_rho": 0.3798518799085745,
+   "power_at_screen_rho": null,
+   "secs": 1.73
+  }
+ },
+ "raw": {},
+ "sensitivities": {
+  "screen": {
+   "S1_closure_res": {
+    "label": "S1|screen",
+    "x": "X_res",
+    "y": "Y",
+    "n": 82,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Mathematics",
+     "og_Physics&Astronomy"
+    ],
+    "origin_counts": {
+     "Materials/Chem/Eng": 29,
+     "Physics&Astronomy": 25,
+     "Computer Science": 15,
+     "Mathematics": 11,
+     "Other": 2
+    },
+    "raw_rho": -0.08221548642107793,
+    "raw_p_two": 0.4627610765495762,
+    "raw_ci": [
+     -0.307678336075625,
+     0.14965669610821605
+    ],
+    "partial_rho": -0.053515040317709435,
+    "ci": [
+     -0.29697822964671183,
+     0.2007379101524755
+    ],
+    "ci_bca": [
+     -0.2961230210653856,
+     0.20105853807520715
+    ],
+    "se_boot": 0.12656165178187634,
+    "p_one_neg": 0.32686731326867313,
+    "p_one_pos": 0.6732326767323268,
+    "p_two_perm": 0.6454354564543545,
+    "perm_null_mean": -0.000545453646105144,
+    "perm_null_sd": 0.11502285357829921,
+    "mde_rho": 0.28916494961705635,
+    "power_at_screen_rho": null,
+    "secs": 1.82
+   },
+   "S2_pre_onset": {
+    "label": "S2|screen",
+    "x": "X",
+    "y": "Y",
+    "n": 42,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 23,
+     "Mathematics": 7,
+     "Computer Science": 7,
+     "Materials/Chem/Eng": 5
+    },
+    "raw_rho": -0.004618750506441942,
+    "raw_p_two": 0.9768408919676961,
+    "raw_ci": [
+     -0.3510164890717879,
+     0.3259843325544262
+    ],
+    "partial_rho": 0.03429527631249733,
+    "ci": [
+     -0.3305943878380957,
+     0.37228597053656953
+    ],
+    "ci_bca": [
+     -0.3209223327837847,
+     0.39180155594602306
+    ],
+    "se_boot": 0.18032543344977625,
+    "p_one_neg": 0.5789421057894211,
+    "p_one_pos": 0.42115788421157885,
+    "p_two_perm": 0.8353164683531646,
+    "perm_null_mean": 0.0015172852891609527,
+    "perm_null_sd": 0.16449514766910714,
+    "mde_rho": 0.4129198135069856,
+    "power_at_screen_rho": null,
+    "secs": 1.78,
+    "n_emerging_in_sample": 7
+   },
+   "S3_plus_H_W1": {
+    "label": "S3|screen",
+    "x": "X",
+    "y": "Y",
+    "n": 102,
+    "k_covariates": 6,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics",
+     "H_end"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 37,
+     "Materials/Chem/Eng": 31,
+     "Computer Science": 19,
+     "Mathematics": 13,
+     "Other": 2
+    },
+    "raw_rho": -0.02700586088260473,
+    "raw_p_two": 0.787596114375055,
+    "raw_ci": [
+     -0.2545973022897977,
+     0.2040403933819861
+    ],
+    "partial_rho": 0.03610422107380781,
+    "ci": [
+     -0.19304844827374634,
+     0.2592753802210827
+    ],
+    "ci_bca": [
+     -0.20321694914751032,
+     0.25086563844855264
+    ],
+    "se_boot": 0.11560828890565347,
+    "p_one_neg": 0.6447355264473552,
+    "p_one_pos": 0.35536446355364465,
+    "p_two_perm": 0.7210278972102789,
+    "perm_null_mean": -0.0006840257467808213,
+    "perm_null_sd": 0.10262885962231331,
+    "mde_rho": 0.25944558574240795,
+    "power_at_screen_rho": null,
+    "secs": 2.25
+   },
+   "S4_A_cont_ex": {
+    "label": "S4|screen",
+    "x": "X",
+    "y": "Y_ex",
+    "n": 102,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 37,
+     "Materials/Chem/Eng": 31,
+     "Computer Science": 19,
+     "Mathematics": 13,
+     "Other": 2
+    },
+    "raw_rho": -0.1427585933921776,
+    "raw_p_two": 0.15232584562306464,
+    "raw_ci": [
+     -0.32928335576290163,
+     0.05098850663923348
+    ],
+    "partial_rho": -0.1722212095274318,
+    "ci": [
+     -0.3765702972754207,
+     0.03665217543441836
+    ],
+    "ci_bca": [
+     -0.36835835994854943,
+     0.04105017483192808
+    ],
+    "se_boot": 0.10609576751328177,
+    "p_one_neg": 0.0461953804619538,
+    "p_one_pos": 0.9539046095390461,
+    "p_two_perm": 0.09419058094190581,
+    "perm_null_mean": 0.0004669925112576637,
+    "perm_null_sd": 0.10250904848695365,
+    "mde_rho": 0.2581243365067979,
+    "power_at_screen_rho": null,
+    "secs": 1.85
+   },
+   "S5_no_physics": {
+    "label": "S5|screen",
+    "x": "X",
+    "y": "Y",
+    "n": 65,
+    "k_covariates": 4,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Materials/Chem/Eng": 31,
+     "Computer Science": 19,
+     "Mathematics": 13,
+     "Other": 2
+    },
+    "raw_rho": -0.18584119145767888,
+    "raw_p_two": 0.13829423672459606,
+    "raw_ci": [
+     -0.4621180529632455,
+     0.10298332794641404
+    ],
+    "partial_rho": -0.1266130679425781,
+    "ci": [
+     -0.3996623789920352,
+     0.16912409143952487
+    ],
+    "ci_bca": [
+     -0.3916482486136941,
+     0.18546787113769508
+    ],
+    "se_boot": 0.14435478723590756,
+    "p_one_neg": 0.16298370162983702,
+    "p_one_pos": 0.8371162883711629,
+    "p_two_perm": 0.32926707329267074,
+    "perm_null_mean": 0.001727326325990996,
+    "perm_null_sd": 0.12939766407943024,
+    "mde_rho": 0.32409248826140624,
+    "power_at_screen_rho": null,
+    "secs": 1.74
+   },
+   "S6_min2_events": {
+    "label": "S6|screen",
+    "x": "X",
+    "y": "Y",
+    "n": 77,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Mathematics",
+     "og_Physics&Astronomy"
+    ],
+    "origin_counts": {
+     "Materials/Chem/Eng": 28,
+     "Physics&Astronomy": 22,
+     "Computer Science": 14,
+     "Mathematics": 11,
+     "Other": 2
+    },
+    "raw_rho": -0.15295331611690122,
+    "raw_p_two": 0.18416610072904918,
+    "raw_ci": [
+     -0.3791404334597255,
+     0.08675148412297115
+    ],
+    "partial_rho": -0.12694459321969864,
+    "ci": [
+     -0.38780937441679886,
+     0.15830408995360015
+    ],
+    "ci_bca": [
+     -0.3678728788679812,
+     0.17557893995893686
+    ],
+    "se_boot": 0.14160680106953094,
+    "p_one_neg": 0.14278572142785723,
+    "p_one_pos": 0.8573142685731426,
+    "p_two_perm": 0.2790720927907209,
+    "perm_null_mean": -0.0016193649968242582,
+    "perm_null_sd": 0.11760778572128608,
+    "mde_rho": 0.29884492337307167,
+    "power_at_screen_rho": null,
+    "secs": 1.85
+   },
+   "S7_constraint_EXPLORATORY": {
+    "label": "S7c|screen",
+    "x": "X_constraint",
+    "y": "Y",
+    "n": 102,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 37,
+     "Materials/Chem/Eng": 31,
+     "Computer Science": 19,
+     "Mathematics": 13,
+     "Other": 2
+    },
+    "raw_rho": 0.05194783164331861,
+    "raw_p_two": 0.604087378209591,
+    "raw_ci": [
+     -0.1353402226558902,
+     0.23700429487445193
+    ],
+    "partial_rho": 0.018064660347129377,
+    "ci": [
+     -0.18103611406797163,
+     0.2004581157310365
+    ],
+    "ci_bca": [
+     -0.1691889305754121,
+     0.21018161202774946
+    ],
+    "se_boot": 0.09598967141774828,
+    "p_one_neg": 0.5663433656634337,
+    "p_one_pos": 0.43375662433756623,
+    "p_two_perm": 0.8617138286171383,
+    "perm_null_mean": 0.0006795418024133674,
+    "perm_null_sd": 0.10277601196915777,
+    "mde_rho": 0.2581243365067979,
+    "power_at_screen_rho": null,
+    "secs": 1.93
+   },
+   "S7_xcomm_exc_EXPLORATORY": {
+    "label": "S7x|screen",
+    "x": "X_xcomm",
+    "y": "Y",
+    "n": 101,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 37,
+     "Materials/Chem/Eng": 31,
+     "Computer Science": 19,
+     "Mathematics": 13,
+     "Other": 1
+    },
+    "raw_rho": -0.029877780657612582,
+    "raw_p_two": 0.7667744449342934,
+    "raw_ci": [
+     -0.21579728357135636,
+     0.15987369859005998
+    ],
+    "partial_rho": -0.04524637964986052,
+    "ci": [
+     -0.24590361632641994,
+     0.15164663065907477
+    ],
+    "ci_bca": [
+     -0.24188063042268612,
+     0.15494698118257474
+    ],
+    "se_boot": 0.09944811628803463,
+    "p_one_neg": 0.33256674332566744,
+    "p_one_pos": 0.6675332466753324,
+    "p_two_perm": 0.6495350464953504,
+    "perm_null_mean": -0.0008516057862365198,
+    "perm_null_sd": 0.10237531927833568,
+    "mde_rho": 0.25944558574240795,
+    "power_at_screen_rho": null,
+    "secs": 1.86
+   }
+  },
+  "heldout": {
+   "S1_closure_res": {
+    "label": "S1|heldout",
+    "x": "X_res",
+    "y": "Y",
+    "n": 42,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Other",
+     "og_Physics&Astronomy"
+    ],
+    "origin_counts": {
+     "Materials/Chem/Eng": 17,
+     "Physics&Astronomy": 13,
+     "Computer Science": 7,
+     "Mathematics": 4,
+     "Other": 1
+    },
+    "raw_rho": 0.1258406936228831,
+    "raw_p_two": 0.4271411423676849,
+    "raw_ci": [
+     -0.21256429812605443,
+     0.46040831229423246
+    ],
+    "partial_rho": 0.12634066461052804,
+    "ci": [
+     -0.2225205197044832,
+     0.4865425963220104
+    ],
+    "ci_bca": [
+     -0.251178513303822,
+     0.46763966380268074
+    ],
+    "se_boot": 0.18240823915176663,
+    "p_one_neg": 0.7686231376862314,
+    "p_one_pos": 0.23147685231476853,
+    "p_two_perm": 0.45695430456954306,
+    "perm_null_mean": 0.0013524828803524382,
+    "perm_null_sd": 0.1665618212986886,
+    "mde_rho": 0.4129198135069856,
+    "power_at_screen_rho": null,
+    "secs": 1.76
+   },
+   "S3_plus_H_W1": {
+    "label": "S3|heldout",
+    "x": "X",
+    "y": "Y",
+    "n": 49,
+    "k_covariates": 6,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics",
+     "H_end"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 18,
+     "Materials/Chem/Eng": 17,
+     "Computer Science": 7,
+     "Mathematics": 6,
+     "Other": 1
+    },
+    "raw_rho": 0.08826530612244897,
+    "raw_p_two": 0.5464515139087022,
+    "raw_ci": [
+     -0.21631334286881895,
+     0.39261474362992344
+    ],
+    "partial_rho": 0.0732102073832485,
+    "ci": [
+     -0.23627495256972833,
+     0.3712421625864525
+    ],
+    "ci_bca": [
+     -0.24772374836002725,
+     0.35394911855373146
+    ],
+    "se_boot": 0.15796073455333826,
+    "p_one_neg": 0.6824317568243176,
+    "p_one_pos": 0.31766823317668236,
+    "p_two_perm": 0.6381361863813618,
+    "perm_null_mean": -0.00038184818195173884,
+    "perm_null_sd": 0.15428241293849057,
+    "mde_rho": 0.3840947834172108,
+    "power_at_screen_rho": null,
+    "secs": 2.09
+   },
+   "S4_A_cont_ex": {
+    "label": "S4|heldout",
+    "x": "X",
+    "y": "Y_ex",
+    "n": 49,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 18,
+     "Materials/Chem/Eng": 17,
+     "Computer Science": 7,
+     "Mathematics": 6,
+     "Other": 1
+    },
+    "raw_rho": -0.10081632653061223,
+    "raw_p_two": 0.49066261718110843,
+    "raw_ci": [
+     -0.39066653739054275,
+     0.21667634303179162
+    ],
+    "partial_rho": -0.08447503119573159,
+    "ci": [
+     -0.38236678543768077,
+     0.20822515872999214
+    ],
+    "ci_bca": [
+     -0.3412438005998775,
+     0.24690191684105917
+    ],
+    "se_boot": 0.149650075288505,
+    "p_one_neg": 0.29757024297570245,
+    "p_one_pos": 0.7025297470252975,
+    "p_two_perm": 0.5855414458554145,
+    "perm_null_mean": -0.000794913341561702,
+    "perm_null_sd": 0.15403079360989702,
+    "mde_rho": 0.3798518799085745,
+    "power_at_screen_rho": null,
+    "secs": 1.81
+   },
+   "S5_no_physics": {
+    "label": "S5|heldout",
+    "x": "X",
+    "y": "Y",
+    "n": 31,
+    "k_covariates": 4,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Materials/Chem/Eng": 17,
+     "Computer Science": 7,
+     "Mathematics": 6,
+     "Other": 1
+    },
+    "raw_rho": -0.04798387096774194,
+    "raw_p_two": 0.7976948393884296,
+    "raw_ci": [
+     -0.4302906798565862,
+     0.34943232944692426
+    ],
+    "partial_rho": 0.0438511509143925,
+    "ci": [
+     -0.4313000520017709,
+     0.45906722476872175
+    ],
+    "ci_bca": [
+     -0.43570667738233065,
+     0.4556585402642862
+    ],
+    "se_boot": 0.23092318458502067,
+    "p_one_neg": 0.5846415358464153,
+    "p_one_pos": 0.41545845415458454,
+    "p_two_perm": 0.8218178182181782,
+    "perm_null_mean": 0.0018233066745205638,
+    "perm_null_sd": 0.19598513344596027,
+    "mde_rho": 0.47975394825060974,
+    "power_at_screen_rho": null,
+    "secs": 1.71
+   },
+   "S6_min2_events": {
+    "label": "S6|heldout",
+    "x": "X",
+    "y": "Y",
+    "n": 40,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Mathematics",
+     "og_Physics&Astronomy"
+    ],
+    "origin_counts": {
+     "Materials/Chem/Eng": 15,
+     "Physics&Astronomy": 13,
+     "Computer Science": 6,
+     "Mathematics": 5,
+     "Other": 1
+    },
+    "raw_rho": -0.13602251407129456,
+    "raw_p_two": 0.402647519132921,
+    "raw_ci": [
+     -0.46664597565587634,
+     0.21962477596349242
+    ],
+    "partial_rho": -0.11328909617092155,
+    "ci": [
+     -0.4733185344029636,
+     0.26612394491644376
+    ],
+    "ci_bca": [
+     -0.4924498206604607,
+     0.24650823040986694
+    ],
+    "se_boot": 0.1924206916355551,
+    "p_one_neg": 0.2518748125187481,
+    "p_one_pos": 0.7482251774822518,
+    "p_two_perm": 0.5064493550644935,
+    "perm_null_mean": 0.0006804516933836472,
+    "perm_null_sd": 0.17138505533980233,
+    "mde_rho": 0.4240673517659372,
+    "power_at_screen_rho": null,
+    "secs": 1.74
+   },
+   "S7_constraint_EXPLORATORY": {
+    "label": "S7c|heldout",
+    "x": "X_constraint",
+    "y": "Y",
+    "n": 49,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 18,
+     "Materials/Chem/Eng": 17,
+     "Computer Science": 7,
+     "Mathematics": 6,
+     "Other": 1
+    },
+    "raw_rho": -0.07775510204081632,
+    "raw_p_two": 0.5953911061405873,
+    "raw_ci": [
+     -0.363315251726888,
+     0.22556402410354595
+    ],
+    "partial_rho": -0.024278024704959163,
+    "ci": [
+     -0.3287082014568666,
+     0.2880228723849608
+    ],
+    "ci_bca": [
+     -0.3094488728569215,
+     0.3079789616179033
+    ],
+    "se_boot": 0.16008843711991178,
+    "p_one_neg": 0.44415558444155584,
+    "p_one_pos": 0.555944405559444,
+    "p_two_perm": 0.8826117388261174,
+    "perm_null_mean": -0.0009927937032446102,
+    "perm_null_sd": 0.15304867603519415,
+    "mde_rho": 0.3798518799085745,
+    "power_at_screen_rho": null,
+    "secs": 1.76
+   },
+   "S7_xcomm_exc_EXPLORATORY": {
+    "label": "S7x|heldout",
+    "x": "X_xcomm",
+    "y": "Y",
+    "n": 49,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 18,
+     "Materials/Chem/Eng": 17,
+     "Computer Science": 7,
+     "Mathematics": 6,
+     "Other": 1
+    },
+    "raw_rho": -0.05948979591836734,
+    "raw_p_two": 0.6847144539135445,
+    "raw_ci": [
+     -0.34555202233727184,
+     0.2292527448656847
+    ],
+    "partial_rho": 0.05683824128324069,
+    "ci": [
+     -0.27140723179736026,
+     0.3720639006454693
+    ],
+    "ci_bca": [
+     -0.2639128896388868,
+     0.3832804437322428
+    ],
+    "se_boot": 0.16345289825667048,
+    "p_one_neg": 0.6323367663233677,
+    "p_one_pos": 0.36776322367763226,
+    "p_two_perm": 0.7123287671232876,
+    "perm_null_mean": 0.002679593531844504,
+    "perm_null_sd": 0.15259006886622267,
+    "mde_rho": 0.3798518799085745,
+    "power_at_screen_rho": null,
+    "secs": 1.86
+   }
+  },
+  "pooled": {
+   "S8_fold_pooled": {
+    "label": "S8|pooled",
+    "x": "X",
+    "y": "Y",
+    "n": 151,
+    "k_covariates": 6,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics",
+     "fold_heldout"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 55,
+     "Materials/Chem/Eng": 48,
+     "Computer Science": 26,
+     "Mathematics": 19,
+     "Other": 3
+    },
+    "raw_rho": 0.007181951186784869,
+    "raw_p_two": 0.9302573556003195,
+    "raw_ci": [
+     -0.16579013603753182,
+     0.18479320486781922
+    ],
+    "partial_rho": 0.04916858703485793,
+    "ci": [
+     -0.12600084852652696,
+     0.22821799960182704
+    ],
+    "ci_bca": [
+     -0.12469095081433917,
+     0.22950109856386142
+    ],
+    "se_boot": 0.09158922621247809,
+    "p_one_neg": 0.7143285671432856,
+    "p_one_pos": 0.28577142285771423,
+    "p_two_perm": 0.5643435656434357,
+    "perm_null_mean": 0.0013527720032680418,
+    "perm_null_sd": 0.08362189916465139,
+    "mde_rho": 0.21162730314235714,
+    "power_at_screen_rho": null,
+    "secs": 2.26
+   }
+  }
+ },
+ "flow": {
+  "screen": {
+   "n_MAIN": 202,
+   "n_hasX": 138,
+   "n_hasY": 110,
+   "n_both": 102,
+   "overlap_exp6_exp7_all": 234,
+   "overlap_exp6_exp7_MAIN": 189,
+   "n_exp6_concepts": 247,
+   "n_exp7_main_arm_concepts": 234
+  },
+  "heldout": {
+   "n_MAIN": 100,
+   "n_hasX": 63,
+   "n_hasY": 53,
+   "n_both": 49,
+   "overlap_exp6_exp7_all": 113,
+   "overlap_exp6_exp7_MAIN": 94,
+   "n_exp6_concepts": 119,
+   "n_exp7_main_arm_concepts": 113
+  }
+ },
+ "descriptives": {
+  "screen": {
+   "X": {
+    "min": 2.799251171506588,
+    "q25": 4.1020239910822225,
+    "median": 4.827174353133373,
+    "q75": 5.218702404707511,
+    "max": 7.189766928221512,
+    "mean": 4.715295919636486,
+    "sd": 0.8385746688342303
+   },
+   "Y": {
+    "min": 0.0006006351141450817,
+    "q25": 0.01794461861130723,
+    "median": 0.03052700177074768,
+    "q75": 0.05081623530642476,
+    "max": 0.19902260052147958,
+    "mean": 0.04125215363815354,
+    "sd": 0.03606425776604276
+   },
+   "n_events": {
+    "min": 1.0,
+    "q25": 2.0,
+    "median": 3.0,
+    "q75": 6.75,
+    "max": 36.0,
+    "mean": 5.450980392156863,
+    "sd": 6.295727690118639
+   },
+   "n_X_years": {
+    "min": 1.0,
+    "q25": 3.0,
+    "median": 3.0,
+    "q75": 3.0,
+    "max": 3.0,
+    "mean": 2.6470588235294117,
+    "sd": 0.6842942280663624
+   }
+  },
+  "heldout": {
+   "X": {
+    "min": 0.7283780992449537,
+    "q25": 4.2257102733314875,
+    "median": 4.6709535478692255,
+    "q75": 5.278675686249163,
+    "max": 6.359402121017401,
+    "mean": 4.643568433396677,
+    "sd": 1.0576552116864137
+   },
+   "Y": {
+    "min": 0.0029842748483239964,
+    "q25": 0.015252040403791864,
+    "median": 0.030979065390979582,
+    "q75": 0.05041916006822689,
+    "max": 0.2912297792857188,
+    "mean": 0.04353686586377626,
+    "sd": 0.047503736509347784
+   },
+   "n_events": {
+    "min": 1.0,
+    "q25": 2.0,
+    "median": 4.0,
+    "q75": 9.0,
+    "max": 49.0,
+    "mean": 7.795918367346939,
+    "sd": 10.584933458767258
+   },
+   "n_X_years": {
+    "min": 1.0,
+    "q25": 3.0,
+    "median": 3.0,
+    "q75": 3.0,
+    "max": 3.0,
+    "mean": 2.836734693877551,
+    "sd": 0.47200541908569066
+   }
+  }
+ },
+ "secondary": {
+  "screen": {
+   "Y2": {
+    "label": "Y2|screen",
+    "x": "X",
+    "y": "Y2",
+    "n": 102,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 37,
+     "Materials/Chem/Eng": 31,
+     "Computer Science": 19,
+     "Mathematics": 13,
+     "Other": 2
+    },
+    "raw_rho": -0.03558388289113992,
+    "raw_p_two": 0.7225424773800243,
+    "raw_ci": [
+     -0.2502037812688858,
+     0.1710803990679741
+    ],
+    "partial_rho": 0.011300660914450296,
+    "ci": [
+     -0.2133809257969659,
+     0.22628579125827405
+    ],
+    "ci_bca": [
+     -0.22006449316959042,
+     0.2157455366518356
+    ],
+    "se_boot": 0.1123127500252988,
+    "p_one_neg": 0.5442455754424558,
+    "p_one_pos": 0.45585441455854414,
+    "p_two_perm": 0.9145085491450855,
+    "perm_null_mean": 6.674983481642793e-05,
+    "perm_null_sd": 0.1022450363529039,
+    "mde_rho": 0.2581243365067979,
+    "power_at_screen_rho": null,
+    "secs": 1.86
+   },
+   "Y3": {
+    "label": "Y3|screen",
+    "x": "X",
+    "y": "Y3",
+    "n": 102,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 37,
+     "Materials/Chem/Eng": 31,
+     "Computer Science": 19,
+     "Mathematics": 13,
+     "Other": 2
+    },
+    "raw_rho": -0.10987811739337837,
+    "raw_p_two": 0.27160650332014563,
+    "raw_ci": [
+     -0.2957276972573875,
+     0.10089703143407158
+    ],
+    "partial_rho": -0.058276220559985166,
+    "ci": [
+     -0.2580091841669511,
+     0.16601745772645707
+    ],
+    "ci_bca": [
+     -0.2678162102433103,
+     0.15350636105637402
+    ],
+    "se_boot": 0.11076171301635854,
+    "p_one_neg": 0.2886711328867113,
+    "p_one_pos": 0.7114288571142886,
+    "p_two_perm": 0.5696430356964304,
+    "perm_null_mean": -0.0006161302445762562,
+    "perm_null_sd": 0.10288019009548219,
+    "mde_rho": 0.2581243365067979,
+    "power_at_screen_rho": null,
+    "secs": 1.94
+   }
+  },
+  "heldout": {
+   "Y2": {
+    "label": "Y2|heldout",
+    "x": "X",
+    "y": "Y2",
+    "n": 49,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 18,
+     "Materials/Chem/Eng": 17,
+     "Computer Science": 7,
+     "Mathematics": 6,
+     "Other": 1
+    },
+    "raw_rho": 0.048992612929753286,
+    "raw_p_two": 0.7381563342420053,
+    "raw_ci": [
+     -0.25752693628462026,
+     0.34535349621690065
+    ],
+    "partial_rho": 0.11728652003667583,
+    "ci": [
+     -0.20697998327811015,
+     0.4308758885848541
+    ],
+    "ci_bca": [
+     -0.24900148892313176,
+     0.408149827617742
+    ],
+    "se_boot": 0.1621570410654439,
+    "p_one_neg": 0.778022197780222,
+    "p_one_pos": 0.22207779222077792,
+    "p_two_perm": 0.4433556644335566,
+    "perm_null_mean": -0.0012875204817397166,
+    "perm_null_sd": 0.15322674411634535,
+    "mde_rho": 0.3798518799085745,
+    "power_at_screen_rho": null,
+    "secs": 1.83
+   },
+   "Y3": {
+    "label": "Y3|heldout",
+    "x": "X",
+    "y": "Y3",
+    "n": 49,
+    "k_covariates": 5,
+    "covariate_columns": [
+     "log_vol_early",
+     "log_n_events",
+     "og_Computer Science",
+     "og_Materials/Chem/Eng",
+     "og_Mathematics"
+    ],
+    "origin_counts": {
+     "Physics&Astronomy": 18,
+     "Materials/Chem/Eng": 17,
+     "Computer Science": 7,
+     "Mathematics": 6,
+     "Other": 1
+    },
+    "raw_rho": 0.1719387755102041,
+    "raw_p_two": 0.2374743879946719,
+    "raw_ci": [
+     -0.12077601676960072,
+     0.4351174471810315
+    ],
+    "partial_rho": 0.20740289793304933,
+    "ci": [
+     -0.08565613181757825,
+     0.46025959479373313
+    ],
+    "ci_bca": [
+     -0.09608050180661032,
+     0.4503043152617522
+    ],
+    "se_boot": 0.13831954451393427,
+    "p_one_neg": 0.9137086291370863,
+    "p_one_pos": 0.08639136086391361,
+    "p_two_perm": 0.17218278172182783,
+    "perm_null_mean": -0.0011147609763087175,
+    "perm_null_sd": 0.15088558158343954,
+    "mde_rho": 0.3798518799085745,
+    "power_at_screen_rho": null,
+    "secs": 1.78
+   }
+  }
+ },
+ "decision": {
+  "decision": "NULL",
+  "screen_pass": false,
+  "heldout_pass": false,
+  "reversed_folds": [],
+  "consequence": "sentence dropped; the paper reports two separate findings"
+ },
+ "heldout_power_at_screen_rho": 0.06794790875501326,
+ "wall_secs": 42.6,
+ "disclosures": [
+  "exposure is an early-life window (ages 3-5), not literally pre-onset; S2 gives the literal pre-onset version on the screen",
+  "cross-sectional across concepts: supports an association, not a mechanism",
+  "held-out early volume (F..F+5) reads dataset_5 link counts that may extend past 2015 for late-F concepts; it is a single per-concept mean, no E_up label is computed here",
+  "Y3 (exported mean) has no timing restriction and overlaps the exposure window",
+  "population is arXiv-skewed (physics/CS); S5 reports the non-physics subset"
+ ]
+}
