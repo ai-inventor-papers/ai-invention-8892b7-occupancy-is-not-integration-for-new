@@ -1,0 +1,13 @@
+entries:
+  - path: .venv/
+    delete: redownloadable
+    source: "uv venv .venv --python=3.12 && uv pip install --python .venv/bin/python -r pyproject.toml (or: uv sync)"
+  - path: results/cache/prepared.pkl
+    delete: regenerable
+    source: "cd src && ../.venv/bin/python -c 'import io_load; io_load.prepare(force=True)'"
+  - path: src/__pycache__/
+    delete: regenerable
+    source: "python bytecode cache; recreated on import"
+  - path: tests/__pycache__/
+    delete: regenerable
+    source: "python bytecode cache; recreated by pytest"

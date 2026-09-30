@@ -1,0 +1,200 @@
+{
+ "frame": {
+  "total": 426,
+  "arms": {
+   "main": 366,
+   "reference": 60
+  },
+  "hydrated": 206,
+  "pending": 220,
+  "complete_beyond_prefix": 5,
+  "sense_oa": 183,
+  "hydrated_by_arm": {
+   "main": 184,
+   "reference": 22
+  },
+  "pending_by_arm": {
+   "main": 182,
+   "reference": 38
+  }
+ },
+ "D1": {
+  "n": 93600,
+  "folds": {
+   "corpus_main": 54600,
+   "corpus_prescreen": 39000
+  }
+ },
+ "D2": {
+  "n": 4599,
+  "fold": {
+   "pool_screen": 3099,
+   "train": 1200,
+   "test": 300
+  },
+  "train_labels": {
+   "NOT_CONCEPT": 380,
+   "CONCEPT": 748,
+   "TOO_GENERIC": 72
+  },
+  "test_labels": {
+   "CONCEPT": 167,
+   "NOT_CONCEPT": 110,
+   "TOO_GENERIC": 23
+  }
+ },
+ "D3": {
+  "n": 502,
+  "fold": {
+   "train": 387,
+   "test": 115
+  },
+  "labels": {
+   "SAME": 281,
+   "DIFFERENT": 221
+  },
+  "source": {
+   "acronym_long_form_schwartz_hearst": 90,
+   "mesh_entry_term": 90,
+   "wikidata_alias": 60,
+   "llm_variant_of_A": 1,
+   "llm_variant_of_B": 1,
+   "acronym_ambiguity(LSE)": 1,
+   "acronym_ambiguity(NT-)": 1,
+   "acronym_ambiguity(FAD)": 1,
+   "acronym_ambiguity(RR)": 1,
+   "acronym_ambiguity(CWC)": 1,
+   "acronym_ambiguity(N-I/R)": 1,
+   "acronym_ambiguity(SPI)": 1,
+   "acronym_ambiguity(MeIM)": 1,
+   "acronym_ambiguity(CEPs)": 1,
+   "acronym_ambiguity(JAP)": 1,
+   "acronym_ambiguity(DOW)": 1,
+   "acronym_ambiguity(dF)": 1,
+   "acronym_ambiguity(POB)": 1,
+   "acronym_ambiguity(YM)": 1,
+   "acronym_ambiguity(HSAs)": 1,
+   "acronym_ambiguity(MDSC)": 1,
+   "acronym_ambiguity(SUs)": 1,
+   "acronym_ambiguity(FAT)": 1,
+   "acronym_ambiguity(Cp)": 1,
+   "acronym_ambiguity(OES)": 1,
+   "acronym_ambiguity(PGA)": 1,
+   "acronym_ambiguity(HIT)": 1,
+   "acronym_ambiguity(DP)": 1,
+   "acronym_ambiguity(GLS)": 1,
+   "acronym_ambiguity(OLS)": 1,
+   "acronym_ambiguity(Act)": 1,
+   "acronym_ambiguity(TK)": 1,
+   "acronym_ambiguity(S/R)": 1,
+   "acronym_ambiguity(TPH)": 1,
+   "acronym_ambiguity(CTR)": 1,
+   "acronym_ambiguity(DMT)": 1,
+   "acronym_ambiguity(SD)": 1,
+   "acronym_ambiguity(LMD)": 1,
+   "acronym_ambiguity(POPs)": 1,
+   "acronym_ambiguity(RBH)": 1,
+   "acronym_ambiguity(p -Me)": 1,
+   "acronym_ambiguity(Group C)": 1,
+   "acronym_ambiguity(GTS)": 1,
+   "acronym_ambiguity(SLD)": 1,
+   "acronym_ambiguity(MDEA)": 1,
+   "acronym_ambiguity(ROI)": 1,
+   "acronym_ambiguity(GQ)": 1,
+   "acronym_ambiguity(CALM)": 1,
+   "acronym_ambiguity(ON)": 1,
+   "acronym_ambiguity(MPN)": 1,
+   "acronym_ambiguity(NIC)": 1,
+   "acronym_ambiguity(SET)": 1,
+   "acronym_ambiguity(ASR)": 1,
+   "acronym_ambiguity(AIT)": 1,
+   "acronym_ambiguity(EPIC)": 1,
+   "acronym_ambiguity(S2C2Ph2)": 1,
+   "acronym_ambiguity(VAD)": 1,
+   "acronym_ambiguity(NPD)": 1,
+   "acronym_ambiguity(LDP)": 1,
+   "acronym_ambiguity(PSO)": 1,
+   "acronym_ambiguity(NHC)": 1,
+   "acronym_ambiguity(PB)": 1,
+   "acronym_ambiguity(RI)": 1,
+   "acronym_ambiguity(SED)": 1,
+   "acronym_ambiguity(WFS)": 1,
+   "acronym_ambiguity(SK)": 1,
+   "acronym_ambiguity(RCN)": 1,
+   "acronym_ambiguity(TTS)": 1,
+   "acronym_ambiguity(SCC)": 1,
+   "acronym_ambiguity(RDD)": 1,
+   "acronym_ambiguity(TBH)": 1,
+   "acronym_ambiguity(NOD)": 1,
+   "acronym_ambiguity(KNN)": 1,
+   "acronym_ambiguity(SGD)": 1,
+   "acronym_ambiguity(HVA)": 1,
+   "acronym_ambiguity(WGS)": 1,
+   "acronym_ambiguity(SRM)": 1,
+   "acronym_ambiguity(4-CP)": 1,
+   "acronym_ambiguity(CSPs)": 1,
+   "acronym_ambiguity(MDP)": 1,
+   "acronym_ambiguity(GE)": 1,
+   "acronym_ambiguity(TIs)": 1,
+   "acronym_ambiguity(GAD)": 1,
+   "acronym_ambiguity(TSF)": 1,
+   "acronym_ambiguity(PMP)": 1,
+   "acronym_ambiguity(APAP)": 1,
+   "acronym_ambiguity(TSH)": 1,
+   "acronym_ambiguity(M1)": 1,
+   "acronym_ambiguity(ORG)": 1,
+   "acronym_ambiguity(CRF)": 1,
+   "acronym_ambiguity(PLTS)": 1,
+   "acronym_ambiguity(GMI)": 1,
+   "acronym_ambiguity(TBA)": 1,
+   "acronym_ambiguity(SNR)": 1,
+   "acronym_ambiguity(Group 3)": 1,
+   "lexical_near_duplicate": 170
+  }
+ },
+ "D4a": {
+  "n": 23520,
+  "fold": {
+   "train": 15991,
+   "validation": 2555,
+   "test": 4974
+  },
+  "source": {
+   "semeval2017_task10": 12997,
+   "scierc": 10523
+  },
+  "in_llm_anchor_check": 300
+ },
+ "D4b": {
+  "n": 15723,
+  "fold": {
+   "train": 14006,
+   "validation": 1717
+  }
+ },
+ "D5": {
+  "n": 1000
+ },
+ "mesh_pairs": {
+  "n": 23097,
+  "fold": {
+   "train_eligible": 21112,
+   "working_list": 1216,
+   "heldout_mesh": 769
+  },
+  "pair_type": {
+   "synonym": 7971,
+   "acronym_expansion": 1506,
+   "non_preferred_concept_nrw": 2730,
+   "sibling_descriptor": 10221,
+   "non_preferred_concept_rel": 624,
+   "non_preferred_concept_brd": 45
+  },
+  "y": {
+   "1": 9477,
+   "0": 13620
+  }
+ },
+ "heldout_mesh_concepts": 191,
+ "normalise_check": true
+}

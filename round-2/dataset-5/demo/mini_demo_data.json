@@ -1,0 +1,2820 @@
+{
+ "description": "Demo subset of the RAW source of dataset (7) venue_habitat_asjc (outputs/venue_habitat_asjc.json): 100 of 22,970 venue records, stratified by (route, uncovered_reason) - top-n_c_papers venues plus a seeded random sample per stratum. data.py's ds_venues() turns each record into one exp_sel_data_out example.",
+ "source_file": "outputs/venue_habitat_asjc.json",
+ "hyd_data_constants": {
+  "LINK_FEATURES": [
+   "concept_id",
+   "work_id",
+   "year"
+  ],
+  "WORK_FEATURES": [
+   "work_id",
+   "publication_year",
+   "type",
+   "language",
+   "doi_present",
+   "s2_corpus_id",
+   "primary_topic_id",
+   "topic_score",
+   "topics_top3",
+   "source_id",
+   "source_type",
+   "n_refs",
+   "refs_in_corpus",
+   "author_ids",
+   "keyword_idx",
+   "concept_ids",
+   "has_abstract",
+   "abstract_n_tokens",
+   "cited_by_count",
+   "dup_group"
+  ],
+  "TOP_META_notes": {
+   "openalex_works": "input is a JSON array in feature_names order; output = primary_topic subfield_id; full refs/institutions/scores in works/works_part_XX.parquet",
+   "concept_work_links": "input = [concept_id, work_id, year]; output = match_evidence; concept details in concept_pool_2005_2016"
+  }
+ },
+ "full_stratum_sizes": {
+  "none|no_match_small": 10007,
+  "scimago|multi_subfield": 6903,
+  "scimago|None": 2892,
+  "scimago|general_only": 1563,
+  "none|repository": 1160,
+  "preperiod_groupby|no_preperiod": 205,
+  "scimago|megajournal": 105,
+  "preperiod_groupby|preperiod_share_le_0.40": 87,
+  "preperiod_groupby|None": 37,
+  "scimago|unmapped_sjr_category": 11
+ },
+ "venue_habitat_asjc": {
+  "definition": "P3: journal-level ASJC venue habitat (citation-independent), plus a labelled pre-period topic-derived fallback.\n\nSources\n  * SCImago Journal & Country Rank annual exports 1999-2025 (data from Scopus), taken from the standardised\n    journal x category x year panel in Zenodo record 22954453 (Dorado et al. 2026, CC BY 4.0), because the\n    scimagojr.com export is behind a Cloudflare challenge (HTTP 403, logged in logs/p3_venue_habitat.log).\n  * OpenAlex S3 snapshot `sources` entity (issn_l, issn[], type, display_name), in hyd/snapshot_entities/sources.\n  * OpenAlex subfield ids == ASJC 4-digit codes (hyd/taxonomy.json + gen_art_dataset_2 taxonomy_subfields check).\n\nRule (fixed before any outcome is looked at; see README):\n  UNCOVERED(repository)   OpenAlex type == repository, or arXiv/bioRxiv/medRxiv/SSRN/Zenodo/RePEc\n  UNCOVERED(megajournal)  on the iteration-1 MEGA list, or its only ASJC codes are 1000 Multidisciplinary\n  otherwise drop GENERAL codes (names 'General ...', '... (miscellaneous)', 'Multidisciplinary'), then\n  COVERED                 exactly one specific subfield left\n  UNCOVERED(general_only) none left (the 2-digit field is recorded)\n  UNCOVERED(multi_subfield) >= 2 left (fractional_shares = 1/k each, secondary variant)\n  unmatched in SCImago:   >= 20 c-papers -> one OpenAlex call (2000-2004 group_by primary_topic.subfield.id);\n                          covered if >= 20 works in 2000-04 and dominant share > 0.40 (citation_independent=false);\n                          < 20 c-papers -> UNCOVERED(no_match_small).\n\nUsage:  python p3_venue_habitat.py scimago            # build ASJC name->code map + ISSN index (free)\n        python p3_venue_habitat.py build [--fallback]  # join with the corpus; --fallback buys the group_by calls\n",
+  "scimago_unmapped_names": [
+   "E-learning",
+   "Nanoscience and Nanotechnology",
+   "Social Work",
+   "Sports Science"
+  ],
+  "n_venues": 22970,
+  "venues": [
+   {
+    "source_id": 4306400194,
+    "issn_l": "2331-8422",
+    "issns": [
+     "2331-8422"
+    ],
+    "display_name": "arXiv (Cornell University)",
+    "openalex_type": "repository",
+    "is_preprint_repository": true,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 33946
+   },
+   {
+    "source_id": 106296714,
+    "issn_l": "0302-9743",
+    "issns": [
+     "0302-9743",
+     "1611-3349"
+    ],
+    "display_name": "Lecture notes in computer science",
+    "openalex_type": "book series",
+    "is_preprint_repository": false,
+    "habitat_subfield": 2614,
+    "fractional_shares": {
+     "2614": 1.0
+    },
+    "asjc_codes_raw": [
+     1701,
+     2614
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "25674"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1701,
+     2614
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 8003
+   },
+   {
+    "source_id": 4210237713,
+    "issn_l": "2469-9950",
+    "issns": [
+     "2469-9950",
+     "2469-9969",
+     "2469-9977"
+    ],
+    "display_name": "Physical review. B./Physical review. B",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "2504": 0.5,
+     "3104": 0.5
+    },
+    "asjc_codes_raw": [
+     3104,
+     2504
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100874236"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2504,
+     3104
+    ],
+    "general_field": null,
+    "n_c_papers": 4899
+   },
+   {
+    "source_id": 2485537415,
+    "issn_l": "2169-3536",
+    "issns": [
+     "2169-3536"
+    ],
+    "display_name": "IEEE Access",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     1701,
+     2201,
+     2501
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2013,
+    "uncovered_reason": "megajournal",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100374601"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1701,
+     2201,
+     2501
+    ],
+    "general_field": null,
+    "n_c_papers": 4212
+   },
+   {
+    "source_id": 183492911,
+    "issn_l": "0277-786X",
+    "issns": [
+     "0277-786X",
+     "1996-756X"
+    ],
+    "display_name": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1706": 0.2,
+     "2208": 0.2,
+     "2504": 0.2,
+     "2604": 0.2,
+     "3104": 0.2
+    },
+    "asjc_codes_raw": [
+     2604,
+     1706,
+     3104,
+     2208,
+     2504
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "40067"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1706,
+     2208,
+     2504,
+     2604,
+     3104
+    ],
+    "general_field": null,
+    "n_c_papers": 3154
+   },
+   {
+    "source_id": 2764664775,
+    "issn_l": "0003-0503",
+    "issns": [
+     "0003-0503"
+    ],
+    "display_name": "Bulletin of the American Physical Society",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": "preperiod_share_le_0.40",
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 2928,
+    "preperiod_total_2000_2004": 34,
+    "preperiod_dominant_share": 0.2647
+   },
+   {
+    "source_id": 1980519,
+    "issn_l": "0004-637X",
+    "issns": [
+     "0004-637X",
+     "1538-4357"
+    ],
+    "display_name": "The Astrophysical Journal",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1912": 0.5,
+     "3103": 0.5
+    },
+    "asjc_codes_raw": [
+     3103,
+     1912
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "26765"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1912,
+     3103
+    ],
+    "general_field": null,
+    "n_c_papers": 2910
+   },
+   {
+    "source_id": 6791298,
+    "issn_l": "1098-0121",
+    "issns": [
+     "1098-0121",
+     "1538-4489",
+     "1550-235X"
+    ],
+    "display_name": "Physical Review B",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "2504": 0.5,
+     "3104": 0.5
+    },
+    "asjc_codes_raw": [
+     3104,
+     2504
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "11000153773"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2504,
+     3104
+    ],
+    "general_field": null,
+    "n_c_papers": 2806
+   },
+   {
+    "source_id": 105243760,
+    "issn_l": "0003-6951",
+    "issns": [
+     "0003-6951",
+     "1077-3118",
+     "1520-8842"
+    ],
+    "display_name": "Applied Physics Letters",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     3101
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "27030"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3101
+    ],
+    "general_field": 31,
+    "n_c_papers": 2668
+   },
+   {
+    "source_id": 24807848,
+    "issn_l": "0031-9007",
+    "issns": [
+     "0031-9007",
+     "1079-7114",
+     "1092-0145"
+    ],
+    "display_name": "Physical Review Letters",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     3101
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "29150"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3101
+    ],
+    "general_field": 31,
+    "n_c_papers": 2614
+   },
+   {
+    "source_id": 195663288,
+    "issn_l": "0035-8711",
+    "issns": [
+     "0035-8711",
+     "1365-2966",
+     "1365-8711"
+    ],
+    "display_name": "Monthly Notices of the Royal Astronomical Society",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1912": 0.5,
+     "3103": 0.5
+    },
+    "asjc_codes_raw": [
+     3103,
+     1912
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "28218"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1912,
+     3103
+    ],
+    "general_field": null,
+    "n_c_papers": 2368
+   },
+   {
+    "source_id": 196734849,
+    "issn_l": "2045-2322",
+    "issns": [
+     "2045-2322"
+    ],
+    "display_name": "Scientific Reports",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     1000
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2011,
+    "uncovered_reason": "megajournal",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100200805"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1000
+    ],
+    "general_field": null,
+    "n_c_papers": 2355
+   },
+   {
+    "source_id": 205231332,
+    "issn_l": "0004-6361",
+    "issns": [
+     "0004-6361",
+     "1432-0746"
+    ],
+    "display_name": "Astronomy and Astrophysics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1912": 0.5,
+     "3103": 0.5
+    },
+    "asjc_codes_raw": [
+     3103,
+     1912
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "26750"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1912,
+     3103
+    ],
+    "general_field": null,
+    "n_c_papers": 2333
+   },
+   {
+    "source_id": 187585107,
+    "issn_l": "1029-8479",
+    "issns": [
+     "1029-8479",
+     "1126-6708",
+     "1127-2236"
+    ],
+    "display_name": "Journal of High Energy Physics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 3106,
+    "fractional_shares": {
+     "3106": 1.0
+    },
+    "asjc_codes_raw": [
+     3106
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "28520"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3106
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 2001
+   },
+   {
+    "source_id": 178776955,
+    "issn_l": "1094-4087",
+    "issns": [
+     "1094-4087"
+    ],
+    "display_name": "Optics Express",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 3107,
+    "fractional_shares": {
+     "3107": 1.0
+    },
+    "asjc_codes_raw": [
+     3107
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "12862"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3107
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 1993
+   },
+   {
+    "source_id": 4306402567,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "openalex_type": "repository",
+    "is_preprint_repository": true,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1585
+   },
+   {
+    "source_id": 164566984,
+    "issn_l": "0556-2791",
+    "issns": [
+     "0556-2791",
+     "1050-2947",
+     "1094-1622",
+     "1538-4446",
+     "2469-9926",
+     "2469-9934",
+     "2469-9942"
+    ],
+    "display_name": "Physical Review A",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 3107,
+    "fractional_shares": {
+     "3107": 1.0
+    },
+    "asjc_codes_raw": [
+     3107
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100874237",
+     "29143"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3107
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 1519
+   },
+   {
+    "source_id": 4210238307,
+    "issn_l": "2470-0010",
+    "issns": [
+     "2470-0010",
+     "2470-0029",
+     "2470-0037"
+    ],
+    "display_name": "Physical review. D/Physical review. D.",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     3101
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100779241"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3101
+    ],
+    "general_field": 31,
+    "n_c_papers": 1411
+   },
+   {
+    "source_id": 4210172589,
+    "issn_l": "1556-5068",
+    "issns": [
+     "1556-5068"
+    ],
+    "display_name": "SSRN Electronic Journal",
+    "openalex_type": "repository",
+    "is_preprint_repository": true,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1405
+   },
+   {
+    "source_id": 4306525036,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "PubMed",
+    "openalex_type": "repository",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1368
+   },
+   {
+    "source_id": 143846845,
+    "issn_l": "1530-6984",
+    "issns": [
+     "1530-6984",
+     "1530-6992"
+    ],
+    "display_name": "Nano Letters",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1502": 0.25,
+     "2210": 0.25,
+     "3104": 0.25,
+     "SJR:Nanoscience and Nanotechnology": 0.25
+    },
+    "asjc_codes_raw": [
+     1502,
+     1601,
+     3104,
+     2501,
+     2210,
+     "SJR:Nanoscience and Nanotechnology"
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "17853"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1502,
+     1601,
+     2210,
+     2501,
+     3104,
+     "SJR:Nanoscience and Nanotechnology"
+    ],
+    "general_field": null,
+    "n_c_papers": 1316
+   },
+   {
+    "source_id": 4306400562,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+    "openalex_type": "repository",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1279
+   },
+   {
+    "source_id": 100695177,
+    "issn_l": "0004-6256",
+    "issns": [
+     "0004-6256",
+     "1538-3881"
+    ],
+    "display_name": "The Astronomical Journal",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1912": 0.5,
+     "3103": 0.5
+    },
+    "asjc_codes_raw": [
+     3103,
+     1912
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "26704"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1912,
+     3103
+    ],
+    "general_field": null,
+    "n_c_papers": 1245
+   },
+   {
+    "source_id": 10936095,
+    "issn_l": "0018-9545",
+    "issns": [
+     "0018-9545",
+     "1939-9359"
+    ],
+    "display_name": "IEEE Transactions on Vehicular Technology",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1705": 0.2,
+     "2202": 0.2,
+     "2203": 0.2,
+     "2208": 0.2,
+     "2604": 0.2
+    },
+    "asjc_codes_raw": [
+     2202,
+     2604,
+     2203,
+     1705,
+     2208
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "17393"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1705,
+     2202,
+     2203,
+     2208,
+     2604
+    ],
+    "general_field": null,
+    "n_c_papers": 1204
+   },
+   {
+    "source_id": 2764900261,
+    "issn_l": "1865-0929",
+    "issns": [
+     "1865-0929",
+     "1865-0937"
+    ],
+    "display_name": "Communications in computer and information science",
+    "openalex_type": "book series",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     1701,
+     2601
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "17700155007"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1701,
+     2601
+    ],
+    "general_field": 17,
+    "n_c_papers": 1199
+   },
+   {
+    "source_id": 187991544,
+    "issn_l": "0021-8979",
+    "issns": [
+     "0021-8979",
+     "1089-7550",
+     "1520-8850"
+    ],
+    "display_name": "Journal of Applied Physics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     3101
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "28132"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3101
+    ],
+    "general_field": 31,
+    "n_c_papers": 1157
+   },
+   {
+    "source_id": 63459445,
+    "issn_l": "1536-1276",
+    "issns": [
+     "1536-1276",
+     "1558-2248"
+    ],
+    "display_name": "IEEE Transactions on Wireless Communications",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1706": 0.333333,
+     "2208": 0.333333,
+     "2604": 0.333333
+    },
+    "asjc_codes_raw": [
+     2604,
+     1706,
+     2208
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "18933"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1706,
+     2208,
+     2604
+    ],
+    "general_field": null,
+    "n_c_papers": 1149
+   },
+   {
+    "source_id": 4210191458,
+    "issn_l": "2159-5399",
+    "issns": [
+     "2159-5399",
+     "2374-3468"
+    ],
+    "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "openalex_type": "conference",
+    "is_preprint_repository": false,
+    "habitat_subfield": 1702,
+    "fractional_shares": {
+     "1702": 1.0
+    },
+    "asjc_codes_raw": [
+     1702
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2023,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21101185504"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 1057
+   },
+   {
+    "source_id": 2764905038,
+    "issn_l": "2194-5357",
+    "issns": [
+     "2194-5357",
+     "2194-5365"
+    ],
+    "display_name": "Advances in intelligent systems and computing",
+    "openalex_type": "book series",
+    "is_preprint_repository": false,
+    "habitat_subfield": 2207,
+    "fractional_shares": {
+     "2207": 1.0
+    },
+    "asjc_codes_raw": [
+     1701,
+     2207
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "5100152904"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1701,
+     2207
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 1028
+   },
+   {
+    "source_id": 4210190737,
+    "issn_l": "0556-2821",
+    "issns": [
+     "0556-2821",
+     "1089-4918",
+     "1538-4500",
+     "1550-2368",
+     "1550-7998"
+    ],
+    "display_name": "Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 3106,
+    "fractional_shares": {
+     "3106": 1.0
+    },
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": null,
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1023,
+    "preperiod_total_2000_2004": 10558,
+    "preperiod_dominant_share": 0.682
+   },
+   {
+    "source_id": 134390580,
+    "issn_l": "0146-9592",
+    "issns": [
+     "0146-9592",
+     "1071-2763",
+     "1539-4794"
+    ],
+    "display_name": "Optics Letters",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 3107,
+    "fractional_shares": {
+     "3107": 1.0
+    },
+    "asjc_codes_raw": [
+     3107
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "12863"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3107
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 1003
+   },
+   {
+    "source_id": 188605413,
+    "issn_l": "0008-6223",
+    "issns": [
+     "0008-6223",
+     "1873-3891"
+    ],
+    "display_name": "Carbon",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     1601
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "25806"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1601,
+     2501
+    ],
+    "general_field": 16,
+    "n_c_papers": 957
+   },
+   {
+    "source_id": 4502562,
+    "issn_l": "0018-9448",
+    "issns": [
+     "0018-9448",
+     "1557-9654"
+    ],
+    "display_name": "IEEE Transactions on Information Theory",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1706": 0.333333,
+     "1710": 0.333333,
+     "3309": 0.333333
+    },
+    "asjc_codes_raw": [
+     1706,
+     1710,
+     3309
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "15107"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1706,
+     1710,
+     3309
+    ],
+    "general_field": null,
+    "n_c_papers": 940
+   },
+   {
+    "source_id": 45693802,
+    "issn_l": "0925-2312",
+    "issns": [
+     "0925-2312",
+     "1872-8286"
+    ],
+    "display_name": "Neurocomputing",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1702": 0.333333,
+     "1706": 0.333333,
+     "2805": 0.333333
+    },
+    "asjc_codes_raw": [
+     1702,
+     2805,
+     1706
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "24807"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1702,
+     1706,
+     2805
+    ],
+    "general_field": null,
+    "n_c_papers": 939
+   },
+   {
+    "source_id": 190924190,
+    "issn_l": "0953-8984",
+    "issns": [
+     "0953-8984",
+     "1361-648X"
+    ],
+    "display_name": "Journal of Physics Condensed Matter",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 3104,
+    "fractional_shares": {
+     "3104": 1.0
+    },
+    "asjc_codes_raw": [
+     3104,
+     2501
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "28567"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2501,
+     3104
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 884
+   },
+   {
+    "source_id": 145476921,
+    "issn_l": "1936-0851",
+    "issns": [
+     "1936-0851",
+     "1936-086X"
+    ],
+    "display_name": "ACS Nano",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     2201,
+     2501,
+     "SJR:Nanoscience and Nanotechnology",
+     3101
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "unmapped_sjr_category",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "11500153511"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2201,
+     2501,
+     3101,
+     "SJR:Nanoscience and Nanotechnology"
+    ],
+    "general_field": null,
+    "n_c_papers": 823
+   },
+   {
+    "source_id": 23181512,
+    "issn_l": "2040-3364",
+    "issns": [
+     "2040-3364",
+     "2040-3372"
+    ],
+    "display_name": "Nanoscale",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     2501,
+     "SJR:Nanoscience and Nanotechnology"
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "unmapped_sjr_category",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "19700173215"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2501,
+     "SJR:Nanoscience and Nanotechnology"
+    ],
+    "general_field": null,
+    "n_c_papers": 702
+   },
+   {
+    "source_id": 4306463230,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Elsevier eBooks",
+    "openalex_type": "ebook platform",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": "preperiod_share_le_0.40",
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 672,
+    "preperiod_total_2000_2004": 78786,
+    "preperiod_dominant_share": 0.0289
+   },
+   {
+    "source_id": 4220650854,
+    "issn_l": "2214-4609",
+    "issns": [
+     "2214-4609"
+    ],
+    "display_name": "Proceedings",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_preperiod",
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 554,
+    "preperiod_total_2000_2004": 0
+   },
+   {
+    "source_id": 2764860693,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "The Japan Society of Applied Physics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_preperiod",
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 489,
+    "preperiod_total_2000_2004": 0
+   },
+   {
+    "source_id": 4306499932,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "AAS",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 3103,
+    "fractional_shares": {
+     "3103": 1.0
+    },
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": null,
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 396,
+    "preperiod_total_2000_2004": 3984,
+    "preperiod_dominant_share": 0.4104
+   },
+   {
+    "source_id": 189917590,
+    "issn_l": "2158-3226",
+    "issns": [
+     "2158-3226"
+    ],
+    "display_name": "AIP Advances",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     "SJR:Nanoscience and Nanotechnology",
+     3101
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2011,
+    "uncovered_reason": "megajournal",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "19900193962"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     3101,
+     "SJR:Nanoscience and Nanotechnology"
+    ],
+    "general_field": null,
+    "n_c_papers": 370
+   },
+   {
+    "source_id": 2764370513,
+    "issn_l": "2395-4396",
+    "issns": [
+     "2395-4396"
+    ],
+    "display_name": "International journal of advance research and innovative ideas in education",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_preperiod",
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 42,
+    "preperiod_total_2000_2004": 0
+   },
+   {
+    "source_id": 4210223468,
+    "issn_l": "1001-2400",
+    "issns": [
+     "1001-2400"
+    ],
+    "display_name": "Journal of Xidian University",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1706": 0.5,
+     "2208": 0.5
+    },
+    "asjc_codes_raw": [
+     1706,
+     2208
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "27686"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1706,
+     2208
+    ],
+    "general_field": null,
+    "n_c_papers": 29
+   },
+   {
+    "source_id": 4210171711,
+    "issn_l": "2271-2097",
+    "issns": [
+     "2271-2097",
+     "2431-7578"
+    ],
+    "display_name": "ITM Web of Conferences",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_preperiod",
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 27,
+    "preperiod_total_2000_2004": 0
+   },
+   {
+    "source_id": 2764993483,
+    "issn_l": "2090-4479",
+    "issns": [
+     "2090-4479",
+     "2090-4495"
+    ],
+    "display_name": "Ain Shams Engineering Journal",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     2201
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "19700200705"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2201
+    ],
+    "general_field": 22,
+    "n_c_papers": 25
+   },
+   {
+    "source_id": 61564791,
+    "issn_l": "1270-9638",
+    "issns": [
+     "1270-9638",
+     "1626-3219"
+    ],
+    "display_name": "Aerospace Science and Technology",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 2202,
+    "fractional_shares": {
+     "2202": 1.0
+    },
+    "asjc_codes_raw": [
+     2202
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "12507"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2202
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 22
+   },
+   {
+    "source_id": 2764375719,
+    "issn_l": "0009-4978",
+    "issns": [
+     "0009-4978",
+     "1523-8253",
+     "1943-5975"
+    ],
+    "display_name": "Choice Reviews Online",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "preperiod_groupby",
+    "sjr_year_used": null,
+    "uncovered_reason": "preperiod_share_le_0.40",
+    "citation_independent": false,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 22,
+    "preperiod_total_2000_2004": 36911,
+    "preperiod_dominant_share": 0.1492
+   },
+   {
+    "source_id": 2764446469,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Journal of Guangxi Normal University",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 2764472608,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Computer Systems and Applications",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 2764587604,
+    "issn_l": "2319-7242",
+    "issns": [
+     "2319-7242"
+    ],
+    "display_name": "International Journal Of Engineering And Computer Science",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 2765029764,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Journal of Northeastern University",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4210187168,
+    "issn_l": "2319-3786",
+    "issns": [
+     "2319-3786",
+     "2321-5666"
+    ],
+    "display_name": "Malaya Journal of Matematik",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4210196560,
+    "issn_l": "2616-5775",
+    "issns": [
+     "2616-5775"
+    ],
+    "display_name": "Academic Journal of Computing & Information Science",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4210200721,
+    "issn_l": "2572-7907",
+    "issns": [
+     "2572-7907"
+    ],
+    "display_name": "Scilight",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4210205019,
+    "issn_l": "1930-529X",
+    "issns": [
+     "1930-529X",
+     "2576-764X"
+    ],
+    "display_name": "Globecom",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4210210572,
+    "issn_l": "2366-1186",
+    "issns": [
+     "2366-1186",
+     "2366-1445"
+    ],
+    "display_name": "Wireless networks",
+    "openalex_type": "book series",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4210212590,
+    "issn_l": "1932-5517",
+    "issns": [
+     "1932-5517",
+     "2693-7891"
+    ],
+    "display_name": "IEEE Power Engineering Society General Meeting",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4210223820,
+    "issn_l": "2581-9615",
+    "issns": [
+     "2581-9615"
+    ],
+    "display_name": "World Journal of Advanced Research and Reviews",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4306419142,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "International Conference on Artificial Intelligence",
+    "openalex_type": "conference",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4306419529,
+    "issn_l": "2162-7347",
+    "issns": [
+     "2162-7347"
+    ],
+    "display_name": "International Conference on Indoor Positioning and Indoor Navigation",
+    "openalex_type": "conference",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 4306421047,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "The European Symposium on Artificial Neural Networks",
+    "openalex_type": "conference",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 19
+   },
+   {
+    "source_id": 81160022,
+    "issn_l": "1465-6906",
+    "issns": [
+     "1465-6906",
+     "1465-6914",
+     "1474-7596",
+     "1474-760X"
+    ],
+    "display_name": "Genome biology",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1105": 0.333333,
+     "1307": 0.333333,
+     "1311": 0.333333
+    },
+    "asjc_codes_raw": [
+     1307,
+     1105,
+     1311
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "40944"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1105,
+     1307,
+     1311
+    ],
+    "general_field": null,
+    "n_c_papers": 17
+   },
+   {
+    "source_id": 96000363,
+    "issn_l": "0959-1524",
+    "issns": [
+     "0959-1524",
+     "1873-2771"
+    ],
+    "display_name": "Journal of Process Control",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1706": 0.25,
+     "2207": 0.25,
+     "2209": 0.25,
+     "2611": 0.25
+    },
+    "asjc_codes_raw": [
+     1706,
+     2207,
+     2209,
+     2611
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "14414"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1706,
+     2207,
+     2209,
+     2611
+    ],
+    "general_field": null,
+    "n_c_papers": 17
+   },
+   {
+    "source_id": 53142634,
+    "issn_l": "1386-5056",
+    "issns": [
+     "1386-5056",
+     "1872-8243"
+    ],
+    "display_name": "International Journal of Medical Informatics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 2718,
+    "fractional_shares": {
+     "2718": 1.0
+    },
+    "asjc_codes_raw": [
+     2718
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "23689"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2718
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 16
+   },
+   {
+    "source_id": 2764848058,
+    "issn_l": "2150-959X",
+    "issns": [
+     "2150-959X",
+     "2156-3527"
+    ],
+    "display_name": "Journal of Combinatorics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 2607,
+    "fractional_shares": {
+     "2607": 1.0
+    },
+    "asjc_codes_raw": [
+     2607
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2020,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21101256263"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 10
+   },
+   {
+    "source_id": 4387282678,
+    "issn_l": "2764-8044",
+    "issns": [
+     "2764-8044"
+    ],
+    "display_name": "Brazilian Journal of Geophysics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 8
+   },
+   {
+    "source_id": 4210240219,
+    "issn_l": "2090-8865",
+    "issns": [
+     "2090-8865",
+     "2090-8873"
+    ],
+    "display_name": "Journal of Analytical Methods in Chemistry",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1602": 0.333333,
+     "1706": 0.333333,
+     "3105": 0.333333
+    },
+    "asjc_codes_raw": [
+     1602,
+     1501,
+     1706,
+     3105
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100204120"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1501,
+     1602,
+     1706,
+     3105
+    ],
+    "general_field": null,
+    "n_c_papers": 8
+   },
+   {
+    "source_id": 7407064340,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Dalian Institute of Chemical Physics, CAS Institutional Repository",
+    "openalex_type": "repository",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 7
+   },
+   {
+    "source_id": 55916960,
+    "issn_l": "1091-6466",
+    "issns": [
+     "1091-6466",
+     "1532-2459"
+    ],
+    "display_name": "Petroleum Science and Technology",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1909": 0.333333,
+     "2102": 0.333333,
+     "2103": 0.333333
+    },
+    "asjc_codes_raw": [
+     1501,
+     1601,
+     2102,
+     2103,
+     1909
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "13716"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1501,
+     1601,
+     1909,
+     2102,
+     2103
+    ],
+    "general_field": null,
+    "n_c_papers": 6
+   },
+   {
+    "source_id": 4210228763,
+    "issn_l": "1683-3414",
+    "issns": [
+     "1683-3414",
+     "1814-0807"
+    ],
+    "display_name": "\u0412\u043b\u0430\u0434\u0438\u043a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0439 \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0436\u0443\u0440\u043d\u0430\u043b",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     2601
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2019,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100945712"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2601
+    ],
+    "general_field": 26,
+    "n_c_papers": 4
+   },
+   {
+    "source_id": 79990748,
+    "issn_l": "0736-6205",
+    "issns": [
+     "0736-6205",
+     "1940-9818"
+    ],
+    "display_name": "BioTechniques",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 1305,
+    "fractional_shares": {
+     "1305": 1.0
+    },
+    "asjc_codes_raw": [
+     1301,
+     1305
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "15459"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1301,
+     1305
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 3
+   },
+   {
+    "source_id": 200437886,
+    "issn_l": "1471-2458",
+    "issns": [
+     "1471-2458"
+    ],
+    "display_name": "BMC Public Health",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 2739,
+    "fractional_shares": {
+     "2739": 1.0
+    },
+    "asjc_codes_raw": [
+     2739
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "19621"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2739
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 3
+   },
+   {
+    "source_id": 4306402625,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Monash University Research Portal (Monash University)",
+    "openalex_type": "repository",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 3
+   },
+   {
+    "source_id": 4306523450,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Proceedings of International Conference on Hard and Electromagnetic Probes of High-Energy Nuclear Collisions \u2014 PoS(HardProbes2018)",
+    "openalex_type": "conference",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 2
+   },
+   {
+    "source_id": 4210196284,
+    "issn_l": "2279-087X",
+    "issns": [
+     "2279-087X",
+     "2279-0888"
+    ],
+    "display_name": "Annals of Pure and Applied Mathematics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 2
+   },
+   {
+    "source_id": 202417740,
+    "issn_l": "1744-9081",
+    "issns": [
+     "1744-9081"
+    ],
+    "display_name": "Behavioral and Brain Functions",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "2802": 0.333333,
+     "2803": 0.333333,
+     "2805": 0.333333
+    },
+    "asjc_codes_raw": [
+     2802,
+     2803,
+     2805,
+     2701
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "4400151511"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2701,
+     2802,
+     2803,
+     2805
+    ],
+    "general_field": null,
+    "n_c_papers": 2
+   },
+   {
+    "source_id": 2737066829,
+    "issn_l": "1978-3043",
+    "issns": [
+     "1978-3043",
+     "2337-5760",
+     "2338-5510"
+    ],
+    "display_name": "Journal of Mathematical and Fundamental Sciences",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     1101,
+     1301,
+     1601,
+     1901,
+     2601,
+     2701,
+     1000,
+     3101
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100268424"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1000,
+     1101,
+     1301,
+     1601,
+     1901,
+     2601,
+     2701,
+     3101
+    ],
+    "general_field": 11,
+    "n_c_papers": 2
+   },
+   {
+    "source_id": 80339509,
+    "issn_l": "0022-3859",
+    "issns": [
+     "0022-3859",
+     "0972-2823"
+    ],
+    "display_name": "Journal of Postgraduate Medicine",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     2701
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "16002"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2701
+    ],
+    "general_field": 27,
+    "n_c_papers": 2
+   },
+   {
+    "source_id": 4210187311,
+    "issn_l": "2279-0837",
+    "issns": [
+     "2279-0837",
+     "2279-0845"
+    ],
+    "display_name": "IOSR Journal of Humanities and Social Science",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4210209488,
+    "issn_l": "2573-802X",
+    "issns": [
+     "2573-802X"
+    ],
+    "display_name": "Medical Devices & Sensors",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4306506097,
+    "issn_l": "1000-4955",
+    "issns": [
+     "1000-4955"
+    ],
+    "display_name": "Chin J Endemiol",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4306464232,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Vandenhoeck & Ruprecht eBooks",
+    "openalex_type": "ebook platform",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4210199861,
+    "issn_l": "2049-4041",
+    "issns": [
+     "2049-4041",
+     "2049-405X"
+    ],
+    "display_name": "International Journal of Swarm Intelligence",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 2764387193,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Shandong Agricultural Sciences",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4306419119,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "International Conference on Agents and Artificial Intelligence",
+    "openalex_type": "conference",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4210170543,
+    "issn_l": "2356-9107",
+    "issns": [
+     "2356-9107",
+     "2537-0669"
+    ],
+    "display_name": "Journal of Research in Curriculum Instruction and Educational Technology",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4387288119,
+    "issn_l": "2964-1691",
+    "issns": [
+     "2964-1691",
+     "2964-8246"
+    ],
+    "display_name": "Journal of Student Research Exploration",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4306499970,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "AAS/High Energy Astrophysics Division #13",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "no_match_small",
+    "citation_independent": null,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 2764992339,
+    "issn_l": "2093-8950",
+    "issns": [
+     "2093-8950",
+     "2233-4203"
+    ],
+    "display_name": "Mass spectrometry letters",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1602": 0.5,
+     "1607": 0.5
+    },
+    "asjc_codes_raw": [
+     1602,
+     1301,
+     1607
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100242238"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1301,
+     1602,
+     1607
+    ],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 55645480,
+    "issn_l": "1436-2228",
+    "issns": [
+     "1436-2228",
+     "1436-2236"
+    ],
+    "display_name": "Marine Biotechnology",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1104": 0.5,
+     "1305": 0.5
+    },
+    "asjc_codes_raw": [
+     1104,
+     1305
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "16099"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1104,
+     1305
+    ],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4210205053,
+    "issn_l": "1760-1703",
+    "issns": [
+     "1760-1703",
+     "1950-6988",
+     "2115-7863",
+     "2115-8789"
+    ],
+    "display_name": "G\u00e9riatrie et Psychologie Neuropsychiatrie du Viellissement",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "2717": 0.25,
+     "2728": 0.25,
+     "2803": 0.25,
+     "3206": 0.25
+    },
+    "asjc_codes_raw": [
+     2803,
+     2717,
+     2701,
+     2728,
+     3206
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "18743",
+     "19800188011"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2701,
+     2717,
+     2728,
+     2803,
+     3206
+    ],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 190377370,
+    "issn_l": "1462-2416",
+    "issns": [
+     "1462-2416",
+     "1744-8042"
+    ],
+    "display_name": "Pharmacogenomics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1311": 0.333333,
+     "1313": 0.333333,
+     "3004": 0.333333
+    },
+    "asjc_codes_raw": [
+     1311,
+     1313,
+     3004
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21167"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1311,
+     1313,
+     3004
+    ],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4210219897,
+    "issn_l": "1028-6861",
+    "issns": [
+     "1028-6861",
+     "2588-0187"
+    ],
+    "display_name": "Industrial laboratory Diagnostics of materials",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {
+     "1602": 0.333333,
+     "2211": 0.333333,
+     "2604": 0.333333
+    },
+    "asjc_codes_raw": [
+     1602,
+     2604,
+     2501,
+     2211
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2005,
+    "uncovered_reason": "multi_subfield",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21101082063"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1602,
+     2211,
+     2501,
+     2604
+    ],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 2737413915,
+    "issn_l": "1734-9923",
+    "issns": [
+     "1734-9923",
+     "2300-7621"
+    ],
+    "display_name": "Analiza i Egzystencja",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 1211,
+    "fractional_shares": {
+     "1211": 1.0
+    },
+    "asjc_codes_raw": [
+     1211
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2016,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100810717"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     1211
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4210226208,
+    "issn_l": "2056-4538",
+    "issns": [
+     "2056-4538"
+    ],
+    "display_name": "The Journal of Pathology Clinical Research",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": 2734,
+    "fractional_shares": {
+     "2734": 1.0
+    },
+    "asjc_codes_raw": [
+     2734
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2015,
+    "uncovered_reason": null,
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "21100854147"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2734
+    ],
+    "general_field": null,
+    "habitat_in_openalex_subfields": true,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 53978400,
+    "issn_l": "1340-6116",
+    "issns": [
+     "1340-6116",
+     "1883-2032"
+    ],
+    "display_name": "Kyushu Journal of Mathematics",
+    "openalex_type": "journal",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [
+     2601
+    ],
+    "route": "scimago",
+    "sjr_year_used": 2010,
+    "uncovered_reason": "general_only",
+    "citation_independent": true,
+    "scopus_source_ids": [
+     "7500153108"
+    ],
+    "asjc_codes_union_2005_2010_2015_2019": [
+     2601
+    ],
+    "general_field": 26,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 7407055160,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "FH JOANNEUM ePUB",
+    "openalex_type": "repository",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4306402142,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "DiVA (University of G\u00e4vle)",
+    "openalex_type": "repository",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   },
+   {
+    "source_id": 4306401018,
+    "issn_l": null,
+    "issns": [],
+    "display_name": "Open Access Journals at Oslo Metropolitan University (Oslo Metropolitan University)",
+    "openalex_type": "repository",
+    "is_preprint_repository": false,
+    "habitat_subfield": "UNCOVERED",
+    "fractional_shares": {},
+    "asjc_codes_raw": [],
+    "route": "none",
+    "sjr_year_used": null,
+    "uncovered_reason": "repository",
+    "citation_independent": true,
+    "scopus_source_ids": [],
+    "asjc_codes_union_2005_2010_2015_2019": [],
+    "general_field": null,
+    "n_c_papers": 1
+   }
+  ]
+ }
+}

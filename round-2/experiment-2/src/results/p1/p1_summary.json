@@ -1,0 +1,48 @@
+{
+  "status": "DESCRIPTIVE ONLY (Gate A FAIL)",
+  "distance_matrix": {
+    "n_cosine_subfields": 7,
+    "n_citations": 2331,
+    "pair_sources_in_ct_tables": {
+      "cosine": 3738,
+      "taxonomy": 133504
+    }
+  },
+  "n_ct_units": 919,
+  "n_concepts": 184,
+  "pooled_H_share_main": {
+    "SOURCE": 0.0144,
+    "SINK": 0.004,
+    "FADING": 0.0018,
+    "UNDETERMINED": 0.7043,
+    "ORIGIN": 0.2755
+  },
+  "pooled_RS_share_main": {
+    "SOURCE": 0.0191,
+    "SINK": 0.0042,
+    "FADING": 0.0022,
+    "UNDETERMINED": 0.536,
+    "ORIGIN": 0.4386
+  },
+  "tercile_transition_H_rows_HS_cols": [
+    [
+      103,
+      137,
+      74
+    ],
+    [
+      115,
+      93,
+      91
+    ],
+    [
+      96,
+      69,
+      141
+    ]
+  ],
+  "tercile_diagonal_share": 0.36670293797606096,
+  "n_broad_but_hollow_candidates": 23,
+  "H_mean": 0.754998995548636,
+  "RS_mean": 0.20116019269026483
+}
