@@ -1,2 +1,0 @@
-{"file": "eval_spec.json", "sha256": "099d0881eac59da8e6c36b999393a39f94a9a4a8040e344328ce190c25ff399e", "utc_iso": "2026-09-29T06:39:13Z", "note": "frozen before any held-out fold is opened and before any D3 association"}
-{"file": "d3_spec.json", "sha256": "5d0144d7c06d61491cd517f6216c4de2cebb462369e355b5e1203cb95f0297d2", "utc_iso": "2026-09-29T06:39:13Z", "note": "frozen before any held-out fold is opened and before any D3 association"}

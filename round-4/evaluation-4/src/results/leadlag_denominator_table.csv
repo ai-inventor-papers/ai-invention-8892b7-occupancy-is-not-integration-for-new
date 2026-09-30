@@ -1,5 +1,0 @@
-population,n,n_neither,n_diffusion_only,n_expansion_only,n_expansion_first,n_same_year,n_diffusion_first,n_both,share_ef,ci_lo,ci_hi,exp_from_start,diff_from_start,restricted_n_both,restricted_share_ef,logrank_p,never_H_rar_evaluable
-screen,202,110,39,37,15,1,0,16,0.9375,0.8125,1.0,41,15,7,1.0,0.0006111412935280561,0
-heldout,100,49,23,18,10,0,0,10,1.0,1.0,1.0,17,16,5,1.0,0.9463284211682342,1
-pooled_main,302,159,62,55,25,1,0,26,0.9615384615384616,0.8846153846153846,1.0,58,31,12,1.0,0.004820058928157357,1
-mesh,191,71,97,10,9,1,3,13,0.6923076923076923,0.38461538461538464,0.9230769230769231,47,31,13,0.6923076923076923,1.0505244183866856e-09,0
