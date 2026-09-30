@@ -1,0 +1,10 @@
+{
+ "checked_at": "2026-09-29T07:05:28.251175",
+ "searched": [
+  "round-3/experiment-8/src/**/heldout_run/OPENED",
+  "iter_4/gen_art/*/**/heldout_run/OPENED",
+  "OPENED files containing spec sha 695166b4..."
+ ],
+ "found_marker_paths": [],
+ "decision": "open"
+}

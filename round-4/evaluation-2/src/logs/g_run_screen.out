@@ -1,0 +1,10 @@
+06:58:37|INFO   |G1 done 1s: {'mde_key': 'G1_multi_screen', 'mde': 1.15, 'G': 104, 'null': False, 'underpowered_G_lt_30': False, 'label': 'positive (CI excludes 1)'}
+06:58:39|INFO   |G2 done 3s: reading host-vocabulary (both)
+06:59:40|INFO   |G3(i+) + min_topic_score: pct -0.19219840450988013 (64s)
+07:00:38|INFO   |G3(ii) + host_topic_share + sec_host_share: pct -2.11597603606688 (122s)
+07:01:44|INFO   |G3(combined): pct -2.3767480452752787 (188s)
+07:02:36|INFO   |G3 regressions done 240s
+07:03:11|INFO   |placebo host [size]: {'strat': 'size', 'draws': 100, 'fit_failures': 0, 'events_without_candidate': 0, 'n_events': 1740, 'median_candidates': 23.0, 'placebo_irr_sd_median': 0.9691650485746623, 'placebo_irr_sd_q025_q975': [0.8579420905718038, 1.086933989656054], 'share_pos_sig': 0.02, 'joint_A_cont_irr_sd_median': 1.2999698106260351, 'joint_A_cont_share_p05': 1.0, 'joint_plac_irr_sd_median': 0.978463098655339, 'pass_rule': 'PASS if share_pos_sig <= 0.10 AND median placebo IRR/SD < 1.10', 'PASS': True}
+07:03:46|INFO   |placebo host [prox]: {'strat': 'prox', 'draws': 100, 'fit_failures': 0, 'events_without_candidate': 0, 'n_events': 1740, 'median_candidates': 22.0, 'placebo_irr_sd_median': 1.007560450144283, 'placebo_irr_sd_q025_q975': [0.8893892176132954, 1.1265940088851052], 'share_pos_sig': 0.05, 'joint_A_cont_irr_sd_median': 1.300155648538471, 'joint_A_cont_share_p05': 1.0, 'joint_plac_irr_sd_median': 1.0139463047356632, 'pass_rule': 'PASS if share_pos_sig <= 0.10 AND median placebo IRR/SD < 1.10', 'PASS': True}
+07:03:46|INFO   |[screen] 54 rows written in 310s
+exit 0

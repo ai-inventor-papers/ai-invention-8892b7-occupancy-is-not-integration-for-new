@@ -1,0 +1,446 @@
+{
+ "spec_sha256": "535c2dd38bca1ebb023fb28e64a28e8a3812f4183d04c378dc272926bc0509b2",
+ "fallback_screen_controls": true,
+ "n_onsets": 30,
+ "n_matched": 22,
+ "tests": {
+  "closure_resT": {
+   "estimator": "pooled_panel",
+   "coef": -0.10921388470941035,
+   "se": 0.23030243464075958,
+   "p_one": 0.31767172666174737,
+   "p_one_holm": 0.6353434533234947,
+   "decision": "DEAD"
+  },
+  "closure_persist": {
+   "estimator": "pooled_panel",
+   "coef": -1.0731941035529702,
+   "se": 0.40032579799207896,
+   "p_one": 0.0036723005795491984,
+   "p_one_holm": 0.014689202318196794,
+   "decision": "CONFIRMED"
+  },
+  "constraint": {
+   "estimator": "event_study",
+   "S": 0.10460129370527296,
+   "ci": [
+    0.02067265165712284,
+    0.18720930384485507
+   ],
+   "p_one": 0.995,
+   "p_one_holm": 0.995,
+   "decision": "DEAD"
+  },
+  "closure": {
+   "estimator": "pooled_panel",
+   "coef": -0.39121616745183346,
+   "se": 0.23644829647171564,
+   "p_one": 0.04900763240508017,
+   "p_one_holm": 0.14702289721524053,
+   "decision": "DEAD"
+  }
+ },
+ "verdict_rule_on_heldout": "MIXED",
+ "verdict_detail": {
+  "verdict": "MIXED",
+  "cell": "MAIN x all x E_up x route all",
+  "rule_text": "BROKERAGE if ALL of: S_res < 0 and CI_res excludes 0; |S_res| >= 0.5*|S_raw|; S(closure_persist) < 0; S(constraint) < 0; (CI(closure_persist) excludes 0 OR CI(constraint) excludes 0). TURNOVER if ALL of: CI_res includes 0; |S_res| < 0.5*|S_raw|; R1b null (CI(closure_persist) includes 0). MIXED otherwise. R1b NON-ESTIMABLE (< 10 matched treated with finite closure_persist in k=-3..0) counts as null for TURNOVER and as failing for BROKERAGE. S_raw = S(closure), S_res = S(closure_resT), cell = MAIN x all x E_up x route all. Flags never change the label: R1c_degree_driven, R1b_selection, H_sensitive, underpowered, fresh_replication, route_B_only agreement, R1a_model_dependent.",
+  "brokerage_conditions": {
+   "S_res_neg_and_CI_excludes_0": false,
+   "abs_S_res_ge_half_abs_S_raw": false,
+   "S_persist_neg": true,
+   "S_constraint_neg": false,
+   "persist_or_constraint_CI_excludes_0": true
+  },
+  "turnover_conditions": {
+   "CI_res_includes_0": true,
+   "abs_S_res_lt_half_abs_S_raw": true,
+   "R1b_null": false
+  },
+  "flags": {
+   "R1c_degree_driven": false,
+   "R1b_selection": false,
+   "H_sensitive": false,
+   "underpowered": true,
+   "F2_fallback_triggered": false,
+   "fresh_replication": {
+    "S": null,
+    "note": "no matched new treated"
+   },
+   "old_subset_raw_closure": null,
+   "route_B_only_agreement": {
+    "closure": null,
+    "closure_resT": null,
+    "closure_persist": null,
+    "constraint": null
+   },
+   "R1a_model_dependent": true
+  },
+  "inputs": {
+   "S_raw": -0.533857694445188,
+   "ci_raw": [
+    -1.200318700771104,
+    0.07442901692653048
+   ],
+   "S_res": -0.26649617063887315,
+   "ci_res": [
+    -0.8911551243670316,
+    0.3004175353923814
+   ],
+   "S_persist": -0.8260205665610219,
+   "ci_persist": [
+    -1.7056905452443494,
+    -0.0963099233197436
+   ],
+   "S_constraint": 0.10460129370527296,
+   "ci_constraint": [
+    0.02067265165712284,
+    0.18720930384485507
+   ],
+   "S_cdeg_diag": 0.057352751891499104,
+   "ci_cdeg_diag": [
+    -0.1976778179311722,
+    0.31790824265115386
+   ],
+   "S_xc_excess": 0.038407665494446026,
+   "ci_xc_excess": [
+    -0.061377337137286415,
+    0.13307706442821193
+   ],
+   "S_res_cc": -1.1024358671989747,
+   "ci_res_cc": [
+    -2.110405411591254,
+    -0.19671053009721606
+   ],
+   "S_res_raw": -0.29789494590987,
+   "ci_res_raw": [
+    -0.9417318631051195,
+    0.2984299691998163
+   ],
+   "S_res_H_matched": -0.5358917242348268,
+   "ci_res_H_matched": [
+    -0.93348076709635,
+    -0.13339393011467773
+   ],
+   "n_matched_H": 11,
+   "r1b_treated_with_finite": 22,
+   "r1b_estimable": true,
+   "r1b_na_gap_points": -3.156565656565656,
+   "n_onsets": 30,
+   "n_matched": 22,
+   "holm": {},
+   "sens_window": {
+    "closure": {
+     "S": -0.49983217723529744,
+     "ci": [
+      -1.1145375195341336,
+      0.03984627604300613
+     ]
+    },
+    "closure_resT": {
+     "S": -0.26748976680365266,
+     "ci": [
+      -0.8503539660160667,
+      0.24505354976089266
+     ]
+    },
+    "closure_persist": {
+     "S": -0.5242757024967232,
+     "ci": [
+      -1.36206636850909,
+      0.1136815734377477
+     ]
+    },
+    "constraint": {
+     "S": 0.10196707539974333,
+     "ci": [
+      0.012675919637244615,
+      0.19753699205368716
+     ]
+    }
+   }
+  },
+  "label_disclosure": "E_up is a POST-HOC primary label (promoted in iteration 2); confirmation only via the iteration-4 sealed held-out fold."
+ },
+ "rows": {
+  "closure": {
+   "S": -0.533857694445188,
+   "ci": [
+    -1.200318700771104,
+    0.07442901692653048
+   ],
+   "ci90": [
+    -1.086078777795389,
+    -0.03062864957173775
+   ],
+   "se": 0.3204793454969258,
+   "p": 0.084,
+   "p_one_neg": 0.042,
+   "p_one_pos": 0.958
+  },
+  "closure_resT": {
+   "S": -0.26649617063887315,
+   "ci": [
+    -0.8911551243670316,
+    0.3004175353923814
+   ],
+   "ci90": [
+    -0.8083595168881605,
+    0.23024620671426932
+   ],
+   "se": 0.3103805141804047,
+   "p": 0.397,
+   "p_one_neg": 0.1985,
+   "p_one_pos": 0.8015
+  },
+  "closure_persist": {
+   "S": -0.8260205665610219,
+   "ci": [
+    -1.7056905452443494,
+    -0.0963099233197436
+   ],
+   "ci90": [
+    -1.5453979444384607,
+    -0.19691979376891744
+   ],
+   "se": 0.40900378573803836,
+   "p": 0.02,
+   "p_one_neg": 0.01,
+   "p_one_pos": 0.99
+  },
+  "constraint": {
+   "S": 0.10460129370527296,
+   "ci": [
+    0.02067265165712284,
+    0.18720930384485507
+   ],
+   "ci90": [
+    0.03194014804547559,
+    0.17529477025376813
+   ],
+   "se": 0.04222732975708481,
+   "p": 0.01,
+   "p_one_neg": 0.995,
+   "p_one_pos": 0.005
+  },
+  "cdeg_diag": {
+   "S": 0.057352751891499104,
+   "ci": [
+    -0.1976778179311722,
+    0.31790824265115386
+   ],
+   "ci90": [
+    -0.1551645073903452,
+    0.2797477460628065
+   ],
+   "se": 0.13349065530037763,
+   "p": 0.655,
+   "p_one_neg": 0.6725,
+   "p_one_pos": 0.3275
+  },
+  "xc_excess": {
+   "S": 0.038407665494446026,
+   "ci": [
+    -0.061377337137286415,
+    0.13307706442821193
+   ],
+   "ci90": [
+    -0.048205943856522396,
+    0.11866989675823164
+   ],
+   "se": 0.050513644951175246,
+   "p": 0.483,
+   "p_one_neg": 0.7585,
+   "p_one_pos": 0.2415
+  },
+  "effsize": {
+   "S": -27.77683251568361,
+   "ci": [
+    -49.293326881344164,
+    -9.539723417839753
+   ],
+   "ci90": [
+    -45.01362310752863,
+    -11.736941860139057
+   ],
+   "se": 10.27600527091975,
+   "p": 0.0005,
+   "p_one_neg": 0.0005,
+   "p_one_pos": 1.0
+  },
+  "wmz": {
+   "S": 0.013559708873357815,
+   "ci": [
+    -0.023572975315452573,
+    0.04895563455315104
+   ],
+   "ci90": [
+    -0.017653912687714754,
+    0.04329055171844216
+   ],
+   "se": 0.01843796613454731,
+   "p": 0.461,
+   "p_one_neg": 0.7695,
+   "p_one_pos": 0.2305
+  },
+  "closure_resT_cc": {
+   "S": -1.1024358671989747,
+   "ci": [
+    -2.110405411591254,
+    -0.19671053009721606
+   ],
+   "ci90": [
+    -1.95013511589443,
+    -0.33000384656012277
+   ],
+   "se": 0.48949794602120494,
+   "p": 0.015,
+   "p_one_neg": 0.0075,
+   "p_one_pos": 0.9925
+  },
+  "closure_resT_raw": {
+   "S": -0.29789494590987,
+   "ci": [
+    -0.9417318631051195,
+    0.2984299691998163
+   ],
+   "ci90": [
+    -0.8380272554980133,
+    0.18418901998555454
+   ],
+   "se": 0.3113171254047634,
+   "p": 0.353,
+   "p_one_neg": 0.1765,
+   "p_one_pos": 0.8235
+  },
+  "d_wmz": {
+   "S": 0.010495968589685205,
+   "ci": [
+    -0.002382551664031937,
+    0.021095231212146036
+   ],
+   "ci90": [
+    -0.0003676150655811908,
+    0.019470562117366207
+   ],
+   "se": 0.005936492189644949,
+   "p": 0.11,
+   "p_one_neg": 0.945,
+   "p_one_pos": 0.055
+  },
+  "d_closure": {
+   "S": 0.06578326830731612,
+   "ci": [
+    -0.16513526862734082,
+    0.2720447185300525
+   ],
+   "ci90": [
+    -0.13031154344178503,
+    0.24025401613912528
+   ],
+   "se": 0.1115467435602593,
+   "p": 0.526,
+   "p_one_neg": 0.737,
+   "p_one_pos": 0.263
+  }
+ },
+ "panel": {
+  "closure": {
+   "n": 799,
+   "n_concepts": 133,
+   "coef": -0.39121616745183346,
+   "se": 0.23644829647171564,
+   "p_one_neg": 0.04900763240508017,
+   "p_one_pos": 0.9509923675949198
+  },
+  "closure_resT": {
+   "n": 799,
+   "n_concepts": 133,
+   "coef": -0.10921388470941035,
+   "se": 0.23030243464075958,
+   "p_one_neg": 0.31767172666174737,
+   "p_one_pos": 0.6823282733382526
+  },
+  "closure_persist": {
+   "n": 729,
+   "n_concepts": 133,
+   "coef": -1.0731941035529702,
+   "se": 0.40032579799207896,
+   "p_one_neg": 0.0036723005795491984,
+   "p_one_pos": 0.9963276994204509
+  },
+  "constraint": {
+   "n": 799,
+   "n_concepts": 133,
+   "coef": 0.08287981228593422,
+   "se": 0.0414641256867575,
+   "p_one_neg": 0.9771867211723665,
+   "p_one_pos": 0.022813278827633475
+  },
+  "cdeg_diag": {
+   "n": 799,
+   "n_concepts": 133,
+   "coef": 0.25668994172239046,
+   "se": 0.1118053083573378,
+   "p_one_neg": 0.989158211386969,
+   "p_one_pos": 0.010841788613030966
+  },
+  "xc_excess": {
+   "n": 787,
+   "n_concepts": 133,
+   "coef": 0.047136843028685864,
+   "se": 0.04228510625880143,
+   "p_one_neg": 0.8675187872074952,
+   "p_one_pos": 0.13248121279250485
+  },
+  "effsize": {
+   "n": 799,
+   "n_concepts": 133,
+   "coef": 8.214380302158554,
+   "se": 7.565342181658847,
+   "p_one_neg": 0.8612142610457482,
+   "p_one_pos": 0.13878573895425184
+  },
+  "wmz": {
+   "n": 800,
+   "n_concepts": 133,
+   "coef": 0.03659107369039913,
+   "se": 0.01566018790160945,
+   "p_one_neg": 0.990269137383968,
+   "p_one_pos": 0.009730862616031967
+  },
+  "closure_resT_cc": {
+   "n": 263,
+   "n_concepts": 95,
+   "coef": -0.27993473564502064,
+   "se": 0.2979926997972118,
+   "p_one_neg": 0.17376236768576137,
+   "p_one_pos": 0.8262376323142386
+  },
+  "closure_resT_raw": {
+   "n": 799,
+   "n_concepts": 133,
+   "coef": -0.1624450736827372,
+   "se": 0.23912344535667224,
+   "p_one_neg": 0.24846261638506972,
+   "p_one_pos": 0.7515373836149303
+  },
+  "d_wmz": {
+   "n": 755,
+   "n_concepts": 133,
+   "coef": 0.015718086892930555,
+   "se": 0.005389074105530857,
+   "p_one_neg": 0.9982309834444265,
+   "p_one_pos": 0.0017690165555734878
+  },
+  "d_closure": {
+   "n": 753,
+   "n_concepts": 133,
+   "coef": 0.07026916668781093,
+   "se": 0.07751951311905504,
+   "p_one_neg": 0.8176566146352349,
+   "p_one_pos": 0.18234338536476513
+  }
+ },
+ "note": "one run only; no subgroup search (spec decision rules)"
+}
