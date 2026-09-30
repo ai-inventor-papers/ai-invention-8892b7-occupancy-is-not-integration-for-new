@@ -1,0 +1,10 @@
+21:49:43|INFO   |__main__:56|RS distance matrix (252, 252), mean d 0.898
+21:49:50|INFO   |__main__:245|indicators 1/145 (8s)
+21:49:51|INFO   |__main__:245|indicators 21/145 (9s)
+21:49:52|INFO   |__main__:245|indicators 41/145 (10s)
+21:49:53|INFO   |__main__:245|indicators 61/145 (10s)
+21:49:54|INFO   |__main__:245|indicators 81/145 (11s)
+21:49:54|INFO   |__main__:245|indicators 101/145 (12s)
+21:49:55|INFO   |__main__:245|indicators 121/145 (13s)
+21:49:56|INFO   |__main__:245|indicators 141/145 (14s)
+21:49:57|INFO   |__main__:277|indicators done: {'n_rows': 2618, 'n_concepts': 145, 'n_bipartite_rows': 19250, 'volume_spearman': {'P_raw_vs_logvol': 0.04625432776683265, 'P_rar_vs_logvol': -0.04597130197035484, 'beta_sim_raw_vs_logvol': -0.12734880743802868, 'beta_sim_rar_vs_logvol': 0.394013865753903, 'sne_share_raw_vs_logvol': -0.29069327853594057, 'sne_share_rar_vs_logvol': -0.25512125834969385, 'H_vs_logvol': 0.4032735639599775, 'H_rar_vs_logvol': 0.20998223654281828, 'accretion_shift_raw_vs_logvol': -0.04368921815295992, 'accretion_shift_rar_vs_logvol': 0.028989957332225796, 'closure_raw_vs_logvol': -0.6421549844642548, 'closure_vs_logvol': 0.30879216862103126}, 'na_share_pre2016_age_ge0': {'beta_sim_rar': 0.5496503496503496, 'P_rar': 0.11888111888111888, 'beta_sim_rar5': 0.2895104895104895, 'P_rar_m5': 0.03076923076923077, 'closure': 0.006993006993006993, 'H_rar': 0.1258741258741259}, 'secs': 14.4}

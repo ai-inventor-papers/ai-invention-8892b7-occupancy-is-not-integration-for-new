@@ -1,0 +1,38 @@
+00:05:53|INFO   |nodes 50 rank 50 cum 0.374 credits(this proc) 201 rem 9618
+00:07:38|INFO   |nodes 100 rank 100 cum 0.457 credits(this proc) 409 rem 9115
+00:08:49|INFO   |[keywide] calls={'singleton': 0, 'list': 500, 'cache': 8} remaining_keywide=8788 spent_today(artifact,this proc)=549
+00:09:16|INFO   |nodes 150 rank 150 cum 0.509 credits(this proc) 601 rem 8656
+00:11:02|INFO   |nodes 200 rank 200 cum 0.549 credits(this proc) 809 rem 8182
+00:12:44|INFO   |nodes 250 rank 250 cum 0.581 credits(this proc) 1001 rem 7807
+00:13:08|INFO   |[keywide] calls={'singleton': 0, 'list': 1000, 'cache': 8} remaining_keywide=7723 spent_today(artifact,this proc)=1049
+00:14:28|INFO   |nodes 300 rank 300 cum 0.607 credits(this proc) 1209 rem 7407
+00:16:06|INFO   |nodes 350 rank 350 cum 0.629 credits(this proc) 1401 rem 7182
+00:17:20|INFO   |[keywide] calls={'singleton': 0, 'list': 1500, 'cache': 8} remaining_keywide=7034 spent_today(artifact,this proc)=1549
+00:17:51|INFO   |nodes 400 rank 400 cum 0.647 credits(this proc) 1609 rem 6974
+00:19:28|INFO   |nodes 450 rank 450 cum 0.664 credits(this proc) 1801 rem 6782
+00:21:14|INFO   |nodes 500 rank 500 cum 0.679 credits(this proc) 2009 rem 6574
+00:21:33|INFO   |[keywide] calls={'singleton': 0, 'list': 2000, 'cache': 8} remaining_keywide=6534 spent_today(artifact,this proc)=2049
+00:22:56|INFO   |nodes 550 rank 550 cum 0.693 credits(this proc) 2201 rem 6382
+00:24:40|INFO   |nodes 600 rank 600 cum 0.705 credits(this proc) 2409 rem 6174
+00:25:51|INFO   |[keywide] calls={'singleton': 0, 'list': 2500, 'cache': 8} remaining_keywide=6034 spent_today(artifact,this proc)=2549
+00:26:17|INFO   |nodes 650 rank 650 cum 0.716 credits(this proc) 2601 rem 5982
+00:28:01|INFO   |nodes 700 rank 700 cum 0.727 credits(this proc) 2809 rem 5774
+00:29:37|INFO   |nodes 750 rank 750 cum 0.736 credits(this proc) 3001 rem 5582
+00:30:01|INFO   |[keywide] calls={'singleton': 0, 'list': 3000, 'cache': 8} remaining_keywide=5534 spent_today(artifact,this proc)=3049
+00:31:21|INFO   |nodes 800 rank 800 cum 0.745 credits(this proc) 3209 rem 5104
+00:32:58|INFO   |nodes 850 rank 850 cum 0.753 credits(this proc) 3401 rem 4853
+00:34:12|INFO   |[keywide] calls={'singleton': 0, 'list': 3500, 'cache': 8} remaining_keywide=4705 spent_today(artifact,this proc)=3549
+00:34:43|INFO   |nodes 900 rank 900 cum 0.760 credits(this proc) 3609 rem 4645
+00:36:20|INFO   |nodes 950 rank 950 cum 0.766 credits(this proc) 3801 rem 4453
+00:38:03|INFO   |nodes 1000 rank 1000 cum 0.773 credits(this proc) 4009 rem 4245
+00:38:23|INFO   |[keywide] calls={'singleton': 0, 'list': 4000, 'cache': 8} remaining_keywide=4205 spent_today(artifact,this proc)=4049
+00:39:40|INFO   |nodes 1050 rank 1050 cum 0.779 credits(this proc) 4201 rem 4053
+00:41:23|INFO   |nodes 1100 rank 1100 cum 0.784 credits(this proc) 4409 rem 3845
+00:42:34|INFO   |[keywide] calls={'singleton': 0, 'list': 4500, 'cache': 8} remaining_keywide=3705 spent_today(artifact,this proc)=4549
+00:43:00|INFO   |nodes 1150 rank 1150 cum 0.790 credits(this proc) 4601 rem 3653
+00:44:47|INFO   |nodes 1200 rank 1200 cum 0.794 credits(this proc) 4809 rem 3445
+00:46:23|INFO   |nodes 1250 rank 1250 cum 0.799 credits(this proc) 5001 rem 3253
+00:46:47|INFO   |[keywide] calls={'singleton': 0, 'list': 5000, 'cache': 8} remaining_keywide=3205 spent_today(artifact,this proc)=5049
+00:48:08|INFO   |nodes 1300 rank 1300 cum 0.804 credits(this proc) 5209 rem 3045
+00:49:44|INFO   |nodes 1350 rank 1350 cum 0.808 credits(this proc) 5401 rem 2853
+00:50:32|INFO   |fetch stopped: credit stop: spent=5497 cap=5500 remaining_keywide=2757; profiles now 5488

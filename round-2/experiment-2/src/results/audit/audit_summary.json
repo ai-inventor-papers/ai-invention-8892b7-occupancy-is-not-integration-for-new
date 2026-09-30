@@ -1,0 +1,221 @@
+{
+  "1a_match_evidence": {
+    "source": "concept_work.parquet + data_out.json arm",
+    "counts": {
+      "main": {
+        "oa_abstract": 51966,
+        "oa_index_only": 2689,
+        "oa_title": 56997,
+        "s2_only": 10177
+      },
+      "reference": {
+        "oa_abstract": 46226,
+        "oa_index_only": 365,
+        "oa_title": 35046,
+        "s2_only": 11332
+      },
+      "all": {
+        "oa_abstract": 98192,
+        "oa_index_only": 3054,
+        "oa_title": 92043,
+        "s2_only": 21509
+      }
+    },
+    "shares": {
+      "main": {
+        "oa_abstract": 0.4265,
+        "oa_index_only": 0.0221,
+        "oa_title": 0.4678,
+        "s2_only": 0.0835
+      },
+      "reference": {
+        "oa_abstract": 0.4972,
+        "oa_index_only": 0.0039,
+        "oa_title": 0.377,
+        "s2_only": 0.1219
+      },
+      "all": {
+        "oa_abstract": 0.4571,
+        "oa_index_only": 0.0142,
+        "oa_title": 0.4285,
+        "s2_only": 0.1001
+      }
+    }
+  },
+  "1b_route_counts": {
+    "source": "data_out.json metadata_retrieval_route",
+    "counts": {
+      "main": {
+        "A_openalex_native": 24,
+        "B_s2_index": 160
+      },
+      "reference": {
+        "A_openalex_native": 2,
+        "B_s2_index": 20
+      }
+    },
+    "expected": {
+      "main": {
+        "A_openalex_native": 24,
+        "B_s2_index": 160
+      },
+      "reference": {
+        "A_openalex_native": 2,
+        "B_s2_index": 20
+      }
+    },
+    "match": true
+  },
+  "1c_sense_flagged": {
+    "source": "data_out.json metadata_flags / metadata_sense_dominant_share (assemble.py: < 0.7)",
+    "n": 21
+  },
+  "1d_reference_rule": {
+    "screen.py_lines_28_31": [
+      "    if pre > 15 or any(get(y) >= 5 for y in range(1995, 2005)):",
+      "        ref_ok = all(get(y) >= 5 for y in range(1998, 2005)) and 70 <= sum(get(y) for y in range(1998, 2005)) <= 700",
+      "        return {\"status\": \"REJECT_PREEXISTING\", \"counts\": {y: get(y) for y in range(1995, 2005)},",
+      "                \"reference_eligible\": ref_ok}"
+    ],
+    "sample_frame.py_line_132": [
+      "    ref_rows = [r for r in screen if r[\"status\"] == \"REJECT_PREEXISTING\" and r.get(\"reference_eligible\")]"
+    ],
+    "n_reference_eligible": 263,
+    "n_reference_sampled": 60,
+    "n_reference_in_prefix": 22,
+    "note": "status REJECT_PREEXISTING, >= 5 hits every year 1998-2004, sum 1998-2004 in [70,700]; drawn from all screened candidates with reference_eligible"
+  },
+  "1e_fold_fband": {
+    "source": "data_out.json metadata_focal_years_* (OLD) / F (NEW)",
+    "old_tags_nonempty (both folds pooled per tag)": {
+      "2005-07": {
+        "screen": 38,
+        "heldout": 0
+      },
+      "2008-11": {
+        "screen": 76,
+        "heldout": 76
+      },
+      "2012-16": {
+        "screen": 0,
+        "heldout": 65
+      }
+    },
+    "assemble_summary_reported": {
+      "2005-07": {
+        "screen": 38,
+        "heldout": 0
+      },
+      "2008-11": {
+        "screen": 76,
+        "heldout": 76
+      },
+      "2012-16": {
+        "screen": 0,
+        "heldout": 65
+      }
+    },
+    "new_rule": [
+      {
+        "F_band": "2005-07",
+        "fold": "heldout_concept",
+        "n_concepts": 12,
+        "focal_years_total": 72
+      },
+      {
+        "F_band": "2005-07",
+        "fold": "screen",
+        "n_concepts": 26,
+        "focal_years_total": 156
+      },
+      {
+        "F_band": "2008-11",
+        "fold": "heldout_concept",
+        "n_concepts": 22,
+        "focal_years_total": 132
+      },
+      {
+        "F_band": "2008-11",
+        "fold": "screen",
+        "n_concepts": 54,
+        "focal_years_total": 324
+      },
+      {
+        "F_band": "2012-16",
+        "fold": "heldout_concept",
+        "n_concepts": 27,
+        "focal_years_total": 91
+      },
+      {
+        "F_band": "2012-16",
+        "fold": "screen",
+        "n_concepts": 43,
+        "focal_years_total": 144
+      }
+    ]
+  },
+  "1f_eligible_units": {
+    "source": "results/cache/main_edges_noboot.parquet (this artifact; >= 10 W1 d-papers after dedup)",
+    "old_rule_screen_2010_14": [
+      {
+        "t": 2010,
+        "units": 10,
+        "concepts": 7,
+        "hosts": 8,
+        "hypothesis_quote": 13
+      },
+      {
+        "t": 2011,
+        "units": 15,
+        "concepts": 11,
+        "hosts": 11,
+        "hypothesis_quote": 23
+      },
+      {
+        "t": 2012,
+        "units": 33,
+        "concepts": 19,
+        "hosts": 18,
+        "hypothesis_quote": 40
+      },
+      {
+        "t": 2013,
+        "units": 48,
+        "concepts": 25,
+        "hosts": 23,
+        "hypothesis_quote": 54
+      },
+      {
+        "t": 2014,
+        "units": 54,
+        "concepts": 31,
+        "hosts": 23,
+        "hypothesis_quote": 63
+      }
+    ],
+    "note": "the hypothesis quote 13/23/40/54/63 is compared per year; our counts use dedup'ed c-papers and D1 origin_subfield; differences reflect the unit definition used in the quote (unknown: units vs concepts) \u2014 both are reported",
+    "old_rule_no_dedup_variant": {
+      "screen_fold|2010": 12,
+      "screen_fold|2011": 16,
+      "screen_fold|2012": 36,
+      "screen_fold|2013": 51,
+      "screen_fold|2014": 55,
+      "all_main|2010": 15,
+      "all_main|2011": 26,
+      "all_main|2012": 54,
+      "all_main|2013": 80,
+      "all_main|2014": 99
+    },
+    "new_rule_total_units": 779,
+    "new_rule_concepts": 100
+  },
+  "1g_origin_recompute": {
+    "source": "concept_work.parquet + works parquet",
+    "agreement_share": 1.0,
+    "n_mismatch": 0,
+    "policy": "mismatches logged, D1 origin kept"
+  },
+  "loader_year_check": {
+    "link_year_eq_pub_year_share": 1.0
+  }
+}

@@ -1,0 +1,32 @@
+20:57:46|INFO   |concepts: 191 rows; F-bands {'2005-07': 83, '2008-11': 78, '2012-16': 30}; rule_parity 172; retrieval_complete 13
+20:57:48|INFO   |background: {'n_works': 259716, 'n_w_year_missing_used_design_weight': 0, 'low_conf_topic_share_raw': 0.04156463213664156, 'low_conf_topic_share_weighted': 0.12108702425457929, 'mean_tags_per_work': 5.746034129587703, 'weighted_vs_frame_max_abs_rel_dev': 0.0}
+20:57:49|INFO   |twins: 22 concepts have >=1 legacy twin (22 twin ids)
+20:57:49|INFO   |prepare: {'bg': {'n_works': 259716, 'n_w_year_missing_used_design_weight': 0, 'low_conf_topic_share_raw': 0.04156463213664156, 'low_conf_topic_share_weighted': 0.12108702425457929, 'mean_tags_per_work': 5.746034129587703, 'weighted_vs_frame_max_abs_rel_dev': 0.0}, 'tag_share_in_concepts_parquet': 1.0, 'tag_share_in_bg_sample': 0.9885276984637157, 'n_twin_concepts': 22, 'n_twin_ids': 22, 'works_vs_table_yearly_count_agreement': 1.0, 'n_primary_rows': 92063, 'n_primary_unique_works': 89831}
+20:57:50|INFO   |rewiring subsample: 391 of 3910 focal concept-years
+21:01:08|INFO   |snapshot 2024 done: nodes 25891 edges 474848 comm 301 nmi 0.726 focal 191 t 186s (elapsed 199s)
+21:01:28|INFO   |snapshot 2022 done: nodes 27311 edges 515634 comm 270 nmi 0.718 focal 189 t 205s (elapsed 218s)
+21:01:46|INFO   |snapshot 2023 done: nodes 27075 edges 517942 comm 257 nmi 0.739 focal 190 t 224s (elapsed 236s)
+21:01:50|INFO   |snapshot 2021 done: nodes 27611 edges 513466 comm 260 nmi 0.726 focal 189 t 227s (elapsed 240s)
+21:04:16|INFO   |snapshot 2020 done: nodes 27374 edges 496680 comm 305 nmi 0.721 focal 191 t 187s (elapsed 387s)
+21:04:41|INFO   |snapshot 2018 done: nodes 26523 edges 452324 comm 339 nmi 0.738 focal 191 t 174s (elapsed 411s)
+21:04:45|INFO   |snapshot 2019 done: nodes 26820 edges 476431 comm 317 nmi 0.735 focal 191 t 197s (elapsed 415s)
+21:04:55|INFO   |snapshot 2017 done: nodes 26574 edges 447698 comm 320 nmi 0.724 focal 191 t 185s (elapsed 426s)
+21:06:04|INFO   |snapshot 2014_nolowconf done: nodes 28167 edges 489382 comm 312 nmi 0.737 focal 188 t 69s (elapsed 495s)
+21:07:14|INFO   |snapshot 2016 done: nodes 27315 edges 464967 comm 336 nmi 0.735 focal 191 t 177s (elapsed 564s)
+21:07:38|INFO   |snapshot 2015 done: nodes 27797 edges 481059 comm 321 nmi 0.731 focal 191 t 177s (elapsed 588s)
+21:07:54|INFO   |snapshot 2014 done: nodes 28238 edges 490436 comm 328 nmi 0.732 focal 188 t 189s (elapsed 605s)
+21:09:05|INFO   |snapshot 2013 done: nodes 27718 edges 474168 comm 356 nmi 0.734 focal 186 t 181s (elapsed 676s)
+21:10:11|INFO   |snapshot 2012 done: nodes 27034 edges 452265 comm 347 nmi 0.741 focal 185 t 176s (elapsed 741s)
+21:10:24|INFO   |snapshot 2011 done: nodes 27450 edges 462462 comm 387 nmi 0.742 focal 182 t 166s (elapsed 754s)
+21:10:48|INFO   |snapshot 2010 done: nodes 27994 edges 473432 comm 374 nmi 0.734 focal 176 t 174s (elapsed 778s)
+21:12:30|INFO   |snapshot 2009 done: nodes 28449 edges 482485 comm 403 nmi 0.744 focal 165 t 204s (elapsed 880s)
+21:12:51|INFO   |snapshot 2007 done: nodes 26242 edges 418150 comm 367 nmi 0.738 focal 152 t 147s (elapsed 902s)
+21:13:11|INFO   |snapshot 2008 done: nodes 27514 edges 452054 comm 387 nmi 0.723 focal 158 t 180s (elapsed 922s)
+21:13:18|INFO   |snapshot 2006 done: nodes 26720 edges 431125 comm 371 nmi 0.749 focal 136 t 150s (elapsed 929s)
+21:15:26|INFO   |snapshot 2005 done: nodes 27233 edges 447438 comm 430 nmi 0.753 focal 123 t 175s (elapsed 1056s)
+21:15:34|INFO   |snapshot 2004 done: nodes 27738 edges 462851 comm 408 nmi 0.742 focal 103 t 162s (elapsed 1065s)
+21:15:39|INFO   |snapshot 2002 done: nodes 25700 edges 406186 comm 395 nmi 0.760 focal 75 t 140s (elapsed 1069s)
+21:15:47|INFO   |snapshot 2000 done: nodes 13813 edges 149503 comm 288 nmi 0.799 focal 30 t 13s (elapsed 1078s)
+21:16:06|INFO   |snapshot 2003 done: nodes 26759 edges 434983 comm 409 nmi 0.756 focal 91 t 174s (elapsed 1097s)
+21:16:46|INFO   |snapshot 2001 done: nodes 20612 edges 280006 comm 359 nmi 0.775 focal 55 t 80s (elapsed 1137s)
+EXIT 0

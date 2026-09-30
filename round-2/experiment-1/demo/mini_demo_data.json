@@ -1,0 +1,3091 @@
+{
+ "metadata": {
+  "source": "D2 silver-labelled phrases (art_QpM5SM6a7SH6 via experiment art_BdBvbNuNU8E7, data/d2.json)",
+  "description": "100 D2 phrases (70 train / 30 test, stratified by silver label and spread over macro-domains). 'termhood' holds the precomputed outcome-blind corpus termhood statistics (step s1_corpus over 1.48M arXiv titles + DS4 D1 abstracts), which cannot be recomputed in a notebook.",
+  "counts": {
+   "train:CONCEPT": 40,
+   "train:NOT_CONCEPT": 26,
+   "train:TOO_GENERIC": 4,
+   "test:CONCEPT": 18,
+   "test:NOT_CONCEPT": 10,
+   "test:TOO_GENERIC": 2
+  },
+  "n_termhood_missing": 0
+ },
+ "reference_full_run": {
+  "n_train": 1200,
+  "n_test": 300,
+  "primary_config": {
+   "C": 0.01,
+   "class_weight": null,
+   "pca": 64,
+   "oof_f1_at_0.5": 0.8680664363562964,
+   "oof_best_thr_f1": 0.8697342838626054,
+   "oof_auc": 0.9079166863849321
+  },
+  "thresholds": {
+   "t_F1": 0.5073,
+   "t_P90": 0.6468
+  },
+  "test_primary_tF1": {
+   "precision": 0.7589743589743589,
+   "recall": 0.8862275449101796,
+   "f1": 0.8176795580110497,
+   "auc": 0.8878933861600109,
+   "brier": 0.14229640364646912
+  },
+  "test_baselines_f1": {
+   "majority_class": 0.715203426124197,
+   "cvalue_threshold": 0.7158351409978307,
+   "llm_label_A": 0.9011627906976745,
+   "llm_label_B": 0.773148148148148
+  },
+  "test_comparisons_f1": {
+   "no_termhood": 0.8257372654155496,
+   "no_embeddings": 0.7741935483870969,
+   "lexical_only": 0.762402088772846,
+   "minilm_only": 0.7786259541984734,
+   "specter2_only": 0.7804878048780488,
+   "full_plus_context": 0.8251366120218578,
+   "hgb": 0.8146214099216711
+  },
+  "secondary_3class_macro_f1": 0.6111785552244663
+ },
+ "examples": [
+  {
+   "key": "service oriented computing",
+   "surface_forms": [
+    "service - oriented computing",
+    "Service Oriented Computing",
+    "Service - oriented computing"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1214",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.0,
+   "termhood": {
+    "th_log_f": 2.4849066497880004,
+    "th_src_ratio": -1.2039728043259363,
+    "th_log_df": 1.9459101490553132,
+    "th_cvalue": 3.1354942159291497,
+    "th_right_entropy": 2.40400975732486,
+    "th_left_entropy": 2.481714572986073,
+    "th_share_right_ext_noun": 0.2776270160365534,
+    "th_share_left_ext_adj_noun": 0.09431078678634643,
+    "th_max_right_ext_share": 0.09090909090909091,
+    "th_right_boundary_share": 0.45454545454545453,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "extracorporeal membrane oxygenation",
+   "surface_forms": [
+    "extracorporeal membrane oxygenation",
+    "ECMO"
+   ],
+   "acronym_short_forms": [
+    "ECMO"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c463",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.0,
+   "termhood": {
+    "th_log_f": 1.6094379124341003,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 1.0986122886681096,
+    "th_right_entropy": 0.8112781244591328,
+    "th_left_entropy": 1.5,
+    "th_share_right_ext_noun": 0.7642045454545454,
+    "th_share_left_ext_adj_noun": 0.003639027858249717,
+    "th_max_right_ext_share": 0.75,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "hyperemia",
+   "surface_forms": [
+    "hyperemia",
+    "Hyperemia"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c624",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.6,
+   "termhood": {
+    "th_log_f": 3.1354942159291497,
+    "th_src_ratio": -3.1354942159291497,
+    "th_log_df": 2.70805020110221,
+    "th_cvalue": 2.70805020110221,
+    "th_right_entropy": 3.970573095811685,
+    "th_left_entropy": 3.1867043459100244,
+    "th_share_right_ext_noun": 0.15012196216228896,
+    "th_share_left_ext_adj_noun": 0.5454933839580706,
+    "th_max_right_ext_share": 0.13636363636363635,
+    "th_right_boundary_share": 0.09090909090909091,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "rop",
+   "surface_forms": [
+    "ROP"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1164",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.0,
+   "termhood": {
+    "th_log_f": 3.7612001156935624,
+    "th_src_ratio": -1.6650077635889111,
+    "th_log_df": 3.091042453358316,
+    "th_cvalue": 3.6888794541139363,
+    "th_right_entropy": 4.248529327128575,
+    "th_left_entropy": 4.379714446279217,
+    "th_share_right_ext_noun": 0.31005056664069486,
+    "th_share_left_ext_adj_noun": 0.329674806629759,
+    "th_max_right_ext_share": 0.21428571428571427,
+    "th_right_boundary_share": 0.09523809523809523,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "international norm",
+   "surface_forms": [
+    "international norms"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c689",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.7549,
+   "termhood": {
+    "th_log_f": 1.6094379124341003,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 1.6094379124341003,
+    "th_cvalue": 1.9933184068433132,
+    "th_right_entropy": 2.0,
+    "th_left_entropy": 2.0,
+    "th_share_right_ext_noun": 0.24993196627116143,
+    "th_share_left_ext_adj_noun": 0.0009088115009066868,
+    "th_max_right_ext_share": 0.25,
+    "th_right_boundary_share": 0.25,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "aodv protocol",
+   "surface_forms": [
+    "AODV protocol"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c75",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.7549,
+   "termhood": {
+    "th_log_f": 1.9459101490553132,
+    "th_src_ratio": 0.0,
+    "th_log_df": 1.9459101490553132,
+    "th_cvalue": 2.3523057768887243,
+    "th_right_entropy": 1.9182958340544896,
+    "th_left_entropy": 2.2516291673878226,
+    "th_share_right_ext_noun": 0.0009694608165119324,
+    "th_share_left_ext_adj_noun": 0.16763170686023876,
+    "th_max_right_ext_share": 0.3333333333333333,
+    "th_right_boundary_share": 0.3333333333333333,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "convenience sampling",
+   "surface_forms": [
+    "convenience sampling",
+    "Convenience sampling"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c278",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 15.4534,
+   "termhood": {
+    "th_log_f": 3.091042453358316,
+    "th_src_ratio": -3.091042453358316,
+    "th_log_df": 3.091042453358316,
+    "th_cvalue": 3.330215480232425,
+    "th_right_entropy": 2.0698936164374757,
+    "th_left_entropy": 3.463280517810811,
+    "th_share_right_ext_noun": 0.4263158637482537,
+    "th_share_left_ext_adj_noun": 0.1908936660503322,
+    "th_max_right_ext_share": 0.2857142857142857,
+    "th_right_boundary_share": 0.3333333333333333,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "polymerase ii",
+   "surface_forms": [
+    "polymerase II",
+    "PolII"
+   ],
+   "acronym_short_forms": [
+    "Pol II",
+    "pol II",
+    "PolII"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1047",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 7.2204,
+   "termhood": {
+    "th_log_f": 2.8903717578961645,
+    "th_src_ratio": -2.1400661634962708,
+    "th_log_df": 2.772588722239781,
+    "th_cvalue": 2.690316665517001,
+    "th_right_entropy": 3.007196489685617,
+    "th_left_entropy": -0.0,
+    "th_share_right_ext_noun": 0.7419931764718968,
+    "th_share_left_ext_adj_noun": 1.0,
+    "th_max_right_ext_share": 0.29411764705882354,
+    "th_right_boundary_share": 0.11764705882352941,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "wavefront",
+   "surface_forms": [
+    "wavefront",
+    "wavefronts"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1444",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 5.8438,
+   "termhood": {
+    "th_log_f": 5.924255797414532,
+    "th_src_ratio": 1.59986846141795,
+    "th_log_df": 5.802118375377063,
+    "th_cvalue": 5.907579590899029,
+    "th_right_entropy": 5.080120797949418,
+    "th_left_entropy": 6.1839080744516055,
+    "th_share_right_ext_noun": 0.6497709031667115,
+    "th_share_left_ext_adj_noun": 0.5137817993279923,
+    "th_max_right_ext_share": 0.18230563002680966,
+    "th_right_boundary_share": 0.05093833780160858,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "communicative language teaching",
+   "surface_forms": [
+    "Communicative Language Teaching",
+    "COMMUNICATIVE LANGUAGE TEACHING",
+    "CLT"
+   ],
+   "acronym_short_forms": [
+    "CLT"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c254",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.0,
+   "termhood": {
+    "th_log_f": 1.6094379124341003,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 1.0986122886681096,
+    "th_right_entropy": 0.8112781244591328,
+    "th_left_entropy": 2.0,
+    "th_share_right_ext_noun": 0.6818181818181818,
+    "th_share_left_ext_adj_noun": 0.5003129034510764,
+    "th_max_right_ext_share": 0.75,
+    "th_right_boundary_share": 0.25,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "electromagnetic shielding effectiveness",
+   "surface_forms": [
+    "electromagnetic shielding effectiveness"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c413",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 1.3862943611198906,
+    "th_src_ratio": -1.3862943611198906,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 1.9459101490553132,
+    "th_right_entropy": 1.584962500721156,
+    "th_left_entropy": 1.584962500721156,
+    "th_share_right_ext_noun": 0.0009470168764516099,
+    "th_share_left_ext_adj_noun": 0.0015406174003354662,
+    "th_max_right_ext_share": 0.3333333333333333,
+    "th_right_boundary_share": 0.3333333333333333,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "hospital anxiety and depression scale",
+   "surface_forms": [
+    "Hospital Anxiety and Depression Scale",
+    "HADS"
+   ],
+   "acronym_short_forms": [
+    "HADS"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c608",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 12.9248,
+   "termhood": {
+    "th_log_f": 1.9459101490553132,
+    "th_src_ratio": -1.9459101490553132,
+    "th_log_df": 1.791759469228055,
+    "th_cvalue": 2.8039526299970774,
+    "th_right_entropy": 1.9182958340544896,
+    "th_left_entropy": 1.2516291673878228,
+    "th_share_right_ext_noun": 0.16446736531089587,
+    "th_share_left_ext_adj_noun": 0.0030947562574064023,
+    "th_max_right_ext_share": 0.3333333333333333,
+    "th_right_boundary_share": 0.3333333333333333,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "sprague dawley rat",
+   "surface_forms": [
+    "Sprague - Dawley rats",
+    "Sprague Dawley rats",
+    "Sprague - Dawley rat"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1263",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 62.8,
+   "termhood": {
+    "th_log_f": 4.804021044733257,
+    "th_src_ratio": -3.6888794541139363,
+    "th_log_df": 4.709530201312334,
+    "th_cvalue": 5.420043236292127,
+    "th_right_entropy": 4.134198408119166,
+    "th_left_entropy": 3.6687156266003518,
+    "th_share_right_ext_noun": 0.11311695804726528,
+    "th_share_left_ext_adj_noun": 0.6587818997649937,
+    "th_max_right_ext_share": 0.2809917355371901,
+    "th_right_boundary_share": 0.2066115702479339,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "lhcb",
+   "surface_forms": [
+    "LHCb"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c754",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 1.6667,
+   "termhood": {
+    "th_log_f": 6.073044534100405,
+    "th_src_ratio": 3.2652821976823563,
+    "th_log_df": 6.052089168924417,
+    "th_cvalue": 6.057174257136016,
+    "th_right_entropy": 3.6185454100699173,
+    "th_left_entropy": 2.747053816683872,
+    "th_share_right_ext_noun": 0.3799694430511833,
+    "th_share_left_ext_adj_noun": 0.0550258263001454,
+    "th_max_right_ext_share": 0.07621247113163972,
+    "th_right_boundary_share": 0.4896073903002309,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "digital library",
+   "surface_forms": [
+    "digital libraries",
+    "digital library",
+    "Digital Library"
+   ],
+   "acronym_short_forms": [
+    "DL"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c368",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 34.517,
+   "termhood": {
+    "th_log_f": 4.882801922586371,
+    "th_src_ratio": -0.4748936145399276,
+    "th_log_df": 4.442651256490317,
+    "th_cvalue": 5.318105877492969,
+    "th_right_entropy": 4.885426609662339,
+    "th_left_entropy": 4.999903422046687,
+    "th_share_right_ext_noun": 0.2689677581273119,
+    "th_share_left_ext_adj_noun": 0.31302550098577275,
+    "th_max_right_ext_share": 0.061068702290076333,
+    "th_right_boundary_share": 0.22900763358778625,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "regenerative medicine",
+   "surface_forms": [
+    "regenerative medicine",
+    "Regenerative Medicine"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1130",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 7.9248,
+   "termhood": {
+    "th_log_f": 2.5649493574615367,
+    "th_src_ratio": -1.299282984130261,
+    "th_log_df": 2.302585092994046,
+    "th_cvalue": 2.996709296544245,
+    "th_right_entropy": 2.4508257945180882,
+    "th_left_entropy": 2.5220552088742005,
+    "th_share_right_ext_noun": 0.09197320610870469,
+    "th_share_left_ext_adj_noun": 0.08418626365082287,
+    "th_max_right_ext_share": 0.16666666666666666,
+    "th_right_boundary_share": 0.4166666666666667,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "dietary copper",
+   "surface_forms": [
+    "dietary copper"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c361",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.1699,
+   "termhood": {
+    "th_log_f": 1.791759469228055,
+    "th_src_ratio": -1.791759469228055,
+    "th_log_df": 1.791759469228055,
+    "th_cvalue": 2.1888353194456793,
+    "th_right_entropy": 2.321928094887362,
+    "th_left_entropy": 1.9219280948873623,
+    "th_share_right_ext_noun": 0.21431778447651656,
+    "th_share_left_ext_adj_noun": 0.00044077566537917496,
+    "th_max_right_ext_share": 0.2,
+    "th_right_boundary_share": 0.2,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "clsi",
+   "surface_forms": [
+    "CLSI"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c234",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 1.75,
+   "termhood": {
+    "th_log_f": 2.4849066497880004,
+    "th_src_ratio": -2.4849066497880004,
+    "th_log_df": 1.791759469228055,
+    "th_cvalue": 2.302585092994046,
+    "th_right_entropy": 3.4594316186372973,
+    "th_left_entropy": 2.913977073182752,
+    "th_share_right_ext_noun": 0.19146598414735638,
+    "th_share_left_ext_adj_noun": 0.27479116122452213,
+    "th_max_right_ext_share": 0.09090909090909091,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "diopside",
+   "surface_forms": [
+    "diopside"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c369",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.0,
+   "termhood": {
+    "th_log_f": 2.4849066497880004,
+    "th_src_ratio": -2.4849066497880004,
+    "th_log_df": 1.9459101490553132,
+    "th_cvalue": 2.302585092994046,
+    "th_right_entropy": 2.8453509366224368,
+    "th_left_entropy": 2.8453509366224368,
+    "th_share_right_ext_noun": 0.2660831430343135,
+    "th_share_left_ext_adj_noun": 0.43925576511767445,
+    "th_max_right_ext_share": 0.2727272727272727,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "nationally representative survey",
+   "surface_forms": [
+    "nationally representative survey"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c894",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 8.0,
+   "termhood": {
+    "th_log_f": 1.791759469228055,
+    "th_src_ratio": -1.791759469228055,
+    "th_log_df": 1.791759469228055,
+    "th_cvalue": 2.3978952727983707,
+    "th_right_entropy": 1.9219280948873623,
+    "th_left_entropy": 1.3709505944546687,
+    "th_share_right_ext_noun": 0.0011450299224926525,
+    "th_share_left_ext_adj_noun": 0.2168074224006252,
+    "th_max_right_ext_share": 0.2,
+    "th_right_boundary_share": 0.4,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "level control",
+   "surface_forms": [
+    "level control"
+   ],
+   "acronym_short_forms": [
+    "LLC"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c752",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.3399,
+   "termhood": {
+    "th_log_f": 3.1780538303479458,
+    "th_src_ratio": -0.5753641449035616,
+    "th_log_df": 3.044522437723423,
+    "th_cvalue": 3.454504577784654,
+    "th_right_entropy": 3.4952365449960032,
+    "th_left_entropy": 3.5555331514269954,
+    "th_share_right_ext_noun": 0.29749263550571936,
+    "th_share_left_ext_adj_noun": 0.9482024757752684,
+    "th_max_right_ext_share": 0.30434782608695654,
+    "th_right_boundary_share": 0.08695652173913043,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "selenized yeast",
+   "surface_forms": [
+    "selenized yeast"
+   ],
+   "acronym_short_forms": [
+    "Se-yeast"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1199",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.7549,
+   "termhood": {
+    "th_log_f": 1.9459101490553132,
+    "th_src_ratio": -1.9459101490553132,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 2.3523057768887243,
+    "th_right_entropy": 1.9182958340544896,
+    "th_left_entropy": 2.2516291673878226,
+    "th_share_right_ext_noun": 0.13558948594242404,
+    "th_share_left_ext_adj_noun": 0.1688566333889355,
+    "th_max_right_ext_share": 0.3333333333333333,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "kidney injury",
+   "surface_forms": [
+    "kidney injury"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c726",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.1699,
+   "termhood": {
+    "th_log_f": 3.044522437723423,
+    "th_src_ratio": -1.2237754316221159,
+    "th_log_df": 2.4849066497880004,
+    "th_cvalue": 3.2309134152606322,
+    "th_right_entropy": 3.3037016960573484,
+    "th_left_entropy": 2.323219672335508,
+    "th_share_right_ext_noun": 0.2188112792594256,
+    "th_share_left_ext_adj_noun": 0.5794038080295649,
+    "th_max_right_ext_share": 0.25,
+    "th_right_boundary_share": 0.05,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "block copolymer",
+   "surface_forms": [
+    "block copolymers",
+    "block copolymer",
+    "Block Copolymers"
+   ],
+   "acronym_short_forms": [
+    "BCP"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c147",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 36.2129,
+   "termhood": {
+    "th_log_f": 5.3471075307174685,
+    "th_src_ratio": -0.2959808752664763,
+    "th_log_df": 4.997212273764115,
+    "th_cvalue": 5.788802744230124,
+    "th_right_entropy": 5.764719457523873,
+    "th_left_entropy": 5.420248383039788,
+    "th_share_right_ext_noun": 0.40223858796192086,
+    "th_share_left_ext_adj_noun": 0.38403025631930154,
+    "th_max_right_ext_share": 0.05263157894736842,
+    "th_right_boundary_share": 0.15789473684210525,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "event study methodology",
+   "surface_forms": [
+    "event‐study methodology",
+    "event study methodology"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c448",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 8.0,
+   "termhood": {
+    "th_log_f": 1.6094379124341003,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 1.6094379124341003,
+    "th_cvalue": 2.1972245773362196,
+    "th_right_entropy": 2.0,
+    "th_left_entropy": 1.5,
+    "th_share_right_ext_noun": 0.002525385503844639,
+    "th_share_left_ext_adj_noun": 0.003671984828684,
+    "th_max_right_ext_share": 0.25,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "dynamic time warping",
+   "surface_forms": [
+    "DTW",
+    "dynamic time warping",
+    "Dynamic time warping"
+   ],
+   "acronym_short_forms": [
+    "DTW"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c397",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 3.58351893845611,
+    "th_src_ratio": 1.4552872326068422,
+    "th_log_df": 3.5263605246161616,
+    "th_cvalue": 4.179502370562408,
+    "th_right_entropy": 2.794558536651509,
+    "th_left_entropy": 3.878584802350185,
+    "th_share_right_ext_noun": 0.37204952593409507,
+    "th_share_left_ext_adj_noun": 0.2420221003039034,
+    "th_max_right_ext_share": 0.14285714285714285,
+    "th_right_boundary_share": 0.37142857142857144,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "cbct image",
+   "surface_forms": [
+    "CBCT images",
+    "CBCT image"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c192",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 9.5098,
+   "termhood": {
+    "th_log_f": 3.044522437723423,
+    "th_src_ratio": -1.8458266904983307,
+    "th_log_df": 2.70805020110221,
+    "th_cvalue": 3.385383837823775,
+    "th_right_entropy": 3.746439344671016,
+    "th_left_entropy": 3.9841837197791894,
+    "th_share_right_ext_noun": 0.23632048743952833,
+    "th_share_left_ext_adj_noun": 0.5135886717541613,
+    "th_max_right_ext_share": 0.15,
+    "th_right_boundary_share": 0.15,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "fuzi",
+   "surface_forms": [
+    "Fuzi"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c522",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.0,
+   "termhood": {
+    "th_log_f": 2.3978952727983707,
+    "th_src_ratio": -2.3978952727983707,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 2.0794415416798357,
+    "th_right_entropy": 2.6464393446710157,
+    "th_left_entropy": 2.721928094887362,
+    "th_share_right_ext_noun": 0.3410555399004201,
+    "th_share_left_ext_adj_noun": 0.14581534866908039,
+    "th_max_right_ext_share": 0.3,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "ti(iv",
+   "surface_forms": [
+    "Ti(IV"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1361",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.0,
+   "termhood": {
+    "th_log_f": 2.9444389791664403,
+    "th_src_ratio": -1.7346010553881066,
+    "th_log_df": 2.3978952727983707,
+    "th_cvalue": 3.2597262674213465,
+    "th_right_entropy": 3.4613201402110083,
+    "th_left_entropy": 3.614369445886757,
+    "th_share_right_ext_noun": 0.5049201014811427,
+    "th_share_left_ext_adj_noun": 0.433413629419957,
+    "th_max_right_ext_share": 0.16666666666666666,
+    "th_right_boundary_share": 0.1111111111111111,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "lean implementation",
+   "surface_forms": [
+    "lean implementation",
+    "Lean implementation"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c747",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.1699,
+   "termhood": {
+    "th_log_f": 1.791759469228055,
+    "th_src_ratio": -1.791759469228055,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 2.1888353194456793,
+    "th_right_entropy": 2.321928094887362,
+    "th_left_entropy": 1.3709505944546687,
+    "th_share_right_ext_noun": 0.19734878136883327,
+    "th_share_left_ext_adj_noun": 0.0006081547440614447,
+    "th_max_right_ext_share": 0.2,
+    "th_right_boundary_share": 0.2,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "quality of service",
+   "surface_forms": [
+    "quality of service",
+    "QoS",
+    "Quality of Service"
+   ],
+   "acronym_short_forms": [
+    "QoS",
+    "Q oS"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1100",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 42.0,
+   "termhood": {
+    "th_log_f": 4.90527477843843,
+    "th_src_ratio": -0.029413885206293955,
+    "th_log_df": 4.836281906951478,
+    "th_cvalue": 5.550803947096157,
+    "th_right_entropy": 4.582924220403999,
+    "th_left_entropy": 4.687983955216357,
+    "th_share_right_ext_noun": 0.4065872587405042,
+    "th_share_left_ext_adj_noun": 0.19155840040874586,
+    "th_max_right_ext_share": 0.17164179104477612,
+    "th_right_boundary_share": 0.09701492537313433,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "oxidative stress related disease",
+   "surface_forms": [
+    "oxidative stress related disease",
+    "oxidative stress related diseases",
+    "oxidative stress - related diseases"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c978",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.9658,
+   "termhood": {
+    "th_log_f": 1.3862943611198906,
+    "th_src_ratio": -1.3862943611198906,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 2.07515540488766,
+    "th_right_entropy": 0.9182958340544896,
+    "th_left_entropy": 0.9182958340544896,
+    "th_share_right_ext_noun": 8.413259296651523e-05,
+    "th_share_left_ext_adj_noun": 0.14122576676405707,
+    "th_max_right_ext_share": 0.3333333333333333,
+    "th_right_boundary_share": 0.6666666666666666,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "allogeneic stem cell transplantation",
+   "surface_forms": [
+    "allogeneic stem cell transplantation",
+    "Allogeneic Stem Cell Transplantation"
+   ],
+   "acronym_short_forms": [
+    "allo-SCT"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c52",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 13.9316,
+   "termhood": {
+    "th_log_f": 2.1972245773362196,
+    "th_src_ratio": -1.3862943611198904,
+    "th_log_df": 2.0794415416798357,
+    "th_cvalue": 2.7034776676081496,
+    "th_right_entropy": 2.1556390622295662,
+    "th_left_entropy": 2.25,
+    "th_share_right_ext_noun": 0.34165233253465754,
+    "th_share_left_ext_adj_noun": 0.03716621404165965,
+    "th_max_right_ext_share": 0.25,
+    "th_right_boundary_share": 0.375,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "infinite family",
+   "surface_forms": [
+    "infinite family",
+    "Infinite Family",
+    "infinite families"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c655",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.7549,
+   "termhood": {
+    "th_log_f": 4.736198448394496,
+    "th_src_ratio": 3.091042453358316,
+    "th_log_df": 4.727387818712341,
+    "th_cvalue": 5.162230676667478,
+    "th_right_entropy": 0.12831912909782703,
+    "th_left_entropy": 2.5327933096732504,
+    "th_share_right_ext_noun": 0.0004871940904673567,
+    "th_share_left_ext_adj_noun": 0.0842580067736096,
+    "th_max_right_ext_share": 0.9823008849557522,
+    "th_right_boundary_share": 0.017699115044247787,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "back translation",
+   "surface_forms": [
+    "back - translation",
+    "back - translations",
+    "back translation"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c109",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.1699,
+   "termhood": {
+    "th_log_f": 2.639057329615259,
+    "th_src_ratio": 0.4054651081081646,
+    "th_log_df": 2.639057329615259,
+    "th_cvalue": 3.072902205342014,
+    "th_right_entropy": 3.334679141051595,
+    "th_left_entropy": 3.180832987205441,
+    "th_share_right_ext_noun": 0.23504272155331216,
+    "th_share_left_ext_adj_noun": 0.28657320567715167,
+    "th_max_right_ext_share": 0.07692307692307693,
+    "th_right_boundary_share": 0.23076923076923078,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "multiple input single output",
+   "surface_forms": [
+    "multiple-input single-output"
+   ],
+   "acronym_short_forms": [
+    "MISO"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c876",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.9658,
+   "termhood": {
+    "th_log_f": 2.1972245773362196,
+    "th_src_ratio": 0.4054651081081644,
+    "th_log_df": 2.1972245773362196,
+    "th_cvalue": 2.330950210217745,
+    "th_right_entropy": 2.0,
+    "th_left_entropy": 2.75,
+    "th_share_right_ext_noun": 0.938588305822155,
+    "th_share_left_ext_adj_noun": 0.3785248436909457,
+    "th_max_right_ext_share": 0.5,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "knee osteoarthritis",
+   "surface_forms": [
+    "knee osteoarthritis",
+    "Knee osteoarthritis",
+    "Knee Osteoarthritis"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c730",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 9.5098,
+   "termhood": {
+    "th_log_f": 3.367295829986474,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 2.772588722239781,
+    "th_cvalue": 3.723680408941396,
+    "th_right_entropy": 3.694452798531527,
+    "th_left_entropy": 3.476600460313317,
+    "th_share_right_ext_noun": 0.4348878363645769,
+    "th_share_left_ext_adj_noun": 0.32192332226327913,
+    "th_max_right_ext_share": 0.10714285714285714,
+    "th_right_boundary_share": 0.25,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "pentraxin 3",
+   "surface_forms": [
+    "PTX3",
+    "Pentraxin 3",
+    "Pentraxin-3"
+   ],
+   "acronym_short_forms": [
+    "PTX3"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1008",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.7549,
+   "termhood": {
+    "th_log_f": 1.791759469228055,
+    "th_src_ratio": -1.791759469228055,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 1.7500494941397728,
+    "th_right_entropy": 1.5219280948873621,
+    "th_left_entropy": 1.9219280948873623,
+    "th_share_right_ext_noun": 0.006464349164031389,
+    "th_share_left_ext_adj_noun": 0.5951370470810419,
+    "th_max_right_ext_share": 0.4,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "dispersity",
+   "surface_forms": [
+    "dispersity",
+    "dispersities"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c375",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 3.091042453358316,
+    "th_src_ratio": -0.6286086594223743,
+    "th_log_df": 2.772588722239781,
+    "th_cvalue": 2.9444389791664403,
+    "th_right_entropy": 3.7849418274376427,
+    "th_left_entropy": 3.617809684374455,
+    "th_share_right_ext_noun": 0.14280336976746064,
+    "th_share_left_ext_adj_noun": 0.711208986432255,
+    "th_max_right_ext_share": 0.09523809523809523,
+    "th_right_boundary_share": 0.14285714285714285,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "learning and memory impairment",
+   "surface_forms": [
+    "learning and memory impairment",
+    "Learning and Memory Impairments"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c748",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.9658,
+   "termhood": {
+    "th_log_f": 1.6094379124341003,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 1.6094379124341003,
+    "th_cvalue": 2.330950210217745,
+    "th_right_entropy": 2.0,
+    "th_left_entropy": 2.0,
+    "th_share_right_ext_noun": 0.032527746961763235,
+    "th_share_left_ext_adj_noun": 0.04955070972957558,
+    "th_max_right_ext_share": 0.25,
+    "th_right_boundary_share": 0.25,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "analytical modeling",
+   "surface_forms": [
+    "analytical modeling",
+    "Analytical modeling"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c61",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 11.0947,
+   "termhood": {
+    "th_log_f": 4.0943445622221,
+    "th_src_ratio": 1.306251653446354,
+    "th_log_df": 4.04305126783455,
+    "th_cvalue": 4.461160949563701,
+    "th_right_entropy": 1.4442282074221073,
+    "th_left_entropy": 2.640929067517095,
+    "th_share_right_ext_noun": 0.017745539702796496,
+    "th_share_left_ext_adj_noun": 0.2195098731459151,
+    "th_max_right_ext_share": 0.7457627118644068,
+    "th_right_boundary_share": 0.01694915254237288,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "enhanced therapeutic efficacy",
+   "surface_forms": [
+    "enhanced therapeutic efficacy",
+    "Enhanced therapeutic efficacy"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c436",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 1.6094379124341003,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 1.6094379124341003,
+    "th_cvalue": 2.1972245773362196,
+    "th_right_entropy": 2.0,
+    "th_left_entropy": 2.0,
+    "th_share_right_ext_noun": 0.009094101041177092,
+    "th_share_left_ext_adj_noun": 0.0020352797246754838,
+    "th_max_right_ext_share": 0.25,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "concentration dependent manner",
+   "surface_forms": [
+    "concentration - dependent manner",
+    "concentration dependent manner",
+    "concentration -dependent manner"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c261",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 83.6,
+   "termhood": {
+    "th_log_f": 4.0943445622221,
+    "th_src_ratio": -4.0943445622221,
+    "th_log_df": 4.02535169073515,
+    "th_cvalue": 4.74493212836325,
+    "th_right_entropy": 3.1458200391837323,
+    "th_left_entropy": 1.0925892359448346,
+    "th_share_right_ext_noun": 0.09290823373398321,
+    "th_share_left_ext_adj_noun": 0.07251597827018934,
+    "th_max_right_ext_share": 0.11864406779661017,
+    "th_right_boundary_share": 0.4406779661016949,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "\\nresults",
+   "surface_forms": [
+    "\\nResults",
+    "\\nRESULTS",
+    "\\nresults"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c3",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 3.295836866004329,
+    "th_src_ratio": -3.295836866004329,
+    "th_log_df": 3.2188758248682006,
+    "th_cvalue": 3.164067588373206,
+    "th_right_entropy": 3.9500637564362098,
+    "th_left_entropy": 3.9500637564362098,
+    "th_share_right_ext_noun": 0.06809357193234468,
+    "th_share_left_ext_adj_noun": 0.7868964249148479,
+    "th_max_right_ext_share": 0.23076923076923078,
+    "th_right_boundary_share": 0.07692307692307693,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "dean",
+   "surface_forms": [
+    "Dean",
+    "deans",
+    "dean"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c335",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 30.8367,
+   "termhood": {
+    "th_log_f": 5.043425116919247,
+    "th_src_ratio": -2.3978952727983702,
+    "th_log_df": 4.477336814478207,
+    "th_cvalue": 5.0069247146997204,
+    "th_right_entropy": 5.2943356597475475,
+    "th_left_entropy": 5.00365368627563,
+    "th_share_right_ext_noun": 0.253633288378417,
+    "th_share_left_ext_adj_noun": 0.38241223113240813,
+    "th_max_right_ext_share": 0.13636363636363635,
+    "th_right_boundary_share": 0.07142857142857142,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "ike",
+   "surface_forms": [
+    "IKE",
+    "Ike"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c631",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 2.0,
+   "termhood": {
+    "th_log_f": 2.4849066497880004,
+    "th_src_ratio": -0.810930216216329,
+    "th_log_df": 2.0794415416798357,
+    "th_cvalue": 2.2512917986064953,
+    "th_right_entropy": 3.0271691184406184,
+    "th_left_entropy": 2.550340709546388,
+    "th_share_right_ext_noun": 0.4980219991622722,
+    "th_share_left_ext_adj_noun": 0.36917348136879924,
+    "th_max_right_ext_share": 0.2727272727272727,
+    "th_right_boundary_share": 0.09090909090909091,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "rural county",
+   "surface_forms": [
+    "rural counties",
+    "rural county"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1173",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.1699,
+   "termhood": {
+    "th_log_f": 1.9459101490553132,
+    "th_src_ratio": -1.9459101490553132,
+    "th_log_df": 1.791759469228055,
+    "th_cvalue": 2.3523057768887243,
+    "th_right_entropy": 2.2516291673878226,
+    "th_left_entropy": 2.584962500721156,
+    "th_share_right_ext_noun": 0.026595275409301716,
+    "th_share_left_ext_adj_noun": 0.46162801861595715,
+    "th_max_right_ext_share": 0.16666666666666666,
+    "th_right_boundary_share": 0.3333333333333333,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "dose dependent manner",
+   "surface_forms": [
+    "dose - dependent manner",
+    "dose dependent manner",
+    "dose‐dependent manner"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c382",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 231.0,
+   "termhood": {
+    "th_log_f": 4.90527477843843,
+    "th_src_ratio": -4.90527477843843,
+    "th_log_df": 4.836281906951478,
+    "th_cvalue": 5.564520407322694,
+    "th_right_entropy": 3.056108578099552,
+    "th_left_entropy": 0.7980994921614484,
+    "th_share_right_ext_noun": 0.07295012412533802,
+    "th_share_left_ext_adj_noun": 0.02410539928965146,
+    "th_max_right_ext_share": 0.09701492537313433,
+    "th_right_boundary_share": 0.5074626865671642,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "n\\geq",
+   "surface_forms": [
+    "n\\geq",
+    "N\\geq"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c882",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "TOO_GENERIC",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.0,
+   "termhood": {
+    "th_log_f": 4.127134385045092,
+    "th_src_ratio": 1.5533484457830569,
+    "th_log_df": 4.060443010546419,
+    "th_cvalue": 4.50415449611962,
+    "th_right_entropy": 2.9865256602736205,
+    "th_left_entropy": 4.48991249474435,
+    "th_share_right_ext_noun": 0.3705890833704741,
+    "th_share_left_ext_adj_noun": 0.5218237165368118,
+    "th_max_right_ext_share": 0.2459016393442623,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "great recession",
+   "surface_forms": [
+    "Great Recession"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c559",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "TOO_GENERIC",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 7.9248,
+   "termhood": {
+    "th_log_f": 2.1972245773362196,
+    "th_src_ratio": -1.3862943611198904,
+    "th_log_df": 1.9459101490553132,
+    "th_cvalue": 2.615912982551119,
+    "th_right_entropy": 3.0,
+    "th_left_entropy": -0.0,
+    "th_share_right_ext_noun": 0.09497972440398829,
+    "th_share_left_ext_adj_noun": 0.000833064901309578,
+    "th_max_right_ext_share": 0.125,
+    "th_right_boundary_share": 0.125,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "theoretical and experimental analysis",
+   "surface_forms": [
+    "theoretical and experimental analysis",
+    "Theoretical and experimental analysis",
+    "Theoretical and Experimental Analysis"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1349",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.9658,
+   "termhood": {
+    "th_log_f": 2.4849066497880004,
+    "th_src_ratio": 0.810930216216329,
+    "th_log_df": 2.4849066497880004,
+    "th_cvalue": 3.278698583396243,
+    "th_right_entropy": 1.0957952550009336,
+    "th_left_entropy": 1.6729330318733675,
+    "th_share_right_ext_noun": 0.0006228201666880743,
+    "th_share_left_ext_adj_noun": 0.26803573700633315,
+    "th_max_right_ext_share": 0.7272727272727273,
+    "th_right_boundary_share": 0.18181818181818182,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "median follow up time",
+   "surface_forms": [
+    "median follow - up time",
+    "Median follow‐up time"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c813",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.9658,
+   "termhood": {
+    "th_log_f": 1.3862943611198906,
+    "th_src_ratio": -1.3862943611198906,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 2.07515540488766,
+    "th_right_entropy": 1.584962500721156,
+    "th_left_entropy": 1.584962500721156,
+    "th_share_right_ext_noun": 0.0006275365714420578,
+    "th_share_left_ext_adj_noun": 0.009817996100893456,
+    "th_max_right_ext_share": 0.3333333333333333,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "oceania",
+   "surface_forms": [
+    "Oceania",
+    "OCEANIA"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c942",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "TOO_GENERIC",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 2.639057329615259,
+    "th_src_ratio": -2.639057329615259,
+    "th_log_df": 2.4849066497880004,
+    "th_cvalue": 2.4423470353692043,
+    "th_right_entropy": 2.6235166412180155,
+    "th_left_entropy": 3.3927474104487847,
+    "th_share_right_ext_noun": 0.6413276854586895,
+    "th_share_left_ext_adj_noun": 0.6152436389960274,
+    "th_max_right_ext_share": 0.3076923076923077,
+    "th_right_boundary_share": 0.15384615384615385,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "title compound",
+   "surface_forms": [
+    "title compound",
+    "title compounds",
+    "Title compound"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1366",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 194.9504,
+   "termhood": {
+    "th_log_f": 4.997212273764115,
+    "th_src_ratio": -4.997212273764115,
+    "th_log_df": 4.948759890378168,
+    "th_cvalue": 5.413785336068598,
+    "th_right_entropy": 5.840906210382476,
+    "th_left_entropy": 0.5263636711262464,
+    "th_share_right_ext_noun": 0.3132735112770164,
+    "th_share_left_ext_adj_noun": 0.03461887965627757,
+    "th_max_right_ext_share": 0.14285714285714285,
+    "th_right_boundary_share": 0.034013605442176874,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "lust",
+   "surface_forms": [
+    "lust"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c783",
+   "metadata_label_A": "TOO_GENERIC",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 2.0,
+   "termhood": {
+    "th_log_f": 1.791759469228055,
+    "th_src_ratio": -1.791759469228055,
+    "th_log_df": 1.791759469228055,
+    "th_cvalue": 1.791759469228055,
+    "th_right_entropy": 1.9219280948873623,
+    "th_left_entropy": 1.9219280948873623,
+    "th_share_right_ext_noun": 0.15971677935807022,
+    "th_share_left_ext_adj_noun": 0.40244999021190286,
+    "th_max_right_ext_share": 0.4,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "data transfer",
+   "surface_forms": [
+    "data transfer"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c329",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 9.1135,
+   "termhood": {
+    "th_log_f": 4.110873864173311,
+    "th_src_ratio": 0.7419373447293776,
+    "th_log_df": 4.007333185232471,
+    "th_cvalue": 4.514620146669177,
+    "th_right_entropy": 4.205030525342182,
+    "th_left_entropy": 5.11064997042823,
+    "th_share_right_ext_noun": 0.3624283553249555,
+    "th_share_left_ext_adj_noun": 0.5887369414993706,
+    "th_max_right_ext_share": 0.18333333333333332,
+    "th_right_boundary_share": 0.11666666666666667,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "vida",
+   "surface_forms": [
+    "vida"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1430",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 2.8095,
+   "termhood": {
+    "th_log_f": 3.912023005428146,
+    "th_src_ratio": -3.198673117550681,
+    "th_log_df": 3.1780538303479458,
+    "th_cvalue": 3.784189633918261,
+    "th_right_entropy": 4.6756075496049325,
+    "th_left_entropy": 2.7686259276580425,
+    "th_share_right_ext_noun": 0.4560799803362113,
+    "th_share_left_ext_adj_noun": 0.5396346435030412,
+    "th_max_right_ext_share": 0.10204081632653061,
+    "th_right_boundary_share": 0.14285714285714285,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "normal lung tissue",
+   "surface_forms": [
+    "normal lung tissue",
+    "normal lung tissues"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c925",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 1.3862943611198906,
+    "th_src_ratio": -1.3862943611198906,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 1.9459101490553132,
+    "th_right_entropy": 1.584962500721156,
+    "th_left_entropy": 1.584962500721156,
+    "th_share_right_ext_noun": 0.15243943847046607,
+    "th_share_left_ext_adj_noun": 0.0012579747112077624,
+    "th_max_right_ext_share": 0.3333333333333333,
+    "th_right_boundary_share": 0.3333333333333333,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "imaging data",
+   "surface_forms": [
+    "imaging data"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c632",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 9.272,
+   "termhood": {
+    "th_log_f": 4.770684624465665,
+    "th_src_ratio": 1.178654996341646,
+    "th_log_df": 4.736198448394496,
+    "th_cvalue": 5.196811210622311,
+    "th_right_entropy": 3.2320053122393153,
+    "th_left_entropy": 5.60817107216638,
+    "th_share_right_ext_noun": 0.13283156426310005,
+    "th_share_left_ext_adj_noun": 0.7814149162336135,
+    "th_max_right_ext_share": 0.042735042735042736,
+    "th_right_boundary_share": 0.5384615384615384,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "india",
+   "surface_forms": [
+    "India",
+    "INDIA",
+    "india"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c648",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "TOO_GENERIC",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 456.4027,
+   "termhood": {
+    "th_log_f": 7.0967213784947605,
+    "th_src_ratio": -2.0328364884157413,
+    "th_log_df": 6.580639137284949,
+    "th_cvalue": 7.09254132888417,
+    "th_right_entropy": 5.475598183755383,
+    "th_left_entropy": 5.137348880383158,
+    "th_share_right_ext_noun": 0.17096299922675168,
+    "th_share_left_ext_adj_noun": 0.2957170924864416,
+    "th_max_right_ext_share": 0.0687655343827672,
+    "th_right_boundary_share": 0.3603976801988401,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "status and development trend",
+   "surface_forms": [
+    "Status and Development Trend",
+    "status and development trend"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1278",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.9658,
+   "termhood": {
+    "th_log_f": 1.791759469228055,
+    "th_src_ratio": -1.791759469228055,
+    "th_log_df": 1.791759469228055,
+    "th_cvalue": 2.5344616384234158,
+    "th_right_entropy": -0.0,
+    "th_left_entropy": 1.9219280948873623,
+    "th_share_right_ext_noun": 0.0004959723623676694,
+    "th_share_left_ext_adj_noun": 0.32624288601771045,
+    "th_max_right_ext_share": 1.0,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "normal working hour",
+   "surface_forms": [
+    "normal working hours"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c926",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 1.791759469228055,
+    "th_src_ratio": -1.791759469228055,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 2.3978952727983707,
+    "th_right_entropy": 1.9219280948873623,
+    "th_left_entropy": 1.3709505944546687,
+    "th_share_right_ext_noun": 0.17105436695936618,
+    "th_share_left_ext_adj_noun": 0.10653404808481423,
+    "th_max_right_ext_share": 0.2,
+    "th_right_boundary_share": 0.4,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "methodology principal finding",
+   "surface_forms": [
+    "METHODOLOGY / PRINCIPAL FINDINGS"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c831",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 42.0,
+   "termhood": {
+    "th_log_f": 3.1354942159291497,
+    "th_src_ratio": -3.1354942159291497,
+    "th_log_df": 3.1354942159291497,
+    "th_cvalue": 3.8066624897703196,
+    "th_right_entropy": 3.481714572986073,
+    "th_left_entropy": -0.0,
+    "th_share_right_ext_noun": 0.07642867630896664,
+    "th_share_left_ext_adj_noun": 0.0,
+    "th_max_right_ext_share": 0.2727272727272727,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "full text article",
+   "surface_forms": [
+    "full text article",
+    "full text articles",
+    "full - text articles"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c513",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 686.0,
+   "termhood": {
+    "th_log_f": 5.849324779946859,
+    "th_src_ratio": -5.153291594497778,
+    "th_log_df": 5.846438775057724,
+    "th_cvalue": 6.541029999189903,
+    "th_right_entropy": 0.15732243055874184,
+    "th_left_entropy": 0.17106487998695996,
+    "th_share_right_ext_noun": 0.4735767323813646,
+    "th_share_left_ext_adj_noun": 0.004232591992172956,
+    "th_max_right_ext_share": 0.9826589595375722,
+    "th_right_boundary_share": 0.008670520231213872,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "policy maker",
+   "surface_forms": [
+    "policy makers",
+    "policy - makers",
+    "Policy makers"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1045",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 229.5261,
+   "termhood": {
+    "th_log_f": 5.342334251964811,
+    "th_src_ratio": -4.6443908991413725,
+    "th_log_df": 5.181783550292085,
+    "th_cvalue": 5.788667940883549,
+    "th_right_entropy": 5.095248640531529,
+    "th_left_entropy": 5.1014068526757885,
+    "th_share_right_ext_noun": 0.14637144463314875,
+    "th_share_left_ext_adj_noun": 0.279755164865896,
+    "th_max_right_ext_share": 0.15384615384615385,
+    "th_right_boundary_share": 0.10576923076923077,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "oleh karena itu",
+   "surface_forms": [
+    "Oleh karena itu"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c945",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 8.0,
+   "termhood": {
+    "th_log_f": 1.9459101490553132,
+    "th_src_ratio": -1.9459101490553132,
+    "th_log_df": 1.9459101490553132,
+    "th_cvalue": 2.5649493574615367,
+    "th_right_entropy": 2.584962500721156,
+    "th_left_entropy": 0.6500224216483541,
+    "th_share_right_ext_noun": 0.7777777777777778,
+    "th_share_left_ext_adj_noun": 0.16651061173533085,
+    "th_max_right_ext_share": 0.16666666666666666,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "bivariate",
+   "surface_forms": [
+    "bivariate",
+    "Bivariate"
+   ],
+   "acronym_short_forms": [],
+   "output": "TOO_GENERIC",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c142",
+   "metadata_label_A": "TOO_GENERIC",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "TOO_GENERIC",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 3.6491,
+   "termhood": {
+    "th_log_f": 6.180016653652572,
+    "th_src_ratio": 1.2355781437412672,
+    "th_log_df": 6.129050210060545,
+    "th_cvalue": 6.17214468659132,
+    "th_right_entropy": 7.2452878689378375,
+    "th_left_entropy": 4.549770165527654,
+    "th_share_right_ext_noun": 0.6919534331661096,
+    "th_share_left_ext_adj_noun": 0.17990867098388238,
+    "th_max_right_ext_share": 0.04979253112033195,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "socio demographic factor",
+   "surface_forms": [
+    "socio - demographic factors",
+    "socio - demographic \r\n factors",
+    "Socio - demographic factors"
+   ],
+   "acronym_short_forms": [],
+   "output": "TOO_GENERIC",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1249",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "TOO_GENERIC",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 10.0,
+   "termhood": {
+    "th_log_f": 1.9459101490553132,
+    "th_src_ratio": -1.9459101490553132,
+    "th_log_df": 1.9459101490553132,
+    "th_cvalue": 2.5649493574615367,
+    "th_right_entropy": 2.584962500721156,
+    "th_left_entropy": 2.2516291673878226,
+    "th_share_right_ext_noun": 0.06909199275533857,
+    "th_share_left_ext_adj_noun": 0.1812659685745486,
+    "th_max_right_ext_share": 0.16666666666666666,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "herb",
+   "surface_forms": [
+    "herbs",
+    "herb",
+    "Herbs"
+   ],
+   "acronym_short_forms": [],
+   "output": "TOO_GENERIC",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c595",
+   "metadata_label_A": "TOO_GENERIC",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "TOO_GENERIC",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 41.7549,
+   "termhood": {
+    "th_log_f": 5.43372200355424,
+    "th_src_ratio": -4.034240638152395,
+    "th_log_df": 4.812184355372417,
+    "th_cvalue": 5.410487974134412,
+    "th_right_entropy": 6.071058223587306,
+    "th_left_entropy": 5.616818720933948,
+    "th_share_right_ext_noun": 0.29863681509516027,
+    "th_share_left_ext_adj_noun": 0.6049314562491425,
+    "th_max_right_ext_share": 0.07894736842105263,
+    "th_right_boundary_share": 0.08771929824561403,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "quantum mechanics",
+   "surface_forms": [
+    "quantum mechanics",
+    "Quantum Mechanics",
+    "QM"
+   ],
+   "acronym_short_forms": [
+    "QM"
+   ],
+   "output": "TOO_GENERIC",
+   "metadata_fold": "train",
+   "metadata_variant_cluster": "c1104",
+   "metadata_label_A": "TOO_GENERIC",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "TOO_GENERIC",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 50.266,
+   "termhood": {
+    "th_log_f": 8.225503097566918,
+    "th_src_ratio": 4.049608668380709,
+    "th_log_df": 8.215817791832453,
+    "th_cvalue": 8.683574187089953,
+    "th_right_entropy": 3.679485828982149,
+    "th_left_entropy": 5.348935211131067,
+    "th_share_right_ext_noun": 0.06286048049604404,
+    "th_share_left_ext_adj_noun": 0.38499501970967903,
+    "th_max_right_ext_share": 0.10417782538832351,
+    "th_right_boundary_share": 0.5115158007498661,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "modal analysis",
+   "surface_forms": [
+    "Modal analysis",
+    "modal analysis"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c860",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 3.1699,
+   "termhood": {
+    "th_log_f": 3.713572066704308,
+    "th_src_ratio": 1.2992829841302607,
+    "th_log_df": 3.6635616461296463,
+    "th_cvalue": 4.09720602034737,
+    "th_right_entropy": 2.8403954495855346,
+    "th_left_entropy": 3.6516094970590274,
+    "th_share_right_ext_noun": 0.06852635790557797,
+    "th_share_left_ext_adj_noun": 0.4242072770137309,
+    "th_max_right_ext_share": 0.425,
+    "th_right_boundary_share": 0.15,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "aggregatibacter actinomycetemcomitan",
+   "surface_forms": [
+    "Aggregatibacter actinomycetemcomitans"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c46",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 15.8496,
+   "termhood": {
+    "th_log_f": 2.70805020110221,
+    "th_src_ratio": -2.70805020110221,
+    "th_log_df": 2.3978952727983707,
+    "th_cvalue": 2.996709296544245,
+    "th_right_entropy": 3.521640636343318,
+    "th_left_entropy": 3.0930692077718898,
+    "th_share_right_ext_noun": 0.3960664047322068,
+    "th_share_left_ext_adj_noun": 0.3385229979189891,
+    "th_max_right_ext_share": 0.14285714285714285,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "anthropometrics",
+   "surface_forms": [
+    "anthropometrics"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c68",
+   "metadata_label_A": "TOO_GENERIC",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 4.0,
+   "termhood": {
+    "th_log_f": 2.0794415416798357,
+    "th_src_ratio": -1.252762968495368,
+    "th_log_df": 2.0794415416798357,
+    "th_cvalue": 2.0794415416798357,
+    "th_right_entropy": 2.128085278891394,
+    "th_left_entropy": 2.521640636343318,
+    "th_share_right_ext_noun": 0.0025589547990118636,
+    "th_share_left_ext_adj_noun": 0.7111611714125068,
+    "th_max_right_ext_share": 0.42857142857142855,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "back pressure",
+   "surface_forms": [
+    "back pressure"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c108",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 7.9248,
+   "termhood": {
+    "th_log_f": 2.995732273553991,
+    "th_src_ratio": -0.9162907318741551,
+    "th_log_df": 2.639057329615259,
+    "th_cvalue": 3.3072667586039586,
+    "th_right_entropy": 3.6818808028034025,
+    "th_left_entropy": 3.5766176449086657,
+    "th_share_right_ext_noun": 0.5107543525930274,
+    "th_share_left_ext_adj_noun": 0.42425990474073205,
+    "th_max_right_ext_share": 0.15789473684210525,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "cyber physical system",
+   "surface_forms": [
+    "CPS",
+    "Cyber Physical System",
+    "cyber physical system"
+   ],
+   "acronym_short_forms": [
+    "CPS"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c316",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 5.056245805348308,
+    "th_src_ratio": 3.2321210516182215,
+    "th_log_df": 5.043425116919247,
+    "th_cvalue": 5.729804580019401,
+    "th_right_entropy": 2.8830594414614104,
+    "th_left_entropy": 4.2769905203526335,
+    "th_share_right_ext_noun": 0.18474190733421578,
+    "th_share_left_ext_adj_noun": 0.2510040768984488,
+    "th_max_right_ext_share": 0.038461538461538464,
+    "th_right_boundary_share": 0.6089743589743589,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "thin strip",
+   "surface_forms": [
+    "thin strip"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1355",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.3399,
+   "termhood": {
+    "th_log_f": 2.70805020110221,
+    "th_src_ratio": -0.25131442828090633,
+    "th_log_df": 2.3978952727983707,
+    "th_cvalue": 2.996709296544245,
+    "th_right_entropy": 3.3787834934861753,
+    "th_left_entropy": 2.8423709931771084,
+    "th_share_right_ext_noun": 0.04539674253464194,
+    "th_share_left_ext_adj_noun": 0.36362624180118486,
+    "th_max_right_ext_share": 0.14285714285714285,
+    "th_right_boundary_share": 0.14285714285714285,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "adequate bone volume",
+   "surface_forms": [
+    "adequate bone volume"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c34",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 6.0,
+   "termhood": {
+    "th_log_f": 1.6094379124341003,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 1.6094379124341003,
+    "th_cvalue": 2.1972245773362196,
+    "th_right_entropy": 1.5,
+    "th_left_entropy": 2.0,
+    "th_share_right_ext_noun": 0.04849463063508383,
+    "th_share_left_ext_adj_noun": 0.25160745133607576,
+    "th_max_right_ext_share": 0.5,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "streptavidin",
+   "surface_forms": [
+    "streptavidin"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1286",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 2.0,
+   "termhood": {
+    "th_log_f": 3.2188758248682006,
+    "th_src_ratio": -2.4849066497880004,
+    "th_log_df": 2.9444389791664403,
+    "th_cvalue": 3.044522437723423,
+    "th_right_entropy": 3.3180303358642105,
+    "th_left_entropy": 3.3197738350294776,
+    "th_share_right_ext_noun": 0.5360819996419889,
+    "th_share_left_ext_adj_noun": 0.1589836285837857,
+    "th_max_right_ext_share": 0.2916666666666667,
+    "th_right_boundary_share": 0.08333333333333333,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "annulation",
+   "surface_forms": [
+    "annulation",
+    "Annulation",
+    "annulations"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c64",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 5.875,
+   "termhood": {
+    "th_log_f": 3.295836866004329,
+    "th_src_ratio": -1.5260563034950494,
+    "th_log_df": 2.8903717578961645,
+    "th_cvalue": 3.1918471524802814,
+    "th_right_entropy": 3.2954656791802917,
+    "th_left_entropy": 3.902174814211728,
+    "th_share_right_ext_noun": 0.26442293573884196,
+    "th_share_left_ext_adj_noun": 0.338731672712404,
+    "th_max_right_ext_share": 0.34615384615384615,
+    "th_right_boundary_share": 0.038461538461538464,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "pure technical efficiency",
+   "surface_forms": [
+    "pure technical efficiency",
+    "PTE"
+   ],
+   "acronym_short_forms": [
+    "PTE"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1092",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 4.0,
+   "termhood": {
+    "th_log_f": 1.9459101490553132,
+    "th_src_ratio": -1.9459101490553132,
+    "th_log_df": 1.791759469228055,
+    "th_cvalue": 2.5649493574615367,
+    "th_right_entropy": 1.792481250360578,
+    "th_left_entropy": 2.584962500721156,
+    "th_share_right_ext_noun": 0.0025623432949974084,
+    "th_share_left_ext_adj_noun": 0.16529758367249103,
+    "th_max_right_ext_share": 0.5,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "wireless ad hoc network",
+   "surface_forms": [
+    "wireless ad hoc networks",
+    "wireless ad - hoc network",
+    "Wireless Ad Hoc Network"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1455",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 4.6439,
+   "termhood": {
+    "th_log_f": 4.59511985013459,
+    "th_src_ratio": 2.4423470353692047,
+    "th_log_df": 4.564348191467836,
+    "th_cvalue": 5.404284850669908,
+    "th_right_entropy": 2.230123147615544,
+    "th_left_entropy": 3.3790507291969702,
+    "th_share_right_ext_noun": 0.05685428998285487,
+    "th_share_left_ext_adj_noun": 0.21179052764081718,
+    "th_max_right_ext_share": 0.12244897959183673,
+    "th_right_boundary_share": 0.6326530612244898,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "chronic health condition",
+   "surface_forms": [
+    "chronic health conditions",
+    "CHCs",
+    "Chronic Health Conditions"
+   ],
+   "acronym_short_forms": [
+    "CHCs"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c216",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 10.0,
+   "termhood": {
+    "th_log_f": 2.9444389791664403,
+    "th_src_ratio": -2.197224577336219,
+    "th_log_df": 2.302585092994046,
+    "th_cvalue": 3.4965075614664802,
+    "th_right_entropy": 2.3921472236645345,
+    "th_left_entropy": 3.5724312513221195,
+    "th_share_right_ext_noun": 0.056140579208761525,
+    "th_share_left_ext_adj_noun": 0.3707656891470404,
+    "th_max_right_ext_share": 0.2222222222222222,
+    "th_right_boundary_share": 0.4444444444444444,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "kaempferol",
+   "surface_forms": [
+    "kaempferol"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c719",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 5.0,
+   "termhood": {
+    "th_log_f": 2.70805020110221,
+    "th_src_ratio": -2.70805020110221,
+    "th_log_df": 2.302585092994046,
+    "th_cvalue": 2.70805020110221,
+    "th_right_entropy": 2.260820318171659,
+    "th_left_entropy": 3.4677201004744993,
+    "th_share_right_ext_noun": 0.29948579628653427,
+    "th_share_left_ext_adj_noun": 0.3323235388539361,
+    "th_max_right_ext_share": 0.5,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "functional monomer",
+   "surface_forms": [
+    "functional monomer",
+    "functional monomers",
+    "Functional Monomer"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c516",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 7.9248,
+   "termhood": {
+    "th_log_f": 2.833213344056216,
+    "th_src_ratio": -2.833213344056216,
+    "th_log_df": 2.5649493574615367,
+    "th_cvalue": 3.143698512377987,
+    "th_right_entropy": 3.149397470347699,
+    "th_left_entropy": 3.452819531114783,
+    "th_share_right_ext_noun": 0.23060372038756682,
+    "th_share_left_ext_adj_noun": 0.4348825613654265,
+    "th_max_right_ext_share": 0.3125,
+    "th_right_boundary_share": 0.0625,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "ideation",
+   "surface_forms": [
+    "ideation",
+    "ideations"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c629",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 3.8421,
+   "termhood": {
+    "th_log_f": 4.3694478524670215,
+    "th_src_ratio": -2.9444389791664403,
+    "th_log_df": 3.6375861597263857,
+    "th_cvalue": 4.2017030805426,
+    "th_right_entropy": 4.583747655359677,
+    "th_left_entropy": 2.4939960074645726,
+    "th_share_right_ext_noun": 0.17646672910053848,
+    "th_share_left_ext_adj_noun": 0.8298425003486457,
+    "th_max_right_ext_share": 0.20512820512820512,
+    "th_right_boundary_share": 0.1282051282051282,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "roundness",
+   "surface_forms": [
+    "roundness"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1166",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 2.0,
+   "termhood": {
+    "th_log_f": 3.1780538303479458,
+    "th_src_ratio": -0.08004270767353638,
+    "th_log_df": 2.8903717578961645,
+    "th_cvalue": 3.028522096376982,
+    "th_right_entropy": 3.3772781309874356,
+    "th_left_entropy": 3.2203372407945308,
+    "th_share_right_ext_noun": 0.3338582728815136,
+    "th_share_left_ext_adj_noun": 0.3985174239984328,
+    "th_max_right_ext_share": 0.21739130434782608,
+    "th_right_boundary_share": 0.043478260869565216,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "adaptive response",
+   "surface_forms": [
+    "adaptive response",
+    "adaptive responses",
+    "AR"
+   ],
+   "acronym_short_forms": [
+    "AR"
+   ],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c33",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 33.2842,
+   "termhood": {
+    "th_log_f": 3.6375861597263857,
+    "th_src_ratio": -2.169053700369523,
+    "th_log_df": 3.4339872044851463,
+    "th_cvalue": 3.9458213522245424,
+    "th_right_entropy": 3.203696624856934,
+    "th_left_entropy": 3.8792025291729066,
+    "th_share_right_ext_noun": 0.047068291057298754,
+    "th_share_left_ext_adj_noun": 0.362231902598346,
+    "th_max_right_ext_share": 0.40540540540540543,
+    "th_right_boundary_share": 0.13513513513513514,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "natural material",
+   "surface_forms": [
+    "natural materials",
+    "natural material",
+    "NATURAL MATERIALS"
+   ],
+   "acronym_short_forms": [],
+   "output": "CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c897",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": null,
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": false,
+   "metadata_cvalue": 9.5098,
+   "termhood": {
+    "th_log_f": 2.8903717578961645,
+    "th_src_ratio": -1.6739764335716716,
+    "th_log_df": 2.5649493574615367,
+    "th_cvalue": 3.330215480232425,
+    "th_right_entropy": 3.2639334294856335,
+    "th_left_entropy": 3.6168746059562213,
+    "th_share_right_ext_noun": 0.10272997409548179,
+    "th_share_left_ext_adj_noun": 0.17900915323259528,
+    "th_max_right_ext_share": 0.11764705882352941,
+    "th_right_boundary_share": 0.23529411764705882,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "seamless",
+   "surface_forms": [
+    "seamless"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1192",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 1.9355,
+   "termhood": {
+    "th_log_f": 4.553876891600541,
+    "th_src_ratio": 0.2937611185281632,
+    "th_log_df": 4.465908118654584,
+    "th_cvalue": 4.516338972281476,
+    "th_right_entropy": 5.768692011455007,
+    "th_left_entropy": 4.638491682119609,
+    "th_share_right_ext_noun": 0.761816058683068,
+    "th_share_left_ext_adj_noun": 0.17555577343046708,
+    "th_max_right_ext_share": 0.0851063829787234,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "diagnostic image quality",
+   "surface_forms": [
+    "diagnostic image quality"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c357",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 4.0,
+   "termhood": {
+    "th_log_f": 1.6094379124341003,
+    "th_src_ratio": -1.6094379124341003,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 2.1972245773362196,
+    "th_right_entropy": 2.0,
+    "th_left_entropy": 2.0,
+    "th_share_right_ext_noun": 0.0004886417050298543,
+    "th_share_left_ext_adj_noun": 0.03582214836451577,
+    "th_max_right_ext_share": 0.25,
+    "th_right_boundary_share": 0.25,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "aspirin group",
+   "surface_forms": [
+    "aspirin group"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c86",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 4.7549,
+   "termhood": {
+    "th_log_f": 2.1972245773362196,
+    "th_src_ratio": -2.1972245773362196,
+    "th_log_df": 1.6094379124341003,
+    "th_cvalue": 2.3523057768887243,
+    "th_right_entropy": 2.1556390622295662,
+    "th_left_entropy": 1.75,
+    "th_share_right_ext_noun": 0.41649177390421344,
+    "th_share_left_ext_adj_noun": 0.12530756217638342,
+    "th_max_right_ext_share": 0.375,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "rpm",
+   "surface_forms": [
+    "rpm",
+    "RPM"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1169",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 60.0,
+   "termhood": {
+    "th_log_f": 4.795790545596741,
+    "th_src_ratio": -3.68051120444342,
+    "th_log_df": 4.406719247264253,
+    "th_cvalue": 4.77631844218392,
+    "th_right_entropy": 5.215444156464528,
+    "th_left_entropy": 5.788100234037427,
+    "th_share_right_ext_noun": 0.2261260923960494,
+    "th_share_left_ext_adj_noun": 0.24419938735814728,
+    "th_max_right_ext_share": 0.10833333333333334,
+    "th_right_boundary_share": 0.175,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "founder member",
+   "surface_forms": [
+    "founder member"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c502",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 4.7549,
+   "termhood": {
+    "th_log_f": 1.3862943611198906,
+    "th_src_ratio": -1.3862943611198906,
+    "th_log_df": 1.3862943611198906,
+    "th_cvalue": 1.7500494941397728,
+    "th_right_entropy": -0.0,
+    "th_left_entropy": -0.0,
+    "th_share_right_ext_noun": 0.0004959723623676694,
+    "th_share_left_ext_adj_noun": 0.02862092340137079,
+    "th_max_right_ext_share": 1.0,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "lower",
+   "surface_forms": [
+    "lowers",
+    "lower-"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c780",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 1.8476,
+   "termhood": {
+    "th_log_f": 9.259892150805431,
+    "th_src_ratio": -0.8938178760220961,
+    "th_log_df": 9.064157861798101,
+    "th_cvalue": 9.259011700908555,
+    "th_right_entropy": 7.333246294072995,
+    "th_left_entropy": 6.290963312601911,
+    "th_share_right_ext_noun": 0.5479021491669278,
+    "th_share_left_ext_adj_noun": 0.17668872725625404,
+    "th_max_right_ext_share": 0.20272199486056913,
+    "th_right_boundary_share": 0.005615304082992291,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "iranian population",
+   "surface_forms": [
+    "Iranian population",
+    "Iranian populations",
+    "Iranian Population"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c705",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 15.8496,
+   "termhood": {
+    "th_log_f": 2.70805020110221,
+    "th_src_ratio": -2.70805020110221,
+    "th_log_df": 2.3978952727983707,
+    "th_cvalue": 3.143698512377987,
+    "th_right_entropy": 2.064042639445697,
+    "th_left_entropy": 2.0670314951575843,
+    "th_share_right_ext_noun": 0.0705568481671889,
+    "th_share_left_ext_adj_noun": 0.005751700667497347,
+    "th_max_right_ext_share": 0.21428571428571427,
+    "th_right_boundary_share": 0.5,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "【conclusion",
+   "surface_forms": [
+    "【Conclusion"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1487",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "life",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 7.0,
+   "termhood": {
+    "th_log_f": 9.153875834995056,
+    "th_src_ratio": -5.104881644013015,
+    "th_log_df": 9.129997619293643,
+    "th_cvalue": 9.153453121640105,
+    "th_right_entropy": 7.66941605690825,
+    "th_left_entropy": 2.8959808545350145,
+    "th_share_right_ext_noun": 0.2114037359327382,
+    "th_share_left_ext_adj_noun": 0.09804111685689085,
+    "th_max_right_ext_share": 0.2034920634920635,
+    "th_right_boundary_share": 0.0291005291005291,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "© 2015 wiley periodical",
+   "surface_forms": [
+    "© 2015 Wiley Periodicals"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1484",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "NOT_CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "physical",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 25.5412,
+   "termhood": {
+    "th_log_f": 2.4849066497880004,
+    "th_src_ratio": -2.4849066497880004,
+    "th_log_df": 2.4849066497880004,
+    "th_cvalue": 2.302585092994046,
+    "th_right_entropy": -0.0,
+    "th_left_entropy": 3.2776134368191157,
+    "th_share_right_ext_noun": 1.0,
+    "th_share_left_ext_adj_noun": 0.7394330682700219,
+    "th_max_right_ext_share": 1.0,
+    "th_right_boundary_share": 0.0,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "roa",
+   "surface_forms": [
+    "ROA"
+   ],
+   "acronym_short_forms": [],
+   "output": "NOT_CONCEPT",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1161",
+   "metadata_label_A": "CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "NOT_CONCEPT",
+   "metadata_macro_domain": "social",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 3.0,
+   "termhood": {
+    "th_log_f": 3.367295829986474,
+    "th_src_ratio": -0.8472978603872034,
+    "th_log_df": 2.9444389791664403,
+    "th_cvalue": 3.2386784521643803,
+    "th_right_entropy": 3.767375797816042,
+    "th_left_entropy": 3.6820058147602137,
+    "th_share_right_ext_noun": 0.3469923706921139,
+    "th_share_left_ext_adj_noun": 0.5733880121734378,
+    "th_max_right_ext_share": 0.17857142857142858,
+    "th_right_boundary_share": 0.10714285714285714,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "verification",
+   "surface_forms": [
+    "verification",
+    "Verification",
+    "verifications"
+   ],
+   "acronym_short_forms": [],
+   "output": "TOO_GENERIC",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1424",
+   "metadata_label_A": "NOT_CONCEPT",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "TOO_GENERIC",
+   "metadata_macro_domain": "computing_engineering",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 100.7643,
+   "termhood": {
+    "th_log_f": 7.45182223652793,
+    "th_src_ratio": 1.5294494921034838,
+    "th_log_df": 7.395107546562485,
+    "th_cvalue": 7.447918273892618,
+    "th_right_entropy": 3.8788504219871673,
+    "th_left_entropy": 6.675499155385,
+    "th_share_right_ext_noun": 0.16537622271090688,
+    "th_share_left_ext_adj_noun": 0.638811389045879,
+    "th_max_right_ext_share": 0.4094076655052265,
+    "th_right_boundary_share": 0.17363530778164923,
+    "th_missing": 0.0
+   }
+  },
+  {
+   "key": "weight loss",
+   "surface_forms": [
+    "weight loss",
+    "Weight loss",
+    "weight losses"
+   ],
+   "acronym_short_forms": [],
+   "output": "TOO_GENERIC",
+   "metadata_fold": "test",
+   "metadata_variant_cluster": "c1447",
+   "metadata_label_A": "TOO_GENERIC",
+   "metadata_label_B": "CONCEPT",
+   "metadata_label_adj": "TOO_GENERIC",
+   "metadata_macro_domain": "health",
+   "metadata_silver_gold_200": true,
+   "metadata_cvalue": 183.608,
+   "termhood": {
+    "th_log_f": 5.6240175061873385,
+    "th_src_ratio": -3.814042597067943,
+    "th_log_df": 5.111987788356544,
+    "th_cvalue": 6.072993361627203,
+    "th_right_entropy": 5.612105652910764,
+    "th_left_entropy": 6.2963568401490635,
+    "th_share_right_ext_noun": 0.24719858365410718,
+    "th_share_left_ext_adj_noun": 0.3645530099062473,
+    "th_max_right_ext_share": 0.14855072463768115,
+    "th_right_boundary_share": 0.10869565217391304,
+    "th_missing": 0.0
+   }
+  }
+ ]
+}

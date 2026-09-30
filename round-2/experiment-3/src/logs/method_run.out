@@ -1,0 +1,88 @@
+21:55:11|INFO   |__main__:374|spec.json written, sha256=2e4c4894393b256e79c242dc834f736f67b292acac656d413fc8e152bc002614
+21:55:28|INFO   |__main__:385|indicators: 2618 rows, 145 concepts
+21:55:28|INFO   |analysis_event:119|labels: E rate 0.021; emerging 4, never 86; reference E rate 0.062
+21:55:30|INFO   |__main__:92|leakage test passed on 5 concept-years x 24 features
+21:55:33|INFO   |analysis_event:360|event study: treated 4, match rate 0.75
+21:55:34|INFO   |analysis_patterns:150|patterns: {'INCUBATION_THEN_EXPANSION__age0_8': 0.0, 'GRADUAL_CENTRALISATION__age0_8': 0.033, 'EARLY_BRIDGING__age0_8': 0.764, 'INCUBATION_THEN_EXPANSION__pre_onset': 0.0, 'GRADUAL_CENTRALISATION__pre_onset': 0.024, 'EARLY_BRIDGING__pre_onset': 0.569, 'INCUBATION_THEN_EXPANSION__age0_8_rawfallback': 0.0, 'EARLY_BRIDGING__age0_8_Prar': 0.691, 'INCUBATION_THEN_EXPANSION__age0_8_ageadj': 0.016, 'INCUBATION_THEN_EXPANSION__pre_onset_ageadj': 0.0}
+21:55:38|INFO   |analysis_event:360|event study: treated 14, match rate 0.7142857142857143
+21:55:39|INFO   |analysis_patterns:150|patterns: {'INCUBATION_THEN_EXPANSION__age0_8': 0.0, 'GRADUAL_CENTRALISATION__age0_8': 0.033, 'EARLY_BRIDGING__age0_8': 0.764, 'INCUBATION_THEN_EXPANSION__pre_onset': 0.0, 'GRADUAL_CENTRALISATION__pre_onset': 0.016, 'EARLY_BRIDGING__pre_onset': 0.724, 'INCUBATION_THEN_EXPANSION__age0_8_rawfallback': 0.0, 'EARLY_BRIDGING__age0_8_Prar': 0.691, 'INCUBATION_THEN_EXPANSION__age0_8_ageadj': 0.016, 'INCUBATION_THEN_EXPANSION__pre_onset_ageadj': 0.0}
+21:55:42|INFO   |analysis_event:360|event study: treated 41, match rate 0.5121951219512195
+21:55:43|INFO   |analysis_patterns:150|patterns: {'INCUBATION_THEN_EXPANSION__age0_8': 0.0, 'GRADUAL_CENTRALISATION__age0_8': 0.033, 'EARLY_BRIDGING__age0_8': 0.764, 'INCUBATION_THEN_EXPANSION__pre_onset': 0.0, 'GRADUAL_CENTRALISATION__pre_onset': 0.016, 'EARLY_BRIDGING__pre_onset': 0.724, 'INCUBATION_THEN_EXPANSION__age0_8_rawfallback': 0.0, 'EARLY_BRIDGING__age0_8_Prar': 0.691, 'INCUBATION_THEN_EXPANSION__age0_8_ageadj': 0.016, 'INCUBATION_THEN_EXPANSION__pre_onset_ageadj': 0.0}
+21:55:43|INFO   |analysis_predict:83|[E h=5] origin 2013 skipped (train 6, pos 0, test 68)
+21:55:43|INFO   |analysis_predict:83|[E h=5] origin 2014 skipped (train 20, pos 0, test 74)
+21:55:43|INFO   |analysis_predict:83|[E h=5] origin 2015 skipped (train 46, pos 1, test 76)
+21:55:50|INFO   |analysis_predict:83|[E3 h=3] origin 2011 skipped (train 6, pos 0, test 44)
+21:55:50|INFO   |analysis_predict:83|[E3 h=3] origin 2012 skipped (train 20, pos 0, test 56)
+21:55:50|INFO   |analysis_predict:83|[E3 h=3] origin 2013 skipped (train 46, pos 0, test 68)
+21:55:50|INFO   |analysis_predict:83|[E3 h=3] origin 2014 skipped (train 90, pos 0, test 74)
+21:55:50|INFO   |analysis_predict:83|[E3 h=3] origin 2015 skipped (train 146, pos 0, test 76)
+21:55:50|INFO   |analysis_predict:83|[E3 h=3] origin 2019 skipped (train 364, pos 0, test 55)
+21:55:50|INFO   |analysis_predict:83|[E_alt h=5] origin 2013 skipped (train 6, pos 0, test 68)
+21:55:50|INFO   |analysis_predict:83|[E_alt h=5] origin 2014 skipped (train 20, pos 1, test 74)
+21:55:50|INFO   |analysis_predict:83|[E_alt h=5] origin 2015 skipped (train 46, pos 3, test 76)
+21:55:57|INFO   |analysis_predict:83|[E_up h=5] origin 2013 skipped (train 6, pos 3, test 68)
+21:55:57|INFO   |analysis_predict:83|[E_up h=5] origin 2014 skipped (train 20, pos 10, test 74)
+21:56:05|INFO   |analysis_predict:83|[subfield_gain h=5] origin 2013 skipped (train 6, pos -1, test 68)
+21:56:05|INFO   |analysis_predict:83|[subfield_gain h=5] origin 2014 skipped (train 20, pos -1, test 74)
+21:56:08|INFO   |analysis_predict:83|[cent_gain h=5] origin 2013 skipped (train 6, pos -1, test 68)
+21:56:08|INFO   |analysis_predict:83|[cent_gain h=5] origin 2014 skipped (train 20, pos -1, test 74)
+21:56:10|INFO   |analysis_predict:83|[E_alt h=5] origin 2013 skipped (train 5, pos 0, test 59)
+21:56:10|INFO   |analysis_predict:83|[E_alt h=5] origin 2014 skipped (train 16, pos 1, test 66)
+21:56:10|INFO   |analysis_predict:83|[E_alt h=5] origin 2015 skipped (train 38, pos 3, test 69)
+21:56:17|INFO   |analysis_predict:83|[E h=5] origin 2013 skipped (train 5, pos 0, test 59)
+21:56:17|INFO   |analysis_predict:83|[E h=5] origin 2014 skipped (train 16, pos 0, test 66)
+21:56:17|INFO   |analysis_predict:83|[E h=5] origin 2015 skipped (train 38, pos 1, test 69)
+21:56:24|INFO   |analysis_predict:253|prediction E_h5: {'FULL_vs_BASELINE': {'delta': -0.028301886792452824, 'ci': [-0.0943396226415093, 0.01886792452830177], 'n_boot': 881}, 'PREC_only_vs_BASELINE': {'delta': -0.24528301886792458, 'ci': [-0.5192307692307693, 0.018867924528301883], 'n_boot': 881}}
+21:56:24|INFO   |analysis_predict:253|prediction E_alt_h5: {'FULL_vs_BASELINE': {'delta': 0.05128205128205132, 'ci': [0.0, 0.13207547169811318], 'n_boot': 956}, 'PREC_only_vs_BASELINE': {'delta': -0.02564102564102555, 'ci': [-0.2894408831908832, 0.16705974842767302], 'n_boot': 956}}
+21:56:24|INFO   |analysis_predict:253|prediction E_up_h5: {'FULL_vs_BASELINE': {'delta': -0.010433386837881087, 'ci': [-0.04529142728467791, 0.021273123996550715], 'n_boot': 1000}, 'PREC_only_vs_BASELINE': {'delta': -0.09202782236490104, 'ci': [-0.18048960276488357, -0.016856617647058883], 'n_boot': 1000}}
+21:56:55|INFO   |analysis_patterns:246|typology: k=2 status=no stable typology (showing k=2) min_jaccard by k {2: 0.49, 3: 0.51, 4: 0.45, 5: 0.42, 6: 0.46}
+21:57:10|INFO   |__main__:524|VERDICTS: {
+ "[E]": {
+  "event_study_accretion": "UNDERPOWERED PILOT (S=-0.104 CI [-0.12, -0.0155], n matched treated=3, MDE=0.091; bootstrap p not interpretable with n<10); pooled panel coef=-0.0309 CI [-0.0697, 0.00475] p=0.114 Holm p=0.114",
+  "event_study_closure": "UNDERPOWERED PILOT (S=-0.625 CI [-0.656, -0.588], n matched treated=3, MDE=0.046; bootstrap p not interpretable with n<10); pooled panel coef=-0.871 CI [-1.22, -0.555] p=0.00101 Holm p=0.00303",
+  "event_study_participation": "UNDERPOWERED PILOT (S=0.143 CI [-0.119, 0.301], n matched treated=3, MDE=0.298; bootstrap p not interpretable with n<10); pooled panel coef=0.153 CI [0.00559, 0.286] p=0.0404 Holm p=0.0807",
+  "prediction_delta_auc": "UNDERPOWERED PILOT (delta=-0.028, CI [-0.094,0.019], BASELINE=0.953, n_test=55, pos=2, origins=1)",
+  "exploratory_indicators_q_lt_0.05": [],
+  "pattern_INCUBATION_THEN_EXPANSION": "does not distinguish emerging from never (CI covers 0): overall 0.00; emerging 0.00 (n=4) vs never 0.00 (n=86) pre-onset, Fisher p=1",
+  "pattern_GRADUAL_CENTRALISATION": "does not distinguish emerging from never (CI covers 0): overall 0.03; emerging 0.00 (n=4) vs never 0.03 (n=86) pre-onset, Fisher p=1",
+  "pattern_EARLY_BRIDGING": "does not distinguish emerging from never (CI covers 0): overall 0.76; emerging 0.75 (n=4) vs never 0.78 (n=86) pre-onset, Fisher p=1"
+ },
+ "[E_alt]": {
+  "event_study_accretion": "UNDERPOWERED PILOT (S=-0.0209 CI [-0.0335, 0.0925], n matched treated=10, MDE=0.12 = 1.81 SD); pooled panel coef=-0.00976 CI [-0.0518, 0.0345] p=0.7 Holm p=1",
+  "event_study_closure": "UNDERPOWERED PILOT (S=-0.4 CI [-0.919, 0.19], n matched treated=10, MDE=0.793 = 0.59 SD); pooled panel coef=-0.529 CI [-1.01, -0.0992] p=0.032 Holm p=0.096",
+  "event_study_participation": "UNDERPOWERED PILOT (S=-0.0444 CI [-0.227, 0.102], n matched treated=10, MDE=0.238 = 1.30 SD); pooled panel coef=0.00221 CI [-0.101, 0.1] p=0.944 Holm p=1",
+  "prediction_delta_auc": "UNDERPOWERED PILOT (delta=0.051, CI [0.000,0.132], BASELINE=0.936, n_test=55, pos=3, origins=1)",
+  "exploratory_indicators_q_lt_0.05": [
+   "novelty: S=0.139 CI [0.0422, 0.235] q=0.019",
+   "beta_sne_rar: S=-0.0323 CI [-0.0692, -0.00877] q=0.038",
+   "sne_share_rar: S=-0.0807 CI [-0.159, -0.0194] q=0.038",
+   "subfield_count: S=1.68 CI [0.324, 3.53] q=0.0253",
+   "burst_state: S=0.171 CI [0.0708, 0.271] q=0.019"
+  ],
+  "pattern_INCUBATION_THEN_EXPANSION": "does not distinguish emerging from never (CI covers 0): overall 0.00; emerging 0.00 (n=14) vs never 0.00 (n=76) pre-onset, Fisher p=1",
+  "pattern_GRADUAL_CENTRALISATION": "does not distinguish emerging from never (CI covers 0): overall 0.03; emerging 0.07 (n=14) vs never 0.01 (n=76) pre-onset, Fisher p=0.288",
+  "pattern_EARLY_BRIDGING": "does not distinguish emerging from never (CI covers 0): overall 0.76; emerging 0.71 (n=14) vs never 0.79 (n=76) pre-onset, Fisher p=0.503"
+ },
+ "[E_up]": {
+  "event_study_accretion": "UNDERPOWERED PILOT (S=-0.14 CI [-0.185, 0.0184], n matched treated=21, MDE=0.14 = 2.11 SD); pooled panel coef=-0.033 CI [-0.0829, 0.0115] p=0.136 Holm p=0.272",
+  "event_study_closure": "DISCONFIRMED (opposite sign) [pilot: n<30] (S=-0.837 CI [-1.26, -0.427], n matched treated=21, MDE=0.605, Holm p=0.003); pooled panel coef=-0.743 CI [-1.06, -0.464] p=0.001 Holm p=0.003",
+  "event_study_participation": "DISCONFIRMED (no divergence with adequate power; S=-0.00708 CI [-0.0661, 0.0562], n matched treated=21, MDE=0.085); pooled panel coef=0.00852 CI [-0.0553, 0.0703] p=0.782 Holm p=0.782",
+  "prediction_delta_auc": "DISCONFIRMED (no added value beyond baselines; delta=-0.010, CI [-0.045,0.021], BASELINE=0.890, n_test=131, pos=42, origins=2)",
+  "exploratory_indicators_q_lt_0.05": [
+   "new_relation_rate: S=0.128 CI [0.0695, 0.186] q=0.00475",
+   "novelty: S=0.156 CI [0.0881, 0.22] q=0.00475",
+   "wmz: S=0.0729 CI [0.0402, 0.106] q=0.00475",
+   "burst_state: S=0.171 CI [0.0933, 0.244] q=0.00475"
+  ],
+  "pattern_INCUBATION_THEN_EXPANSION": "does not distinguish emerging from never (CI covers 0): overall 0.00; emerging 0.00 (n=41) vs never 0.00 (n=49) pre-onset, Fisher p=1",
+  "pattern_GRADUAL_CENTRALISATION": "does not distinguish emerging from never (CI covers 0): overall 0.03; emerging 0.05 (n=41) vs never 0.00 (n=49) pre-onset, Fisher p=0.205",
+  "pattern_EARLY_BRIDGING": "does not distinguish emerging from never (CI covers 0): overall 0.76; emerging 0.78 (n=41) vs never 0.78 (n=49) pre-onset, Fisher p=1"
+ },
+ "[global]": {
+  "prediction_sustained_uptake_E_up": "DISCONFIRMED (no added value beyond baselines; delta=-0.010, CI [-0.045,0.021], BASELINE=0.890, n_test=131, pos=42, origins=2)",
+  "prediction_subfield_gain_R2": "UNDERPOWERED PILOT (delta=0.166, CI [-0.173,0.673], BASELINE=-0.459, n_test=131, pos=None, origins=2)",
+  "prediction_centrality_gain_R2": "UNDERPOWERED PILOT (delta=-0.152, CI [-0.517,0.186], BASELINE=-0.166, n_test=131, pos=None, origins=2)",
+  "typology": "no stable typology (showing k=2) (k=2, min bootstrap Jaccard by k={'2': 0.49, '3': 0.51, '4': 0.45, '5': 0.42, '6': 0.46}, AMI vs pattern combos=-0.01267664799028712)"
+ }
+}
+21:57:10|INFO   |__main__:525|method done in 2.0 min

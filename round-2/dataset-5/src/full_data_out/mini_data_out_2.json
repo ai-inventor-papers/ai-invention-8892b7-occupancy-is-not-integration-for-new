@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "description": "Iteration-2 concept-pool artifact (see README.md). One example per data row, grouped by dataset.",
+    "feature_names": {
+      "concept_work_links": [
+        "concept_id",
+        "work_id",
+        "year"
+      ],
+      "openalex_works": [
+        "work_id",
+        "publication_year",
+        "type",
+        "language",
+        "doi_present",
+        "s2_corpus_id",
+        "primary_topic_id",
+        "topic_score",
+        "topics_top3",
+        "source_id",
+        "source_type",
+        "n_refs",
+        "refs_in_corpus",
+        "author_ids",
+        "keyword_idx",
+        "concept_ids",
+        "has_abstract",
+        "abstract_n_tokens",
+        "cited_by_count",
+        "dup_group"
+      ]
+    },
+    "notes": {
+      "openalex_works": "input is a JSON array in feature_names order; output = primary_topic subfield_id; full refs/institutions/scores in works/works_part_XX.parquet",
+      "concept_work_links": "input = [concept_id, work_id, year]; output = match_evidence; concept details in concept_pool_2005_2016",
+      "subfield_year_totals": "dataset_1 D4 copied unchanged; the 'all_types' variant is the per-10^4 denominator (c-papers include every work type)",
+      "nativeness_profiles": "exact OpenAlex meta.count and group_by counts, never sample-based; frame = all types; 'unknown' = works without a primary topic",
+      "venue_habitat_asjc": "habitat_subfield = 4-digit ASJC code (= OpenAlex subfield id where one exists) or 'UNCOVERED'; route preperiod_groupby is NOT citation-independent"
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "concept_work_links",
+      "examples": [
+        {
+          "input": "[\"c_0ff8a2ac8a0c\",3031589819,2017]",
+          "output": "oa_abstract",
+          "metadata_fold": "reference",
+          "metadata_matched_form": "exoplanet",
+          "metadata_dup_group": null
+        },
+        {
+          "input": "[\"c_0ff8a2ac8a0c\",3031590071,2019]",
+          "output": "oa_title",
+          "metadata_fold": "reference",
+          "metadata_matched_form": "exoplanet",
+          "metadata_dup_group": null
+        },
+        {
+          "input": "[\"c_0ff8a2ac8a0c\",3031689556,2020]",
+          "output": "oa_abstract",
+          "metadata_fold": "reference",
+          "metadata_matched_form": "exoplanets",
+          "metadata_dup_group": null
+        }
+      ]
+    },
+    {
+      "dataset": "openalex_works",
+      "examples": [
+        {
+          "input": "[58061,2006,\"article\",\"en\",true,null,10986,1.0,[10986,11504,11800],null,null,17,[159700855,2048259992,2110617036,2115893326,2152555831,3027635100],[5035277036,5113938399,5037292711],[30108,7138,2504,18457,28806,7136,17951,17400,23929,7450,29264,4402,36342],[204222849,38652104,148417208,108827166,3017597292,41008148,123201435,116834253,175604262,2778656907,2780385302,144133560,76155785],true,126,8,null]",
+          "output": "2214",
+          "metadata_field_id": 22,
+          "metadata_domain_id": 3,
+          "metadata_retrieval_batch": "iter2_batch"
+        },
+        {
+          "input": "[89426,2001,\"article\",\"en\",true,10708518,10615,0.9989,[10615,12350,10360],148709879,\"journal\",23,[],[5109211780,5088972522],[7058,14418,7362,21564,10037,13534,4003,34805,404,21744,21544,1857,13283,27459,14931],[45374587,186899397,3445786,33923547,92244383,38349280,182310444,8171440,2780791683,57879066,134306372,28826006,135628077,121332964,2524010],false,0,29,null]",
+          "output": "2206",
+          "metadata_field_id": 22,
+          "metadata_domain_id": 3,
+          "metadata_retrieval_batch": "iter2_singleton"
+        },
+        {
+          "input": "[103797,2011,\"book-chapter\",\"en\",true,null,11622,0.9998,[11622,11604,12086],null,null,16,[],[5058928517,5055883574,5091261561,5082122549,5073198795,5089598881,5057390772,5072999472,5074858255],[3028,6671,7136,3030,21353,2102,11773,7138],[33724603,121704057,41008148,107673813,199104240,154945302,127413603],true,461,14,null]",
+          "output": "2212",
+          "metadata_field_id": 22,
+          "metadata_domain_id": 3,
+          "metadata_retrieval_batch": "iter2_batch"
+        }
+      ]
+    }
+  ]
+}

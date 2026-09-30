@@ -1,0 +1,217 @@
+21:13:45|INFO   |__main__:374|spec.json written, sha256=2e4c4894393b256e79c242dc834f736f67b292acac656d413fc8e152bc002614
+21:13:45|INFO   |__main__:56|running stage_prep.py
+21:13:50|INFO   |__main__:49|pool folds {'screen': 123, 'heldout_concept': 61, 'reference': 22}
+21:13:50|INFO   |__main__:56|active concepts 145 (screen 123, reference 22)
+21:13:50|INFO   |__main__:80|D2 works total 208374; linked to active 162552
+21:13:52|INFO   |__main__:96|c-paper rows 167117; missing work join 0; frame share 0.669
+21:13:55|INFO   |__main__:118|tag-id overlap (D2 filtered tags found in bg) = 0.9182
+21:13:55|INFO   |__main__:127|bg w_year: fallback to design weight for 0 works; sum w_year 149116575
+21:13:55|INFO   |__main__:139|totals years ['2000', '2001', '2002']..; all-science 2010 = 7758026
+21:13:55|INFO   |__main__:143|prep done {'fold_counts': {'screen': 123, 'heldout_concept': 61, 'reference': 22}, 'n_active': 145, 'n_cp_rows': 167117, 'n_bg': 259716, 'tag_overlap': 0.9181600955794504, 'n_d2_works': 208374, 'bg_wyear_fallback': 0, 'n_sealed': 61}
+21:13:55|INFO   |__main__:56|running stage_snapshots.py
+21:14:05|INFO   |__main__:298|building snapshots [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024] with 4 workers
+21:14:31|INFO   |__mp_main__:91|y=2000 works=7966 nodes=13813 edges=150601 kept_edges=17748 kept_nodes=4610 comms=130 (>=5 nodes: 41) Q=0.661
+21:14:32|INFO   |__mp_main__:191|y=2000 betweenness on 4637 nodes / 18973 edges in 0.5s
+21:14:32|INFO   |__mp_main__:214|y=2000 done in 7.8s
+21:14:32|INFO   |__main__:306|snapshot 2000 ok (28s elapsed)
+21:14:42|INFO   |__mp_main__:91|y=2001 works=15745 nodes=20612 edges=282001 kept_edges=42507 kept_nodes=8206 comms=202 (>=5 nodes: 76) Q=0.910
+21:14:43|INFO   |__mp_main__:191|y=2001 betweenness on 8242 nodes / 45051 edges in 1.0s
+21:14:43|INFO   |__mp_main__:214|y=2001 done in 18.7s
+21:14:43|INFO   |__main__:306|snapshot 2001 ok (39s elapsed)
+21:14:59|INFO   |__mp_main__:91|y=2002 works=24229 nodes=25700 edges=408948 kept_edges=70680 kept_nodes=11604 comms=261 (>=5 nodes: 84) Q=0.932
+21:15:02|INFO   |__mp_main__:191|y=2002 betweenness on 11642 nodes / 74456 edges in 1.7s
+21:15:02|INFO   |__mp_main__:214|y=2002 done in 37.1s
+21:15:02|INFO   |__main__:306|snapshot 2002 ok (57s elapsed)
+21:15:11|INFO   |__mp_main__:91|y=2003 works=25780 nodes=26759 edges=438026 kept_edges=76924 kept_nodes=12305 comms=217 (>=5 nodes: 62) Q=0.768
+21:15:13|INFO   |__mp_main__:191|y=2003 betweenness on 12346 nodes / 81092 edges in 1.9s
+21:15:13|INFO   |__mp_main__:214|y=2003 done in 48.6s
+21:15:13|INFO   |__main__:306|snapshot 2003 ok (69s elapsed)
+21:15:19|INFO   |__mp_main__:91|y=2004 works=28140 nodes=27738 edges=466017 kept_edges=84027 kept_nodes=13055 comms=246 (>=5 nodes: 84) Q=0.865
+21:15:22|INFO   |__mp_main__:191|y=2004 betweenness on 13104 nodes / 88580 edges in 2.0s
+21:15:22|INFO   |__mp_main__:214|y=2004 done in 49.2s
+21:15:22|INFO   |__main__:306|snapshot 2004 ok (77s elapsed)
+21:15:25|INFO   |__mp_main__:91|y=2005 works=27185 nodes=27233 edges=450696 kept_edges=80406 kept_nodes=12689 comms=292 (>=5 nodes: 95) Q=0.945
+21:15:27|INFO   |__mp_main__:191|y=2005 betweenness on 12751 nodes / 85540 edges in 1.9s
+21:15:27|INFO   |__mp_main__:214|y=2005 done in 43.7s
+21:15:27|INFO   |__main__:306|snapshot 2005 ok (82s elapsed)
+21:15:43|INFO   |__mp_main__:91|y=2006 works=26001 nodes=26720 edges=433905 kept_edges=76186 kept_nodes=12295 comms=271 (>=5 nodes: 90) Q=0.936
+21:15:45|INFO   |__mp_main__:191|y=2006 betweenness on 12362 nodes / 81973 edges in 1.8s
+21:15:46|INFO   |__mp_main__:214|y=2006 done in 43.5s
+21:15:46|INFO   |__main__:306|snapshot 2006 ok (101s elapsed)
+21:16:02|INFO   |__mp_main__:91|y=2007 works=24649 nodes=26242 edges=420093 kept_edges=72721 kept_nodes=11901 comms=269 (>=5 nodes: 92) Q=0.952
+21:16:04|INFO   |__mp_main__:191|y=2007 betweenness on 11975 nodes / 79358 edges in 1.8s
+21:16:05|INFO   |__mp_main__:214|y=2007 done in 50.9s
+21:16:05|INFO   |__main__:306|snapshot 2007 ok (120s elapsed)
+21:16:05|INFO   |__mp_main__:91|y=2008 works=26845 nodes=27514 edges=453971 kept_edges=80153 kept_nodes=12733 comms=263 (>=5 nodes: 93) Q=0.947
+21:16:07|INFO   |__mp_main__:191|y=2008 betweenness on 12821 nodes / 88130 edges in 1.9s
+21:16:07|INFO   |__mp_main__:214|y=2008 done in 45.4s
+21:16:07|INFO   |__main__:306|snapshot 2008 ok (123s elapsed)
+21:16:21|INFO   |__mp_main__:91|y=2009 works=29090 nodes=28449 edges=484650 kept_edges=87428 kept_nodes=13417 comms=265 (>=5 nodes: 103) Q=0.946
+21:16:24|INFO   |__mp_main__:191|y=2009 betweenness on 13522 nodes / 97224 edges in 2.1s
+21:16:24|INFO   |__mp_main__:214|y=2009 done in 56.9s
+21:16:24|INFO   |__main__:306|snapshot 2009 ok (140s elapsed)
+21:16:39|INFO   |__mp_main__:91|y=2010 works=28450 nodes=27994 edges=475706 kept_edges=85407 kept_nodes=13228 comms=279 (>=5 nodes: 96) Q=0.948
+21:16:42|INFO   |__mp_main__:191|y=2010 betweenness on 13338 nodes / 96852 edges in 2.1s
+21:16:42|INFO   |__mp_main__:214|y=2010 done in 56.3s
+21:16:42|INFO   |__main__:306|snapshot 2010 ok (157s elapsed)
+21:16:52|INFO   |__mp_main__:91|y=2011 works=27390 nodes=27450 edges=464344 kept_edges=83135 kept_nodes=12871 comms=253 (>=5 nodes: 84) Q=0.919
+21:16:55|INFO   |__mp_main__:191|y=2011 betweenness on 12989 nodes / 96433 edges in 2.0s
+21:16:56|INFO   |__mp_main__:214|y=2011 done in 50.7s
+21:16:56|INFO   |__main__:306|snapshot 2011 ok (171s elapsed)
+21:16:58|INFO   |__mp_main__:91|y=2012 works=26115 nodes=27034 edges=453572 kept_edges=80495 kept_nodes=12515 comms=261 (>=5 nodes: 90) Q=0.906
+21:17:01|INFO   |__mp_main__:191|y=2012 betweenness on 12639 nodes / 95465 edges in 2.0s
+21:17:02|INFO   |__mp_main__:214|y=2012 done in 54.0s
+21:17:02|INFO   |__main__:306|snapshot 2012 ok (177s elapsed)
+21:17:11|INFO   |__mp_main__:91|y=2013 works=27595 nodes=27718 edges=475613 kept_edges=86333 kept_nodes=13012 comms=274 (>=5 nodes: 94) Q=0.905
+21:17:14|INFO   |__mp_main__:191|y=2013 betweenness on 13145 nodes / 103403 edges in 2.1s
+21:17:14|INFO   |__mp_main__:214|y=2013 done in 49.8s
+21:17:15|INFO   |__main__:306|snapshot 2013 ok (190s elapsed)
+21:17:42|INFO   |__mp_main__:91|y=2014 works=28968 nodes=28238 edges=492032 kept_edges=90288 kept_nodes=13346 comms=288 (>=5 nodes: 95) Q=0.948
+21:17:45|INFO   |__mp_main__:191|y=2014 betweenness on 13486 nodes / 109187 edges in 2.2s
+21:17:45|INFO   |__mp_main__:214|y=2014 done in 63.0s
+21:17:45|INFO   |__main__:306|snapshot 2014 ok (221s elapsed)
+21:17:52|INFO   |__mp_main__:91|y=2015 works=28732 nodes=27797 edges=482183 kept_edges=87532 kept_nodes=13062 comms=295 (>=5 nodes: 100) Q=0.951
+21:17:52|INFO   |__mp_main__:91|y=2016 works=28018 nodes=27315 edges=465649 kept_edges=83875 kept_nodes=12817 comms=277 (>=5 nodes: 95) Q=0.948
+21:17:55|INFO   |__mp_main__:191|y=2015 betweenness on 13206 nodes / 108254 edges in 2.2s
+21:17:55|INFO   |__mp_main__:191|y=2016 betweenness on 12962 nodes / 106132 edges in 2.1s
+21:17:55|INFO   |__mp_main__:214|y=2015 done in 59.5s
+21:17:55|INFO   |__main__:306|snapshot 2015 ok (231s elapsed)
+21:17:55|INFO   |__mp_main__:214|y=2016 done in 53.5s
+21:17:56|INFO   |__main__:306|snapshot 2016 ok (231s elapsed)
+21:17:59|INFO   |__mp_main__:91|y=2017 works=27087 nodes=26574 edges=447698 kept_edges=79253 kept_nodes=12289 comms=278 (>=5 nodes: 98) Q=0.948
+21:18:02|INFO   |__mp_main__:191|y=2017 betweenness on 12433 nodes / 102860 edges in 2.1s
+21:18:02|INFO   |__mp_main__:214|y=2017 done in 47.6s
+21:18:02|INFO   |__main__:306|snapshot 2017 ok (238s elapsed)
+21:18:40|INFO   |__mp_main__:91|y=2018 works=27265 nodes=26523 edges=452324 kept_edges=80606 kept_nodes=12273 comms=305 (>=5 nodes: 102) Q=0.946
+21:18:43|INFO   |__mp_main__:191|y=2018 betweenness on 12415 nodes / 106262 edges in 2.1s
+21:18:43|INFO   |__mp_main__:91|y=2019 works=28392 nodes=26820 edges=476431 kept_edges=86806 kept_nodes=12699 comms=298 (>=5 nodes: 105) Q=0.945
+21:18:44|INFO   |__mp_main__:214|y=2018 done in 58.1s
+21:18:44|INFO   |__main__:306|snapshot 2018 ok (279s elapsed)
+21:18:46|INFO   |__mp_main__:191|y=2019 betweenness on 12840 nodes / 114957 edges in 2.3s
+21:18:47|INFO   |__mp_main__:214|y=2019 done in 51.5s
+21:18:47|INFO   |__main__:306|snapshot 2019 ok (282s elapsed)
+21:18:50|INFO   |__mp_main__:91|y=2020 works=29201 nodes=27374 edges=496680 kept_edges=91822 kept_nodes=13114 comms=318 (>=5 nodes: 108) Q=0.945
+21:18:53|INFO   |__mp_main__:191|y=2020 betweenness on 13254 nodes / 122191 edges in 2.3s
+21:18:54|INFO   |__mp_main__:214|y=2020 done in 58.2s
+21:18:54|INFO   |__main__:306|snapshot 2020 ok (289s elapsed)
+21:19:07|INFO   |__mp_main__:91|y=2021 works=29450 nodes=27611 edges=513466 kept_edges=96368 kept_nodes=13413 comms=287 (>=5 nodes: 97) Q=0.943
+21:19:10|INFO   |__mp_main__:191|y=2021 betweenness on 13553 nodes / 128462 edges in 2.4s
+21:19:11|INFO   |__mp_main__:214|y=2021 done in 68.4s
+21:19:11|INFO   |__main__:306|snapshot 2021 ok (306s elapsed)
+21:19:33|INFO   |__mp_main__:91|y=2022 works=28649 nodes=27311 edges=515634 kept_edges=97425 kept_nodes=13322 comms=277 (>=5 nodes: 85) Q=0.934
+21:19:37|INFO   |__mp_main__:191|y=2022 betweenness on 13464 nodes / 129750 edges in 2.5s
+21:19:38|INFO   |__mp_main__:214|y=2022 done in 53.6s
+21:19:38|INFO   |__main__:306|snapshot 2022 ok (333s elapsed)
+21:19:46|INFO   |__mp_main__:91|y=2023 works=28234 nodes=27075 edges=517942 kept_edges=98514 kept_nodes=13289 comms=295 (>=5 nodes: 97) Q=0.942
+21:19:49|INFO   |__mp_main__:191|y=2023 betweenness on 13429 nodes / 130068 edges in 2.4s
+21:19:50|INFO   |__mp_main__:214|y=2023 done in 62.8s
+21:19:50|INFO   |__main__:306|snapshot 2023 ok (345s elapsed)
+21:19:51|INFO   |__mp_main__:91|y=2024 works=28492 nodes=25891 edges=474848 kept_edges=89036 kept_nodes=12480 comms=310 (>=5 nodes: 93) Q=0.946
+21:19:54|INFO   |__mp_main__:191|y=2024 betweenness on 12621 nodes / 118909 edges in 2.2s
+21:19:55|INFO   |__mp_main__:214|y=2024 done in 60.4s
+21:19:55|INFO   |__main__:306|snapshot 2024 ok (350s elapsed)
+21:19:57|INFO   |__main__:282|alluvial: 1487 persistent communities; events {'birth': 1487, 'death': 1394, 'continue': 772, 'merge': 286, 'split': 256}
+21:19:57|INFO   |__main__:312|stage_snapshots done in 352s
+21:19:57|INFO   |__main__:56|running stage_indicators.py
+21:20:04|INFO   |__main__:56|RS distance matrix (252, 252), mean d 0.898
+21:20:11|INFO   |__main__:245|indicators 1/145 (8s)
+21:20:12|INFO   |__main__:245|indicators 21/145 (9s)
+21:20:13|INFO   |__main__:245|indicators 41/145 (10s)
+21:20:14|INFO   |__main__:245|indicators 61/145 (11s)
+21:20:15|INFO   |__main__:245|indicators 81/145 (12s)
+21:20:16|INFO   |__main__:245|indicators 101/145 (13s)
+21:20:16|INFO   |__main__:245|indicators 121/145 (13s)
+21:20:17|INFO   |__main__:245|indicators 141/145 (14s)
+21:20:18|INFO   |__main__:277|indicators done: {'n_rows': 2618, 'n_concepts': 145, 'n_bipartite_rows': 19250, 'volume_spearman': {'P_raw_vs_logvol': 0.04625432776683265, 'P_rar_vs_logvol': -0.04597130197035484, 'beta_sim_raw_vs_logvol': -0.12734880743802868, 'beta_sim_rar_vs_logvol': 0.394013865753903, 'sne_share_raw_vs_logvol': -0.29069327853594057, 'sne_share_rar_vs_logvol': -0.25512125834969385, 'H_vs_logvol': 0.4032735639599775, 'H_rar_vs_logvol': 0.20998223654281828, 'accretion_shift_raw_vs_logvol': -0.04368921815295992, 'accretion_shift_rar_vs_logvol': 0.028989957332225796, 'closure_raw_vs_logvol': -0.6421549844642548, 'closure_vs_logvol': 0.30879216862103126}, 'na_share_pre2016_age_ge0': {'beta_sim_rar': 0.5496503496503496, 'P_rar': 0.11888111888111888, 'beta_sim_rar5': 0.2895104895104895, 'P_rar_m5': 0.03076923076923077, 'closure': 0.006993006993006993, 'H_rar': 0.1258741258741259}, 'secs': 15.0}
+21:20:18|INFO   |__main__:56|running stage_robust.py
+21:38:48|INFO   |__main__:268|stability {'2008': {'ami_mean': 0.6322054379999235, 'ami_p05': 0.6166401775492015, 'ami_min': 0.6152597845329385, 'n': 20}, '2013': {'ami_mean': 0.6248962725661886, 'ami_p05': 0.6112815831448932, 'ami_min': 0.608444072675839, 'n': 20}, '2018': {'ami_mean': 0.6193984268918388, 'ami_p05': 0.6016957795344724, 'ami_min': 0.5993798767156485, 'n': 20}}
+21:38:48|INFO   |__main__:269|rewire [{'year': 2008, 'n_pool_with_5_kept_neighbours': 75, 'n_pool_total': 145, 'kept_nodes': 12733, 'kept_edges': 80153, 'share_p_emp_lt_0_05': 0.8, 'z_median': 14.832624362850579, 'n_z_finite': 44, 'obs_density_median': 0.08088235294117647, 'null_density_median': 0.0009523809523809525, 'spearman_closure_vs_binary_logratio': 0.41780104715868827}, {'year': 2013, 'n_pool_with_5_kept_neighbours': 118, 'n_pool_total': 145, 'kept_nodes': 13012, 'kept_edges': 86333, 'share_p_emp_lt_0_05': 0.7372881355932204, 'z_median': 14.741972955279394, 'n_z_finite': 46, 'obs_density_median': 0.06666666666666667, 'null_density_median': 0.0, 'spearman_closure_vs_binary_logratio': 0.5481295707547436}, {'year': 2018, 'n_pool_with_5_kept_neighbours': 120, 'n_pool_total': 145, 'kept_nodes': 12273, 'kept_edges': 80606, 'share_p_emp_lt_0_05': 0.625, 'z_median': 13.479434754110523, 'n_z_finite': 43, 'obs_density_median': 0.03656417112299465, 'null_density_median': 0.0, 'spearman_closure_vs_binary_logratio': 0.483461010941519}]
+21:38:54|INFO   |__main__:158|D4 corpus 93600 works; concept names mapped 642598/758154
+21:38:58|INFO   |__main__:282|robust done in 1102.9s
+21:39:14|INFO   |__main__:385|indicators: 2618 rows, 145 concepts
+21:39:14|INFO   |analysis_event:119|labels: E rate 0.021; emerging 4, never 86; reference E rate 0.062
+21:39:15|INFO   |__main__:92|leakage test passed on 5 concept-years x 24 features
+21:39:19|INFO   |analysis_event:360|event study: treated 4, match rate 0.75
+21:39:20|INFO   |analysis_patterns:150|patterns: {'INCUBATION_THEN_EXPANSION__age0_8': 0.0, 'GRADUAL_CENTRALISATION__age0_8': 0.033, 'EARLY_BRIDGING__age0_8': 0.756, 'INCUBATION_THEN_EXPANSION__pre_onset': 0.0, 'GRADUAL_CENTRALISATION__pre_onset': 0.024, 'EARLY_BRIDGING__pre_onset': 0.569, 'INCUBATION_THEN_EXPANSION__age0_8_rawfallback': 0.0, 'EARLY_BRIDGING__age0_8_Prar': 0.683, 'INCUBATION_THEN_EXPANSION__age0_8_ageadj': 0.016, 'INCUBATION_THEN_EXPANSION__pre_onset_ageadj': 0.0}
+21:39:23|INFO   |analysis_event:360|event study: treated 14, match rate 0.7142857142857143
+21:39:24|INFO   |analysis_patterns:150|patterns: {'INCUBATION_THEN_EXPANSION__age0_8': 0.0, 'GRADUAL_CENTRALISATION__age0_8': 0.033, 'EARLY_BRIDGING__age0_8': 0.756, 'INCUBATION_THEN_EXPANSION__pre_onset': 0.0, 'GRADUAL_CENTRALISATION__pre_onset': 0.016, 'EARLY_BRIDGING__pre_onset': 0.724, 'INCUBATION_THEN_EXPANSION__age0_8_rawfallback': 0.0, 'EARLY_BRIDGING__age0_8_Prar': 0.683, 'INCUBATION_THEN_EXPANSION__age0_8_ageadj': 0.016, 'INCUBATION_THEN_EXPANSION__pre_onset_ageadj': 0.0}
+21:39:28|INFO   |analysis_event:360|event study: treated 41, match rate 0.5121951219512195
+21:39:29|INFO   |analysis_patterns:150|patterns: {'INCUBATION_THEN_EXPANSION__age0_8': 0.0, 'GRADUAL_CENTRALISATION__age0_8': 0.033, 'EARLY_BRIDGING__age0_8': 0.756, 'INCUBATION_THEN_EXPANSION__pre_onset': 0.0, 'GRADUAL_CENTRALISATION__pre_onset': 0.016, 'EARLY_BRIDGING__pre_onset': 0.724, 'INCUBATION_THEN_EXPANSION__age0_8_rawfallback': 0.0, 'EARLY_BRIDGING__age0_8_Prar': 0.683, 'INCUBATION_THEN_EXPANSION__age0_8_ageadj': 0.016, 'INCUBATION_THEN_EXPANSION__pre_onset_ageadj': 0.0}
+21:39:29|INFO   |analysis_predict:83|[E h=5] origin 2013 skipped (train 6, pos 0, test 68)
+21:39:29|INFO   |analysis_predict:83|[E h=5] origin 2014 skipped (train 20, pos 0, test 74)
+21:39:29|INFO   |analysis_predict:83|[E h=5] origin 2015 skipped (train 46, pos 1, test 76)
+21:39:36|INFO   |analysis_predict:83|[E3 h=3] origin 2011 skipped (train 6, pos 0, test 44)
+21:39:36|INFO   |analysis_predict:83|[E3 h=3] origin 2012 skipped (train 20, pos 0, test 56)
+21:39:36|INFO   |analysis_predict:83|[E3 h=3] origin 2013 skipped (train 46, pos 0, test 68)
+21:39:36|INFO   |analysis_predict:83|[E3 h=3] origin 2014 skipped (train 90, pos 0, test 74)
+21:39:36|INFO   |analysis_predict:83|[E3 h=3] origin 2015 skipped (train 146, pos 0, test 76)
+21:39:36|INFO   |analysis_predict:83|[E3 h=3] origin 2019 skipped (train 364, pos 0, test 55)
+21:39:36|INFO   |analysis_predict:83|[E_alt h=5] origin 2013 skipped (train 6, pos 0, test 68)
+21:39:36|INFO   |analysis_predict:83|[E_alt h=5] origin 2014 skipped (train 20, pos 1, test 74)
+21:39:36|INFO   |analysis_predict:83|[E_alt h=5] origin 2015 skipped (train 46, pos 3, test 76)
+21:39:43|INFO   |analysis_predict:83|[E_up h=5] origin 2013 skipped (train 6, pos 3, test 68)
+21:39:43|INFO   |analysis_predict:83|[E_up h=5] origin 2014 skipped (train 20, pos 10, test 74)
+21:39:51|INFO   |analysis_predict:83|[subfield_gain h=5] origin 2013 skipped (train 6, pos -1, test 68)
+21:39:51|INFO   |analysis_predict:83|[subfield_gain h=5] origin 2014 skipped (train 20, pos -1, test 74)
+21:39:53|INFO   |analysis_predict:83|[cent_gain h=5] origin 2013 skipped (train 6, pos -1, test 68)
+21:39:53|INFO   |analysis_predict:83|[cent_gain h=5] origin 2014 skipped (train 20, pos -1, test 74)
+21:39:56|INFO   |analysis_predict:83|[E h=5] origin 2013 skipped (train 5, pos 0, test 59)
+21:39:56|INFO   |analysis_predict:83|[E h=5] origin 2014 skipped (train 16, pos 0, test 66)
+21:39:56|INFO   |analysis_predict:83|[E h=5] origin 2015 skipped (train 38, pos 1, test 69)
+21:40:01|INFO   |analysis_predict:83|[E_alt h=5] origin 2013 skipped (train 5, pos 0, test 59)
+21:40:01|INFO   |analysis_predict:83|[E_alt h=5] origin 2014 skipped (train 16, pos 1, test 66)
+21:40:01|INFO   |analysis_predict:83|[E_alt h=5] origin 2015 skipped (train 38, pos 3, test 69)
+21:40:11|INFO   |analysis_predict:253|prediction E_h5: {'FULL_vs_BASELINE': {'delta': -0.037735849056603765, 'ci': [-0.10294117647058831, 0.0], 'n_boot': 881}, 'PREC_only_vs_BASELINE': {'delta': -0.2547169811320755, 'ci': [-0.5192307692307693, 0.0], 'n_boot': 881}}
+21:40:11|INFO   |analysis_predict:253|prediction E_alt_h5: {'FULL_vs_BASELINE': {'delta': 0.05128205128205132, 'ci': [0.0, 0.13207547169811318], 'n_boot': 956}, 'PREC_only_vs_BASELINE': {'delta': -0.02564102564102555, 'ci': [-0.2894408831908832, 0.1670597484276729], 'n_boot': 956}}
+21:40:11|INFO   |analysis_predict:253|prediction E_up_h5: {'FULL_vs_BASELINE': {'delta': -0.013911182450508264, 'ci': [-0.047806161257606436, 0.0165308770108977], 'n_boot': 1000}, 'PREC_only_vs_BASELINE': {'delta': -0.09497057249866248, 'ci': [-0.1829948460611977, -0.01909851535311085], 'n_boot': 1000}}
+21:40:31|INFO   |analysis_patterns:246|typology: k=2 status=no stable typology (showing k=2) min_jaccard by k {2: 0.53, 3: 0.53, 4: 0.41, 5: 0.43, 6: 0.47}
+21:40:38|INFO   |__main__:524|VERDICTS: {
+ "[E]": {
+  "event_study_accretion": "UNDERPOWERED PILOT (S=-0.104 CI [-0.12, -0.0155], n matched treated=3, MDE=0.091; bootstrap p not interpretable with n<10); pooled panel coef=-0.0309 CI [-0.0697, 0.00475] p=0.114 Holm p=0.114",
+  "event_study_closure": "UNDERPOWERED PILOT (S=-0.625 CI [-0.656, -0.588], n matched treated=3, MDE=0.046; bootstrap p not interpretable with n<10); pooled panel coef=-0.871 CI [-1.22, -0.555] p=0.00101 Holm p=0.00303",
+  "event_study_participation": "UNDERPOWERED PILOT (S=0.143 CI [-0.119, 0.301], n matched treated=3, MDE=0.298; bootstrap p not interpretable with n<10); pooled panel coef=0.153 CI [0.00559, 0.286] p=0.0404 Holm p=0.0807",
+  "prediction_delta_auc": "UNDERPOWERED PILOT (delta=-0.038, CI [-0.103,0.000], BASELINE=0.962, n_test=55, pos=2, origins=1)",
+  "exploratory_indicators_q_lt_0.05": [],
+  "pattern_INCUBATION_THEN_EXPANSION": "does not distinguish emerging from never (CI covers 0): overall 0.00; emerging 0.00 (n=4) vs never 0.00 (n=86) pre-onset, Fisher p=1",
+  "pattern_GRADUAL_CENTRALISATION": "does not distinguish emerging from never (CI covers 0): overall 0.03; emerging 0.00 (n=4) vs never 0.03 (n=86) pre-onset, Fisher p=1",
+  "pattern_EARLY_BRIDGING": "does not distinguish emerging from never (CI covers 0): overall 0.76; emerging 0.75 (n=4) vs never 0.78 (n=86) pre-onset, Fisher p=1"
+ },
+ "[E_alt]": {
+  "event_study_accretion": "UNDERPOWERED PILOT (S=-0.0209 CI [-0.0335, 0.0925], n matched treated=10, MDE=0.12 = 1.81 SD); pooled panel coef=-0.00976 CI [-0.0518, 0.0345] p=0.7 Holm p=1",
+  "event_study_closure": "UNDERPOWERED PILOT (S=-0.4 CI [-0.919, 0.19], n matched treated=10, MDE=0.793 = 0.59 SD); pooled panel coef=-0.529 CI [-1.01, -0.0992] p=0.032 Holm p=0.096",
+  "event_study_participation": "UNDERPOWERED PILOT (S=-0.0444 CI [-0.227, 0.102], n matched treated=10, MDE=0.238 = 1.30 SD); pooled panel coef=0.00221 CI [-0.101, 0.1] p=0.944 Holm p=1",
+  "prediction_delta_auc": "UNDERPOWERED PILOT (delta=0.051, CI [0.000,0.132], BASELINE=0.936, n_test=55, pos=3, origins=1)",
+  "exploratory_indicators_q_lt_0.05": [
+   "novelty: S=0.139 CI [0.0422, 0.235] q=0.019",
+   "beta_sne_rar: S=-0.0323 CI [-0.0692, -0.00877] q=0.038",
+   "sne_share_rar: S=-0.0807 CI [-0.159, -0.0194] q=0.038",
+   "subfield_count: S=1.68 CI [0.324, 3.53] q=0.0253",
+   "burst_state: S=0.171 CI [0.0708, 0.271] q=0.019"
+  ],
+  "pattern_INCUBATION_THEN_EXPANSION": "does not distinguish emerging from never (CI covers 0): overall 0.00; emerging 0.00 (n=14) vs never 0.00 (n=76) pre-onset, Fisher p=1",
+  "pattern_GRADUAL_CENTRALISATION": "does not distinguish emerging from never (CI covers 0): overall 0.03; emerging 0.07 (n=14) vs never 0.01 (n=76) pre-onset, Fisher p=0.288",
+  "pattern_EARLY_BRIDGING": "does not distinguish emerging from never (CI covers 0): overall 0.76; emerging 0.71 (n=14) vs never 0.79 (n=76) pre-onset, Fisher p=0.503"
+ },
+ "[E_up]": {
+  "event_study_accretion": "UNDERPOWERED PILOT (S=-0.14 CI [-0.185, 0.0184], n matched treated=21, MDE=0.14 = 2.11 SD); pooled panel coef=-0.033 CI [-0.0829, 0.0115] p=0.136 Holm p=0.272",
+  "event_study_closure": "DISCONFIRMED (opposite sign) [pilot: n<30] (S=-0.837 CI [-1.26, -0.427], n matched treated=21, MDE=0.605, Holm p=0.003); pooled panel coef=-0.743 CI [-1.06, -0.464] p=0.001 Holm p=0.003",
+  "event_study_participation": "DISCONFIRMED (no divergence with adequate power; S=-0.00708 CI [-0.0661, 0.0562], n matched treated=21, MDE=0.085); pooled panel coef=0.00852 CI [-0.0553, 0.0703] p=0.782 Holm p=0.782",
+  "prediction_delta_auc": "DISCONFIRMED (no added value beyond baselines; delta=-0.014, CI [-0.048,0.017], BASELINE=0.893, n_test=131, pos=42, origins=2)",
+  "exploratory_indicators_q_lt_0.05": [
+   "new_relation_rate: S=0.128 CI [0.0695, 0.186] q=0.00475",
+   "novelty: S=0.156 CI [0.0881, 0.22] q=0.00475",
+   "wmz: S=0.0729 CI [0.0402, 0.106] q=0.00475",
+   "burst_state: S=0.171 CI [0.0933, 0.244] q=0.00475"
+  ],
+  "pattern_INCUBATION_THEN_EXPANSION": "does not distinguish emerging from never (CI covers 0): overall 0.00; emerging 0.00 (n=41) vs never 0.00 (n=49) pre-onset, Fisher p=1",
+  "pattern_GRADUAL_CENTRALISATION": "does not distinguish emerging from never (CI covers 0): overall 0.03; emerging 0.05 (n=41) vs never 0.00 (n=49) pre-onset, Fisher p=0.205",
+  "pattern_EARLY_BRIDGING": "does not distinguish emerging from never (CI covers 0): overall 0.76; emerging 0.78 (n=41) vs never 0.78 (n=49) pre-onset, Fisher p=1"
+ },
+ "[global]": {
+  "prediction_sustained_uptake_E_up": "DISCONFIRMED (no added value beyond baselines; delta=-0.014, CI [-0.048,0.017], BASELINE=0.893, n_test=131, pos=42, origins=2)",
+  "prediction_subfield_gain_R2": "UNDERPOWERED PILOT (delta=0.049, CI [-0.347,0.411], BASELINE=-0.320, n_test=131, pos=None, origins=2)",
+  "prediction_centrality_gain_R2": "UNDERPOWERED PILOT (delta=-0.181, CI [-0.541,0.078], BASELINE=-0.091, n_test=131, pos=None, origins=2)",
+  "typology": "no stable typology (showing k=2) (k=2, min bootstrap Jaccard by k={'2': 0.53, '3': 0.53, '4': 0.41, '5': 0.43, '6': 0.47}, AMI vs pattern combos=0.005665203263840771)"
+ }
+}
+21:40:38|INFO   |__main__:525|method done in 26.9 min
