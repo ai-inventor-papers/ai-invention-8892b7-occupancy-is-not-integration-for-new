@@ -1,0 +1,1252 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, booktabs, xcolor, longtable, tabularx, float}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\title{Open Neighbourhoods Precede Concept Spread:\\
+Structural Antecedents and Cross-Disciplinary\\
+Diffusion of Emerging Scientific Concepts\\[1em]
+\large Internal Research Report}
+\author{}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\clearpage
+
+%% ============================================================
+\section{Introduction}
+%% ============================================================
+
+This report documents an investigation of how emerging scientific concepts can be identified and characterised through evolving knowledge networks, and through which structural pathways they spread across disciplinary boundaries. The study builds on an OpenAlex-based scholarly dataset of 426 semantically grounded concepts with 462,812 works, constructs yearly co-occurrence and concept-discipline networks, and tests whether structural indicators provide early signals of emergence and cross-disciplinary integration.
+
+Two research questions structure the work. RQ1 asks which temporal and structural patterns in an evolving, semantically grounded scientific knowledge graph characterise the emergence of scientific concepts. RQ2 asks how emerging scientific concepts diffuse across disciplinary communities over time, and which temporal network patterns distinguish locally concentrated concepts from concepts that become broadly integrated into the scientific knowledge network.
+
+The study began with a source-sink viability hypothesis adapted from population ecology, asking whether a concept's presence in a subfield is self-sustaining or import-dependent. That hypothesis was blocked by insufficient citation-layer density (Gate~A failure: only 17.3\% of edges meet the within-host tracing threshold), triggering a pre-registered fallback.
+
+For the emergence question (RQ1), the primary closure measure did not survive held-out confirmation (R1\_DEAD under the frozen kill rule: Holm $p = 0.147$). Only persistent-neighbour closure survives (Holm $p = 0.015$).
+
+For the diffusion question (RQ2), when a concept enters a new host subfield, the share of its initial co-occurrence partners that are native to that host predicts subsequent uptake by newcomer authors (held-out co-primary IRR/SD 1.19 [1.06, 1.33], $p = 0.004$; MeSH replication IRR/SD 1.23 [1.12, 1.36], Holm $p < 0.001$), while the share of origin companions does not.
+
+The target venue is Applied Network Science.
+
+
+%% ============================================================
+\section{Iteration 1: Data Foundation and Pre-Registration}
+\label{sec:iter1}
+%% ==========================================================
+
+\subsection{Strategy}
+
+The first iteration was devoted to three preparatory tasks: (a)~assembling a prior-art and pre-registration dossier grading each candidate mechanism's novelty and feasibility, (b)~building the concept pool and its associated OpenAlex work corpus, and (c)~constructing the semantic grounding infrastructure and a held-out MeSH confirmation population. No experiment or evaluation was executed. The rationale was to fix all operational definitions, sample the data, and verify the citation-layer gate (Gate~A) before committing compute to network construction and statistical modelling.
+
+A pre-registered screen was fixed before any data were inspected. The unit of analysis is a concept~$c$ in non-origin subfield~$d$ at focal year~$t$ (2010--2014), with at least 10 $d$-papers in $W_1 = [t{-}5, t]$. The primary measure is out-of-sample ROC-AUC for establishment in $W_2 = [t{+}1, t{+}5]$, where establishment means at least 5 $W_2$ $d$-papers by author-disjoint newcomers and presence in at least 3 of the 5 $W_2$ years. The BASE model includes $W_1$ edge volume, momentum, concept age, subfield-year size, concept total volume, concept entropy, subfield count, growing-edge breadth, Rafols integration, relatedness density and Maillart-style features. Each candidate adds only its own pre-registered scores. A candidate survives if its delta-AUC over BASE has a concept-bootstrap (1,000 reps) 95\% CI lower bound above 0, its point gain is at least 0.01, and the coefficient sign matches its prediction.
+
+\subsection[Artifact 1: Concept Pool and OpenAlex Work Corpus]{Artifact 1: Concept Pool and OpenAlex Work Corpus (gen\_art\_\allowbreak dataset\_1)}
+
+The concept pool was built in an outcome-blind frame and frozen before any post-appearance-window data were inspected (integrity hash recorded in Table~\ref{tab:hashes}). The pool comprises 206 concepts, of which 184 are main emerging concepts (first appearance year $F$ in 2005--2016, with 20--300 papers in the window $F$ to $F{+}2$ and no more than 8,000 total works through 2024) and 22 stationary reference concepts. The 184 main concepts are split by a SHA-1 hash into a screen fold of 123 and a held-out concept fold of 61.
+
+The pool is dominated by arXiv-sourced concepts: 363 of 366 eligible candidates came from the arXiv-mined arm. The original target of approximately 600 concepts was not met because the shared free OpenAlex API key exhausted its daily credit allowance during hydration.
+
+\begin{table}[!htbp]
+\centering
+\caption{Concept pool composition by origin field (Iteration~1, gen\_art\_dataset\_1).}
+\label{tab:pool_origin}
+\begin{tabular}{lrr}
+\toprule
+Origin field & Main concepts & Share \\
+\midrule
+Physics and Astronomy & 82 & 44.6\% \\
+Physical Sciences (other) & 56 & 30.4\% \\
+Computer Science & 45 & 24.5\% \\
+Other & 1 & 0.5\% \\
+\midrule
+\textbf{Total main} & \textbf{184} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Concept pool by first-appearance band (Iteration~1, gen\_art\_dataset\_1).}
+\label{tab:pool_fband}
+\begin{tabular}{lr}
+\toprule
+$F$ band & Count \\
+\midrule
+2005--2007 & 38 \\
+2008--2011 & 76 \\
+2012--2016 & 70 \\
+\midrule
+\textbf{Total} & \textbf{184} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Verified links pairing each concept with the OpenAlex works that use it total 214,798 pairs spanning 208,374 unique works. Among the 121,829 main-arm links, 56,997 matched in the work title, 51,966 in the abstract, 10,177 through Semantic Scholar only, and 2,689 through OpenAlex concept indexing alone. [Correction, Iteration~2: the match-evidence counts above are main-arm only; across all 214,798 links the counts are oa\_abstract 98,192, oa\_title 92,043, s2\_only 21,509, oa\_index\_only 3,054.] Of the 184 main concepts, 24 were discovered natively in OpenAlex and 160 were discovered through the Semantic Scholar index and mapped to OpenAlex (mapping rate 0.93). Twenty-one concepts carry a sense-check failure flag (threshold 0.70).
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_methodology_v0.pdf}
+\caption{Overview of the study design, drawn as four bands linked by arrows. (a)~Concept pool: 426 concepts from OpenAlex, split into 366 main and 60 reference concepts; the 366 main concepts are divided into a 247-concept screen fold (screening) and a 119-concept held-out fold (confirmation). (b)~Co-word network: 25 yearly co-occurrence snapshots ($\approx$27,000 nodes, $\approx$84,000 edges) partitioned into Leiden communities. (c)~Analysis: RQ1 (emergence) tests structural precursors with a closure event study. The primary closure test returns R1\_DEAD, while persistent-neighbour closure is confirmed. RQ2 (diffusion) tests host-entry grafting, which is confirmed (IRR/SD $=1.19$, on the held-out fold and MeSH). Its sub-hypotheses K1 (BOTH margins) and K2 (HOST-SPECIFIC) are supported, and K3 finds no field boundary. (d)~Diffusion typology: a $k=2$ solution separating localised concepts (136) from concepts broad from the start (66).}
+\label{fig:methodology}
+\end{figure}
+
+\subsubsection{Gate A: Citation-Layer Feasibility}
+
+The quality report shows that among main-arm concept papers with references, 66.99\% cite at least one earlier concept paper (the ``traced share''), and after excluding first-year canonical papers and the five most-cited concept papers, the traced share remains 60.80\%. The host-specific traced share is 55.18\%, above the 40\% gate threshold on the lenient definition. [Correction, Iteration~2: the code counts any earlier concept paper as a parent regardless of subfield. The within-host share, computed in Iteration~2, is much lower (mean 0.20 on 724 edges), which blocks the viability decomposition.]
+
+\begin{table}[!htbp]
+\centering
+\caption{Citation-layer quality by origin field (Iteration~1, gen\_art\_dataset\_1).}
+\label{tab:citation_quality}
+\begin{tabular}{L{3.2cm}R{1.2cm}R{1.3cm}R{1.3cm}R{1.3cm}}
+\toprule
+Metric & All main & Phys \& Astro & Phys Sci & CS \\
+\midrule
+Concept papers ($n$) & 121,829 & 19,653 & 46,575 & 55,274 \\
+Share with refs & 83.92\% & 82.04\% & 84.99\% & 83.74\% \\
+Traced share (any parent) & 66.99\% & 66.12\% & 67.89\% & 66.53\% \\
+Traced share (excl.\ $F$ + top-5) & 60.80\% & 57.74\% & 61.75\% & 61.09\% \\
+Host traced (any parent, excl.\ $F$) & 55.18\% & 49.68\% & 58.39\% & 53.86\% \\
+Host concept papers ($n$) & 41,861 & 4,171 & 15,973 & 21,609 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The recall audit, comparing counts derived from OpenAlex against independent Semantic Scholar counts for 30 concepts, gives a median count ratio of 0.84 (IQR 0.79--0.89) and a Spearman rank correlation of 0.976.
+
+\subsection{Artifact 2: Whole-Science Background Sample (gen\_art\_dataset\_2)}
+
+A design-weighted background sample of 259,716 OpenAlex works from 1,260 strata (150 per field $\times$ year, weights summing to 149,116,575) was built to supply co-occurrence network snapshots and calibrate host-nativeness profiles. It delivered 6,325 exact subfield $\times$ year totals and 400 exact concept $\times$ block subfield profiles for 100 calibration concepts at a cost of \$0.1952 in OpenAlex credits.
+
+The key finding of this artifact is negative: sample-based per-concept subfield profiles are unreliable for determining host-nativeness. In the calibration table, the median total-variation distance between sample and exact profiles is 0.41--0.79 by frequency decile, and top-subfield agreement is only 0.28--0.65. About 12\% of the weighted frame carries the default low-confidence topic T14423, and concept ancestors are no longer served by the API.
+
+The worker timed out after writing all outputs (no new JSONL records for 2,096 seconds), so its status is ``failed'' while its data are usable.
+
+\subsection[Artifact 3: Held-Out MeSH Confirmation Population]{Artifact 3: Held-Out MeSH Confirmation Population (gen\_art\_\allowbreak dataset\_3)}
+
+A separate biomedical confirmation arm was built from new MeSH descriptors (DateEstablished 2006--2016, widened to 2004--2005 and 2017--2018). Starting from 28,472 descriptors, the pipeline selects 5,201 topical descriptors, retains 3,430 after the provenance filter, narrows to 283 passing the PubMed novelty pre-screen and early-volume rule, and adds widening-pool candidates. After the final rule, 191 concepts survive.
+
+\begin{table}[!htbp]
+\centering
+\caption{MeSH held-out population by branch group (Iteration~1, gen\_art\_dataset\_3).}
+\label{tab:mesh_branches}
+\begin{tabular}{lr}
+\toprule
+MeSH branch group & Count \\
+\midrule
+D (Chemicals and drugs) & 62 \\
+A+B (Anatomy, Organisms) & 47 \\
+E (Analytical, diagnostic, therapeutic) & 32 \\
+C (Diseases) & 22 \\
+F+H--N (Psychiatry, Health services, misc.) & 17 \\
+G (Phenomena and processes) & 11 \\
+\midrule
+\textbf{Total} & \textbf{191} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Caveats: only approximately 25\% of new MeSH descriptors are genuinely new concepts (the remainder are reclassifications or splits). Only 13 of 191 have their full non-PubMed works paged.
+
+\subsection{Artifact 4: Semantic Grounding Infrastructure (gen\_art\_dataset\_4)}
+
+The semantic grounding artifact provides infrastructure for detecting, labelling, and merging concept mentions. It comprises seven datasets: a stratified corpus of 93,600 English OpenAlex articles, 4,599 candidate phrases labelled by two LLMs with a claude-haiku-4.5 adjudicator, a survivorship-free phrase pool of 1,000 text-mined candidates, and variant-pair/human-anchor benchmarks.
+
+\begin{table}[!htbp]
+\centering
+\caption{Labelling quality (Iteration~1, gen\_art\_dataset\_4).}
+\label{tab:labelling_quality}
+\begin{tabular}{lr}
+\toprule
+Metric & Value \\
+\midrule
+Model A vs model B inter-rater kappa (4-class) & 0.259 \\
+Model A vs model B binary kappa (concept vs rest) & 0.267 \\
+A vs adjudicator kappa (4-class, silver-gold 200) & 0.632 \\
+A vs human anchors binary kappa (SemEval/SciERC) & 0.56 \\
+A precision (concept, human-anchored) & 0.79 \\
+A recall (concept, human-anchored) & 0.76 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Artifact 5: Prior-Art Dossier and Pre-Registration (gen\_art\_research\_1)}
+
+The research dossier grades each candidate mechanism's novelty margin against the nearest prior art.
+
+\begin{table}[!htbp]
+\centering
+\caption{Candidate mechanism novelty grades (Iteration~1, gen\_art\_research\_1).}
+\label{tab:novelty_grades}
+\begin{tabular}{L{3.5cm}L{2.5cm}L{4.5cm}}
+\toprule
+Candidate & Novelty grade & Nearest prior art \\
+\midrule
+C1: Host anchoring & Medium-to-high & Cheng et al.\ 2023 \\
+C2: Toolkit co-transfer & High (coupled to C1) & No quantitative co-arrival test found \\
+C0: Source-sink viability & Medium & Kuhn et al.\ 2014; Maillart et al.\ 2026 \\
+C4: Demic vs cultural & Medium & Fontaine et al.\ 2024 \\
+C3: Origin-neighbourhood structure & Low-to-medium & Structural diversity literature \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Dead Ends and Shortfalls (Iteration~1)}
+
+\begin{enumerate}
+\item \textbf{Concept pool size.} 184 of 400 target concepts realised. The binding constraint was the free-singleton retrieval rate combined with heavy-tailed concept sizes.
+\item \textbf{Field coverage.} The pool draws overwhelmingly from physics, physical sciences, and computer science. The OpenAlex keyword/taxonomy arm had a 2.2\% eligibility yield (3 of 134 candidates) because OpenAlex tags are retroactive.
+\item \textbf{Survivorship-free phrase pool yield.} 1 of 150 target strict-eligible anchored concepts.
+\item \textbf{Labelling quality.} Silver labels only (no human check).
+\end{enumerate}
+
+\subsection{Coverage After Iteration~1}
+
+\begin{table}[!htbp]
+\centering
+\caption{Coverage against the original request after Iteration~1.}
+\label{tab:coverage_iter1}
+\begin{tabular}{L{4cm}L{2cm}L{4cm}}
+\toprule
+Activity & Status & Artifact \\
+\midrule
+1. Prepare and semantically ground dataset & Partial & gen\_art\_dataset\_1, gen\_art\_dataset\_4 \\
+2. Construct evolving knowledge network & Not started & -- \\
+3. RQ1: temporal network analysis & Not started & -- \\
+4. RQ2: cross-disciplinary diffusion & Not started & -- \\
+5. Identify recurring trajectories & Not started & -- \\
+6. Validate with representative cases & Not started & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+%% ============================================================
+\section{Iteration 2: Gate A, Viability, Precursor Event Study}
+\label{sec:iter2}
+%% ============================================================
+
+\subsection{Strategy}
+
+Iteration~2 was a FIX iteration with five goals: (i)~complete the hydration and add exact nativeness profiles and a citation-independent venue habitat; (ii)~train and evaluate the concept grounding pipeline; (iii)~compute Gate~A as written (within-host, non-canonical, per $W_1$ year) and estimate viability states with synthetic validation and pre-outcome power; (iv)~build the yearly concept-concept co-occurrence network and run the RQ1 event study; (v)~replicate the RQ1 event study on the MeSH population.
+
+Pre-fixed decision rules for Iteration~3: (a)~if Gate~A FAILS, H1/H2 run with graft labels from the exact nativeness profiles; (b)~H1 is declared a pilot if fewer than $\sim$150 concepts carry a tested edge; (c)~RQ1 counts as CONFIRMED only if at least one pre-named precursor has an event-study CI excluding 0 AND a delta-AUC CI excluding 0, keeps its sign on MeSH, and holds on the sealed held-out fold; (d)~the held-out fold, the 2016--2018 focal years and the phrase pool remain untouched.
+
+\subsection[Artifact 6: Hydrated Corpus, Nativeness Profiles, and Venue Habitat]{Artifact 6: Hydrated Corpus, Nativeness Profiles,\\ and Venue Habitat (gen\_art\_dataset\_5)}
+
+This artifact completes the hydration of the concept pool from 184 to 426 concepts (366 main: screen 247, held-out 119; 60 reference), with 462,812 works and 488,078 verified concept-work links. The frame hash was verified. Sense-check failures: 45.
+
+\textbf{Nativeness profiles.} 5,488 exact OpenAlex primary\_topic.\allowbreak subfield $\times$ block counts for the top 1,372 legacy-concept nodes by host co-occurrence weight, covering 78.7\% of host weight.
+
+\textbf{ASJC venue habitat.} 22,970 venues, 2,929 covered (2,892 citation-independent from SCImago/\allowbreak Scopus ASJC categories, 37 from pre-period 2000--04 topic fallback). Coverage: 12.1\% of concept-work links.
+
+\begin{table}[!htbp]
+\centering
+\caption{Dataset~6 summary (Iteration~2, gen\_art\_dataset\_5).}
+\label{tab:dataset6_summary}
+\begin{tabular}{lr}
+\toprule
+Metric & Value \\
+\midrule
+Concepts hydrated & 426/426 \\
+Works & 462,812 \\
+Concept-work links & 488,078 \\
+API credits consumed & 7,237 \\
+Nativeness profiles & 5,488 (1,372 nodes $\times$ 4 blocks) \\
+Host weight coverage & 78.7\% \\
+ASJC venues covered & 2,929 (12.1\% of links) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Artifact 7: Concept Grounding Pipeline (gen\_art\_experiment\_1)}
+
+This artifact trains and evaluates a binary classifier, a variant merger, and a NIL-aware linker.
+
+\begin{table}[!htbp]
+\centering
+\caption{Classifier performance on test set ($n = 300$; Iteration~2, gen\_art\_experiment\_1).}
+\label{tab:classifier}
+\begin{tabular}{lccc}
+\toprule
+Metric & Classifier & LLM-A & Majority (all-positive) \\
+\midrule
+F1 & 0.818 & 0.901 & 0.715 \\
+AUC & 0.888 & -- & -- \\
+Precision & 0.759 & -- & -- \\
+Recall & 0.886 & -- & -- \\
+Accuracy & 0.780 & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Against human anchors (SemEval-2017/SciERC): classifier kappa 0.41, F1 0.674.
+
+\textbf{Variant merger.} L2 logistic regression on 14 pair features; operating threshold $p_{\mathrm{merge}} = 0.855$. D3 test F1 0.357, held-out MeSH F1 0.222. B-cubed F1 0.78.
+
+\textbf{NIL-aware linker.} MiniLM embeddings, $\tau = 0.95$ (link precision $\geq 0.90$ at NIL prior 0.9, in-KB recall 0.404). Main arm: LINKED\_\allowbreak EXACT 39, BROADER 15, UNLINKED 312.
+
+{\tolerance=1000 \textbf{Test population} (sha256 6a887fb4\ldots 5505): MAIN 156, STRICT 147, REFERENCE\_\allowbreak ACCEPTED 42, SENSITIVITY 426.\par}
+
+\subsection{Artifact 8: Viability Layer and Gate A (gen\_art\_experiment\_2)}
+
+All rules were pre-registered and hashed before any statistic (sha256 5dd16d8a\ldots5aac).
+
+\subsubsection{Gate A Re-Test at Edge Level}
+
+\textbf{Gate A FAILS.} Only 17.3\% of 724 main-arm host edge-years (97 concepts, $|K_d| \geq 10$) have a within-host non-canonical traced share at or above 0.40. The mean within-host traced share is 0.20, median 0.15. On the same 724 edges, the lenient any-parent share is 0.477 (64.2\% $\geq 0.40$).
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_gate_a_v0.pdf}
+\caption{Gate~A (citation-layer feasibility) on the same 724 concept--subfield--year host edges (97 concepts), comparing within-host citation tracing (blue; the Gate~A definition) with lenient any-parent tracing (grey). Only 17.3\% of edges reach the threshold under within-host tracing, against 64.2\% under any-parent tracing. The within-host mean is 0.204 (median 0.15), against 0.477 for any-parent tracing. Gate~A fails and triggers the graft fallback route.}
+\label{fig:gate_a}
+\end{figure}
+
+\begin{table}[!htbp]
+\centering
+\caption{Gate A edge-level results (Iteration~2, gen\_art\_experiment\_2).}
+\label{tab:gate_a}
+\begin{tabular}{lrr}
+\toprule
+Metric & Within-host & Any-parent \\
+\midrule
+Share $\geq 0.40$ & 17.3\% & 64.2\% \\
+Mean traced share & 0.20 & 0.477 \\
+Median traced share & 0.15 & -- \\
+Reference arm host share & 0.13 & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Per pre-registered decision rule~(a): Gate~A $0.1727 < 0.5$ triggers the graft fallback. The graft route has 2,347 host-entry events total, 2,154 with $\geq 5$ entry-year keywords (screen 1,285, held-out 869).
+
+\subsubsection{Viability States (Descriptive Only)}
+
+Of 779 eligible edges, 169 were tested: SOURCE 63, SINK 26, FADING 7, UNDETERMINED 683. The synthetic FDR is 0.209, exceeding the 0.15 threshold. SOURCE FDR 0.13 (acceptable), SINK FDR 0.40 (unreliable).
+
+\subsubsection{Power Before Any Outcome}
+
+Per decision rule~(b), H1 is PILOT-ONLY: $N_c = 38$ at $n_{\min} = 30$, projected 77.5 (66--92) on the hydrated pool. Gate~B FAILS: 0 labelled episodes.
+
+\subsection{Artifact 9: Precursor Event Study, Main Pool (gen\_art\_experiment\_3)}
+
+This artifact runs the precursor event study on the main pool's screen fold, testing whether volume-normalised structural precursors distinguish emerging from non-emerging concepts before onset. Built 25 yearly 3-year-window co-word snapshots (2000--2024) from the design-weighted background sample ($\approx$27,000 nodes, $\approx$84,000 kept edges, association-strength weights, Leiden best-of-5, alluvial IDs).
+
+\subsubsection{Emergence Labels}
+
+\begin{table}[!htbp]
+\centering
+\caption{Emergence label counts (Iteration~2, gen\_art\_experiment\_3).}
+\label{tab:emergence_labels}
+\begin{tabular}{lrrl}
+\toprule
+Label & $N$ emerging & Matched & Status \\
+\midrule
+E (primary) & 4 & 3 & Underpowered pilot \\
+E\_alt (sensitivity) & 14 & 10 & Post-hoc promotion \\
+E\_up (uptake only) & 41 & 21 & Post-hoc promotion, pilot ($n < 30$) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Event Study Results}
+
+Three pre-named precursors tested with predicted positive signs: closure, accretion, participation. All three pre-registered signs FAILED.
+
+\begin{table}[!htbp]
+\centering
+\caption{Event study results, E\_up (Iteration~2, gen\_art\_experiment\_3).}
+\label{tab:event_study_eup}
+\begin{tabular}{L{3cm}L{2cm}rL{3cm}r}
+\toprule
+Indicator & Estimator & $S$ & 95\% CI & Holm $p$ \\
+\midrule
+Closure (log-ratio) & Event study & $-0.837$ & $[-1.26, -0.427]$ & 0.003 \\
+Closure (log-ratio) & Pooled panel & $-0.743$ & $[-1.06, -0.46]$ & -- \\
+Accretion share & Event study & $-0.14$ & $[-0.185, 0.018]$ & 0.18 \\
+Participation coefficient & Event study & $-0.007$ & $[-0.066, 0.056]$ & 0.824 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Exploratory findings (BH $q < 0.05$): before sustained uptake, concepts show higher novelty (+0.156), new-relation rate (+0.128), within-module $z$-score (+0.073), and burst state (+0.171).
+
+\subsubsection{Prediction}
+
+The pre-registered primary model is L2 logit. For E\_up: BASELINE AUC 0.890, FULL (baseline + precursors) AUC 0.879, delta $-0.010$ $[-0.045, 0.021]$. Precursors add no predictive value beyond frequency, burst, degree, centrality and entropy baselines.
+
+\subsubsection{Trajectory Patterns and Typology}
+
+Early bridging is common but non-discriminating (76\% of all concepts). The 7-channel DTW typology is unstable at every $k$ (min Jaccard $\leq 0.51$). An entropy-only typology IS stable (Jaccard 0.95, AMI 0.14 vs the network typology).
+
+\subsection[Artifact 10: Precursor Replication, MeSH Population]{Artifact 10: Precursor Replication, MeSH Population\\ (gen\_art\_experiment\_4)}
+
+\begin{table}[!htbp]
+\centering
+\caption{MeSH closure effects (Iteration~2, gen\_art\_experiment\_4).}
+\label{tab:mesh_closure}
+\begin{tabular}{lrrL{3cm}r}
+\toprule
+Label & $n_{\mathrm{eff}}$ & Closure $D$ & 95\% CI & Holm $p$ \\
+\midrule
+PRIMARY & 15 & $-0.086$ & $[-0.511, 0.402]$ & 0.677 \\
+SENS1 & 29 & $-0.419$ & $[-0.740, -0.115]$ & 0.039 \\
+E\_up & 51 & $-0.185$ & $[-0.498, 0.108]$ & 0.21 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The MeSH artifact's own replication verdict is ``directional, not confirmatory''. Per decision rule~(c): NOT MET. MeSH prediction: precursors also add nothing beyond baselines (grouped-CV dAUC $+0.002$ $[-0.035, 0.035]$).
+
+\subsection{Decision-Rule Evaluation (Iteration~2)}
+
+\begin{table}[!htbp]
+\caption{Decision-rule evaluation after Iteration~2.}
+\label{tab:decision_rules_iter2}
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}L{2.8cm}L{2.2cm}X@{}}
+\toprule
+Rule & Verdict & Evidence \\
+\midrule
+(a) Gate A $\to$ graft fallback & TRIGGERED & Within-host 0.1727 $< 0.5$; 2,347 graft events \\
+(b) H1 pilot-only & YES & $N_c = 38 < 150$ \\
+(c) RQ1 confirmed & NOT MET & Sign not $+$; delta-AUC CI includes 0; MeSH sign inconsistent \\
+(d) Held-out sealed & YES & Caveat: exp\_2 computed origin series for 61 held-out concepts \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+\subsection{Dead Ends (Iteration~2)}
+
+\begin{enumerate}
+\item \textbf{Gate A failure at edge level.} Within-host traced share 0.204 vs any-parent 0.477 on the same 724 edges. The viability decomposition cannot be executed.
+\item \textbf{Synthetic validation FDR exceeds threshold.} Overall 0.209 $> 0.15$, SINK FDR 0.40.
+\item \textbf{No stable 7-channel typology.} Jaccard $\leq 0.51$ at every $k$.
+\item \textbf{Precursors add no predictive value} for whether a concept emerges. E\_up logit dAUC $-0.010$ $[-0.045, 0.021]$.
+\item \textbf{Closure is lower, not higher, before emergence.} The pre-registered $+$ sign failed.
+\end{enumerate}
+
+
+%% ============================================================
+\section{Iteration 3: Openness Mechanism and Host-Entry Grafting}
+\label{sec:iter3}
+%% ============================================================
+
+\subsection{Strategy}
+
+Iteration~3 deepens the closure lead from the emergence question and carries the recombination mechanism into cross-disciplinary diffusion at two scales (``Is it brokerage, and does grafting make it stick?''). Four components: (i)~an evaluation artifact auditing every Iteration-2 number and running a turnover pre-check; (ii)~a deeper test of the emergence question on the hydrated 247-concept screen fold; (iii)~a breadth-prediction screen; (iv)~a host-entry grafting test; and (v)~a descriptive diffusion experiment on typology, community roles, and timing.
+
+\subsection[Artifact 11: Record Audit and Turnover Pre-Check]{Artifact 11: Record Audit and Turnover Pre-Check\\ (gen\_art\_evaluation\_1)}
+
+This artifact reads all five Iteration-2 artifacts and audits every reported number against the raw output files. Of 406 rows audited, 182 recomputed from item-level files. There are 42 non-OK drift flags: 14 WRONG\_ESTIMATOR, 10 WRONG\_UNITS, 9 WRONG\_DEFINITION, 8 DRIFT\_VALUE, 1 NOT\_REDERIVABLE.
+
+\begin{table}[!htbp]
+\centering
+\caption{Turnover pre-check: residualised closure effect (Iteration~3, gen\_art\_evaluation\_1).}
+\label{tab:turnover_precheck}
+\begin{tabular}{L{2.5cm}rL{3cm}rL{3cm}}
+\toprule
+Population & $S_{\mathrm{raw}}$ & $S_{\mathrm{res}}$ [95\% CI] & Retained & Verdict \\
+\midrule
+Main (E\_up) & $-0.758$ & $-0.566$ $[-1.140, 0.087]$ & 0.75 & Ambiguous \\
+MeSH (SENS1) & -- & $-0.094$ $[-0.387, 0.217]$ & 0.60 & Ambiguous \\
+IVW pooled & -- & $-0.186$ $[-0.453, 0.081]$ & -- & Ambiguous \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection[Artifact 12: Is Openness Before Take-Off Brokerage or Churn?]{Artifact 12: Is Openness Before Take-Off Brokerage or Churn? (gen\_art\_\allowbreak experiment\_5)}
+
+This artifact re-attaches all 426 hydrated concepts to the Iteration-2 co-word snapshots. Reproduction gate passed: closure $r = 1.000000$, vendored E\_up event study gives 41 onsets, 21 matched, $S = -0.8370$ $[-1.2600, -0.4268]$, identical to Iteration~2. Spec pre-registered (sha256 2f46d173\ldots) before labels.
+
+\textbf{Populations.} After applying the frozen replacement rule: MAIN screen 202 (102 old, 100 new), held-out 100, STRICT 196/96, SENS 247/119.
+
+\begin{table}[!htbp]
+\centering
+\caption{Emergence deepen results, MAIN $\times$ E\_up (68 onsets, 26 matched; Iteration~3, gen\_art\_experiment\_5).}
+\label{tab:emergence_deepen}
+\begin{tabular}{L{3.5cm}rL{3cm}L{3.5cm}}
+\toprule
+Measure & $S$ & 95\% CI & Interpretation \\
+\midrule
+Raw closure & $-0.439$ & $[-0.810, -0.050]$ & Lower closure before onset \\
+R1a residualised closure & $-0.295$ & $[-0.663, 0.092]$ & $\sim$2/3 retained; not pure turnover \\
+R1b persistent-neighbour closure & $-0.575$ & $[-1.270, 0.122]$ & Same direction, underpowered \\
+R1c Burt constraint & $+0.083$ & $[0.017, 0.147]$ & OPPOSITE to brokerage sign \\
+R1c cross-community pair excess & $+0.063$ & $[0.012, 0.111]$ & More cross-community ties \\
+R1d hub-not-clique & $+0.061$ & $[-0.009, 0.133]$ & Not significant \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_openness_mechanism_v0.pdf}
+\caption{Turnover-proof openness measures on the screen fold (MAIN population, E\_up label; 68 onsets, 26 matched). Bars give the event-study effect size $S$ (standardised units) for each measure, with whiskers showing 95\% confidence intervals; the dashed vertical line marks $S=0$. Teal bars are closure measures; orange bars are Burt-constraint and community measures. Burt constraint is positive, the opposite of the sign brokerage predicts.}
+\label{fig:openness}
+\end{figure}
+
+\textbf{Mechanical verdict: MIXED.} The closure effect is not reducible to neighbourhood turnover, but it is not Burt brokerage either: Burt constraint is higher, not lower, before onset.
+
+\textbf{Fresh replication on 100 new concepts.} Raw $S = -0.455$ $[-1.006, 0.060]$, one-sided $p = 0.044$. Same sign, not significant at two-sided $\alpha = 0.05$.
+
+\textbf{Prediction.} Grouped CV dAUC $-0.001$ $[-0.008, 0.006]$. Precursors do not predict WHETHER a concept will show sustained uptake.
+
+\subsection[Artifact 13: Do Open Concepts Spread Across More Fields?]{Artifact 13: Do Open Concepts Spread Across More Fields? (gen\_art\_\allowbreak experiment\_6)}
+
+This artifact tests whether openness at time $t$ predicts five-year outcome-window disciplinary breadth gain beyond all baselines. Population: MAIN screen 202 concepts, held-out 100 sealed. Only 100 concepts (351 rows) pass the complete-case rule.
+
+\begin{table}[!htbp]
+\centering
+\caption{Breadth-prediction screen results (Iteration~3, gen\_art\_experiment\_6).}
+\label{tab:breadth_prediction}
+\begin{tabularx}{\textwidth}{L{2.5cm}L{2.8cm}rL{2.5cm}r}
+\toprule
+Openness measure & Outcome & $\beta$/SD & 95\% CI & Holm $p$ \\
+\midrule
+closure\_res & Y1r (Shannon) & $+0.019$ & $[-0.010, 0.041]$ & 0.405 \\
+closure\_res & Y2 (Rao-Stirling) & $+0.007$ & $[-0.002, 0.013]$ & 0.405 \\
+closure\_res & $\log(1{+}\text{Y3})$ (newcomer subfields) & $-0.065$ & $[-0.156, 0.030]$ & 0.405 \\
+closure\_res\_\allowbreak imp & Y2 (co-primary) & $+0.012$ & $[0.002, 0.021]$ & 0.06 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\textbf{Result: breadth prediction not supported on the screen fold.}
+
+\subsection[Artifact 14: Do Borrowed Ideas Stick When Grafted Locally?]{Artifact 14: Do Borrowed Ideas Stick When Grafted Locally? (gen\_art\_\allowbreak experiment\_7)}
+
+This artifact tests whether a concept that enters a new host subfield catches on when its first papers pair it with host-native concepts rather than with origin companions. Pre-registration frozen (sha256 f800a0a9\ldots).
+
+\textbf{Setup.} 4,177 main-arm host entries. Primary sample: 1,740 screen MAIN entries with $\geq 5$ partners, in 184 concepts. Anchoring $A$ = partners' pre-entry host share from exact OpenAlex profiles. Co-transfer CT = share of partners that were origin companions. Entry is mostly a package: 70\% non-native origin companions, 1.8\% native grafts.
+
+\begin{table}[!htbp]
+\centering
+\caption{Host-entry grafting results (Iteration~3, gen\_art\_experiment\_7).}
+\label{tab:grafting_iter3}
+{\footnotesize
+\begin{tabularx}{\textwidth}{L{2.8cm}rL{2cm}rrX}
+\toprule
+Specification & IRR/SD ($A$) & 95\% CI & Holm $p$ & CT $p$ & Verdict \\
+\midrule
+Primary (concept $\times e$ + host $\times e$) & 1.39 & $[0.97, 1.99]$ & 0.15 & 0.85 & NEITHER \\
+Co-primary (concept + $e$ + host) & 1.30 & $[1.16, 1.45]$ & $10^{-5}$ & 0.48 & GRAFTING \\
+Concept + host $\times e$ & 1.22 & -- & -- & -- & GRAFTING \\
+Concept $\times$ 2-yr bin & -- & -- & -- & -- & NEITHER \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_grafting_v0.pdf}
+\caption{Host-entry grafting across folds. Each row shows the incidence-rate ratio for newcomer uptake per SD of $A_{\mathrm{cont}}$ (host-nativeness of entry partners), with whiskers marking its confidence interval. The co-primary effect replicates on the held-out fold (IRR/SD 1.19 [1.06, 1.33]) and the MeSH fold (1.23 [1.12, 1.36]), and pools to 1.26 [1.17, 1.36].}
+\label{fig:grafting}
+\end{figure}
+
+\textbf{Robustness.} The co-primary $A$ effect holds in 20 of 26 robustness variants (IRR 1.11--1.56, $p \leq 0.001$). [Correction, Iteration~4: the robustness count is 20 of 26, not 26 of 27 as previously stated. The six null rows are: binary native $\geq 0.5$ (IRR 1.005, $p = 0.92$), binary native $\geq 0.7$ (1.066, $p = 0.29$), A\_distinct (1.003, $p = 0.96$), exclude single-paper entries (1.244 $[0.90, 1.71]$, $p = 0.17$), CS stratum (1.15, $p = 0.11$), and Physics/Astronomy stratum (0.99, $p = 0.95$).]
+
+\subsection{Artifact 15: Descriptive Diffusion Analysis (gen\_art\_experiment\_8)}
+
+\subsubsection{Diffusion Typology}
+
+Only $k = 2$ is stable (min Jaccard 0.861): \textbf{localised} ($n = 136$) and \textbf{broad from the start} ($n = 66$). The $k = 3$ split is exploratory (Jaccard 0.599). After residualising on early volume, the 3-channel typology does NOT separate outcomes better than the entropy-only baseline.
+
+\begin{table}[!htbp]
+\centering
+\caption{Diffusion typology summary (Iteration~3, gen\_art\_experiment\_8).}
+\label{tab:typology}
+\begin{tabular}{rlL{5cm}l}
+\toprule
+Cluster & $n$ & Description & Dominant origin \\
+\midrule
+Localised & 136 & Low entropy, few active subfields & Physics \\
+Broad from start & 66 & High entropy and many subfields from early years & Mixed \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Expansion Precedes Diffusion}
+
+In 15 of 16 concepts exhibiting both an expansion onset and a diffusion onset, expansion precedes diffusion (proportion 0.94 $[0.81, 1.0]$, year-shuffle null 0.62, $p = 0.004$). Underpowered (16 concepts) but directionally strong.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_typology_cases_v0.pdf}
+\caption{Representative cases of the $k = 2$ diffusion typology: localised (top row, blue) and broad-from-the-start (bottom row, orange). Each row shows the cluster's medoid (left) and the nearest non-medoid concept (right). The heat map gives the percentage of the concept's papers in each of its five largest subfields.}
+\label{fig:typology_cases}
+\end{figure}
+
+\subsection{Dead Ends (Iteration~3)}
+
+\begin{enumerate}
+\item \textbf{Openness does not predict WHERE concepts travel.} All Holm $p = 0.405$.
+\item \textbf{Brokerage is not the mechanism.} Burt constraint is higher, not lower ($S = +0.083$ $[0.017, 0.147]$).
+\item \textbf{The 3-channel typology adds nothing beyond entropy.}
+\item \textbf{Community roles do not predict host entry.} BRIDGE OR 0.64 $[0.38, 1.08]$.
+\item \textbf{Co-transfer is null.} Arriving with origin companions does not predict establishment.
+\end{enumerate}
+
+
+%% ============================================================
+\section{Iteration 4: Held-Out Confirmation}
+\label{sec:iter4}
+%% ============================================================
+
+\subsection{Strategy}
+
+Iteration~4 is a CONFIRMATION iteration. It opens the four sealed held-out folds, runs discriminating tests on the grafting result, replicates grafting on MeSH, tests the closure-anchoring link, and tests the adopter-level mechanism.
+
+\begin{table}[!htbp]
+\centering
+\caption{Reviewer critique disposition (Iteration~4).}
+\label{tab:critique_disposition}
+{\small
+\begin{tabularx}{\textwidth}{cL{4cm}X}
+\toprule
+\# & Critique summary & Action taken \\
+\midrule
+M1 & Chronology broken: iterations 1--2 silently rewritten & Inline [Correction] markers added \\
+M2 & Iteration-3 tables missing detail rows & Additional rows incorporated \\
+M3 & Grafting robustness count wrong ($26/27 \to 20/26$) & Corrected inline with full null-row list \\
+M4 & Closure claim overstated vs artifact support & Addressed by closure held-out confirmation \\
+M5 & Lead-lag 94\% disproportionate & Full category-count table added (Table~\ref{tab:lead_lag}) \\
+M6 & Iteration-3 reasoning partly recorded & Strategy section expanded \\
+M7 & Coverage table overstates completion & Updated with caveats \\
+M8 & Folder names instead of artifact IDs & Corrected \\
+M9 & Prior-review must-fix items still missing & Incorporated where data are available \\
+M10 & Nearest-neighbour comparisons one-sided & Addressed with Cheng et al.\ tension \\
+m1 & Minor traceability and labelling slips & Corrected inline \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+\subsection[Artifact 16: Held-Out Confirmation of Grafting and Discriminating Tests]{Artifact 16: Held-Out Confirmation of Grafting and Discriminating Tests (gen\_art\_\allowbreak evaluation\_2)}
+
+\subsubsection{Held-Out Grafting Confirmation}
+
+\begin{table}[!htbp]
+\centering
+\caption{Held-out grafting results (Iteration~4, gen\_art\_evaluation\_2).}
+\label{tab:heldout_grafting}
+{\footnotesize
+\begin{tabularx}{\textwidth}{L{2.2cm}L{1.1cm}rL{1.8cm}rrrrX}
+\toprule
+Specification & Fold & IRR/SD & 95\% CI & $p$ & CT & $N$ & $G$ & Verdict \\
+\midrule
+Primary & Held-out & 0.98 & $[0.70, 1.37]$ & 0.91 & 0.82 & 250 & 30 & Inconclusive \\
+Co-primary & Held-out & 1.19 & $[1.06, 1.33]$ & 0.0045 & 1.04 & 972 & 74 & CONFIRMED \\
+Co-primary & Screen & 1.30 & $[1.16, 1.45]$ & $10^{-5}$ & -- & 1,544 & 140 & GRAFTING \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+The co-primary specification confirms the grafting effect on the held-out fold: IRR/SD $= 1.19$ $[1.06, 1.33]$, $p = 0.0045$, wild-cluster $p = 0.012$. Co-transfer is null on both folds.
+
+\subsubsection{Single-Paper Artefact Test}
+
+\begin{table}[!htbp]
+\centering
+\caption{Single-paper artefact interaction results (Iteration~4, gen\_art\_evaluation\_2).}
+\label{tab:single_paper}
+\begin{tabular}{lrrrr}
+\toprule
+Fold & IRR/SD (single) & IRR/SD (multi) & Ratio & $p$ (interaction) \\
+\midrule
+Pooled & 1.26 & 1.28 & 0.92 & 0.11 \\
+Held-out & 1.37 & 1.19 & 0.82 & 0.004 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Host-Vocabulary Decomposition}
+
+\begin{table}[!htbp]
+\centering
+\caption{Vocabulary decomposition, co-primary spec (Iteration~4, gen\_art\_evaluation\_2).}
+\label{tab:vocab_decomp}
+\begin{tabular}{llrL{2.5cm}r}
+\toprule
+Component & Fold & IRR/SD & 95\% CI & $p$ \\
+\midrule
+NATIVE & Pooled & 1.11 & $[1.05, 1.19]$ & 0.0008 \\
+ADJACENT & Pooled & 1.32 & $[1.20, 1.46]$ & $9\times 10^{-8}$ \\
+NATIVE & Held-out & 1.10 & $[1.01, 1.20]$ & 0.036 \\
+ADJACENT & Held-out & 1.19 & $[1.03, 1.38]$ & 0.020 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Classifier Circularity (Topic-Score Absorption)}
+
+Combined topic-score absorption: $-7.3\%$ $[-27.5, +6.7]$ on the pooled fold, $-10.3\%$ $[-84.3, +56.6]$ on the held-out fold. Topic-score controls do not meaningfully reduce the $A_{\mathrm{cont}}$ effect.
+
+\subsection{Artifact 17: MeSH Replication of Grafting (gen\_art\_experiment\_9)}
+
+\begin{table}[!htbp]
+\centering
+\caption{MeSH grafting results (Iteration~4, gen\_art\_experiment\_9).}
+\label{tab:mesh_grafting}
+{\small
+\begin{tabular}{L{3cm}rL{2.2cm}rrrr}
+\toprule
+Specification & IRR/SD & 95\% CI & Holm $p$ & CT IRR/SD & $N$ & $G$ \\
+\midrule
+R1: primary (concept $\times e$ + $d \times e$) & 1.32 & $[1.10, 1.60]$ & 0.007 & 1.10 & 1,004 & 122 \\
+R2: co-primary (concept + $e$ + $d$) & 1.23 & $[1.12, 1.36]$ & $9.7\times 10^{-5}$ & 1.10 & 2,171 & 160 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\textbf{Verdict: REPLICATED.} Both the primary and co-primary specifications are significant on MeSH. The IVW pooled estimate across main-arm co-primary (1.30) and MeSH co-primary (1.23) is 1.26 $[1.17, 1.36]$ with $I^2 = 0$.
+
+\subsection{Artifact 18: Closure Held-Out Confirmation (gen\_art\_evaluation\_3)}
+
+\begin{table}[!htbp]
+\centering
+\caption{Closure held-out results (Iteration~4, gen\_art\_evaluation\_3).}
+\label{tab:closure_heldout}
+{\footnotesize
+\begin{tabularx}{\textwidth}{L{2.5cm}rrL{2.3cm}rX}
+\toprule
+Measure & Screen $S$ & Held-out $S$ & Held-out 95\% CI & Holm $p$ & Decision \\
+\midrule
+Closure (pooled panel) & $-0.661$ & $-0.391$ & $[-0.855, 0.072]$ & 0.147 & DEAD \\
+Turnover-resid.\ closure & $-0.400$ & $-0.109$ & $[-0.561, 0.342]$ & 0.635 & DEAD \\
+Persistent-neighbour closure & $-1.124$ & $-1.073$ & $[-1.858, -0.289]$ & 0.015 & CONFIRMED \\
+Burt constraint & $+0.083$ & $+0.105$ & $[0.021, 0.187]$ & -- & DEAD (wrong dir.) \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_closure_event_v0.pdf}
+\caption{Pre-emergence closure effect sizes $S$ (markers) with 95\% confidence intervals (whiskers), for four closure measures on the screen fold (blue circles) and the held-out fold (vermillion diamonds). The primary raw-closure measure fails confirmation (R1\_DEAD). Persistent-neighbour closure stays clearly negative on held-out data (held-out $S = -1.07$, 95\% CI $[-1.86, -0.29]$, Holm $p = 0.015$; CONFIRMED). Burt constraint is positive on both folds, inconsistent with a brokerage explanation.}
+\label{fig:closure_event}
+\end{figure}
+
+\subsubsection{Closure-Anchoring Link Test}
+
+\begin{table}[!htbp]
+\centering
+\caption{Closure-anchoring link test (Iteration~4, gen\_art\_evaluation\_3).}
+\label{tab:closure_anchoring}
+\begin{tabular}{lrrL{3cm}r}
+\toprule
+Fold & $n$ & Partial $\rho$ & 95\% CI & $p$ \\
+\midrule
+Screen & 102 & $+0.025$ & $[-0.199, 0.242]$ & 0.806 \\
+Held-out & 49 & $+0.053$ & $[-0.279, 0.391]$ & 0.736 \\
+Pooled & 151 & $+0.049$ & $[-0.126, 0.228]$ & 0.564 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Verdict: NULL.} No detectable association between pre-emergence closure and later host-entry anchoring.
+
+\subsection{Artifact 19: Descriptive Held-Out Confirmation (gen\_art\_evaluation\_4)}
+
+\subsubsection{Lead-Lag: Expansion Before Diffusion}
+
+\begin{table}[!htbp]
+\centering
+\caption{Lead-lag category counts (Iteration~4, gen\_art\_evaluation\_4).}
+\label{tab:lead_lag}
+{\small
+\begin{tabular}{L{2.5cm}R{1.7cm}R{1.7cm}R{1.7cm}R{1.7cm}}
+\toprule
+Category & Screen ($n{=}202$) & Held-out ($n{=}100$) & Pooled main ($n{=}302$) & MeSH ($n{=}191$) \\
+\midrule
+Neither & 110 (54\%) & 49 (49\%) & 159 (53\%) & 71 (37\%) \\
+Diffusion only & 39 (19\%) & 23 (23\%) & 62 (21\%) & 97 (51\%) \\
+Expansion only & 37 (18\%) & 18 (18\%) & 55 (18\%) & 10 (5\%) \\
+Expansion first & 15 (7\%) & 10 (10\%) & 25 (8\%) & 9 (5\%) \\
+Same year & 1 (0.5\%) & 0 & 1 (0.3\%) & 1 (0.5\%) \\
+Diffusion first & 0 & 0 & 0 & 3 (1.6\%) \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+Expansion precedes diffusion in 25 of 26 pooled main-arm concepts with both transitions observable. On MeSH, 9 of 13 dual-onset concepts show expansion first (proportion 0.69, $p = 0.43$: not different from the null).
+
+\subsection{Artifact 20: Adopter-Level Mechanism (gen\_art\_evaluation\_5)}
+
+\begin{table}[!htbp]
+\centering
+\caption{Adopter enrichment results (Iteration~4, gen\_art\_evaluation\_5).}
+\label{tab:adopter}
+\begin{tabular}{L{4.5cm}rL{2.5cm}r}
+\toprule
+Exposure measure & OR & 95\% CI (boot) & $p$ (CRV) \\
+\midrule
+E\_any (any prior partner exposure) & 3.09 & $[2.32, 4.28]$ & $1.4\times 10^{-13}$ \\
+E\_neg (frequency-matched negative) & 0.62 & $[0.49, 0.77]$ & $2.6\times 10^{-5}$ \\
+E\_plac (partners of another concept) & 0.72 & $[0.57, 0.95]$ & 0.013 \\
+E\_swap (exposure swap control) & 1.11 & $[0.86, 1.39]$ & 0.39 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Vocabulary-class enrichment (Iteration~4, gen\_art\_evaluation\_5).}
+\label{tab:vocab_class_enrichment}
+\begin{tabular}{lrL{2.5cm}r}
+\toprule
+Exposure class & OR & 95\% CI (boot) & $p$ (CRV) \\
+\midrule
+E\_for (FOREIGN partner exposure) & 2.88 & $[2.28, 3.69]$ & $< 10^{-6}$ \\
+E\_adj (ADJACENT partner exposure) & 1.91 & $[1.43, 2.73]$ & $10^{-4}$ \\
+E\_nat (NATIVE partner exposure) & 1.47 & $[1.02, 2.33]$ & 0.059 \\
+E\_neg (non-partner exposure) & 0.64 & $[0.51, 0.82]$ & 0.0003 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The gradient runs FOREIGN $>$ ADJACENT $>$ NATIVE. Adopters are most enriched for exposure to the concept's foreign (origin-vocabulary) partners, consistent with an absorptive-capacity reading or topical proximity. The interaction E\_any $\times$ A\_cont is null: OR 0.87 $[0.70, 1.14]$.
+
+\subsection{Dead Ends (Iteration~4)}
+
+\begin{enumerate}
+\item \textbf{Closure not confirmed on held-out for the primary measure.} Raw closure $S = -0.391$, Holm $p = 0.147$. Only persistent-neighbour closure survives.
+\item \textbf{Closure-anchoring link: null.} Partial $\rho = 0.025$ (screen), 0.053 (held-out).
+\item \textbf{BROAD concepts do not anchor more.} Screen $-0.0018$, held-out $+0.0005$, CI including zero.
+\item \textbf{Grafting primary specification: inconclusive} (250 events, 30 clusters).
+\item \textbf{Single-paper interaction on held-out}: ratio 0.80, $p = 0.004$.
+\item \textbf{Anchoring $\times$ typology interaction flips between folds.} Not confirmed.
+\item \textbf{Breadth prediction: all six sensitivity cells null on held-out.}
+\end{enumerate}
+
+
+%% ============================================================
+\section{Iteration 5: Post-Confirmation Decomposition and Audit}
+\label{sec:iter5}
+%% ============================================================
+
+\subsection{Strategy}
+
+Iteration~5 is a POST-CONFIRMATION EXPLORATORY iteration. The grafting result was confirmed on the held-out fold and replicated on MeSH. The purpose is threefold: (i)~run three K-tests decomposing the confirmed finding (extensive vs intensive margin, host-specific vs generic, field boundary); (ii)~run a full numerical audit; and (iii)~produce a positioning dossier and publication-ready figures.
+
+\subsection[Artifact 21: Margin Decomposition and Field-Boundary Test]{Artifact 21: Margin Decomposition and Field-Boundary Test (gen\_art\_\allowbreak evaluation\_6)}
+
+\subsubsection{Extensive vs Intensive Margin}
+
+\begin{table}[!htbp]
+\centering
+\caption{Extensive-margin results (LPM, pp/SD of $A_{\mathrm{cont}}$; Iteration~5, gen\_art\_evaluation\_6).}
+\label{tab:extensive}
+\begin{tabular}{lrL{2.5cm}rrr}
+\toprule
+Fold & pp/SD & 95\% CI & $p$ (CRV1) & $p$ (rand-$t$) & $N$ \\
+\midrule
+Screen & $+6.46$ & $[3.42, 9.51]$ & $4.5\times 10^{-5}$ & 0.0005 & 1,686 \\
+Held-out & $+7.29$ & $[2.97, 11.61]$ & 0.0012 & 0.004 & 1,046 \\
+MeSH & $+6.17$ & $[3.87, 8.46]$ & $3.4\times 10^{-7}$ & 0.0005 & 2,236 \\
+IVW & $+6.43$ & $[4.76, 8.11]$ & $5.1\times 10^{-14}$ & 0.0005 & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Intensive-margin results (PPML on $Y \geq 1$ subsample; Iteration~5, gen\_art\_evaluation\_6).}
+\label{tab:intensive}
+\begin{tabular}{lrL{2.5cm}rr}
+\toprule
+Fold & IRR/SD & 95\% CI & $p$ (CRV1) & $N$ \\
+\midrule
+Screen & 1.272 & $[1.121, 1.443]$ & 0.0003 & 795 \\
+Held-out & 1.163 & $[1.008, 1.342]$ & 0.038 & 489 \\
+MeSH & 1.137 & $[1.026, 1.260]$ & 0.015 & 1,169 \\
+IVW & 1.183 & $[1.104, 1.267]$ & $1.7\times 10^{-6}$ & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Margin-decomposition verdict: BOTH.} The extensive margin accounts for an IVW-pooled 38\% $[21\%, 55\%]$ of the total log-IRR.
+
+\subsubsection{Field Boundary}
+
+\begin{table}[!htbp]
+\centering
+\caption{Field-boundary results, co-primary PPML (Iteration~5, gen\_art\_evaluation\_6).}
+\label{tab:field_boundary}
+\begin{tabular}{lrL{2.5cm}r}
+\toprule
+Origin field & IRR/SD & 95\% CI & $p$ \\
+\midrule
+Physics/Astronomy & 1.178 & $[0.926, 1.499]$ & 0.18 \\
+Computer Science & 1.216 & $[1.066, 1.386]$ & 0.004 \\
+Other & 1.281 & $[1.167, 1.407]$ & $3.5\times 10^{-6}$ \\
+MeSH (reference) & 1.233 & $[1.120, 1.360]$ & $9.7\times 10^{-5}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Wald test for equality: $W = 0.900$, $p = 0.638$. \textbf{No detectable field boundary.}
+
+\subsection{Artifact 22: Host-Specificity Test (gen\_art\_evaluation\_7)}
+
+\begin{table}[!htbp]
+\centering
+\caption{Host-specificity retention: $A_{\mathrm{cont}}$ stability after adding generality controls (Iteration~5, gen\_art\_evaluation\_7).}
+\label{tab:host_specificity}
+{\small
+\begin{tabular}{lrL{2cm}rrrr}
+\toprule
+Fold & Retention & 95\% CI & \% removed & G\_H IRR/SD & G\_F IRR/SD & G\_F $p$ \\
+\midrule
+Screen & 1.006 & $[0.73, 1.31]$ & $-0.6$\% & 1.122 & 0.856 & 0.14 \\
+Held-out & 1.062 & $[0.44, 1.80]$ & $-6.2$\% & 1.068 & 0.943 & 0.58 \\
+MeSH & 0.876 & $[0.64, 1.04]$ & $+12.4$\% & 1.110 & 0.764 & $1.3\times 10^{-5}$ \\
+IVW & 0.969 & $[0.81, 1.10]$ & $+3.1$\% & 1.103 & 0.815 & $1.1\times 10^{-5}$ \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{A\_lift results, PPML IRR/SD (Iteration~5, gen\_art\_evaluation\_7).}
+\label{tab:a_lift}
+{\small
+\begin{tabular}{llrL{2.5cm}r}
+\toprule
+Fold & Model & IRR/SD & 95\% CI & Holm $p$ \\
+\midrule
+Screen & M2 (A\_lift alone) & 1.668 & $[1.378, 2.019]$ & $4.4\times 10^{-7}$ \\
+Screen & M3 (A\_lift + G) & 1.661 & $[1.361, 2.026]$ & $1.4\times 10^{-6}$ \\
+Held-out & M2 & 1.457 & $[1.140, 1.862]$ & 0.003 \\
+Held-out & M3 & 1.459 & $[1.146, 1.856]$ & 0.003 \\
+MeSH & M2 & 1.286 & $[1.147, 1.441]$ & $2.5\times 10^{-5}$ \\
+MeSH & M3 & 1.244 & $[1.120, 1.381]$ & $6.3\times 10^{-5}$ \\
+IVW & M2 & 1.388 & $[1.268, 1.519]$ & $1.0\times 10^{-12}$ \\
+IVW & M3 & 1.340 & $[1.232, 1.458]$ & $1.5\times 10^{-10}$ \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\textbf{Host-specificity verdict: HOST-SPECIFIC.} IVW retention 0.969 $[0.81, 1.10]$. The Balassa-index A\_lift replicates across all folds (IVW IRR/SD 1.34 $[1.23, 1.46]$).
+
+\subsection{Artifact 23: Full Numerical Audit (gen\_art\_evaluation\_8)}
+
+\begin{table}[!htbp]
+\centering
+\caption{Audit module results (Iteration~5, gen\_art\_evaluation\_8).}
+\label{tab:audit_modules}
+{\small
+\begin{tabularx}{\textwidth}{cL{3.5cm}X}
+\toprule
+Module & Description & Result \\
+\midrule
+M1 & Curated-number accuracy & 99.4\% (319 curated) \\
+M2 & Headline + independent check & 90.8\% (210 R-tier 92.9\%, 50 C-tier 82.0\%) \\
+M3 & Rederivation by block & D2: 80 OK, 1 WRONG\_ESTIMATOR, 16 MISSING. MeSH: 29 OK. RQ1: 60 OK. Adopter: 23 OK. \\
+M4 & Drift detection & 45 drift rows; 6 verdict-changing, 16 wording, 23 number-only \\
+M5 & Seeded-perturbation recall & 0.60 overall; verdict flips 0.90, digit changes 0.40 \\
+M6 & Independent claim review & 73/73 agree; 0 blocked \\
+M7 & Table-cell traceability & 11/11 tables pass \\
+M8 & Reviewer-critique closure & All 6 MAJOR items CLOSED \\
+M9 & Decision-rule consistency & 13 rules; 1 mismatch \\
+M10 & Flag inventory & 292 rows flagged across 21 blocks \\
+M11 & Self-test honesty & 4 PARTIAL, 4 NOT DONE, 3 DONE \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Reviewer-critique closure verified by audit (Iteration~5, gen\_art\_evaluation\_8).}
+\label{tab:reviewer_closure}
+{\small
+\begin{tabularx}{\textwidth}{cL{4cm}lX}
+\toprule
+\# & Critique & Status & Closed by \\
+\midrule
+1 & RQ1 headline contradicts frozen kill rule & CLOSED & T\_rq1, T\_design \\
+2 & Table~18 claims fixes not made & CLOSED & T\_table18, report\_drift.csv \\
+3 & Grafting caveats dropped & CLOSED & T\_caveats \\
+4 & MeSH and adopter read too broadly & CLOSED & T\_mesh, T\_adopter \\
+5 & RQ2 descriptive results and cases missing & CLOSED & cases.md, T\_rooting \\
+6 & Decision rules not recorded & CLOSED & T\_decision \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Decision-rule consistency (selected rows from T\_decision; Iteration~5, gen\_art\_evaluation\_8).}
+\label{tab:decision_consistency}
+{\small
+\begin{tabularx}{\textwidth}{cL{3.5cm}L{3.5cm}X}
+\toprule
+Iter. & Rule & Outcome & Status \\
+\midrule
+2 & (a) Gate A $\to$ graft fallback & TRIGGERED (0.17 $< 0.50$) & MATCH \\
+2 & (b) H1 pilot-only if $< 150$ concepts & YES ($N_c = 38$) & MATCH \\
+2 & (c) RQ1 CONFIRMED conditions & NOT MET & MATCH \\
+3 & R1 mechanical verdict & MIXED & MATCH \\
+4 & D2 DEAD if held-out CI includes 1 & NOT DEAD (confirmed) & MATCH \\
+4 & Mechanism label & host-vocabulary & MATCH \\
+4 & G4 second-family replication & REPLICATED & MATCH \\
+4 & R1 dead if held-out row fails & R1\_DEAD (Holm 0.147) & Corrected \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+\subsection{Artifact 24: Positioning Dossier (gen\_art\_research\_2)}
+
+Novelty verdict: \textbf{PARTLY ANTICIPATED} (0 ANTICIPATES, 11 PARTLY among 25 graded candidates). No located work measures how host-specific the vocabulary is that a concept is combined with when it enters a new subfield, and relates that, within concepts and across hosts, to later uptake by the host's own newcomers. The nearest work measures global embeddedness (Cheng et al.\ 2023), connectivity at the paper level, recombination at the paper or link level (Uzzi et al.\ 2013), or uses relatedness to predict entry (Guevara et al.\ 2016).
+
+\subsection{Artifact 25: Paper Figures (gen\_art\_evaluation\_9)}
+
+\begin{table}[!htbp]
+\centering
+\caption{Figure inventory and production checks (Iteration~5, gen\_art\_evaluation\_9).}
+\label{tab:figure_inventory}
+{\small
+\begin{tabular}{clccrr}
+\toprule
+Fig. & Description & PDF & PNG & Values checked & All pass \\
+\midrule
+F1 & Method flow & Yes & Yes & 39 exact & Yes \\
+F2 & D2 forest plot & Yes & Yes & 123 exact, 1 derived & Yes \\
+F3 & Mechanism panel & Yes & Yes & 162 exact, 1 derived & Yes \\
+F4 & RQ1 held-out & Yes & Yes & 94 exact, 8 derived & Yes \\
+F5 & Occupancy-rooting & Yes & Yes & 67 exact & Yes \\
+F6 & Case studies & Yes & Yes & 425 exact & Yes \\
+F6b & Case ego-networks & Yes & Yes & 8 images & Yes \\
+F7 & Self-test & Yes & Yes & 0 (schematic) & Yes \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+Total: 957 values checked, 0 failures, value fidelity 1.0.
+
+\subsection{Representative-Case Interpretations}
+
+\begin{table}[!htbp]
+\centering
+\caption{Per-case entry statistics, co-primary sample (Iteration~5, gen\_art\_evaluation\_8/evaluation\_4).}
+\label{tab:case_entries}
+{\small
+\begin{tabular}{L{3cm}rrrr}
+\toprule
+Concept & Entries & Rooted & Mean $A_{\mathrm{cont}}$ (rooted) & Mean $A_{\mathrm{cont}}$ (unrooted) \\
+\midrule
+Wireless backhaul & 14 & 1 & 0.084 & 0.021 \\
+EPR steering & 7 & 1 & 0.142 & 0.027 \\
+Locally repairable code & 1 & 1 & 0.056 & -- \\
+Holographic QCD & 5 & 0 & -- & 0.041 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\subsection{Dead Ends (Iteration~5)}
+
+\begin{enumerate}
+\item \textbf{EST\_bin null on held-out.} Binary establishment: $+2.54$ pp/SD, $p = 0.16$.
+\item \textbf{Intensive margin is conditional, not causal.}
+\item \textbf{Field boundary not detected.} Wald $p = 0.638$.
+\item \textbf{MeSH retention slightly lower.} 12.4\% absorbed by field breadth.
+\item \textbf{Audit reveals 292 MISSING\_IN\_REPORT rows.}
+\item \textbf{Table~18 self-test: 4 of 11 claims NOT DONE.}
+\item \textbf{Seeded-perturbation recall 0.60.}
+\end{enumerate}
+
+
+%% ============================================================
+\section{Run Ledger}
+\label{sec:ledger}
+%% ============================================================
+
+\begin{table}[!htbp]
+\centering
+\caption{Run ledger: all artifacts across all iterations.}
+\label{tab:run_ledger}
+{\small
+\begin{tabularx}{\textwidth}{L{3.8cm}llrX}
+\toprule
+Artifact & Type & Status & Credits & Notes \\
+\midrule
+\multicolumn{5}{l}{\textit{Iteration 1}} \\
+gen\_art\_dataset\_1 (pool) & dataset & succeeded & 2,566 & \$0.36 LLM \\
+gen\_art\_dataset\_2 (background) & dataset & failed (timeout) & 1,952 & Data usable \\
+gen\_art\_dataset\_3 (MeSH) & dataset & succeeded & 1,784 & -- \\
+gen\_art\_dataset\_4 (grounding) & dataset & succeeded & 1,847 & \$0.674 LLM \\
+gen\_art\_research\_1 (dossier) & research & succeeded & -- & -- \\
+\midrule
+\multicolumn{5}{l}{\textit{Iteration 2}} \\
+gen\_art\_dataset\_5 (hydrated) & dataset & succeeded & 7,237 & \$0.024 LLM \\
+gen\_art\_experiment\_1 (grounding) & experiment & succeeded & -- & \$0.053 LLM \\
+gen\_art\_experiment\_2 (viability) & experiment & succeeded & -- & -- \\
+gen\_art\_experiment\_3 (emergence) & experiment & succeeded & -- & -- \\
+gen\_art\_experiment\_4 (MeSH RQ1) & experiment & succeeded & -- & -- \\
+\midrule
+\multicolumn{5}{l}{\textit{Iteration 3}} \\
+gen\_art\_evaluation\_1 (audit) & evaluation & succeeded & -- & $\sim$8 min \\
+gen\_art\_experiment\_5 (deepen) & experiment & succeeded & -- & $\sim$15 min \\
+gen\_art\_experiment\_6 (breadth) & experiment & succeeded & -- & $\sim$15 min \\
+gen\_art\_experiment\_7 (grafting) & experiment & succeeded & -- & $\sim$15 min \\
+gen\_art\_experiment\_8 (diffusion) & experiment & succeeded & -- & $\sim$15 min \\
+\midrule
+\multicolumn{5}{l}{\textit{Iteration 4}} \\
+gen\_art\_evaluation\_2 (grafting held-out) & evaluation & succeeded & -- & $\sim$7 min \\
+gen\_art\_experiment\_9 (MeSH grafting) & experiment & succeeded & -- & $\sim$12 min \\
+gen\_art\_evaluation\_3 (closure held-out) & evaluation & succeeded & -- & $\sim$10 min \\
+gen\_art\_evaluation\_4 (descriptive) & evaluation & succeeded & -- & $\sim$8 min \\
+gen\_art\_evaluation\_5 (adopter) & evaluation & succeeded & -- & $\sim$6 min \\
+\midrule
+\multicolumn{5}{l}{\textit{Iteration 5}} \\
+gen\_art\_evaluation\_6 (K1/K3) & evaluation & succeeded & -- & $\sim$12 min \\
+gen\_art\_evaluation\_7 (K2) & evaluation & succeeded & -- & $\sim$10 min \\
+gen\_art\_evaluation\_8 (audit) & evaluation & succeeded & -- & $\sim$70 s \\
+gen\_art\_research\_2 (positioning) & research & succeeded & -- & -- \\
+gen\_art\_evaluation\_9 (figures) & evaluation & succeeded & -- & -- \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+
+%% ============================================================
+\section{Pre-Registration Hashes}
+\label{sec:hashes}
+%% ============================================================
+
+\begin{table}[!htbp]
+\centering
+\caption{Pre-registration and integrity hashes across all iterations.}
+\label{tab:hashes}
+{\small
+\begin{tabularx}{\textwidth}{Xl}
+\toprule
+Item & SHA-256 prefix \\
+\midrule
+Frozen concept frame & 80e3f244\ldots0c44 \\
+Viability pre-registration & 5dd16d8a\ldots5aac \\
+Test population & 6a887fb4\ldots5505 \\
+R1a turnover pre-check spec & 60f44c0f\ldots \\
+Emergence deepen spec (SPEC3) & 2f46d173\ldots \\
+Host-entry grafting pre-registration & f800a0a9\ldots \\
+Descriptive diffusion held-out spec & 695166b4\ldots \\
+Held-out confirmation spec (exp\_5) & 535c2dd3\ldots \\
+Grafting held-out fold spec & 8db17113\ldots \\
+Grafting held-out confirmation spec & 4100e3cf\ldots \\
+Discriminating-test spec & a10b7f31\ldots \\
+MeSH replication spec & b7cdabf8\ldots \\
+Descriptive held-out spec & 4ce330d3\ldots \\
+Adopter mechanism spec & 96e697c6\ldots \\
+K1/K3 spec & 2435f909\ldots \\
+K2 spec & 866c60a8\ldots \\
+\bottomrule
+\end{tabularx}
+}
+\end{table}
+
+
+%% ============================================================
+\section{What the Run Learned Overall}
+\label{sec:overall}
+%% ============================================================
+
+\subsection{The Diffusion Question: Grafting Is Confirmed and Replicated}
+
+When a concept enters a new host subfield, the share of its initial co-occurrence partners that are native to that host predicts subsequent uptake by newcomer authors. The co-primary grafting specification replicates on the held-out fold (IRR/SD 1.19 $[1.06, 1.33]$, $p = 0.0045$) and on the independent MeSH population (IRR/SD 1.23 $[1.12, 1.36]$, Holm $p = 9.7 \times 10^{-5}$). The IVW pooled estimate is 1.26 $[1.17, 1.36]$ with $I^2 = 0$. The effect operates through both margins (extensive IVW $+6.43$ pp/SD; intensive IVW IRR/SD 1.183), is host-specific (IVW retention 0.969 after generality controls; Balassa-index A\_lift IVW IRR/SD 1.34 $[1.23, 1.46]$), and does not vary by origin field (Wald $p = 0.638$).
+
+Co-transfer of origin companions is null across all folds and populations. Binary native cut-offs ($\geq 0.5$, $\geq 0.7$) are null: the effect operates through the continuous gradient. Physics/Astronomy concepts are null individually. The corrected robustness count is 20 of 26 significant co-primary variants.
+
+At the adopter level, authors who adopt a concept in a new subfield have higher odds of prior corpus exposure to the concept's entry partners (OR 3.09 $[2.32, 4.28]$), with enrichment strongest for origin-vocabulary (FOREIGN) partners (OR 2.88). This contradicts a literal grafting reading at the adopter level and is consistent with absorptive capacity or topical proximity (the design cannot separate them).
+
+\subsection{The Emergence Question: Primary Closure Dead, Persistent-Neighbour Confirmed}
+
+The primary closure measure did not survive held-out confirmation (R1\_DEAD: Holm $p = 0.147$). Only persistent-neighbour closure is confirmed (held-out $S = -1.073$, Holm $p = 0.015$). The effect is not Burt brokerage (constraint is higher, not lower). Pre-emergence closure does not predict later host-entry anchoring (closure-anchoring link null: partial $\rho = 0.049$, $p = 0.564$ pooled). The two findings (closure and grafting) are independent.
+
+\subsection{Diffusion Typology}
+
+The $k = 2$ typology (localised vs broad-from-the-start) replicates on the held-out fold. Network expansion precedes disciplinary diffusion in 25 of 26 pooled main-arm dual-onset concepts. Finer typologies are unstable, and the 3-channel version adds nothing beyond entropy trajectories.
+
+\subsection{What Is Still Open}
+
+\begin{enumerate}
+\item \textbf{Generalisation.} The population is dominated by physics and computer-science concepts from arXiv. Social sciences and humanities are untested.
+\item \textbf{Binary establishment.} The binary establishment threshold (EST\_bin) is null on the held-out fold. The claim holds for uptake initiation but not strict establishment.
+\item \textbf{Intensive-margin causality.} The intensive estimate conditions on $Y \geq 1$ and is descriptive.
+\item \textbf{Single-paper concern.} 87\% of screen co-primary events are single-paper entries. The held-out single-paper interaction is significant ($p = 0.004$).
+\item \textbf{Absorptive capacity vs topical proximity.} The adopter-level test cannot distinguish these.
+\item \textbf{MeSH specificity.} On MeSH, 12.4\% of the $A_{\mathrm{cont}}$ effect is absorbed by field breadth.
+\item \textbf{292 unreported numbers.} Numbers present in artifact files but not transcribed into this report.
+\end{enumerate}
+
+
+%% ============================================================
+\section{References}
+\label{sec:references}
+%% ============================================================
+
+The following references are cited in the report text. No formal bibliography database was used for this internal record; references are listed by their in-text bracketed number.
+
+{\small
+\begin{enumerate}
+\item H.~Pulliam, ``Sources, Sinks, and Population Regulation,'' \textit{The American Naturalist} 132, 652--661, 1988.
+\item J.~Priem, H.~A.~Piwowar, R.~Orr, ``OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts,'' arXiv:2205.01833, 2022.
+\item A.~Stirling, ``A general framework for analysing diversity in science, technology and society,'' \textit{J.\ R.\ Soc.\ Interface} 4, 707--719, 2007.
+\item I.~Rafols, ``Knowledge Integration and Diffusion: Measures and Mapping of Diversity and Coherence,'' arXiv:1412.6683, 2014.
+\item T.~Maillart et al., ``Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing,'' arXiv:2606.03919, 2026.
+\item M.~De~Domenico, E.~Omodei, A.~Arenas, ``Quantifying the diaspora of knowledge in the last century,'' \textit{Applied Network Science} 1, 2016.
+\item E.~Cunningham, B.~Smyth, D.~Greene, ``Author multidisciplinarity and disciplinary roles in field of study networks,'' \textit{Applied Network Science} 7, 2022.
+\item A.~Holmgren, D.~Edler, M.~Rosvall, ``Mapping change in higher-order networks,'' \textit{Applied Network Science} 8, 1--15, 2023.
+\item S.~Fontaine et al., ``Epistemic integration and social segregation of AI in neuroscience,'' \textit{Applied Network Science} 9, 2024.
+\item T.~Kuhn, M.~Perc, D.~Helbing, ``Inheritance patterns in citation networks reveal scientific memes,'' \textit{Phys.\ Rev.\ X} 4, 041036, 2014.
+\item I.~Kiss et al., ``Can epidemic models describe the diffusion of topics across disciplines?'' \textit{J.\ Informetrics} 4, 74--82, 2010.
+\item D.~Chavalarias, J.-P.~Cointet, ``Phylomemetic Patterns in Science Evolution,'' \textit{PLoS ONE} 8(2), e54847, 2013.
+\item M.~Cheng et al., ``How New Ideas Diffuse in Science,'' \textit{American Sociological Review} 88, 522--561, 2023.
+\item J.~Kleinberg, ``Bursty and Hierarchical Structure in Streams,'' \textit{DMKD} 7, 373--397, 2003.
+\item M.~Rosvall, C.~T.~Bergstrom, ``Mapping Change in Large Networks,'' \textit{PLoS ONE} 5, 2010.
+\item A.~Baselga, ``Partitioning turnover and nestedness components of beta diversity,'' \textit{Global Ecol.\ Biogeogr.} 19, 134--143, 2010.
+\item I.~Rafols, M.~Meyer, ``Diversity and network coherence as indicators of interdisciplinarity,'' \textit{Scientometrics} 82, 263--287, 2010.
+\item D.~Rotolo, D.~Hicks, B.~Martin, ``What is an emerging technology?'' \textit{Research Policy} 44(10), 1827--1843, 2015.
+\item T.~Maillart et al., ``Explainable Forecasting of Scientific Breakthroughs from Concept Network Dynamics,'' arXiv:2606.03864, 2026.
+\item M.~Krenn, A.~Zeilinger, ``Predicting research trends with semantic and neural networks,'' \textit{PNAS} 117, 1910--1916, 2020.
+\item L.~Huang et al., ``Tracking the dynamics of co-word networks for emerging topic identification,'' \textit{Technol.\ Forecast.\ Soc.\ Change} 170, 120944, 2021.
+\item N.~Sattar et al., ``Exploring temporal community evolution,'' \textit{Applied Network Science} 8, 1--29, 2023.
+\item R.~S.~Burt, ``Structural holes and good ideas,'' \textit{Am.\ J.\ Sociol.} 110, 349--399, 2004.
+\item J.~Ugander et al., ``Structural diversity in social contagion,'' \textit{PNAS} 109, 5962--5966, 2012.
+\item A.~Salatino, F.~Osborne, E.~Motta, ``How are topics born?'' \textit{PeerJ Computer Science} 3, e119, 2017.
+\item B.~Uzzi et al., ``Atypical Combinations and Scientific Impact,'' \textit{Science} 342, 468--472, 2013.
+\item D.~Centola, ``The Spread of Behavior in an Online Social Network Experiment,'' \textit{Science} 329, 1194--1197, 2010.
+\item C.~A.~Hidalgo et al., ``The Principle of Relatedness,'' \textit{ICCS}, 451--457, 2018.
+\item C.~Chen, ``CiteSpace II,'' \textit{JASIST} 57(3), 359--377, 2006.
+\item W.~M.~Cohen, D.~A.~Levinthal, ``Absorptive Capacity,'' \textit{Administrative Science Quarterly} 35, 128--152, 1990.
+\item M.~R.~Guevara et al., ``The Research Space,'' \textit{Scientometrics} 109, 1695--1709, 2016.
+\item B.~Hofstra et al., ``The Diversity-Innovation Paradox in Science,'' \textit{PNAS} 117(17), 9284--9291, 2020.
+\item T.~Jia, D.~Wang, B.~K.~Szymanski, ``Quantifying patterns of research-interest evolution,'' \textit{Nature Human Behaviour} 1, 0078, 2017.
+\item J.~G.~Foster, A.~Rzhetsky, J.~A.~Evans, ``Tradition and Innovation in Scientists' Research Strategies,'' \textit{Am.\ Sociol.\ Rev.} 80(5), 875--908, 2015.
+\end{enumerate}
+}
+
+\end{document}

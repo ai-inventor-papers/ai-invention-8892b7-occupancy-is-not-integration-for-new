@@ -1,0 +1,102 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, booktabs, xcolor, tabularx}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\title{Executive Summary\\[0.5em]\large Open Neighbourhoods Precede Concept Spread:\\Structural Antecedents and Cross-Disciplinary Diffusion\\of Emerging Scientific Concepts}
+\author{}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section*{Headline Finding}
+
+When a scientific concept enters a new disciplinary subfield, its subsequent uptake by that subfield's own newcomer authors is predicted by how host-native its initial co-occurrence partners are. The MeSH biomedical replication gives an incidence-rate ratio per standard deviation of host-nativeness (IRR/SD) of \textbf{1.23 [1.12, 1.36]} (Holm $p < 0.001$). The held-out confirmation on the main arXiv-sourced pool gives IRR/SD $= 1.19$ $[1.06, 1.33]$ ($p = 0.004$). The inverse-variance-weighted pooled estimate across both populations is $1.26$ $[1.17, 1.36]$ with $I^2 = 0$. Co-transfer of origin companions is null across all folds.
+
+\section*{Study Design}
+
+The study investigates two research questions using an OpenAlex-based scholarly dataset of 426 semantically grounded concepts (366 main, 60 reference) with 462,812 works:
+
+\begin{itemize}
+\item \textbf{RQ1 (Emergence):} Which temporal and structural patterns in an evolving scientific knowledge graph characterise the emergence of scientific concepts?
+\item \textbf{RQ2 (Diffusion):} How do emerging scientific concepts diffuse across disciplinary communities, and which temporal network patterns distinguish locally concentrated from broadly integrated concepts?
+\end{itemize}
+
+The 366 main concepts are split into a 247-concept screen fold and a 119-concept held-out fold. Twenty-five yearly co-word network snapshots ($\approx$27,000 nodes, $\approx$84,000 edges) were built from a design-weighted background sample and partitioned into Leiden communities. An independent MeSH biomedical population of 191 concepts serves as a replication arm. All decision rules, kill rules, and specifications were pre-registered and hashed before inspection.
+
+\section*{RQ1: Emergence --- Primary Closure Dead, Persistent-Neighbour Confirmed}
+
+The original hypothesis that higher local closure precedes concept emergence was tested with a pre-registered event study. The primary closure measure did not survive held-out confirmation (\textbf{R1\_DEAD}: Holm $p = 0.147$). This outcome was governed by the frozen kill rule: the held-out confidence interval includes zero, so the primary claim is dead.
+
+Only \textbf{persistent-neighbour closure} survives: held-out $S = -1.073$, 95\% CI $[-1.858, -0.289]$, Holm $p = 0.015$. This means that before a concept shows sustained uptake, the subset of its co-occurrence neighbours that persist across yearly snapshots becomes less clustered --- the concept's stable neighbourhood opens up.
+
+The mechanism is \textbf{not Burt brokerage}: Burt constraint is \emph{higher}, not lower, before emergence ($S = +0.083$ $[0.017, 0.147]$ on screen, $+0.105$ $[0.021, 0.187]$ on held-out). Pre-emergence openness does not predict later host-entry anchoring (closure--anchoring link null: partial $\rho = 0.049$, $p = 0.564$ pooled). The emergence and diffusion findings are therefore independent.
+
+Precursor measures add no predictive value for \emph{whether} a concept will show sustained uptake (delta-AUC $= -0.001$ $[-0.008, 0.006]$).
+
+\section*{RQ2: Diffusion --- Host-Entry Grafting Confirmed and Replicated}
+
+The central finding concerns \textbf{host-entry grafting}: when a concept first appears in a new subfield, the host-nativeness of its co-occurrence partners at entry predicts how many newcomer authors in that subfield subsequently adopt it.
+
+\begin{table}[!htbp]
+\centering
+\caption{Grafting results across folds and populations.}
+{\small
+\begin{tabular}{L{2.8cm}rL{2.2cm}rr}
+\toprule
+Fold & IRR/SD & 95\% CI & $p$ & $N$ \\
+\midrule
+Screen (co-primary) & 1.30 & $[1.16, 1.45]$ & $10^{-5}$ & 1,544 \\
+Held-out (co-primary) & 1.19 & $[1.06, 1.33]$ & 0.004 & 972 \\
+MeSH (co-primary) & 1.23 & $[1.12, 1.36]$ & $9.7\times 10^{-5}$ & 2,171 \\
+IVW pooled & 1.26 & $[1.17, 1.36]$ & -- & -- \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\noindent\textbf{Decomposition results (K-tests):}
+
+\begin{itemize}
+\item \textbf{K1 --- Both margins:} The effect operates through both the extensive margin (whether any newcomer adopts; IVW $+6.43$ pp/SD $[4.76, 8.11]$) and the intensive margin (how many adopt, given $\geq 1$; IVW IRR/SD $1.183$ $[1.104, 1.267]$). The extensive margin accounts for 38\% $[21\%, 55\%]$ of the total log-IRR.
+\item \textbf{K2 --- Host-specific:} Adding generality controls removes only 3.1\% of the effect (IVW retention $0.969$ $[0.81, 1.10]$). The Balassa-index lift measure replicates across all folds (IVW IRR/SD $1.34$ $[1.23, 1.46]$).
+\item \textbf{K3 --- No field boundary:} The effect does not vary by origin field (Wald $p = 0.638$).
+\end{itemize}
+
+\noindent\textbf{Adopter-level mechanism.} Authors who adopt a concept in a new subfield are enriched for prior exposure to the concept's entry partners (OR $3.09$ $[2.32, 4.28]$), with the gradient running FOREIGN $>$ ADJACENT $>$ NATIVE. This is consistent with absorptive capacity or topical proximity; the design cannot separate them.
+
+\section*{Diffusion Typology and Temporal Ordering}
+
+Only the $k = 2$ typology is stable (min Jaccard $0.861$): \textbf{localised} ($n = 136$) and \textbf{broad from the start} ($n = 66$). Finer typologies are unstable and add nothing beyond entropy trajectories. Network expansion precedes disciplinary diffusion in 25 of 26 pooled main-arm concepts with both transitions observable.
+
+\section*{Key Dead Ends}
+
+\begin{enumerate}
+\item \textbf{Source--sink viability blocked.} Gate~A failed: only 17.3\% of host edge-years have within-host traced share $\geq 0.40$ (mean $0.204$). The viability decomposition could not be executed.
+\item \textbf{Openness does not predict where concepts travel.} All breadth-prediction Holm $p = 0.405$.
+\item \textbf{Brokerage is not the mechanism.} Burt constraint is positive, opposite to prediction.
+\item \textbf{Co-transfer of origin companions is null} across all folds and populations.
+\item \textbf{Precursors do not predict whether a concept emerges} beyond volume and burst baselines.
+\end{enumerate}
+
+\section*{Caveats and Open Questions}
+
+\begin{itemize}
+\item The concept pool is dominated by physics and computer science (arXiv). Social sciences and humanities are untested.
+\item 87\% of screen co-primary events are single-paper host entries. The held-out single-paper interaction is significant ($p = 0.004$).
+\item Binary establishment (EST\_bin) is null on the held-out fold ($p = 0.16$). The claim holds for uptake initiation but not strict establishment.
+\item On MeSH, 12.4\% of the effect is absorbed by field breadth.
+\item The full numerical audit found 292 numbers present in artifact files but not transcribed into the main report, with seeded-perturbation recall of 0.60.
+\end{itemize}
+
+\section*{Target Venue}
+
+Applied Network Science.
+
+\end{document}
