@@ -1,1 +1,0 @@
-{"results": [], "authors": [], "spent": 0, "remaining_start": 484, "remaining_end": 482, "calls": {"paid": 0, "cache": 0, "free": 2}, "stop_reason": "guard: spent=0 cap=400 remaining=484 reserve=2500", "n_jobs": 200, "route_note": "key-wide remaining below 4,000 at start -> corpus exposure PRIMARY; API = validation subsample only"}

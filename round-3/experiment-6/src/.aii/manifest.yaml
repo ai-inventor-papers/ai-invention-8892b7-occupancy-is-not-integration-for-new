@@ -1,6 +1,0 @@
-entries:
-  - path: .venv/
-    delete: redownloadable
-    source: "uv venv .venv --python=3.12 && uv pip install --python .venv/bin/python -r pyproject.toml"
-  - path: work/
-    keep: inputs of confirm_heldout.py in iteration 4 (c-papers, author index, per-year pool metrics); 50 MB, regenerable with 'method.py --stage population prep attach indicators openness' but read by the next round

@@ -1,8 +1,0 @@
-# Paths are RELATIVE to the run directory (<run>), which is resolved as the 4th parent of this workspace
-# (<run>/round-2/experiment-2/src) or taken from the env var AII_RUN_DIR.
-ds1: 3_invention_loop/iter_1/gen_art/gen_art_dataset_1
-research1: 3_invention_loop/iter_1/gen_art/gen_art_research_1/research_out.json
-strat1: 3_invention_loop/iter_1/gen_strat/gen_strat_1/.terminal_claude_agent_struct_out.json
-seed: 20261001
-n_workers: 4
-B: 1000

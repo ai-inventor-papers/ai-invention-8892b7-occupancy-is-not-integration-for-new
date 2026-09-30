@@ -1,9 +1,0 @@
-09:18:22|INFO   |concepts: 426 (366 main, 60 reference); own linked legacy concept: 22
-09:18:23|INFO   |keyword map: 40341/40341 keywords map to a legacy concept
-09:18:23|INFO   |works parquet parts: ['works_part_00.parquet', 'works_part_01.parquet', 'works_part_02.parquet', 'works_part_03.parquet', 'works_part_04.parquet', 'works_part_05.parquet', 'works_part_06.parquet', 'works_part_07.parquet']; schema: ['work_id', 'doi_present', 's2_corpus_id', 'publication_year', 'publication_date', 'type', 'language', 'primary_topic_id', 'topic_score', 'subfield_id', 'field_id', 'domain_id', 'topics_top3', 'source_id', 'source_type', 'n_refs', 'refs', 'refs_in_corpus', 'author_ids', 'author_positions', 'institution_ids', 'keyword_idx', 'keyword_scores', 'concept_ids', 'concept_scores', 'has_abstract', 'abstract_n_tokens', 'cited_by_count', 'dup_group', 'retrieved_at', 'retrieval_batch']
-09:18:26|INFO   |works: 462812 rows
-09:18:37|INFO   |partner tags: 5067077 (level-0 dropped 906937; unknown level kept 0)
-09:18:43|INFO   |dedup: 488078 links -> 474527 kept
-09:18:43|INFO   |profiles: 5488 (node, block) over 1372 nodes
-09:18:44|INFO   |prepared cache: 156.5 MB; concepts with links 426; authors 828829; link-year == pub-year share 1.0000
-09:18:44|INFO   |main prepared: 426 concepts, 5488 profiles, 31s
