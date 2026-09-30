@@ -1,0 +1,962 @@
+{
+ "n": 191,
+ "agree": 185,
+ "share": 0.9685863874345549,
+ "per_concept": [
+  {
+   "concept_id": "mesh:D000068099",
+   "origin": 3203,
+   "modal_F_F2": 3203
+  },
+  {
+   "concept_id": "mesh:D059230",
+   "origin": 2734,
+   "modal_F_F2": 2734
+  },
+  {
+   "concept_id": "mesh:D059745",
+   "origin": 3504,
+   "modal_F_F2": 3504
+  },
+  {
+   "concept_id": "mesh:D059065",
+   "origin": 2717,
+   "modal_F_F2": 2717
+  },
+  {
+   "concept_id": "mesh:D000067368",
+   "origin": 2730,
+   "modal_F_F2": 2730
+  },
+  {
+   "concept_id": "mesh:D058534",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000069295",
+   "origin": 2746,
+   "modal_F_F2": 2746
+  },
+  {
+   "concept_id": "mesh:D058979",
+   "origin": 2745,
+   "modal_F_F2": 2745
+  },
+  {
+   "concept_id": "mesh:D059266",
+   "origin": 2730,
+   "modal_F_F2": 2730
+  },
+  {
+   "concept_id": "mesh:D000068796",
+   "origin": 2805,
+   "modal_F_F2": 2805
+  },
+  {
+   "concept_id": "mesh:D058257",
+   "origin": 2746,
+   "modal_F_F2": 2746
+  },
+  {
+   "concept_id": "mesh:D064107",
+   "origin": 1307,
+   "modal_F_F2": 1307
+  },
+  {
+   "concept_id": "mesh:D057182",
+   "origin": 1311,
+   "modal_F_F2": 1311
+  },
+  {
+   "concept_id": "mesh:D058976",
+   "origin": 2745,
+   "modal_F_F2": 2745
+  },
+  {
+   "concept_id": "mesh:D057747",
+   "origin": 3506,
+   "modal_F_F2": 3506
+  },
+  {
+   "concept_id": "mesh:D059788",
+   "origin": 2403,
+   "modal_F_F2": 2403
+  },
+  {
+   "concept_id": "mesh:D058644",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D059250",
+   "origin": 2730,
+   "modal_F_F2": 2730
+  },
+  {
+   "concept_id": "mesh:D059706",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D059014",
+   "origin": 2728,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D056566",
+   "origin": 2717,
+   "modal_F_F2": 2717
+  },
+  {
+   "concept_id": "mesh:D056901",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000069467",
+   "origin": 2725,
+   "modal_F_F2": 2725
+  },
+  {
+   "concept_id": "mesh:D056850",
+   "origin": 2730,
+   "modal_F_F2": 2730
+  },
+  {
+   "concept_id": "mesh:D052699",
+   "origin": 2725,
+   "modal_F_F2": 2725
+  },
+  {
+   "concept_id": "mesh:D058679",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D058489",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D064128",
+   "origin": 2725,
+   "modal_F_F2": 2725
+  },
+  {
+   "concept_id": "mesh:D056914",
+   "origin": 1311,
+   "modal_F_F2": 1311
+  },
+  {
+   "concept_id": "mesh:D052660",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D056546",
+   "origin": 1106,
+   "modal_F_F2": 1106
+  },
+  {
+   "concept_id": "mesh:D058546",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D057111",
+   "origin": 2741,
+   "modal_F_F2": 2741
+  },
+  {
+   "concept_id": "mesh:D054507",
+   "origin": 2727,
+   "modal_F_F2": 2727
+  },
+  {
+   "concept_id": "mesh:D058972",
+   "origin": 2745,
+   "modal_F_F2": 2745
+  },
+  {
+   "concept_id": "mesh:D000068601",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D056686",
+   "origin": 2303,
+   "modal_F_F2": 2303
+  },
+  {
+   "concept_id": "mesh:D059425",
+   "origin": 2725,
+   "modal_F_F2": 2725
+  },
+  {
+   "concept_id": "mesh:D058957",
+   "origin": 2725,
+   "modal_F_F2": 2725
+  },
+  {
+   "concept_id": "mesh:D062949",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000068936",
+   "origin": 2502,
+   "modal_F_F2": 2502
+  },
+  {
+   "concept_id": "mesh:D000069321",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D056631",
+   "origin": 1109,
+   "modal_F_F2": 1109
+  },
+  {
+   "concept_id": "mesh:D065166",
+   "origin": 2706,
+   "modal_F_F2": 2706
+  },
+  {
+   "concept_id": "mesh:D000067617",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D050090",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D058947",
+   "origin": 2303,
+   "modal_F_F2": 2303
+  },
+  {
+   "concept_id": "mesh:D055191",
+   "origin": 2746,
+   "modal_F_F2": 2728
+  },
+  {
+   "concept_id": "mesh:D063269",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D000067836",
+   "origin": 3203,
+   "modal_F_F2": 3203
+  },
+  {
+   "concept_id": "mesh:D058726",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000067108",
+   "origin": 1311,
+   "modal_F_F2": 1311
+  },
+  {
+   "concept_id": "mesh:D065926",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D064068",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D054078",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D056661",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D000067531",
+   "origin": 1308,
+   "modal_F_F2": 1308
+  },
+  {
+   "concept_id": "mesh:D053722",
+   "origin": 2403,
+   "modal_F_F2": 2403
+  },
+  {
+   "concept_id": "mesh:D059965",
+   "origin": 2730,
+   "modal_F_F2": 2730
+  },
+  {
+   "concept_id": "mesh:D064800",
+   "origin": 1306,
+   "modal_F_F2": 1306
+  },
+  {
+   "concept_id": "mesh:D052686",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D054909",
+   "origin": 1911,
+   "modal_F_F2": 1911
+  },
+  {
+   "concept_id": "mesh:D064872",
+   "origin": 2706,
+   "modal_F_F2": 2706
+  },
+  {
+   "concept_id": "mesh:D062209",
+   "origin": 2711,
+   "modal_F_F2": 2711
+  },
+  {
+   "concept_id": "mesh:D058738",
+   "origin": 2735,
+   "modal_F_F2": 2735
+  },
+  {
+   "concept_id": "mesh:D064206",
+   "origin": 3506,
+   "modal_F_F2": 3506
+  },
+  {
+   "concept_id": "mesh:D064798",
+   "origin": 1703,
+   "modal_F_F2": 1703
+  },
+  {
+   "concept_id": "mesh:D063151",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D058425",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D065817",
+   "origin": 2746,
+   "modal_F_F2": 2746
+  },
+  {
+   "concept_id": "mesh:D057177",
+   "origin": 2728,
+   "modal_F_F2": 2728
+  },
+  {
+   "concept_id": "mesh:D064237",
+   "origin": 2712,
+   "modal_F_F2": 2712
+  },
+  {
+   "concept_id": "mesh:D051297",
+   "origin": 2712,
+   "modal_F_F2": 2712
+  },
+  {
+   "concept_id": "mesh:D060426",
+   "origin": 2728,
+   "modal_F_F2": 2728
+  },
+  {
+   "concept_id": "mesh:D065709",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D056569",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D057193",
+   "origin": 3600,
+   "modal_F_F2": 3600
+  },
+  {
+   "concept_id": "mesh:D057791",
+   "origin": 2741,
+   "modal_F_F2": 2741
+  },
+  {
+   "concept_id": "mesh:D057086",
+   "origin": 2204,
+   "modal_F_F2": 2204
+  },
+  {
+   "concept_id": "mesh:D062526",
+   "origin": 2730,
+   "modal_F_F2": 2730
+  },
+  {
+   "concept_id": "mesh:D064130",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D060867",
+   "origin": 2735,
+   "modal_F_F2": 2735
+  },
+  {
+   "concept_id": "mesh:D000067495",
+   "origin": 3604,
+   "modal_F_F2": 3604
+  },
+  {
+   "concept_id": "mesh:D052700",
+   "origin": 2705,
+   "modal_F_F2": 2705
+  },
+  {
+   "concept_id": "mesh:D056587",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D064113",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D056466",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D058008",
+   "origin": 2738,
+   "modal_F_F2": 2738
+  },
+  {
+   "concept_id": "mesh:D055947",
+   "origin": 1311,
+   "modal_F_F2": 1311
+  },
+  {
+   "concept_id": "mesh:D057691",
+   "origin": 2403,
+   "modal_F_F2": 2403
+  },
+  {
+   "concept_id": "mesh:D060151",
+   "origin": 2403,
+   "modal_F_F2": 2403
+  },
+  {
+   "concept_id": "mesh:D054332",
+   "origin": 2739,
+   "modal_F_F2": 2739
+  },
+  {
+   "concept_id": "mesh:D000067011",
+   "origin": 2916,
+   "modal_F_F2": 2916
+  },
+  {
+   "concept_id": "mesh:D062265",
+   "origin": 2002,
+   "modal_F_F2": 2002
+  },
+  {
+   "concept_id": "mesh:D000069376",
+   "origin": 1310,
+   "modal_F_F2": 1310
+  },
+  {
+   "concept_id": "mesh:D058409",
+   "origin": 2705,
+   "modal_F_F2": 2705
+  },
+  {
+   "concept_id": "mesh:D059126",
+   "origin": 1310,
+   "modal_F_F2": 1310
+  },
+  {
+   "concept_id": "mesh:D058490",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D060485",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000074723",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000073196",
+   "origin": 2707,
+   "modal_F_F2": 2707
+  },
+  {
+   "concept_id": "mesh:D000074663",
+   "origin": 2403,
+   "modal_F_F2": 2403
+  },
+  {
+   "concept_id": "mesh:D000071737",
+   "origin": 2809,
+   "modal_F_F2": 2809
+  },
+  {
+   "concept_id": "mesh:D000075704",
+   "origin": 1311,
+   "modal_F_F2": 1311
+  },
+  {
+   "concept_id": "mesh:D000071740",
+   "origin": 2809,
+   "modal_F_F2": 2809
+  },
+  {
+   "concept_id": "mesh:D000074608",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D046810",
+   "origin": 1103,
+   "modal_F_F2": 1103
+  },
+  {
+   "concept_id": "mesh:D000073938",
+   "origin": 2739,
+   "modal_F_F2": 2739
+  },
+  {
+   "concept_id": "mesh:D000072761",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000069796",
+   "origin": 2737,
+   "modal_F_F2": 2737
+  },
+  {
+   "concept_id": "mesh:D000070576",
+   "origin": 2403,
+   "modal_F_F2": 2403
+  },
+  {
+   "concept_id": "mesh:D042522",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000071137",
+   "origin": 2730,
+   "modal_F_F2": 2730
+  },
+  {
+   "concept_id": "mesh:D000070319",
+   "origin": 3600,
+   "modal_F_F2": 3600
+  },
+  {
+   "concept_id": "mesh:D000072936",
+   "origin": 3600,
+   "modal_F_F2": 3205
+  },
+  {
+   "concept_id": "mesh:D000075244",
+   "origin": 2736,
+   "modal_F_F2": 2736
+  },
+  {
+   "concept_id": "mesh:D000073638",
+   "origin": 2725,
+   "modal_F_F2": 2725
+  },
+  {
+   "concept_id": "mesh:D000075369",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000071085",
+   "origin": 2715,
+   "modal_F_F2": 2715
+  },
+  {
+   "concept_id": "mesh:D000071183",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D000071336",
+   "origin": 1110,
+   "modal_F_F2": 1110
+  },
+  {
+   "concept_id": "mesh:D000072661",
+   "origin": 1311,
+   "modal_F_F2": 1311
+  },
+  {
+   "concept_id": "mesh:D000069981",
+   "origin": 1310,
+   "modal_F_F2": 1310
+  },
+  {
+   "concept_id": "mesh:D000072496",
+   "origin": 2739,
+   "modal_F_F2": 2739
+  },
+  {
+   "concept_id": "mesh:D043362",
+   "origin": 2305,
+   "modal_F_F2": 2305
+  },
+  {
+   "concept_id": "mesh:D000070136",
+   "origin": 1303,
+   "modal_F_F2": 1303
+  },
+  {
+   "concept_id": "mesh:D000073642",
+   "origin": 1103,
+   "modal_F_F2": 1103
+  },
+  {
+   "concept_id": "mesh:D000073885",
+   "origin": 2728,
+   "modal_F_F2": 2728
+  },
+  {
+   "concept_id": "mesh:D000070377",
+   "origin": 3306,
+   "modal_F_F2": 3306
+  },
+  {
+   "concept_id": "mesh:D000074166",
+   "origin": 1306,
+   "modal_F_F2": 1306
+  },
+  {
+   "concept_id": "mesh:D000071161",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D044007",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000072641",
+   "origin": 2002,
+   "modal_F_F2": 2002
+  },
+  {
+   "concept_id": "mesh:D041902",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000071193",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D000071317",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000074060",
+   "origin": 2737,
+   "modal_F_F2": 2737
+  },
+  {
+   "concept_id": "mesh:D000070639",
+   "origin": 2732,
+   "modal_F_F2": 2732
+  },
+  {
+   "concept_id": "mesh:D000073640",
+   "origin": 2725,
+   "modal_F_F2": 2725
+  },
+  {
+   "concept_id": "mesh:D000076106",
+   "origin": 2406,
+   "modal_F_F2": 2406
+  },
+  {
+   "concept_id": "mesh:D000072837",
+   "origin": 1311,
+   "modal_F_F2": 1311
+  },
+  {
+   "concept_id": "mesh:D000073569",
+   "origin": 2746,
+   "modal_F_F2": 2746
+  },
+  {
+   "concept_id": "mesh:D000074623",
+   "origin": 2712,
+   "modal_F_F2": 2712
+  },
+  {
+   "concept_id": "mesh:D042762",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000070837",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000074289",
+   "origin": 2728,
+   "modal_F_F2": 2728
+  },
+  {
+   "concept_id": "mesh:D000073556",
+   "origin": 1110,
+   "modal_F_F2": 1110
+  },
+  {
+   "concept_id": "mesh:D000073846",
+   "origin": 2737,
+   "modal_F_F2": 2737
+  },
+  {
+   "concept_id": "mesh:D000072758",
+   "origin": 3306,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D000075402",
+   "origin": 2804,
+   "modal_F_F2": 2804
+  },
+  {
+   "concept_id": "mesh:D000072197",
+   "origin": 2737,
+   "modal_F_F2": 2737
+  },
+  {
+   "concept_id": "mesh:D042063",
+   "origin": 2303,
+   "modal_F_F2": 2303
+  },
+  {
+   "concept_id": "mesh:D000071736",
+   "origin": 2809,
+   "modal_F_F2": 2809
+  },
+  {
+   "concept_id": "mesh:D000070736",
+   "origin": 1106,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D044063",
+   "origin": 1102,
+   "modal_F_F2": 1102
+  },
+  {
+   "concept_id": "mesh:D000071072",
+   "origin": 2739,
+   "modal_F_F2": 2739
+  },
+  {
+   "concept_id": "mesh:D000070376",
+   "origin": 2002,
+   "modal_F_F2": 2002
+  },
+  {
+   "concept_id": "mesh:D000070416",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D042083",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000073931",
+   "origin": 2307,
+   "modal_F_F2": 2307
+  },
+  {
+   "concept_id": "mesh:D000069797",
+   "origin": 2737,
+   "modal_F_F2": 2737
+  },
+  {
+   "concept_id": "mesh:D000075389",
+   "origin": 2804,
+   "modal_F_F2": 2804
+  },
+  {
+   "concept_id": "mesh:D000072640",
+   "origin": 2403,
+   "modal_F_F2": 2403
+  },
+  {
+   "concept_id": "mesh:D000074025",
+   "origin": 2809,
+   "modal_F_F2": 2809
+  },
+  {
+   "concept_id": "mesh:D000071799",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000074502",
+   "origin": 2743,
+   "modal_F_F2": 2743
+  },
+  {
+   "concept_id": "mesh:D000076104",
+   "origin": 2716,
+   "modal_F_F2": 2716
+  },
+  {
+   "concept_id": "mesh:D043372",
+   "origin": 2303,
+   "modal_F_F2": 2204
+  },
+  {
+   "concept_id": "mesh:D042401",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D041841",
+   "origin": 1110,
+   "modal_F_F2": 1110
+  },
+  {
+   "concept_id": "mesh:D000070584",
+   "origin": 2406,
+   "modal_F_F2": 2406
+  },
+  {
+   "concept_id": "mesh:D000075102",
+   "origin": 2730,
+   "modal_F_F2": 2730
+  },
+  {
+   "concept_id": "mesh:D000072139",
+   "origin": 2303,
+   "modal_F_F2": 2303
+  },
+  {
+   "concept_id": "mesh:D000073183",
+   "origin": 2748,
+   "modal_F_F2": 2748
+  },
+  {
+   "concept_id": "mesh:D000074049",
+   "origin": 1306,
+   "modal_F_F2": 1306
+  },
+  {
+   "concept_id": "mesh:D000075282",
+   "origin": 3312,
+   "modal_F_F2": 3312
+  },
+  {
+   "concept_id": "mesh:D000072666",
+   "origin": 2739,
+   "modal_F_F2": 2739
+  },
+  {
+   "concept_id": "mesh:D047232",
+   "origin": 1305,
+   "modal_F_F2": 1305
+  },
+  {
+   "concept_id": "mesh:D000075703",
+   "origin": 1311,
+   "modal_F_F2": 1311
+  },
+  {
+   "concept_id": "mesh:D000070660",
+   "origin": 2736,
+   "modal_F_F2": 2736
+  },
+  {
+   "concept_id": "mesh:D000071225",
+   "origin": 2713,
+   "modal_F_F2": 2713
+  },
+  {
+   "concept_id": "mesh:D000075242",
+   "origin": 2716,
+   "modal_F_F2": 2716
+  },
+  {
+   "concept_id": "mesh:D045164",
+   "origin": 2716,
+   "modal_F_F2": 2716
+  },
+  {
+   "concept_id": "mesh:D000075162",
+   "origin": 2739,
+   "modal_F_F2": 2739
+  },
+  {
+   "concept_id": "mesh:D000069896",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000075523",
+   "origin": 2739,
+   "modal_F_F2": 2739
+  },
+  {
+   "concept_id": "mesh:D000074010",
+   "origin": 2406,
+   "modal_F_F2": 2406
+  },
+  {
+   "concept_id": "mesh:D000074962",
+   "origin": 2723,
+   "modal_F_F2": 2723
+  },
+  {
+   "concept_id": "mesh:D000075368",
+   "origin": 1312,
+   "modal_F_F2": 1312
+  },
+  {
+   "concept_id": "mesh:D000073182",
+   "origin": 1313,
+   "modal_F_F2": 1313
+  },
+  {
+   "concept_id": "mesh:D000076206",
+   "origin": 3600,
+   "modal_F_F2": 3600
+  }
+ ]
+}

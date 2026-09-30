@@ -1,0 +1,51 @@
+{
+ "label": "host-vocabulary",
+ "scope": "pooled screen + held-out; partially pre-specified (held-out G rows were not in the frozen heldout_spec; screen G rows were not blind)",
+ "inputs": {
+  "G1_multi_irr_sd": 1.280869572262552,
+  "G1_multi_ci": [
+   1.1051025205859983,
+   1.4845924523618714
+  ],
+  "G1_multi_G": 161,
+  "G1_mde_pooled_projected": 1.15,
+  "G1_status": "positive (CI excludes 1)",
+  "G3_combined_pct_logirr_removed": -7.311438341470122,
+  "G3_combined_pct_ci": [
+   -27.54624546110414,
+   6.727250032764512
+  ],
+  "G2a_reading": "host-vocabulary (both)",
+  "G2a_NAT": {
+   "irr_sd": 1.1137734295865298,
+   "irr_sd_lo": 1.0462677430741647,
+   "irr_sd_hi": 1.1856346147192731,
+   "p": 0.0008126445915854084
+  },
+  "G2a_ADJ": {
+   "irr_sd": 1.319209866140774,
+   "irr_sd_lo": 1.1952755699564057,
+   "irr_sd_hi": 1.4559945126182339,
+   "p": 9.088923220941638e-08
+  }
+ },
+ "artefact_conditions": {
+  "G1_multi_irr_lt_1.10_and_ci_includes_1": false,
+  "G1_mde_le_1.20": true,
+  "G3_combined_removes_gt_50pct": false,
+  "G1_G_ge_30": true
+ },
+ "placebo_host_qualifier": {
+  "size": {
+   "PASS": true,
+   "share_pos_sig": 0.02,
+   "median_irr_sd": 0.9736516976814262
+  },
+  "prox": {
+   "PASS": true,
+   "share_pos_sig": 0.04,
+   "median_irr_sd": 1.0147239336416805
+  }
+ },
+ "rule": "computed on the POOLED rows: 'artefact' if G1-multi IRR/SD < 1.10 with a CI including 1 AND the G1 MDE <= 1.20 AND G3(combined) removes > 50% of the log-IRR; otherwise the G2a reading ('grafting' / 'host-vocabulary'; 'unresolved' if G2a is unresolved). G1 null with MDE > 1.20 -> G1 'inconclusive (underpowered)', cannot trigger 'artefact'. Placebo-host result attached as a qualifier. Label is 'pooled, partially pre-specified'."
+}

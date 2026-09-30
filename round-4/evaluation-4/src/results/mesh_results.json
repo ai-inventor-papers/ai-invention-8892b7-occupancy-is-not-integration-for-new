@@ -1,0 +1,893 @@
+{
+ "mesh_spec_sha256": "59939626284fb9d8cad6c80e344652ff976e09362027f95dc1bef46d2a685e22",
+ "typology": {
+  "n": 191,
+  "type_shares": {
+   "broad from the start (rapid interdisciplinary)": {
+    "k": 136,
+    "n": 191,
+    "share": 0.7120418848167539,
+    "wilson_ci": [
+     0.6441433802305865,
+     0.7715792306812315
+    ]
+   },
+   "localised": {
+    "k": 55,
+    "n": 191,
+    "share": 0.2879581151832461,
+    "wilson_ci": [
+     0.22842076931876848,
+     0.3558566197694136
+    ]
+   }
+  },
+  "distances": {
+   "n": 191,
+   "d1_median": 1.193118858755476,
+   "d1_iqr": [
+    0.8703577550467914,
+    1.7157730674675928
+   ],
+   "margin_median": 0.337525237821808,
+   "margin_iqr": [
+    0.23264008647017842,
+    0.4133415696256937
+   ],
+   "ambiguous_margin_lt_0_05": {
+    "k": 6,
+    "n": 191,
+    "share": 0.031413612565445025,
+    "wilson_ci": [
+     0.014475082006837423,
+     0.06682927165716974
+    ]
+   },
+   "out_of_support_d1_gt_screen_p95": {
+    "k": 24,
+    "n": 191,
+    "share": 0.1256544502617801,
+    "wilson_ci": [
+     0.08591217476948011,
+     0.18015778374422398
+    ]
+   },
+   "by_type": {
+    "broad from the start (rapid interdisciplinary)": {
+     "n": 136,
+     "d1_median": 1.4289506900635365,
+     "margin_median": 0.33357347366120277
+    },
+    "localised": {
+     "n": 55,
+     "d1_median": 0.720164070680968,
+     "margin_median": 0.4252301352609365
+    }
+   },
+   "ks_vs_screen_d1": {
+    "stat": 0.4329998444870665,
+    "p": 4.399041785651915e-17
+   }
+  },
+  "newcombe_broad_vs_screen": {
+   "diff": 0.38530921154942716,
+   "ci": [
+    0.28964680536573,
+    0.47049138368239457
+   ]
+  },
+  "newcombe_broad_vs_heldout": {
+   "diff": 0.3620418848167539,
+   "ci": [
+    0.24326564719577426,
+    0.4669338125315574
+   ]
+  },
+  "rule_parity_subset": {
+   "n": 172,
+   "broad": {
+    "k": 122,
+    "n": 172,
+    "share": 0.7093023255813954,
+    "wilson_ci": [
+     0.6374586308120671,
+     0.7720011203641588
+    ]
+   }
+  },
+  "crosstabs": {
+   "branch_group": {
+    "n": 191,
+    "chi2": 22.835192793882044,
+    "p_perm": 0.00029997000299970003,
+    "cramers_v": 0.3457686845479823,
+    "rows": [
+     "0",
+     "1"
+    ],
+    "cols": [
+     "A+B",
+     "C",
+     "D",
+     "E",
+     "F+H-N",
+     "G"
+    ],
+    "table": [
+     [
+      34,
+      7,
+      51,
+      25,
+      13,
+      6
+     ],
+     [
+      13,
+      15,
+      11,
+      7,
+      4,
+      5
+     ]
+    ],
+    "std_residuals": [
+     [
+      0.198,
+      -4.337,
+      2.339,
+      0.948,
+      0.502,
+      -1.257
+     ],
+     [
+      -0.198,
+      4.337,
+      -2.339,
+      -0.948,
+      -0.502,
+      1.257
+     ]
+    ],
+    "min_expected": 3.167539267015707,
+    "cramers_v_boot_ci": [
+     0.23194234565376903,
+     0.5148049828878695
+    ],
+    "p_holm": 0.0005999400059994001
+   },
+   "F_band": {
+    "n": 191,
+    "chi2": 0.5853123766146444,
+    "p_perm": 0.7519248075192481,
+    "cramers_v": 0.05535758940550712,
+    "rows": [
+     "0",
+     "1"
+    ],
+    "cols": [
+     "2005-07",
+     "2008-11",
+     "2012-16"
+    ],
+    "table": [
+     [
+      59,
+      54,
+      23
+     ],
+     [
+      24,
+      24,
+      7
+     ]
+    ],
+    "std_residuals": [
+     [
+      -0.032,
+      -0.5,
+      0.72
+     ],
+     [
+      0.032,
+      0.5,
+      -0.72
+     ]
+    ],
+    "min_expected": 8.638743455497382,
+    "cramers_v_boot_ci": [
+     0.022292400240390236,
+     0.2167389343308862
+    ],
+    "p_holm": 0.7519248075192481
+   }
+  },
+  "lower_bound_note": "178/191 MeSH concepts have PubMed-route works only, which deflates subfield breadth; the MeSH BROAD share is a LOWER BOUND on the share that would be typed broad under full retrieval",
+  "coverage_bias": {
+   "n": 13,
+   "switch": {
+    "k": 1,
+    "n": 13,
+    "share": 0.07692307692307693,
+    "wilson_ci": [
+     0.013710421090225994,
+     0.333139511713605
+    ]
+   },
+   "broad_all_works": 9,
+   "broad_pubmed_only": 8,
+   "direction": [
+    "localised -> broad from the start (rapid interdisciplinary)"
+   ],
+   "channel_deflation": {
+    "H": {
+     "mean_all": 1.4368370032280622,
+     "mean_pubmed_only": 1.187033164530027,
+     "mean_diff_all_minus_pub": 0.24980383869803527
+    },
+    "H_rar": {
+     "mean_all": 1.0427189087446753,
+     "mean_pubmed_only": 0.9361529281065583,
+     "mean_diff_all_minus_pub": 0.0899444678868904
+    },
+    "RS": {
+     "mean_all": 0.3482998904212519,
+     "mean_pubmed_only": 0.3047403525393932,
+     "mean_diff_all_minus_pub": 0.043559537881858644
+    },
+    "active_subfields_3y": {
+     "mean_all": 8.246575342465754,
+     "mean_pubmed_only": 4.831050228310502,
+     "mean_diff_all_minus_pub": 3.415525114155251
+    }
+   }
+  }
+ },
+ "leadlag": {
+  "primary": {
+   "definition": "expansion: wdeg_pctl_focal +10 in 2 consecutive years (y >= first_attach+1); diffusion: frozen",
+   "n_concepts": 191,
+   "category_counts": {
+    "diffusion_only": 97,
+    "neither": 71,
+    "expansion_only": 10,
+    "expansion_first": 9,
+    "diffusion_first": 3,
+    "same_year": 1
+   },
+   "category_counts_incl_from_start": {
+    "diffusion_only": 93,
+    "expansion_first": 44,
+    "neither": 28,
+    "expansion_only": 22,
+    "diffusion_first": 3,
+    "same_year": 1
+   },
+   "exp_from_start": 47,
+   "diff_from_start": 31,
+   "n_both_onsets": 13,
+   "share_expansion_first": 0.6923076923076923,
+   "share_expansion_first_ci": [
+    0.38461538461538464,
+    0.9230769230769231
+   ],
+   "share_incl_from_start": 0.9166666666666666,
+   "n_both_incl_from_start": 48
+  },
+  "null": {
+   "draws": 1000,
+   "null_mean": 0.6243846153846154,
+   "null_ci": [
+    0.3076923076923077,
+    0.8461538461538461
+   ],
+   "p_one_sided_greater": 0.4255744255744256
+  },
+  "grid": [
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.1,
+    "n_both": 43,
+    "share_expansion_first": 0.7209302325581395,
+    "ci_lo": 0.5813953488372093,
+    "ci_hi": 0.8604651162790697,
+    "share_diffusion_first": 0.18604651162790697
+   },
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.2,
+    "n_both": 36,
+    "share_expansion_first": 0.6944444444444444,
+    "ci_lo": 0.5277777777777778,
+    "ci_hi": 0.8333333333333334,
+    "share_diffusion_first": 0.2222222222222222
+   },
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.3,
+    "n_both": 28,
+    "share_expansion_first": 0.6428571428571429,
+    "ci_lo": 0.4642857142857143,
+    "ci_hi": 0.8214285714285714,
+    "share_diffusion_first": 0.25
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.1,
+    "n_both": 14,
+    "share_expansion_first": 0.6428571428571429,
+    "ci_lo": 0.35714285714285715,
+    "ci_hi": 0.8589285714285697,
+    "share_diffusion_first": 0.2857142857142857
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.2,
+    "n_both": 13,
+    "share_expansion_first": 0.6923076923076923,
+    "ci_lo": 0.45961538461538476,
+    "ci_hi": 0.9230769230769231,
+    "share_diffusion_first": 0.23076923076923078
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.3,
+    "n_both": 10,
+    "share_expansion_first": 0.6,
+    "ci_lo": 0.3,
+    "ci_hi": 0.9,
+    "share_diffusion_first": 0.3
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.1,
+    "n_both": 3,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.2,
+    "n_both": 2,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.3,
+    "n_both": 3,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.1,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.2,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.3,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   }
+  ],
+  "secondary": {
+   "cumulative_2yr": {
+    "n_both": 29,
+    "share_expansion_first": 0.8275862068965517,
+    "ci": [
+     0.6896551724137931,
+     0.9655172413793104
+    ],
+    "counts": {
+     "diffusion_only": 81,
+     "neither": 60,
+     "expansion_first": 24,
+     "expansion_only": 21,
+     "diffusion_first": 3,
+     "same_year": 2
+    }
+   },
+   "all_node_wdeg_pctl": {
+    "n_both": 0,
+    "share_expansion_first": null,
+    "ci": [
+     null,
+     null
+    ],
+    "counts": {
+     "diffusion_only": 110,
+     "neither": 80,
+     "expansion_only": 1
+    }
+   }
+  },
+  "granger_panel": {
+   "dH_on_lags": {
+    "n": 2179,
+    "n_concepts": 185,
+    "coefs": {
+     "dP_l1": {
+      "b": -0.0014349523055138423,
+      "se": 0.0005955377776346126,
+      "p": 0.015974099803119403,
+      "ci": [
+       -0.0026021849011107065,
+       -0.0002677197099169783
+      ]
+     },
+     "dP_l2": {
+      "b": 0.0009850978237764922,
+      "se": 0.0006862702999646637,
+      "p": 0.15116259086506556,
+      "ci": [
+       -0.00035996724781374814,
+       0.0023301628953667324
+      ]
+     },
+     "dH_l1": {
+      "b": -0.06451687817956059,
+      "se": 0.03259280534302507,
+      "p": 0.04776174124354084,
+      "ci": [
+       -0.12839760280701437,
+       -0.0006361535521068051
+      ]
+     },
+     "dH_l2": {
+      "b": -0.01544467199240021,
+      "se": 0.024280155827356344,
+      "p": 0.5247095042271277,
+      "ci": [
+       -0.06303290295303896,
+       0.03214355896823854
+      ]
+     }
+    }
+   },
+   "dP_on_lags": {
+    "n": 2205,
+    "n_concepts": 187,
+    "coefs": {
+     "dH_l1": {
+      "b": -0.06497144058576278,
+      "se": 1.090224246536328,
+      "p": 0.9524785465495936,
+      "ci": [
+       -2.201771698869283,
+       2.071828817697757
+      ]
+     },
+     "dH_l2": {
+      "b": 1.195815736112229,
+      "se": 0.8339672916231646,
+      "p": 0.1516042116879932,
+      "ci": [
+       -0.438730119753586,
+       2.8303615919780443
+      ]
+     },
+     "dP_l1": {
+      "b": 0.08480158639549364,
+      "se": 0.02741360975321091,
+      "p": 0.001978692985663716,
+      "ci": [
+       0.031071898592964296,
+       0.13853127419802297
+      ]
+     },
+     "dP_l2": {
+      "b": 0.07098008092527693,
+      "se": 0.026074705685475555,
+      "p": 0.006485251728443941,
+      "ci": [
+       0.019874596874263052,
+       0.1220855649762908
+      ]
+     }
+    }
+   }
+  },
+  "pct_alt_reference_sensitivity": "NOT RUN: MeSH strengths s come from the MeSH background co-occurrence graph (post-stratified 259,716-work sample), whose strength scale is not the main-pool X3 snapshot scale; placing them into sealed/pct_alt_reference.npz would compare numbers from different graphs"
+ },
+ "roles": {
+  "necessary_condition": {
+   "n_concept_years": 3589,
+   "max_z_within": -0.19758808929416877,
+   "q99": -0.20487379963674796,
+   "median": -0.35161777493081015,
+   "share_ge_1": 0.0,
+   "share_ge_2_5": 0.0,
+   "core_growing_can_fire": false
+  },
+  "n_concept_years": 3398,
+  "n_concepts": 191,
+  "role_shares": {
+   "FOUNDER": {
+    "k": 0,
+    "n": 3398,
+    "share": 0.0,
+    "wilson_ci": [
+     0.0,
+     0.0011292292506068973
+    ]
+   },
+   "CORE_GROWING": {
+    "k": 0,
+    "n": 3398,
+    "share": 0.0,
+    "wilson_ci": [
+     0.0,
+     0.0011292292506068973
+    ]
+   },
+   "BRIDGE": {
+    "k": 2987,
+    "n": 3398,
+    "share": 0.8790464979399647,
+    "wilson_ci": [
+     0.8676527436193422,
+     0.8895841914749594
+    ]
+   },
+   "MIGRANT": {
+    "k": 2,
+    "n": 3398,
+    "share": 0.0005885815185403178,
+    "wilson_ci": [
+     0.00016142512250675407,
+     0.0021436378782465743
+    ]
+   },
+   "STAYER": {
+    "k": 6,
+    "n": 3398,
+    "share": 0.0017657445556209534,
+    "wilson_ci": [
+     0.0008094999912295552,
+     0.003847230509816635
+    ]
+   },
+   "OTHER": {
+    "k": 403,
+    "n": 3398,
+    "share": 0.11859917598587405,
+    "wilson_ci": [
+     0.10815660974303816,
+     0.12990312016207461
+    ]
+   }
+  },
+  "GA_classes": {
+   "R1_ultra_peripheral": {
+    "k": 75,
+    "n": 3398,
+    "share": 0.02207180694526192,
+    "wilson_ci": [
+     0.017645082711487202,
+     0.027577912169610856
+    ]
+   },
+   "R2_peripheral": {
+    "k": 555,
+    "n": 3398,
+    "share": 0.1633313713949382,
+    "wilson_ci": [
+     0.15128341434527542,
+     0.17613968057096607
+    ]
+   },
+   "R3_connector": {
+    "k": 1349,
+    "n": 3398,
+    "share": 0.3969982342554444,
+    "wilson_ci": [
+     0.38067251422016457,
+     0.41355657950421
+    ]
+   },
+   "R4_kinless": {
+    "k": 1419,
+    "n": 3398,
+    "share": 0.4175985874043555,
+    "wilson_ci": [
+     0.40111911467360994,
+     0.43426416030588977
+    ]
+   }
+  },
+  "flag_rates": {
+   "FOUNDER": {
+    "k": 0,
+    "n": 3398,
+    "share": 0.0,
+    "wilson_ci": [
+     0.0,
+     0.0011292292506068973
+    ]
+   },
+   "CORE_GROWING": {
+    "k": 0,
+    "n": 3398,
+    "share": 0.0,
+    "wilson_ci": [
+     0.0,
+     0.0011292292506068973
+    ]
+   },
+   "BRIDGE": {
+    "k": 2987,
+    "n": 3398,
+    "share": 0.8790464979399647,
+    "wilson_ci": [
+     0.8676527436193422,
+     0.8895841914749594
+    ]
+   },
+   "MIGRANT": {
+    "k": 80,
+    "n": 3398,
+    "share": 0.023543260741612712,
+    "wilson_ci": [
+     0.018957882676887777,
+     0.029204696579576354
+    ]
+   },
+   "STAYER": {
+    "k": 6,
+    "n": 3398,
+    "share": 0.0017657445556209534,
+    "wilson_ci": [
+     0.0008094999912295552,
+     0.003847230509816635
+    ]
+   }
+  },
+  "transition_counts": {
+   "BRIDGE": {
+    "BRIDGE": 2566,
+    "MIGRANT": 2,
+    "OTHER": 269,
+    "STAYER": 4
+   },
+   "MIGRANT": {
+    "BRIDGE": 1,
+    "MIGRANT": 0,
+    "OTHER": 0,
+    "STAYER": 0
+   },
+   "OTHER": {
+    "BRIDGE": 236,
+    "MIGRANT": 0,
+    "OTHER": 123,
+    "STAYER": 1
+   },
+   "STAYER": {
+    "BRIDGE": 2,
+    "MIGRANT": 0,
+    "OTHER": 2,
+    "STAYER": 1
+   }
+  },
+  "founder_wilson_upper": 0.0011292292506068973,
+  "core_growing_wilson_upper": 0.0011292292506068973,
+  "seed_stability": "NOT ASSESSED (5-seed Leiden rerun on the MeSH background graph not run within the time budget; roles use the single best-of-5 partition of art_yWUkgWWKyq_h)",
+  "construction": "dom = art_yWUkgWWKyq_h module_local (weighted focal attachment) mapped to persistent ids by the frozen alluvial_from(0.3, 5); P and wmz = that artifact's weighted P and z_within; n_comm_25pct from UNWEIGHTED neighbour counts per community (focal neighbour weights are not stored); founder_rank = rank of focal s among the dominant community's node strengths W_i",
+  "caveat": "descriptive population contrast, not a replication of the main-pool role shares (different substrate and attachment rule)"
+ },
+ "patterns": {
+  "frequencies": {
+   "screen": {
+    "INCUBATION_THEN_EXPANSION": {
+     "k": 0,
+     "n": 202,
+     "freq": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.018662221411437238
+     ]
+    },
+    "GRADUAL_CENTRALISATION": {
+     "k": 7,
+     "n": 202,
+     "freq": 0.0346534653465346,
+     "wilson_ci": [
+      0.016885669232688215,
+      0.06979006158587714
+     ]
+    },
+    "EARLY_BRIDGING": {
+     "k": 141,
+     "n": 202,
+     "freq": 0.698019801980198,
+     "wilson_ci": [
+      0.6314957210289754,
+      0.7571529041546136
+     ]
+    },
+    "INCUBATION_THEN_EXPANSION_ageadj": {
+     "k": 3,
+     "n": 202,
+     "freq": 0.0148514851485148,
+     "wilson_ci": [
+      0.00506347475833635,
+      0.04274739354187007
+     ]
+    },
+    "EARLY_BRIDGING_aligned": {
+     "k": 145,
+     "n": 202,
+     "freq": 0.7178217821782178,
+     "wilson_ci": [
+      0.6521399766816534,
+      0.7753735110202946
+     ]
+    }
+   },
+   "heldout": {
+    "INCUBATION_THEN_EXPANSION": {
+     "k": 0,
+     "n": 100,
+     "freq": 0.0,
+     "wilson_ci": [
+      0.0,
+      0.03699349876899627
+     ]
+    },
+    "GRADUAL_CENTRALISATION": {
+     "k": 5,
+     "n": 100,
+     "freq": 0.05,
+     "wilson_ci": [
+      0.021543679017992173,
+      0.1117504698741045
+     ]
+    },
+    "EARLY_BRIDGING": {
+     "k": 71,
+     "n": 100,
+     "freq": 0.71,
+     "wilson_ci": [
+      0.6146110874554646,
+      0.7898516430615571
+     ]
+    },
+    "INCUBATION_THEN_EXPANSION_ageadj": {
+     "k": 1,
+     "n": 100,
+     "freq": 0.01,
+     "wilson_ci": [
+      0.0017674320446096452,
+      0.05448619674900669
+     ]
+    },
+    "EARLY_BRIDGING_aligned": {
+     "k": 63,
+     "n": 100,
+     "freq": 0.63,
+     "wilson_ci": [
+      0.5322052950281534,
+      0.7181763952919077
+     ]
+    }
+   },
+   "mesh": {
+    "EARLY_BRIDGING": {
+     "k": 112,
+     "n": 191,
+     "freq": 0.5863874345549738,
+     "wilson_ci": [
+      0.515512560910282,
+      0.6538559102019401
+     ]
+    },
+    "INCUBATION_THEN_EXPANSION": {
+     "k": 32,
+     "n": 191,
+     "freq": 0.16753926701570682,
+     "wilson_ci": [
+      0.1212477438998506,
+      0.22694026121371874
+     ]
+    },
+    "GRADUAL_CENTRALISATION": {
+     "k": 3,
+     "n": 191,
+     "freq": 0.015706806282722512,
+     "wilson_ci": [
+      0.005355862086687792,
+      0.0451542241023699
+     ]
+    }
+   }
+  },
+  "newcombe": {
+   "EARLY_BRIDGING|screen-mesh": {
+    "diff": 0.1116323674252242,
+    "ci": [
+     0.016882968733042,
+     0.20393605904652884
+    ]
+   },
+   "EARLY_BRIDGING|heldout-mesh": {
+    "diff": 0.12361256544502619,
+    "ci": [
+     0.006774900958978217,
+     0.2303811592064004
+    ]
+   },
+   "EARLY_BRIDGING|heldout-screen": {
+    "diff": 0.01198019801980199,
+    "ci": [
+     -0.10025067299703944,
+     0.1159116092775884
+    ]
+   },
+   "INCUBATION_THEN_EXPANSION|screen-mesh": {
+    "diff": -0.16753926701570682,
+    "ci": [
+     -0.22694026121371874,
+     -0.11762750867766229
+    ]
+   },
+   "INCUBATION_THEN_EXPANSION|heldout-mesh": {
+    "diff": -0.16753926701570682,
+    "ci": [
+     -0.22694026121371874,
+     -0.10828199688319415
+    ]
+   },
+   "INCUBATION_THEN_EXPANSION|heldout-screen": {
+    "diff": 0.0,
+    "ci": [
+     -0.018662221411437238,
+     0.03699349876899627
+    ]
+   },
+   "GRADUAL_CENTRALISATION|screen-mesh": {
+    "diff": 0.018946659063812144,
+    "ci": [
+     -0.015445854583609777,
+     0.055576188695463186
+    ]
+   },
+   "GRADUAL_CENTRALISATION|heldout-mesh": {
+    "diff": 0.03429319371727749,
+    "ci": [
+     -0.0066569298487869424,
+     0.09690519396820473
+    ]
+   },
+   "GRADUAL_CENTRALISATION|heldout-screen": {
+    "diff": 0.015346534653465346,
+    "ci": [
+     -0.02986787233277783,
+     0.07960239126137234
+    ]
+   }
+  },
+  "note": "MeSH pattern flags from art_yWUkgWWKyq_h (reproduced by exp8); aligned/age-adjusted variants exist only for main-pool populations"
+ }
+}

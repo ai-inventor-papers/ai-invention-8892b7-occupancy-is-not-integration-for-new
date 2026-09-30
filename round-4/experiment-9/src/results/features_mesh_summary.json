@@ -1,0 +1,78 @@
+{
+ "n_events": 2267,
+ "n_concepts": 187,
+ "n_g1_events": 880,
+ "leakage_test": {
+  "main_identical": true,
+  "g1_identical": true,
+  "rule": "all features recomputed after deleting every c-paper with year > e (G1: > t+1)"
+ },
+ "tag_weighted_cov": 0.832744685186443,
+ "tag_weighted_cov_exact_only": 0.804863139305848,
+ "cov_by_host_domain": {
+  "1": 0.8324081163859112,
+  "4": 0.8329297820823245
+ },
+ "nat_source_counts": {
+  "exact": 1654,
+  "exact+bg": 613
+ },
+ "mean_A_cont": 0.058249036711901944,
+ "sd_A_cont": 0.059412170482204756,
+ "mean_CT": 0.5496236509891413,
+ "sd_CT": 0.2527847311110297,
+ "G2_means": {
+  "NATIVE": 0.05463461572331533,
+  "ADJACENT": 0.1750857512756322,
+  "FOREIGN": 0.7702796330010525
+ },
+ "mean_A_placebo": 0.0052054657306838574,
+ "placebo_missing": 0,
+ "topic_controls": {
+  "mean_topic_score_missing": 0,
+  "boundary_share_missing": 0
+ },
+ "missing": {
+  "A_cont": 0,
+  "CT": 0,
+  "prox_od": 0,
+  "RD": 2,
+  "demic": 16,
+  "mom_d": 0
+ },
+ "ranges": {
+  "A_cont": [
+   0.00011233550871937519,
+   0.4262890107076725
+  ],
+  "CT": [
+   0.0,
+   1.0
+  ],
+  "prox_od": [
+   0.004330098628997803,
+   0.808195635676384
+  ],
+  "RD": [
+   0.03355012171798282,
+   0.7964361170927684
+  ],
+  "log_W1": [
+   0.6931471805599453,
+   7.244941546337007
+  ],
+  "log_centrality": [
+   2.5649493574615367,
+   7.379008127628304
+  ]
+ },
+ "RD_basis_counts": {
+  "before_e": 2253,
+  "up_to_e": 14
+ },
+ "union_c_paper_set": {
+  "n_events": 2619,
+  "n_concepts": 188,
+  "tag_weighted_cov": 0.8150152977171099
+ }
+}

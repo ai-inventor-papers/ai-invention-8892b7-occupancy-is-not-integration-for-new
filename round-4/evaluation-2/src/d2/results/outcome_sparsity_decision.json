@@ -1,0 +1,8 @@
+{
+ "n_primary_sample": 1746,
+ "Y_strict_zero_share": 0.4936998854524628,
+ "Y_lenient_zero_share": 0.41408934707903783,
+ "Y_all_zero_share": 0.38831615120274915,
+ "rule": "switch primary to Y_lenient iff Y_strict zero share > 0.85 (decided before any coefficient)",
+ "switch_to_lenient": false
+}

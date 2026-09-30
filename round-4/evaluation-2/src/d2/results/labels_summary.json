@@ -1,0 +1,74 @@
+{
+ "benchmark": {
+  "n_reference_events": 1642,
+  "n_hosts_with_own_benchmark": 149,
+  "n_fields_with_benchmark": 26,
+  "global_median_A_t03": 0.0,
+  "share_host_benchmarks_zero": 0.9865771812080537
+ },
+ "labels": {
+  "screen": {
+   "n": 2215,
+   "anchored_share": 0.1530474040632054,
+   "basis": {
+    "clopper_pearson": 2114,
+    "bootstrap_papers": 100,
+    "no_profiled_tags": 1
+   },
+   "benchmark_level": {
+    "host": 2081,
+    "field": 134
+   }
+  },
+  "heldout": {
+   "n": 1369,
+   "anchored_share": 0.15339663988312638,
+   "basis": {
+    "clopper_pearson": 1291,
+    "bootstrap_papers": 77,
+    "no_profiled_tags": 1
+   },
+   "benchmark_level": {
+    "host": 1263,
+    "field": 106
+   }
+  }
+ },
+ "establishment_by_label_screen_MAIN": {
+  "n_anchored": 288,
+  "n_unanchored": 1458,
+  "EST_bin": {
+   "anchored": 0.4375,
+   "unanchored": 0.2030178326474623,
+   "diff": 0.2344821673525377,
+   "ci95": [
+    0.1764617948157275,
+    0.2989188842554924
+   ]
+  },
+  "Y_strict_per_entry_paper": {
+   "anchored": 6.292369378306878,
+   "unanchored": 2.03907178783722,
+   "diff": 4.253297590469658,
+   "ci95": [
+    2.5737882850058393,
+    6.140151383094149
+   ]
+  }
+ },
+ "occupancy": {
+  "n_present_e5": 630,
+  "share_anchored_among_present_e5": 0.2571428571428571,
+  "share_anchored_all": 0.16494845360824742
+ },
+ "integration_entropy": {
+  "n_concepts": 126,
+  "mean_anchored_entropy_share": 0.34009923255956864,
+  "mean_anchored_event_share": 0.219905213693462,
+  "note": "W2 host-subfield entropy (Y_all over the concept's host entry events) and the share carried by anchored host edges"
+ },
+ "d3_export": {
+  "screen_concepts": 227,
+  "heldout_concepts_sealed": 112
+ }
+}

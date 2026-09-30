@@ -1,0 +1,38 @@
+{
+ "n_rows": 2638,
+ "screen_or_reference_rows": 2638,
+ "heldout_rows_sealed": 0,
+ "native_share_tags_main_kw5_at_0.5": 0.008956560680698611,
+ "native_share_tags_main_kw5_at_0.3": 0.0316166592028661,
+ "fallback6_triggered": true,
+ "mean_A_cont": 0.043841397045472144,
+ "sd_A_cont": 0.05332126310632576,
+ "mean_A": 0.007818138013184251,
+ "median_A": 0.0,
+ "mean_CT": 0.6164347688157061,
+ "mean_cov_event": 0.7661777011577116,
+ "median_cov_event": 0.8,
+ "tag_weighted_cov": 0.7532467532467533,
+ "share_events_cov_ge_0.6": 0.8438343834383438,
+ "A0_sd_across_hosts": 0.013560753285580356,
+ "RD_basis_counts": {
+  "before_e": 2184,
+  "up_to_e": 38
+ },
+ "demic_missing": 8,
+ "mom_missing": 0,
+ "prox_missing": 0,
+ "partition_means_t05": {
+  "graft": 0.006165252437133263,
+  "native_companion": 0.0016528855760509894,
+  "package": 0.6949014943137244,
+  "third_party": 0.2972803676730912,
+  "unknown_share": 0.23382229884228845
+ },
+ "partition_means_t03": {
+  "graft": 0.017962523454260023,
+  "native_companion": 0.00889436226428363,
+  "package": 0.687660017625492,
+  "third_party": 0.2854830966559645
+ }
+}

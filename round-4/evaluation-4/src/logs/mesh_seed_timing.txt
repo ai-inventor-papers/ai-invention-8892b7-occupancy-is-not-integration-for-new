@@ -1,0 +1,1 @@
+MeSH leiden_single timing: 2015 snapshot (27,670 nodes, 481,059 edges) = 99.0 s per seed -> 5 seeds x 25 years ~ 206 CPU-min (~52 min on 4 cores) > 30-min budget -> MeSH seed stability NOT ASSESSED (plan rule)

@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "method_name": "G4 MeSH replication of the D2 host-entry grafting test (PPML)",
+    "description": "One example per MeSH host-entry event (concept c enters PubMed-covered non-origin subfield d in year e). input = W1 features; output = Y_strict (W2 host papers by author-disjoint newcomers). predict_b...",
+    "oos": {
+      "n_events": 2249,
+      "n_concepts": 187,
+      "mean_deviance_baseline": 3.9876273551497357,
+      "mean_deviance_method": 3.841735096729712,
+      "deviance_diff_method_minus_baseline": -0.1458922584200235,
+      "deviance_diff_ci95_concept_bootstrap": [
+        -0.30599122150313196,
+        -0.007987409677256498
+      ],
+      "spearman_baseline": 0.2209356408275581,
+      "spearman_method": 0.2856364370241476,
+      "note": "grouped-by-concept 5-fold out-of-fold predictions; descriptive predictive check, not the inferential test"
+    },
+    "g4_verdict": "REPLICATED",
+    "R2_irr_per_sd_A_cont": 1.2329838323526203,
+    "R2_ci95": [
+      1.1167392468870916,
+      1.3613286495308963
+    ],
+    "spec_sha256": "b7cdabf8144581ab7903ea29c3a8e9d03e047e45e7f343c0dec1cb4a05a47c91"
+  },
+  "datasets": [
+    {
+      "dataset": "g4_mesh_host_entry_events",
+      "examples": [
+        {
+          "input": "{\"concept_id\":\"mesh:D000068099\",\"o\":3203,\"d\":1307,\"e\":2014,\"A_cont\":0.024248,\"A_cont_lo\":0.019839,\"A_cont_hi\":0.201657,\"A_cont_exact\":0.027279,\"CT\":0.454545,\"CT_any\":0.454545,\"NATIVE\":0.0,\"ADJACENT\":0...",
+          "output": "0",
+          "predict_baseline": "1.371097",
+          "predict_method": "1.090347",
+          "metadata_fold": "heldout_mesh",
+          "metadata_concept_id": "mesh:D000068099",
+          "metadata_host_subfield": 1307,
+          "metadata_host_subfield_name": "Cell Biology",
+          "metadata_host_field": "Biochemistry, Genetics and Molecular Biology",
+          "metadata_entry_year": 2014,
+          "metadata_nat_source": "exact+bg",
+          "metadata_cov": 0.818182,
+          "metadata_Y_lenient": 0,
+          "metadata_Y_all": 0,
+          "metadata_EST_bin": 0,
+          "metadata_r2_fitted_mu": 1.260874,
+          "metadata_retrieval_complete": true,
+          "metadata_rule_parity": true
+        },
+        {
+          "input": "{\"concept_id\":\"mesh:D000068099\",\"o\":3203,\"d\":1311,\"e\":2017,\"A_cont\":0.005341,\"A_cont_lo\":0.005341,\"A_cont_hi\":0.005341,\"A_cont_exact\":0.006528,\"CT\":0.727273,\"CT_any\":0.818182,\"NATIVE\":0.0,\"ADJACENT\":0...",
+          "output": "0",
+          "predict_baseline": "2.450846",
+          "predict_method": "1.914685",
+          "metadata_fold": "heldout_mesh",
+          "metadata_concept_id": "mesh:D000068099",
+          "metadata_host_subfield": 1311,
+          "metadata_host_subfield_name": "Genetics",
+          "metadata_host_field": "Biochemistry, Genetics and Molecular Biology",
+          "metadata_entry_year": 2017,
+          "metadata_nat_source": "exact+bg",
+          "metadata_cov": 1.0,
+          "metadata_Y_lenient": 0,
+          "metadata_Y_all": 0,
+          "metadata_EST_bin": 0,
+          "metadata_r2_fitted_mu": 2.534631,
+          "metadata_retrieval_complete": true,
+          "metadata_rule_parity": true
+        },
+        {
+          "input": "{\"concept_id\":\"mesh:D000068099\",\"o\":3203,\"d\":2716,\"e\":2019,\"A_cont\":0.010889,\"A_cont_lo\":0.007919,\"A_cont_hi\":0.280647,\"A_cont_exact\":0.010889,\"CT\":0.454545,\"CT_any\":0.636364,\"NATIVE\":0.0,\"ADJACENT\":0...",
+          "output": "0",
+          "predict_baseline": "2.181468",
+          "predict_method": "1.878551",
+          "metadata_fold": "heldout_mesh",
+          "metadata_concept_id": "mesh:D000068099",
+          "metadata_host_subfield": 2716,
+          "metadata_host_subfield_name": "Genetics",
+          "metadata_host_field": "Medicine",
+          "metadata_entry_year": 2019,
+          "metadata_nat_source": "exact",
+          "metadata_cov": 0.727273,
+          "metadata_Y_lenient": 0,
+          "metadata_Y_all": 0,
+          "metadata_EST_bin": 0,
+          "metadata_r2_fitted_mu": 1.061287,
+          "metadata_retrieval_complete": true,
+          "metadata_rule_parity": true
+        }
+      ]
+    }
+  ]
+}

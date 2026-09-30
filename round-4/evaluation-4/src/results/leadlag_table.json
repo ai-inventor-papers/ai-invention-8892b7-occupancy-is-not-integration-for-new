@@ -1,0 +1,1602 @@
+{
+ "screen": {
+  "n": 202,
+  "counts": {
+   "neither": 110,
+   "diffusion_only": 39,
+   "expansion_only": 37,
+   "expansion_first": 15,
+   "same_year": 1,
+   "diffusion_first": 0
+  },
+  "shares": {
+   "neither": 0.5445544554455446,
+   "diffusion_only": 0.19306930693069307,
+   "expansion_only": 0.18316831683168316,
+   "expansion_first": 0.07425742574257425,
+   "same_year": 0.0049504950495049506,
+   "diffusion_first": 0.0
+  },
+  "exp_from_start": 41,
+  "diff_from_start": 15,
+  "counts_incl_from_start": {
+   "neither": 80,
+   "diffusion_only": 28,
+   "expansion_only": 52,
+   "expansion_first": 40,
+   "same_year": 2,
+   "diffusion_first": 0
+  },
+  "n_both": 16,
+  "n_expansion_first": 15,
+  "share_expansion_first": 0.9375,
+  "boot_ci": [
+   0.8125,
+   1.0
+  ],
+  "wilson": [
+   0.716712622018518,
+   0.9888806553587528
+  ],
+  "sentence": "Among the 16 of 202 concepts with both onsets observable, expansion came first in 15",
+  "evaluability": {
+   "rule": "H_rar needs vol3 >= 10 papers with known subfield in the 3-year window (rarefaction depth m = 10)",
+   "n_concepts": 202,
+   "n_never_H_rar_evaluable": 0
+  },
+  "censoring": {
+   "km_expansion": {
+    "timeline": [
+     0.0,
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0
+    ],
+    "survival": [
+     0.7029702970297028,
+     0.6386138613861383,
+     0.5693069306930691,
+     0.5544554455445541,
+     0.5396039603960393,
+     0.5396039603960393,
+     0.5396039603960393,
+     0.5339830858085806,
+     0.5339830858085806,
+     0.5339830858085806,
+     0.5339830858085806,
+     0.5339830858085806,
+     0.5339830858085806,
+     0.5339830858085806,
+     0.5339830858085806,
+     0.5339830858085806,
+     0.5339830858085806
+    ],
+    "median": null,
+    "n": 202,
+    "n_events": 94
+   },
+   "onset_year_hist_expansion": {
+    "2004": 2,
+    "2005": 2,
+    "2006": 2,
+    "2007": 4,
+    "2008": 8,
+    "2009": 6,
+    "2010": 8,
+    "2011": 6,
+    "2012": 10,
+    "2013": 11,
+    "2014": 5,
+    "2015": 13,
+    "2016": 8,
+    "2017": 6,
+    "2018": 2,
+    "2019": 1
+   },
+   "km_diffusion": {
+    "timeline": [
+     0.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0,
+     19.0
+    ],
+    "survival": [
+     0.9257425742574257,
+     0.8960396039603961,
+     0.8415841584158416,
+     0.8168316831683163,
+     0.7772277227722767,
+     0.7425742574257421,
+     0.7321886034757321,
+     0.715291943395523,
+     0.6971065550041112,
+     0.6837006597155705,
+     0.6606545700622365,
+     0.651079866148291,
+     0.651079866148291,
+     0.651079866148291,
+     0.6227720458809742,
+     0.5812539094889091,
+     0.4843782579074243,
+     0.0
+    ],
+    "median": 18.0,
+    "n": 202,
+    "n_events": 70
+   },
+   "onset_year_hist_diffusion": {
+    "2008": 1,
+    "2010": 4,
+    "2011": 2,
+    "2012": 6,
+    "2013": 4,
+    "2014": 4,
+    "2015": 2,
+    "2016": 6,
+    "2017": 5,
+    "2018": 13,
+    "2019": 5,
+    "2020": 4,
+    "2021": 3,
+    "2022": 2,
+    "2023": 5,
+    "2024": 4
+   },
+   "logrank_expansion_vs_diffusion": {
+    "stat": 11.741731831191897,
+    "p": 0.0006111412935280561
+   },
+   "restricted_cohort_F_le_2012": {
+    "n": 138,
+    "counts": {
+     "neither": 79,
+     "diffusion_only": 29,
+     "expansion_only": 23,
+     "expansion_first": 7,
+     "same_year": 0,
+     "diffusion_first": 0
+    },
+    "shares": {
+     "neither": 0.572463768115942,
+     "diffusion_only": 0.21014492753623187,
+     "expansion_only": 0.16666666666666666,
+     "expansion_first": 0.050724637681159424,
+     "same_year": 0.0,
+     "diffusion_first": 0.0
+    },
+    "exp_from_start": 29,
+    "diff_from_start": 8,
+    "counts_incl_from_start": {
+     "neither": 59,
+     "diffusion_only": 20,
+     "expansion_only": 35,
+     "expansion_first": 24,
+     "same_year": 0,
+     "diffusion_first": 0
+    },
+    "n_both": 7,
+    "n_expansion_first": 7,
+    "share_expansion_first": 1.0,
+    "boot_ci": [
+     1.0,
+     1.0
+    ],
+    "wilson": [
+     0.6456695613241317,
+     1.0
+    ],
+    "sentence": "Among the 7 of 138 concepts with both onsets observable, expansion came first in 7"
+   }
+  },
+  "null": {
+   "draws": 1000,
+   "rule": "each observed onset redrawn uniformly over that concept's evaluable (non-first) years",
+   "observed": 0.9375,
+   "null_mean": 0.6194375,
+   "null_ci": [
+    0.375,
+    0.875
+   ],
+   "p_one_sided_greater": 0.003996003996003996,
+   "p_one_sided_less": 1.0
+  },
+  "granger_panel": {
+   "dH_on_lags": {
+    "n": 1857,
+    "n_concepts": 193,
+    "coefs": {
+     "dP_l1": {
+      "b": -0.0013269005093700967,
+      "se": 0.0007275871928542101,
+      "p": 0.06819749172025413
+     },
+     "dP_l2": {
+      "b": 0.00010782244278298368,
+      "se": 0.000447042506852647,
+      "p": 0.8094074092933027
+     },
+     "dH_l1": {
+      "b": -0.036147194229339874,
+      "se": 0.03757937686470394,
+      "p": 0.3361052978938168
+     },
+     "dH_l2": {
+      "b": -0.08837139938845204,
+      "se": 0.03887613419523571,
+      "p": 0.02301696409020043
+     }
+    }
+   },
+   "dP_on_lags": {
+    "n": 1908,
+    "n_concepts": 200,
+    "coefs": {
+     "dH_l1": {
+      "b": 1.2088337644133027,
+      "se": 1.1480993606884864,
+      "p": 0.2923868470580636
+     },
+     "dH_l2": {
+      "b": 0.594843745221316,
+      "se": 1.0755085191998295,
+      "p": 0.5802076802836796
+     },
+     "dP_l1": {
+      "b": 0.2396029161306105,
+      "se": 0.037860390035161416,
+      "p": 2.474102502647698e-10
+     },
+     "dP_l2": {
+      "b": 0.07028438333106098,
+      "se": 0.028591985763638576,
+      "p": 0.01396413169914934
+     }
+    }
+   }
+  },
+  "secondary": {
+   "all_node_pct": {
+    "n_both": 2,
+    "share_expansion_first": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "counts": {
+     "neither": 146,
+     "diffusion_only": 53,
+     "expansion_first": 2,
+     "expansion_only": 1
+    }
+   },
+   "cumulative_2yr": {
+    "n_both": 8,
+    "share_expansion_first": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "counts": {
+     "neither": 113,
+     "diffusion_only": 47,
+     "expansion_only": 34,
+     "expansion_first": 8
+    }
+   },
+   "F7_widened_cum2_rise0.1": {
+    "n_both": 20,
+    "share_expansion_first": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "counts": {
+     "neither": 84,
+     "diffusion_only": 76,
+     "expansion_only": 22,
+     "expansion_first": 20
+    }
+   },
+   "all_screen_mainarm": {
+    "n_concepts": 247,
+    "n_both": 21,
+    "share_expansion_first": 0.9523809523809523,
+    "ci": [
+     0.8571428571428571,
+     1.0
+    ]
+   },
+   "onsets_le_2015": {
+    "n_both": 2,
+    "share_expansion_first": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "share_onsets_in_2016_2018": 0.24390243902439024
+   }
+  },
+  "grid": [
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.1,
+    "n_both": 42,
+    "share_expansion_first": 0.9523809523809524,
+    "ci_lo": 0.8809523809523809,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0476190476190476
+   },
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.2,
+    "n_both": 20,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.3,
+    "n_both": 9,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.1,
+    "n_both": 29,
+    "share_expansion_first": 0.9310344827586208,
+    "ci_lo": 0.8275862068965517,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0689655172413793
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.2,
+    "n_both": 16,
+    "share_expansion_first": 0.9375,
+    "ci_lo": 0.8125,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0625
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.3,
+    "n_both": 6,
+    "share_expansion_first": 0.8333333333333334,
+    "ci_lo": 0.5,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.1666666666666666
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.1,
+    "n_both": 13,
+    "share_expansion_first": 0.9230769230769232,
+    "ci_lo": 0.7692307692307693,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0769230769230769
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.2,
+    "n_both": 9,
+    "share_expansion_first": 0.8888888888888888,
+    "ci_lo": 0.6666666666666666,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.1111111111111111
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.3,
+    "n_both": 4,
+    "share_expansion_first": 0.75,
+    "ci_lo": 0.25,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.25
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.1,
+    "n_both": 3,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.2,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.3,
+    "n_both": 0,
+    "share_expansion_first": null,
+    "ci_lo": null,
+    "ci_hi": null,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   }
+  ]
+ },
+ "heldout": {
+  "n": 100,
+  "counts": {
+   "neither": 49,
+   "diffusion_only": 23,
+   "expansion_only": 18,
+   "expansion_first": 10,
+   "same_year": 0,
+   "diffusion_first": 0
+  },
+  "shares": {
+   "neither": 0.49,
+   "diffusion_only": 0.23,
+   "expansion_only": 0.18,
+   "expansion_first": 0.1,
+   "same_year": 0.0,
+   "diffusion_first": 0.0
+  },
+  "exp_from_start": 17,
+  "diff_from_start": 16,
+  "counts_incl_from_start": {
+   "neither": 33,
+   "diffusion_only": 22,
+   "expansion_only": 18,
+   "expansion_first": 25,
+   "same_year": 1,
+   "diffusion_first": 1
+  },
+  "n_both": 10,
+  "n_expansion_first": 10,
+  "share_expansion_first": 1.0,
+  "boot_ci": [
+   1.0,
+   1.0
+  ],
+  "wilson": [
+   0.7224671969739421,
+   0.9999999999999999
+  ],
+  "sentence": "Among the 10 of 100 concepts with both onsets observable, expansion came first in 10",
+  "evaluability": {
+   "rule": "H_rar needs vol3 >= 10 papers with known subfield in the 3-year window (rarefaction depth m = 10)",
+   "n_concepts": 100,
+   "n_never_H_rar_evaluable": 1
+  },
+  "censoring": {
+   "km_expansion": {
+    "timeline": [
+     0.0,
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0
+    ],
+    "survival": [
+     0.7499999999999994,
+     0.6599999999999995,
+     0.5999999999999995,
+     0.5599999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999,
+     0.5499999999999999
+    ],
+    "median": null,
+    "n": 100,
+    "n_events": 45
+   },
+   "onset_year_hist_expansion": {
+    "2007": 2,
+    "2008": 7,
+    "2009": 2,
+    "2010": 2,
+    "2011": 6,
+    "2012": 4,
+    "2013": 4,
+    "2014": 5,
+    "2015": 5,
+    "2016": 2,
+    "2017": 5,
+    "2018": 1
+   },
+   "km_diffusion": {
+    "timeline": [
+     0.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0
+    ],
+    "survival": [
+     0.8399999999999994,
+     0.83,
+     0.7599999999999997,
+     0.7299999999999995,
+     0.6699999999999995,
+     0.6499999999999995,
+     0.6099999999999998,
+     0.5893220338983048,
+     0.5553226857887871,
+     0.5553226857887871,
+     0.5553226857887871,
+     0.5553226857887871,
+     0.49362016514558854,
+     0.49362016514558854,
+     0.49362016514558854,
+     0.4113501376213238,
+     0.329080110097059,
+     0.329080110097059
+    ],
+    "median": 13.0,
+    "n": 100,
+    "n_events": 49
+   },
+   "onset_year_hist_diffusion": {
+    "2010": 6,
+    "2011": 2,
+    "2012": 3,
+    "2013": 4,
+    "2014": 3,
+    "2015": 6,
+    "2016": 8,
+    "2017": 2,
+    "2018": 3,
+    "2019": 3,
+    "2021": 4,
+    "2022": 2,
+    "2024": 3
+   },
+   "logrank_expansion_vs_diffusion": {
+    "stat": 0.004531734483825598,
+    "p": 0.9463284211682342
+   },
+   "restricted_cohort_F_le_2012": {
+    "n": 63,
+    "counts": {
+     "neither": 27,
+     "diffusion_only": 20,
+     "expansion_only": 11,
+     "expansion_first": 5,
+     "same_year": 0,
+     "diffusion_first": 0
+    },
+    "shares": {
+     "neither": 0.42857142857142855,
+     "diffusion_only": 0.31746031746031744,
+     "expansion_only": 0.1746031746031746,
+     "expansion_first": 0.07936507936507936,
+     "same_year": 0.0,
+     "diffusion_first": 0.0
+    },
+    "exp_from_start": 10,
+    "diff_from_start": 6,
+    "counts_incl_from_start": {
+     "neither": 20,
+     "diffusion_only": 17,
+     "expansion_only": 12,
+     "expansion_first": 13,
+     "same_year": 1,
+     "diffusion_first": 0
+    },
+    "n_both": 5,
+    "n_expansion_first": 5,
+    "share_expansion_first": 1.0,
+    "boot_ci": [
+     1.0,
+     1.0
+    ],
+    "wilson": [
+     0.5655175313406071,
+     1.0
+    ],
+    "sentence": "Among the 5 of 63 concepts with both onsets observable, expansion came first in 5"
+   }
+  },
+  "null": {
+   "draws": 1000,
+   "rule": "each observed onset redrawn uniformly over that concept's evaluable (non-first) years",
+   "observed": 1.0,
+   "null_mean": 0.6419000000000001,
+   "null_ci": [
+    0.3,
+    0.9
+   ],
+   "p_one_sided_greater": 0.012987012987012988,
+   "p_one_sided_less": 1.0
+  },
+  "granger_panel": {
+   "dH_on_lags": {
+    "n": 923,
+    "n_concepts": 97,
+    "coefs": {
+     "dP_l1": {
+      "b": -0.00016631812250286808,
+      "se": 0.0008177711852530212,
+      "p": 0.8388382039562537
+     },
+     "dP_l2": {
+      "b": 0.0005110226424417283,
+      "se": 0.0005438812580778088,
+      "p": 0.3474305011374844
+     },
+     "dH_l1": {
+      "b": -0.06251309561719302,
+      "se": 0.05197907137415784,
+      "p": 0.2291083237511955
+     },
+     "dH_l2": {
+      "b": 0.01410538259308798,
+      "se": 0.03311161405581832,
+      "p": 0.6701114769834562
+     }
+    }
+   },
+   "dP_on_lags": {
+    "n": 946,
+    "n_concepts": 99,
+    "coefs": {
+     "dH_l1": {
+      "b": 0.38168019109428813,
+      "se": 1.576373150787455,
+      "p": 0.8086828933882506
+     },
+     "dH_l2": {
+      "b": 0.4660188850416148,
+      "se": 1.6683005986473884,
+      "p": 0.7799858457119835
+     },
+     "dP_l1": {
+      "b": 0.2995541274236794,
+      "se": 0.0491383691890526,
+      "p": 1.0866372271912124e-09
+     },
+     "dP_l2": {
+      "b": 0.02963206856466017,
+      "se": 0.03697200830709264,
+      "p": 0.4228578351406135
+     }
+    }
+   }
+  },
+  "secondary": {
+   "all_node_pct": {
+    "n_both": 0,
+    "share_expansion_first": null,
+    "ci": [
+     null,
+     null
+    ],
+    "counts": {
+     "neither": 64,
+     "diffusion_only": 33,
+     "expansion_only": 3
+    }
+   },
+   "cumulative_2yr": {
+    "n_both": 6,
+    "share_expansion_first": 0.8333333333333334,
+    "ci": [
+     0.5,
+     1.0
+    ],
+    "counts": {
+     "neither": 53,
+     "diffusion_only": 27,
+     "expansion_only": 14,
+     "expansion_first": 5,
+     "diffusion_first": 1
+    }
+   },
+   "F7_widened_cum2_rise0.1": {
+    "n_both": 11,
+    "share_expansion_first": 0.9090909090909091,
+    "ci": [
+     0.7272727272727273,
+     1.0
+    ],
+    "counts": {
+     "diffusion_only": 41,
+     "neither": 39,
+     "expansion_first": 10,
+     "expansion_only": 9,
+     "diffusion_first": 1
+    }
+   },
+   "all_screen_mainarm": {
+    "n_concepts": 119,
+    "n_both": 13,
+    "share_expansion_first": 0.9230769230769231,
+    "ci": [
+     0.7692307692307693,
+     1.0
+    ]
+   },
+   "onsets_le_2015": {
+    "n_both": 2,
+    "share_expansion_first": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "share_onsets_in_2016_2018": 0.22340425531914893
+   }
+  },
+  "grid": [
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.1,
+    "n_both": 21,
+    "share_expansion_first": 0.9047619047619048,
+    "ci_lo": 0.7619047619047619,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0952380952380952,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.2,
+    "n_both": 12,
+    "share_expansion_first": 0.8333333333333334,
+    "ci_lo": 0.5833333333333334,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.1666666666666666,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.3,
+    "n_both": 2,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.1,
+    "n_both": 14,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.2,
+    "n_both": 10,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.3,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.1,
+    "n_both": 8,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.2,
+    "n_both": 7,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.3,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.1,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.2,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.3,
+    "n_both": 0,
+    "share_expansion_first": null,
+    "ci_lo": null,
+    "ci_hi": null,
+    "share_diffusion_first": 0.0,
+    "share_same_year": 0.0
+   }
+  ]
+ },
+ "pooled_main": {
+  "n": 302,
+  "counts": {
+   "neither": 159,
+   "diffusion_only": 62,
+   "expansion_only": 55,
+   "expansion_first": 25,
+   "same_year": 1,
+   "diffusion_first": 0
+  },
+  "shares": {
+   "neither": 0.5264900662251656,
+   "diffusion_only": 0.2052980132450331,
+   "expansion_only": 0.18211920529801323,
+   "expansion_first": 0.08278145695364239,
+   "same_year": 0.0033112582781456954,
+   "diffusion_first": 0.0
+  },
+  "exp_from_start": 58,
+  "diff_from_start": 31,
+  "counts_incl_from_start": {
+   "neither": 113,
+   "diffusion_only": 50,
+   "expansion_only": 70,
+   "expansion_first": 65,
+   "same_year": 3,
+   "diffusion_first": 1
+  },
+  "n_both": 26,
+  "n_expansion_first": 25,
+  "share_expansion_first": 0.9615384615384616,
+  "boot_ci": [
+   0.8846153846153846,
+   1.0
+  ],
+  "wilson": [
+   0.8110722092608273,
+   0.9931780150820144
+  ],
+  "sentence": "Among the 26 of 302 concepts with both onsets observable, expansion came first in 25",
+  "evaluability": {
+   "rule": "H_rar needs vol3 >= 10 papers with known subfield in the 3-year window (rarefaction depth m = 10)",
+   "n_concepts": 302,
+   "n_never_H_rar_evaluable": 1
+  },
+  "censoring": {
+   "km_expansion": {
+    "timeline": [
+     0.0,
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0
+    ],
+    "survival": [
+     0.718543046357616,
+     0.6456953642384106,
+     0.5794701986754969,
+     0.5562913907284767,
+     0.5430463576158941,
+     0.5430463576158941,
+     0.5430463576158941,
+     0.5392220874918386,
+     0.5392220874918386,
+     0.5392220874918386,
+     0.5392220874918386,
+     0.5392220874918386,
+     0.5392220874918386,
+     0.5392220874918386,
+     0.5392220874918386,
+     0.5392220874918386,
+     0.5392220874918386
+    ],
+    "median": null,
+    "n": 302,
+    "n_events": 139
+   },
+   "onset_year_hist_expansion": {
+    "2004": 2,
+    "2005": 2,
+    "2006": 2,
+    "2007": 6,
+    "2008": 15,
+    "2009": 8,
+    "2010": 10,
+    "2011": 12,
+    "2012": 14,
+    "2013": 15,
+    "2014": 10,
+    "2015": 18,
+    "2016": 10,
+    "2017": 11,
+    "2018": 3,
+    "2019": 1
+   },
+   "km_diffusion": {
+    "timeline": [
+     0.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0,
+     19.0
+    ],
+    "survival": [
+     0.8973509933774835,
+     0.894039735099338,
+     0.850993377483444,
+     0.8046357615894038,
+     0.7682119205298013,
+     0.7350993377483442,
+     0.6986754966887417,
+     0.6848403383384695,
+     0.6622631843273109,
+     0.6498457496211738,
+     0.6406280794137811,
+     0.6243409248524135,
+     0.5983267196502299,
+     0.5983267196502299,
+     0.5983267196502299,
+     0.557062807950214,
+     0.5013565271551925,
+     0.445650246360171,
+     0.0
+    ],
+    "median": 18.0,
+    "n": 302,
+    "n_events": 119
+   },
+   "onset_year_hist_diffusion": {
+    "2008": 1,
+    "2010": 10,
+    "2011": 4,
+    "2012": 9,
+    "2013": 8,
+    "2014": 7,
+    "2015": 8,
+    "2016": 14,
+    "2017": 7,
+    "2018": 16,
+    "2019": 8,
+    "2020": 4,
+    "2021": 7,
+    "2022": 4,
+    "2023": 5,
+    "2024": 7
+   },
+   "logrank_expansion_vs_diffusion": {
+    "stat": 7.9457443188588,
+    "p": 0.004820058928157357
+   },
+   "restricted_cohort_F_le_2012": {
+    "n": 201,
+    "counts": {
+     "neither": 106,
+     "diffusion_only": 49,
+     "expansion_only": 34,
+     "expansion_first": 12,
+     "same_year": 0,
+     "diffusion_first": 0
+    },
+    "shares": {
+     "neither": 0.527363184079602,
+     "diffusion_only": 0.24378109452736318,
+     "expansion_only": 0.1691542288557214,
+     "expansion_first": 0.05970149253731343,
+     "same_year": 0.0,
+     "diffusion_first": 0.0
+    },
+    "exp_from_start": 39,
+    "diff_from_start": 14,
+    "counts_incl_from_start": {
+     "neither": 79,
+     "diffusion_only": 37,
+     "expansion_only": 47,
+     "expansion_first": 37,
+     "same_year": 1,
+     "diffusion_first": 0
+    },
+    "n_both": 12,
+    "n_expansion_first": 12,
+    "share_expansion_first": 1.0,
+    "boot_ci": [
+     1.0,
+     1.0
+    ],
+    "wilson": [
+     0.7575059904469021,
+     1.0
+    ],
+    "sentence": "Among the 12 of 201 concepts with both onsets observable, expansion came first in 12"
+   }
+  }
+ },
+ "mesh": {
+  "n": 191,
+  "counts": {
+   "neither": 71,
+   "diffusion_only": 97,
+   "expansion_only": 10,
+   "expansion_first": 9,
+   "same_year": 1,
+   "diffusion_first": 3
+  },
+  "shares": {
+   "neither": 0.3717277486910995,
+   "diffusion_only": 0.5078534031413613,
+   "expansion_only": 0.05235602094240838,
+   "expansion_first": 0.04712041884816754,
+   "same_year": 0.005235602094240838,
+   "diffusion_first": 0.015706806282722512
+  },
+  "exp_from_start": 47,
+  "diff_from_start": 31,
+  "counts_incl_from_start": {
+   "neither": 28,
+   "diffusion_only": 93,
+   "expansion_only": 22,
+   "expansion_first": 44,
+   "same_year": 1,
+   "diffusion_first": 3
+  },
+  "n_both": 13,
+  "n_expansion_first": 9,
+  "share_expansion_first": 0.6923076923076923,
+  "boot_ci": [
+   0.38461538461538464,
+   0.9230769230769231
+  ],
+  "wilson": [
+   0.42369342985078007,
+   0.8731929643292967
+  ],
+  "sentence": "Among the 13 of 191 concepts with both onsets observable, expansion came first in 9",
+  "evaluability": {
+   "rule": "H_rar needs vol3 >= 10 papers with known subfield in the 3-year window (rarefaction depth m = 10)",
+   "n_concepts": 191,
+   "n_never_H_rar_evaluable": 0
+  },
+  "censoring": {
+   "km_expansion": {
+    "timeline": [
+     0.0,
+     1.0,
+     2.0,
+     4.0,
+     5.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0
+    ],
+    "survival": [
+     0.7277486910994763,
+     0.7068062827225132,
+     0.6806282722513087,
+     0.6649214659685864,
+     0.6596858638743455,
+     0.6596858638743455,
+     0.6596858638743455,
+     0.6431937172774871,
+     0.6431937172774871,
+     0.6431937172774871,
+     0.6431937172774871,
+     0.6431937172774871,
+     0.6354443953825776,
+     0.6264944743208514,
+     0.6264944743208514,
+     0.6264944743208514,
+     0.6264944743208514
+    ],
+    "median": null,
+    "n": 191,
+    "n_events": 70
+   },
+   "onset_year_hist_expansion": {
+    "2004": 3,
+    "2005": 4,
+    "2006": 5,
+    "2007": 7,
+    "2008": 8,
+    "2009": 12,
+    "2010": 8,
+    "2011": 3,
+    "2012": 5,
+    "2013": 3,
+    "2014": 2,
+    "2015": 3,
+    "2016": 2,
+    "2018": 1,
+    "2019": 1,
+    "2020": 3
+   },
+   "km_diffusion": {
+    "timeline": [
+     0.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0,
+     8.0,
+     9.0,
+     10.0,
+     11.0,
+     12.0,
+     13.0,
+     14.0,
+     15.0,
+     16.0,
+     17.0,
+     18.0
+    ],
+    "survival": [
+     0.8376963350785338,
+     0.801047120418848,
+     0.7068062827225132,
+     0.6020942408376964,
+     0.5654450261780106,
+     0.5287958115183247,
+     0.49738219895287955,
+     0.44819055290259496,
+     0.408973879523618,
+     0.38560394355083955,
+     0.32962917755152416,
+     0.30157563052586256,
+     0.26983082731261393,
+     0.24907460982702825,
+     0.20974703985433962,
+     0.19067912714030877,
+     0.11440747628418528
+    ],
+    "median": 8.0,
+    "n": 191,
+    "n_events": 141
+   },
+   "onset_year_hist_diffusion": {
+    "2007": 1,
+    "2008": 4,
+    "2009": 5,
+    "2010": 15,
+    "2011": 11,
+    "2012": 12,
+    "2013": 12,
+    "2014": 15,
+    "2015": 11,
+    "2016": 3,
+    "2017": 11,
+    "2018": 6,
+    "2019": 7,
+    "2020": 8,
+    "2021": 10,
+    "2022": 4,
+    "2023": 2,
+    "2024": 4
+   },
+   "logrank_expansion_vs_diffusion": {
+    "stat": 37.228769959030835,
+    "p": 1.0505244183866856e-09
+   },
+   "restricted_cohort_F_le_2012": {
+    "n": 170,
+    "counts": {
+     "neither": 56,
+     "diffusion_only": 93,
+     "expansion_only": 8,
+     "expansion_first": 9,
+     "same_year": 1,
+     "diffusion_first": 3
+    },
+    "shares": {
+     "neither": 0.32941176470588235,
+     "diffusion_only": 0.5470588235294118,
+     "expansion_only": 0.047058823529411764,
+     "expansion_first": 0.052941176470588235,
+     "same_year": 0.0058823529411764705,
+     "diffusion_first": 0.01764705882352941
+    },
+    "exp_from_start": 43,
+    "diff_from_start": 23,
+    "counts_incl_from_start": {
+     "neither": 23,
+     "diffusion_only": 83,
+     "expansion_only": 18,
+     "expansion_first": 42,
+     "same_year": 1,
+     "diffusion_first": 3
+    },
+    "n_both": 13,
+    "n_expansion_first": 9,
+    "share_expansion_first": 0.6923076923076923,
+    "boot_ci": [
+     0.38461538461538464,
+     0.9230769230769231
+    ],
+    "wilson": [
+     0.42369342985078007,
+     0.8731929643292967
+    ],
+    "sentence": "Among the 13 of 170 concepts with both onsets observable, expansion came first in 9"
+   }
+  },
+  "null": {
+   "draws": 1000,
+   "null_mean": 0.6243846153846154,
+   "null_ci": [
+    0.3076923076923077,
+    0.8461538461538461
+   ],
+   "p_one_sided_greater": 0.4255744255744256
+  },
+  "granger_panel": {
+   "dH_on_lags": {
+    "n": 2179,
+    "n_concepts": 185,
+    "coefs": {
+     "dP_l1": {
+      "b": -0.0014349523055138423,
+      "se": 0.0005955377776346126,
+      "p": 0.015974099803119403,
+      "ci": [
+       -0.0026021849011107065,
+       -0.0002677197099169783
+      ]
+     },
+     "dP_l2": {
+      "b": 0.0009850978237764922,
+      "se": 0.0006862702999646637,
+      "p": 0.15116259086506556,
+      "ci": [
+       -0.00035996724781374814,
+       0.0023301628953667324
+      ]
+     },
+     "dH_l1": {
+      "b": -0.06451687817956059,
+      "se": 0.03259280534302507,
+      "p": 0.04776174124354084,
+      "ci": [
+       -0.12839760280701437,
+       -0.0006361535521068051
+      ]
+     },
+     "dH_l2": {
+      "b": -0.01544467199240021,
+      "se": 0.024280155827356344,
+      "p": 0.5247095042271277,
+      "ci": [
+       -0.06303290295303896,
+       0.03214355896823854
+      ]
+     }
+    }
+   },
+   "dP_on_lags": {
+    "n": 2205,
+    "n_concepts": 187,
+    "coefs": {
+     "dH_l1": {
+      "b": -0.06497144058576278,
+      "se": 1.090224246536328,
+      "p": 0.9524785465495936,
+      "ci": [
+       -2.201771698869283,
+       2.071828817697757
+      ]
+     },
+     "dH_l2": {
+      "b": 1.195815736112229,
+      "se": 0.8339672916231646,
+      "p": 0.1516042116879932,
+      "ci": [
+       -0.438730119753586,
+       2.8303615919780443
+      ]
+     },
+     "dP_l1": {
+      "b": 0.08480158639549364,
+      "se": 0.02741360975321091,
+      "p": 0.001978692985663716,
+      "ci": [
+       0.031071898592964296,
+       0.13853127419802297
+      ]
+     },
+     "dP_l2": {
+      "b": 0.07098008092527693,
+      "se": 0.026074705685475555,
+      "p": 0.006485251728443941,
+      "ci": [
+       0.019874596874263052,
+       0.1220855649762908
+      ]
+     }
+    }
+   }
+  },
+  "secondary": {
+   "cumulative_2yr": {
+    "n_both": 29,
+    "share_expansion_first": 0.8275862068965517,
+    "ci": [
+     0.6896551724137931,
+     0.9655172413793104
+    ],
+    "counts": {
+     "diffusion_only": 81,
+     "neither": 60,
+     "expansion_first": 24,
+     "expansion_only": 21,
+     "diffusion_first": 3,
+     "same_year": 2
+    }
+   },
+   "all_node_wdeg_pctl": {
+    "n_both": 0,
+    "share_expansion_first": null,
+    "ci": [
+     null,
+     null
+    ],
+    "counts": {
+     "diffusion_only": 110,
+     "neither": 80,
+     "expansion_only": 1
+    }
+   }
+  },
+  "grid": [
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.1,
+    "n_both": 43,
+    "share_expansion_first": 0.7209302325581395,
+    "ci_lo": 0.5813953488372093,
+    "ci_hi": 0.8604651162790697,
+    "share_diffusion_first": 0.1860465116279069
+   },
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.2,
+    "n_both": 36,
+    "share_expansion_first": 0.6944444444444444,
+    "ci_lo": 0.5277777777777778,
+    "ci_hi": 0.8333333333333334,
+    "share_diffusion_first": 0.2222222222222222
+   },
+   {
+    "exp_gain": 5,
+    "diff_rise": 0.3,
+    "n_both": 28,
+    "share_expansion_first": 0.6428571428571429,
+    "ci_lo": 0.4642857142857143,
+    "ci_hi": 0.8214285714285714,
+    "share_diffusion_first": 0.25
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.1,
+    "n_both": 14,
+    "share_expansion_first": 0.6428571428571429,
+    "ci_lo": 0.3571428571428571,
+    "ci_hi": 0.8589285714285697,
+    "share_diffusion_first": 0.2857142857142857
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.2,
+    "n_both": 13,
+    "share_expansion_first": 0.6923076923076923,
+    "ci_lo": 0.4596153846153847,
+    "ci_hi": 0.9230769230769232,
+    "share_diffusion_first": 0.2307692307692307
+   },
+   {
+    "exp_gain": 10,
+    "diff_rise": 0.3,
+    "n_both": 10,
+    "share_expansion_first": 0.6,
+    "ci_lo": 0.3,
+    "ci_hi": 0.9,
+    "share_diffusion_first": 0.3
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.1,
+    "n_both": 3,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.2,
+    "n_both": 2,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 15,
+    "diff_rise": 0.3,
+    "n_both": 3,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.1,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.2,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   },
+   {
+    "exp_gain": 20,
+    "diff_rise": 0.3,
+    "n_both": 1,
+    "share_expansion_first": 1.0,
+    "ci_lo": 1.0,
+    "ci_hi": 1.0,
+    "share_diffusion_first": 0.0
+   }
+  ]
+ }
+}
