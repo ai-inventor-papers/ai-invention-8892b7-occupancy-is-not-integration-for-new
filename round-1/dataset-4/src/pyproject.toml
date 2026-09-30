@@ -1,9 +1,0 @@
-[project]
-name = "emerging-concepts-dataset4"
-version = "0.1.0"
-description = "Labelled concept phrases and survivorship-free phrase pool built from OpenAlex"
-requires-python = ">=3.12"
-dependencies = [
-  "aiohttp", "loguru", "pandas", "numpy", "scikit-learn", "rapidfuzz", "spacy>=3.7",
-  "datasets", "openai", "tenacity", "pyyaml", "orjson", "requests", "pyarrow", "huggingface_hub",
-]

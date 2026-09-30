@@ -1,1 +1,0 @@
-{"year": 2020, "n_works": 29201, "n_nodes": 27374, "n_edges": 496680, "n_kept_edges": 91822, "n_kept_nodes": 13114, "n_comm": 318, "n_comm_ge5": 108, "modularity": 0.945339088230134, "Wtot": 18791328.458152525, "btw_nodes": 13254, "btw_edges": 122191, "secs": 58.2, "n_pool_active": 142, "n_pool_pool_edges": 127}

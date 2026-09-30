@@ -1,9 +1,0 @@
-[project]
-name = "heldout-closure-d3-eval"
-version = "0.1.0"
-description = "Iteration-4 one-look held-out evaluation of RQ1 closure (R1), descriptive D1 and the D3 closure->anchoring link"
-requires-python = "==3.12.*"
-dependencies = [
-    "numpy==2.5.3", "pandas==3.0.6", "pyarrow==25.0.1", "scipy==1.18.1", "statsmodels==0.15.0",
-    "matplotlib==3.11.2", "loguru==0.7.3", "pyyaml",
-]
