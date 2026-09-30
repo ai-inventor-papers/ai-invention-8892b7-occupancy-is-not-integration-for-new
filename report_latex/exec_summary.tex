@@ -1,0 +1,82 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, booktabs, xcolor, tabularx}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage[T1]{fontenc}
+
+\title{Executive Summary:\\
+Open Neighbourhoods Precede Concept Spread}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Headline Finding}
+
+When a scientific concept enters a new disciplinary subfield, the share of its initial co-occurrence partners that are native to that host subfield predicts subsequent uptake by newcomer authors. This \emph{host-entry grafting} effect replicates on an independent biomedical population built from MeSH descriptors: \textbf{IRR/SD = 1.23 [1.12, 1.36], Holm $p < 0.001$}. The inverse-variance-weighted pooled estimate across three folds (screen, held-out, MeSH) is 1.26 [1.17, 1.36] with $I^2 = 0$.
+
+\section*{Study Overview}
+
+This study investigates how emerging scientific concepts spread across disciplinary communities by analysing 426 semantically grounded concepts and 462,812 works from OpenAlex. Two research questions guide the work: (RQ1) which temporal and structural patterns characterise the emergence of scientific concepts, and (RQ2) how emerging concepts diffuse across disciplinary communities.
+
+The study was conducted across five iterations: data assembly and pre-registration, network construction and precursor testing, deepening the closure lead and grafting screen, held-out confirmation and cross-population replication, and post-confirmation decomposition.
+
+\section*{Key Results}
+
+\subsection*{Host-Entry Grafting (RQ2) --- Confirmed and Replicated}
+
+When a concept first appears in a non-origin subfield, the host-nativeness of its entry partners ($A_{\mathrm{cont}}$) predicts whether newcomer authors subsequently adopt it. Co-transfer of origin companions is null in every specification.
+
+\begin{table}[!htbp]
+\centering
+\caption{Grafting results across folds (co-primary specification).}
+{\small
+\begin{tabular}{lrrrl}
+\toprule
+Fold & IRR/SD & 95\% CI & $p$ & $N$ \\
+\midrule
+Screen & 1.30 & [1.16, 1.45] & $10^{-5}$ & 1,544 \\
+Held-out & 1.19 & [1.06, 1.33] & 0.004 & 972 \\
+MeSH replication & 1.23 & [1.12, 1.36] & $<0.001$ & 2,171 \\
+IVW pooled & 1.26 & [1.17, 1.36] & -- & -- \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+Post-confirmation decomposition (Iteration~5) shows the effect operates through both the extensive margin (IVW $+6.43$ pp/SD [4.76, 8.11]) and the intensive margin (IVW IRR/SD 1.183 [1.104, 1.267]). It is host-specific rather than reflecting general concept accessibility (IVW retention 0.969 [0.81, 1.10]) and does not vary by origin field (Wald $p = 0.638$).
+
+\subsection*{Emergence Precursors (RQ1) --- Partially Confirmed}
+
+The primary closure measure did not survive held-out confirmation (Holm $p = 0.147$). Only \emph{persistent-neighbour closure}, restricted to top-20 associates present in consecutive years, is confirmed on the held-out fold ($S = -1.073$, 95\% CI $[-1.86, -0.29]$, Holm $p = 0.015$). Burt constraint is positive on both folds, ruling out a simple brokerage explanation. Precursors add no predictive value for \emph{whether} a concept will show sustained uptake.
+
+\subsection*{Diffusion Typology and Ordering}
+
+A $k = 2$ typology separates localised concepts ($n = 136$) from concepts that are broad from the start ($n = 66$), replicating on the held-out fold. Network expansion precedes disciplinary diffusion in 25 of 26 pooled main-arm dual-onset concepts.
+
+\subsection*{Adopter-Level Mechanism}
+
+Adopters are 3.09 times more likely than matched non-adopters to have prior exposure to the concept's entry partners (OR 3.09 [2.32, 4.28]). Enrichment is strongest for origin-vocabulary (FOREIGN) partners (OR 2.88), running in the opposite direction from the entry-level grafting effect.
+
+\section*{Dead Ends and Null Results}
+
+\begin{itemize}
+\item \textbf{Source-sink viability:} blocked by insufficient citation-layer density (Gate~A failure, 17.3\% within-host traced share vs the 40\% threshold).
+\item \textbf{Prediction of emergence:} precursors add no value beyond frequency and centrality baselines ($\Delta$AUC $-0.010$ [$-0.045$, $0.021$]).
+\item \textbf{Breadth prediction from openness:} null on both screen and held-out folds.
+\item \textbf{Closure--anchoring link:} no detectable association between pre-emergence closure and later host-entry anchoring.
+\item \textbf{Co-transfer:} null across all folds and populations.
+\end{itemize}
+
+\section*{Open Questions}
+
+\begin{enumerate}
+\item The population is dominated by physics, computer science, and biomedicine; generalisation to social sciences and humanities is untested.
+\item The primary fully-saturated specification is underpowered (held-out: 250 events, 30 clusters).
+\item Whether the host-vocabulary gradient operates through genuine translation of ideas into host vocabulary or through artefacts of topic-classification overlap.
+\item The absorptive-capacity vs topical-proximity ambiguity in the adopter mechanism.
+\end{enumerate}
+
+\medskip\noindent\textbf{Target venue:} Applied Network Science.
+
+\end{document}
