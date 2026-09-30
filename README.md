@@ -5,6 +5,7 @@ Several runs publish to this repository, each to its own branch. Open a run to s
 
 | Run | Paper | Updated |
 |---|---|---|
+| [run_MvbsSpVmwUlA](https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA) | Host vocabulary predicts whether new scientific concepts take root across disciplinary boundaries | 2026-09-30 15:21 UTC |
 | [run_aMfESsKemlKH](https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_aMfESsKemlKH) | Host vocabulary predicts whether new scientific concepts take root across disciplinary boundaries | 2026-09-30 13:27 UTC |
 | [run_desxWCcMY1R1](https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_desxWCcMY1R1) | Host vocabulary predicts whether new scientific concepts take root across disciplinary boundaries | 2026-09-30 11:07 UTC |
 | [run_-5obKGrJFD0H](https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_-5obKGrJFD0H) | Host vocabulary predicts whether new scientific concepts take root across disciplinary boundaries | 2026-09-30 09:32 UTC |
