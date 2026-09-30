@@ -1,0 +1,35 @@
+{
+ "figure": "F6",
+ "width_mm": 174,
+ "cases": [
+  "c_3a8d31dc5fbf",
+  "c_9cceb3c510be",
+  "c_af9f1a649198",
+  "c_1055d445e4c2"
+ ],
+ "ci_type": "none (descriptive)",
+ "production": {
+  "min_font_pt": 6.5,
+  "n_text": 100,
+  "n_overlaps": 0,
+  "overlaps": [],
+  "n_clipped": 0,
+  "clipped": [],
+  "width_mm": 174.0,
+  "height_mm": 200.0
+ },
+ "sources": [
+  [
+   "art_mu0h0npvNX_u",
+   "round-4/evaluation-4/src/results/case_entries.csv"
+  ],
+  [
+   "art_mu0h0npvNX_u",
+   "round-4/evaluation-4/src/results/case_interpretations.md"
+  ],
+  [
+   "art_mu0h0npvNX_u",
+   "round-4/evaluation-4/src/results/cases_rooting.json"
+  ]
+ ]
+}

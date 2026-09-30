@@ -1,0 +1,83 @@
+Search: idea diffusion fit local context field-specific uptake science  [scholarly via openalex]
+Found: 20 results
+
+1. Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science
+   https://doi.org/10.1186/1748-5908-4-50
+   Implementation Science · 2009 · cited by 15461...
+
+2. A Holistic Framework to Improve the Uptake and Impact of eHealth Technologies
+   https://doi.org/10.2196/jmir.1672
+   Journal of Medical Internet Research · 2011 · cited by 1277...
+
+3. Science and technology roadmap for graphene, related two-dimensional crystals, and hybrid systems
+   https://doi.org/10.1039/c4nr01600a
+   Nanoscale · 2014 · cited by 3057...
+
+4. Context matters in implementation science: a scoping review of determinant frameworks that describe contextual determinants for implementation outcomes
+   https://doi.org/10.1186/s12913-019-4015-3
+   BMC Health Services Research · 2019 · cited by 1125...
+
+5. Making sense of complexity in context and implementation: the Context and Implementation of Complex Interventions (CICI) framework
+   https://doi.org/10.1186/s13012-017-0552-5
+   Implementation Science · 2017 · cited by 1133...
+
+6. Tumour exosome integrins determine organotropic metastasis
+   https://doi.org/10.1038/nature15756
+   Nature · 2015 · cited by 5249...
+
+7. RE-AIM Planning and Evaluation Framework: Adapting to New Science and Practice With a 20-Year Review
+   https://doi.org/10.3389/fpubh.2019.00064
+   Frontiers in Public Health · 2019 · cited by 2707...
+
+8. Diffusion and related transport mechanisms in brain tissue
+   https://doi.org/10.1088/0034-4885/64/7/202
+   Reports on Progress in Physics · 2001 · cited by 501...
+
+9. The dynamic sustainability framework: addressing the paradox of sustainment amid ongoing change
+   https://doi.org/10.1186/1748-5908-8-117
+   Implementation Science · 2013 · cited by 1838...
+
+10. Imaging brain microstructure with diffusion MRI: practicality and applications
+   https://doi.org/10.1002/nbm.3841
+   NMR in Biomedicine · 2017 · cited by 475...
+
+11. MICU3 is a tissue-specific enhancer of mitochondrial calcium uptake
+   https://doi.org/10.1038/s41418-018-0113-8
+   Cell Death and Differentiation · 2018 · cited by 229...
+
+12. Systems science and systems thinking for public health: a systematic review of the field
+   https://doi.org/10.1136/bmjopen-2015-009002
+   BMJ Open · 2015 · cited by 438...
+
+13. The PRISMA Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions: Explanation and Elaboration
+   https://doi.org/10.1371/journal.pmed.1000100
+   PLoS Medicine · 2009 · cited by 28075...
+
+14. Evaluating the successful implementation of evidence into practice using the PARiHS framework: theoretical and practical challenges
+   https://doi.org/10.1186/1748-5908-3-1
+   Implementation Science · 2008 · cited by 1345...
+
+15. Advancing a Conceptual Model of Evidence-Based Practice Implementation in Public Service Sectors
+   https://doi.org/10.1007/s10488-010-0327-7
+   Administration and Policy in Mental Health and Mental Health Services Research · 2010 · cited by 3372...
+
+16. Advanced capabilities for materials modelling with Q uantum ESPRESSO
+   https://doi.org/10.1088/1361-648x/aa8f79
+   Journal of Physics Condensed Matter · 2017 · cited by 7851...
+
+17. Methods for exploring implementation variation and local context within a cluster randomised community intervention trial
+   https://doi.org/10.1136/jech.2003.014415
+   Journal of Epidemiology & Community Health · 2004 · cited by 295...
+
+18. Reframing implementation science to address inequities in healthcare delivery
+   https://doi.org/10.1186/s12913-020-4975-3
+   BMC Health Services Research · 2020 · cited by 493...
+
+19. Hierarchical diffusion models for two-choice response times.
+   https://doi.org/10.1037/a0021765
+   Psychological Methods · 2011 · cited by 350...
+
+20. Nanocellulose as a natural source for groundbreaking applications in materials science: Today’s state
+   https://doi.org/10.1016/j.mattod.2018.02.001
+   Materials Today · 2018 · cited by 935...
+

@@ -1,0 +1,123 @@
+{
+ "label": "POST-CONFIRMATION EXPLORATORY / SUPPLEMENTARY S10",
+ "draws": 100,
+ "strat": "size",
+ "pass_rule": "PASS if share_pos_sig <= 0.10 AND median placebo IRR/SD < 1.10",
+ "generic_prediction": "FAIL under M1, or share_pos_sig(plac_M1) > share_pos_sig(plac_noG)",
+ "folds": {
+  "screen": {
+   "events_without_candidate": 0,
+   "median_candidates": 23.0,
+   "n_events": 1740,
+   "plac_noG": {
+    "n_ok": 100,
+    "share_pos_sig": 0.07,
+    "median_irr_sd": 0.97630101016903,
+    "q025_q975": [
+     0.8647606178295633,
+     1.101085516298037
+    ],
+    "PASS": true
+   },
+   "plac_M1": {
+    "n_ok": 100,
+    "share_pos_sig": 0.07,
+    "median_irr_sd": 0.983867909927719,
+    "q025_q975": [
+     0.8722534575499542,
+     1.1014272044599451
+    ],
+    "PASS": true
+   },
+   "joint_M1": {
+    "n_ok": 100,
+    "share_pos_sig": 0.06,
+    "median_irr_sd": 0.9853203798092612,
+    "q025_q975": [
+     0.8685349784458649,
+     1.0945482277153868
+    ],
+    "PASS": true
+   },
+   "joint_M1_A_cont_irr_sd_median": 1.302440680233838,
+   "joint_M1_A_cont_share_p05": 1.0,
+   "generic_prediction_met": false
+  },
+  "heldout": {
+   "events_without_candidate": 0,
+   "median_candidates": 22.0,
+   "n_events": 1097,
+   "plac_noG": {
+    "n_ok": 100,
+    "share_pos_sig": 0.0,
+    "median_irr_sd": 0.9676719103652351,
+    "q025_q975": [
+     0.8649470904821599,
+     1.04678861977996
+    ],
+    "PASS": true
+   },
+   "plac_M1": {
+    "n_ok": 100,
+    "share_pos_sig": 0.0,
+    "median_irr_sd": 0.9730203361546086,
+    "q025_q975": [
+     0.8700198679386215,
+     1.05169386901286
+    ],
+    "PASS": true
+   },
+   "joint_M1": {
+    "n_ok": 100,
+    "share_pos_sig": 0.0,
+    "median_irr_sd": 0.9668647334176349,
+    "q025_q975": [
+     0.8692829658325706,
+     1.05302144566631
+    ],
+    "PASS": true
+   },
+   "joint_M1_A_cont_irr_sd_median": 1.2006071338051858,
+   "joint_M1_A_cont_share_p05": 1.0,
+   "generic_prediction_met": false
+  },
+  "mesh": {
+   "events_without_candidate": 111,
+   "median_candidates": 4.0,
+   "n_events": 2249,
+   "plac_noG": {
+    "n_ok": 100,
+    "share_pos_sig": 0.0,
+    "median_irr_sd": 0.9745487224100939,
+    "q025_q975": [
+     0.9071562739431039,
+     1.0490202114937213
+    ],
+    "PASS": true
+   },
+   "plac_M1": {
+    "n_ok": 100,
+    "share_pos_sig": 0.0,
+    "median_irr_sd": 0.9948607572356362,
+    "q025_q975": [
+     0.9279171525107295,
+     1.0656847982222422
+    ],
+    "PASS": true
+   },
+   "joint_M1": {
+    "n_ok": 100,
+    "share_pos_sig": 0.0,
+    "median_irr_sd": 1.0044388026481608,
+    "q025_q975": [
+     0.9340566012981888,
+     1.0720078691881072
+    ],
+    "PASS": true
+   },
+   "joint_M1_A_cont_irr_sd_median": 1.2091941764149667,
+   "joint_M1_A_cont_share_p05": 1.0,
+   "generic_prediction_met": false
+  }
+ }
+}

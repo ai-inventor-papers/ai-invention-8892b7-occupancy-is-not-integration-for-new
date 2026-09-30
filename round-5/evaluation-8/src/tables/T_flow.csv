@@ -1,0 +1,16 @@
+step,n,unit,note
+Concept frame (hydrated),426,concepts,SENS: all 426
+MAIN screen fold,202,concepts,sha1 fold
+MAIN held-out fold,100,concepts,"opened once, iteration 4"
+D2 screen MAIN entries (>= 5 partners),"1,740",entries,184 concepts
+D2 screen co-primary estimation sample,"1,544",entries,140
+D2 screen primary estimation sample,452,entries,77
+D2 held-out events,"1,097",entries,93
+D2 held-out co-primary sample,972,entries,74
+MeSH events after F6 widening,"2,267",entries,187
+MeSH co-primary (R2) sample,"2,171",entries,160
+Adopter pairs (W2 newcomers),"21,941",pairs,86.9%
+Adopter measurable pairs (prior corpus work),"2,865",pairs,
+Adopter matched strata,"1,013",strata,109
+RQ1 held-out E_up onsets,30,onsets,
+RQ1 held-out matched (after fallback),22,onsets,14

@@ -1,0 +1,1 @@
+F7 (template). K1-K3 post-confirmation exploratory rows, one panel per scale (IRR, LPM percentage points, ratio), each row labelled POST-CONFIRMATION EXPLORATORY with N = entry events and G = clusters as given per row. CI type is per row (95% as given in the source row), and F7_selftest.pdf shows DUMMY rows only. Source: 3_invention_loop/iter_5/gen_art/*/results/k*_rows.csv.
