@@ -1,0 +1,644 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Host Vocabulary Predicts Cross-Disciplinary Concept Adoption</title>
+<style>
+:root {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --text-2: #5a5a5a;
+  --accent: #1a5276;
+  --accent-h: #0e3650;
+  --border: #d5d5d5;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+body {
+  font-family: var(--font);
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+}
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+a:hover { color: var(--accent-h); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* Skip link */
+.skip {
+  position: absolute; top: -3rem; left: 1rem;
+  background: var(--accent); color: #fff;
+  padding: 0.5rem 1rem; border-radius: 0 0 4px 4px;
+  text-decoration: none; font-size: 14px; z-index: 200;
+}
+.skip:focus { top: 0; }
+
+/* Layout */
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+}
+
+/* Nav */
+nav[data-scrollspy] {
+  width: 170px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 2rem;
+  align-self: flex-start;
+  padding-top: 5rem;
+}
+nav[data-scrollspy] a {
+  display: block;
+  padding: 5px 16px;
+  color: var(--text-2);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.4;
+  border-left: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+nav[data-scrollspy] a.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  font-weight: 600;
+}
+nav[data-scrollspy] a:hover { color: var(--accent); }
+
+/* Main */
+main {
+  flex: 1;
+  min-width: 0;
+  max-width: 72ch;
+  padding: 0 24px 4rem;
+}
+section { padding-top: 3rem; padding-bottom: 3rem; }
+section + section { border-top: 1px solid var(--border); }
+h1 { font-size: 30px; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+h2 { font-size: 24px; line-height: 1.3; font-weight: 700; margin-bottom: 1.25rem; }
+h3 { font-size: 19px; line-height: 1.35; font-weight: 600; margin-bottom: 0.4rem; }
+p { margin-bottom: 1rem; }
+p:last-child { margin-bottom: 0; }
+
+/* Hero */
+.tldr {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 1.75rem;
+}
+.links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+.links-row a { white-space: nowrap; }
+.round-reports {
+  font-size: 14px;
+  color: var(--text-2);
+  margin-top: 0.25rem;
+}
+.round-reports a { font-size: 14px; }
+
+/* Contributions */
+.cards { list-style: none; counter-reset: card; }
+.cards li {
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border);
+}
+.cards li:last-child { padding-bottom: 0; }
+.card-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+.card-num {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.card-body { font-size: 16px; line-height: 1.6; }
+.card-body .code-links { font-size: 13px; color: var(--text-2); margin-top: 0.4rem; }
+.card-body .code-links a { font-size: 13px; }
+
+/* Method figure */
+.method-fig {
+  margin: 1.5rem 0 2rem;
+  max-width: 100%;
+}
+.method-fig img { border: 1px solid var(--border); border-radius: 3px; }
+.method-fig figcaption {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-2);
+  margin-top: 0.5rem;
+}
+.method-sub { font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.4rem; }
+
+/* Results */
+.result-block { margin-bottom: 1.75rem; }
+.result-block:last-child { margin-bottom: 0; }
+.result-label { font-weight: 600; margin-bottom: 0.3rem; }
+
+/* Gallery */
+.gallery { display: flex; flex-direction: column; gap: 2rem; }
+.gallery-fig {
+  cursor: pointer;
+  border-radius: 3px;
+  transition: box-shadow 0.15s;
+  padding: 0;
+  border: none;
+  background: none;
+}
+.gallery-fig:hover { box-shadow: 0 0 0 2px var(--accent); border-radius: 3px; }
+.gallery-fig:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+.gallery-fig img {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  width: 100%;
+}
+.gallery-fig figcaption {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-2);
+  margin-top: 0.5rem;
+  text-align: left;
+}
+.fig-title { font-weight: 600; color: var(--text); }
+
+/* Limitations */
+.limitations-list { list-style: none; }
+.limitations-list li {
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--border);
+  font-size: 16px;
+  line-height: 1.6;
+}
+.limitations-list li:last-child { padding-bottom: 0; }
+.lim-head { font-weight: 600; }
+
+/* Code artifacts */
+.artifacts-section { font-size: 15px; }
+.artifacts-section h2 { font-size: 20px; margin-bottom: 0.75rem; }
+.artifacts-list { list-style: none; }
+.artifacts-list li { padding: 0.25rem 0; }
+
+/* Footer */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 2.5rem 0 3rem;
+  font-size: 15px;
+  color: var(--text-2);
+}
+footer .links-row { margin-bottom: 0.75rem; }
+.cite { font-size: 14px; color: var(--text-2); line-height: 1.6; margin-top: 1rem; }
+
+/* Lightbox */
+.lb-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.82);
+  z-index: 998;
+}
+#lightbox {
+  position: fixed; inset: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#lightbox[hidden] { display: none; }
+.lb-body {
+  position: relative;
+  max-width: 92vw;
+  max-height: 88vh;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  margin-top: 2.5rem;
+}
+#lb-img {
+  max-width: 92vw;
+  max-height: 72vh;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #fff;
+  flex-shrink: 0;
+}
+#lb-cap {
+  color: #d0d0d0;
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 72ch;
+  margin-top: 0.75rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+#lb-close {
+  position: fixed;
+  top: 0.5rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  cursor: pointer;
+  padding: 4px 12px;
+  line-height: 1;
+  z-index: 1000;
+}
+#lb-close:hover { color: #ccc; }
+#lb-close:focus-visible { outline: 2px solid #fff; outline-offset: 2px; border-radius: 2px; }
+
+/* Mobile */
+@media (max-width: 860px) {
+  .wrap { flex-direction: column; }
+  nav[data-scrollspy] {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 0;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  nav[data-scrollspy] a {
+    display: inline-block;
+    padding: 10px 14px;
+    white-space: nowrap;
+    border-left: none;
+    border-bottom: 2px solid transparent;
+    font-size: 13px;
+  }
+  nav[data-scrollspy] a.active {
+    border-left: none;
+    border-bottom-color: var(--accent);
+  }
+  main { padding: 0 16px 3rem; max-width: 100%; }
+  h1 { font-size: 24px; }
+  h2 { font-size: 21px; }
+  section { padding-top: 2rem; padding-bottom: 2rem; }
+  .tldr { font-size: 16px; }
+  .card-body { font-size: 15px; }
+  .limitations-list li { font-size: 15px; }
+  #lb-close { top: -2rem; font-size: 28px; }
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<div class="wrap">
+<nav data-scrollspy aria-label="Page sections">
+  <a href="#hero">Overview</a>
+  <a href="#contributions">Contributions</a>
+  <a href="#method">Method</a>
+  <a href="#results">Results</a>
+  <a href="#figures">Figures</a>
+  <a href="#limitations">Limitations</a>
+</nav>
+
+<main id="main">
+
+<!-- HERO -->
+<section id="hero" aria-label="Overview">
+<h1>Host vocabulary predicts whether new scientific concepts take root across disciplinary boundaries</h1>
+
+<p class="tldr">When a scientific concept first appears in a new disciplinary subfield, what determines whether it catches on? This study finds that the vocabulary composition of the concept's initial partner terms carries a signal: if those partners belong to the host field's own vocabulary, newcomer scientists in that field are substantially more likely to adopt the concept. A one-standard-deviation increase in host-vocabulary share raises five-year newcomer uptake by 19% on a sealed held-out fold (incidence-rate ratio 1.19, 95% CI 1.06 to 1.33) and by 23% in an independent population of 191 MeSH biomedical concepts (1.23, 1.12 to 1.36; biomedicine-to-biomedicine entries only). The effect is on how much newcomer uptake follows, not on a binary establishment threshold.</p>
+
+<div class="links-row">
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/paper.pdf">Read the paper (PDF)</a>
+  <a href="interactive.html">Explore the interactive demo</a>
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/report.pdf">Read the full research report</a>
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/exec_summary.pdf">Read the executive summary</a>
+  <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA">Code repository</a>
+</div>
+<p class="round-reports">Round reports:
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-1/report.pdf">Round 1</a>,
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-2/report.pdf">Round 2</a>,
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-3/report.pdf">Round 3</a>,
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-4/report.pdf">Round 4</a>,
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-5/report.pdf">Round 5</a>
+</p>
+</section>
+
+<!-- CONTRIBUTIONS -->
+<section id="contributions" aria-label="Contributions">
+<h2>Contributions</h2>
+<ol class="cards">
+
+<li>
+  <div class="card-head"><span class="card-num">1</span><h3>Host-vocabulary composition predicts newcomer uptake</h3></div>
+  <div class="card-body">
+    <p>A one-standard-deviation increase in host-vocabulary share raises five-year newcomer uptake by 30% on the screen fold (IRR 1.30, 95% CI 1.16 to 1.45), by 19% on a sealed <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-4/evaluation-2">held-out fold</a> opened once (IRR 1.19, 1.06 to 1.33), and by 23% in an independent <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-4/experiment-9">MeSH biomedical population</a> (IRR 1.23, 1.12 to 1.36; verdict REPLICATED for biomedicine-to-biomedicine entries).</p>
+    <p class="code-links">Code: <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-3/experiment-7">Do borrowed ideas stick when grafted locally?</a></p>
+  </div>
+</li>
+
+<li>
+  <div class="card-head"><span class="card-num">2</span><h3>Outcome-blind, multi-population dataset</h3></div>
+  <div class="card-body">
+    <p><a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-2/dataset-5">426 OpenAlex concepts</a> (366 emerging, 60 stationary reference) with 462,812 works, split into screen and held-out folds, plus an independent <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-1/dataset-3">191-concept MeSH biomedical check population</a>.</p>
+  </div>
+</li>
+
+<li>
+  <div class="card-head"><span class="card-num">3</span><h3>Host-specific effect through both margins</h3></div>
+  <div class="card-body">
+    <p>The effect is host-specific (though the Balassa-index lift test is near-collinear with the continuous share), operates through both the <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-5/evaluation-6">extensive margin</a> (whether uptake starts: +6.4 pp per SD) and the intensive margin (how much: IRR 1.18), and shows no detectable variation by origin field.</p>
+    <p class="code-links">Code: <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-5/evaluation-7">Host-specific or just common words?</a></p>
+  </div>
+</li>
+
+<li>
+  <div class="card-head"><span class="card-num">4</span><h3>Structural precursors declared dead</h3></div>
+  <div class="card-body">
+    <p>The pre-registered <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-4/evaluation-3">held-out test</a> returns R1_DEAD: structural precursors of sustained uptake are volume and churn correlates. Only <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-3/experiment-5">persistent-neighbour closure</a> survives (coefficient &minus;1.07, Holm p&nbsp;=&nbsp;0.015). Burt constraint is positive: emerging concepts sit in more constrained, not more brokered, ego networks.</p>
+  </div>
+</li>
+
+<li>
+  <div class="card-head"><span class="card-num">5</span><h3>Diffusion typology and adopter enrichment</h3></div>
+  <div class="card-body">
+    <p>A stable <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-3/experiment-8">two-type typology</a> (localised vs. broad from the start), an expansion-before-diffusion ordering (25 of 26 dual-onset concepts), and <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-4/evaluation-5">adopter enrichment</a> for prior partner exposure (OR 3.09; prevalence 0.79 vs.&nbsp;0.61; screen fold only).</p>
+    <p class="code-links">Code: <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-4/evaluation-4">Checking concept spread types on unseen and medical data</a></p>
+  </div>
+</li>
+
+</ol>
+</section>
+
+<!-- METHOD -->
+<section id="method" aria-label="Method">
+<h2>Method</h2>
+
+<figure class="method-fig">
+  <img src="figures/fig1_v0.jpg" alt="Study design diagram with four panels: data collection of 426 concepts and 191 MeSH concepts from 462,812 OpenAlex works; co-word network with 25 yearly snapshots of approximately 27,000 nodes; RQ1 matched event study comparing closure before sustained uptake; RQ2 host-entry grafting measuring host-vocabulary share against five-year newcomer uptake.">
+  <figcaption><span class="fig-title">Figure 1. Study design and analysis pipeline.</span> (a) Data: an outcome-blind arXiv concept pool of 426 concepts (366 emerging, split into a screen fold (247) and a held-out fold (119), and 60 stationary reference), and an independent MeSH biomedical check population of 191 concepts. After grounding, 202 screen and 100 held-out main concepts enter the analyses. The 462,812 OpenAlex works belong to the arXiv pool; the MeSH population has its own OpenAlex work set (117,253 unique works), so the arrow joining it to the works box is schematic. (b) Co-word network: yearly co-word snapshots (25 snapshots, ~27k nodes, ~84k edges) with Leiden communities. (c) RQ1, emergence precursors: a matched event study compares closure measures in the pre-onset window between concepts showing sustained uptake and controls. (d) RQ2, host-entry grafting: a concept enters a non-origin host subfield; the host-vocabulary share of its partner terms is the exposure in a pre-registered PPML regression predicting 5-year newcomer uptake.</figcaption>
+</figure>
+
+<p>The study assembles an outcome-blind pool of 426 scientific concepts from OpenAlex, builds yearly co-word network snapshots from 462,812 works, and tests two research questions about how new concepts establish themselves in foreign disciplinary territory.</p>
+
+<p class="method-sub">Data</p>
+<p>The <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-1/dataset-1">concept pool</a> contains 426 scientific concepts (366 emerging, 60 stationary reference) that first appeared in OpenAlex between 2005 and 2016, with 20 to 300 first-appearance papers. Of the 366 emerging concepts, 247 form the screen fold and 119 the held-out fold, split by a SHA-1 hash before any outcomes were inspected. Each concept was <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-2/experiment-1">grounded</a> through a logistic-regression classifier (F1&nbsp;=&nbsp;0.82, AUC&nbsp;=&nbsp;0.89) and variant merger (B-cubed F1&nbsp;=&nbsp;0.78). An independent check population of <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-1/dataset-3">191 new MeSH biomedical concepts</a> was drawn from MeSH descriptors established 2004 to 2018.</p>
+
+<p class="method-sub">Co-word network</p>
+<p>From a design-weighted background sample of 259,716 works, the study built 25 yearly three-year-window <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-2/experiment-3">co-occurrence snapshots</a> (approximately 27,000 nodes and 84,000 edges per snapshot) with association-strength edge weights and Leiden community detection.</p>
+
+<p class="method-sub">RQ1: Emergence precursors</p>
+<p>For each concept showing sustained uptake, a matched event study compares closure measures in the pre-onset window against up to three control concepts (drawn with replacement) from the same first-appearance band and origin group. Four closure variants are tested: general closure, turnover-residualised closure, persistent-neighbour closure (restricted to top associates present in consecutive years), and Burt constraint. Bootstrap confidence intervals and Holm-corrected p-values control for multiple testing.</p>
+
+<p class="method-sub">RQ2: Host-entry grafting</p>
+<p>A host-entry event is the first year a concept appears in a non-origin subfield together with at least five co-occurring partner terms. The host-vocabulary share is the tag-weighted mean of each partner's pre-entry publication share in the host subfield. The outcome is five-year newcomer uptake: the count of host-subfield papers by author-disjoint newcomers. The model is a Poisson pseudo-maximum-likelihood (PPML) regression with concept-clustered standard errors and two pre-registered specifications. The co-primary specification includes concept, entry-year and host fixed effects; the primary specification adds concept-by-year and host-by-year fixed effects.</p>
+</section>
+
+<!-- RESULTS -->
+<section id="results" aria-label="Results">
+<h2>Results</h2>
+
+<div class="result-block">
+<p class="result-label">Host-entry grafting (RQ2)</p>
+<p>On the screen fold, a one-standard-deviation increase in host-vocabulary share raises newcomer uptake by 30% (co-primary IRR 1.30, 95% CI 1.16 to 1.45). On the sealed <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-4/evaluation-2">held-out fold</a>, opened once, the co-primary IRR is 1.19 (95% CI 1.06 to 1.33; the pre-declared kill rule is not triggered). On the <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-4/experiment-9">MeSH biomedical population</a>, the co-primary IRR is 1.23 (95% CI 1.12 to 1.36; verdict REPLICATED for biomedicine-to-biomedicine entries). The inverse-variance weighted pooled estimate across screen and MeSH is 1.26 (95% CI 1.17 to 1.36).</p>
+<p>Co-transfer of origin companions is null across all folds and specifications. The fully saturated primary specification is inconclusive on the held-out fold (IRR 0.98, 95% CI 0.70 to 1.37, 30 clusters).</p>
+</div>
+
+<div class="result-block">
+<p class="result-label">Margin decomposition</p>
+<p>The host-vocabulary effect operates through both margins. The <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-5/evaluation-6">extensive-margin</a> effect is +6.4 percentage points per standard deviation (95% CI 4.8 to 8.1), approximately a 13% increase relative to the 51% base rate. The intensive-margin IRR per standard deviation is 1.18 (95% CI 1.10 to 1.27). The extensive margin accounts for 38% of the total effect (95% CI 21% to 55%); the intensive margin accounts for the remaining 62%.</p>
+</div>
+
+<div class="result-block">
+<p class="result-label">Adopter enrichment</p>
+<p>Newcomer scientists who adopt a concept are enriched for prior corpus exposure to its <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-4/evaluation-5">entry partners</a> (conditional logistic regression OR 3.09; prevalence 0.79 vs.&nbsp;0.61; 1,013 matched strata, screen fold only, not independently confirmed). Enrichment follows a vocabulary gradient: FOREIGN partners OR 2.88, ADJACENT partners OR 1.91, NATIVE partners OR 1.47. The design cannot separate absorptive capacity from topical proximity.</p>
+</div>
+
+<div class="result-block">
+<p class="result-label">Structural precursors (RQ1)</p>
+<p>Under the pre-registered kill rule, R1_DEAD: structural precursors of sustained uptake are volume and churn correlates. Only <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-3/experiment-5">persistent-neighbour closure</a> survives Holm correction on the held-out fold (panel coefficient &minus;1.07, Holm p&nbsp;=&nbsp;0.015; event-study standardised mean difference &minus;0.83, 95% CI [&minus;1.71, &minus;0.10]). General closure (Holm p&nbsp;=&nbsp;0.147) and turnover-residualised closure (Holm p&nbsp;=&nbsp;0.635) do not survive. Burt constraint is positive (+0.11, 95% CI [0.02, 0.19]): emerging concepts sit in more constrained, not more brokered, ego networks.</p>
+<p>The <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-2/experiment-4">MeSH closure replication</a> is directional under a sensitivity label (standardised mean difference &minus;0.42, Holm p&nbsp;=&nbsp;0.039, n&nbsp;=&nbsp;29) but null under the primary label (&minus;0.09, Holm p&nbsp;=&nbsp;0.677, n&nbsp;=&nbsp;15).</p>
+</div>
+
+<div class="result-block">
+<p class="result-label">Null findings</p>
+<p>Co-transfer is null in all specifications and populations. The <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-3/experiment-6">breadth-prediction screen</a> (does openness predict how many new subfields a concept will reach?) found no effect beyond growth and level baselines. The link between pre-emergence closure and later host-entry vocabulary composition is null (partial correlation 0.025 screen, 0.053 held-out, both intervals including zero).</p>
+</div>
+</section>
+
+<!-- FIGURES -->
+<section id="figures" aria-label="Figures">
+<h2>Figures</h2>
+<div class="gallery">
+
+<figure class="gallery-fig" tabindex="0" role="button" aria-label="Enlarge Figure 1: Study design and analysis pipeline">
+  <img src="figures/fig1_v0.jpg" alt="Study design diagram with four panels: data collection, co-word network construction, RQ1 matched event study of closure measures, and RQ2 host-entry grafting analysis measuring host-vocabulary share against five-year newcomer uptake.">
+  <figcaption><span class="fig-title">Figure 1. Study design and analysis pipeline.</span> (a) Data: an outcome-blind arXiv concept pool of 426 concepts (366 emerging, split into a screen fold (247) and a held-out fold (119), and 60 stationary reference), and an independent MeSH biomedical check population of 191 concepts. After grounding, 202 screen and 100 held-out main concepts enter the analyses. The 462,812 OpenAlex works belong to the arXiv pool; the MeSH population has its own OpenAlex work set (117,253 unique works), so the arrow joining it to the works box is schematic. (b) Co-word network: yearly co-word snapshots (25 snapshots, ~27k nodes, ~84k edges) with Leiden communities; the schematic shows three colour-coded communities. (c) RQ1, emergence precursors: a matched event study compares closure measures in the pre-onset window between concepts showing sustained uptake (blue, rising after onset) and controls (grey, flat). (d) RQ2, host-entry grafting: a concept enters a non-origin host subfield. Its partner terms are either host-native (dark green) or from the origin vocabulary (light blue). The host-vocabulary share (orange) is the exposure in a pre-registered PPML regression with concept-clustered standard errors predicting 5-year newcomer uptake.</figcaption>
+</figure>
+
+<figure class="gallery-fig" tabindex="0" role="button" aria-label="Enlarge Figure 2: Co-word network snapshot">
+  <img src="figures/fig2_v0.jpg" alt="Co-word network visualization with six colour-coded Leiden communities (blue, green, orange, purple, red, teal). Pool concepts marked with bold black rings sit on the periphery between communities, acting as bridge nodes. Three examples are labelled: wireless backhaul, EPR steering, holographic QCD.">
+  <figcaption><span class="fig-title">Figure 2. Co-word network snapshot.</span> Schematic illustration of the co-word network structure; it does not depict a specific yearly snapshot, and the placement of the labelled concepts is illustrative. Nodes are concept-keyword terms and grey edges are co-occurrence links; node fill colour marks Leiden community membership, and larger circles are high-degree hub terms. Background terms form dense communities joined by a few inter-community edges. Pool concepts (bold black rings) sit on the periphery of communities, mostly in the gaps between two of them, where they act as bridge or connector nodes; three are labelled as examples (wireless backhaul, EPR steering, holographic QCD). The full network comprises approximately 27,000 nodes and 84,000 edges; the panel is a schematic rendering for readability.</figcaption>
+</figure>
+
+<figure class="gallery-fig" tabindex="0" role="button" aria-label="Enlarge Figure 3: Pre-emergence closure by measure type">
+  <img src="figures/fig3_v0.png" alt="Forest plot of pre-emergence closure on the held-out fold. Four rows: general closure (grey, Holm p = 0.147), turnover-residualised (grey, Holm p = 0.635), persistent-neighbour closure (blue, Holm p = 0.015, the only row surviving correction), and Burt constraint (orange, positive at +0.11).">
+  <figcaption><span class="fig-title">Figure 3. Pre-emergence closure by measure type.</span> Pre-emergence closure on the held-out fold, by measure type. Each row shows the standardised mean difference (S) between concepts that later show sustained uptake and matched controls. Points are estimates and horizontal bars are 95% bootstrap confidence intervals. The dashed vertical line marks no effect (S&nbsp;=&nbsp;0), and Holm-corrected p-values (which test the panel coefficient) are listed to the right of the first three rows. Only persistent-neighbour closure (blue) survives Holm correction (event-study S&nbsp;=&nbsp;&minus;0.83, 95% CI [&minus;1.71, &minus;0.10]; panel coefficient &minus;1.07, Holm p&nbsp;=&nbsp;0.015). General closure (Holm p&nbsp;=&nbsp;0.147) and turnover-residualised closure (Holm p&nbsp;=&nbsp;0.635) are shown in grey. Burt constraint (orange) is positive (S&nbsp;=&nbsp;0.11, 95% CI [0.02, 0.19]).</figcaption>
+</figure>
+
+<figure class="gallery-fig" tabindex="0" role="button" aria-label="Enlarge Figure 4: Host-vocabulary effect across folds">
+  <img src="figures/fig4_v0.png" alt="Forest plot of host-vocabulary effect on five-year newcomer uptake. Screen co-primary IRR 1.30, held-out co-primary 1.19, MeSH co-primary 1.23, IVW pooled 1.26. Primary specification inconclusive on held-out (0.98). Co-transfer null on all folds.">
+  <figcaption><span class="fig-title">Figure 4. Host-vocabulary effect across folds.</span> Host-vocabulary effect on five-year newcomer uptake across folds and specifications. Each row gives the PPML incidence-rate ratio (IRR) per one standard deviation of host-vocabulary share, on a log axis; horizontal bars are 95% concept-clustered confidence intervals, and the dashed vertical line marks IRR&nbsp;=&nbsp;1 (no effect). Filled circles are the co-primary specification and open circles the primary specification. Blue marks the OpenAlex screen and sealed held-out folds, green the independent MeSH replication, and the amber diamond the inverse-variance weighted (IVW) pooled co-primary estimate. The co-primary effect is significant on all three folds (screen IRR 1.30 [1.16, 1.45], held-out 1.19 [1.06, 1.33], MeSH 1.23 [1.12, 1.36]), and the pooled estimate is 1.26 [1.17, 1.36]. Grey diamonds are the co-transfer regressor; its intervals include 1 on every fold.</figcaption>
+</figure>
+
+<figure class="gallery-fig" tabindex="0" role="button" aria-label="Enlarge Figure 5: Extensive and intensive margin decomposition">
+  <img src="figures/fig5_v0.png" alt="Three-panel decomposition of the host-vocabulary effect. Panel a: extensive margin pooled effect 6.43 percentage points per SD. Panel b: intensive margin pooled IRR 1.183. Panel c: extensive margin accounts for 38% of total effect, intensive for 62%.">
+  <figcaption><span class="fig-title">Figure 5. Extensive and intensive margin decomposition.</span> Decomposition of the host-vocabulary effect into extensive and intensive margins across the screen, held-out and MeSH folds. Blue circles show per-fold estimates, vermillion diamonds the IVW pooled estimate, and horizontal bars 95% confidence intervals. (a) Extensive margin: the pooled effect is 6.43 pp (95% CI 4.76 to 8.11). (b) Intensive margin: the pooled IRR is 1.183 (95% CI 1.104 to 1.267). All three folds are positive on both margins, and every fold interval excludes the null. (c) Share of the total effect: the extensive margin accounts for 38% (95% CI 21% to 55%) and the intensive margin for the remaining 62%.</figcaption>
+</figure>
+
+<figure class="gallery-fig" tabindex="0" role="button" aria-label="Enlarge Figure 6: Four representative cases">
+  <img src="figures/fig6_v0.png" alt="Four horizontal bar charts showing host-vocabulary share for each host entry of four concepts. Wireless backhaul: one rooted entry at 0.084 among 14 entries. EPR steering: one rooted entry at 0.142. Locally repairable code: one rooted entry at 0.056. Holographic QCD: five entries, none rooted.">
+  <figcaption><span class="fig-title">Figure 6. Four representative cases.</span> Each panel shows one concept, and each bar is one host entry sorted by host-vocabulary share (x-axis, fraction). Green bars are rooted entries and grey bars are non-rooted entries. (a) Wireless backhaul (broad, CS): 14 entries, one rooted (Aerospace Engineering 2008, share 0.084, 6 newcomers). (b) EPR steering (broad, Physics): 7 entries, one rooted (Artificial Intelligence 2011, share 0.142, 37 newcomers; co-transfer 0). (c) Locally repairable code (localised, CS): one co-primary entry, rooted (0.056, 3 newcomers). (d) Holographic QCD (localised, Physics): 5 entries, none rooted (mean 0.041). In (a) and (b), the rooted entry has a higher host-vocabulary share than every non-rooted entry.</figcaption>
+</figure>
+
+</div>
+</section>
+
+<!-- LIMITATIONS -->
+<section id="limitations" aria-label="Limitations">
+<h2>Limitations</h2>
+<ul class="limitations-list">
+
+<li><span class="lim-head">Held-out fold scope.</span> The held-out fold's outcomes were sealed and opened once, but its entry events, pre-entry features and population size were computed on the same pipeline before opening. The confirmation guards against outcome-driven choices, not against every choice of frame.</li>
+
+<li><span class="lim-head">Population bias.</span> The concept pool is dominated by physics, physical-sciences and computer-science concepts from arXiv. The MeSH population covers only biomedicine-to-biomedicine entries; its coverage rule removes 34% of partner-qualified entries. Generalisation to social sciences, humanities or engineering is untested.</li>
+
+<li><span class="lim-head">Primary specification underpowered.</span> The fully saturated specification with concept-by-year and host-by-year fixed effects is inconclusive on the held-out fold (IRR 0.98, 30 clusters). The held-out confirmation rests on the co-primary specification, which leaves more residual variation.</li>
+
+<li><span class="lim-head">Binary establishment null.</span> Host-vocabulary share predicts the count of newcomer papers and the probability of any newcomer uptake, but binary establishment (at least three newcomer papers in at least three of five years) is null on the held-out fold (p&nbsp;=&nbsp;0.165). The effect is graded, not threshold-based.</li>
+
+<li><span class="lim-head">Cluster-robust inference.</span> The cluster-robust variance estimator rejects 10% to 11% of null shuffles in simulation (target 5%). Wild-cluster bootstrap and permutation tests give consistent results, but standard p-values should not be taken at face value.</li>
+
+<li><span class="lim-head">Explanatory more than predictive.</span> Adding host-vocabulary share lowers the held-out fold's out-of-sample mean deviance by 0.50, but the 95% CI of the change (&minus;1.24 to +0.02) includes zero; on MeSH, out-of-fold deviance falls by 0.146 (95% CI of the change &minus;0.306 to &minus;0.008).</li>
+<li><span class="lim-head">Adopter evidence unconfirmed.</span> The adopter-level enrichment (OR 3.09) is screen-fold only, not independently confirmed. The design cannot separate absorptive capacity from topical proximity.</li>
+
+<li><span class="lim-head">RQ1 caveats.</span> R1_DEAD under the frozen kill rule. The one confirmed row, persistent-neighbour closure, had a screen event-study interval that included zero. The held-out matching falls back to screen controls for 17 of 25 unique controls, so the estimator is not fully control-side independent.</li>
+
+</ul>
+</section>
+
+<!-- RESEARCH ARTIFACTS -->
+<section class="artifacts-section" aria-label="Research artifacts">
+<h2>Research artifacts</h2>
+<ul class="artifacts-list">
+  <li><a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-1/dataset-4">Labelled science phrases and new-term pool</a></li>
+  <li><a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-1/research-1">Prior art and plan for concept-spread study</a></li>
+  <li><a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-2/experiment-2">Do concept citation chains survive in new fields?</a></li>
+  <li><a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-3/evaluation-1">Checking the report's numbers and the closure effect</a></li>
+  <li><a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-5/evaluation-8">Check every paper number against its source</a></li>
+  <li><a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-5/research-2">Where the host-vocabulary finding sits in the literature</a></li>
+  <li><a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA/round-5/evaluation-9">Paper figures drawn straight from result files</a></li>
+</ul>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="links-row">
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/paper.pdf">Read the paper (PDF)</a>
+  <a href="interactive.html">Explore the interactive demo</a>
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/report.pdf">Read the full research report</a>
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/exec_summary.pdf">Read the executive summary</a>
+  <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA">Code repository</a>
+</div>
+<p class="round-reports">Round reports:
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-1/report.pdf">Round 1</a>,
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-2/report.pdf">Round 2</a>,
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-3/report.pdf">Round 3</a>,
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-4/report.pdf">Round 4</a>,
+  <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new@fork/run_MvbsSpVmwUlA/round-5/report.pdf">Round 5</a>
+</p>
+<p class="cite">Host vocabulary predicts whether new scientific concepts take root across disciplinary boundaries. Available at <a href="https://github.com/ai-inventor-papers/ai-invention-8892b7-occupancy-is-not-integration-for-new/tree/fork/run_MvbsSpVmwUlA">github.com/ai-inventor-papers</a>.</p>
+</footer>
+
+</main>
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Figure viewer" hidden>
+  <div class="lb-overlay"></div>
+  <div class="lb-body">
+    <button id="lb-close" aria-label="Close figure viewer">&times;</button>
+    <img id="lb-img" src="figures/fig1_v0.jpg" alt="">
+    <p id="lb-cap"></p>
+  </div>
+</div>
+
+<script>
+/* aii-scroll-spy v1: paste verbatim */
+(function () {
+  var links = [], targets = [];
+  document.querySelectorAll('[data-scrollspy] a[href^="#"]').forEach(function (a) {
+    var el = document.getElementById(a.getAttribute('href').slice(1));
+    if (el) { links.push(a); targets.push(el); }
+  });
+  if (!links.length) return;
+  var queued = false;
+  function current() {
+    var view = window.innerHeight;
+    var doc = document.documentElement;
+    var atEnd = window.scrollY > 0 && view + window.scrollY >= doc.scrollHeight - 2;
+    var line = atEnd ? view - 1 : Math.min(view * 0.3, 200);
+    var best = null, bestTop = -Infinity;
+    targets.forEach(function (el) {
+      var top = el.getBoundingClientRect().top;
+      if (top <= line && top > bestTop) { best = el; bestTop = top; }
+    });
+    return best;
+  }
+  function update() {
+    queued = false;
+    var el = current();
+    links.forEach(function (a, i) {
+      var on = targets[i] === el;
+      a.classList.toggle('active', on);
+      if (on) a.setAttribute('aria-current', 'location');
+      else a.removeAttribute('aria-current');
+    });
+  }
+  function schedule() {
+    if (!queued) { queued = true; window.requestAnimationFrame(update); }
+  }
+  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('resize', schedule);
+  window.addEventListener('load', schedule);
+  if (window.ResizeObserver) new ResizeObserver(schedule).observe(document.body);
+  update();
+})();
+
+/* Lightbox */
+(function () {
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbCap = document.getElementById('lb-cap');
+  var lbClose = document.getElementById('lb-close');
+  var trigger = null;
+
+  function openLb(src, alt, caption) {
+    lbImg.src = src;
+    lbImg.alt = alt;
+    lbCap.textContent = caption;
+    lb.hidden = false;
+    document.body.style.overflow = 'hidden';
+    lbClose.focus();
+  }
+
+  function closeLb() {
+    lb.hidden = true;
+    lbImg.src = '';
+    document.body.style.overflow = '';
+    if (trigger) { trigger.focus(); trigger = null; }
+  }
+
+  document.querySelectorAll('.gallery-fig').forEach(function (fig) {
+    fig.addEventListener('click', function () {
+      trigger = this;
+      var img = this.querySelector('img');
+      var cap = this.querySelector('figcaption');
+      openLb(img.src, img.alt, cap ? cap.textContent : '');
+    });
+    fig.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        this.click();
+      }
+    });
+  });
+
+  lbClose.addEventListener('click', closeLb);
+  lb.querySelector('.lb-overlay').addEventListener('click', closeLb);
+
+  lb.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { closeLb(); return; }
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      lbClose.focus();
+    }
+  });
+})();
+</script>
+</body>
+</html>
