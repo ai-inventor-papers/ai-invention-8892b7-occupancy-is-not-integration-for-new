@@ -1,0 +1,186 @@
+Search: term entering new research field familiar terms companion keywords success  [general via exa]
+Found: 19 results
+
+1. A Vocabulary-Based Approach To Getting Up To Speed In A New Field
+   https://www.johnchampaign.com/2022/06/27/a-vocabulary-based-approach-to-getting-up-to-speed-in-a-new-field/
+   A Vocabulary-Based Approach To Getting Up To Speed In A New Field
+* Skip to main content
+* Skip to primary sidebar
+John Champaign Writes
+Adventures in Self Publishing
+# A Vocabulary-Based Approach To ...
+
+2. Ten simple rules for training yourself in an emerging field | PLOS Computational Biology
+   https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009440
+   Ten simple rules for training yourself in an emerging field | PLOS Computational Biology
+
+Skip to main content
+
+Advertisement
+* plos.org
+* Create account
+* Sign in
+*
+64
+Save
+Total Mendeley and Citeuli...
+
+3. Off the Beaten Path:
+   https://lirias.kuleuven.be/retrieve/466b9af2-5371-41fe-9079-f5f08681d233
+   ## Off the Beaten Path:
+
+## What Drives Scientists’ Entry into New Fields?
+
+Stijn Kelchtermans (KU Leuven, Hasselt University)1 stijn.kelchtermans@kuleuven.be
+
+Daniel Neicu (European Commission)2
+
+dan...
+
+4. Personalized Jargon Identification for Enhanced Interdisciplinary Communication
+   https://aclanthology.org/2024.naacl-long.255.pdf
+   Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), pages 4535–4550 June 16-21, 2024...
+
+5. Getting up to speed in a new research area fast
+   https://neurotaxis.org/blog/2026/getting_up_to_speed_in_a_new_area.html
+   Getting up to speed in a new research area fast
+
+# Getting up to speed in a new research area fast
+
+Rich Pang
+
+2026-04-15
+
+Whether you're changing fields, just starting off in science or embarking on ...
+
+6. Augmenting Scientific Creativity with Retrieval across Knowledge Domains
+   https://exa.ai/library/publication/bpbcrvm7s24
+   # Augmenting Scientific Creativity with Retrieval across Knowledge Domains
+
+arXiv (Cornell University). Published: 2022-06-02. Preprint. 7 citations.
+
+## Abstract
+
+Exposure to ideas in domains outside...
+
+7. commands/cross-field-search.md
+   https://github.com/EmaRimoldi/Claude-scholar-extended/blob/main/commands/cross-field-search.md
+   # commands/cross-field-search.md
+
+- Branch: main
+- Repository: EmaRimoldi/Claude-scholar-extended
+
+---
+
+---
+name: cross-field-search
+description: Pass 4 of the multi-pass research system. Abstracts th...
+
+8. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text Corpora
+   https://www-nlp.stanford.edu/pubs/cao2020will.pdf
+   Findings of the Association for Computational Linguistics: EMNLP 2020, pages 1746–1757 November 16 - 20, 2020. c 2020 Association for Computational Linguistics
+
+Will This Idea Spread Beyond Academia? ...
+
+9. Words as Bridges: Exploring Computational Support for Cross-Disciplinary Translation Work
+   https://arxiv.org/html/2503.18471v1
+   Words as Bridges: Exploring Computational Support for Cross-Disciplinary Translation Work
+
+arXiv is now an independent nonprofit! Learn more×
+
+# Words as Bridges: Exploring Computational Support for C...
+
+10. Off the beaten path: what drives scientists’ entry into new fields?
+   https://exa.ai/library/publication/zy6z7mn22ts
+   # Off the beaten path: what drives scientists’ entry into new fields?
+
+Industrial and Corporate Change. Published: 2021-09-08. 1 citation.
+
+## Abstract
+
+Abstract Given that venturing into unknown terr...
+
+11. The Researcher's Path Part 7: Expansion (Where the Missing Answers Have Been Hiding) | Lee Foropoulos
+   https://foropoulosnow.com/blog/posts/researchers-path-part-7-cross-domain-expansion
+   The Researcher's Path Part 7: Expansion (Where the Missing Answers Have Been Hiding) | Lee Foropoulos
+
+ Technology May 27, 2026 • 17 min read 
+
+# The Researcher's Path Part 7: Expansion (Where the Mis...
+
+12. Words as Bridges: Exploring Computational Support for Cross-Disciplinary Translation Work
+   https://exa.ai/library/publication/g7qltq95mj9
+   # Words as Bridges: Exploring Computational Support for Cross-Disciplinary Translation Work
+
+Published: 2025-03-19. 4 citations.
+
+## Abstract
+
+Scholars often explore literature outside of their home c...
+
+13. How to map a research field in one morning
+   https://lennartnacke.com/how-to-map-a-research-field-in-one-morning/
+   How to map a research field in one morning
+
+ The Write Insight · Jun 9, 2026 · 9 min read 
+
+# How to map a research field in one morning 
+
+Skip the cover-to-cover grind. Sort 50 papers into 3 piles, r...
+
+14. How to Find Research Outside Your Field Without the Jargon - Techgues.Com
+   https://techgues.net/how-to-find-research-outside-your-field-without-the-jargon/
+   How to Find Research Outside Your Field Without the Jargon - Techgues.Com
+
+# How to Find Research Outside Your Field Without the Jargon
+
+ August 22, 2026 August 22, 2026 - by admintechgues.net - Leave...
+
+15. RecSOI: recommending research directions using statements of ignorance
+   https://exa.ai/library/publication/dxz49pwln3v
+   # RecSOI: recommending research directions using statements of ignorance
+
+Journal of Biomedical Semantics. Published: 2024-04-22. 0 citations.
+
+## Authors
+
+- Adrien Bibal (University of Colorado Ansch...
+
+16. Keyphrase identification using minimal labeled data with hierarchical contexts and transfer learning | BMC Medical Informatics and Decision Making | Springer Nature Link
+   https://link.springer.com/article/10.1186/s12911-026-03820-7
+   # Keyphrase identification using minimal labeled data with hierarchical contexts and transfer learning | BMC Medical Informatics and Decision Making | Springer Nature Link
+
+Published: 2026-09-18T00:00...
+
+17. Personalized Jargon Identification for Enhanced Interdisciplinary Communication
+   https://exa.ai/library/publication/3739ms328w4
+   # Personalized Jargon Identification for Enhanced Interdisciplinary Communication
+
+arXiv (Cornell University). Published: 2023-11-16. Preprint. 3 citations.
+
+## Authors
+
+- Yue Guo: h-index 8; 506 cita...
+
+18. Words as Bridges: Exploring Computational Support for Cross-Disciplinary  Translation Work | alphaXiv
+   https://www.alphaxiv.org/abs/2503.18471
+   Words as Bridges: Exploring Computational Support for Cross-Disciplinary Translation Work | alphaXiv
+
+Submitted 24 Mar 2025
+
+# Words as Bridges: Exploring Computational Support for Cross-Disciplinary ...
+
+19. Familiar Academic Preprint: Preprint Drafts
+   https://explanipedia.com/be/preprint/on/familiar/
+   Familiar Academic Preprint: Preprint Drafts
+
+# Familiar: Preprint Drafts 
+
+ Familiar 
+
+Spiritual entity in European folklore
+
+## Fallacy Firebreaks: Protecting Familiar Discourse
+
+ S.O. Meone 1 D.J. W...
+
