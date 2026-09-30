@@ -4,9 +4,9 @@
  "status": {
   "template": true,
   "found_files": [
-   "3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k1_rows.csv",
-   "3_invention_loop/iter_5/gen_art/gen_art_evaluation_6/results/k3_rows.csv",
-   "3_invention_loop/iter_5/gen_art/gen_art_evaluation_7/results/k2_rows.csv"
+   "round-5/evaluation-6/src/results/k1_rows.csv",
+   "round-5/evaluation-6/src/results/k3_rows.csv",
+   "round-5/evaluation-7/src/results/k2_rows.csv"
   ],
   "n_valid_rows": 0,
   "n_invalid_rows": 175,
