@@ -1,0 +1,22 @@
+{
+ "n_events": 1746,
+ "seconds": 1.9,
+ "max_abs_diff": {
+  "A_cont": 0.0,
+  "CT": 0.0,
+  "prox_od": 0.0,
+  "RD": 0.0,
+  "log_n_partner_tags": 0.0,
+  "cov": 0.0,
+  "demic": 0.0,
+  "mean_topic_score": 0.0,
+  "boundary_share": 0.0,
+  "abstract_share": 0.0,
+  "mom_d": 0.0,
+  "log_centrality": 0.0,
+  "log_W1": 0.0,
+  "min_topic_score": 0.0
+ },
+ "n_entry_papers_equal": true,
+ "pass": true
+}

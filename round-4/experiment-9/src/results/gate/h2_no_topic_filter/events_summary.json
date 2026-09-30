@@ -1,0 +1,22 @@
+{
+ "n_events_all": 6618,
+ "main_arm": 4221,
+ "main_arm_kw5": 3589,
+ "reference_arm": 2397,
+ "excluded_pre_F_entries": 300,
+ "MAIN_kw5_by_fold": {
+  "heldout": {
+   "events": 1101,
+   "concepts": 93
+  },
+  "screen": {
+   "events": 1749,
+   "concepts": 184
+  }
+ },
+ "SENSITIVITY_kw5_by_fold": {
+  "heldout": 1371,
+  "screen": 2218
+ },
+ "screen_share_main_arm_kw5": 0.6179994427417108
+}
