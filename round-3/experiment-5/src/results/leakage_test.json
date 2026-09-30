@@ -1,0 +1,36 @@
+{
+ "passed": true,
+ "cases": [
+  {
+   "concept_id": "c_11c8af40130b",
+   "t": 2015,
+   "n_features": 30,
+   "mismatches": []
+  },
+  {
+   "concept_id": "c_8b7be83fd666",
+   "t": 2011,
+   "n_features": 30,
+   "mismatches": []
+  },
+  {
+   "concept_id": "c_02792d2208de",
+   "t": 2014,
+   "n_features": 30,
+   "mismatches": []
+  },
+  {
+   "concept_id": "c_e79d5454fc88",
+   "t": 2010,
+   "n_features": 30,
+   "mismatches": []
+  },
+  {
+   "concept_id": "c_a2bb1be49015",
+   "t": 2015,
+   "n_features": 30,
+   "mismatches": []
+  }
+ ],
+ "note": "closure_resT / _res use betas fitted on the pooled screen panel (label-free; coefficient look-ahead declared); prediction refits R1a inside training folds"
+}

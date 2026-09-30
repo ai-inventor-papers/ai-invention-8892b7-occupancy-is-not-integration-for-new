@@ -1,0 +1,18 @@
+{
+ "spearman_closure_res_vs_log_vol_W1": 0.21203422457120844,
+ "spearman_closure_res_vs_momentum": -0.02094072594072594,
+ "spearman_closure_res_vs_H_W1": 0.06053898503086496,
+ "spearman_closure_res_vs_n_active_W1": 0.1636125167761105,
+ "spearman_closure_res_imp_vs_log_vol_W1": 0.10118731889198866,
+ "spearman_closure_res_imp_vs_momentum": 0.01188457380097928,
+ "spearman_closure_res_imp_vs_H_W1": 0.06263136022235352,
+ "spearman_closure_res_imp_vs_n_active_W1": 0.10054594799101378,
+ "spearman_constraint_vs_log_vol_W1": -0.22514430243048306,
+ "spearman_constraint_vs_momentum": -0.047359834944897254,
+ "spearman_constraint_vs_H_W1": -0.02065876327030835,
+ "spearman_constraint_vs_n_active_W1": -0.13339125036633642,
+ "spearman_esize_norm_vs_log_vol_W1": 0.6046076275310281,
+ "spearman_esize_norm_vs_momentum": 0.3599704364319291,
+ "spearman_esize_norm_vs_H_W1": 0.15937794012762418,
+ "spearman_esize_norm_vs_n_active_W1": 0.506523950406371
+}
