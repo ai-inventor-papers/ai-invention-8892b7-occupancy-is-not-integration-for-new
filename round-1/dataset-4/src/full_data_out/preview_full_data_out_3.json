@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "artifact": "gen_plan_dataset_4_idx4: labelled concept phrases and survivorship-free phrase pool",
+    "created": "2026-09-28",
+    "sources": "OpenAlex API (sampled works, counts, works), OpenAlex S3 snapshot (keywords, concepts), NLM MeSH 2026, Wikidata API, HF: midas/semeval2017, zj88zj/SCIERC, amirveyseh/acronym_identification",
+    "label_status": "D2/D3 LLM labels are LLM-adjudicated SILVER labels; no human has checked them (human_checked=false).",
+    "sealed_file": "data_out/pool_outcomes_SEALED.json holds the full yearly counts and is deliberately NOT included here.",
+    "part": 3,
+    "n_parts": 7
+  },
+  "datasets": [
+    {
+      "dataset": "openalex_stratified_corpus_2003_2016_with_prescreen_1995_2004",
+      "examples": [
+        {
+          "input": "Development of a user‐friendly interface version of the Salmonella source‐attribution model Project developed on the procurement project NP/EFSA/BIOHAZ/2011/04 EFSA has been working on a series of Sci...",
+          "output": "Agricultural and Biological Sciences",
+          "metadata_fold": "corpus_main",
+          "metadata_work_id": "W2592818830",
+          "metadata_doi": "https://doi.org/10.2903/sp.efsa.2012.en-318",
+          "metadata_title": "Development of a user‐friendly interface version of the Salmonella source‐attribution model",
+          "metadata_publication_year": 2012,
+          "metadata_publication_date": "2012-07-01",
+          "metadata_field_id": 11,
+          "metadata_field": "Agricultural and Biological Sciences",
+          "metadata_subfield_id": "1106",
+          "metadata_subfield": "Food Science",
+          "metadata_domain": "Life Sciences",
+          "metadata_topic_id": "T10486",
+          "metadata_topic": "Salmonella and Campylobacter epidemiology",
+          "metadata_venue_id": "S4210168838",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Attribution",
+            "Salmonella",
+            "Interface (matter)"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Attribution",
+            "Salmonella",
+            "Interface (matter)"
+          ],
+          "metadata_referenced_works_count": 8,
+          "metadata_author_ids": [
+            "A5069744000",
+            "A5066713760"
+          ],
+          "metadata_institution_ids": [
+            "I96673099"
+          ],
+          "metadata_stratum": "field11_2012_main",
+          "metadata_N_stratum": 126055,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 840.367,
+          "metadata_sample_seed": 112012
+        },
+        {
+          "input": "New Insights into the Bacterial Fitness-Associated Mechanisms Revealed by the Characterization of Large Plasmids of an Avian Pathogenic E. coli Extra-intestinal pathogenic E. coli (ExPEC), including a...",
+          "output": "Agricultural and Biological Sciences",
+          "metadata_fold": "corpus_main",
+          "metadata_work_id": "W1993247184",
+          "metadata_doi": "https://doi.org/10.1371/journal.pone.0029481",
+          "metadata_title": "New Insights into the Bacterial Fitness-Associated Mechanisms Revealed by the Characterization of Large Plasmids of an Avian Pathogenic E. coli",
+          "metadata_publication_year": 2012,
+          "metadata_publication_date": "2012-01-04",
+          "metadata_field_id": 11,
+          "metadata_field": "Agricultural and Biological Sciences",
+          "metadata_subfield_id": "1106",
+          "metadata_subfield": "Food Science",
+          "metadata_domain": "Life Sciences",
+          "metadata_topic_id": "T10486",
+          "metadata_topic": "Salmonella and Campylobacter epidemiology",
+          "metadata_venue_id": "S202381698",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Plasmid",
+            "Biology",
+            "Pathogenic Escherichia coli"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Plasmid",
+            "Biology",
+            "Pathogenic Escherichia coli"
+          ],
+          "metadata_referenced_works_count": 90,
+          "metadata_author_ids": [
+            "A5035129951",
+            "A5113945305",
+            "A5061084972"
+          ],
+          "metadata_institution_ids": [
+            "I1299303238",
+            "I133960621",
+            "I2802476451"
+          ],
+          "metadata_stratum": "field11_2012_main",
+          "metadata_N_stratum": 126055,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 840.367,
+          "metadata_sample_seed": 112012
+        },
+        {
+          "input": "EVALUATING THE DROUGHT STRESS TOLERANCE EFFICIENCY OF WHEAT (TRITICUM AESTIVUM L.) CULTIVARS The study was conducted at the Nuclear Institute for Agriculture and Biology (NIAB), Faisalabad, Pakistan t...",
+          "output": "Agricultural and Biological Sciences",
+          "metadata_fold": "corpus_main",
+          "metadata_work_id": "W1519734472",
+          "metadata_doi": "https://doi.org/10.18551/rjoas.2012-12.04",
+          "metadata_title": "EVALUATING THE DROUGHT STRESS TOLERANCE EFFICIENCY OF WHEAT (TRITICUM AESTIVUM L.) CULTIVARS",
+          "metadata_publication_year": 2012,
+          "metadata_publication_date": "2012-12-28",
+          "metadata_field_id": 11,
+          "metadata_field": "Agricultural and Biological Sciences",
+          "metadata_subfield_id": "1102",
+          "metadata_subfield": "Agronomy and Crop Science",
+          "metadata_domain": "Life Sciences",
+          "metadata_topic_id": "T12310",
+          "metadata_topic": "Crop Yield and Soil Fertility",
+          "metadata_venue_id": "S2764381730",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Cultivar",
+            "Drought tolerance",
+            "Agronomy"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Cultivar",
+            "Drought tolerance",
+            "Agronomy"
+          ],
+          "metadata_referenced_works_count": 27,
+          "metadata_author_ids": [
+            "A5008129919",
+            "A5076113144",
+            "A5063091250"
+          ],
+          "metadata_institution_ids": [
+            "I174731842",
+            "I61623833"
+          ],
+          "metadata_stratum": "field11_2012_main",
+          "metadata_N_stratum": 126055,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 840.367,
+          "metadata_sample_seed": 112012
+        }
+      ]
+    }
+  ]
+}
