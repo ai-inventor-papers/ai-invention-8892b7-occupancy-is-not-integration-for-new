@@ -1,0 +1,49 @@
+{
+  "gate_A_independent": {
+    "n_host_edges_eligible": 779,
+    "n_edges_verdict_set": 724,
+    "n_concepts": 97,
+    "share_ge_040": 0.17265193370165746,
+    "mean_within": 0.20418556301426388
+  },
+  "gate_A_pipeline": {
+    "share_ge_040": 0.1727,
+    "n_edges": 724,
+    "n_concepts": 97
+  },
+  "gate_A_edge_agreement": {
+    "only_independent": 0,
+    "only_pipeline": 0,
+    "max_abs_diff": 0.0
+  },
+  "within_vs_lenient_signflip": {
+    "real_mean_diff": 0.2728708990141412,
+    "real_p": 0.0001999600079984003,
+    "placebo_mean_diff": -0.017992791158542736,
+    "placebo_p": 0.16056788642271547
+  },
+  "viability": {
+    "n_eligible": 779,
+    "n_tested": 169,
+    "n_concepts_tested": 38,
+    "state_counts": {
+      "UNDETERMINED": 683,
+      "SOURCE": 63,
+      "SINK": 26,
+      "FADING": 7
+    },
+    "handBH_SOURCE": 63,
+    "handBH_SINK": 26,
+    "placebo_uniform_p_SOURCE": 16
+  },
+  "synthetic_FDR_nmin30": 0.20880428316478286,
+  "H1_MDE_rederived_main": {
+    "auc|nmin30|AUC0.7|N150": 0.05873106615703419,
+    "auc|nmin30|AUC0.7|projected": 0.08379051823465494,
+    "auc|nmin30|AUC0.7|realised": 0.13426961548837754,
+    "auc|nmin30|AUC0.8|N150": 0.03904894467460161,
+    "auc|nmin30|AUC0.8|projected": 0.06887231972546416,
+    "auc|nmin30|AUC0.8|realised": 0.1160292681164482
+  },
+  "gate_B_labelled_episodes": 0
+}

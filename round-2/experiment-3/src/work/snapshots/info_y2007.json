@@ -1,0 +1,1 @@
+{"year": 2007, "n_works": 24649, "n_nodes": 26242, "n_edges": 420093, "n_kept_edges": 72721, "n_kept_nodes": 11901, "n_comm": 269, "n_comm_ge5": 92, "modularity": 0.9520433450021942, "Wtot": 10347918.515960488, "btw_nodes": 11975, "btw_edges": 79358, "secs": 49.4, "n_pool_active": 80, "n_pool_pool_edges": 7}

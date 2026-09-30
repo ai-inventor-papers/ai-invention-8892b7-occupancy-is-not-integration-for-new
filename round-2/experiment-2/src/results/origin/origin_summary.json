@@ -1,0 +1,30 @@
+{
+  "theta_0.6": {
+    "n_with_onset": 33,
+    "n_concepts": 184,
+    "onset_year_quantiles": {
+      "0.25": 2017.0,
+      "0.5": 2020.0,
+      "0.75": 2022.0
+    }
+  },
+  "theta_0.7": {
+    "n_with_onset": 51,
+    "n_concepts": 184,
+    "onset_year_quantiles": {
+      "0.25": 2014.0,
+      "0.5": 2019.0,
+      "0.75": 2021.0
+    }
+  },
+  "theta_0.8": {
+    "n_with_onset": 83,
+    "n_concepts": 184,
+    "onset_year_quantiles": {
+      "0.25": 2013.0,
+      "0.5": 2016.0,
+      "0.75": 2020.5
+    }
+  },
+  "O_star_vs_raw_share_clean": 0.7807497729926061
+}

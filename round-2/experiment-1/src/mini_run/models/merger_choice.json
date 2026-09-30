@@ -1,0 +1,12 @@
+{
+ "d3only_threshold_d3_oof_p90": 0.5009,
+ "d3only_threshold_mesh_train_p90": 0.7807999849319458,
+ "d3only_admissible_threshold": 0.7807999849319458,
+ "d3only_precision_on_mesh_train_at_d3_threshold": 0.43667697746354395,
+ "d3only_oof_f1_d3_at_admissible_threshold": 0.5379310344827586,
+ "primary_oof_f1_d3_at_p_merge": 0.5,
+ "choice": "lr_d3_only",
+ "p_merge_choice": 0.7807999849319458,
+ "rule": "F5 choice (higher D3-OOF F1) among models whose threshold meets OOF precision >= 0.90 on BOTH D3 and MeSH (plan's p_merge rule)",
+ "why": "the D3-only threshold alone (0.506) merged topically related frame phrases into clusters of up to 70 members"
+}
