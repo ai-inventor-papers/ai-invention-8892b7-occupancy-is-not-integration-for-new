@@ -1,0 +1,259 @@
+04:27:29|INFO   |__main__:40|vendored 8 files; exp_3 spec sha256 2e4c4894393b
+04:27:29|INFO   |__main__:49|prereg_v3.json exists with the same SPEC3 hash eb604a568628; kept (utc 2026-09-29T04:16:24Z)
+04:27:29|INFO   |__main__:46|step src/setup.py done in 1s
+04:27:32|INFO   |__main__:116|population: replaced 180 sense values; MAIN {'screen': 202, 'heldout': 100}, STRICT {'screen': 196, 'heldout': 96}; old/new screen MAIN {'old': 102, 'new': 100, 'old_heldout': 54, 'new_heldout': 46}
+04:27:32|INFO   |__main__:46|step src/population.py done in 3s
+04:27:40|INFO   |__main__:60|c-paper rows 488078 for 426 concepts; missing work join 0; frame share 0.696
+04:27:41|INFO   |__main__:103|data change vs exp_3 cp: identical count share 0.9968, max |diff| 3.0, tag-set identical 1.0000
+04:27:41|INFO   |__main__:128|prep3 done: {'n_active': 307, 'n_heldout': 119, 'cp_active_rows': 388297, 'cp_heldout_rows': 99781, 'data_change': {'n_concepts': 145, 'n_concept_years': 2539, 'identical_count_share': 0.9968491532099252, 'max_abs_count_diff': 3.0, 'n_links_old': 167117, 'n_links_new': 167128, 'links_only_old': 0, 'links_only_new': 11, 'tag_set_identical_share_common_links': 1.0}}
+04:27:41|INFO   |__main__:46|step src/prep3.py done in 9s
+04:28:03|INFO   |__mp_main__:291|[repro_code] y=2024 concepts=145 active=141 btw graph 12621/118909 in 5.1s
+04:28:04|INFO   |__main__:313|attach ('repro_code', 2024) ok (19s elapsed, 1/75)
+04:28:04|INFO   |__mp_main__:291|[repro_data] y=2024 concepts=145 active=141 btw graph 12621/118909 in 5.4s
+04:28:04|INFO   |__main__:313|attach ('repro_data', 2024) ok (19s elapsed, 2/75)
+04:28:06|INFO   |__mp_main__:291|[full] y=2024 concepts=307 active=296 btw graph 12776/157332 in 7.5s
+04:28:06|INFO   |__main__:313|attach ('full', 2024) ok (21s elapsed, 3/75)
+04:28:07|INFO   |__mp_main__:291|[full] y=2023 concepts=307 active=295 btw graph 13584/170183 in 8.5s
+04:28:07|INFO   |__main__:313|attach ('full', 2023) ok (22s elapsed, 4/75)
+04:28:09|INFO   |__mp_main__:291|[repro_code] y=2023 concepts=145 active=140 btw graph 13429/130068 in 5.1s
+04:28:09|INFO   |__main__:313|attach ('repro_code', 2023) ok (24s elapsed, 5/75)
+04:28:09|INFO   |__mp_main__:291|[repro_data] y=2023 concepts=145 active=140 btw graph 13429/130068 in 5.2s
+04:28:09|INFO   |__main__:313|attach ('repro_data', 2023) ok (25s elapsed, 6/75)
+04:28:12|INFO   |__mp_main__:291|[repro_code] y=2022 concepts=145 active=142 btw graph 13464/129750 in 5.2s
+04:28:12|INFO   |__main__:313|attach ('repro_code', 2022) ok (28s elapsed, 7/75)
+04:28:14|INFO   |__mp_main__:291|[repro_data] y=2022 concepts=145 active=142 btw graph 13464/129751 in 5.7s
+04:28:15|INFO   |__mp_main__:291|[full] y=2022 concepts=307 active=295 btw graph 13617/170081 in 8.4s
+04:28:15|INFO   |__main__:313|attach ('repro_data', 2022) ok (30s elapsed, 8/75)
+04:28:15|INFO   |__main__:313|attach ('full', 2022) ok (30s elapsed, 9/75)
+04:28:18|INFO   |__mp_main__:291|[full] y=2021 concepts=307 active=295 btw graph 13707/168207 in 8.1s
+04:28:18|INFO   |__main__:313|attach ('full', 2021) ok (33s elapsed, 10/75)
+04:28:18|INFO   |__mp_main__:291|[repro_code] y=2021 concepts=145 active=141 btw graph 13553/128462 in 5.4s
+04:28:18|INFO   |__main__:313|attach ('repro_code', 2021) ok (33s elapsed, 11/75)
+04:28:20|INFO   |__mp_main__:291|[repro_data] y=2021 concepts=145 active=141 btw graph 13553/128464 in 5.2s
+04:28:20|INFO   |__main__:313|attach ('repro_data', 2021) ok (35s elapsed, 12/75)
+04:28:23|INFO   |__mp_main__:291|[repro_code] y=2020 concepts=145 active=142 btw graph 13254/122191 in 5.0s
+04:28:23|INFO   |__main__:313|attach ('repro_code', 2020) ok (38s elapsed, 13/75)
+04:28:23|INFO   |__mp_main__:291|[full] y=2020 concepts=307 active=297 btw graph 13408/159831 in 8.3s
+04:28:23|INFO   |__main__:313|attach ('full', 2020) ok (38s elapsed, 14/75)
+04:28:23|INFO   |__mp_main__:291|[repro_data] y=2020 concepts=145 active=142 btw graph 13254/122194 in 5.3s
+04:28:23|INFO   |__main__:313|attach ('repro_data', 2020) ok (39s elapsed, 15/75)
+04:28:28|INFO   |__mp_main__:291|[full] y=2019 concepts=307 active=301 btw graph 12998/149825 in 7.7s
+04:28:28|INFO   |__mp_main__:291|[repro_code] y=2019 concepts=145 active=142 btw graph 12840/114957 in 4.9s
+04:28:28|INFO   |__main__:313|attach ('full', 2019) ok (43s elapsed, 16/75)
+04:28:28|INFO   |__main__:313|attach ('repro_code', 2019) ok (43s elapsed, 17/75)
+04:28:28|INFO   |__mp_main__:291|[repro_data] y=2019 concepts=145 active=142 btw graph 12840/114962 in 5.1s
+04:28:28|INFO   |__main__:313|attach ('repro_data', 2019) ok (44s elapsed, 18/75)
+04:28:31|INFO   |__mp_main__:291|[full] y=2018 concepts=307 active=302 btw graph 12574/138614 in 7.6s
+04:28:31|INFO   |__main__:313|attach ('full', 2018) ok (46s elapsed, 19/75)
+04:28:32|INFO   |__mp_main__:291|[repro_code] y=2018 concepts=145 active=142 btw graph 12415/106262 in 4.7s
+04:28:33|INFO   |__main__:313|attach ('repro_code', 2018) ok (48s elapsed, 20/75)
+04:28:33|INFO   |__mp_main__:291|[repro_data] y=2018 concepts=145 active=142 btw graph 12415/106265 in 4.8s
+04:28:33|INFO   |__main__:313|attach ('repro_data', 2018) ok (48s elapsed, 21/75)
+04:28:36|INFO   |__mp_main__:291|[full] y=2017 concepts=307 active=304 btw graph 12593/133170 in 7.3s
+04:28:36|INFO   |__mp_main__:291|[repro_code] y=2017 concepts=145 active=144 btw graph 12433/102860 in 4.6s
+04:28:36|INFO   |__main__:313|attach ('full', 2017) ok (51s elapsed, 22/75)
+04:28:36|INFO   |__main__:313|attach ('repro_code', 2017) ok (51s elapsed, 23/75)
+04:28:37|INFO   |__mp_main__:291|[repro_data] y=2017 concepts=145 active=144 btw graph 12433/102863 in 4.7s
+04:28:37|INFO   |__main__:313|attach ('repro_data', 2017) ok (53s elapsed, 24/75)
+04:28:40|INFO   |__mp_main__:291|[full] y=2016 concepts=307 active=305 btw graph 13122/134916 in 7.4s
+04:28:40|INFO   |__main__:313|attach ('full', 2016) ok (56s elapsed, 25/75)
+04:28:41|INFO   |__mp_main__:291|[repro_code] y=2016 concepts=145 active=145 btw graph 12962/106132 in 4.9s
+04:28:41|INFO   |__main__:313|attach ('repro_code', 2016) ok (56s elapsed, 26/75)
+04:28:41|INFO   |__mp_main__:291|[repro_data] y=2016 concepts=145 active=145 btw graph 12962/106132 in 5.0s
+04:28:41|INFO   |__main__:313|attach ('repro_data', 2016) ok (56s elapsed, 27/75)
+04:28:45|INFO   |__mp_main__:291|[full] y=2015 concepts=307 active=306 btw graph 13366/135189 in 7.4s
+04:28:45|INFO   |__main__:313|attach ('full', 2015) ok (60s elapsed, 28/75)
+04:28:45|INFO   |__mp_main__:291|[repro_code] y=2015 concepts=145 active=145 btw graph 13206/108254 in 4.8s
+04:28:45|INFO   |__main__:313|attach ('repro_code', 2015) ok (60s elapsed, 29/75)
+04:28:46|INFO   |__mp_main__:291|[repro_data] y=2015 concepts=145 active=145 btw graph 13206/108254 in 5.3s
+04:28:46|INFO   |__main__:313|attach ('repro_data', 2015) ok (62s elapsed, 30/75)
+04:28:49|INFO   |__mp_main__:291|[full] y=2014 concepts=307 active=293 btw graph 13633/133897 in 7.6s
+04:28:49|INFO   |__main__:313|attach ('full', 2014) ok (64s elapsed, 31/75)
+04:28:50|INFO   |__mp_main__:291|[repro_code] y=2014 concepts=145 active=141 btw graph 13486/109187 in 4.7s
+04:28:50|INFO   |__main__:313|attach ('repro_code', 2014) ok (65s elapsed, 32/75)
+04:28:50|INFO   |__mp_main__:291|[repro_data] y=2014 concepts=145 active=141 btw graph 13486/109187 in 4.8s
+04:28:50|INFO   |__main__:313|attach ('repro_data', 2014) ok (65s elapsed, 33/75)
+04:28:53|INFO   |__mp_main__:291|[full] y=2013 concepts=307 active=279 btw graph 13284/126262 in 6.9s
+04:28:53|INFO   |__main__:313|attach ('full', 2013) ok (69s elapsed, 34/75)
+04:28:53|INFO   |__mp_main__:291|[repro_code] y=2013 concepts=145 active=137 btw graph 13145/103403 in 4.6s
+04:28:54|INFO   |__main__:313|attach ('repro_code', 2013) ok (69s elapsed, 35/75)
+04:28:54|INFO   |__mp_main__:291|[repro_data] y=2013 concepts=145 active=137 btw graph 13145/103408 in 4.5s
+04:28:54|INFO   |__main__:313|attach ('repro_data', 2013) ok (70s elapsed, 36/75)
+04:28:56|INFO   |__mp_main__:291|[full] y=2012 concepts=307 active=264 btw graph 12773/115942 in 6.1s
+04:28:56|INFO   |__main__:313|attach ('full', 2012) ok (72s elapsed, 37/75)
+04:28:58|INFO   |__mp_main__:291|[repro_code] y=2012 concepts=145 active=126 btw graph 12639/95465 in 4.3s
+04:28:58|INFO   |__main__:313|attach ('repro_code', 2012) ok (73s elapsed, 38/75)
+04:28:58|INFO   |__mp_main__:291|[repro_data] y=2012 concepts=145 active=126 btw graph 12639/95472 in 4.3s
+04:28:58|INFO   |__main__:313|attach ('repro_data', 2012) ok (73s elapsed, 39/75)
+04:29:00|INFO   |__mp_main__:291|[repro_code] y=2011 concepts=145 active=123 btw graph 12989/96433 in 3.3s
+04:29:00|INFO   |__main__:313|attach ('repro_code', 2011) ok (75s elapsed, 40/75)
+04:29:01|INFO   |__mp_main__:291|[full] y=2011 concepts=307 active=254 btw graph 13117/114783 in 6.8s
+04:29:01|INFO   |__main__:313|attach ('full', 2011) ok (77s elapsed, 41/75)
+04:29:03|INFO   |__mp_main__:291|[repro_code] y=2010 concepts=145 active=114 btw graph 13338/96852 in 3.2s
+04:29:03|INFO   |__main__:313|attach ('repro_code', 2010) ok (78s elapsed, 42/75)
+04:29:03|INFO   |__mp_main__:291|[repro_data] y=2011 concepts=145 active=123 btw graph 12989/96440 in 5.6s
+04:29:04|INFO   |__main__:313|attach ('repro_data', 2011) ok (79s elapsed, 43/75)
+04:29:05|INFO   |__mp_main__:291|[full] y=2010 concepts=307 active=230 btw graph 13448/112716 in 6.9s
+04:29:05|INFO   |__main__:313|attach ('full', 2010) ok (80s elapsed, 44/75)
+04:29:06|INFO   |__mp_main__:291|[repro_data] y=2010 concepts=145 active=114 btw graph 13338/96852 in 4.1s
+04:29:06|INFO   |__main__:313|attach ('repro_data', 2010) ok (81s elapsed, 45/75)
+04:29:07|INFO   |__mp_main__:291|[repro_code] y=2009 concepts=145 active=108 btw graph 13522/97224 in 3.8s
+04:29:08|INFO   |__main__:313|attach ('repro_code', 2009) ok (83s elapsed, 46/75)
+04:29:09|INFO   |__mp_main__:291|[full] y=2009 concepts=307 active=214 btw graph 13624/111146 in 5.5s
+04:29:09|INFO   |__main__:313|attach ('full', 2009) ok (84s elapsed, 47/75)
+04:29:09|INFO   |__mp_main__:291|[repro_data] y=2009 concepts=145 active=108 btw graph 13522/97224 in 4.1s
+04:29:09|INFO   |__main__:313|attach ('repro_data', 2009) ok (85s elapsed, 48/75)
+04:29:11|INFO   |__mp_main__:291|[full] y=2008 concepts=307 active=191 btw graph 12915/100012 in 5.0s
+04:29:11|INFO   |__main__:313|attach ('full', 2008) ok (86s elapsed, 49/75)
+04:29:11|INFO   |__mp_main__:291|[repro_code] y=2008 concepts=145 active=94 btw graph 12821/88130 in 3.4s
+04:29:11|INFO   |__main__:313|attach ('repro_code', 2008) ok (86s elapsed, 50/75)
+04:29:12|INFO   |__mp_main__:291|[repro_data] y=2008 concepts=145 active=94 btw graph 12821/88130 in 3.6s
+04:29:12|INFO   |__main__:313|attach ('repro_data', 2008) ok (88s elapsed, 51/75)
+04:29:14|INFO   |__mp_main__:291|[full] y=2007 concepts=307 active=168 btw graph 12061/89328 in 4.3s
+04:29:14|INFO   |__main__:313|attach ('full', 2007) ok (89s elapsed, 52/75)
+04:29:14|INFO   |__mp_main__:291|[repro_code] y=2007 concepts=145 active=80 btw graph 11975/79358 in 3.0s
+04:29:14|INFO   |__main__:313|attach ('repro_code', 2007) ok (89s elapsed, 53/75)
+04:29:14|INFO   |__mp_main__:291|[repro_data] y=2007 concepts=145 active=80 btw graph 11975/79358 in 3.2s
+04:29:14|INFO   |__main__:313|attach ('repro_data', 2007) ok (90s elapsed, 54/75)
+04:29:17|INFO   |__mp_main__:291|[full] y=2006 concepts=307 active=153 btw graph 12441/90598 in 4.2s
+04:29:17|INFO   |__mp_main__:291|[repro_code] y=2006 concepts=145 active=71 btw graph 12362/81973 in 3.0s
+04:29:17|INFO   |__main__:313|attach ('full', 2006) ok (92s elapsed, 55/75)
+04:29:17|INFO   |__main__:313|attach ('repro_code', 2006) ok (92s elapsed, 56/75)
+04:29:17|INFO   |__mp_main__:291|[repro_data] y=2006 concepts=145 active=71 btw graph 12362/81973 in 3.1s
+04:29:17|INFO   |__main__:313|attach ('repro_data', 2006) ok (92s elapsed, 57/75)
+04:29:19|INFO   |__mp_main__:291|[full] y=2005 concepts=307 active=142 btw graph 12824/93424 in 4.1s
+04:29:19|INFO   |__main__:313|attach ('full', 2005) ok (94s elapsed, 58/75)
+04:29:20|INFO   |__mp_main__:291|[repro_code] y=2005 concepts=145 active=66 btw graph 12751/85540 in 3.0s
+04:29:20|INFO   |__main__:313|attach ('repro_code', 2005) ok (95s elapsed, 59/75)
+04:29:20|INFO   |__mp_main__:291|[repro_data] y=2005 concepts=145 active=66 btw graph 12751/85540 in 3.2s
+04:29:20|INFO   |__main__:313|attach ('repro_data', 2005) ok (95s elapsed, 60/75)
+04:29:21|INFO   |__mp_main__:291|[full] y=2004 concepts=307 active=122 btw graph 13167/95695 in 4.0s
+04:29:21|INFO   |__main__:313|attach ('full', 2004) ok (97s elapsed, 61/75)
+04:29:22|INFO   |__mp_main__:291|[repro_code] y=2004 concepts=145 active=54 btw graph 13104/88580 in 3.0s
+04:29:22|INFO   |__main__:313|attach ('repro_code', 2004) ok (97s elapsed, 62/75)
+04:29:23|INFO   |__mp_main__:291|[repro_data] y=2004 concepts=145 active=54 btw graph 13104/88580 in 3.1s
+04:29:23|INFO   |__main__:313|attach ('repro_data', 2004) ok (98s elapsed, 63/75)
+04:29:24|INFO   |__mp_main__:291|[full] y=2003 concepts=307 active=105 btw graph 12402/87523 in 3.7s
+04:29:24|INFO   |__main__:313|attach ('full', 2003) ok (99s elapsed, 64/75)
+04:29:24|INFO   |__mp_main__:291|[repro_code] y=2003 concepts=145 active=44 btw graph 12346/81092 in 2.8s
+04:29:24|INFO   |__main__:313|attach ('repro_code', 2003) ok (100s elapsed, 65/75)
+04:29:25|INFO   |__mp_main__:291|[repro_data] y=2003 concepts=145 active=44 btw graph 12346/81092 in 2.9s
+04:29:25|INFO   |__main__:313|attach ('repro_data', 2003) ok (100s elapsed, 66/75)
+04:29:27|INFO   |__mp_main__:291|[repro_code] y=2002 concepts=145 active=39 btw graph 11642/74456 in 2.6s
+04:29:27|INFO   |__mp_main__:291|[full] y=2002 concepts=307 active=102 btw graph 11701/80299 in 3.5s
+04:29:27|INFO   |__main__:313|attach ('repro_code', 2002) ok (102s elapsed, 67/75)
+04:29:27|INFO   |__main__:313|attach ('full', 2002) ok (102s elapsed, 68/75)
+04:29:27|INFO   |__mp_main__:291|[repro_data] y=2002 concepts=145 active=39 btw graph 11642/74456 in 2.7s
+04:29:27|INFO   |__main__:313|attach ('repro_data', 2002) ok (102s elapsed, 69/75)
+04:29:28|INFO   |__mp_main__:291|[full] y=2001 concepts=307 active=93 btw graph 8295/49007 in 2.7s
+04:29:28|INFO   |__main__:313|attach ('full', 2001) ok (103s elapsed, 70/75)
+04:29:29|INFO   |__mp_main__:291|[repro_code] y=2001 concepts=145 active=36 btw graph 8242/45051 in 1.8s
+04:29:29|INFO   |__main__:313|attach ('repro_code', 2001) ok (104s elapsed, 71/75)
+04:29:29|INFO   |__mp_main__:291|[repro_code] y=2000 concepts=145 active=27 btw graph 4637/18973 in 1.0s
+04:29:29|INFO   |__mp_main__:291|[repro_data] y=2001 concepts=145 active=36 btw graph 8242/45051 in 1.9s
+04:29:29|INFO   |__mp_main__:291|[full] y=2000 concepts=307 active=76 btw graph 4683/20954 in 1.6s
+04:29:29|INFO   |__main__:313|attach ('repro_code', 2000) ok (104s elapsed, 72/75)
+04:29:29|INFO   |__main__:313|attach ('repro_data', 2001) ok (104s elapsed, 73/75)
+04:29:29|INFO   |__main__:313|attach ('full', 2000) ok (104s elapsed, 74/75)
+04:29:29|INFO   |__mp_main__:291|[repro_data] y=2000 concepts=145 active=27 btw graph 4637/18973 in 0.8s
+04:29:30|INFO   |__main__:313|attach ('repro_data', 2000) ok (105s elapsed, 75/75)
+04:29:30|INFO   |__main__:46|step src/attach.py --modes full repro_code repro_data --workers 4 done in 109s
+04:29:46|INFO   |__main__:98|[repro_code] indicators 1/145 (6s)
+04:29:49|INFO   |__main__:98|[repro_code] indicators 51/145 (9s)
+04:29:52|INFO   |__main__:98|[repro_code] indicators 101/145 (12s)
+04:29:54|INFO   |__main__:220|[repro_code] 2618 rows, 145 concepts
+04:29:54|INFO   |__main__:299|indicators repro_code done in 17s
+04:30:01|INFO   |__main__:98|[repro_data] indicators 1/145 (6s)
+04:30:04|INFO   |__main__:98|[repro_data] indicators 51/145 (9s)
+04:30:07|INFO   |__main__:98|[repro_data] indicators 101/145 (11s)
+04:30:09|INFO   |__main__:220|[repro_data] 2618 rows, 145 concepts
+04:30:09|INFO   |__main__:299|indicators repro_data done in 15s
+04:30:16|INFO   |__main__:98|[full] indicators 1/307 (6s)
+04:30:19|INFO   |__main__:98|[full] indicators 51/307 (9s)
+04:30:22|INFO   |__main__:98|[full] indicators 101/307 (11s)
+04:30:25|INFO   |__main__:98|[full] indicators 151/307 (14s)
+04:30:27|INFO   |__main__:98|[full] indicators 201/307 (16s)
+04:30:30|INFO   |__main__:98|[full] indicators 251/307 (19s)
+04:30:32|INFO   |__main__:98|[full] indicators 301/307 (21s)
+04:30:33|INFO   |__main__:250|[full] 5549 rows; R1a n_fit 3708; NA shares {'closure': 0.00975975975975976, 'closure_persist': 0.1066066066066066, 'constraint': 0.00975975975975976, 'xc_excess': 0.04504504504504504, 'closure_resT': 0.00975975975975976, 'closure_resT_cc': 0.5472972972972973, 'beta_sim_rar': 0.5472972972972973, 'H': 0.0015015015015015015}
+04:30:33|INFO   |__main__:299|indicators full done in 24s
+04:30:33|INFO   |__main__:46|step src/indicators3.py --modes repro_code repro_data full --workers 4 done in 63s
+04:30:38|INFO   |__main__:63|[repro_code] closure r = 1.000000, max|diff| 6.32e-08
+04:30:38|INFO   |__main__:63|[repro_data] closure r = 0.999562, max|diff| 1.09e+00
+04:30:38|INFO   |analysis_event:119|labels: E rate 0.021; emerging 4, never 86; reference E rate 0.062
+04:30:39|INFO   |analysis_event:119|labels: E rate 0.021; emerging 4, never 86; reference E rate 0.062
+04:30:39|INFO   |analysis_event:119|labels: E rate 0.021; emerging 4, never 86; reference E rate 0.062
+04:30:39|INFO   |__main__:89|reproduction gate: {'closure_r_code': 0.9999999999999996, 'closure_r_data': 0.9995620011844736, 'E_up_counts_reproduced': True, 'S_reproduced': True, 'ci_reproduced': True, 'passed_code': True, 'data_drift_flag': False}; mode-a E_up {'n_onsets': 41, 'n_matched': 21, 'S_closure': -0.836979175196773, 'ci': [-1.2600367192985225, -0.4268401188467288], 'p': 0.001}
+04:30:39|INFO   |__main__:46|step src/repro.py done in 6s
+04:31:09|INFO   |__mp_main__:289|[sealed] y=2012 rows=119 written in 4.9s (no values logged)
+04:31:10|INFO   |__main__:313|attach ('sealed', 2012) ok (26s elapsed, 1/16)
+04:31:10|INFO   |__mp_main__:289|[sealed] y=2013 rows=119 written in 5.0s (no values logged)
+04:31:10|INFO   |__main__:313|attach ('sealed', 2013) ok (26s elapsed, 2/16)
+04:31:10|INFO   |__mp_main__:289|[sealed] y=2014 rows=119 written in 5.3s (no values logged)
+04:31:10|INFO   |__mp_main__:289|[sealed] y=2015 rows=119 written in 5.4s (no values logged)
+04:31:10|INFO   |__main__:313|attach ('sealed', 2014) ok (26s elapsed, 3/16)
+04:31:10|INFO   |__main__:313|attach ('sealed', 2015) ok (26s elapsed, 4/16)
+04:31:14|INFO   |__mp_main__:289|[sealed] y=2008 rows=119 written in 3.7s (no values logged)
+04:31:14|INFO   |__main__:313|attach ('sealed', 2008) ok (30s elapsed, 5/16)
+04:31:14|INFO   |__mp_main__:289|[sealed] y=2010 rows=119 written in 4.3s (no values logged)
+04:31:14|INFO   |__mp_main__:289|[sealed] y=2011 rows=119 written in 4.4s (no values logged)
+04:31:14|INFO   |__main__:313|attach ('sealed', 2010) ok (30s elapsed, 6/16)
+04:31:14|INFO   |__main__:313|attach ('sealed', 2011) ok (30s elapsed, 7/16)
+04:31:14|INFO   |__mp_main__:289|[sealed] y=2009 rows=119 written in 4.1s (no values logged)
+04:31:14|INFO   |__main__:313|attach ('sealed', 2009) ok (30s elapsed, 8/16)
+04:31:17|INFO   |__mp_main__:289|[sealed] y=2007 rows=119 written in 3.2s (no values logged)
+04:31:17|INFO   |__main__:313|attach ('sealed', 2007) ok (33s elapsed, 9/16)
+04:31:17|INFO   |__mp_main__:289|[sealed] y=2006 rows=119 written in 3.2s (no values logged)
+04:31:17|INFO   |__mp_main__:289|[sealed] y=2005 rows=119 written in 3.2s (no values logged)
+04:31:17|INFO   |__main__:313|attach ('sealed', 2006) ok (33s elapsed, 10/16)
+04:31:17|INFO   |__main__:313|attach ('sealed', 2005) ok (33s elapsed, 11/16)
+04:31:17|INFO   |__mp_main__:289|[sealed] y=2004 rows=119 written in 3.2s (no values logged)
+04:31:18|INFO   |__main__:313|attach ('sealed', 2004) ok (34s elapsed, 12/16)
+04:31:19|INFO   |__mp_main__:289|[sealed] y=2000 rows=119 written in 1.1s (no values logged)
+04:31:19|INFO   |__main__:313|attach ('sealed', 2000) ok (35s elapsed, 13/16)
+04:31:19|INFO   |__mp_main__:289|[sealed] y=2001 rows=119 written in 2.0s (no values logged)
+04:31:20|INFO   |__main__:313|attach ('sealed', 2001) ok (36s elapsed, 14/16)
+04:31:20|INFO   |__mp_main__:289|[sealed] y=2002 rows=119 written in 2.4s (no values logged)
+04:31:20|INFO   |__main__:313|attach ('sealed', 2002) ok (36s elapsed, 15/16)
+04:31:20|INFO   |__mp_main__:289|[sealed] y=2003 rows=119 written in 2.7s (no values logged)
+04:31:20|INFO   |__main__:313|attach ('sealed', 2003) ok (36s elapsed, 16/16)
+04:31:21|INFO   |__main__:46|step src/attach.py --modes sealed --years 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 --workers 4 done in 42s
+04:31:31|INFO   |__main__:98|[sealed] indicators 1/119 (5s)
+04:31:32|INFO   |__main__:98|[sealed] indicators 51/119 (6s)
+04:31:33|INFO   |__main__:98|[sealed] indicators 101/119 (7s)
+04:31:34|INFO   |__main__:280|[sealed] held-out indicators written: 866 rows, 119 concepts (no values logged)
+04:31:34|INFO   |__main__:299|indicators sealed done in 10s
+04:31:34|INFO   |__main__:46|step src/indicators3.py --modes sealed --workers 4 done in 13s
+04:31:38|INFO   |analysis_event:119|labels: E rate 0.024; emerging 8, never 160; reference E rate 0.027
+04:31:39|INFO   |__main__:76|labels: MAIN E_up onsets 68, never 70, other 64; old 33, new 35
+04:31:39|INFO   |__main__:46|step src/labels3.py done in 4s
+04:31:46|INFO   |__main__:61|leakage test passed on 5 concept-years x 30 features
+04:31:46|INFO   |__main__:46|step src/leakage.py done in 8s
+04:31:55|INFO   |__main__:430|PRIMARY MAIN|all|E_up|all: onsets 68 matched 26; closure_resT S=-0.295 [-0.663,0.092] pHolm=0.194; closure_persist S=-0.575 [-1.270,0.122] pHolm=0.194; constraint S=0.083 [0.017,0.147] pHolm=0.039; raw closure S=-0.439
+04:32:13|INFO   |__main__:463|pooled panel closure_resT {'n': 741, 'n_concepts': 138, 'n_futE_rows': 278, 'coef': -0.40022517818267006, 'coef_in_sd': -0.3718162750512076, 'ci': [-0.6947813162009686, -0.11909890679962391], 'p': 0.0005, 'p_holm': 0.0015}; extended -0.5521284572768349
+04:32:31|INFO   |__main__:472|primary cell + sensitivities done (42s)
+04:33:40|INFO   |__main__:498|grid done: 806 rows over 72 cells (111s)
+04:33:41|INFO   |__main__:46|step src/event3.py done in 114s
+04:33:47|INFO   |__main__:100|VERDICT MIXED; brokerage {'S_res_neg_and_CI_excludes_0': False, 'abs_S_res_ge_half_abs_S_raw': True, 'S_persist_neg': True, 'S_constraint_neg': False, 'persist_or_constraint_CI_excludes_0': True}; turnover {'CI_res_includes_0': True, 'abs_S_res_lt_half_abs_S_raw': False, 'R1b_null': True}
+04:33:47|INFO   |__main__:46|step src/verdict.py done in 6s
+04:33:51|INFO   |__main__:179|MDE closure: ES 0.749 (0.56 SD, size 0.092) vs panel 0.499 (0.38 SD, size 0.082) -> pooled_panel
+04:33:52|INFO   |__main__:179|MDE closure_resT: ES 0.742 (0.62 SD, size 0.082) vs panel 0.593 (0.50 SD, size 0.082) -> pooled_panel
+04:33:52|INFO   |__main__:179|MDE closure_persist: ES 1.250 (0.62 SD, size 0.076) vs panel 0.875 (0.44 SD, size 0.054) -> pooled_panel
+04:33:52|INFO   |__main__:179|MDE constraint: ES 0.122 (0.50 SD, size 0.070) vs panel 0.122 (0.50 SD, size 0.060) -> event_study
+04:33:53|INFO   |__main__:179|MDE xc_excess: ES 0.096 (0.44 SD, size 0.078) vs panel 0.123 (0.56 SD, size 0.088) -> event_study
+04:33:53|INFO   |__main__:179|MDE wmz: ES 0.043 (0.37 SD, size 0.074) vs panel 0.043 (0.37 SD, size 0.070) -> event_study
+04:33:53|INFO   |__main__:46|step src/power.py done in 6s
+04:34:19|INFO   |__main__:130|prediction: AUC {'BASE': 0.8540721490551909, 'FULL': 0.8531765258629549, 'FULL_R1bc': 0.8530297023888178, 'A_freq_burst': 0.8406818482138925, 'OPEN_only': 0.7031082529474812}; dFULL {'delta': -0.0008956231922360169, 'ci': [-0.007840873094657082, 0.005903745524131278]}; shuffle -0.001
+04:34:19|INFO   |__main__:46|step src/predict3.py done in 26s
+04:34:29|INFO   |__main__:161|figures: ['figures/fig_es_panels.pdf', 'figures/fig_es_panels.png', 'figures/fig_r1d_joint.pdf', 'figures/fig_r1d_joint.png', 'figures/fig_r1a_corr.pdf', 'figures/fig_r1a_corr.png', 'figures/fig_grid_forest.pdf', 'figures/fig_grid_forest.png', 'figures/fig_mde.pdf', 'figures/fig_mde.png']
+04:34:29|INFO   |__main__:46|step src/figs.py done in 10s
+04:34:38|INFO   |__main__:92|audit: max |S diff| 5.55e-17; verdict audit MIXED vs main MIXED
+04:34:38|INFO   |__main__:46|step src/audit.py done in 8s
+04:34:42|INFO   |analysis_event:119|labels: E rate 0.024; emerging 8, never 160; reference E rate 0.027
+04:34:47|INFO   |__main__:194|self-test on screen: passed=True (onsets 68, matched 26)
+04:34:47|INFO   |__main__:46|step confirm_heldout.py --self-test-on-screen done in 9s
+04:34:55|INFO   |__main__:64|method_out.json: 530 examples
+04:34:56|INFO   |__main__:46|step src/exports.py done in 9s
+04:34:59|INFO   |__main__:107|heldout_spec.json sha256 535c2dd38bca1ebb023fb28e64a28e8a3812f4183d04c378dc272926bc0509b2
+04:34:59|INFO   |__main__:46|step src/freeze.py done in 3s
+04:34:59|INFO   |__main__:84|pipeline done in 451s

@@ -1,0 +1,83 @@
+{
+ "n_concepts": 145,
+ "n_concept_years": 2539,
+ "identical_count_share": 0.9968491532099252,
+ "max_abs_count_diff": 3.0,
+ "n_links_old": 167117,
+ "n_links_new": 167128,
+ "links_only_old": 0,
+ "links_only_new": 11,
+ "tag_set_identical_share_common_links": 1.0,
+ "worst": [
+  {
+   "concept_id": "c_4c081bfc5787",
+   "year": 2020,
+   "n_old": 38,
+   "n_new": 41,
+   "d": 3
+  },
+  {
+   "concept_id": "c_21960ecc2d0a",
+   "year": 2019,
+   "n_old": 29,
+   "n_new": 31,
+   "d": 2
+  },
+  {
+   "concept_id": "c_21960ecc2d0a",
+   "year": 2017,
+   "n_old": 39,
+   "n_new": 40,
+   "d": 1
+  },
+  {
+   "concept_id": "c_4bc22ae42748",
+   "year": 2011,
+   "n_old": 3,
+   "n_new": 4,
+   "d": 1
+  },
+  {
+   "concept_id": "c_4c081bfc5787",
+   "year": 2015,
+   "n_old": 65,
+   "n_new": 66,
+   "d": 1
+  },
+  {
+   "concept_id": "c_59fffeba892f",
+   "year": 2019,
+   "n_old": 80,
+   "n_new": 81,
+   "d": 1
+  },
+  {
+   "concept_id": "c_9aabfd15c0ee",
+   "year": 2019,
+   "n_old": 246,
+   "n_new": 247,
+   "d": 1
+  },
+  {
+   "concept_id": "c_1bd834da7f00",
+   "year": 2019,
+   "n_old": 155,
+   "n_new": 156,
+   "d": 1
+  },
+  {
+   "concept_id": "c_92c7d10cd004",
+   "year": 2018,
+   "n_old": 14,
+   "n_new": 14,
+   "d": 0
+  },
+  {
+   "concept_id": "c_92c7d10cd004",
+   "year": 2019,
+   "n_old": 7,
+   "n_new": 7,
+   "d": 0
+  }
+ ]
+}

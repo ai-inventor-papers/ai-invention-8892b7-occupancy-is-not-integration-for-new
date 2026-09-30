@@ -1,0 +1,218 @@
+{
+ "all|new_relation_rate": {
+  "n": 1275,
+  "n_concepts": 201,
+  "pooled_pearson": -0.30286190414680814,
+  "pooled_pearson_ci": [
+   -0.3564959356360837,
+   -0.24658554775956099
+  ],
+  "pooled_spearman": -0.30158670623992523,
+  "pooled_spearman_ci": [
+   -0.35513652205458773,
+   -0.24786909694960327
+  ],
+  "demeaned_pearson": -0.3254540876775819,
+  "demeaned_pearson_ci": [
+   -0.3898528381516115,
+   -0.26258747129820836
+  ],
+  "demeaned_spearman": -0.29399817362561026,
+  "demeaned_spearman_ci": [
+   -0.3552131778486177,
+   -0.23466075561157734
+  ]
+ },
+ "all|novelty": {
+  "n": 1220,
+  "n_concepts": 201,
+  "pooled_pearson": -0.42420717084514076,
+  "pooled_pearson_ci": [
+   -0.47514600604601803,
+   -0.36990458123835035
+  ],
+  "pooled_spearman": -0.45191813864227715,
+  "pooled_spearman_ci": [
+   -0.4999615780265137,
+   -0.39985301954376307
+  ],
+  "demeaned_pearson": -0.42121026134159506,
+  "demeaned_pearson_ci": [
+   -0.4858736483031603,
+   -0.3553433494623106
+  ],
+  "demeaned_spearman": -0.423666035693585,
+  "demeaned_spearman_ci": [
+   -0.47501457378210676,
+   -0.36857335309157546
+  ]
+ },
+ "all|beta_sim_rar": {
+  "n": 502,
+  "n_concepts": 125,
+  "pooled_pearson": -0.1698406177477515,
+  "pooled_pearson_ci": [
+   -0.314744361490374,
+   -0.019639325375034024
+  ],
+  "pooled_spearman": -0.11021890225078425,
+  "pooled_spearman_ci": [
+   -0.2815328697703445,
+   0.057875433056216403
+  ],
+  "demeaned_pearson": 0.004268840963574123,
+  "demeaned_pearson_ci": [
+   -0.09088538740700107,
+   0.10598886896555094
+  ],
+  "demeaned_spearman": 0.03144502297282124,
+  "demeaned_spearman_ci": [
+   -0.0753325783434908,
+   0.1423258881341222
+  ]
+ },
+ "new|new_relation_rate": {
+  "n": 588,
+  "n_concepts": 99,
+  "pooled_pearson": -0.280721007689034,
+  "pooled_pearson_ci": [
+   -0.3708915617928031,
+   -0.1870923469436886
+  ],
+  "pooled_spearman": -0.30232369847820134,
+  "pooled_spearman_ci": [
+   -0.38315291158518155,
+   -0.2175255899306785
+  ],
+  "demeaned_pearson": -0.292621964372727,
+  "demeaned_pearson_ci": [
+   -0.3911951559766567,
+   -0.19018079574086283
+  ],
+  "demeaned_spearman": -0.2680184151233396,
+  "demeaned_spearman_ci": [
+   -0.35500712268177254,
+   -0.17962721939231335
+  ]
+ },
+ "new|novelty": {
+  "n": 556,
+  "n_concepts": 99,
+  "pooled_pearson": -0.4311686135837662,
+  "pooled_pearson_ci": [
+   -0.5133900479704202,
+   -0.3466834700604951
+  ],
+  "pooled_spearman": -0.4789878574851975,
+  "pooled_spearman_ci": [
+   -0.5498753123138933,
+   -0.39786365806741675
+  ],
+  "demeaned_pearson": -0.3741534835218842,
+  "demeaned_pearson_ci": [
+   -0.47913814882114164,
+   -0.2674476248484649
+  ],
+  "demeaned_spearman": -0.3817112939273235,
+  "demeaned_spearman_ci": [
+   -0.46455779418081217,
+   -0.29203870257848485
+  ]
+ },
+ "new|beta_sim_rar": {
+  "n": 234,
+  "n_concepts": 57,
+  "pooled_pearson": -0.2595262025012594,
+  "pooled_pearson_ci": [
+   -0.40375137965875857,
+   -0.07696157890928125
+  ],
+  "pooled_spearman": -0.18055299949190923,
+  "pooled_spearman_ci": [
+   -0.3664181672700168,
+   0.027167451602778066
+  ],
+  "demeaned_pearson": -0.04545605622085641,
+  "demeaned_pearson_ci": [
+   -0.17736385316730008,
+   0.10547819543632117
+  ],
+  "demeaned_spearman": -0.029536019107161672,
+  "demeaned_spearman_ci": [
+   -0.18030429153322994,
+   0.12341642788470898
+  ]
+ },
+ "old|new_relation_rate": {
+  "n": 687,
+  "n_concepts": 102,
+  "pooled_pearson": -0.3190532549796951,
+  "pooled_pearson_ci": [
+   -0.3889156114480541,
+   -0.2582103758568471
+  ],
+  "pooled_spearman": -0.29813526721245454,
+  "pooled_spearman_ci": [
+   -0.36917076443232955,
+   -0.23014435873474318
+  ],
+  "demeaned_pearson": -0.353484835063563,
+  "demeaned_pearson_ci": [
+   -0.440044991576768,
+   -0.2707067135822901
+  ],
+  "demeaned_spearman": -0.315144609197043,
+  "demeaned_spearman_ci": [
+   -0.3940001164204616,
+   -0.23328416622202344
+  ]
+ },
+ "old|novelty": {
+  "n": 664,
+  "n_concepts": 102,
+  "pooled_pearson": -0.41378425406976616,
+  "pooled_pearson_ci": [
+   -0.4857457198791653,
+   -0.34832542981026365
+  ],
+  "pooled_spearman": -0.4260824455770281,
+  "pooled_spearman_ci": [
+   -0.4960950460471163,
+   -0.3607633646529177
+  ],
+  "demeaned_pearson": -0.4586808901782596,
+  "demeaned_pearson_ci": [
+   -0.5433576319809899,
+   -0.37878809469823643
+  ],
+  "demeaned_spearman": -0.45551847859613126,
+  "demeaned_spearman_ci": [
+   -0.5279299683667144,
+   -0.37912341713298453
+  ]
+ },
+ "old|beta_sim_rar": {
+  "n": 268,
+  "n_concepts": 68,
+  "pooled_pearson": -0.11011566275766127,
+  "pooled_pearson_ci": [
+   -0.3166243185696731,
+   0.11118479801660039
+  ],
+  "pooled_spearman": -0.055237159509665235,
+  "pooled_spearman_ci": [
+   -0.30718518210911633,
+   0.1924411851927206
+  ],
+  "demeaned_pearson": 0.04076305556660485,
+  "demeaned_pearson_ci": [
+   -0.0925738888137215,
+   0.17663871469131795
+  ],
+  "demeaned_spearman": 0.07925699644635834,
+  "demeaned_spearman_ci": [
+   -0.06556663560587321,
+   0.22766865067625427
+  ]
+ }
+}

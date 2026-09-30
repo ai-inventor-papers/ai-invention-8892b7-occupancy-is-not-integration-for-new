@@ -1,0 +1,17 @@
+{
+ "n_active": 307,
+ "n_heldout": 119,
+ "cp_active_rows": 388297,
+ "cp_heldout_rows": 99781,
+ "data_change": {
+  "n_concepts": 145,
+  "n_concept_years": 2539,
+  "identical_count_share": 0.9968491532099252,
+  "max_abs_count_diff": 3.0,
+  "n_links_old": 167117,
+  "n_links_new": 167128,
+  "links_only_old": 0,
+  "links_only_new": 11,
+  "tag_set_identical_share_common_links": 1.0
+ }
+}
