@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "artifact": "gen_plan_dataset_4_idx4: labelled concept phrases and survivorship-free phrase pool",
+    "created": "2026-09-28",
+    "sources": "OpenAlex API (sampled works, counts, works), OpenAlex S3 snapshot (keywords, concepts), NLM MeSH 2026, Wikidata API, HF: midas/semeval2017, zj88zj/SCIERC, amirveyseh/acronym_identification",
+    "label_status": "D2/D3 LLM labels are LLM-adjudicated SILVER labels; no human has checked them (human_checked=false).",
+    "sealed_file": "data_out/pool_outcomes_SEALED.json holds the full yearly counts and is deliberately NOT included here.",
+    "part": 3,
+    "n_parts": 7
+  },
+  "datasets": [
+    {
+      "dataset": "openalex_stratified_corpus_2003_2016_with_prescreen_1995_2004",
+      "examples": [
+        {
+          "input": "Development of a user‐friendly interface version of the Salmonella source‐attribution model Project developed on the procurement project NP/EFSA/BIOHAZ/2011/04 EFSA has been working on a series of Scientific Opinions originating from a mandate received by the European Commission (EC) in July 2008 on the review of Salmonella targets in poultry primary production. For evaluating targets in the broiler and turkey production, specific Salmonella source attribution models have been developed by external contractors. Both models were based on the Hald model and use a Bayesian approach employing microbial subtyping data, in both cases Salmonella serovar data. These types of source attribution models allow for the identification of the most important animal reservoirs of the zoonotic agent, assisting risk managers to prioritize interventions and focus control strategies at the animal production level. The model can provide estimates for the effect on the number of human cases originating from a particular reservoir, if the observed prevalence in that reservoir is changed or for specific subtypes e.g. specific serovars of Salmonella occurring in that reservoir. The source-attribution approach has been considered by EFSA Working Groups and Panel Experts as valid when addressing these types of questions, where the use of a classical quantitative risk assessment model (i.e. transmission models) would be impaired due to a lack of data and time limitations. As these models require specialist knowledge, it was requested by EFSA to develop a flexible user-friendly source attribution model for use for example in future mandates dealing with similar questions. The objective of the work described in this report was, therefore, to develop a flexible and user-friendly interface for attributing human cases of food-borne pathogens to the responsible food-animal reservoirs and/or food sources. The interface is based on a Salmonella source-attribution model developed for setting target for Salmonella in the turkey production: the Turkey Target Source Attribution Model (TT-SAM). Results from this model were used by the BIOHAZ panel in their related Scientific Opinion. The developed interface described in this report is called the EFSA Source Attribution Model (EFSA_SAM). The programming language (development environment) used for developing the user-friendly interface is Embarcaderos Delphi XE2 Enterprise. The interface generates a WinBUGS code based on the user’s imported data and model selections. The interface exports this code with corresponding data to WinBUGS, where the code is executed automatically. The model results are then imported from WinBUGS to the interface software for tabulation and graphical display, and possible exportation to other softwares for further analysis e.g. MS Excel. This approach ensures consistency in both model and data setup, eliminating the need for user knowledge of the WinBUGS syntax. Users can import data into the EFSA_SAM from semicolon-separated files. Required data are i) the reported number of human cases per country and subtype including data on the number of travel and outbreak-related cases, also per country and subtype, ii) food-animal prevalence data per country and subtype, including the number of units tested and the number of positive units, and iii) data on the production and trade of the different food-animal sources in the EU Member States. The EFSA_SAM also allows for the inclusion of underreporting factors recognizing that the reported number of human cases only reflects a part of the disease burden and the degree of underreporting varies hugely between countries. In the interface users can specify which countries, food sources and subtypes (e.g. Salmonella serovars) to include in the model. It is also possible to run an analysis for a single country only, but where several periods (typically years) of data are included. This can provide an indication of the trend over time. Required data for this type of model are i) the reported number of human cases by subtype including data on the number of travel, domestic, unknown travel history and outbreak-related cases, also per subtype, ii) food-animal prevalence data per subtype, including the number of units tested and the number of positive units, and iii) data on the amount of the included animal foods available for consumption in the country. The data imported into EFSA_SAM will be used for a baseline analysis providing estimates on the number of human cases attributable to the different food-animal sources in the actual situation. The results of the baseline analysis can be compared with the results from one or more scenario analyses specified by the user. The interface allows for two types of scenarios: i) the setting of target prevalences for individual subtypes, and ii) the setting of a combined target prevalence for a group of subtypes. In the first type, EFSA_SAM will automatically change the original prevalence to the set target prevalence, but only if the original prevalence is greater than the target prevalence. In the latter type, the users can select any number of subtypes for which a combined prevalence should be equal or less to a set target prevalence. The EFSA_SAM generates a new set of subtype-specific prevalences that are proportionally scaled down from the original prevalences in order to result in an overall prevalence equal to or less than the target prevalence. A comparison of the baseline and scenario results can be used to assess the effect on the predicted number of human cases, if targeted control measures are implemented for specific subtypes or groups of subtypes. A critical part of all Bayesian models is to check for model convergence and goodness of fit. The EFSA_SAM describes different ways for checking convergence and include the calculation of the bgr-diagnostics that is also a part of the WinBUGS software. For exploring goodness of fit, a ratio between the observed and predicted number of human cases per country is calculated. A poor fit of the model for some countries is often linked to poor data quality. The EFSA_SAM interface is delivered with a user-manual, which is also part of this report. Users of the interface are recommended to read this report before starting using the interface to become familiar with the model principles and the mathematics behind, which is required in order to interpret the model results and assess the validity of the model.",
+          "output": "Agricultural and Biological Sciences",
+          "metadata_fold": "corpus_main",
+          "metadata_work_id": "W2592818830",
+          "metadata_doi": "https://doi.org/10.2903/sp.efsa.2012.en-318",
+          "metadata_title": "Development of a user‐friendly interface version of the Salmonella source‐attribution model",
+          "metadata_publication_year": 2012,
+          "metadata_publication_date": "2012-07-01",
+          "metadata_field_id": 11,
+          "metadata_field": "Agricultural and Biological Sciences",
+          "metadata_subfield_id": "1106",
+          "metadata_subfield": "Food Science",
+          "metadata_domain": "Life Sciences",
+          "metadata_topic_id": "T10486",
+          "metadata_topic": "Salmonella and Campylobacter epidemiology",
+          "metadata_venue_id": "S4210168838",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Attribution",
+            "Salmonella",
+            "Interface (matter)",
+            "Computer science",
+            "User Friendly",
+            "Source model",
+            "World Wide Web",
+            "Human–computer interaction",
+            "Psychology",
+            "Programming language",
+            "Operating system",
+            "Biology",
+            "Social psychology",
+            "Theoretical computer science",
+            "Genetics"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Attribution",
+            "Salmonella",
+            "Interface (matter)",
+            "Computer science",
+            "User Friendly",
+            "Source model",
+            "World Wide Web",
+            "Human–computer interaction"
+          ],
+          "metadata_referenced_works_count": 8,
+          "metadata_author_ids": [
+            "A5069744000",
+            "A5066713760"
+          ],
+          "metadata_institution_ids": [
+            "I96673099"
+          ],
+          "metadata_stratum": "field11_2012_main",
+          "metadata_N_stratum": 126055,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 840.367,
+          "metadata_sample_seed": 112012
+        },
+        {
+          "input": "New Insights into the Bacterial Fitness-Associated Mechanisms Revealed by the Characterization of Large Plasmids of an Avian Pathogenic E. coli Extra-intestinal pathogenic E. coli (ExPEC), including avian pathogenic E. coli (APEC), pose a considerable threat to both human and animal health, with illness causing substantial economic loss. APEC strain χ7122 (O78∶K80∶H9), containing three large plasmids [pChi7122-1 (IncFIB/FIIA-FIC), pChi7122-2 (IncFII), and pChi7122-3 (IncI(2))]; and a small plasmid pChi7122-4 (ColE2-like), has been used for many years as a model strain to study the molecular mechanisms of ExPEC pathogenicity and zoonotic potential. We previously sequenced and characterized the plasmid pChi7122-1 and determined its importance in systemic APEC infection; however the roles of the other pChi7122 plasmids were still ambiguous. Herein we present the sequence of the remaining pChi7122 plasmids, confirming that pChi7122-2 and pChi7122-3 encode an ABC iron transport system (eitABCD) and a putative type IV fimbriae respectively, whereas pChi7122-4 is a cryptic plasmid. New features were also identified, including a gene cluster on pChi7122-2 that is not present in other E. coli strains but is found in Salmonella serovars and is predicted to encode the sugars catabolic pathways. In vitro evaluation of the APEC χ7122 derivative strains with the three large plasmids, either individually or in combinations, provided new insights into the role of plasmids in biofilm formation, bile and acid tolerance, and the interaction of E. coli strains with 3-D cultures of intestinal epithelial cells. In this study, we show that the nature and combinations of plasmids, as well as the background of the host strains, have an effect on these phenomena. Our data reveal new insights into the role of extra-chromosomal sequences in fitness and diversity of ExPEC in their phenotypes.",
+          "output": "Agricultural and Biological Sciences",
+          "metadata_fold": "corpus_main",
+          "metadata_work_id": "W1993247184",
+          "metadata_doi": "https://doi.org/10.1371/journal.pone.0029481",
+          "metadata_title": "New Insights into the Bacterial Fitness-Associated Mechanisms Revealed by the Characterization of Large Plasmids of an Avian Pathogenic E. coli",
+          "metadata_publication_year": 2012,
+          "metadata_publication_date": "2012-01-04",
+          "metadata_field_id": 11,
+          "metadata_field": "Agricultural and Biological Sciences",
+          "metadata_subfield_id": "1106",
+          "metadata_subfield": "Food Science",
+          "metadata_domain": "Life Sciences",
+          "metadata_topic_id": "T10486",
+          "metadata_topic": "Salmonella and Campylobacter epidemiology",
+          "metadata_venue_id": "S202381698",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Plasmid",
+            "Biology",
+            "Pathogenic Escherichia coli",
+            "Microbiology",
+            "Escherichia coli",
+            "Fimbria",
+            "Gene",
+            "Genetics",
+            "Pilus",
+            "Enterobacteriaceae"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Plasmid",
+            "Biology",
+            "Pathogenic Escherichia coli",
+            "Microbiology",
+            "Escherichia coli",
+            "Fimbria",
+            "Gene",
+            "Genetics",
+            "Pilus",
+            "Enterobacteriaceae"
+          ],
+          "metadata_referenced_works_count": 90,
+          "metadata_author_ids": [
+            "A5035129951",
+            "A5113945305",
+            "A5061084972",
+            "A5028972835",
+            "",
+            "A5024372488",
+            "A5038232501",
+            "A5055074920",
+            "A5075362321",
+            "A5012748720",
+            "A5000174007",
+            "A5044344943"
+          ],
+          "metadata_institution_ids": [
+            "I1299303238",
+            "I133960621",
+            "I2802476451",
+            "I4210134534",
+            "I55732556",
+            "I98677209"
+          ],
+          "metadata_stratum": "field11_2012_main",
+          "metadata_N_stratum": 126055,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 840.367,
+          "metadata_sample_seed": 112012
+        },
+        {
+          "input": "EVALUATING THE DROUGHT STRESS TOLERANCE EFFICIENCY OF WHEAT (TRITICUM AESTIVUM L.) CULTIVARS The study was conducted at the Nuclear Institute for Agriculture and Biology (NIAB), Faisalabad, Pakistan to evaluate the drought stress tolerance efficiency of wheat cultivars. Eight wheat (Triticum aestivum L.) genotypes namely (Pasban-90, Inqalab-91, Auqab-2000, AS-2002, Sahar-2006, Shafaq-2006, Lasani-2008, and FSD-2008) were used for screening in laboratory. Three techniques were used for the screening. These techniques are (I) seed germination at -0.6 MPa external water potential (PEG-6000), (2) seedling growth after 14 days at -0.6 MPa (PEG-6000), and (3) plant water relations of seven-week-old pot-grown plants. Significantly highest germination stress tolerance index, root length stress tolerance index and the water content was recorded in Lasani-2008 and lowest was recorded in Auqab-2000. Dry matter percentage was recorded significantly highest in pasban-90 while the lowest dry matter percentage was observed in auqab-2000. FSD-2008 gained maximum plant height and was recorded minimum in Inqilab-91. Relative saturation deficit was significantly highest in Auqab-2000 while the significantly lowest relative saturation deficit was recorded in case of Lasani-2008. It was concluded from the results that Lasani-2008 performed better under drought and Auqab-2000 was recorded most drought sensitive variety.",
+          "output": "Agricultural and Biological Sciences",
+          "metadata_fold": "corpus_main",
+          "metadata_work_id": "W1519734472",
+          "metadata_doi": "https://doi.org/10.18551/rjoas.2012-12.04",
+          "metadata_title": "EVALUATING THE DROUGHT STRESS TOLERANCE EFFICIENCY OF WHEAT (TRITICUM AESTIVUM L.) CULTIVARS",
+          "metadata_publication_year": 2012,
+          "metadata_publication_date": "2012-12-28",
+          "metadata_field_id": 11,
+          "metadata_field": "Agricultural and Biological Sciences",
+          "metadata_subfield_id": "1102",
+          "metadata_subfield": "Agronomy and Crop Science",
+          "metadata_domain": "Life Sciences",
+          "metadata_topic_id": "T12310",
+          "metadata_topic": "Crop Yield and Soil Fertility",
+          "metadata_venue_id": "S2764381730",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Cultivar",
+            "Drought tolerance",
+            "Agronomy",
+            "Drought stress",
+            "Biology",
+            "Water stress",
+            "Stress (linguistics)",
+            "Environmental science"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Cultivar",
+            "Drought tolerance",
+            "Agronomy",
+            "Drought stress",
+            "Biology",
+            "Water stress",
+            "Stress (linguistics)",
+            "Environmental science"
+          ],
+          "metadata_referenced_works_count": 27,
+          "metadata_author_ids": [
+            "A5008129919",
+            "A5076113144",
+            "A5063091250",
+            "A5066786177",
+            "",
+            "A5108122558"
+          ],
+          "metadata_institution_ids": [
+            "I174731842",
+            "I61623833"
+          ],
+          "metadata_stratum": "field11_2012_main",
+          "metadata_N_stratum": 126055,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 840.367,
+          "metadata_sample_seed": 112012
+        }
+      ]
+    }
+  ]
+}

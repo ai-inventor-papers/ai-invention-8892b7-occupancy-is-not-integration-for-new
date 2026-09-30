@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "artifact": "gen_plan_dataset_4_idx4: labelled concept phrases and survivorship-free phrase pool",
+    "created": "2026-09-28",
+    "sources": "OpenAlex API (sampled works, counts, works), OpenAlex S3 snapshot (keywords, concepts), NLM MeSH 2026, Wikidata API, HF: midas/semeval2017, zj88zj/SCIERC, amirveyseh/acronym_identification",
+    "label_status": "D2/D3 LLM labels are LLM-adjudicated SILVER labels; no human has checked them (human_checked=false).",
+    "sealed_file": "data_out/pool_outcomes_SEALED.json holds the full yearly counts and is deliberately NOT included here.",
+    "part": 5,
+    "n_parts": 7
+  },
+  "datasets": [
+    {
+      "dataset": "openalex_stratified_corpus_2003_2016_with_prescreen_1995_2004",
+      "examples": [
+        {
+          "input": "Impact of Knowledge and Age on Tip-of-the-Tongue Rates Older (50-82), middle age (30-49), and younger (17-29) adults were asked to answer 57 general knowledge questions about words, objects, and people that were used to generate tip-of-the-tongue (TOT) experiences; none required a proper name answer. Middle age and older participants correctly answered more of the general knowledge questions and received higher scores on a vocabulary test than the younger participants. An analysis of variance of the number of positive TOTs indicated a significant main effect of age; older adults experienced more TOTs than younger and middle aged adults, but an analysis of covariance conducted to statistically control for the level of knowledge showed no significant differences between the age groups. Level of knowledge, and not age, contributed to the amount of TOTs experienced; those people with higher levels of knowledge experienced more TOTs. The implications of these results for the transmission deficit hypothesis are discussed.",
+          "output": "Psychology",
+          "metadata_fold": "corpus_prescreen",
+          "metadata_work_id": "W2007495448",
+          "metadata_doi": "https://doi.org/10.1080/036107398244283",
+          "metadata_title": "Impact of Knowledge and Age on Tip-of-the-Tongue Rates",
+          "metadata_publication_year": 1998,
+          "metadata_publication_date": "1998-03-01",
+          "metadata_field_id": 32,
+          "metadata_field": "Psychology",
+          "metadata_subfield_id": "3207",
+          "metadata_subfield": "Social Psychology",
+          "metadata_domain": "Social Sciences",
+          "metadata_topic_id": "T12593",
+          "metadata_topic": "Communication in Education and Healthcare",
+          "metadata_venue_id": "S89525197",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Tip of the tongue",
+            "Psychology",
+            "Age groups",
+            "Vocabulary",
+            "Middle age",
+            "Analysis of variance",
+            "General knowledge",
+            "Developmental psychology",
+            "Demography",
+            "Medicine",
+            "Tongue",
+            "Linguistics"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Tip of the tongue",
+            "Psychology",
+            "Age groups",
+            "Vocabulary",
+            "Middle age",
+            "Analysis of variance",
+            "General knowledge",
+            "Developmental psychology"
+          ],
+          "metadata_referenced_works_count": 23,
+          "metadata_author_ids": [
+            "A5001305228"
+          ],
+          "metadata_institution_ids": [
+            "I4210117780"
+          ],
+          "metadata_stratum": "field32_1998_prescreen",
+          "metadata_N_stratum": 19421,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 129.473,
+          "metadata_sample_seed": 253980
+        },
+        {
+          "input": "[[alternative]]中國文化大學學生英文閱讀習慣之調查研究 [[abstract]]本文針對中國文化大學大一與研一學生之英文閱讀習慣進行一項問卷調查。問卷設計十五個問題，包括對閱讀的基本認知、對生字的處理方式、口、眼、手之行爲，以及閱讀技巧的使用等閱讀有關的習慣。問卷中的十五個問題，均有英文爲外文或第二語文專家學者的理論依據，這些理論視爲閱讀習慣的理想標準，與學生對問卷調查的反應，作一比較並分析二者之差異。此外，大一與研一學生對英文閱讀習慣的問卷調查反應，亦作一比較並分析二者之差異。最後，由此次問卷調查獲得閱讀教學的重要方向與啟示。 A 15-question questionnaire concerning EFL reading habits was administered to both freshmen and first-year graduate students who were taking English courses in the 1996-97 academic year at the Chinese Culture University. These 15 questions consist of basic conceptions of reading, the physical behaviors such as mouth, eye and hand movement or placement, and the habit of using reading skills such as previewing, skimming and scanning. Theories of the above questions derived from EFL experts and writers are taken as ideal or effective reading habits. These ideal or effective reading habits are compared with students' responses to the questionnaire questions to detect how the latter deviate from the former. In addition, comparison is made regarding undergraduate and graduate students' responses to the above questions. Finally, implications and guidelines for improvement of EFL reading instruction are drawn from the questionnaire findings.",
+          "output": "Psychology",
+          "metadata_fold": "corpus_prescreen",
+          "metadata_work_id": "W7137508295",
+          "metadata_doi": null,
+          "metadata_title": "[[alternative]]中國文化大學學生英文閱讀習慣之調查研究",
+          "metadata_publication_year": 1998,
+          "metadata_publication_date": "1998-07-01",
+          "metadata_field_id": 32,
+          "metadata_field": "Psychology",
+          "metadata_subfield_id": "3204",
+          "metadata_subfield": "Developmental and Educational Psychology",
+          "metadata_domain": "Social Sciences",
+          "metadata_topic_id": "T11587",
+          "metadata_topic": "Second Language Acquisition and Learning",
+          "metadata_venue_id": "S7407064331",
+          "metadata_venue_type": "repository",
+          "metadata_keywords": [
+            "Reading (process)",
+            "Ideal (ethics)",
+            "Habit",
+            "Extensive reading",
+            "Graduate students"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Reading (process)",
+            "Psychology",
+            "Ideal (ethics)",
+            "Habit",
+            "Mathematics education",
+            "Pedagogy",
+            "Extensive reading",
+            "Medical education"
+          ],
+          "metadata_referenced_works_count": 0,
+          "metadata_author_ids": [
+            "A5129439725"
+          ],
+          "metadata_institution_ids": [],
+          "metadata_stratum": "field32_1998_prescreen",
+          "metadata_N_stratum": 19421,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 129.473,
+          "metadata_sample_seed": 253980
+        },
+        {
+          "input": "Bright, bad, babyfaced boys: Appearance stereotypes do not always yield self-fulfilling prophecy effects. Three studies tested the hypothesis that babyfaced adolescent boys would compensate for the undesirable expectation that they will exhibit childlike traits by behaving contrary to it. Studies 1 and 2 revealed that babyfaced boys from middle- and lower class samples, including a sample of delinquents, showed higher academic achievement than their mature-faced peers, refuting the stereotype of babyfaced people as intellectually weak. In the lower class samples, this compensation effect was moderated by IQ and socioeconomic status (SES), variables that influence the ability to overcome low expectations. Study 3 showed that babyfaceness also can produce negative compensatory behaviors. Low-SES babyfaced boys were more likely than their mature-faced peers to be delinquent, and babyfaced delinquents committed more crimes, refuting the stereotype of babyfaced people as warm, submissive, and physically weak.",
+          "output": "Psychology",
+          "metadata_fold": "corpus_prescreen",
+          "metadata_work_id": "W2111149218",
+          "metadata_doi": "https://doi.org/10.1037/0022-3514.75.5.1300",
+          "metadata_title": "Bright, bad, babyfaced boys: Appearance stereotypes do not always yield self-fulfilling prophecy effects.",
+          "metadata_publication_year": 1998,
+          "metadata_publication_date": "1998-01-01",
+          "metadata_field_id": 32,
+          "metadata_field": "Psychology",
+          "metadata_subfield_id": "3205",
+          "metadata_subfield": "Experimental and Cognitive Psychology",
+          "metadata_domain": "Social Sciences",
+          "metadata_topic_id": "T11118",
+          "metadata_topic": "Evolutionary Psychology and Human Behavior",
+          "metadata_venue_id": "S29984966",
+          "metadata_venue_type": "journal",
+          "metadata_keywords": [
+            "Psychology",
+            "Stereotype (UML)",
+            "Social psychology",
+            "Developmental psychology",
+            "Socioeconomic status",
+            "Stereotype threat",
+            "Compensation (psychology)",
+            "Middle class",
+            "Juvenile delinquency"
+          ],
+          "metadata_legacy_concepts_score_ge_0_3": [
+            "Psychology",
+            "Stereotype (UML)",
+            "Social psychology",
+            "Developmental psychology",
+            "Socioeconomic status",
+            "Stereotype threat",
+            "Compensation (psychology)",
+            "Middle class",
+            "Juvenile delinquency"
+          ],
+          "metadata_referenced_works_count": 75,
+          "metadata_author_ids": [
+            "A5056127647",
+            "A5009985544",
+            "A5006809226",
+            "A5100318787",
+            "A5028499168"
+          ],
+          "metadata_institution_ids": [
+            "I6902469"
+          ],
+          "metadata_stratum": "field32_1998_prescreen",
+          "metadata_N_stratum": 19421,
+          "metadata_n_sampled_stratum": 150,
+          "metadata_design_weight": 129.473,
+          "metadata_sample_seed": 253980
+        }
+      ]
+    }
+  ]
+}
