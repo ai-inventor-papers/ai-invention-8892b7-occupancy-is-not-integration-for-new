@@ -1,8 +1,0 @@
-{
- "rule": "screen if int(sha1(concept_id),16) % 10 < 7 else heldout",
- "n_main": 366,
- "n_agree": 366,
- "n_mismatch": 0,
- "mismatch_ids": [],
- "authoritative": "metadata_fold (sealed by iteration 2)"
-}
