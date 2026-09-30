@@ -1,0 +1,91 @@
+population,subset,pattern,freq,ci_lo,ci_hi,n,count,threshold_version
+screen_MAIN,all,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,40,0,recomputed_hydrated
+screen_MAIN,all,GRADUAL_CENTRALISATION,0.0,0.0,0.0,40,0,recomputed_hydrated
+screen_MAIN,all,EARLY_BRIDGING,0.675,0.525,0.8006249999999966,40,27,recomputed_hydrated
+screen_MAIN,all,INCUBATION_THEN_EXPANSION_ageadj,0.025,0.0,0.075,40,1,recomputed_hydrated
+screen_MAIN,all,EARLY_BRIDGING_aligned,0.725,0.6,0.85,40,29,recomputed_hydrated
+screen_mainarm_all247,all,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,40,0,recomputed_hydrated
+screen_mainarm_all247,all,GRADUAL_CENTRALISATION,0.0,0.0,0.0,40,0,recomputed_hydrated
+screen_mainarm_all247,all,EARLY_BRIDGING,0.675,0.525,0.8006249999999966,40,27,recomputed_hydrated
+screen_mainarm_all247,all,INCUBATION_THEN_EXPANSION_ageadj,0.025,0.0,0.075,40,1,recomputed_hydrated
+screen_mainarm_all247,all,EARLY_BRIDGING_aligned,0.725,0.575,0.875,40,29,recomputed_hydrated
+screen_old123,all,INCUBATION_THEN_EXPANSION,,,,0,0,recomputed_hydrated
+screen_old123,all,GRADUAL_CENTRALISATION,,,,0,0,recomputed_hydrated
+screen_old123,all,EARLY_BRIDGING,,,,0,0,recomputed_hydrated
+screen_old123,all,INCUBATION_THEN_EXPANSION_ageadj,,,,0,0,recomputed_hydrated
+screen_old123,all,EARLY_BRIDGING_aligned,,,,0,0,recomputed_hydrated
+screen_new124,all,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,40,0,recomputed_hydrated
+screen_new124,all,GRADUAL_CENTRALISATION,0.0,0.0,0.0,40,0,recomputed_hydrated
+screen_new124,all,EARLY_BRIDGING,0.675,0.525,0.8,40,27,recomputed_hydrated
+screen_new124,all,INCUBATION_THEN_EXPANSION_ageadj,0.025,0.0,0.075,40,1,recomputed_hydrated
+screen_new124,all,EARLY_BRIDGING_aligned,0.725,0.575,0.85,40,29,recomputed_hydrated
+screen_MAIN,E_up=censored,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,10,0,recomputed_hydrated
+screen_MAIN,E_up=censored,GRADUAL_CENTRALISATION,0.0,0.0,0.0,10,0,recomputed_hydrated
+screen_MAIN,E_up=censored,EARLY_BRIDGING,0.7,0.4,1.0,10,7,recomputed_hydrated
+screen_MAIN,E_up=censored,INCUBATION_THEN_EXPANSION_ageadj,0.0,0.0,0.0,10,0,recomputed_hydrated
+screen_MAIN,E_up=censored,EARLY_BRIDGING_aligned,0.7,0.4,1.0,10,7,recomputed_hydrated
+screen_MAIN,E_up=emerging,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,13,0,recomputed_hydrated
+screen_MAIN,E_up=emerging,GRADUAL_CENTRALISATION,0.0,0.0,0.0,13,0,recomputed_hydrated
+screen_MAIN,E_up=emerging,EARLY_BRIDGING,0.6923076923076923,0.46153846153846156,0.9230769230769231,13,9,recomputed_hydrated
+screen_MAIN,E_up=emerging,INCUBATION_THEN_EXPANSION_ageadj,0.0,0.0,0.0,13,0,recomputed_hydrated
+screen_MAIN,E_up=emerging,EARLY_BRIDGING_aligned,0.7692307692307693,0.5384615384615384,1.0,13,10,recomputed_hydrated
+screen_MAIN,E_up=never,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,17,0,recomputed_hydrated
+screen_MAIN,E_up=never,GRADUAL_CENTRALISATION,0.0,0.0,0.0,17,0,recomputed_hydrated
+screen_MAIN,E_up=never,EARLY_BRIDGING,0.6470588235294118,0.4117647058823529,0.8823529411764706,17,11,recomputed_hydrated
+screen_MAIN,E_up=never,INCUBATION_THEN_EXPANSION_ageadj,0.058823529411764705,0.0,0.17647058823529413,17,1,recomputed_hydrated
+screen_MAIN,E_up=never,EARLY_BRIDGING_aligned,0.7058823529411765,0.47058823529411764,0.9411764705882353,17,12,recomputed_hydrated
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,12,0,recomputed_hydrated
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),GRADUAL_CENTRALISATION,0.0,0.0,0.0,12,0,recomputed_hydrated
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),EARLY_BRIDGING,0.9166666666666666,0.75,1.0,12,11,recomputed_hydrated
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),INCUBATION_THEN_EXPANSION_ageadj,0.08333333333333333,0.0,0.25,12,1,recomputed_hydrated
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),EARLY_BRIDGING_aligned,0.9166666666666666,0.75,1.0,12,11,recomputed_hydrated
+screen_MAIN,cluster=localised,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,28,0,recomputed_hydrated
+screen_MAIN,cluster=localised,GRADUAL_CENTRALISATION,0.0,0.0,0.0,28,0,recomputed_hydrated
+screen_MAIN,cluster=localised,EARLY_BRIDGING,0.5714285714285714,0.39285714285714285,0.75,28,16,recomputed_hydrated
+screen_MAIN,cluster=localised,INCUBATION_THEN_EXPANSION_ageadj,0.0,0.0,0.0,28,0,recomputed_hydrated
+screen_MAIN,cluster=localised,EARLY_BRIDGING_aligned,0.6428571428571429,0.4642857142857143,0.8214285714285714,28,18,recomputed_hydrated
+screen_MAIN,all,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,40,0,frozen_iter2
+screen_MAIN,all,GRADUAL_CENTRALISATION,0.0,0.0,0.0,40,0,frozen_iter2
+screen_MAIN,all,EARLY_BRIDGING,0.675,0.525,0.8006249999999966,40,27,frozen_iter2
+screen_MAIN,all,INCUBATION_THEN_EXPANSION_ageadj,0.025,0.0,0.075,40,1,frozen_iter2
+screen_MAIN,all,EARLY_BRIDGING_aligned,0.725,0.6,0.85,40,29,frozen_iter2
+screen_mainarm_all247,all,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,40,0,frozen_iter2
+screen_mainarm_all247,all,GRADUAL_CENTRALISATION,0.0,0.0,0.0,40,0,frozen_iter2
+screen_mainarm_all247,all,EARLY_BRIDGING,0.675,0.525,0.8006249999999966,40,27,frozen_iter2
+screen_mainarm_all247,all,INCUBATION_THEN_EXPANSION_ageadj,0.025,0.0,0.075,40,1,frozen_iter2
+screen_mainarm_all247,all,EARLY_BRIDGING_aligned,0.725,0.575,0.875,40,29,frozen_iter2
+screen_old123,all,INCUBATION_THEN_EXPANSION,,,,0,0,frozen_iter2
+screen_old123,all,GRADUAL_CENTRALISATION,,,,0,0,frozen_iter2
+screen_old123,all,EARLY_BRIDGING,,,,0,0,frozen_iter2
+screen_old123,all,INCUBATION_THEN_EXPANSION_ageadj,,,,0,0,frozen_iter2
+screen_old123,all,EARLY_BRIDGING_aligned,,,,0,0,frozen_iter2
+screen_new124,all,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,40,0,frozen_iter2
+screen_new124,all,GRADUAL_CENTRALISATION,0.0,0.0,0.0,40,0,frozen_iter2
+screen_new124,all,EARLY_BRIDGING,0.675,0.525,0.8,40,27,frozen_iter2
+screen_new124,all,INCUBATION_THEN_EXPANSION_ageadj,0.025,0.0,0.075,40,1,frozen_iter2
+screen_new124,all,EARLY_BRIDGING_aligned,0.725,0.575,0.85,40,29,frozen_iter2
+screen_MAIN,E_up=censored,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,10,0,frozen_iter2
+screen_MAIN,E_up=censored,GRADUAL_CENTRALISATION,0.0,0.0,0.0,10,0,frozen_iter2
+screen_MAIN,E_up=censored,EARLY_BRIDGING,0.7,0.4,1.0,10,7,frozen_iter2
+screen_MAIN,E_up=censored,INCUBATION_THEN_EXPANSION_ageadj,0.0,0.0,0.0,10,0,frozen_iter2
+screen_MAIN,E_up=censored,EARLY_BRIDGING_aligned,0.7,0.4,1.0,10,7,frozen_iter2
+screen_MAIN,E_up=emerging,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,13,0,frozen_iter2
+screen_MAIN,E_up=emerging,GRADUAL_CENTRALISATION,0.0,0.0,0.0,13,0,frozen_iter2
+screen_MAIN,E_up=emerging,EARLY_BRIDGING,0.6923076923076923,0.46153846153846156,0.9230769230769231,13,9,frozen_iter2
+screen_MAIN,E_up=emerging,INCUBATION_THEN_EXPANSION_ageadj,0.0,0.0,0.0,13,0,frozen_iter2
+screen_MAIN,E_up=emerging,EARLY_BRIDGING_aligned,0.7692307692307693,0.5384615384615384,1.0,13,10,frozen_iter2
+screen_MAIN,E_up=never,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,17,0,frozen_iter2
+screen_MAIN,E_up=never,GRADUAL_CENTRALISATION,0.0,0.0,0.0,17,0,frozen_iter2
+screen_MAIN,E_up=never,EARLY_BRIDGING,0.6470588235294118,0.4117647058823529,0.8823529411764706,17,11,frozen_iter2
+screen_MAIN,E_up=never,INCUBATION_THEN_EXPANSION_ageadj,0.058823529411764705,0.0,0.17647058823529413,17,1,frozen_iter2
+screen_MAIN,E_up=never,EARLY_BRIDGING_aligned,0.7058823529411765,0.47058823529411764,0.9411764705882353,17,12,frozen_iter2
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,12,0,frozen_iter2
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),GRADUAL_CENTRALISATION,0.0,0.0,0.0,12,0,frozen_iter2
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),EARLY_BRIDGING,0.9166666666666666,0.75,1.0,12,11,frozen_iter2
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),INCUBATION_THEN_EXPANSION_ageadj,0.08333333333333333,0.0,0.25,12,1,frozen_iter2
+screen_MAIN,cluster=broad from the start (rapid interdisciplinary),EARLY_BRIDGING_aligned,0.9166666666666666,0.75,1.0,12,11,frozen_iter2
+screen_MAIN,cluster=localised,INCUBATION_THEN_EXPANSION,0.0,0.0,0.0,28,0,frozen_iter2
+screen_MAIN,cluster=localised,GRADUAL_CENTRALISATION,0.0,0.0,0.0,28,0,frozen_iter2
+screen_MAIN,cluster=localised,EARLY_BRIDGING,0.5714285714285714,0.39285714285714285,0.75,28,16,frozen_iter2
+screen_MAIN,cluster=localised,INCUBATION_THEN_EXPANSION_ageadj,0.0,0.0,0.0,28,0,frozen_iter2
+screen_MAIN,cluster=localised,EARLY_BRIDGING_aligned,0.6428571428571429,0.4642857142857143,0.8214285714285714,28,18,frozen_iter2

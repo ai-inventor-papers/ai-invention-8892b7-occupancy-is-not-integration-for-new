@@ -1,0 +1,56 @@
+{
+ "all_equal": true,
+ "checks": {
+  "stability_min_jaccard_by_k": {
+   "audit": {
+    "2": 0.8606700427643464,
+    "3": 0.5990432444832795,
+    "4": 0.4391028601293831,
+    "5": 0.5214965740652004,
+    "6": 0.38087784307969713,
+    "7": 0.48740501231577915,
+    "8": 0.353212777058317
+   },
+   "pipeline": {
+    "2": 0.8606700427643464,
+    "3": 0.5990432444832795,
+    "4": 0.4391028601293831,
+    "5": 0.5214965740652004,
+    "6": 0.38087784307969713,
+    "7": 0.48740501231577915,
+    "8": 0.353212777058317
+   },
+   "equal": true
+  },
+  "share_expansion_first": {
+   "audit": 0.9375,
+   "pipeline": 0.9375,
+   "equal": true
+  },
+  "early_bridging_main_minus_mesh": {
+   "audit": 0.1116323674252242,
+   "pipeline": 0.1116323674252242,
+   "equal": true
+  },
+  "entry_OR_BRIDGE": {
+   "audit": 0.6382623804603534,
+   "pipeline": 0.6382623804603547,
+   "equal": true
+  },
+  "sanity": {
+   "audit": {
+    "role_shares_sum_to_1": true,
+    "transition_rows_sum_to_1": true,
+    "role_shares_sum_to_1_poolrel": true,
+    "transition_rows_sum_to_1_poolrel": true,
+    "mesh_aggregates_reproduced": true,
+    "old123_incubation_and_centralisation_reproduced": true,
+    "old123_early_bridging_restored_with_iter2_flag": true,
+    "null_mean_between_0_and_1": true,
+    "permuted_KW_p_calibrated": true
+   },
+   "pipeline": null,
+   "equal": true
+  }
+ }
+}

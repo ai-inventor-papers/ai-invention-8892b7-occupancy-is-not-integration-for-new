@@ -1,0 +1,54 @@
+{
+ "draws": 500,
+ "shuffles": 50,
+ "A_cont_reconstruction_max_abs_diff": 8.326672684688674e-17,
+ "primary": {
+  "b_A_obs": 5.952633617485952,
+  "z_A_obs": 1.8087493927870801,
+  "lnirr_sd_A_obs": 0.3263804062480784,
+  "placebo_n_ok": 500,
+  "placebo_z_mean": 0.006672469169794505,
+  "placebo_z_sd": 1.2596024808841864,
+  "perm_p_two_sided_z (primary placebo p)": 0.1536926147704591,
+  "placebo_lnirr_sd_mean": -0.0017637990108506205,
+  "placebo_lnirr_sd_sd": 0.15184318747053857,
+  "perm_p_two_sided_per_sd_effect": 0.03792415169660679,
+  "placebo_b_mean": -0.8735009247598017,
+  "placebo_b_sd": 22.794073846993854,
+  "perm_p_two_sided_raw_b": 0.8043912175648703,
+  "placebo_b_q025_q975": [
+   -47.69050874190768,
+   42.332528390943615
+  ],
+  "label_shuffle_b_mean": 1.4149638327697378,
+  "label_shuffle_b_sd": 6.25358055564119,
+  "label_shuffle_z_mean": 0.2999073306695459,
+  "label_shuffle_z_sd": 1.256756763166734,
+  "label_shuffle_p_two_sided_z": 0.1568627450980392
+ },
+ "secondary": {
+  "b_A_obs": 4.739105939721475,
+  "z_A_obs": 4.690842438511342,
+  "lnirr_sd_A_obs": 0.2624234073526285,
+  "placebo_n_ok": 500,
+  "placebo_z_mean": -0.017517504053416552,
+  "placebo_z_sd": 1.3824461841091311,
+  "perm_p_two_sided_z (primary placebo p)": 0.001996007984031936,
+  "placebo_lnirr_sd_mean": -0.005741938556565109,
+  "placebo_lnirr_sd_sd": 0.07103463182693581,
+  "perm_p_two_sided_per_sd_effect": 0.001996007984031936,
+  "placebo_b_mean": -0.8945673604846908,
+  "placebo_b_sd": 9.571234859671524,
+  "perm_p_two_sided_raw_b": 0.6027944111776448,
+  "placebo_b_q025_q975": [
+   -18.45173716897102,
+   17.81561967282756
+  ],
+  "label_shuffle_b_mean": 0.3047504685249649,
+  "label_shuffle_b_sd": 2.262145674737898,
+  "label_shuffle_z_mean": 0.212365254245563,
+  "label_shuffle_z_sd": 1.208125084258618,
+  "label_shuffle_p_two_sided_z": 0.0196078431372549
+ },
+ "note": "permuted A_cont has a much smaller SD than the observed A_cont (a random label rarely carries a node's mass), so raw b is not scale-comparable; the z statistic is the primary placebo statistic (deviations.md #5); raw-b and per-SD-effect p values are reported too"
+}
