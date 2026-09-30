@@ -1,4 +1,0 @@
-06:47:14|INFO   |sizes {'G1_all_window': {'N_input': 1969, 'G_input': 226, 'N_retained_controls_only': 1777, 'G_retained': 172}, 'G1_multi': {'N_input': 679, 'G_input': 174, 'N_retained_controls_only': 570, 'G_retained': 104}, 'G1_single': {'N_input': 1290, 'G_input': 215, 'N_retained_controls_only': 1002, 'G_retained': 130}, 'G1_multi_MAIN': {'N_input': 541, 'G_input': 141, 'N_retained_controls_only': 451, 'G_retained': 86}, 'coprimary': {'N_input': 1740, 'G_input': 184, 'N_retained_controls_only': 1544, 'G_retained': 140}}; projected G1-multi concepts {'heldout': 84, 'pooled': 258}
-06:51:05|INFO   |G1 MDE done (232s): {'G1_multi_screen': 1.15, 'G1_multi_heldout_projected': 1.3, 'G1_multi_pooled_projected': 1.15}
-06:56:18|INFO   |MDE done (545s): {'G1_multi_screen': 1.15, 'G1_multi_heldout_projected': 1.3, 'G1_multi_pooled_projected': 1.15, 'G2a_NAT_screen': 1.1, 'G2a_ADJ_screen': 1.15, 'G3_combined_A_screen': 1.15}
-06:56:18|INFO   |draft spec written (545s)

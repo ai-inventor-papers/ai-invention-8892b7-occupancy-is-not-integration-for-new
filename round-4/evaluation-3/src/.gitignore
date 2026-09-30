@@ -1,6 +1,0 @@
-.venv/
-deps_run/
-__pycache__/
-.aii_claude_session.json
-.repl_agent.ptylog
-__pycache__/

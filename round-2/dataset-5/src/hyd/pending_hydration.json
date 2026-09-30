@@ -1,4 +1,0 @@
-{
-  "note": "Concepts after the u-order prefix. Resume with: uv run hydrate.py --resume --deadline-min <m> (then re-run assemble.py). 'complete_beyond_prefix' concepts are already retrieved but excluded to keep the included set an exact random prefix.",
-  "pending": []
-}
