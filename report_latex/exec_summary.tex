@@ -1,0 +1,85 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, booktabs, xcolor}
+\usepackage{enumitem}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+
+\title{Executive Summary:\\[0.3em]
+\large Host Vocabulary Predicts Whether New Scientific Concepts\\
+Take Root Across Disciplinary Boundaries}
+\author{Internal Research Report}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\sloppy
+
+\section*{Headline}
+
+When a scientific concept enters a new disciplinary subfield, the share of its initial co-occurrence partners that are native to that host subfield predicts whether the concept will subsequently be taken up by newcomer authors. This host-entry grafting effect was confirmed on the sealed held-out fold (co-primary IRR/SD 1.19 [1.06, 1.33], $p = 0.004$) and replicated on an independent MeSH biomedical population for biomedicine-to-biomedicine host entries (co-primary IRR/SD 1.23 [1.12, 1.36], Holm $p < 0.001$). The IVW pool of the main-arm screen and MeSH co-primary estimates is 1.26 [1.17, 1.36] with $I^2 = 0$. The effect is on the count of newcomer papers; binary establishment is null on held-out. The share of origin companions (co-transfer) is null everywhere.
+
+\section*{Goal}
+
+The study investigates how emerging scientific concepts spread across disciplinary boundaries, using 426 OpenAlex concepts (366 emerging, 60 stationary reference; 462,812 works) and 191 new MeSH biomedical concepts. Two research questions guide the work:
+
+\begin{itemize}[nosep]
+  \item \textbf{RQ1 (Emergence):} Which temporal and structural patterns in an evolving knowledge graph characterise concept emergence?
+  \item \textbf{RQ2 (Diffusion):} How do emerging concepts diffuse across disciplinary communities, and what distinguishes locally concentrated concepts from those that become broadly integrated?
+\end{itemize}
+
+The target venue is Applied Network Science. The study ran five iterations over a pre-registered, frozen concept pool.
+
+\section*{What Was Tried}
+
+\textbf{Iteration 1: Data foundation and pre-registration.} Built a 184-concept pool (later expanded to 426), constructed yearly co-occurrence networks, assembled a prior-art dossier ranking five candidate mechanisms by novelty, and froze a pre-registered screen with decision rules.
+
+\textbf{Iteration 2: Citation gate, event study, MeSH replication.} Attempted a citation-layer viability decomposition (Gate~A). Only 17.3\% of edges met the within-host tracing threshold; Gate~A failed and triggered the pre-registered graft fallback. Ran the RQ1 closure event study on the screen fold (its held-out test followed in iteration 4). Built yearly co-word snapshots ($\approx$27,000 nodes, $\approx$84,000 edges) and ran the precursor event study.
+
+\textbf{Iteration 3: Deepening closure and testing grafting.} Decomposed the closure effect into turnover, brokerage, and community components. Tested whether openness predicts breadth (not supported). Ran the host-entry grafting test: co-primary specification IRR/SD 1.30 [1.16, 1.45], $p = 1 \times 10^{-5}$, on the screen fold. Ran a descriptive diffusion typology yielding a stable $k = 2$ solution: localised ($n = 136$) vs broad-from-the-start ($n = 66$).
+
+\textbf{Iteration 4: Held-out confirmation and cross-population replication.} Opened the sealed held-out folds. RQ1 is R1\_DEAD under the frozen kill rule (raw closure Holm $p = 0.147$): structural precursors of sustained uptake are volume/churn correlates; persistent-neighbour closure is the one confirmed row (pooled-panel coefficient $-1.07$, Holm $p = 0.015$). Grafting confirmed on held-out (IRR/SD 1.19 [1.06, 1.33]) and replicated on MeSH, biomedicine-to-biomedicine entries only (IRR/SD 1.23 [1.12, 1.36]). Four discriminating tests passed: single-paper artefact (ratio 0.80, $p = 0.004$), vocabulary decomposition (NATIVE and ADJACENT both positive), topic-score absorption ($-7.3\%$ to $-10.3\%$, not meaningful), and closure-anchoring link (null, $\rho = 0.049$, confirming independence from closure).
+
+\textbf{Iteration 5: Post-confirmation decomposition and audit.} Decomposed the grafting effect along three dimensions: extensive vs intensive margin (verdict: BOTH, extensive margin 38\% of total log-IRR), host-specificity (verdict: HOST-SPECIFIC, $A_{\text{cont}}$ retention 0.969), and field boundary (verdict: no boundary, Wald $p = 0.638$). Ran a full numerical audit (11 modules, 99.4\% curated-number accuracy, all 6 reviewer critiques closed). Produced a positioning dossier (PARTLY ANTICIPATED) and publication-ready figure specifications.
+
+\section*{Key Results}
+
+\begin{enumerate}[nosep]
+  \item \textbf{Grafting effect confirmed and replicated.} A one-SD increase in host-nativeness of entry partners yields $\approx$19--30\% more newcomer uptake. IVW pool of screen and MeSH IRR/SD 1.26 [1.17, 1.36]. The mechanism label is ``host-vocabulary.''
+  \item \textbf{Effect is host-specific, not generic.} Generality controls leave $A_{\text{cont}}$ unchanged (retention 0.969). The Balassa-index $A_{\text{lift}}$ replicates across all folds (IVW IRR/SD 1.34 [1.23, 1.46]).
+  \item \textbf{Both margins matter.} Host-leaning entry vocabulary raises the probability of any newcomer uptake (extensive, +6.43 pp/SD) and its magnitude given uptake (intensive, IRR/SD 1.183).
+  \item \textbf{No detectable field boundary.} Across origin-field groups (Physics/Astronomy, Computer Science, other) on the pooled screen and held-out folds, the Wald test of equality is null ($p = 0.638$); the Physics/Astronomy group alone is non-significant (IRR/SD 1.18 [0.93, 1.50]).
+  \item \textbf{RQ1 is R1\_DEAD.} Structural precursors of sustained uptake are volume/churn correlates (primary closure Holm $p = 0.147$). Qualification: persistent-neighbour closure is confirmed on held-out (pooled-panel coefficient $-1.07$, Holm $p = 0.015$), though its screen event-study interval included zero. Burt constraint is higher, so brokerage is ruled out.
+  \item \textbf{Diffusion typology ($k = 2$).} Localised (136 concepts, low entropy, physics-dominated) vs broad-from-the-start (66 concepts, high entropy, mixed origin).
+  \item \textbf{Adopter mechanism (screen only).} Adopters have higher odds of prior exposure to entry partners (OR 3.09 [2.32, 4.28]; prevalence 0.79 vs 0.61, risk ratio about 1.3). Enrichment is strongest for FOREIGN partners (OR 2.88); consistent with absorptive capacity or topical proximity.
+  \item \textbf{Expansion precedes diffusion, conditionally.} In 25 of 26 pooled dual-onset main-arm concepts (8.6\% of 302), but diffusion onsets are rarer overall and the MeSH ordering (9 of 13) is not different from a year-shuffle null ($p = 0.43$).
+\end{enumerate}
+
+\section*{What Failed}
+
+\begin{enumerate}[nosep]
+  \item \textbf{Gate A (citation-layer viability).} Within-host traced share 0.204 vs 0.477 any-parent. The viability decomposition central to the original hypothesis cannot be executed.
+  \item \textbf{Primary closure measure (R1\_DEAD).} Holm $p = 0.147$ under the frozen kill rule.
+  \item \textbf{Precursors add no predictive value} for WHETHER a concept emerges ($E_{\text{up}}$ logit dAUC $-0.010$ [$-0.045$, $0.021$]).
+  \item \textbf{Breadth prediction not supported.} Openness does not predict where concepts travel (all Holm $p = 0.405$).
+  \item \textbf{Co-transfer is null} everywhere: origin companions do not predict newcomer uptake.
+  \item \textbf{Community roles do not predict host entry.} BRIDGE OR 0.64 [0.38, 1.08].
+  \item \textbf{3-channel diffusion typology} adds nothing beyond entropy.
+  \item \textbf{Binary establishment null on held-out.} EST\_bin $p = 0.16$.
+  \item \textbf{Grafting primary specification inconclusive} on held-out (IRR/SD 0.98 [0.70, 1.37], 30 clusters).
+  \item \textbf{292 MISSING\_IN\_REPORT rows} in the numerical audit---numbers in artifact files not transcribed.
+\end{enumerate}
+
+\section*{Open Questions}
+
+\begin{enumerate}[nosep]
+  \item \textbf{Causal identification.} The grafting result is associational. Concepts entering with host-native partners may differ on unobserved dimensions.
+  \item \textbf{Generalisation beyond physics/CS/biomedicine.} The main-arm pool is dominated by arXiv-sourced concepts; social sciences and humanities are untested.
+  \item \textbf{Binary establishment.} The strict threshold ($\geq 3$ newcomer papers and host papers in $\geq 3$ of 5 years) is null on the held-out fold. The claim holds for uptake initiation ($Y \geq 1$) but not for sustained establishment.
+  \item \textbf{Single-paper artefact.} 87\% of co-primary events are single-paper entries; the held-out interaction ($p = 0.004$) shows single-paper entries drive the effect more strongly.
+  \item \textbf{Intensive margin is conditional.} The margin decomposition conditions on $Y \geq 1$, introducing selection bias.
+  \item \textbf{Adopter-level mechanism ambiguity.} The design cannot separate absorptive capacity from topical proximity.
+  \item \textbf{Seeded-perturbation recall 0.60.} Estimator/fold relabelling detection at 0.10.
+\end{enumerate}
+
+\end{document}

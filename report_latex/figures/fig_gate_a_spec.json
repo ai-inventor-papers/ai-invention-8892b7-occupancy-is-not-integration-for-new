@@ -1,0 +1,31 @@
+{
+  "figure_id": "fig_gate_a",
+  "renderer": "render_fig_gate_a.py (hand-written; house style + layout passes from aii-data-fig-gen/chart_style.py)",
+  "title": "Gate A: citation-layer feasibility",
+  "aspect": "16:9",
+  "width_in": 6.5,
+  "n_edges": 724,
+  "n_concepts": 97,
+  "edge_threshold": 0.40,
+  "gate_pass_share_pct": 50.0,
+  "definitions": ["Within-host\n(Gate A)", "Any-parent\n(lenient)"],
+  "panel_a": {
+    "title": "Share of edges at or above 0.40",
+    "ylabel": "Edges with traced share ≥ 0.40 (%)",
+    "values_pct": [17.27, 64.2],
+    "counts": [125, 465],
+    "value_labels": ["17.3%  (125 / 724)", "64.2%  (465 / 724)"],
+    "refline_label": "Gate A pass level (50%)"
+  },
+  "panel_b": {
+    "title": "Mean traced share per edge",
+    "ylabel": "Mean traced share (fraction)",
+    "values": [0.204, 0.477],
+    "value_labels": ["0.204", "0.477"],
+    "refline_label": "Edge threshold (0.40)"
+  },
+  "provenance": {
+    "source": "Iteration-2 viability-layer artifact (Artifact 8), as reported in 3_invention_loop/iter_5/gen_report_text/gen_report_text/paper_draft.md lines 243-258 and the audited record data.gateA = 0.1727 (evaluation-8 record_of_numbers_final.csv)",
+    "note": "Only summary statistics survive; per-edge traced shares are not stored in this run, so a histogram over the 724 edges cannot be drawn without inventing bin heights. Counts 125 and 465 are recovered exactly from 0.1727*724 and 0.642*724 (the only integers that round to the reported percentages). Within-host median 0.15 is reported but has no any-parent counterpart, so it is stated in the caption rather than drawn."
+  }
+}

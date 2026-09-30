@@ -1,0 +1,107 @@
+{
+ "type": "forest_asymmetric_two_fold",
+ "figure_id": "fig_closure_event",
+ "title": "Closure event study: screen vs. held-out fold",
+ "xlabel": "Event-study effect size S (point estimate, 95% bootstrap CI)",
+ "xlim": [
+  -2.0,
+  0.5
+ ],
+ "null_line": 0.0,
+ "aspect": "16:9",
+ "width_in": 6.5,
+ "font_family": "DejaVu Sans",
+ "folds": {
+  "screen": {
+   "label": "Screen fold",
+   "marker": "o",
+   "color": "#0173B2"
+  },
+  "held-out": {
+   "label": "Held-out fold",
+   "marker": "D",
+   "color": "#D55E00"
+  }
+ },
+ "rows": [
+  {
+   "label": "Raw closure (screen)",
+   "fold": "screen",
+   "estimate": -0.439,
+   "ci": [
+    -0.81,
+    -0.05
+   ]
+  },
+  {
+   "label": "Raw closure (held-out)",
+   "fold": "held-out",
+   "estimate": -0.534,
+   "ci": [
+    -1.2,
+    0.074
+   ],
+   "tag": "R1_DEAD",
+   "tag_color": "#C0392B"
+  },
+  {
+   "label": "Residualised closure (screen)",
+   "fold": "screen",
+   "estimate": -0.295,
+   "ci": [
+    -0.663,
+    0.092
+   ]
+  },
+  {
+   "label": "Residualised closure (held-out)",
+   "fold": "held-out",
+   "estimate": -0.266,
+   "ci": [
+    -0.891,
+    0.3
+   ]
+  },
+  {
+   "label": "Persistent-neighbour (screen)",
+   "fold": "screen",
+   "estimate": -0.575,
+   "ci": [
+    -1.27,
+    0.122
+   ]
+  },
+  {
+   "label": "Persistent-neighbour (held-out)",
+   "fold": "held-out",
+   "estimate": -0.826,
+   "ci": [
+    -1.706,
+    -0.096
+   ],
+   "tag": "CONFIRMED",
+   "tag_color": "#1B7F4B"
+  },
+  {
+   "label": "Burt constraint (screen)",
+   "fold": "screen",
+   "estimate": 0.083,
+   "ci": [
+    0.017,
+    0.147
+   ]
+  },
+  {
+   "label": "Burt constraint (held-out)",
+   "fold": "held-out",
+   "estimate": 0.105,
+   "ci": [
+    0.021,
+    0.187
+   ]
+  }
+ ],
+ "group_size": 2,
+ "legend_loc": "lower left",
+ "source": "gen_art_evaluation_3/results/r1/r1_summary.json es_rows (S_screen, S_heldout and CIs)"
+}

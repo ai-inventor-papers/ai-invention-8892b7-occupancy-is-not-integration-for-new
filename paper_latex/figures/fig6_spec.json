@@ -1,0 +1,239 @@
+{
+ "figure": "fig6",
+ "type": "hand_written_barh_panel",
+ "renderer": "make_fig6.py",
+ "title": "Four representative cases",
+ "aspect": "4:3",
+ "width_in": 6.5,
+ "xlabel": "Host-vocabulary share (fraction)",
+ "xlim": [
+  0,
+  0.2
+ ],
+ "source": "evaluation-9/src/figures/F6/plotted_values.json (round-5 repo clone); origin 3_invention_loop/iter_4/gen_art/gen_art_evaluation_4/results/case_entries.csv",
+ "note": "Co-primary-sample host entries only. Rooted = EST_bin 1. Per-entry co-transfer (CT) values are not in the available source, so bars carry no CT labels; case-level CT facts are in the caption.",
+ "panels": [
+  {
+   "title": "Wireless backhaul (broad, CS)",
+   "concept_id": "c_3a8d31dc5fbf",
+   "rooted_note": "6 newcomers",
+   "nonrooted_mean": 0.021,
+   "entries": [
+    {
+     "asjc": 2202,
+     "host": "Aerospace Eng.",
+     "year": 2008,
+     "A_cont": 0.08361539693869766,
+     "rooted": true
+    },
+    {
+     "asjc": 2213,
+     "host": "Safety & Reliability",
+     "year": 2008,
+     "A_cont": 0.0015288429534999373,
+     "rooted": false
+    },
+    {
+     "asjc": 2204,
+     "host": "Biomedical Eng.",
+     "year": 2011,
+     "A_cont": 0.013332032358856516,
+     "rooted": false
+    },
+    {
+     "asjc": 1707,
+     "host": "Computer Vision",
+     "year": 2013,
+     "A_cont": 0.021093079460869517,
+     "rooted": false
+    },
+    {
+     "asjc": 2206,
+     "host": "Computational Mech.",
+     "year": 2013,
+     "A_cont": 0.05643878802875698,
+     "rooted": false
+    },
+    {
+     "asjc": 2207,
+     "host": "Control & Systems Eng.",
+     "year": 2013,
+     "A_cont": 0.029885359876316433,
+     "rooted": false
+    },
+    {
+     "asjc": 3304,
+     "host": "Education",
+     "year": 2013,
+     "A_cont": 0.002398013574623056,
+     "rooted": false
+    },
+    {
+     "asjc": 3107,
+     "host": "AMO Physics",
+     "year": 2015,
+     "A_cont": 0.0355507477755012,
+     "rooted": false
+    },
+    {
+     "asjc": 1702,
+     "host": "Artificial Intelligence",
+     "year": 2016,
+     "A_cont": 0.016196350226201923,
+     "rooted": false
+    },
+    {
+     "asjc": 1803,
+     "host": "Management Sci. & OR",
+     "year": 2016,
+     "A_cont": 0.05854249302551774,
+     "rooted": false
+    },
+    {
+     "asjc": 1902,
+     "host": "Atmospheric Science",
+     "year": 2016,
+     "A_cont": 0.0034017411902866586,
+     "rooted": false
+    },
+    {
+     "asjc": 3313,
+     "host": "Transportation",
+     "year": 2018,
+     "A_cont": 0.002551297099454801,
+     "rooted": false
+    },
+    {
+     "asjc": 3320,
+     "host": "Political Science",
+     "year": 2018,
+     "A_cont": 0.02163236002924661,
+     "rooted": false
+    },
+    {
+     "asjc": 1407,
+     "host": "Organizational Behav.",
+     "year": 2019,
+     "A_cont": 0.013550368132783602,
+     "rooted": false
+    }
+   ]
+  },
+  {
+   "title": "EPR steering (broad, Physics)",
+   "concept_id": "c_9cceb3c510be",
+   "rooted_note": "37 newcomers",
+   "nonrooted_mean": 0.027,
+   "entries": [
+    {
+     "asjc": 1702,
+     "host": "Artificial Intelligence",
+     "year": 2011,
+     "A_cont": 0.14203851364890913,
+     "rooted": true
+    },
+    {
+     "asjc": 2208,
+     "host": "Electrical Eng.",
+     "year": 2013,
+     "A_cont": 0.05373412528330666,
+     "rooted": false
+    },
+    {
+     "asjc": 3109,
+     "host": "Statistical Physics",
+     "year": 2015,
+     "A_cont": 0.024418512853353818,
+     "rooted": false
+    },
+    {
+     "asjc": 2611,
+     "host": "Modeling & Simulation",
+     "year": 2018,
+     "A_cont": 0.0032757306646251736,
+     "rooted": false
+    },
+    {
+     "asjc": 1312,
+     "host": "Molecular Biology",
+     "year": 2019,
+     "A_cont": 0.006534156814543768,
+     "rooted": false
+    },
+    {
+     "asjc": 1703,
+     "host": "Computational Theory",
+     "year": 2019,
+     "A_cont": 0.011076890024798862,
+     "rooted": false
+    },
+    {
+     "asjc": 3103,
+     "host": "Astronomy",
+     "year": 2019,
+     "A_cont": 0.06422636563708455,
+     "rooted": false
+    }
+   ]
+  },
+  {
+   "title": "Locally repairable code (localised, CS)",
+   "concept_id": "c_af9f1a649198",
+   "rooted_note": "3 newcomers",
+   "nonrooted_mean": null,
+   "entries": [
+    {
+     "asjc": 1702,
+     "host": "Artificial Intelligence",
+     "year": 2013,
+     "A_cont": 0.05609541473167029,
+     "rooted": true
+    }
+   ]
+  },
+  {
+   "title": "Holographic QCD (localised, Physics)",
+   "concept_id": "c_1055d445e4c2",
+   "rooted_note": null,
+   "panel_note": "no rooted entries",
+   "nonrooted_mean": 0.041,
+   "entries": [
+    {
+     "asjc": 1906,
+     "host": "Geochemistry",
+     "year": 2007,
+     "A_cont": 0.0027677572412807484,
+     "rooted": false
+    },
+    {
+     "asjc": 2206,
+     "host": "Computational Mech.",
+     "year": 2008,
+     "A_cont": 0.013264942810837113,
+     "rooted": false
+    },
+    {
+     "asjc": 3103,
+     "host": "Astronomy",
+     "year": 2009,
+     "A_cont": 0.05054621211427329,
+     "rooted": false
+    },
+    {
+     "asjc": 3107,
+     "host": "AMO Physics",
+     "year": 2009,
+     "A_cont": 0.13183287331909754,
+     "rooted": false
+    },
+    {
+     "asjc": 1607,
+     "host": "Spectroscopy",
+     "year": 2010,
+     "A_cont": 0.0058446842245787325,
+     "rooted": false
+    }
+   ]
+  }
+ ]
+}

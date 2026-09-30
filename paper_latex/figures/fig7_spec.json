@@ -1,0 +1,27 @@
+{
+ "source": "gen_art_evaluation_9/figures/F1/flow_spec.json (layout, statuses, edges) and flow_nodes.csv (numbers)",
+ "labels": {
+  "frame": "OpenAlex concept frame: 426 candidates (366 emerging + 60 reference)",
+  "works": "Hydrated corpus: 462,812 works",
+  "link": "Grounding (classifier, variant merger, Wikidata linker): 312 of 366 emerging concepts unlinked, kept as new nodes",
+  "mesh": "MeSH biomedical pool: 191 concepts, never screened for the grafting test",
+  "folds": "Hash-based fold rule: screen 202 / sealed held-out 100 main concepts",
+  "cooc": "View 1: yearly co-word snapshots 2000-2024, Leiden communities and alluvial paths (2023: 27,075 nodes, 98,514 kept edges)",
+  "bip": "View 2: concept-subfield network: host entries, host-vocabulary share of partners, co-transfer",
+  "viab": "Source-sink viability hypothesis",
+  "gateA": "Citation gate failed: 17.3% of host edges traced (>50% needed); 0 labelled episodes",
+  "graft": "Pre-declared fallback: host-entry grafting test",
+  "d2s": "Grafting screen: 1,544 entries, 140 concepts; host-vocabulary effect",
+  "d2h": "Sealed held-out, opened once: 972 entries, 74 concepts; confirmed",
+  "d2m": "MeSH one-look replication: 2,171 entries, 160 concepts; replicated (biomedicine to biomedicine)",
+  "adopt": "Adopter test (screen only): prior partner exposure, odds ratio 3.09",
+  "d1": "Openness predicts breadth: not supported on screen (Holm p 0.405)",
+  "ct": "Co-transfer of origin companions: null (Holm p screen 0.48, MeSH 0.053)",
+  "d3": "Early closure predicts later host-vocabulary share: null",
+  "r1": "RQ1 structural precursors: dead on held-out (volume/churn correlates)",
+  "typ": "Typology: 2 types (min Jaccard 0.861)",
+  "roles": "Community roles: bridge share 0.61",
+  "ll": "Lead-lag: expansion first in 94% of 16 (conditional)",
+  "cases": "Four typology cases (medoid rule; Figure 6)"
+ }
+}
